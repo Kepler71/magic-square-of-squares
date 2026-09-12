@@ -1,0 +1,13 @@
+{
+  "precision_runs": [
+    20,
+    30
+  ],
+  "extra_padic_points": 40,
+  "matched_modulus": "11^8",
+  "all_candidates_on_curve_to_at_least_precision": 10,
+  "known_rational_points": 4,
+  "all_known_lifts_degenerate": true,
+  "complete_global_classification": false,
+  "warning": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation."
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "mixed_15_8",
+  "polynomial": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+  "p": 11,
+  "precision": 20,
+  "sage_version": "10.9",
+  "vendor_url": "https://github.com/bianchifrancesca/QC_bielliptic",
+  "vendor_sha256": "802e725894b364c2952fdf1b88d39d43ad00278ff2b0bae67514abbfeb0d73a4",
+  "profile": "full_H",
+  "status": "running"
+}
+Calling quadratic_chabauty_bielliptic
+QC disc coverage: {"finite_field_points": 12, "all_orbit_representatives": ["(1 : 3 : 0)", "(0 : 1 : 1)", "(3 : 2 : 1)", "(5 : 1 : 1)"], "selected_orbit_representatives": ["(1 : 3 : 0)", "(0 : 1 : 1)", "(3 : 2 : 1)", "(5 : 1 : 1)"], "canonical_coverage_verified": true}
+Number of elements in Omega = 59506083
+QC orbit 1 of 4 (1 : 3 : 0)
+QC orbit constants ready
+QC analytic function ready; precision bound 19

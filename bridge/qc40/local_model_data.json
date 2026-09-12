@@ -1,0 +1,54 @@
+[
+  {
+    "2": {
+      "vDelta": 20,
+      "vc4": 6,
+      "kodaira": "I10*",
+      "tamagawa": 4
+    },
+    "7": {
+      "vDelta": 2,
+      "vc4": 0,
+      "kodaira": "I2",
+      "tamagawa": 2
+    },
+    "17": {
+      "vDelta": 8,
+      "vc4": 0,
+      "kodaira": "I8",
+      "tamagawa": 8
+    },
+    "23": {
+      "vDelta": 6,
+      "vc4": 0,
+      "kodaira": "I6",
+      "tamagawa": 6
+    }
+  },
+  {
+    "2": {
+      "vDelta": 20,
+      "vc4": 6,
+      "kodaira": "I10*",
+      "tamagawa": 4
+    },
+    "7": {
+      "vDelta": 6,
+      "vc4": 0,
+      "kodaira": "I6",
+      "tamagawa": 6
+    },
+    "17": {
+      "vDelta": 8,
+      "vc4": 0,
+      "kodaira": "I8",
+      "tamagawa": 8
+    },
+    "23": {
+      "vDelta": 2,
+      "vc4": 0,
+      "kodaira": "I2",
+      "tamagawa": 2
+    }
+  }
+]

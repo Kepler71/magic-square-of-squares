@@ -268,30 +268,35 @@ def selftest_hilbert():
         for v in allplaces(a, b, c):
             check(hilbert(a, b * c, v) == hilbert(a, b, v) * hilbert(a, c, v),
                   u'билинейность символа Гильберта')
-    # (a,b)_v = 1 <=> z^2 = a x^2 + b y^2 разрешимо в Q_v -- грубая сверка для малых p
-    for p in (2, 3, 5, 7):
-        for a in (-3, -2, -1, 1, 2, 3, 5, 6, 7, p, 2 * p):
-            for b in (-3, -2, -1, 1, 2, 3, 5, 6, 7, p, 2 * p):
-                q = p ** (7 if p == 2 else 5)
+    # (a,b)_v = +1, если z^2 = a x^2 + b y^2 имеет нетривиальное решение в Q_v.
+    # Арифметика точная: если a x^2 + b y^2 -- квадрат в Q_p для целых x,y,
+    # то решение действительно есть, и символ обязан быть +1.
+    for p in (2, 3, 5, 7, 11, 13):
+        q = p ** 3 if p < 5 else p ** 2
+        vals = (-3, -2, -1, 1, 2, 3, 5, 6, 7, p, 2 * p, -p)
+        for a in vals:
+            for b in vals:
                 found = False
                 for x in range(q):
                     for y in range(q):
                         if x % p == 0 and y % p == 0:
                             continue
                         val = a * x * x + b * y * y
-                        if val == 0:
-                            found = True
-                            break
-                        v, u = val_unit(F(val), p)
-                        # хватает точности, если q >> val
-                        if v + (3 if p == 2 else 1) <= 7 and is_local_square(F(val), p):
+                        if val != 0 and is_local_square(F(val), p):
                             found = True
                             break
                     if found:
                         break
                 if found:
                     check(hilbert(F(a), F(b), p) == 1,
-                          u'(%d,%d)_%d = +1 при наличии решения' % (a, b, p))
+                          u'(%d,%d)_%d = +1 при явном решении' % (a, b, p))
+    # известные значения
+    check(hilbert(F(-1), F(-1), 2) == -1, u'(-1,-1)_2 = -1')
+    check(hilbert(F(-1), F(-1), 'inf') == -1, u'(-1,-1)_inf = -1')
+    check(hilbert(F(2), F(3), 2) == -1, u'(2,3)_2 = -1')
+    check(hilbert(F(2), F(7), 2) == 1, u'(2,7)_2 = +1')
+    check(hilbert(F(3), F(5), 3) == -1, u'(3,5)_3 = -1')
+    check(hilbert(F(3), F(7), 3) == 1, u'(3,7)_3 = +1')
     note(u'самопроверка символа Гильберта пройдена, мест задействовано: %d' % len(nplaces))
 
 
@@ -350,8 +355,8 @@ def p1_reps(p, k):
         yield (1, p * w)
 
 
-def find_local_point(g, gamma, place, kmax=8):
-    u"""(x,z) с g(x,z) квадратом в Q_v, g != 0 и gamma(x,z) != 0."""
+def find_local_points(g, gamma, place, want=1, kmax=8):
+    u"""До `want` различных (x,z) с g(x,z) квадратом в Q_v, g != 0, gamma(x,z) != 0."""
     cand = [(1, 0), (0, 1), (1, 1), (1, -1), (2, 1), (1, 2), (-1, 1), (3, 1), (1, 3)]
     for x in range(-40, 41):
         cand.append((x, 1))
@@ -361,31 +366,56 @@ def find_local_point(g, gamma, place, kmax=8):
             cand.append((x, z))
     if place == 'inf':
         cand += [(1, t) for t in range(-200, 201)]
+    out = []
     seen = set()
-    for (x, z) in cand:
+
+    def take(x, z):
         if (x, z) == (0, 0) or (x, z) in seen:
-            continue
+            return False
         seen.add((x, z))
         val = ev(g, F(x), F(z))
         if val == 0 or ev(gamma, F(x), F(z)) == 0:
-            continue
+            return False
         if is_local_square(val, place):
-            return (x, z)
+            out.append((x, z))
+            return True
+        return False
+
+    for (x, z) in cand:
+        if take(x, z) and len(out) >= want:
+            return out
     if place == 'inf':
-        return None
+        return out
     p = int(place)
     for k in range(1, kmax + 1):
         if p ** k > 4 * 10 ** 6:
             break
         for (x, z) in p1_reps(p, k):
-            if (x, z) == (0, 0):
-                continue
-            val = ev(g, F(x), F(z))
-            if val == 0 or ev(gamma, F(x), F(z)) == 0:
-                continue
-            if is_local_square(val, place):
-                return (x, z)
-    return None
+            if take(x, z) and len(out) >= want:
+                return out
+    return out
+
+
+def find_local_point(g, gamma, place, kmax=8):
+    pts = find_local_points(g, gamma, place, want=1, kmax=kmax)
+    return pts[0] if pts else None
+
+
+def subst(g, A, B, C, D):
+    u"""Собственная эквивалентность g -> (det)^{-2} g(Ax+Bz, Cx+Dz); сохраняет I,J."""
+    det = F(A * D - B * C)
+    assert det != 0
+    out = [F(0)] * 5
+    # g(Ax+Bz, Cx+Dz) = sum_j g_j (Ax+Bz)^(4-j) (Cx+Dz)^j
+    from math import comb
+    for j in range(5):
+        n1, n2 = 4 - j, j
+        for r in range(n1 + 1):
+            for t in range(n2 + 1):
+                coef = (F(g[j]) * comb(n1, r) * A ** (n1 - r) * B ** r
+                        * comb(n2, t) * C ** (n2 - t) * D ** t)
+                out[r + t] += coef
+    return [c / det ** 2 for c in out]
 
 
 # ============================================== множество мест (Фишер, Rem. 3.3)
@@ -452,7 +482,8 @@ class Fisher(object):
             gam.append(tot)
         return gam, m, (z1, z2, z3)
 
-    def pair(self, g1, g2, g3, tag='', signs=(1, 1, 1), verbose=True):
+    def pair(self, g1, g2, g3, tag='', signs=(1, 1, 1), verbose=True,
+             reps=1, extra=()):
         u"""<[g1],[g2]>_CT по Теореме 3.1. Возвращает (значение, детали по местам)."""
         for g, t in ((g1, tag + 'g1'), (g2, tag + 'g2'), (g3, tag + 'g3')):
             self.check_quartic(g, t)
@@ -460,23 +491,36 @@ class Fisher(object):
         a = F(g2[0])
         check(a != 0, u'g2(1,0) != 0 (Замечание 3.2(iii))')
         S = places_for(g1, gam, a, self.Delta)
+        core = set(S)
+        S |= set(extra)
         rows = []
         total = 1
         for place in sorted(S, key=lambda v: (v == 'inf', 0 if v == 'inf' else int(v))):
-            pt = find_local_point(g1, gam, place)
-            check(pt is not None, u'найдена локальная точка на g1 при v = %s' % place)
-            x, z = pt
-            gv = ev(g1, F(x), F(z))
-            gm = ev(gam, F(x), F(z))
-            check(gv != 0 and is_local_square(gv, place),
-                  u'g1(x_v,z_v) -- квадрат в Q_%s' % place)
-            check(gm != 0, u'gamma(x_v,z_v) != 0 при v = %s' % place)
-            h = hilbert(a, gm, place)
+            pts = find_local_points(g1, gam, place, want=reps)
+            check(pts, u'найдена локальная точка на g1 при v = %s' % place)
+            hs = []
+            for (x, z) in pts:
+                gv = ev(g1, F(x), F(z))
+                gm = ev(gam, F(x), F(z))
+                check(gv != 0 and is_local_square(gv, place),
+                      u'g1(x_v,z_v) -- квадрат в Q_%s' % place)
+                check(gm != 0, u'gamma(x_v,z_v) != 0 при v = %s' % place)
+                hs.append(hilbert(a, gm, place))
+            check(len(set(hs)) == 1,
+                  u'символ при v = %s не зависит от выбора локальной точки (%d проб)'
+                  % (place, len(hs)))
+            h = hs[0]
+            x, z = pts[0]
+            if place not in core:
+                check(h == 1, u'лишнее место v = %s даёт +1 (контроль Замечания 3.3)' % place)
+                continue
             rows.append({'place': str(place), 'x': str(x), 'z': str(z),
-                         'g1': str(gv), 'gamma': str(gm), 'hilbert': h})
+                         'g1': str(ev(g1, F(x), F(z))), 'gamma': str(ev(gam, F(x), F(z))),
+                         'hilbert': h, 'n_witnesses': len(hs)})
             total *= h
             if verbose:
-                note(u'v = %-6s (x:z) = (%s:%s)   (a, gamma)_v = %+d' % (place, x, z, h))
+                note(u'v = %-6s (x:z) = (%s:%s)   (a, gamma)_v = %+d%s'
+                     % (place, x, z, h, u'   [%d свидетеля]' % len(hs) if len(hs) > 1 else ''))
         return total, rows, gam, m, zs
 
 
@@ -489,7 +533,7 @@ def els_witnesses(g, Delta, tag):
             S |= set(factor(F(c).denominator))
     rows = []
     for place in sorted(S, key=lambda v: (v == 'inf', 0 if v == 'inf' else int(v))):
-        pt = find_local_point(g, [F(1), F(0), F(0)], place)   # gamma != 0 тут не нужна
+        pt = find_local_point(g, [F(1)], place)   # "gamma" = const 1: условие != 0 пусто
         check(pt is not None, u'ELS: локальная точка %s при v = %s' % (tag, place))
         x, z = pt
         val = ev(g, F(x), F(z))

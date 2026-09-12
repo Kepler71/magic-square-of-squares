@@ -1,0 +1,1650 @@
+{
+  "title": "Forty 11-adic candidates on the mixed genus-2 bridge D for G1(15,8)",
+  "generated_by": "bridge/qc40/build_candidates_table.py",
+  "status_of_this_file": "extraction + internal cross-checks; NOT a proof of anything about D(Q)",
+  "curve": {
+    "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+    "a0_a2_a4_a6": [
+      "4092529",
+      "47287151",
+      "37608911",
+      "44182609"
+    ],
+    "p": 11,
+    "precision_of_main_run": 30,
+    "profile": "full_five_square_lift_only",
+    "source_status_string": "completed; full certificate still requires audit"
+  },
+  "omega_ordering": {
+    "definition": "run_qc_twelve.py line 64: [r7*log(7)+r17*log(17)+r23*log(23) for r7 in [-2,-4/3] for r17 in [-2,0,2] for r23 in [2,4/3]]",
+    "index_formula": "index = 6*i7 + 2*i17 + i23, i7 in {0,1} over [-2,-4/3], i17 in {0,1,2} over [-2,0,2], i23 in {0,1} over [2,4/3]",
+    "rows": [
+      {
+        "omega_index": 0,
+        "c7": "-2",
+        "c17": "-2",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 1,
+        "c7": "-2",
+        "c17": "-2",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 0,
+        "known_rational_points": 2,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [
+          [
+            0,
+            2
+          ]
+        ],
+        "strassmann_base_known_double": [
+          false,
+          true
+        ]
+      },
+      {
+        "omega_index": 2,
+        "c7": "-2",
+        "c17": "0",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [
+          [
+            10,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 3,
+        "c7": "-2",
+        "c17": "0",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 4,
+        "c7": "-2",
+        "c17": "2",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 0,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 5,
+        "c7": "-2",
+        "c17": "2",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [
+          [
+            10,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 6,
+        "c7": "-4/3",
+        "c17": "-2",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [
+          [
+            10,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 7,
+        "c7": "-4/3",
+        "c17": "-2",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 8,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            10,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [
+          [
+            7,
+            1
+          ],
+          [
+            4,
+            1
+          ]
+        ],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 8,
+        "c7": "-4/3",
+        "c17": "0",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 9,
+        "c7": "-4/3",
+        "c17": "0",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 0,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      },
+      {
+        "omega_index": 10,
+        "c7": "-4/3",
+        "c17": "2",
+        "c23": "2",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 2,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            0,
+            2
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [
+          [
+            10,
+            1
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "strassmann_base_known_double": [
+          true,
+          false
+        ]
+      },
+      {
+        "omega_index": 11,
+        "c7": "-4/3",
+        "c17": "2",
+        "c23": "4/3",
+        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
+        "extras": 4,
+        "known_rational_points": 0,
+        "strassmann_roots_orbit1_infinity": [
+          [
+            9,
+            1
+          ],
+          [
+            2,
+            1
+          ]
+        ],
+        "strassmann_roots_orbit2_x0": [],
+        "strassmann_base_known_double": [
+          false,
+          false
+        ]
+      }
+    ]
+  },
+  "residue_discs": {
+    "note": "Only two residue discs survive the five-squareness test mod 11 (local_discs_11.json: allowed projective x in {0, infinity}).",
+    "orbit_1": {
+      "representative": "(1 : 3 : 0)",
+      "disc": "infinity",
+      "tail_bound": 29
+    },
+    "orbit_2": {
+      "representative": "(0 : 1 : 1)",
+      "disc": "x = 0",
+      "tail_bound": 26
+    },
+    "disc_filter_used_in_run": "P[2]==0 or P[0]==0",
+    "disc_coverage_from_run": {
+      "finite_field_points": 12,
+      "all_orbit_representatives": [
+        "(1 : 3 : 0)",
+        "(0 : 1 : 1)",
+        "(3 : 2 : 1)",
+        "(5 : 1 : 1)"
+      ],
+      "selected_orbit_representatives": [
+        "(1 : 3 : 0)",
+        "(0 : 1 : 1)"
+      ],
+      "canonical_coverage_verified": true
+    }
+  },
+  "known_rational_points": [
+    {
+      "point": "(0 : -2023 : 1)",
+      "omega_index": 1,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "4/3"
+      ],
+      "x": "x = 0",
+      "t_equals": "1",
+      "residue_disc": "x=0",
+      "source_list": "rational_points_by_omega"
+    },
+    {
+      "point": "(0 : 2023 : 1)",
+      "omega_index": 1,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "4/3"
+      ],
+      "x": "x = 0",
+      "t_equals": "1",
+      "residue_disc": "x=0",
+      "source_list": "rational_points_by_omega"
+    },
+    {
+      "point": "(1 : -6647 : 0)",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "x": "x = infinity",
+      "t_equals": "-1",
+      "residue_disc": "infinity",
+      "source_list": "rational_points_by_omega"
+    },
+    {
+      "point": "(1 : 6647 : 0)",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "x": "x = infinity",
+      "t_equals": "-1",
+      "residue_disc": "infinity",
+      "source_list": "rational_points_by_omega"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "C01",
+      "omega_index": 0,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 3*11^2 + 8*11^3 + 4*11^4 + 5*11^5 + 7*11^6 + 5*11^7 + 5*11^9 + 8*11^10 + 9*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 8*11^3 + 4*11^6 + 10*11^7 + 3*11^8 + 3*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 110711711,
+      "chart_y_mod_11_8": 201968957,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C02",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C02",
+      "omega_index": 0,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 3*11^2 + 8*11^3 + 4*11^4 + 5*11^5 + 7*11^6 + 5*11^7 + 5*11^9 + 8*11^10 + 9*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 6*11^6 + 7*11^8 + 10*11^9 + 7*11^10 + 8*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 110711711,
+      "chart_y_mod_11_8": 12389924,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C01",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C03",
+      "omega_index": 0,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 7*11^2 + 2*11^3 + 6*11^4 + 5*11^5 + 3*11^6 + 5*11^7 + 10*11^8 + 5*11^9 + 2*11^10 + 11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 6*11^6 + 7*11^8 + 10*11^9 + 7*11^10 + 8*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 103647170,
+      "chart_y_mod_11_8": 12389924,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C04",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C04",
+      "omega_index": 0,
+      "omega_c7_c17_c23": [
+        "-2",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 7*11^2 + 2*11^3 + 6*11^4 + 5*11^5 + 3*11^6 + 5*11^7 + 10*11^8 + 5*11^9 + 2*11^10 + 11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 8*11^3 + 4*11^6 + 10*11^7 + 3*11^8 + 3*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 103647170,
+      "chart_y_mod_11_8": 201968957,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C03",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C05",
+      "omega_index": 2,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 69895298,
+      "chart_y_mod_11_8": 80863487,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C06",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C06",
+      "omega_index": 2,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 69895298,
+      "chart_y_mod_11_8": 133495394,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C05",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C07",
+      "omega_index": 2,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 144463583,
+      "chart_y_mod_11_8": 80863487,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C08",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C08",
+      "omega_index": 2,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 144463583,
+      "chart_y_mod_11_8": 133495394,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C07",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C09",
+      "omega_index": 3,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 10*11^2 + 3*11^3 + 11^4 + 7*11^5 + 9*11^6 + 11^8 + 8*11^9 + 11^10 + 7*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 11^3 + 4*11^4 + 11^6 + 2*11^8 + 2*11^10 + 6*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 17091349,
+      "chart_y_mod_11_8": 1832432,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C10",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C10",
+      "omega_index": 3,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 10*11^2 + 3*11^3 + 11^4 + 7*11^5 + 9*11^6 + 11^8 + 8*11^9 + 11^10 + 7*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^4 + 10*11^5 + 9*11^6 + 10*11^7 + 8*11^8 + 10*11^9 + 8*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 17091349,
+      "chart_y_mod_11_8": 212526449,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C09",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C11",
+      "omega_index": 3,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 7*11^3 + 9*11^4 + 3*11^5 + 11^6 + 10*11^7 + 9*11^8 + 2*11^9 + 9*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^4 + 10*11^5 + 9*11^6 + 10*11^7 + 8*11^8 + 10*11^9 + 8*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 197267532,
+      "chart_y_mod_11_8": 212526449,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C12",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C12",
+      "omega_index": 3,
+      "omega_c7_c17_c23": [
+        "-2",
+        "0",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 7*11^3 + 9*11^4 + 3*11^5 + 11^6 + 10*11^7 + 9*11^8 + 2*11^9 + 9*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 11^3 + 4*11^4 + 11^6 + 2*11^8 + 2*11^10 + 6*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 197267532,
+      "chart_y_mod_11_8": 1832432,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C11",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C13",
+      "omega_index": 5,
+      "omega_c7_c17_c23": [
+        "-2",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 67330923,
+      "chart_y_mod_11_8": 890526,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C14",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C14",
+      "omega_index": 5,
+      "omega_c7_c17_c23": [
+        "-2",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + O(11^12)",
+      "chart_x_mod_11_8": 67330923,
+      "chart_y_mod_11_8": 213468355,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C13",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C15",
+      "omega_index": 5,
+      "omega_c7_c17_c23": [
+        "-2",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 147027958,
+      "chart_y_mod_11_8": 890526,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C16",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C16",
+      "omega_index": 5,
+      "omega_c7_c17_c23": [
+        "-2",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + O(11^12)",
+      "chart_x_mod_11_8": 147027958,
+      "chart_y_mod_11_8": 213468355,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C15",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C17",
+      "omega_index": 6,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 2,
+      "chart_x": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + O(11^14)",
+      "chart_y": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + O(11^12)",
+      "chart_x_mod_11_8": 170788475,
+      "chart_y_mod_11_8": 174811517,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 27,
+      "curve_residual_valuation": 27,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C18",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C18",
+      "omega_index": 6,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 2,
+      "chart_x": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + O(11^14)",
+      "chart_y": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 170788475,
+      "chart_y_mod_11_8": 39547364,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 27,
+      "curve_residual_valuation": 27,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C17",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C19",
+      "omega_index": 6,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 2,
+      "chart_x": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + O(11^14)",
+      "chart_y": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + O(11^12)",
+      "chart_x_mod_11_8": 43570406,
+      "chart_y_mod_11_8": 174811517,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 27,
+      "curve_residual_valuation": 27,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C20",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C20",
+      "omega_index": 6,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 2,
+      "chart_x": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + O(11^14)",
+      "chart_y": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 43570406,
+      "chart_y_mod_11_8": 39547364,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 27,
+      "curve_residual_valuation": 27,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C19",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C21",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 11^5 + 5*11^6 + 5*11^7 + 4*11^8 + 7*11^9 + 11^10 + 11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "8 + 2*11^2 + 3*11^3 + 8*11^5 + 8*11^8 + 5*11^9 + 11^10 + 6*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 106568220,
+      "chart_y_mod_11_8": 1292651,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25)",
+      "projective_y_raw": "8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C22",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C22",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 11^5 + 5*11^6 + 5*11^7 + 4*11^8 + 7*11^9 + 11^10 + 11^11 + 2*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 8*11^2 + 7*11^3 + 10*11^4 + 2*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 5*11^9 + 9*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 106568220,
+      "chart_y_mod_11_8": 213066230,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25)",
+      "projective_y_raw": "3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C21",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C23",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 9*11^5 + 5*11^6 + 5*11^7 + 6*11^8 + 3*11^9 + 9*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 8*11^2 + 7*11^3 + 10*11^4 + 2*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 5*11^9 + 9*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 107790661,
+      "chart_y_mod_11_8": 213066230,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C24",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C24",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 9*11^5 + 5*11^6 + 5*11^7 + 6*11^8 + 3*11^9 + 9*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
+      "chart_y": "8 + 2*11^2 + 3*11^3 + 8*11^5 + 8*11^8 + 5*11^9 + 11^10 + 6*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 107790661,
+      "chart_y_mod_11_8": 1292651,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25)",
+      "projective_y_raw": "3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C23",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C25",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 22064515,
+      "chart_y_mod_11_8": 29431401,
+      "chart_x_unit_residue_mod_11": 4,
+      "projective_x_raw": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C26",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C26",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 22064515,
+      "chart_y_mod_11_8": 184927480,
+      "chart_x_unit_residue_mod_11": 4,
+      "projective_x_raw": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C25",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C27",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 192294366,
+      "chart_y_mod_11_8": 29431401,
+      "chart_x_unit_residue_mod_11": 7,
+      "projective_x_raw": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C28",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C28",
+      "omega_index": 7,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "-2",
+        "4/3"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 192294366,
+      "chart_y_mod_11_8": 184927480,
+      "chart_x_unit_residue_mod_11": 7,
+      "projective_x_raw": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C27",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C29",
+      "omega_index": 8,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "0",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 5*11^3 + 3*11^4 + 3*11^6 + 4*11^7 + 9*11^8 + 4*11^10 + 10*11^11 + 3*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^5 + 9*11^6 + 8*11^7 + 11^8 + 2*11^9 + 8*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 83313967,
+      "chart_y_mod_11_8": 172820057,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C30",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C30",
+      "omega_index": 8,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "0",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 5*11^3 + 3*11^4 + 3*11^6 + 4*11^7 + 9*11^8 + 4*11^10 + 10*11^11 + 3*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 11^3 + 10*11^4 + 4*11^5 + 11^6 + 2*11^7 + 9*11^8 + 8*11^9 + 2*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 83313967,
+      "chart_y_mod_11_8": 41538824,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C29",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C31",
+      "omega_index": 8,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "0",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 10*11^2 + 5*11^3 + 7*11^4 + 10*11^5 + 7*11^6 + 6*11^7 + 11^8 + 10*11^9 + 6*11^10 + 7*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 11^3 + 10*11^4 + 4*11^5 + 11^6 + 2*11^7 + 9*11^8 + 8*11^9 + 2*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 131044914,
+      "chart_y_mod_11_8": 41538824,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C32",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C32",
+      "omega_index": 8,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "0",
+        "2"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 10*11^2 + 5*11^3 + 7*11^4 + 10*11^5 + 7*11^6 + 6*11^7 + 11^8 + 10*11^9 + 6*11^10 + 7*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^5 + 9*11^6 + 8*11^7 + 11^8 + 2*11^9 + 8*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 131044914,
+      "chart_y_mod_11_8": 172820057,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C31",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C33",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 203132853,
+      "chart_y_mod_11_8": 72944037,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C34",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C34",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + O(11^12)",
+      "chart_x_mod_11_8": 203132853,
+      "chart_y_mod_11_8": 141414844,
+      "chart_x_unit_residue_mod_11": 10,
+      "projective_x_raw": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C33",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C35",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 11226028,
+      "chart_y_mod_11_8": 72944037,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25)",
+      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C36",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C36",
+      "omega_index": 10,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "2"
+      ],
+      "residue_disc": "x=0",
+      "disc_orbit": 2,
+      "orbit_representative": "(0 : 1 : 1)",
+      "chart": "affine (x,y)",
+      "chart_x_valuation": 1,
+      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + O(11^13)",
+      "chart_y": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + O(11^12)",
+      "chart_x_mod_11_8": 11226028,
+      "chart_y_mod_11_8": 141414844,
+      "chart_x_unit_residue_mod_11": 1,
+      "projective_x_raw": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25)",
+      "projective_y_raw": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 25,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C35",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C37",
+      "omega_index": 11,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 4*11^2 + 11^3 + 10*11^4 + 2*11^5 + 9*11^6 + 9*11^7 + 2*11^8 + 4*11^9 + 8*11^10 + 2*11^11 + 7*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 4*11^4 + 5*11^5 + 11^6 + 6*11^7 + 9*11^8 + 8*11^9 + 7*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 191798937,
+      "chart_y_mod_11_8": 119559382,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C38",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C38",
+      "omega_index": 11,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "2*11 + 4*11^2 + 11^3 + 10*11^4 + 2*11^5 + 9*11^6 + 9*11^7 + 2*11^8 + 4*11^9 + 8*11^10 + 2*11^11 + 7*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 10*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 4*11^7 + 11^8 + 2*11^9 + 3*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 191798937,
+      "chart_y_mod_11_8": 94799499,
+      "chart_x_unit_residue_mod_11": 2,
+      "projective_x_raw": "6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C37",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C39",
+      "omega_index": 11,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 6*11^2 + 9*11^3 + 8*11^5 + 11^6 + 11^7 + 8*11^8 + 6*11^9 + 2*11^10 + 8*11^11 + 3*11^12 + O(11^13)",
+      "chart_y": "3 + 10*11 + 2*11^2 + 10*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 4*11^7 + 11^8 + 2*11^9 + 3*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 22559944,
+      "chart_y_mod_11_8": 94799499,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C40",
+      "partner_is_negative_mod_11_8": true
+    },
+    {
+      "id": "C40",
+      "omega_index": 11,
+      "omega_c7_c17_c23": [
+        "-4/3",
+        "2",
+        "4/3"
+      ],
+      "residue_disc": "infinity",
+      "disc_orbit": 1,
+      "orbit_representative": "(1 : 3 : 0)",
+      "chart": "w=1/x, v=y/x^3",
+      "chart_x_valuation": 1,
+      "chart_x": "9*11 + 6*11^2 + 9*11^3 + 8*11^5 + 11^6 + 11^7 + 8*11^8 + 6*11^9 + 2*11^10 + 8*11^11 + 3*11^12 + O(11^13)",
+      "chart_y": "8 + 8*11^2 + 4*11^4 + 5*11^5 + 11^6 + 6*11^7 + 9*11^8 + 8*11^9 + 7*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_mod_11_8": 22559944,
+      "chart_y_mod_11_8": 119559382,
+      "chart_x_unit_residue_mod_11": 9,
+      "projective_x_raw": "5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25)",
+      "projective_y_raw": "10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23)",
+      "projective_z_raw": "1 + O(11^4)",
+      "absolute_precision_x": 27,
+      "absolute_precision_y": 26,
+      "curve_residual_valuation": 26,
+      "stable_at_precision_20": true,
+      "is_known_rational_point": false,
+      "hyperelliptic_partner": "C39",
+      "partner_is_negative_mod_11_8": true
+    }
+  ],
+  "checks": {
+    "candidate_count": 40,
+    "candidate_count_equals_40": true,
+    "extra_counts_from_source": [
+      4,
+      0,
+      4,
+      4,
+      0,
+      4,
+      4,
+      8,
+      4,
+      0,
+      4,
+      4
+    ],
+    "extra_counts_sum": 40,
+    "omega_size": 12,
+    "omega_upper_bound_field_in_source": 12,
+    "all_candidates_on_curve_min_residual_valuation": 26,
+    "all_candidates_stable_at_precision_20": true,
+    "all_pairs_are_hyperelliptic_conjugates": true,
+    "distinct_signatures_mod_11_8": 40,
+    "x_valuations_seen": [
+      1,
+      2
+    ],
+    "per_omega_counts": [
+      4,
+      0,
+      4,
+      4,
+      0,
+      4,
+      4,
+      8,
+      4,
+      0,
+      4,
+      4
+    ],
+    "per_omega_counts_match_source": true,
+    "strassmann_predicted_per_omega": [
+      4,
+      0,
+      4,
+      4,
+      0,
+      4,
+      4,
+      8,
+      4,
+      0,
+      4,
+      4
+    ],
+    "strassmann_matches_extras": true,
+    "strassmann_all_certified": true,
+    "strassmann_max_bound": 2,
+    "strassmann_min_tail_margin": 23,
+    "known_rational_points": 4,
+    "known_points_are_not_among_the_40": true,
+    "known_omega_indices": [
+      1,
+      10
+    ],
+    "theory_omega_for_x0": 1,
+    "theory_omega_for_xinf": 10,
+    "theory_matches_run_for_x0": true,
+    "theory_matches_run_for_xinf": true
+  },
+  "precision_audit": {
+    "precision_runs": [
+      20,
+      30
+    ],
+    "extra_padic_points": 40,
+    "matched_modulus": "11^8",
+    "all_candidates_on_curve_to_at_least_precision": 10,
+    "known_rational_points": 4,
+    "all_known_lifts_degenerate": true,
+    "complete_global_classification": false,
+    "warning": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation."
+  },
+  "precision_audit_warning_verbatim": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation.",
+  "source_sha256": {
+    "qc_mixed_15_8_p11_n30_twelve_check.json": "d3cf5bed191a1d562a02f273d23069c3e525c70f29637faba3a29e57b15b18a3",
+    "qc_mixed_15_8_p11_n30_twelve_check_functions.json": "83539470606b431759e6a55c312fe10d7ed97f2da1887fdd40742e985c08fe33",
+    "qc_mixed_15_8_p11_n20_twelve.json": "3bfb2dac686a15920be94641bd1f78239539cd949d1584e2b9510ed274bbb8f6",
+    "strassmann_audit.json": "9d50955e638edf73f953fbfa6e54a36c4e39a0ab65e91d1c9ebb5162e0d791ca",
+    "qc_precision_audit.json": "01416923feca6ee708ce105560ea392fb19336903ab607f02e5a04e419cb3951",
+    "omega_structure.json": "f7801ff464315add0cd244ef77f86babc18e82b202c7e98248b2e5b539b168fd",
+    "local_discs_11.json": "12f4a3eabc72d5862bc2869f178bdde003840209aebf58b7f076ad5f0954033f",
+    "new_bridge_verified.json": "5ee026f6bea416c0c2a97dad6419af60748ee43d44961c2aa643dfb9019e8492",
+    "run_qc_twelve.py": "091d67953eca30c2a17d2dfdbab1d2c4147d1effc3dc1bc1ed068e068628538a"
+  },
+  "not_established": [
+    "This table does NOT claim that any of the 40 candidates is or is not rational.",
+    "This table does NOT claim D(Q) equals the four known points.",
+    "Omega membership is taken from the run; it is a superset statement (the 12 triples are not claimed to be simultaneously realisable)."
+  ]
+}

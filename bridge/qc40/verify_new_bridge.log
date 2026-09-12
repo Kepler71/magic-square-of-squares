@@ -1,0 +1,159 @@
+{'raw_ainvs': ['0', '37608911', '0', '2089269703356959', '7989037884942063852049'], 'minimal_ainvs': ['0', '-1', '0', '1617792974488319', '-14262298467262390622975'], 'rank': 1, 'rank_bound': 1, 'certain': True, 'gens': [['34384993', '286391046720', '1']]}
+{'raw_ainvs': ['0', '47287151', '0', '153915558925919', '740005399550399109169'], 'minimal_ainvs': ['0', '-1', '0', '-591442657639681', '6146344290377784993025'], 'rank': 1, 'rank_bound': 1, 'certain': True, 'gens': [['-2479007', '87162492480', '1']]}
+{
+  "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+  "coefficients_a0_a2_a4_a6": [
+    "4092529",
+    "47287151",
+    "37608911",
+    "44182609"
+  ],
+  "identity_verified": true,
+  "smooth_genus": 2,
+  "finite_known_point": [
+    "0",
+    "2023"
+  ],
+  "infinity_y_over_x3": "6647",
+  "elliptic_factors": [
+    {
+      "raw_ainvs": [
+        "0",
+        "37608911",
+        "0",
+        "2089269703356959",
+        "7989037884942063852049"
+      ],
+      "minimal_ainvs": [
+        "0",
+        "-1",
+        "0",
+        "1617792974488319",
+        "-14262298467262390622975"
+      ],
+      "rank": 1,
+      "rank_bound": 1,
+      "certain": true,
+      "gens": [
+        [
+          "34384993",
+          "286391046720",
+          "1"
+        ]
+      ]
+    },
+    {
+      "raw_ainvs": [
+        "0",
+        "47287151",
+        "0",
+        "153915558925919",
+        "740005399550399109169"
+      ],
+      "minimal_ainvs": [
+        "0",
+        "-1",
+        "0",
+        "-591442657639681",
+        "6146344290377784993025"
+      ],
+      "rank": 1,
+      "rank_bound": 1,
+      "certain": true,
+      "gens": [
+        [
+          "-2479007",
+          "87162492480",
+          "1"
+        ]
+      ]
+    }
+  ],
+  "finite_field_checks": [
+    {
+      "p": 11,
+      "points": 12,
+      "ordinary": true
+    },
+    {
+      "p": 19,
+      "points": 12,
+      "ordinary": false
+    },
+    {
+      "p": 29,
+      "points": 26,
+      "ordinary": true
+    },
+    {
+      "p": 31,
+      "points": 32,
+      "ordinary": true
+    },
+    {
+      "p": 41,
+      "points": 38,
+      "ordinary": true
+    },
+    {
+      "p": 43,
+      "points": 52,
+      "ordinary": true
+    },
+    {
+      "p": 47,
+      "points": 64,
+      "ordinary": true
+    },
+    {
+      "p": 53,
+      "points": 66,
+      "ordinary": true
+    },
+    {
+      "p": 59,
+      "points": 60,
+      "ordinary": true
+    },
+    {
+      "p": 61,
+      "points": 82,
+      "ordinary": true
+    },
+    {
+      "p": 67,
+      "points": 60,
+      "ordinary": true
+    },
+    {
+      "p": 71,
+      "points": 80,
+      "ordinary": true
+    },
+    {
+      "p": 73,
+      "points": 78,
+      "ordinary": true
+    },
+    {
+      "p": 79,
+      "points": 72,
+      "ordinary": true
+    },
+    {
+      "p": 83,
+      "points": 92,
+      "ordinary": true
+    },
+    {
+      "p": 89,
+      "points": 94,
+      "ordinary": true
+    },
+    {
+      "p": 97,
+      "points": 102,
+      "ordinary": true
+    }
+  ]
+}

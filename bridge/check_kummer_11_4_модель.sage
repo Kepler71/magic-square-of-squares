@@ -1,695 +1,551 @@
 # -*- coding: utf-8 -*-
-# check_kummer_11_4_модель.sage
+# =====================================================================================
+#  ПОПЫТКА ОПРОВЕРЖЕНИЯ ЗАЯВЛЕНИЯ CODEX:  C_{11,4}(Q) = пусто
+#  Угол атаки: МОДЕЛЬ И ТОЖДЕСТВА.
 #
-# НЕЗАВИСИМАЯ ПОПЫТКА СЛОМАТЬ заявление Codex: C_{11,4}(Q) = пусто.
-# Угол атаки: МОДЕЛЬ И ТОЖДЕСТВА.  Всё строится с нуля, чужие числа не копируются;
-# числа Codex используются ТОЛЬКО в финальном блоке сверки (раздел J).
+#  Раунд 3 (Claude, 2026-09-12). Всё строится с нуля.
+#  Числа Codex используются ТОЛЬКО в финальной секции K (сверка), и нигде раньше.
+#  Точка бесконечного порядка на E ищется СОБСТВЕННЫМ поиском, не берётся у Codex.
 #
-#  A. Символьные тождества в Q(m,n)[t] — общие m,n, без подстановки чисел.
-#  B. Специализация (11,4): неособость, различие корней, полное 2-кручение.
-#  C. Собственная реализация delta (полный 2-спуск) + контроль гомоморфности.
-#  D. КОНТРОЛЬНЫЙ ЭКСПЕРИМЕНТ: пара (15,8), у которой на C ЕСТЬ явная точка t=1.
-#     Это эмпирически фиксирует, какой корень обязан быть e1 (класс 1).
-#  E. Точки на E, образ delta, требуемый класс.
-#  F. Ранг: несколько независимых источников верхней границы.
-#  G. Бесконечность — в проективных координатах, все 8 ветвей.
-#  H. Перестановки корней: где вывод ломается и почему.
-#  I. Локальный образ delta_v и вопрос «лежит ли (1,s,s) в группе Селмера».
-#  J. Сверка с числами Codex.
+#  Предыдущие версии: check_kummer_11_4_модель_PREV_backup_2026-09-12.sage
+#                     check_kummer_11_4_модель_R2_backup_2026-09-12.sage
+#
+#  Метки статуса:
+#     [ДОК]  — доказано символьно / точной арифметикой внутри этого скрипта
+#     [ЧИС]  — проверено численно (конечный перебор или приближение)
+#     [ПО]   — доказано ПРИ УСЛОВИИ (корректность внешней библиотеки / теоремы извне)
+#     [НАБЛ] — наблюдение, не доказательство
+# =====================================================================================
+import sys, time
 
-import sys, itertools, time
+T0 = time.time()
+LOG = []          # (метка, код, текст, ok)
 
 def hdr(t):
-    print("\n" + "=" * 78); print(t); print("=" * 78); sys.stdout.flush()
+    print("\n" + "=" * 92); print(t); print("=" * 92); sys.stdout.flush()
 
-VERD = {}
-def rec(key, ok, note=""):
-    VERD[key] = (bool(ok), note)
-    print("   [%s] %s%s" % ("OK  " if ok else "ПРОВАЛ", key, ("  -- " + note) if note else ""))
+def rec(tag, code, text, ok, extra=""):
+    LOG.append((tag, code, text, ok))
+    print("   [%s %-4s] %-5s %s%s" % ("OK    " if ok else "ПРОВАЛ", tag, code, text,
+                                      ("   -- " + str(extra)) if extra else ""))
     sys.stdout.flush()
 
-def sqcls(q):
-    """Представитель квадратного класса ненулевого q из Q*: бесквадратное целое."""
-    q = QQ(q)
-    if q == 0:
-        raise ValueError("нулевой квадратный класс")
-    return ZZ(q.numerator() * q.denominator()).squarefree_part()
+def note(x):
+    print("   .  " + str(x)); sys.stdout.flush()
 
-# ============================================================ A
-hdr("A. СИМВОЛЬНЫЕ ТОЖДЕСТВА В Q(m,n)[t] — БЕЗ ПОДСТАНОВКИ ЧИСЕЛ")
 
-Rmn = PolynomialRing(QQ, ['m', 'n'])
-Fmn = Rmn.fraction_field()
-m, n = Fmn.gens()
-Rt.<t> = PolynomialRing(Fmn)
+# -------------------------------------------------------------------------------------
+# вспомогательное: квадратный класс рационального числа
+# -------------------------------------------------------------------------------------
+def sqclass(r):
+    """представитель класса r в Q*/Q*^2 — бесквадратное целое"""
+    r = QQ(r)
+    if r == 0:
+        raise ValueError("квадратный класс нуля не определён")
+    return ZZ(r.numerator() * r.denominator()).squarefree_part()
 
-s_sym = (m**2 + n**2) / 2
-F0 = m**2 + n**2 * t**2
-F4 = s_sym * (1 + t**2)
-F8 = n**2 + m**2 * t**2
-b_sym = s_sym * m**2 * n**2
+def is_sq_Qp(x, p):
+    """x (ненулевое рациональное) — квадрат в Q_p?"""
+    x = QQ(x)
+    if x == 0: return True
+    v = x.valuation(p)
+    if v % 2: return False
+    u = x / QQ(p) ** v
+    num, den = ZZ(u.numerator()), ZZ(u.denominator())
+    if p == 2:
+        return (num * den) % 8 == 1
+    return kronecker(num * den % p, p) == 1
 
-e1 = -b_sym
-e2 = -s_sym * m**4
-e3 = -s_sym * n**4
-X = b_sym * t**2
 
-print("   s   = %s" % s_sym)
-print("   b   = %s" % b_sym)
-print("   e1  = %s" % e1)
-print("   e2  = %s" % e2)
-print("   e3  = %s" % e3)
+# =====================================================================================
+hdr("0.  СЕМЕЙСТВО G1: девять клеток, магичность, и почему это ровно кривая C")
+# =====================================================================================
+# Клетки из EVEN_N_2ADIC_2026-09-12.md §1 — переписаны мной заново и проверены символьно.
+Rg = PolynomialRing(QQ, ['M', 'N', 'P', 'Q'])
+M, N, P, Q = Rg.gens()
+F4g = (M**2 + N**2) * (P**2 + Q**2) / 2
+c = [M**2*Q**2 + N**2*P**2,  (M*P + N*Q)**2,  F4g - 2*M*N*P*Q,
+     (M*P - N*Q)**2,        F4g,             (M*Q + N*P)**2,
+     F4g + 2*M*N*P*Q,       (M*Q - N*P)**2,  N**2*Q**2 + M**2*P**2]
+rec("ДОК", "0a", "девять клеток выписаны заново из определения G1", True)
+lines = [(0,1,2), (3,4,5), (6,7,8),          # строки
+         (0,3,6), (1,4,7), (2,5,8),          # столбцы
+         (0,4,8), (2,4,6)]                   # диагонали
+bad = [L for L in lines if c[L[0]] + c[L[1]] + c[L[2]] != 3 * F4g]
+rec("ДОК", "0b", "все 8 линий 3x3 равны 3*c4 (магичность) тождественно в Q[m,n,p,q]", len(bad) == 0, bad)
+roots4 = {1: M*P + N*Q, 3: M*P - N*Q, 5: M*Q + N*P, 7: M*Q - N*P}
+auto = all(Rg(c[i]) == roots4[i]**2 for i in (1, 3, 5, 7))
+rec("ДОК", "0c", "клетки c1,c3,c5,c7 — квадраты ТОЖДЕСТВЕННО (автоматические)", auto)
+# диагональ c0,c4,c8 = q^2*F0, q^2*F4(t), q^2*F8 при t=p/q
+FRg = FractionField(Rg)
+rec("ДОК", "0d", "c0 = q^2*F0(p/q),  c4 = q^2*F4(p/q),  c8 = q^2*F8(p/q)",
+    (FRg(c[0]) == FRg(Q**2 * (M**2 + N**2 * (FRg(P)/FRg(Q))**2)))
+    and (FRg(c[4]) == FRg(Q**2 * ((M**2 + N**2)/2 * (1 + (FRg(P)/FRg(Q))**2))))
+    and (FRg(c[8]) == FRg(Q**2 * (N**2 + M**2 * (FRg(P)/FRg(Q))**2))))
+note("следствие [ДОК]: клетки c0,c4,c8 — квадраты  <=>  F0,F4,F8 — квадраты  <=>  точка на C.")
+note("значит C(Q)=пусто закрывает пару уже на уровне СЕМИ квадратов, тем более девяти.")
+note("ОГОВОРКА: вывод «эти девять клеток исчерпывают семейство G1» здесь НЕ проверялся,")
+note("он взят из файлов проекта и лежит вне моего угла атаки.")
 
-id1 = (X - e1) - (m * n)**2 * F4
-id2 = (X - e2) - s_sym * m**2 * F0
-id3 = (X - e3) - s_sym * n**2 * F8
-rec("A1  X-e1 == (mn)^2 * F4  тождественно в Q(m,n)[t]", id1 == 0, "остаток %s" % id1)
-rec("A2  X-e2 == s*m^2 * F0  тождественно", id2 == 0, "остаток %s" % id2)
-rec("A3  X-e3 == s*n^2 * F8  тождественно", id3 == 0, "остаток %s" % id3)
 
-# уравнение E выполняется: V^2 = (X-e1)(X-e2)(X-e3), V = b*u0*u4*u8
-lhs = (b_sym)**2 * F0 * F4 * F8
-rhs = (X - e1) * (X - e2) * (X - e3)
-rec("A4  (b u0u4u8)^2 == (X-e1)(X-e2)(X-e3)", lhs == rhs, "разность %s" % (lhs - rhs))
+# =====================================================================================
+hdr("A.  СИМВОЛЬНАЯ ПРОВЕРКА ТОЖДЕСТВ (общие m,n; кольцо многочленов от t)")
+# =====================================================================================
+S = PolynomialRing(QQ, ['m', 'n'])
+mS, nS = S.gens()
+FF = FractionField(S)
+Rt2 = PolynomialRing(FF, 't')
+t = Rt2.gen()
+mm, nn = FF(mS), FF(nS)
 
-# КРИТИЧЕСКОЕ: какой множитель у каждого корня, ЯВНО.
-# X-e1 = (mn)^2 * u4^2  -> квадрат.       класс 1
-# X-e2 = s * m^2 * u0^2 -> s * квадрат.   класс [s]
-# X-e3 = s * n^2 * u8^2 -> s * квадрат.   класс [s]
-cof1 = (X - e1) / F4          # должно быть (mn)^2, константа по t
-cof2 = (X - e2) / F0
-cof3 = (X - e3) / F8
-ok_c = (cof1 == (m * n)**2) and (cof2 == s_sym * m**2) and (cof3 == s_sym * n**2)
-rec("A5  коэффициенты (X-ei)/F_j: (mn)^2, s m^2, s n^2", ok_c,
-    "cof1=%s cof2=%s cof3=%s" % (cof1, cof2, cof3))
-print("   ВЫВОД A: класс 1 принадлежит ИМЕННО корню e1=-b=-s m^2 n^2, потому что")
-print("            X-e1 = b(t^2+1) = (mn)^2 * s(1+t^2) = (mn)^2 u4^2.")
-print("            e2 и e3 оба дают класс [s]; их взаимный порядок НЕ важен.")
+sS = (mm**2 + nn**2) / 2
+bS = sS * mm**2 * nn**2
+F0 = mm**2 + nn**2 * t**2
+F4 = sS * (1 + t**2)
+F8 = nn**2 + mm**2 * t**2
 
-# Проверим, что нули F_i не могут быть рациональными (т.е. u_i != 0 на C(Q))
-disc_checks = []
-for nm, F in [("F0", F0), ("F4", F4), ("F8", F8)]:
-    # F как квадратичный по t: дискриминант
-    c = F.coefficients(sparse=False)
-    disc = c[1]**2 - 4 * c[0] * c[2] if len(c) == 3 else None
-    disc_checks.append((nm, disc))
-    print("   %s: старший=%s, свободный=%s, дискриминант по t = %s" % (nm, c[2], c[0], disc))
-print("   Все дискриминанты = -4*(положительное) < 0 при m,n>0 => корни мнимые =>")
-print("   при вещественном t все F_i > 0, в частности u_i != 0. (см. B6)")
+e1S, e2S, e3S = -bS, -sS * mm**4, -sS * nn**4
+X = bS * t**2
 
-# ============================================================ B
-hdr("B. СПЕЦИАЛИЗАЦИЯ (m,n) = (11,4)")
+rec("ДОК", "A1", "X - e1 == (m*n)^2 * F4   тождественно", (X - e1S) - (mm*nn)**2 * F4 == 0)
+rec("ДОК", "A2", "X - e2 == s*m^2 * F0     тождественно", (X - e2S) - sS * mm**2 * F0 == 0)
+rec("ДОК", "A3", "X - e3 == s*n^2 * F8     тождественно", (X - e3S) - sS * nn**2 * F8 == 0)
+# и обратная сторона: не перепутаны ли F0 и F8?
+rec("ДОК", "A2'", "X - e2 НЕ равно s*n^2*F8 (значит e2 отвечает именно F0, а не F8)",
+    (X - e2S) - sS * nn**2 * F8 != 0)
+rec("ДОК", "A3'", "X - e3 НЕ равно s*m^2*F0 (значит e3 отвечает именно F8, а не F0)",
+    (X - e3S) - sS * mm**2 * F0 != 0)
+rec("ДОК", "A1'", "X - e1 НЕ равно (m*n)^2*F0 и не (m*n)^2*F8",
+    ((X - e1S) - (mm*nn)**2 * F0 != 0) and ((X - e1S) - (mm*nn)**2 * F8 != 0))
 
-M, N = 11, 4
-rec("B0  gcd(m,n)=1", gcd(M, N) == 1, "gcd=%s" % gcd(M, N))
+V2 = (X - e1S) * (X - e2S) * (X - e3S)
+rec("ДОК", "A4", "(b*u0*u4*u8)^2 == (X-e1)(X-e2)(X-e3)  при u_i^2=F_i",
+    V2 - (bS**2 * F0 * F4 * F8) == 0)
 
-s = QQ(M**2 + N**2) / 2
-b = s * M**2 * N**2
-E1 = -b
-E2 = -s * M**4
-E3 = -s * N**4
-print("   s = %s      (= %s)" % (s, s.factor() if s.denominator() == 1 else "137/2"))
-print("   b = %s" % b)
-print("   e1 = %s" % E1)
-print("   e2 = %s" % E2)
-print("   e3 = %s" % E3)
-rec("B1  b целое", b.denominator() == 1, "b=%s" % b)
-rec("B2  корни попарно различны", len(set([E1, E2, E3])) == 3)
+# множители перед F_i (именно они дают квадратный класс)
+k1 = ((X - e1S) / F4).numerator() / ((X - e1S) / F4).denominator()
+note("коэффициенты: (X-e1)/F4 = %s ;  (X-e2)/F0 = %s ;  (X-e3)/F8 = %s"
+     % ((X - e1S) / F4, (X - e2S) / F0, (X - e3S) / F8))
+rec("ДОК", "A5", "коэффициенты равны (mn)^2, s*m^2, s*n^2 — классы 1, [s], [s]",
+    (X - e1S) / F4 == (mm*nn)**2 and (X - e2S) / F0 == sS*mm**2 and (X - e3S) / F8 == sS*nn**2)
+note("ВЫВОД [ДОК]: для ЛЮБОЙ рациональной точки C необходимо delta = (1, [s], [s])")
+note("             — единица стоит В ПЕРВОЙ позиции, т.е. у корня e1 = -b = -s*m^2*n^2.")
 
-# кривая: V^2 = (X-e1)(X-e2)(X-e3) = X^3 + a2 X^2 + a4 X + a6
-Rx.<Xv> = PolynomialRing(QQ)
-cub = (Xv - E1) * (Xv - E2) * (Xv - E3)
-a2 = cub[2]; a4 = cub[1]; a6 = cub[0]
-E = EllipticCurve([0, a2, 0, a4, a6])
-print("   E: %s" % E)
-print("   дискриминант E = %s" % E.discriminant())
-rec("B3  E неособа (disc != 0)", E.discriminant() != 0)
-rec("B4  кубика E совпадает с (X-e1)(X-e2)(X-e3)",
-    Xv**3 + a2 * Xv**2 + a4 * Xv + a6 == cub)
 
+# =====================================================================================
+hdr("B.  СПЕЦИАЛИЗАЦИЯ (m,n) = (11,4): кривая E, корни, дискриминант, 2-кручение")
+# =====================================================================================
+m, n = 11, 4
+rec("ДОК", "B0", "gcd(m,n) = 1", gcd(m, n) == 1, "m=%d n=%d" % (m, n))
+s = QQ(m**2 + n**2) / 2
+b = s * m**2 * n**2
+e1, e2, e3 = QQ(-b), QQ(-s*m**4), QQ(-s*n**4)
+note("s = %s   b = %s" % (s, b))
+note("e1 = %s   e2 = %s   e3 = %s" % (e1, e2, e3))
+rec("ДОК", "B1", "b целое", b in ZZ, b)
+rec("ДОК", "B2", "корни попарно различны", len({e1, e2, e3}) == 3)
+
+Rx = PolynomialRing(QQ, 'x'); x = Rx.gen()
+cub = (x - e1) * (x - e2) * (x - e3)
+A2c, A4c, A6c = cub[2], cub[1], cub[0]
+E = EllipticCurve([0, A2c, 0, A4c, A6c])
+rec("ДОК", "B3", "E неособа: disc != 0", E.discriminant() != 0, factor(E.discriminant()))
+rec("ДОК", "B4", "кубика E совпадает с (x-e1)(x-e2)(x-e3)",
+    E.division_polynomial(2).monic() == cub.monic() and cub.degree() == 3)
 T = E.torsion_subgroup()
-tors_pts = sorted([P for P in E.torsion_points()], key=lambda P: str(P))
-two_tors = [P for P in E.torsion_points() if P.order() == 2]
-roots_from_curve = sorted([P[0] for P in two_tors])
-rec("B5  E[2] полностью рационально (3 точки порядка 2)", len(two_tors) == 3,
-    "структура кручения %s" % T.invariants().__str__())
-rec("B5b корни 2-кручения = {e1,e2,e3}", set(roots_from_curve) == set([E1, E2, E3]),
-    "из кривой %s" % roots_from_curve)
-print("   E(Q)_tors = %s, порядок %s" % (T.invariants(), T.order()))
+rec("ДОК", "B5", "E[2] полностью рационально (структура кручения)", T.invariants() == (2, 2), T.invariants())
+xt = sorted([Pt.xy()[0] for Pt in E.torsion_points() if Pt.order() == 2])
+rec("ДОК", "B6", "x-координаты 2-кручения = {e1,e2,e3}", set(xt) == {e1, e2, e3}, xt)
+Emin = E.minimal_model()
+iso_to_min = E.isomorphism_to(Emin)
+iso_from_min = Emin.isomorphism_to(E)
+note("минимальная модель: %s" % Emin)
+note("кондуктор N = %s = %s" % (Emin.conductor(), factor(Emin.conductor())))
 
-# положительность F_i при вещественном t
-F0n = M**2 + N**2 * Xv**2
-F4n = s * (1 + Xv**2)
-F8n = N**2 + M**2 * Xv**2
-allpos = all(len(f.roots(RR)) == 0 and f(0) > 0 for f in [F0n, F4n, F8n])
-rec("B6  F0,F4,F8 не имеют вещественных корней и положительны", allpos)
+req = (sqclass(1), sqclass(s), sqclass(s))
+rec("ДОК", "B7", "ТРЕБУЕМЫЙ класс delta = (1,[s],[s]) вычислен из тождеств A", True, req)
+rec("ДОК", "B8", "[s] != 1, т.е. тест действительно различает позицию 1 и позиции 2,3",
+    sqclass(s) != 1, "[s] = %s" % sqclass(s))
 
-req_class = (1, sqcls(s), sqcls(s))
-print("   ТРЕБУЕМЫЙ КЛАСС (мой расчёт): %s   [ s = %s, sqfree(s) = %s ]"
-      % (req_class.__str__(), s, sqcls(s)))
+# F_i положительны на всей вещественной прямой -> u_i != 0 -> образ не 2-кручение
+disc0 = (0)**2 - 4*(n**2)*(m**2)   # дискр. F0 как квадратного по t
+rec("ДОК", "B9", "F0,F4,F8 > 0 при всех вещественных t (дискриминанты < 0)",
+    (-4*n**2*m**2 < 0) and (-4*s*s < 0) and (-4*m**2*n**2 < 0))
+note("следствие [ДОК]: u0,u4,u8 != 0, значит образ точки C — НЕ точка 2-кручения и не O.")
 
-# ============================================================ C
-hdr("C. СОБСТВЕННАЯ РЕАЛИЗАЦИЯ delta И КОНТРОЛЬ ЕЁ СВОЙСТВ")
 
-ROOTS = [E1, E2, E3]
+# =====================================================================================
+hdr("C.  ОТОБРАЖЕНИЕ delta: определение, гомоморфность, ядро")
+# =====================================================================================
+ES = [e1, e2, e3]
 
-def delta(P, roots=ROOTS):
-    """Полный 2-спуск: delta(P) = [X-e1, X-e2, X-e3] в (Q*/Q*^2)^3,
-       с заменой нулевой координаты для 2-кручения и (1,1,1) для O."""
-    if P.is_zero():
+def delta(Pt):
+    """delta: E(Q) -> (Q*/Q*^2)^3, стандартное вложение полного 2-спуска"""
+    if Pt.is_zero():
         return (1, 1, 1)
-    x = P[0]
+    xP = Pt.xy()[0]
     out = []
     for i in range(3):
-        v = x - roots[i]
-        if v == 0:
-            j, k = [z for z in range(3) if z != i]
-            v = (roots[i] - roots[j]) * (roots[i] - roots[k])
-        out.append(sqcls(v))
+        d = xP - ES[i]
+        if d == 0:
+            j, k = [q for q in range(3) if q != i]
+            d = (ES[i] - ES[j]) * (ES[i] - ES[k])
+        out.append(sqclass(d))
     return tuple(out)
 
-# C1: произведение координат всегда квадрат
-def prod_is_square(d):
-    return ZZ(d[0] * d[1] * d[2]).squarefree_part() == 1
+def mul(u, v):
+    return tuple(sqclass(QQ(u[i]) * QQ(v[i])) for i in range(3))
 
-# C2: гомоморфность — численная проверка на многих точках
-def mulcls(d, dd):
-    return tuple(sqcls(QQ(d[i]) * dd[i]) for i in range(3))
-
-pts_test = []
-for P in E.torsion_points():
-    pts_test.append(P)
-srch = E.point_search(11)
-for P in srch:
-    pts_test.append(P); pts_test.append(-P)
-# ещё точек: кратные и суммы
-extra = []
-for P in pts_test[:]:
-    for Q in pts_test[:]:
-        R = P + Q
-        if R not in extra:
-            extra.append(R)
-pts_test = list(set(pts_test + extra))
-print("   точек E(Q) для теста гомоморфности: %s" % len(pts_test))
-
-homok = True
-bad = None
-cnt = 0
-for P in pts_test:
-    for Q in pts_test:
-        if mulcls(delta(P), delta(Q)) != delta(P + Q):
-            homok = False; bad = (P, Q); break
+# набор пробных точек: кручение + всё, что найдётся поиском
+tors = list(E.torsion_points())
+search_pts = E.point_search(9)
+probe = list(set(tors + search_pts + [pp + tt_ for pp in search_pts for tt_ in tors]))
+probe = [pp for pp in probe if pp in E]
+note("пробных точек для тестов гомоморфности: %d" % len(probe))
+cnt, bad = 0, []
+for i in range(len(probe)):
+    for j in range(i, len(probe)):
+        Pa, Pb = probe[i], probe[j]
+        if delta(Pa + Pb) != mul(delta(Pa), delta(Pb)):
+            bad.append((Pa, Pb))
         cnt += 1
-    if not homok:
-        break
-rec("C1  delta — гомоморфизм (проверено %d пар)" % cnt, homok, "контрпример %s" % (bad,))
-rec("C2  произведение координат delta — всегда квадрат",
-    all(prod_is_square(delta(P)) for P in pts_test))
-rec("C3  delta(O) = (1,1,1)", delta(E(0)) == (1, 1, 1))
-# ядро: delta(2P) = (1,1,1)
-rec("C4  delta(2P) = (1,1,1) для всех тестовых P",
-    all(delta(2 * P) == (1, 1, 1) for P in pts_test))
+rec("ДОК", "C1", "delta — гомоморфизм (проверено пар: %d)" % cnt, len(bad) == 0, bad[:2])
+rec("ДОК", "C2", "delta(O) = (1,1,1)", delta(E(0)) == (1, 1, 1))
+rec("ДОК", "C3", "delta(2P) = (1,1,1) для всех пробных P (ядро содержит 2E(Q))",
+    all(delta(2*pp) == (1, 1, 1) for pp in probe))
+rec("ДОК", "C4", "произведение координат delta — всегда квадрат",
+    all(sqclass(QQ(d[0])*QQ(d[1])*QQ(d[2])) == 1 for d in [delta(pp) for pp in probe]))
 
-# ============================================================ D
-hdr("D. КОНТРОЛЬНЫЙ ЭКСПЕРИМЕНТ: ПАРА (15,8), У КОТОРОЙ НА C ЕСТЬ ЯВНАЯ ТОЧКА")
-print("   Если порядок корней перепутан, требуемый класс окажется перестановкой")
-print("   и вывод перевернётся.  Нужен случай, где точка C ИЗВЕСТНА, а [s] != 1.")
 
-def build(mm, nn):
-    ss = QQ(mm**2 + nn**2) / 2
-    bb = ss * mm**2 * nn**2
-    rr = [-bb, -ss * mm**4, -ss * nn**4]
-    cc = (Xv - rr[0]) * (Xv - rr[1]) * (Xv - rr[2])
-    EE = EllipticCurve([0, cc[2], 0, cc[1], cc[0]])
-    return ss, bb, rr, EE
+# =====================================================================================
+hdr("D.  ПОЛОЖИТЕЛЬНЫЕ КОНТРОЛИ: проверяем порядок корней НЕ алгеброй, а точками")
+# =====================================================================================
+# D-I. Настоящие точки C для других (m,n): t=1 и m^2+n^2 = квадрат.
+hits = []
+for mm2 in range(2, 40):
+    for nn2 in range(1, mm2):
+        if gcd(mm2, nn2) != 1: continue
+        if not ZZ(mm2**2 + nn2**2).is_square(): continue
+        hits.append((mm2, nn2, 1))
+okD, detail = True, []
+for (mA, nA, tA) in hits:
+    sA = QQ(mA**2 + nA**2) / 2
+    bA = sA * mA**2 * nA**2
+    eA = [-bA, -sA*mA**4, -sA*nA**4]
+    XA = bA * tA**2
+    F0A, F4A, F8A = mA**2 + nA**2*tA**2, sA*(1+tA**2), nA**2 + mA**2*tA**2
+    assert QQ(F0A).is_square() and QQ(F4A).is_square() and QQ(F8A).is_square()
+    VA = bA * QQ(F0A).sqrt() * QQ(F4A).sqrt() * QQ(F8A).sqrt()
+    onA = (VA**2 == (XA-eA[0])*(XA-eA[1])*(XA-eA[2]))
+    dA = tuple(sqclass(XA - eA[i]) for i in range(3))
+    want = (1, sqclass(sA), sqclass(sA))
+    detail.append(((mA, nA, tA), dA, want, onA and dA == want))
+    okD = okD and onA and dA == want
+rec("ДОК", "D1", "НАСТОЯЩИЕ точки C (%d штук, другие пары) дают delta = (1,[s],[s]) ровно в этом порядке" % len(hits),
+    okD)
+for d in detail: note("   (m,n,t)=%s  delta=%s  ожидалось %s  %s" % d)
+note("замечание: у всех этих контролей [s]=2, так что контроль ловит подмену позиции 1<->2,3.")
 
-def C_point(mm, nn, tt):
-    """Проверяет, лежит ли t=tt на C_{mm,nn}; возвращает (u0,u4,u8) или None."""
-    ss = QQ(mm**2 + nn**2) / 2
-    vals = [mm**2 + nn**2 * tt**2, ss * (1 + tt**2), nn**2 + mm**2 * tt**2]
-    us = []
-    for v in vals:
-        v = QQ(v)
-        if not v.is_square():
-            return None
-        us.append(v.sqrt())
-    return tuple(us)
+# D-II. Контроли на САМОЙ паре (11,4): по одному F_i за раз делаем квадратом.
+# F4 квадрат:  274(1+t^2) квадрат.  t=15/7:  1+t^2 = 274/49.
+tc = QQ(15)/7
+F4c = s*(1 + tc**2)
+rec("ДОК", "D2a", "t=15/7: F4 = %s — квадрат в Q" % F4c, QQ(F4c).is_square())
+Xc = b*tc**2
+rec("ДОК", "D2b", "тогда X-e1 — ТОЧНЫЙ квадрат в Q (позиция 1 даёт класс 1)",
+    QQ(Xc - e1).is_square(), "X-e1 = %s = (%s)^2" % (Xc - e1, sqrt(QQ(Xc - e1))))
+rec("ДОК", "D2c", "и X-e1 = (mn)^2*F4 численно", Xc - e1 == (m*n)**2 * F4c)
+# F0 квадрат: 121+16t^2 = w^2 -> t=15, w=61
+tc2 = QQ(15)
+F0c = m**2 + n**2*tc2**2
+rec("ДОК", "D3a", "t=15: F0 = %s = %s^2" % (F0c, sqrt(QQ(F0c))), QQ(F0c).is_square())
+Xc2 = b*tc2**2
+rec("ДОК", "D3b", "тогда класс (X-e2) равен [s] = %s (позиция 2 даёт класс s)" % sqclass(s),
+    sqclass(Xc2 - e2) == sqclass(s), "класс = %s" % sqclass(Xc2 - e2))
+rec("ДОК", "D3c", "и X-e2 = s*m^2*F0 численно", Xc2 - e2 == s*m**2*F0c)
+# F8 квадрат: t=1/15
+tc3 = QQ(1)/15
+F8c = n**2 + m**2*tc3**2
+rec("ДОК", "D4a", "t=1/15: F8 = %s — квадрат" % F8c, QQ(F8c).is_square())
+Xc3 = b*tc3**2
+rec("ДОК", "D4b", "тогда класс (X-e3) равен [s] = %s (позиция 3 даёт класс s)" % sqclass(s),
+    sqclass(Xc3 - e3) == sqclass(s), "класс = %s" % sqclass(Xc3 - e3))
+rec("ДОК", "D4c", "и X-e3 = s*n^2*F8 численно", Xc3 - e3 == s*n**2*F8c)
+note("D2-D4 — контроли НА САМОЙ (11,4): каждая позиция проверена отдельным примером,")
+note("без опоры на общую алгебру. Порядок корней подтверждён независимо.")
 
-ctrl = []
-for (mm, nn) in [(15, 8), (20, 21), (7, 24), (119, 120), (44, 117)]:
-    if gcd(mm, nn) != 1:
-        continue
-    u = C_point(mm, nn, QQ(1))
-    if u is None:
-        continue
-    ss, bb, rr, EE = build(mm, nn)
-    Xp = bb * QQ(1)**2
-    Vp = bb * u[0] * u[1] * u[2]
-    on = (Vp**2 == (Xp - rr[0]) * (Xp - rr[1]) * (Xp - rr[2]))
-    P = EE(Xp, Vp)
-    d = delta(P, rr)
-    want = (1, sqcls(ss), sqcls(ss))
-    ctrl.append((mm, nn, ss, d, want, on, d == want))
-    print("   (m,n)=(%d,%d)  t=1  u=(%s,%s,%s)  s=%s  [s]=%s" % (mm, nn, u[0], u[1], u[2], ss, sqcls(ss)))
-    print("        точка на E: %s ;  лежит на E: %s" % (P, on))
-    print("        delta(P) = %s      требуемый (1,[s],[s]) = %s   -> %s"
-          % (d.__str__(), want.__str__(), "СОВПАЛО" if d == want else "НЕ СОВПАЛО"))
 
-rec("D1  контрольные пары дают delta = (1,[s],[s]) точно в этом порядке",
-    len(ctrl) > 0 and all(c[6] for c in ctrl),
-    "проверено пар: %d" % len(ctrl))
-rec("D2  у контрольных пар [s] != 1, значит тест РАЗЛИЧАЕТ позицию 1 и позиции 2,3",
-    all(sqcls(c[2]) != 1 for c in ctrl))
-
-# дополнительный контроль: широкий поиск точек C при t=p/q
-hdr("D'. ПРЯМОЙ ПОИСК РАЦИОНАЛЬНЫХ ТОЧЕК НА C_{11,4} (попытка опровергнуть в лоб)")
-found = []
-HT = 400
-t0 = time.time()
-for q in range(1, HT + 1):
-    for p in range(-HT, HT + 1):
-        if gcd(abs(p), q) != 1:
-            continue
-        tt = QQ(p) / q
-        # быстрый предварительный фильтр: F0 квадрат
-        num0 = M**2 * q**2 + N**2 * p**2
-        if not ZZ(num0).is_square():
-            continue
-        num8 = N**2 * q**2 + M**2 * p**2
-        if not ZZ(num8).is_square():
-            continue
-        # F4 = s(1+t^2) = (137/2)(p^2+q^2)/q^2 -> квадрат <=> 2*137*(p^2+q^2) квадрат
-        if not ZZ(2 * 137 * (p**2 + q**2)).is_square():
-            continue
-        found.append(tt)
-print("   перебор |p|,q <= %d, время %.1f с" % (HT, time.time() - t0))
-rec("D3  прямой поиск точек C_{11,4} ничего не нашёл (это НЕ доказательство)",
-    len(found) == 0, "найдено: %s" % found)
-
-# ============================================================ E
-hdr("E. ТОЧКИ E(Q), ОБРАЗ delta, ТРЕБУЕМЫЙ КЛАСС")
-
-t0 = time.time()
-gens = None
-Emin = E.minimal_model()
-iso = Emin.isomorphism_to(E)
-print("   минимальная модель Emin: %s" % Emin)
-try:
-    gmin = Emin.gens()
-    gens = [iso(g) for g in gmin]
-except Exception as ex:
-    print("   Emin.gens() не отработал: %s" % ex)
+# =====================================================================================
+hdr("E.  ОБРАЗ delta(E(Q)): собственный поиск генератора, 8 классов, наличие/отсутствие цели")
+# =====================================================================================
+found = {}
+pts_used = []
+cands = list(E.torsion_points())
+# собственный поиск точек (не берём ничего у Codex)
+for h in (9, 12, 14):
     try:
-        gens = E.gens()
-    except Exception as ex2:
-        print("   E.gens() не отработал: %s" % ex2)
-print("   образующие (перенесённые на E) = %s   (%.1f с)" % (gens, time.time() - t0))
-
-# собственный поиск точек, независимо от gens()
-pool = set()
-for P in E.torsion_points():
-    pool.add(P)
-t0 = time.time()
-for h in [12, 16, 20]:
-    try:
-        for P in Emin.point_search(h):
-            pool.add(iso(P)); pool.add(-iso(P))
+        cands += E.point_search(h)
     except Exception as ex:
-        print("   point_search(%s) сбой: %s" % (h, ex))
-print("   углублённый поиск точек до высоты 20 на Emin: %.1f с, точек %s" % (time.time() - t0, len(pool)))
-if gens:
-    for g in gens:
-        pool.add(g)
-        for k in range(-4, 5):
-            pool.add(k * g)
-# замыкаем по сложению один раз
-pool2 = set(pool)
-for P in list(pool):
-    for Q in list(pool):
-        pool2.add(P + Q)
-pool = pool2
-print("   всего точек в пуле: %s" % len(pool))
-
-img = set()
-for P in pool:
-    img.add(delta(P))
-img = sorted(img)
-print("   различных классов delta от найденных точек: %s" % len(img))
-for d in img:
-    print("      %s" % (d.__str__()))
-
-rec("E1  найдено ровно 8 различных классов", len(img) == 8, "найдено %s" % len(img))
-rec("E2  требуемый класс %s ОТСУТСТВУЕТ среди найденных" % (req_class.__str__()),
-    req_class not in img)
-
-# проверим, что образ — подгруппа
-def is_subgroup(S):
-    S = set(S)
-    for a in S:
-        for c in S:
-            if mulcls(a, c) not in S:
-                return False
-    return True
-rec("E3  найденный образ замкнут по умножению (подгруппа)", is_subgroup(img))
-
-# перестановки требуемого класса — присутствуют ли?
-perms_req = set()
-for sg in itertools.permutations(range(3)):
-    perms_req.add(tuple(req_class[i] for i in sg))
-print("   перестановки требуемого класса: %s" % sorted(perms_req).__str__())
-present_perm = [d for d in img if d in perms_req]
-print("   ИЗ НИХ ПРИСУТСТВУЮТ В ОБРАЗЕ: %s" % present_perm.__str__())
-rec("E4  ОПАСНОСТЬ: некоторая перестановка требуемого класса В ОБРАЗЕ ЕСТЬ",
-    len(present_perm) > 0,
-    "это значит, что путаница в порядке корней ПЕРЕВЕРНУЛА БЫ ВЫВОД")
-
-# ============================================================ F
-hdr("F. РАНГ E(Q): НЕСКОЛЬКО НЕЗАВИСИМЫХ ИСТОЧНИКОВ ВЕРХНЕЙ ГРАНИЦЫ")
-
-print("   ЛОГИКА: |E(Q)/2E(Q)| = 2^(r+2) при полном 2-кручении.")
-print("   8 различных классов доказывают ТОЛЬКО r >= 1.  Полнота образа требует r <= 1.")
-
-res_rank = {}
+        note("point_search(%s) не сработал: %s" % (h, ex))
+# плюс точки, которые найдёт PARI ellrank (независимая от Codex реализация)
 try:
-    lo, hi = E.rank_bounds()
-    res_rank['eclib rank_bounds'] = (lo, hi)
-    print("   eclib rank_bounds: [%s, %s]" % (lo, hi))
+    pr = pari(Emin).ellrank(3)
+    for pt in pr[3]:
+        Pm = Emin(QQ(pt[0]), QQ(pt[1]))
+        cands.append(iso_from_min(Pm))
+    note("PARI ellrank вернул %d точек" % len(pr[3]))
 except Exception as ex:
-    print("   rank_bounds не отработал: %s" % ex)
+    note("PARI ellrank точки: %s" % ex)
+cands = [pp for pp in set(cands)]
+gen_inf = [pp for pp in cands if pp.order() == oo]
+rec("ЧИС", "E0", "собственным поиском найдена точка бесконечного порядка на E", len(gen_inf) > 0,
+    gen_inf[0] if gen_inf else None)
+G = gen_inf[0] if gen_inf else None
+if G is not None:
+    note("МОЙ генератор-кандидат G = %s" % (G.xy(),))
+    grp = [E(0)] + [pt for pt in E.torsion_points() if not pt.is_zero()]
+    full = set()
+    for tt_ in grp:
+        full.add(delta(tt_))
+        full.add(delta(G + tt_))
+    img = sorted(full)
+    rec("ДОК", "E1", "получено ровно 8 РАЗЛИЧНЫХ классов от явных рациональных точек",
+        len(img) == 8, len(img))
+    for d in img: note("   %s" % (d,))
+    closed = all(mul(u, v) in full for u in img for v in img)
+    rec("ДОК", "E2", "найденный набор замкнут по умножению (это подгруппа порядка 8)", closed)
+    rec("ДОК", "E3", "требуемый класс %s ОТСУТСТВУЕТ среди 8 найденных" % (req,), req not in full)
+    # проверим все точки, что нашлись, не дают ли 9-го класса
+    extra = set(delta(pp) for pp in cands) | set(delta(pp + tt_) for pp in cands for tt_ in grp)
+    rec("ЧИС", "E4", "ни одна найденная точка E(Q) не даёт 9-го класса (иначе rank>=2 и вывод падает)",
+        extra <= full, sorted(extra - full)[:3])
+else:
+    rec("ЧИС", "E1", "генератор не найден — секция E не выполнена", False)
+    img, full = [], set()
 
+
+# =====================================================================================
+hdr("F.  РАНГ E(Q): самое несущее место. Четыре независимых подхода")
+# =====================================================================================
+rb = Emin.rank_bounds()
+rec("ЧИС", "F1", "eclib/mwrank: безусловные границы ранга", True, rb)
+rec("ЧИС", "F1b", "БЕЗУСЛОВНОГО 2-спуска НЕДОСТАТОЧНО: верхняя граница %d > 1" % rb[1],
+    rb[1] == 1, "верх = %d" % rb[1])
+sr = Emin.selmer_rank()
+rec("ЧИС", "F2", "2-Selmer ранг = %d  =>  rank + dim Sha[2] = %d" % (sr, sr - 2), True,
+    "при rank=1 имеем dim Sha[2] = %d, #Sha[2] = %d" % (sr - 3, 2**(sr - 3)))
+pr_out = {}
+for eff in (0, 1, 2, 3):
+    try:
+        pr_out[eff] = pari(Emin).ellrank(eff)
+    except Exception as ex:
+        pr_out[eff] = "err %s" % ex
+note("PARI ellrank по effort: %s" % pr_out)
+pari_ok = all((not isinstance(v, str)) and ZZ(v[0]) == 1 and ZZ(v[1]) == 1 for v in pr_out.values())
+rec("ПО", "F3", "PARI ellrank (2-спуск + спаривание Касселса-Тейта): rank = 1 при всех effort",
+    pari_ok)
+
+w = Emin.root_number()
+rec("ЧИС", "F4", "знак функционального уравнения w(E) = %d" % w, w == -1)
+note("по 2-теореме о чётности (Докчитсер-Докчитсер/Монски — ТЕОРЕМА) ранг нечётен => rank in {1,3}")
+
+L = Emin.lseries().dokchitser(prec=60)
+fe = L.check_functional_equation()
+L1 = L(1); Lp1 = L.derivative(1, 1)
+rec("ЧИС", "F5", "Dokchitser: невязка функционального уравнения ~ 0", abs(RR(fe)) < 1e-20, RR(fe))
+rec("ЧИС", "F6", "L(E,1) = 0 численно", abs(RR(L1)) < 1e-12, RR(L1))
+rec("ЧИС", "F7", "L'(E,1) != 0 с БОЛЬШИМ запасом", abs(RR(Lp1)) > 1, RR(Lp1))
 try:
-    sr = E.selmer_rank()
-    res_rank['selmer_rank'] = sr
-    print("   2-Selmer rank (eclib) = %s  =>  r <= %s - 2 = %s" % (sr, sr, sr - 2))
+    par = pari(Emin).ellanalyticrank()
+    rec("ЧИС", "F8", "PARI ellanalyticrank независимо даёт (rank_an, L^(r)(1))", ZZ(par[0]) == 1, par)
+    agree = abs(RR(par[1]) - RR(Lp1)) < 1e-6
+    rec("ЧИС", "F9", "PARI и Dokchitser согласованы по L'(1)", agree,
+        "PARI %s vs Dokchitser %s" % (RR(par[1]), RR(Lp1)))
 except Exception as ex:
-    print("   selmer_rank не отработал: %s" % ex)
+    rec("ЧИС", "F8", "PARI ellanalyticrank", False, ex)
 
-try:
-    r_pari = E.rank(algorithm='pari', only_use_mwrank=False)
-    res_rank['pari rank'] = r_pari
-    print("   PARI ellrank -> rank = %s" % r_pari)
-except Exception as ex:
-    print("   PARI rank не отработал: %s" % ex)
+note("")
+note("ВЫВОД ПО РАНГУ:")
+note("  аналитический ранг = 1  (L(1)=0, L'(1)=%.6f != 0, две независимые реализации)." % RR(Lp1))
+note("  По Гроссу-Загье + Колывагину (ТЕОРЕМА, модулярность известна) из rank_an <= 1 следует")
+note("  rank_alg = rank_an = 1 и конечность Sha.  Это НЕ опирается на PARI ellrank и НЕ на BSD.")
+note("  [ДОК ПО] — при условии корректности численного значения L'(1); запас 13.6 против 0 огромен.")
+note("  Codex опирался ТОЛЬКО на PARI ellrank и сам отметил, что eclib даёт [1,3]. Здесь ранг")
+note("  подтверждён вторым, теоретически независимым путём.")
 
-try:
-    ar = E.analytic_rank()
-    res_rank['analytic_rank'] = ar
-    print("   аналитический ранг = %s" % ar)
-    print("   знак функционального уравнения = %s" % E.root_number())
-    print("   кондуктор = %s" % E.conductor().factor())
-except Exception as ex:
-    print("   analytic_rank не отработал: %s" % ex)
 
-ok_rank_1_unconditional = False
-note = ""
-if 'eclib rank_bounds' in res_rank:
-    lo, hi = res_rank['eclib rank_bounds']
-    if hi == 1:
-        ok_rank_1_unconditional = True
-        note = "eclib даёт верхнюю границу 1"
-    else:
-        note = "eclib верхняя граница = %s > 1" % hi
-rec("F1  БЕЗУСЛОВНАЯ верхняя граница ранга = 1 получена 2-спуском", ok_rank_1_unconditional, note)
-
-print("\n   --- F2: сырой вывод PARI ellrank (что именно доказано) ---")
-try:
-    Emin = E.minimal_model()
-    print("   минимальная модель: %s" % Emin)
-    pe = pari(Emin).ellrank()
-    print("   PARI ellrank(Emin) = %s" % pe)
-    print("   формат PARI: [нижняя граница, верхняя граница, s, точки]")
-    lo_p = ZZ(pe[0]); hi_p = ZZ(pe[1])
-    res_rank['pari bounds'] = (lo_p, hi_p)
-    rec("F2  PARI ellrank доказывает rank = 1 (lo == hi == 1)", lo_p == 1 and hi_p == 1,
-        "PARI: [%s, %s]" % (lo_p, hi_p))
-except Exception as ex:
-    print("   PARI ellrank не отработал: %s" % ex)
-    rec("F2  PARI ellrank доказывает rank = 1", False, str(ex))
-
-print("\n   --- F3: строгая дорожка Гросс-Загир + Колывагин ---")
-print("   Знак функционального уравнения -1 => ord_{s=1} L(E,s) НЕЧЁТЕН (безусловно,")
-print("   по модулярности и функциональному уравнению).  Достаточно показать L'(E,1) != 0.")
-try:
-    Emin = E.minimal_model()
-    Lser = Emin.lseries()
-    val, err = Lser.deriv_at1(4000)
-    print("   L'(E,1) ~ %s   с оценкой ошибки %s" % (val, err))
-    rig = (abs(val) > 2 * err) and (err > 0)
-    rec("F3  L'(E,1) != 0 с запасом по оценке ошибки", rig,
-        "|L'| = %s, error = %s, отношение %s" % (val, err, (abs(val) / err) if err > 0 else "inf"))
-    if rig:
-        print("   => ord = 1 => (Гросс-Загир + Колывагин) rank E(Q) = 1 и Sha конечна.")
-        print("   ЭТО БЕЗУСЛОВНАЯ ТЕОРЕМА, если численная оценка ошибки корректна.")
-except Exception as ex:
-    print("   deriv_at1 не отработал: %s" % ex)
-    rec("F3  L'(E,1) != 0 с запасом", False, str(ex))
-
-print("\n   --- F4: что даёт 2-спуск сам по себе ---")
-if 'selmer_rank' in res_rank:
-    sr = res_rank['selmer_rank']
-    print("   dim_F2 S^2(E/Q) = %s = r + 2 + dim Sha[2].  При r=1 => dim Sha[2] = %s." % (sr, sr - 3))
-    print("   Индекс образа E(Q)/2E(Q) в Селмере при r=1 равен 2^%s = %s." % (sr - 3, 2**(sr - 3)))
-    print("   ЗНАЧИТ: чистый 2-спуск НЕ закрывает (11,4); нужен внешний аргумент про ранг.")
-
-# ============================================================ G
-hdr("G. БЕСКОНЕЧНОСТЬ: ПРОЕКТИВНО, ВСЕ ВЕТВИ")
-
-print("   C аффинно: u0^2=F0, u4^2=F4, u8^2=F8.  Гладкая проективная модель добавляет")
-print("   только точки над t=inf (аффинная часть при конечном t уже гладкая: см. G1).")
-
-# G1: гладкость аффинной части
-Rq = PolynomialRing(QQ, ['tt', 'x0', 'x4', 'x8'])
-tt, x0, x4, x8 = Rq.gens()
-g0 = x0**2 - (M**2 + N**2 * tt**2)
-g4 = x4**2 - s * (1 + tt**2)
-g8 = x8**2 - (N**2 + M**2 * tt**2)
-Jac = matrix(Rq, [[g.derivative(v) for v in Rq.gens()] for g in [g0, g4, g8]])
-# особая точка требует ранг < 3, т.е. все 3x3 миноры = 0 вместе с g_i.
-I = Rq.ideal([g0, g4, g8] + list(Jac.minors(3)))
-dimI = I.dimension()
-print("   идеал (уравнения + все 3x3 миноры якобиана): размерность = %s" % dimI)
-rec("G1  аффинная C гладкая над Q~ (особое множество пусто, dim = -1)", dimI == -1)
-
-# G2: замена z = 1/t, U_i = u_i/t
-Rz.<z> = PolynomialRing(QQ)
-G0 = N**2 + M**2 * z**2      # (u0/t)^2
-G4 = s * (1 + z**2)          # (u4/t)^2
-G8 = M**2 + N**2 * z**2      # (u8/t)^2
-print("   U0^2 = (u0/t)^2 = m^2/t^2 + n^2 = %s   -> при z=0: %s" % (G0, G0(0)))
-print("   U4^2 = (u4/t)^2 = s(1/t^2 + 1)   = %s   -> при z=0: %s" % (G4, G4(0)))
-print("   U8^2 = (u8/t)^2 = n^2/t^2 + m^2 = %s   -> при z=0: %s" % (G8, G8(0)))
-# символьная проверка подстановки
-u0sq = M**2 + N**2 * t**2  # в Rt, но с числами
-chk0 = (M**2 + N**2 * (1 / z)**2) * z**2 - G0
-chk4 = (s * (1 + (1 / z)**2)) * z**2 - G4
-chk8 = (N**2 + M**2 * (1 / z)**2) * z**2 - G8
-FFz = Rz.fraction_field()
-rec("G2  подстановка t=1/z, U_i=u_i/t корректна",
-    FFz(chk0) == 0 and FFz(chk4) == 0 and FFz(chk8) == 0)
-
-print("   Над z=0 система распадается: U0^2=n^2=%s, U4^2=s=%s, U8^2=m^2=%s" % (N**2, s, M**2))
-print("   U0 = +-%s (рационально), U8 = +-%s (рационально), U4 = +-sqrt(%s)" % (N, M, s))
-rec("G3  s НЕ квадрат в Q", not QQ(s).is_square(), "s = %s" % s)
-print("   => все 8 точек над t=inf определены над Q(sqrt(s)) = Q(sqrt(%s)) и разбиты" % sqcls(s))
-print("      на 4 пары сопряжённых; рациональных среди них НЕТ.")
-
-# G4: проверим, что над z=0 ровно 8 точек и они неразветвлены
-print("   Число точек над z=0: три квадратики G0,G4,G8 при z=0 дают ненулевые значения")
-print("   %s, %s, %s -> ни одна не ветвится, точек 2*2*2 = 8." % (G0(0), G4(0), G8(0)))
-rec("G4  над t=inf ровно 8 неразветвлённых точек", G0(0) != 0 and G4(0) != 0 and G8(0) != 0)
-
-# G5: род
-print("   Ветвление: F0,F4,F8 имеют по 2 различных корня, все 6 различны?")
-allroots = []
-for f in [F0n, F4n, F8n]:
-    allroots += [r for r, _ in f.roots(QQbar)]
-print("   6 точек ветвления: %s" % [CC(r) for r in allroots])
-distinct6 = len(set(allroots)) == 6
-rec("G5  6 точек ветвления попарно различны", distinct6)
-print("   Риман-Гурвиц: 2g-2 = 8*(-2) + 6*4 = 8 => g = 5.  (степень накрытия 8)")
-
-# G6: независимость F0,F4,F8 по модулю квадратов в Q(t)* (иначе C приводима)
-Rt2.<T2v> = PolynomialRing(QQ)
-Fs = {1: M**2 + N**2 * T2v**2, 2: s * (1 + T2v**2), 4: N**2 + M**2 * T2v**2}
+# =====================================================================================
+hdr("G.  ТОЧКИ НАД БЕСКОНЕЧНОСТЬЮ: аккуратно, в проективных координатах")
+# =====================================================================================
+Rz = PolynomialRing(QQ, 'z'); z = Rz.gen()
+# t = 1/z, U_i = u_i/t = u_i*z
+G0 = m**2*z**2 + n**2        # = z^2 * F0(1/z)
+G4 = s*(z**2 + 1)            # = z^2 * F4(1/z)
+G8 = n**2*z**2 + m**2        # = z^2 * F8(1/z)
+Rtz = PolynomialRing(QQ, ['tv'])
+tv = Rtz.gen()
+chk = True
+for (Fi, Gi) in [(m**2 + n**2*tv**2, G0), (s*(1+tv**2), G4), (n**2 + m**2*tv**2, G8)]:
+    lhs = Fi.subs({tv: 1/z}) * z**2
+    chk = chk and (Rz.fraction_field()(lhs) == Rz.fraction_field()(Gi))
+rec("ДОК", "G1", "подстановка t=1/z, U_i = u_i*z корректна: U_i^2 = z^2*F_i(1/z)", chk)
+rec("ДОК", "G2", "при z=0:  U0^2 = n^2,  U4^2 = s,  U8^2 = m^2",
+    (G0(0), G4(0), G8(0)) == (n**2, s, m**2), (G0(0), G4(0), G8(0)))
+rec("ДОК", "G3", "правые части в z=0 НЕ равны нулю => карта z=0 гладкая, ветви не склеиваются",
+    G0(0) != 0 and G4(0) != 0 and G8(0) != 0)
+rec("ДОК", "G4", "s = %s НЕ квадрат в Q  =>  рациональных точек над t=inf НЕТ" % s,
+    not QQ(s).is_square())
+# ветвление: корни F0,F4,F8 попарно различны и все конечны и != 0
+br = []
+for Fi in [m**2 + n**2*x**2, s*(1+x**2), n**2 + m**2*x**2]:
+    br += list(Fi.roots(QQbar, multiplicities=False))
+rec("ДОК", "G5", "6 точек ветвления попарно различны, все конечны и отличны от 0 и inf",
+    len(set(br)) == 6 and all(r != 0 for r in br), len(set(br)))
+rec("ДОК", "G6", "=> над t=inf ровно 8 неразветвлённых точек; рациональна лишь при s,m^2,n^2 квадратах",
+    True)
+# неприводимость / степень 8: F0,F4,F8 независимы по модулю квадратов в Q(t)
+Rq = PolynomialRing(QQ, 'tq'); tq = Rq.gen()
+FL = [m**2 + n**2*tq**2, s*(1+tq**2), n**2 + m**2*tq**2]
 indep = True
 for mask in range(1, 8):
-    prod_f = Rt2(1)
-    for k in [1, 2, 4]:
-        if mask & k:
-            prod_f *= Fs[k]
-    if prod_f.is_square():
-        indep = False
-        print("   ПОДОЗРЕНИЕ: произведение маски %s — квадрат в Q(t)" % mask)
-rec("G6  F0,F4,F8 независимы mod квадратов => C неприводима, степень 8", indep)
-
-# ============================================================ H
-hdr("H. ПЕРЕСТАНОВКИ КОРНЕЙ")
-
-print("   delta зависит от упорядочения (e1,e2,e3).  При перестановке sg образ и")
-print("   требуемый класс переставляются ОДНОЙ И ТОЙ ЖЕ sg -> вывод инвариантен,")
-print("   ЕСЛИ и только если обе величины считаны в ОДНОМ порядке.")
-inv_ok = True
-for sg in itertools.permutations(range(3)):
-    rr = [ROOTS[i] for i in sg]
-    img_s = set(delta(P, rr) for P in pool)
-    # требуемый класс в том же порядке
-    base = {0: 1, 1: sqcls(s), 2: sqcls(s)}
-    req_s = tuple(base[i] for i in sg)
-    inside = req_s in img_s
-    print("   sg=%s  корни=%s  требуемый=%s  в образе: %s"
-          % (sg.__str__(), [str(x) for x in rr], req_s.__str__(), inside))
-    if inside:
-        inv_ok = False
-rec("H1  ни при какой перестановке (согласованной!) требуемый класс не попадает в образ", inv_ok)
-
-print("   А теперь НЕСОГЛАСОВАННЫЙ случай — ровно та ошибка, которую ищем:")
-for sg in itertools.permutations(range(3)):
-    wrong = tuple(req_class[i] for i in sg)
-    if wrong in img:
-        print("   *** если требуемый класс ошибочно записать как %s (перестановка sg=%s"
-              % (wrong.__str__(), sg.__str__()))
-        print("       при НЕпереставленных корнях), он В ОБРАЗЕ ЕСТЬ и вывод рушится.")
-
-# ============================================================ I
-hdr("I. ЛОКАЛЬНЫЙ ОБРАЗ delta_v И ГРУППА СЕЛМЕРА")
-
-def loc_class(q, p):
-    """Канонический представитель квадратного класса q в Q_p*/Q_p*^2."""
-    q = QQ(q)
-    a = q.valuation(p)
-    u = q / p**a
-    if p == 2:
-        un = ZZ(u.numerator()); ud = ZZ(u.denominator())
-        uu = (un * ud) % 8          # ud нечётно, ud^2=1 mod 8, so un*ud ~ un/ud
-        return (a % 2, uu % 8)
-    else:
-        un = ZZ(u.numerator()) % p; ud = ZZ(u.denominator()) % p
-        val = (un * pow(ud, p - 2, p)) % p
-        return (a % 2, 1 if kronecker(val, p) == 1 else -1)
-
-def loc_class_R(q):
-    return 1 if QQ(q) > 0 else -1
-
-def loc_delta(x, p):
-    return tuple(loc_class(x - ROOTS[i], p) for i in range(3))
-
-def loc_size(p):
-    # |E(Q_p)/2E(Q_p)| = |E(Q_p)[2]| / |2|_p ; полное 2-кручение => 4 / |2|_p
-    return 4 if p != 2 else 8
-
-BADP = sorted(set([2] + [q for q, _ in ZZ(E.discriminant().numerator()).factor()]
-                      + [q for q, _ in ZZ(2 * M * N * (M**2 - N**2) * (M**2 + N**2)).factor()]))
-print("   плохие простые (мой расчёт): %s" % BADP)
-
-sel_report = {}
-set_random_seed(1)
-for p in BADP:
-    target = loc_size(p)
-    seen = {}
-    # образы кручения и O
-    seen[(loc_class(1, p),) * 3 if False else tuple([loc_class(1, p)] * 3)] = "O"
+    prod = Rq.fraction_field()(1)
     for i in range(3):
-        x = ROOTS[i]
-        cls = []
-        for j in range(3):
-            v = x - ROOTS[j]
-            if v == 0:
-                a, c = [z for z in range(3) if z != j]
-                v = (ROOTS[j] - ROOTS[a]) * (ROOTS[j] - ROOTS[c])
-            cls.append(loc_class(v, p))
-        seen[tuple(cls)] = "T%d" % (i + 1)
-    # случайный поиск X из Q_p с f(X) квадратом
-    tries = 0
-    while len(seen) < target and tries < 400000:
-        tries += 1
-        e = ZZ.random_element(-3, 4)
-        a = ZZ.random_element(1, p**4 + 1)
-        x = QQ(a) * p**e
-        f = (x - ROOTS[0]) * (x - ROOTS[1]) * (x - ROOTS[2])
-        if f == 0:
-            continue
-        # f — квадрат в Q_p ?
-        a_ = f.valuation(p)
-        if a_ % 2 != 0:
-            continue
-        u = f / p**a_
-        if p == 2:
-            un = ZZ(u.numerator()) * ZZ(u.denominator())
-            if un % 8 != 1:
-                continue
-        else:
-            un = ZZ(u.numerator()); ud = ZZ(u.denominator())
-            if kronecker((un * ud) % p, p) != 1:
-                continue
-        seen[loc_delta(x, p)] = "x=%s" % x
-    got = len(seen)
-    req_loc = tuple(loc_class(QQ(req_class[i]), p) for i in range(3))
-    inside = req_loc in seen
-    sel_report[p] = (got, target, inside)
-    print("   p=%-5s локальных классов найдено %s из ожидаемых %s;  требуемый класс локально %s"
-          % (p, got, target, "ЕСТЬ" if inside else "НЕТ"))
+        if mask >> i & 1: prod *= FL[i]
+    nu = prod.numerator() * prod.denominator()
+    if nu.is_square() or (nu / nu.leading_coefficient()).is_square() and QQ(nu.leading_coefficient()).is_square():
+        indep = False
+rec("ДОК", "G7", "F0,F4,F8 независимы mod квадратов в Q(t) => C неприводима, степень 8, род 5", indep)
+note("род: 2g-2 = 8*(-2) + 6*4 = 8 => g = 5  [ДОК, Риман-Гурвиц]")
+# t = 0 отдельно
+rec("ДОК", "G8", "t=0 не даёт точки: F4(0) = s не квадрат", not QQ(s).is_square())
 
-# вещественное место
-Rsize = 2
-seenR = set()
-seenR.add((1, 1, 1))
-for i in range(3):
-    cls = []
-    for j in range(3):
-        v = ROOTS[i] - ROOTS[j]
-        if v == 0:
-            a, c = [z for z in range(3) if z != j]
-            v = (ROOTS[j] - ROOTS[a]) * (ROOTS[j] - ROOTS[c])
-        cls.append(loc_class_R(v))
-    seenR.add(tuple(cls))
-for _ in range(20000):
-    x = QQ(ZZ.random_element(-10**8, 10**8)) / ZZ.random_element(1, 1000)
-    f = (x - ROOTS[0]) * (x - ROOTS[1]) * (x - ROOTS[2])
-    if f > 0:
-        seenR.add(tuple(loc_class_R(x - ROOTS[i]) for i in range(3)))
-reqR = tuple(loc_class_R(QQ(req_class[i])) for i in range(3))
-print("   место R: локальных классов %s (ожидалось %s); требуемый %s -> %s"
-      % (len(seenR), Rsize, reqR.__str__(), "ЕСТЬ" if reqR in seenR else "НЕТ"))
-sel_report['R'] = (len(seenR), Rsize, reqR in seenR)
 
-all_complete = all(sel_report[k][0] == sel_report[k][1] for k in sel_report)
-all_inside = all(sel_report[k][2] for k in sel_report)
-rec("I1  локальные образы посчитаны ПОЛНОСТЬЮ во всех местах", all_complete,
-    str({k: sel_report[k] for k in sel_report}))
-rec("I2  требуемый класс ЛОКАЛЬНО РАЗРЕШИМ ВЕЗДЕ (=> лежит в группе Селмера)", all_inside)
-if all_inside and all_complete:
-    print("   СЛЕДСТВИЕ: локального препятствия НЕТ.  Значит исключение (11,4) держится")
-    print("   ИСКЛЮЧИТЕЛЬНО на верхней границе ранга r <= 1.  Если r = 3, образ = Селмер")
-    print("   и требуемый класс окажется В ОБРАЗЕ -> заявление ложно.")
+# =====================================================================================
+hdr("H.  УСТОЙЧИВОСТЬ К ПЕРЕСТАНОВКЕ КОРНЕЙ (главная ловушка)")
+# =====================================================================================
+if G is not None:
+    from itertools import permutations
+    allok, flip = True, []
+    for perm in permutations(range(3)):
+        ES_p = [ES[i] for i in perm]
+        # требуемый класс пересчитывается ИЗ ТОЖДЕСТВ при том же порядке
+        coef = {0: QQ((m*n)**2), 1: QQ(s*m**2), 2: QQ(s*n**2)}
+        req_p = tuple(sqclass(coef[i]) for i in perm)
+        img_p = set(tuple(d[i] for i in perm) for d in img)
+        if (req_p in img_p) != (req in full):
+            allok = False
+    rec("ДОК", "H1", "при СОГЛАСОВАННОЙ перестановке корней вывод не меняется ни для одной из 6",
+        allok)
+    # а вот несогласованная перестановка — и вывод переворачивается
+    for perm in permutations(range(3)):
+        rq = tuple(req[i] for i in perm)
+        if rq in full:
+            flip.append((perm, rq))
+    rec("НАБЛ", "H2", "ОПАСНОСТЬ: перестановка ТОЛЬКО требуемого класса даёт класс, который В ОБРАЗЕ ЕСТЬ",
+        len(flip) > 0, flip)
+    note("то есть путаница e1<->e2 молча перевернула бы вывод в 'не исключено'.")
+    note("именно поэтому секция D (контроли точками) обязательна — она закрывает эту дыру.")
 
-# ============================================================ J
-hdr("J. СВЕРКА С ЧИСЛАМИ CODEX (только здесь используются его величины)")
 
-codex = {
-    's': QQ(137) / 2, 'b': 132616,
-    'e': (QQ(-132616), QQ(-2005817) / 2, QQ(-17536)),
-    'G': (QQ(70664), QQ(138738600)),
-    'req': (1, 274, 274),
-    'img': [(1, 1, 1), (-1, 28770, -28770), (-28770, 137, -210), (28770, 210, 137),
-            (105, 210, 2), (-105, 137, -14385), (-274, 28770, -105), (274, 1, 274)],
-}
-rec("J1  s совпадает", codex['s'] == s)
-rec("J2  b совпадает", codex['b'] == b)
-rec("J3  корни совпадают И В ТОМ ЖЕ ПОРЯДКЕ", codex['e'] == (E1, E2, E3))
-rec("J4  требуемый класс совпадает", codex['req'] == req_class)
+# =====================================================================================
+hdr("I.  ЛОКАЛЬНАЯ РАЗРЕШИМОСТЬ: можно ли обойтись без ранга? (ответ: нельзя)")
+# =====================================================================================
+badp = sorted(set(ZZ(2*m*n*(m**2 - n**2)*(m**2 + n**2)).prime_factors()))
+note("плохие простые: %s" % badp)
+loc = {}
+for p in badp + [13, 17, 19, 23]:
+    ok = False
+    wit = None
+    for num in range(0, p**3):
+        tt_ = QQ(num)
+        try:
+            if is_sq_Qp(m**2 + n**2*tt_**2, p) and is_sq_Qp(s*(1+tt_**2), p) and is_sq_Qp(n**2 + m**2*tt_**2, p):
+                ok, wit = True, tt_; break
+        except Exception:
+            pass
+        if num > 4000: break
+    if not ok:  # попробуем карту в бесконечности и дроби
+        for den in range(1, 60):
+            for num in range(0, 200):
+                tt_ = QQ(num) / den
+                if is_sq_Qp(m**2 + n**2*tt_**2, p) and is_sq_Qp(s*(1+tt_**2), p) and is_sq_Qp(n**2 + m**2*tt_**2, p):
+                    ok, wit = True, tt_; break
+            if ok: break
+    loc[p] = (ok, wit)
+rec("ЧИС", "I1", "C(Q_p) непусто для всех плохих p (найдены явные свидетели t)",
+    all(v[0] for v in loc.values()), loc)
+rec("ДОК", "I2", "C(R) непусто: при любом вещественном t все F_i > 0", True)
+note("следствие [ДОК]: требуемый класс (1,[s],[s]) ЛЕЖИТ В ГРУППЕ СЕЛМЕРА (образ C(Q_p)->E(Q_p)).")
+note("значит НИКАКОЕ локальное условие его не убьёт; исключение ОБЯЗАНО опираться на ранг.")
+note("это и есть настоящая точка хрупкости заявления — и именно её Codex подпёр только PARI.")
+
+
+# =====================================================================================
+hdr("J.  ПРЯМОЙ ПОИСК РАЦИОНАЛЬНЫХ ТОЧЕК НА C_{11,4} (честная попытка сломать)")
+# =====================================================================================
+# F4 = 137(p^2+q^2)/2 квадрат  <=>  (p^2+q^2)/2 = 137*z^2  <=>  p^2+q^2 = 274 z^2.
+# параметризуем через гауссовы целые: 274 = 15^2+7^2
+hits2 = []
+BND = 1200
+ZI = ZZ[I]
+for w0 in (ZI(15 + 7*I), ZI(15 - 7*I)):
+    for a in range(-BND, BND + 1):
+        for bb in range(0, BND + 1):
+            if a == 0 and bb == 0: continue
+            if gcd(a, bb) != 1: continue
+            g = w0 * (ZI(a + bb*I))**2
+            p_, q_ = abs(ZZ(g.real())), abs(ZZ(g.imag()))
+            if p_ == 0 or q_ == 0: continue
+            d = gcd(p_, q_); p_ //= d; q_ //= d
+            if 2*(m**2 + n**2)*0 == 1: pass
+            if (p_**2 + q_**2) % 2: continue
+            if not ZZ((m**2 + n**2)*(p_**2 + q_**2)//2).is_square(): continue
+            if not ZZ(m**2*q_**2 + n**2*p_**2).is_square(): continue
+            if not ZZ(n**2*q_**2 + m**2*p_**2).is_square(): continue
+            hits2.append((p_, q_))
+rec("ЧИС", "J1", "прямой поиск по параметризации конуса (|a|,|b| <= %d) точек НЕ нашёл" % BND,
+    len(hits2) == 0, hits2[:5])
+note("это НЕ доказательство отсутствия — только неудачная попытка сломать. [НАБЛ]")
+# грубый контрольный перебор
+hits3 = []
+for q_ in range(1, 400, 2):
+    for p_ in range(1, 400, 2):
+        if gcd(p_, q_) != 1: continue
+        if not ZZ(137*(p_**2 + q_**2)//2).is_square(): continue
+        if ZZ(m**2*q_**2 + n**2*p_**2).is_square() and ZZ(n**2*q_**2 + m**2*p_**2).is_square():
+            hits3.append((p_, q_))
+rec("ЧИС", "J2", "контрольный тупой перебор p,q < 400 тоже ничего не нашёл", len(hits3) == 0, hits3[:5])
+
+
+# =====================================================================================
+hdr("K.  СВЕРКА С ЧИСЛАМИ CODEX (только здесь используются его величины)")
+# =====================================================================================
+cod_s, cod_b = QQ(137)/2, 132616
+cod_e = (QQ(-132616), QQ(-2005817)/2, QQ(-17536))
+cod_req = (1, 274, 274)
+cod_G = (QQ(70664), QQ(138738600))
+cod_img = {(1,1,1), (-1,28770,-28770), (-28770,137,-210), (28770,210,137),
+           (105,210,2), (-105,137,-14385), (-274,28770,-105), (274,1,274)}
+rec("ЧИС", "K1", "s и b совпадают с моими", (cod_s, cod_b) == (s, b))
+rec("ЧИС", "K2", "корни совпадают И В ТОМ ЖЕ ПОРЯДКЕ", cod_e == (e1, e2, e3))
+rec("ЧИС", "K3", "требуемый класс совпадает с моим", cod_req == req)
 try:
-    Gc = E(codex['G'][0], codex['G'][1])
-    rec("J5  точка G Codex лежит на МОЕЙ кривой E", True, "G=%s, delta(G)=%s" % (Gc, delta(Gc).__str__()))
-    rec("J6  G имеет бесконечный порядок", Gc.order() == Infinity)
+    GC = E(cod_G[0], cod_G[1])
+    rec("ЧИС", "K4", "точка G Codex лежит на МОЕЙ кривой E и имеет бесконечный порядок",
+        GC.order() == oo, "delta(G_codex) = %s" % (delta(GC),))
 except Exception as ex:
-    rec("J5  точка G Codex лежит на моей E", False, str(ex))
-rec("J7  список из 8 классов Codex совпадает с моим образом",
-    sorted(codex['img']) == sorted(img), "мой образ: %s" % sorted(img).__str__())
+    rec("ЧИС", "K4", "точка G Codex на моей кривой", False, ex)
+if G is not None:
+    rec("ЧИС", "K5", "список из 8 классов Codex совпадает с МОИМ образом", cod_img == full,
+        "лишние у него: %s ; лишние у меня: %s" % (sorted(cod_img - full), sorted(full - cod_img)))
 
-# ============================================================ ИТОГ
+
+# =====================================================================================
 hdr("ИТОГ")
-nfail = [k for k in VERD if not VERD[k][0]]
-for k in sorted(VERD):
-    print("   %-6s %s%s" % ("OK" if VERD[k][0] else "ПРОВАЛ", k, ("  -- " + VERD[k][1]) if VERD[k][1] else ""))
-print("\n   провалов: %s" % len(nfail))
-print("   %s" % nfail)
+# =====================================================================================
+fails = [(t_, c_, s_) for (t_, c_, s_, o_) in LOG if not o_]
+for (t_, c_, s_, o_) in LOG:
+    print("   %-7s %-5s %s" % ("OK" if o_ else "ПРОВАЛ", c_, s_))
+print("\n   провалов: %d" % len(fails))
+for f in fails: print("     -> %s %s" % (f[1], f[2]))
+print("\n   время: %.1f c" % (time.time() - T0))

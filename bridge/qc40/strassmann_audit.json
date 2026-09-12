@@ -1,0 +1,390 @@
+[
+  {
+    "orbit": 1,
+    "omega": 0,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        9,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 1,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 2,
+    "min_v": 2,
+    "tail_bound": 29,
+    "strassmann_bound": 0,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 1
+  },
+  {
+    "orbit": 1,
+    "omega": 3,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        9,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 4,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 5,
+    "min_v": 3,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 1
+  },
+  {
+    "orbit": 1,
+    "omega": 6,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 7,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        10,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 8,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        9,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 9,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 10,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        0,
+        2
+      ]
+    ],
+    "base_known_double": true,
+    "certified": true,
+    "root_count": 1,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 1,
+    "omega": 11,
+    "min_v": 1,
+    "tail_bound": 29,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        9,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 0,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 1,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        0,
+        2
+      ]
+    ],
+    "base_known_double": true,
+    "certified": true,
+    "root_count": 1,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 2,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        10,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 3,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 4,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 5,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        10,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 6,
+    "min_v": 3,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        10,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 1
+  },
+  {
+    "orbit": 2,
+    "omega": 7,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        7,
+        1
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 8,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 9,
+    "min_v": 2,
+    "tail_bound": 26,
+    "strassmann_bound": 0,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 1
+  },
+  {
+    "orbit": 2,
+    "omega": 10,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [
+      [
+        10,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 2,
+    "refinement_depth": 0
+  },
+  {
+    "orbit": 2,
+    "omega": 11,
+    "min_v": 1,
+    "tail_bound": 26,
+    "strassmann_bound": 2,
+    "roots_mod11": [],
+    "base_known_double": false,
+    "certified": true,
+    "root_count": 0,
+    "refinement_depth": 0
+  }
+]

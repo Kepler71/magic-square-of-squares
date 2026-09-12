@@ -1,0 +1,103 @@
+{
+  "precision_runs": [
+    20,
+    30
+  ],
+  "extra_padic_points": 40,
+  "matched_modulus": "11^8",
+  "all_candidates_on_curve_to_at_least_precision": 10,
+  "known_rational_points": 4,
+  "all_known_lifts_degenerate": true,
+  "complete_global_classification": false,
+  "warning": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation.",
+  "lifts": [
+    {
+      "m": 15,
+      "n": 8,
+      "t": "-1",
+      "cells": [
+        "289",
+        "49",
+        "529",
+        "529",
+        "289",
+        "49",
+        "49",
+        "529",
+        "289"
+      ],
+      "nonsquare_indices": [],
+      "all_squares": true,
+      "positive": true,
+      "distinct": false,
+      "all_eight_sums_equal": true,
+      "valid_magic_square_of_distinct_positive_squares": false,
+      "primitive_integer_roots": [
+        17,
+        7,
+        23,
+        23,
+        17,
+        7,
+        7,
+        23,
+        17
+      ],
+      "primitive_integer_cells": [
+        289,
+        49,
+        529,
+        529,
+        289,
+        49,
+        49,
+        529,
+        289
+      ]
+    },
+    {
+      "m": 15,
+      "n": 8,
+      "t": "1",
+      "cells": [
+        "289",
+        "529",
+        "49",
+        "49",
+        "289",
+        "529",
+        "529",
+        "49",
+        "289"
+      ],
+      "nonsquare_indices": [],
+      "all_squares": true,
+      "positive": true,
+      "distinct": false,
+      "all_eight_sums_equal": true,
+      "valid_magic_square_of_distinct_positive_squares": false,
+      "primitive_integer_roots": [
+        17,
+        23,
+        7,
+        7,
+        17,
+        23,
+        23,
+        7,
+        17
+      ],
+      "primitive_integer_cells": [
+        289,
+        529,
+        49,
+        49,
+        289,
+        529,
+        529,
+        49,
+        289
+      ]
+    }
+  ]
+}

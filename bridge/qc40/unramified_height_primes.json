@@ -1,0 +1,72 @@
+[
+  {
+    "p": 3,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      1,
+      2
+    ],
+    "full_five_square_residue_count": 1,
+    "possible_singular_images": []
+  },
+  {
+    "p": 5,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "full_five_square_residue_count": 3,
+    "possible_singular_images": []
+  },
+  {
+    "p": 13,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "full_five_square_residue_count": 1,
+    "possible_singular_images": []
+  },
+  {
+    "p": 37,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      3,
+      12,
+      25,
+      34
+    ],
+    "full_five_square_residue_count": 1,
+    "possible_singular_images": []
+  },
+  {
+    "p": 1213,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      324,
+      453,
+      760,
+      889
+    ],
+    "full_five_square_residue_count": 89,
+    "possible_singular_images": []
+  },
+  {
+    "p": 9397,
+    "a0_a6_units": true,
+    "D_branch_roots": [
+      627,
+      3522,
+      5875,
+      8770
+    ],
+    "full_five_square_residue_count": 601,
+    "possible_singular_images": []
+  }
+]

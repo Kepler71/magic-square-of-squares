@@ -1,0 +1,189 @@
+{
+  "task": "Diagonal rotation for (15,8): map x=(t-1)/(t+1)",
+  "formulas_affine": {
+    "F4": "289/2*(1+t^2)",
+    "L": "F4-240t",
+    "U": "F4+240t"
+  },
+  "formulas_in_x": {
+    "x": "(t-1)/(t+1)",
+    "t": "(1+x)/(1-x)",
+    "F4/(t+1)^2": "289/4*(1+x^2)",
+    "L/(t+1)^2": "(49+529x^2)/4",
+    "U/(t+1)^2": "(529+49x^2)/4"
+  },
+  "c7_like_pair_23_7_scaled": {
+    "F0'": "529+49x^2",
+    "F4'": "289*(1+x^2)",
+    "F8'": "49+529x^2",
+    "description": "identical to (23,7)-C7 three-square part up to scale 4 and vertex relabeling"
+  },
+  "identity_checks": [
+    {
+      "x": "1/5",
+      "t": "3/2",
+      "dF4": "0",
+      "dL": "0",
+      "dU": "0"
+    },
+    {
+      "x": "2/7",
+      "t": "9/5",
+      "dF4": "0",
+      "dL": "0",
+      "dU": "0"
+    },
+    {
+      "x": "-3/4",
+      "t": "1/7",
+      "dF4": "0",
+      "dL": "0",
+      "dU": "0"
+    },
+    {
+      "x": "5",
+      "t": "-3/2",
+      "dF4": "0",
+      "dL": "0",
+      "dU": "0"
+    },
+    {
+      "x": "-2/3",
+      "t": "1/5",
+      "dF4": "0",
+      "dL": "0",
+      "dU": "0"
+    }
+  ],
+  "c7_scale_checks": [
+    {
+      "x": "0",
+      "4*F4_x": "289",
+      "F4_new": "289",
+      "4*L_x": "49",
+      "F8_new": "49",
+      "4*U_x": "529",
+      "F0_new": "529",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    },
+    {
+      "x": "1/2",
+      "4*F4_x": "1445/4",
+      "F4_new": "1445/4",
+      "4*L_x": "725/4",
+      "F8_new": "725/4",
+      "4*U_x": "2165/4",
+      "F0_new": "2165/4",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    },
+    {
+      "x": "2/3",
+      "4*F4_x": "3757/9",
+      "F4_new": "3757/9",
+      "4*L_x": "2557/9",
+      "F8_new": "2557/9",
+      "4*U_x": "4957/9",
+      "F0_new": "4957/9",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    },
+    {
+      "x": "3",
+      "4*F4_x": "2890",
+      "F4_new": "2890",
+      "4*L_x": "4810",
+      "F8_new": "4810",
+      "4*U_x": "970",
+      "F0_new": "970",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    },
+    {
+      "x": "-1",
+      "4*F4_x": "578",
+      "F4_new": "578",
+      "4*L_x": "578",
+      "F8_new": "578",
+      "4*U_x": "578",
+      "F0_new": "578",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    },
+    {
+      "x": "-1/2",
+      "4*F4_x": "1445/4",
+      "F4_new": "1445/4",
+      "4*L_x": "725/4",
+      "F8_new": "725/4",
+      "4*U_x": "2165/4",
+      "F0_new": "2165/4",
+      "delta_F4": "0",
+      "delta_L": "0",
+      "delta_U": "0"
+    }
+  ],
+  "projective_specials_t": {
+    "t=1": {
+      "t": "1",
+      "x": "0",
+      "comment": "finite affine"
+    },
+    "t=-1": {
+      "t": "-1",
+      "x": "inf",
+      "comment": "projective pole of x=(t-1)/(t+1)"
+    },
+    "t=0": {
+      "t": "0",
+      "x": "-1",
+      "comment": "finite affine"
+    },
+    "t=inf": {
+      "t": "inf",
+      "x": "1",
+      "comment": "x->1 when t=inf"
+    }
+  },
+  "projective_specials_x": {
+    "x=-1": {
+      "x": "-1",
+      "t": "0",
+      "comment": "finite regular point"
+    },
+    "x=1": {
+      "x": "1",
+      "t": "inf",
+      "comment": "limit point"
+    },
+    "x=inf": {
+      "x": "inf",
+      "t": "-1",
+      "comment": "inverse pole"
+    }
+  },
+  "old_t_plus_minus_in_D": {
+    "old t=+1": {
+      "x": "0",
+      "cells": {
+        "F0'": "529",
+        "F4'": "289",
+        "F8'": "49"
+      },
+      "all_three_squares": true
+    },
+    "old t=-1": {
+      "x": "inf",
+      "projective_comment": "this is pole of the x-chart (t+1=0)",
+      "leading_ratio": "[49:289:529] = [7^2:17^2:23^2]",
+      "all_three_squares_after_scaling": true
+    }
+  },
+  "completeness_warning": "We do not claim completeness of rational points on D; only exact transformations and special-point correspondence are verified."
+}

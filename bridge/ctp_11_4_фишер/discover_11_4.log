@@ -1,0 +1,78 @@
+[    0.1s] m,n = 11 4  s = 137/2  b = 132616
+[    0.1s] E0 = Elliptic Curve defined by y^2 = x^3 + 2306121/2*x^2 + 152914271268*x + 2332318050320896 over Rational Field
+[    0.1s] M  = Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+[    0.1s] iso (u,r,s,t) = (1/2, -768707/2, 0, 0)  u^2 = 1/4  квадрат? True
+[    0.1s] корни M = [1006950, -2474220, 1467270]
+[    0.1s] I = 222926259931200
+[    0.1s] J = -6316841727504282240000
+[    0.1s] Delta = 2^30 * 3^6 * 5^6 * 7^6 * 11^4 * 137^8
+[    0.1s] phi = [-12083400, 29690640, -17607240]  order = [1, 0, 2]
+[    0.1s] delta целевой = [1, 274, 274]
+[    0.2s] g1 = [-31441500, -3320880, 14820660, 1496040, 30825]
+[    0.2s] z(g1) по компонентам = [8960650934400, 1760211955814400, 1991782376294400]
+[    0.2s] класс z(g1) в порядке корней = [1, 274, 274]
+[    0.2s] ell2cover: 5 накрытий
+      a = g(1,0): |N| цифр 5
+    места: 10, нетривиальные: ['23', '743']
+    места: 10, нетривиальные: ['23', '743']
+[    0.3s] i = 0  <g1,g2> = 0  мест 10
+      a = g(1,0): |N| цифр 9
+    места: 11, нетривиальные: ['173', '937']
+    места: 11, нетривиальные: ['173', '937']
+[    0.4s] i = 1  <g1,g2> = 0  мест 11
+      a = g(1,0): |N| цифр 3
+    места: 8, нетривиальные: ['2', '137']
+    места: 8, нетривиальные: ['2', '137']
+[    0.4s] i = 2  <g1,g2> = 0  мест 8
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['real']
+    места: 9, нетривиальные: ['real']
+[    0.5s] i = 3  <g1,g2> = 1  мест 9
+[    0.5s] ВЫБРАНО i = 3
+[    0.5s] gamma (нормированная) = [-3070869, 680213, -47903]
+[    0.5s] a = g2(1,0) = -1984304  приведённое = -2531
+[    0.5s] a = literal  произведение = -1  мест 9  минусы: ['real']
+[    0.5s] a = reduced  произведение = -1  мест 9  минусы: ['real']
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['real']
+    места: 9, нетривиальные: ['real']
+      a = g(1,0): |N| цифр 5
+    места: 10, нетривиальные: ['1217']
+    места: 10, нетривиальные: ['1217']
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['real']
+    места: 9, нетривиальные: ['real']
+[    0.6s] СИММЕТРИЯ: <g1,g2> = 1  <g2,g1> = 1  <g1,g3> = 1
+      a = g(1,0): |N| цифр 5
+    места: 9, нетривиальные: ['3', 'real']
+[    0.6s] ДИАГОНАЛЬ: <g1,g1> = 0
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['2531', 'real']
+[   27.0s] точка x = 1820070  класс [105, 210, 2]  <.,g2> = 0 (обязан 0)
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_c3dgr6qg/discover_11_4wyc3ii1d.sage.py", line 208, in <module>
+    (OUT / 'certificate_11_4.json').write_text(json.dumps(cert, indent=_sage_const_2 , ensure_ascii=False) + '\n')
+                                               ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Integer is not JSON serializable
+when serializing dict item 'm'

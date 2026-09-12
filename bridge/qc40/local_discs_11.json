@@ -1,0 +1,160 @@
+{
+  "p": 11,
+  "rows": [
+    {
+      "a": 0,
+      "b": 1,
+      "values": [
+        3,
+        3,
+        3,
+        5,
+        1
+      ],
+      "all_five_square": true
+    },
+    {
+      "a": 1,
+      "b": 1,
+      "values": [
+        3,
+        6,
+        9,
+        6,
+        6
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 2,
+      "b": 1,
+      "values": [
+        9,
+        4,
+        10,
+        9,
+        10
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "values": [
+        10,
+        8,
+        6,
+        3,
+        2
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 4,
+      "b": 1,
+      "values": [
+        6,
+        7,
+        8,
+        10,
+        4
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 5,
+      "b": 1,
+      "values": [
+        8,
+        1,
+        5,
+        8,
+        5
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 6,
+      "b": 1,
+      "values": [
+        5,
+        1,
+        8,
+        8,
+        5
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 7,
+      "b": 1,
+      "values": [
+        8,
+        7,
+        6,
+        10,
+        4
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 8,
+      "b": 1,
+      "values": [
+        6,
+        8,
+        10,
+        3,
+        2
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 9,
+      "b": 1,
+      "values": [
+        10,
+        4,
+        9,
+        9,
+        10
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 10,
+      "b": 1,
+      "values": [
+        9,
+        6,
+        3,
+        6,
+        6
+      ],
+      "all_five_square": false
+    },
+    {
+      "a": 1,
+      "b": 0,
+      "values": [
+        3,
+        3,
+        3,
+        1,
+        5
+      ],
+      "all_five_square": true
+    }
+  ],
+  "allowed_projective_x": [
+    "0",
+    "infinity"
+  ],
+  "points_on_D": [
+    "(0,1)",
+    "(0,-1)",
+    "infinity: y/x^3=3",
+    "infinity: y/x^3=-3"
+  ],
+  "zeros_allowed": true
+}

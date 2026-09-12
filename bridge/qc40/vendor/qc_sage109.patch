@@ -1,0 +1,228 @@
+--- qc_g2_bielliptic.sage
++++ qc_g2_bielliptic_sage109.sage
+@@ -67,6 +67,28 @@
+ ############## AUXILIARY FUNCTIONS ##############
+ 
+ import itertools
++
++def _qc_infinity(C):
++    # Weighted coordinates (X:Y:Z), weights (1,g+1,1).
++    f,h=C.hyperelliptic_polynomials()
++    assert h==0
++    if f.degree()%2:
++        return C(1,0,0)
++    root=C.base_ring()(f.leading_coefficient()).sqrt()
++    return C(1,root,0)
++
++def _qc_point_key(P):
++    # Canonical coordinates avoid Sage 10.9's false equality modulo roots of unity.
++    if P[2] != 0:
++        return (P[0]/P[2], P[1]/P[2]^3, P[2].parent()(1))
++    return (P[0].parent()(1), P[1]/P[0]^3, P[0].parent()(0))
++
++def _qc_unique_points(points):
++    found={}
++    for P in points:
++        found.setdefault(_qc_point_key(P),P)
++    return list(found.values())
++
+ 
+ def has_potential_good_reduction(H, p):
+     r"""
+@@ -259,7 +281,7 @@
+ 
+ def X_to_E2map(Xpt, E2, a0, a6):
+     if Xpt[2] == 0:
+-        return E2(0, a0*a6.sqrt())
++        return E2(0, a0*Xpt[1]/Xpt[0]^3)
+     elif Xpt == 'inf+' or Xpt == 'inf-':
+         #only for curves over Q
+         sqr = a6.sqrt()
+@@ -304,7 +326,11 @@
+     K = LaurentSeriesRing(H.base_ring(), name, prec+2)
+     t = K.gen()
+     x = t**(-1)
++    root = _qc_infinity(H)[1]
+     y = (pol(x))^(1/2)
++    if y[-3] != root:
++        y = -y
++    assert y[-3] == root
+     return x + O(t**(prec+2)), y + O(t**(prec+2))
+ 
+ 
+@@ -869,6 +895,8 @@
+         sage: print([len(other_points_7[i]) for i in range(3)])
+         [20, 16, 0]
+     """
++    assert f.degree()==6 and QQ(f[6]).is_square() and f[6]!=0 and all(f[i]==0 for i in [1,3,5]), "Restricted Sage 10.9 adaptation"
++    assert up_to_auto == False, "Restricted output mode: expand both infinities"
+     H = HyperellipticCurve(f)
+     a6 = f[6]
+     a4 = f[4]
+@@ -958,14 +986,26 @@
+     Hppoints = Hp.points()
+     D = Hppoints[:]
+     if GF(p)(a6).is_square() == False:
+-        D.remove(Hp(0,1,0))
++        D = [P for P in D if P[2] != 0]
+     #Modding out by automorphisms
+     Dnew = []
++    covered = set()
+     for P in D:
+-        if Hp(P[0],-P[1],P[2]) in Dnew or Hp(-P[0],P[1],P[2]) in Dnew or Hp(-P[0],-P[1],P[2]) in Dnew:
++        if _qc_point_key(P) in covered:
+             continue
+         Dnew.append(P)
++        for sx,sy in [(1,1),(1,-1),(-1,1),(-1,-1)]:
++            covered.add(_qc_point_key(Hp(sx*P[0],sy*P[1],P[2])))
++    assert covered == set(_qc_point_key(P) for P in D), "Incomplete finite-field orbit coverage"
+     D = Dnew
++    all_orbit_representatives = [str(P) for P in D]
++    if "_qc_disc_filter" in globals():
++        D = [P for P in D if _qc_disc_filter(P)]
++    if "_qc_disc_audit_hook" in globals():
++        _qc_disc_audit_hook({"finite_field_points":len(Hppoints),
++            "all_orbit_representatives":all_orbit_representatives,
++            "selected_orbit_representatives":[str(P) for P in D],
++            "canonical_coverage_verified":True})
+ 
+     if m1 % 2 != 0:
+         fm1 = E1.division_polynomial(m1)
+@@ -990,20 +1030,22 @@
+     points = [[] for i in range(size_Omega)]
+     rho_list = []
+ 
+-    for P in D:
++    for orbit_index, P in enumerate(D,1):
++        print("QC orbit", orbit_index, "of", len(D), str(P), flush=True)
+         if P[2] != 0:
+             Q = Q_lift(HK, P, p)
+             f1 = X_to_E1map(Q, E1K, a6)
+             f2 = X_to_E2map(Q, E2K, a0, a6)
+             xx, yy = HK.local_coord(Q, prec = n)
+         else:
+-            Q = HK(0, 1, 0)
++            Q = _qc_infinity(HK)
+             f1 = X_to_E1map(Q, E1K, a6)
+             if a6.is_square() == False:
+                 f2 = X_to_E2map(Q, E2K, a0, K(a6))
+             else:
+                 f2 = X_to_E2map(Q, E2K, a0, a6)
+             xx, yy = local_coordinates_at_infinity_g2_even(HK, prec = n)
++            assert yy[-3] == Q[1]/Q[0]^3
+ 
+         #Constants
+         if f1[2] == 0:
+@@ -1013,10 +1055,10 @@
+         elif m1*f1 == E1K(0,1,0):
+             Logf1 = 0
+             try:
+-                int_w1_b_f1 = H1K.coleman_integrals_on_basis(H1K(0,1,0), H1K(f1))[1] ##########################IMPROVE
++                int_w1_b_f1 = H1K.coleman_integrals_on_basis(_qc_infinity(H1K), H1K(f1))[1] ##########################IMPROVE
+             except NameError:
+                 H1K = HyperellipticCurve(E1K.hyperelliptic_polynomials()[0])
+-                int_w1_b_f1 = H1K.coleman_integrals_on_basis(H1K(0,1,0), H1K(f1))[1]
++                int_w1_b_f1 = H1K.coleman_integrals_on_basis(_qc_infinity(H1K), H1K(f1))[1]
+             if f1[1] != 0:
+                 f1alg_x = QQ(f1[0])
+                 try:
+@@ -1043,10 +1085,10 @@
+         elif m2*f2 == E2K(0,1,0):
+             Logf2 = 0
+             try:
+-                int_w1_b_f2 = H2K.coleman_integrals_on_basis(H2K(0,1,0), H2K(f2))[1] ##########################IMPROVE
++                int_w1_b_f2 = H2K.coleman_integrals_on_basis(_qc_infinity(H2K), H2K(f2))[1] ##########################IMPROVE
+             except NameError:
+                 H2K = HyperellipticCurve(E2K.hyperelliptic_polynomials()[0])
+-                int_w1_b_f2 = H2K.coleman_integrals_on_basis(H2K(0,1,0), H2K(f2))[1]
++                int_w1_b_f2 = H2K.coleman_integrals_on_basis(_qc_infinity(H2K), H2K(f2))[1]
+             if f2[1] != 0:
+                 f2alg_x = QQ(f2[0])
+                 try:
+@@ -1069,6 +1111,7 @@
+         int_w1bar_b_f1 = int_w1_b_f1 + c1*Logf1
+         int_w1bar_b_f2 = int_w1_b_f2 + c2*Logf2
+ 
++        print("QC orbit constants ready", flush=True)
+         #Series expansions of functions on E1
+         x_in_disk_of_f1, y_in_disk_of_f1 = param_f1(xx, yy, a6)
+         t = x_in_disk_of_f1.parent().gens()[0]
+@@ -1132,8 +1175,19 @@
+         epsilon = min([alpha1.valuation(),-2*m1.valuation(p), alpha2.valuation(), -2*m2.valuation(p)])
+         N = M - RR(log(M)/log(p)).floor() - RR(log(M-1)/log(p)).floor() + epsilon
+ 
++        print("QC analytic function ready; precision bound", N, flush=True)
++        if "_qc_diagnostic_hook" in globals():
++            _qc_diagnostic_hook({"orbit":int(orbit_index),"representative":str(P),
++                "coefficients":[str(rho[j]) for j in range(M)],"tail_bound":int(N),
++                "alpha1":str(alpha1),"alpha2":str(alpha2),"omega_count":int(size_Omega)})
++        nonconstant_lower = min([N]+[rho[j].valuation() for j in range(1,M)])
++        skipped_here = 0
+         for l in range(size_Omega):
+             omega = Omega[l]
++            constant = rho[0]-omega
++            if constant.valuation() < constant.precision_absolute() and constant.valuation() < nonconstant_lower:
++                skipped_here += 1
++                continue
+             rhoomega = rho - omega
+             k = min(rhoomega[i].valuation(p) for i in range(M))
+             rhoomega = (p^(-k)*rhoomega).truncate()
+@@ -1166,7 +1220,7 @@
+                     assert val_der < (val_rho/2).ceil(), "Hensel not applicable."
+                     points[l].append(HK(xx(O(p^(val_rho - val_der + 1))), yy(O(p^(val_rho - val_der + 1)))))
+ 
+-            roots = list(gp.polrootspadic(rhoomega/(rhoomega.parent().0^rhoomega_val), p, 1))
++            roots = [r.sage() for r in pari(rhoomega/(rhoomega.parent().0^rhoomega_val)).polrootspadic(p, 1)]
+ 
+             roots = [p*r + O(p^(N-k+1)) for r in roots if r.valuation(p) >= 0]
+             for r in roots:
+@@ -1178,12 +1232,14 @@
+             new_points = [HK(xx(K(sage_eval('%s'%t0))), yy(K(sage_eval('%s'%t0)))) for t0 in roots]
+             points[l].extend(new_points)
+ 
++        print("QC orbit complete; certified constant-dominance skips", skipped_here, "of", size_Omega, flush=True)
++
+     rational_points = [[] for i in range(size_Omega)]
+     other_points = [[] for i in range(size_Omega)]
+     for l in range(size_Omega):
+         for P in points[l]:
+-            if P == H(0, 1, 0) or P == HK(0, 1, 0):
+-                rational_points[l].append(H(0, 1, 0))
++            if P[2] == 0:
++                rational_points[l].append(_qc_infinity(H))
+                 continue
+             try:
+                 RP = H.lift_x(QQ(P[0]))
+@@ -1209,8 +1265,8 @@
+                 except ValueError:
+                         other_points[l].append(P)
+ 
+-        assert(len(list(Set(rational_points[l])))) == len(rational_points[l])
+-        assert(len(list(Set(other_points[l])))) == len(other_points[l])
++        assert(len(_qc_unique_points(rational_points[l]))) == len(rational_points[l])
++        assert(len(_qc_unique_points(other_points[l]))) == len(other_points[l])
+ 
+         if up_to_auto == False:
+             rational_points_complete = []
+@@ -1219,8 +1275,8 @@
+             other_points_complete = []
+             for P in other_points[l]:
+                 other_points_complete.extend([P,HK(P[0],-P[1], P[2]), HK(-P[0],P[1],P[2]),HK(-P[0],-P[1],P[2])])
+-            rational_points[l] = list(Set(rational_points_complete))
+-            other_points[l] = list(Set(other_points_complete))
++            rational_points[l] = _qc_unique_points(rational_points_complete)
++            other_points[l] = _qc_unique_points(other_points_complete)
+         else:
+             rational_points_auto = []
+             for P in rational_points[l]:
+@@ -1237,8 +1293,8 @@
+         rational_points[l].sort()
+         other_points[l].sort()
+ 
+-    rational_points_new = list(set().union(*rational_points))
+-    other_points_new = list(set().union(*other_points))
++    rational_points_new = _qc_unique_points([P for row in rational_points for P in row])
++    other_points_new = _qc_unique_points([P for row in other_points for P in row])
+     assert len(rational_points_new) == sum([len(rational_points[j]) for j in range(size_Omega)]), "Probably different omegas gave the same point because the precision is too low."
+     assert len(other_points_new) == sum([len(other_points[j]) for j in range(size_Omega)]), "Probably different omegas gave the same point because the precision is too low."
+     if omega_info == True:
