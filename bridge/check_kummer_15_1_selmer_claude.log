@@ -1,0 +1,39 @@
+E  = Elliptic Curve defined by y^2 = x^3 + 5746163*x^2 + 146096194275*x + 16435498640625 over Rational Field
+Em = (0, -1, 0, -42422006041, 3362853259097305)
+проводник: 2^6 * 3 * 5 * 7^2 * 113^2
+
+--- 2. ТОРСОР ДЛЯ КЛАССА (1,113,113): ЛОКАЛЬНАЯ РАЗРЕШИМОСТЬ ---
+  z1^2 - 113 z2^2 = -5695200 = -1 * 2^5 * 3^2 * 5^2 * 7 * 113
+  z1^2 - 113 z3^2 = 25312 = 2^5 * 7 * 113
+  совпадает с D у Codex: True
+  113 делит обе правые части => z1 = 113 w, система сводится к
+     z2^2 - 113 w^2 = 50400,   z3^2 - 113 w^2 = -224
+  p=2    w = 1   локально разрешимо: True
+  p=3    w = 3   локально разрешимо: True
+  p=5    w = 0   локально разрешимо: True
+  p=7    w = 1   локально разрешимо: True
+  p=113  w = 0   локально разрешимо: True
+  p=11   w = 3   локально разрешимо: True
+  p=13   w = 0   локально разрешимо: True
+  R: при w -> большое оба 50400+113w^2>0 и -224+113w^2>0 => разрешимо (например w=2: 50852.0000000000 228.000000000000 )
+
+--- 1. ГРАНИЦЫ РАНГА, НЕЗАВИСИМЫЕ ИСТОЧНИКИ ---
+/usr/lib/python3.14/site-packages/sage/schemes/elliptic_curves/ell_number_field.py:303: DeprecationWarning: please use the 2-descent algorithm over QQ inside pari
+See https://github.com/sagemath/sage/issues/38461 for details.
+  t = simon_two_descent(self, verbose=verbose,
+  Sage rank_bounds          = (1, 3)
+  Sage rank()               = 1
+  Sage analytic_rank        = 1
+  Sage root_number          = -1
+  Sage selmer_rank          = 5
+  Sage sha().an_numerical   = 4.00000000000000
+  mwrank rank=1 rank_bound=1 selmer_rank=5 certain=True
+  PARI ellrank: [1, 1, 2, [[491589/4, 18757661/8]]] 
+
+--- 3. ПОИСК ВТОРОЙ НЕЗАВИСИМОЙ ТОЧКИ (попытка сломать rank<=1) ---
+  point_search(13): всего 1  неторсионных 1
+    (-75825 : 146764800 : 1)
+  насыщенная подгруппа: [(-75825 : 146764800 : 1)]  индекс 1  регулятор 4.69768249310359
+  РАНГ найденной подгруппы = 1
+
+время: 2.2 c

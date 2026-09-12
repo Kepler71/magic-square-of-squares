@@ -291,23 +291,36 @@ hdr("E. ТОЧКИ E(Q), ОБРАЗ delta, ТРЕБУЕМЫЙ КЛАСС")
 
 t0 = time.time()
 gens = None
+Emin = E.minimal_model()
+iso = Emin.isomorphism_to(E)
+print("   минимальная модель Emin: %s" % Emin)
 try:
-    gens = E.gens()
+    gmin = Emin.gens()
+    gens = [iso(g) for g in gmin]
 except Exception as ex:
-    print("   E.gens() не отработал: %s" % ex)
-print("   E.gens() = %s   (%.1f с)" % (gens, time.time() - t0))
+    print("   Emin.gens() не отработал: %s" % ex)
+    try:
+        gens = E.gens()
+    except Exception as ex2:
+        print("   E.gens() не отработал: %s" % ex2)
+print("   образующие (перенесённые на E) = %s   (%.1f с)" % (gens, time.time() - t0))
 
 # собственный поиск точек, независимо от gens()
 pool = set()
 for P in E.torsion_points():
     pool.add(P)
-for h in [10, 13, 15]:
-    for P in E.point_search(h):
-        pool.add(P); pool.add(-P)
+t0 = time.time()
+for h in [12, 16, 20]:
+    try:
+        for P in Emin.point_search(h):
+            pool.add(iso(P)); pool.add(-iso(P))
+    except Exception as ex:
+        print("   point_search(%s) сбой: %s" % (h, ex))
+print("   углублённый поиск точек до высоты 20 на Emin: %.1f с, точек %s" % (time.time() - t0, len(pool)))
 if gens:
     for g in gens:
         pool.add(g)
-        for k in range(-3, 4):
+        for k in range(-4, 5):
             pool.add(k * g)
 # замыкаем по сложению один раз
 pool2 = set(pool)
@@ -398,6 +411,46 @@ if 'eclib rank_bounds' in res_rank:
         note = "eclib верхняя граница = %s > 1" % hi
 rec("F1  БЕЗУСЛОВНАЯ верхняя граница ранга = 1 получена 2-спуском", ok_rank_1_unconditional, note)
 
+print("\n   --- F2: сырой вывод PARI ellrank (что именно доказано) ---")
+try:
+    Emin = E.minimal_model()
+    print("   минимальная модель: %s" % Emin)
+    pe = pari(Emin).ellrank()
+    print("   PARI ellrank(Emin) = %s" % pe)
+    print("   формат PARI: [нижняя граница, верхняя граница, s, точки]")
+    lo_p = ZZ(pe[0]); hi_p = ZZ(pe[1])
+    res_rank['pari bounds'] = (lo_p, hi_p)
+    rec("F2  PARI ellrank доказывает rank = 1 (lo == hi == 1)", lo_p == 1 and hi_p == 1,
+        "PARI: [%s, %s]" % (lo_p, hi_p))
+except Exception as ex:
+    print("   PARI ellrank не отработал: %s" % ex)
+    rec("F2  PARI ellrank доказывает rank = 1", False, str(ex))
+
+print("\n   --- F3: строгая дорожка Гросс-Загир + Колывагин ---")
+print("   Знак функционального уравнения -1 => ord_{s=1} L(E,s) НЕЧЁТЕН (безусловно,")
+print("   по модулярности и функциональному уравнению).  Достаточно показать L'(E,1) != 0.")
+try:
+    Emin = E.minimal_model()
+    Lser = Emin.lseries()
+    val, err = Lser.deriv_at1(4000)
+    print("   L'(E,1) ~ %s   с оценкой ошибки %s" % (val, err))
+    rig = (abs(val) > 2 * err) and (err > 0)
+    rec("F3  L'(E,1) != 0 с запасом по оценке ошибки", rig,
+        "|L'| = %s, error = %s, отношение %s" % (val, err, (abs(val) / err) if err > 0 else "inf"))
+    if rig:
+        print("   => ord = 1 => (Гросс-Загир + Колывагин) rank E(Q) = 1 и Sha конечна.")
+        print("   ЭТО БЕЗУСЛОВНАЯ ТЕОРЕМА, если численная оценка ошибки корректна.")
+except Exception as ex:
+    print("   deriv_at1 не отработал: %s" % ex)
+    rec("F3  L'(E,1) != 0 с запасом", False, str(ex))
+
+print("\n   --- F4: что даёт 2-спуск сам по себе ---")
+if 'selmer_rank' in res_rank:
+    sr = res_rank['selmer_rank']
+    print("   dim_F2 S^2(E/Q) = %s = r + 2 + dim Sha[2].  При r=1 => dim Sha[2] = %s." % (sr, sr - 3))
+    print("   Индекс образа E(Q)/2E(Q) в Селмере при r=1 равен 2^%s = %s." % (sr - 3, 2**(sr - 3)))
+    print("   ЗНАЧИТ: чистый 2-спуск НЕ закрывает (11,4); нужен внешний аргумент про ранг.")
+
 # ============================================================ G
 hdr("G. БЕСКОНЕЧНОСТЬ: ПРОЕКТИВНО, ВСЕ ВЕТВИ")
 
@@ -412,7 +465,7 @@ g4 = x4**2 - s * (1 + tt**2)
 g8 = x8**2 - (N**2 + M**2 * tt**2)
 Jac = matrix(Rq, [[g.derivative(v) for v in Rq.gens()] for g in [g0, g4, g8]])
 # особая точка требует ранг < 3, т.е. все 3x3 миноры = 0 вместе с g_i.
-I = Rq.ideal([g0, g4, g8] + [mm.det() for mm in Jac.minors(3)])
+I = Rq.ideal([g0, g4, g8] + list(Jac.minors(3)))
 dimI = I.dimension()
 print("   идеал (уравнения + все 3x3 миноры якобиана): размерность = %s" % dimI)
 rec("G1  аффинная C гладкая над Q~ (особое множество пусто, dim = -1)", dimI == -1)

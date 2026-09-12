@@ -45,6 +45,11 @@ QC rank 2 / CasselsTatePairing:
 - `GROK_INFO_2026-09-12_KALIMAN.md` — 2608.07843 v1: посвящение Zarhin есть; v2 withdrawn Banecki
 - `GROK_INFO_2026-09-12_11_4_VERIFY.md` — независимый Python: C(11,4)(Q)=∅, 254 OK
 - `GROK_INFO_2026-09-12_BRIDGES.md` / `_7.md` — W род 49; слой B×_{P¹}Bminus; старт Bminus(13,8)
+- `PROTOCOL_REPLY_GROK.md` — семь правил приняты, три оговорки
+- `GROK_INFO_2026-09-12_EVENN.md` — чётное n Весоловского ≠ G1; пачка 4 §2 снята
+- `GROK_INFO_2026-09-12_NINE.md` — (13,8) mod17 и (16,5) mod41: девятка пуста; остаётся (15,8)
+- `GROK_INFO_2026-09-12_15_8_DEG.md` — вырожденные t у (15,8): девять квадратов только ±1 с повторами
+- `GROK_INFO_2026-09-12_EVENN.md` / `_8.md` / `_EVEN2.md` — Бойер «чётное n» снято; n≡0 (mod 4) не препятствие
 - `GROK_INFO_2026-09-12_2044.md` — Python-CTP: C(19,5)(Q)=∅ без rank, 52 OK; счёт 124/127
 - `GROK_IDEAS_2026-09-12_6.md` — остались (13,8)/(15,8)/(16,5); не аудировать закрытые
 - `GROK_INFO_2026-09-12_HANDOFF.md` — HANDOFF §2 устарел (CTP уже без rank); 482-проверка (19,5)
