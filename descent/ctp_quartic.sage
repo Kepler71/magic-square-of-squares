@@ -966,13 +966,24 @@ class FisherCTP:
         BS = getattr(self, 'base_S', None)
         if BS:
             try:
-                if not hasattr(self, '_bsdata'):
-                    self._bsdata = k.selmer_space(list(BS), 2)
-                V, gens, fromV, toV = self._bsdata
-                rep = k(fromV(toV(a0)))
-                q = a0 / rep
-                if q != 0 and q.is_square():
-                    return rep, s0 * q.sqrt()
+                # дешёвая проверка: лежит ли (a0) целиком на простых из base_S?
+                I0 = k.ideal(a0)
+                J0 = I0
+                for P in BS:
+                    v = I0.valuation(P)
+                    if v != 0:
+                        J0 = J0 * P ^ (-v)
+                if J0 == k.ideal(1):
+                    if not hasattr(self, '_bsdata'):
+                        self._bsdata = k.selmer_space(list(BS), 2)
+                    V, gens, fromV, toV = self._bsdata
+                    rep = k(fromV(toV(a0)))
+                    q = a0 / rep
+                    if q != 0 and q.is_square():
+                        nm0 = QQ(k(a0).norm()); nm1 = QQ(k(rep).norm())
+                        if abs(nm1.numerator()) * abs(nm1.denominator()) <= \
+                           abs(nm0.numerator()) * abs(nm0.denominator()):
+                            return rep, s0 * q.sqrt()
             except Exception:
                 pass
         nn = QQ(k(a0).norm())
@@ -1394,8 +1405,24 @@ class FisherCTP:
         verbose = self.verbose if verbose is None else verbose
         k = self.k
         self.check_quartic(g1); self.check_quartic(g2); self.check_quartic(g3)
-        a2 = g2[0]
-        assert a2 != 0, "g2(1,0) = 0 — класс тривиален, спаривание 0"
+        # Замечание 3.2(v) Фишера: <g1,g2> = <g1,g3>, и в формуле можно писать g2(1,0) ИЛИ g3(1,0).
+        # Берём тот, у которого меньше |N|: именно его простые делители входят в множество мест,
+        # а факторизация 70-значного числа неподъёмна. Дополнительно приводим по модулю квадратов
+        # (символ Гильберта зависит только от класса).
+        base = [c for c in (g2[0], g3[0]) if c != 0]
+        assert base, "g2(1,0) = g3(1,0) = 0 — класс тривиален, спаривание 0"
+        cands = list(base)
+        for c in base:
+            try:
+                cands.append(self.small_rep(c)[0])     # приведение может и УХУДШИТЬ — берём минимум
+            except Exception:
+                pass
+        def _sz(c):
+            nm = QQ(c) if _is_QQ(k) else QQ(k(c).norm())
+            return abs(nm.numerator()) * abs(nm.denominator())
+        a2 = min(cands, key=_sz)
+        if verbose:
+            print(f"      a = g(1,0): |N| цифр {len(str(_sz(a2)))}")
         gam, m = self.gamma1(g1, g2, g3)
         # нормировка gamma1 глобальной константой (свободна по формуле произведения)
         den = lcm([QQ(t).denominator() for c in gam for t in ([c] if _is_QQ(k) else list(k(c)))])

@@ -6,3 +6,10 @@ gpu6/pairs_*.bin
 gpu6/sieve6
 corners/exc/
 descent/n61/independent/__pycache__/
+chrome_bridge/server.log
+chrome_bridge/__pycache__/
+__pycache__/
+
+# личные данные адресатов - не для публикации
+CONTACTS_2026-09-12.md
+LETTER_DRAFT_2026-09-12.md
