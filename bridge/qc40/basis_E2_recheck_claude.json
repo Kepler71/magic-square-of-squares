@@ -1,0 +1,541 @@
+{
+  "A_curve_D": {
+    "family": "G1, F0=m^2+n^2t^2, F4=s(1+t^2), F8=n^2+m^2t^2, L=F4-2mnt, U=F4+2mnt, s=(m^2+n^2)/2",
+    "m_n": [
+      15,
+      8
+    ],
+    "magic_all_eight_lines_equal_3F4": true,
+    "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+    "a0_a2_a4_a6": [
+      "4092529",
+      "47287151",
+      "37608911",
+      "44182609"
+    ],
+    "smooth_genus_2": true,
+    "matches_new_bridge_verified_json": true,
+    "matches_general_family_formula": true,
+    "status": "proved (символьно, заново выведено из определения семейства)"
+  },
+  "B_maps": {
+    "phi1": "(a6*x^2, a6*y) : D -> E1,  E1: V^2 = X^3 + a4 X^2 + a2 a6 X + a0 a6^2",
+    "phi2": "(a0/x^2, a0*y/x^3) : D -> E2,  E2: V^2 = X^3 + a2 X^2 + a4 a0 X + a6 a0^2",
+    "symbolic_identity_phi1_residual": "0",
+    "symbolic_identity_phi2_residual": "0",
+    "degrees": [
+      "2",
+      "2"
+    ],
+    "quotient_involutions": [
+      "sigma(x,y)=(-x,y)",
+      "tau(x,y)=(-x,-y)"
+    ],
+    "pullback_differentials": [
+      "x dx/y",
+      "-dx/y"
+    ],
+    "numeric_substitutions": [
+      [
+        "2",
+        true
+      ],
+      [
+        "-3",
+        true
+      ],
+      [
+        "1/5",
+        true
+      ],
+      [
+        "-7/4",
+        true
+      ],
+      [
+        "11/3",
+        true
+      ]
+    ],
+    "all_affine_points_map_over_F_p": [
+      [
+        11,
+        true
+      ],
+      [
+        19,
+        true
+      ],
+      [
+        29,
+        true
+      ],
+      [
+        31,
+        true
+      ],
+      [
+        41,
+        true
+      ],
+      [
+        43,
+        true
+      ],
+      [
+        47,
+        true
+      ],
+      [
+        53,
+        true
+      ],
+      [
+        59,
+        true
+      ],
+      [
+        61,
+        true
+      ],
+      [
+        67,
+        true
+      ],
+      [
+        71,
+        true
+      ],
+      [
+        73,
+        true
+      ],
+      [
+        79,
+        true
+      ],
+      [
+        83,
+        true
+      ],
+      [
+        89,
+        true
+      ],
+      [
+        97,
+        true
+      ],
+      [
+        101,
+        true
+      ],
+      [
+        103,
+        true
+      ],
+      [
+        107,
+        true
+      ],
+      [
+        109,
+        true
+      ],
+      [
+        113,
+        true
+      ]
+    ],
+    "point_counts_match_isogeny": [
+      [
+        11,
+        12,
+        12,
+        true
+      ],
+      [
+        19,
+        12,
+        12,
+        true
+      ],
+      [
+        29,
+        26,
+        26,
+        true
+      ],
+      [
+        31,
+        32,
+        32,
+        true
+      ],
+      [
+        41,
+        38,
+        38,
+        true
+      ],
+      [
+        43,
+        52,
+        52,
+        true
+      ],
+      [
+        47,
+        64,
+        64,
+        true
+      ],
+      [
+        53,
+        66,
+        66,
+        true
+      ],
+      [
+        59,
+        60,
+        60,
+        true
+      ],
+      [
+        61,
+        82,
+        82,
+        true
+      ],
+      [
+        67,
+        60,
+        60,
+        true
+      ],
+      [
+        71,
+        80,
+        80,
+        true
+      ],
+      [
+        73,
+        78,
+        78,
+        true
+      ],
+      [
+        79,
+        72,
+        72,
+        true
+      ],
+      [
+        83,
+        92,
+        92,
+        true
+      ],
+      [
+        89,
+        94,
+        94,
+        true
+      ],
+      [
+        97,
+        102,
+        102,
+        true
+      ],
+      [
+        101,
+        106,
+        106,
+        true
+      ],
+      [
+        103,
+        80,
+        80,
+        true
+      ],
+      [
+        107,
+        132,
+        132,
+        true
+      ],
+      [
+        109,
+        114,
+        114,
+        true
+      ],
+      [
+        113,
+        126,
+        126,
+        true
+      ],
+      [
+        127,
+        136,
+        136,
+        true
+      ],
+      [
+        131,
+        124,
+        124,
+        true
+      ],
+      [
+        137,
+        142,
+        142,
+        true
+      ],
+      [
+        139,
+        116,
+        116,
+        true
+      ],
+      [
+        149,
+        146,
+        146,
+        true
+      ],
+      [
+        151,
+        152,
+        152,
+        true
+      ],
+      [
+        157,
+        170,
+        170,
+        true
+      ],
+      [
+        163,
+        156,
+        156,
+        true
+      ],
+      [
+        167,
+        168,
+        168,
+        true
+      ],
+      [
+        173,
+        162,
+        162,
+        true
+      ],
+      [
+        179,
+        180,
+        180,
+        true
+      ],
+      [
+        181,
+        170,
+        170,
+        true
+      ],
+      [
+        191,
+        192,
+        192,
+        true
+      ],
+      [
+        193,
+        198,
+        198,
+        true
+      ],
+      [
+        197,
+        178,
+        178,
+        true
+      ],
+      [
+        199,
+        200,
+        200,
+        true
+      ]
+    ],
+    "verdict": "СОШЛОСЬ: обе карты корректны символьно (остаток тождественно 0) и численно",
+    "status": "proved"
+  },
+  "C_E2": {
+    "ainvs_raw": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "ainvs_min": [
+      "0",
+      "-1",
+      "0",
+      "-591442657639681",
+      "6146344290377784993025"
+    ],
+    "X_shift_min_minus_raw": 15762384,
+    "conductor": "14405924506384320",
+    "disc_factored": "-1 * 2^20 * 3^2 * 5^2 * 7^6 * 13^2 * 17^8 * 23^2 * 37^2 * 1213^2 * 9397^2",
+    "torsion": [
+      2
+    ],
+    "T2_min_model": "(-28420225 : 0 : 1)",
+    "P2_min_model": "(-2479007 : 87162492480 : 1)",
+    "P2_raw_model": "[-18241391, 87162492480]",
+    "canonical_height_P2": "2.11883385954680",
+    "rank_eclib": [
+      1,
+      1,
+      true
+    ],
+    "rank_pari": [
+      1,
+      1
+    ],
+    "sage_gens_proof_true": [
+      "(-2479007 : 87162492480 : 1)"
+    ],
+    "sage_gen_in_terms_of_P2_T2": [
+      1,
+      0
+    ],
+    "exact_division_points_over_Q": {
+      "2": {
+        "P": {
+          "points": [],
+          "seconds": "0.0"
+        },
+        "P+T": {
+          "points": [],
+          "seconds": "0.0"
+        }
+      },
+      "3": {
+        "P": {
+          "points": [],
+          "seconds": "0.0"
+        }
+      },
+      "5": {
+        "P": {
+          "points": [],
+          "seconds": "0.0"
+        }
+      },
+      "7": {
+        "P": {
+          "points": [],
+          "seconds": "0.0"
+        }
+      },
+      "11": {
+        "P": {
+          "points": [],
+          "seconds": "0.1"
+        }
+      },
+      "13": {
+        "P": {
+          "points": [],
+          "seconds": "0.1"
+        }
+      }
+    },
+    "modp_nondivisibility_certificates_via_division_points": {
+      "2": {
+        "P": {
+          "p": 11,
+          "card_E_Fp": 10,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 2*E(F_11) (division_points пусто)"
+        },
+        "P+T": {
+          "p": 29,
+          "card_E_Fp": 24,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 2*E(F_29) (division_points пусто)"
+        }
+      },
+      "3": {
+        "P": {
+          "p": 29,
+          "card_E_Fp": 24,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 3*E(F_29) (division_points пусто)"
+        }
+      },
+      "5": {
+        "P": {
+          "p": 11,
+          "card_E_Fp": 10,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 5*E(F_11) (division_points пусто)"
+        }
+      },
+      "7": {
+        "P": {
+          "p": 79,
+          "card_E_Fp": 70,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 7*E(F_79) (division_points пусто)"
+        }
+      },
+      "11": {
+        "P": {
+          "p": 83,
+          "card_E_Fp": 88,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 11*E(F_83) (division_points пусто)"
+        }
+      },
+      "13": {
+        "P": {
+          "p": 151,
+          "card_E_Fp": 156,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 13*E(F_151) (division_points пусто)"
+        }
+      },
+      "17": {
+        "P": {
+          "p": 53,
+          "card_E_Fp": 68,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 17*E(F_53) (division_points пусто)"
+        }
+      },
+      "19": {
+        "P": {
+          "p": 233,
+          "card_E_Fp": 228,
+          "q_divides_card": true,
+          "reason": "red_p(P) not in 19*E(F_233) (division_points пусто)"
+        }
+      }
+    },
+    "basis": "E2(Q) = Z*P2 (+) Z/2*T2",
+    "status": "proved (ПО): ранг 1 тремя реализациями; насыщенность -- точный тест делимости над Q для q<=13 и сертификаты mod p для всех простых q<=19"
+  }
+}

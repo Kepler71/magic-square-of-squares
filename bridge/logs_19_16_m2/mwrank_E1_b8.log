@@ -1,0 +1,248 @@
+Program mwrank: uses 2-descent (via 2-isogeny if possible) to
+determine the rank of an elliptic curve E over Q, and list a
+set of points that generate E(Q) modulo 2E(Q).
+and finally saturate to obtain generating points on the curve.
+For more details see the mwrank documentation.
+For details of algorithms see the author's book.
+
+Please acknowledge use of this program in published work, 
+and send problems to [адрес автора программы убран из публикации].
+
+eclib version 20250627, using NTL bigints and NTL real and complex multiprecision floating point
+Using multiprecision floating point with 50 bits precision.
+Enter curve: Curve [0,0,0,-1269386570673900,17388781634016192078000] :	
+1 points of order 2:
+[21119910:0:1]
+
+(c,d)  =(63359730,68765224550400)
+(c',d')=(-126719460,3739394487471300)
+Using 2-isogenous curve [0,-126719460,0,3739394487471300,0] (minimal model [0,0,0,-1613212693425900,7222574158576522830000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+Finding els gens for E (c= 63359730, d= 68765224550400)
+Support (length 6): [ -1 2 3 5 7 617 ]
+Adding els generator #1: d1 = -14
+Adding els generator #2: d1 = 1234
+After els sieving, nelsgens = 2
+2-rank of S^{phi}(E') = 2
+(els)gens: [ -14 1234 ]
+
+Finding els gens for E' (c'= -126719460, d'= 3739394487471300)
+Support (length 7): [ -1 2 3 5 7 19 617 ]
+Adding (torsion) els generator #1: d1 = 617
+Adding els generator #2: d1 = 2
+Adding els generator #3: d1 = 105
+After els sieving, nelsgens = 3
+2-rank of S^{phi'}(E) = 3
+(els)gens: [ 617 2 105 ]
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	2
+rk(S^{phi'}(E))=	3
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+Finding els2 gens for E (c= 63359730, d= 68765224550400) which lift to S^2(E)
+After els2 sieving, nels2gens = 0
+2-rank of phi'(S^2(E)) = 0
+
+Finding els2 gens for E' (c'= -126719460, d'= 3739394487471300) which lift to S^2(E')
+Adding (torsion) els2 generator #1: d1 = 617
+Adding els2 generator #2: d1 = 2
+Adding els2 generator #3: d1 = 105
+After els2 sieving, nels2gens = 3
+2-rank of phi(S^2(E')) = 3
+(els2)gens: [ 617 2 105 ]
+After second local descent, rank bound = 1
+rk(phi'(S^{2}(E)))=	0
+rk(phi(S^{2}(E')))=	3
+rk(S^{2}(E))=	2
+rk(S^{2}(E'))=	5
+
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(63359730,68765224550400)
+(c',d')=(-126719460,3739394487471300)
+This component of the rank is 0
+After gls sieving, nglsgens = 0
+shortfall in rank from first  descent = 0
+shortfall in rank from second descent = 0
+-------------------------------------------------------
+2. E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+Adding (torsion) gls generator #1: d1 = 617
+First stage (no second descent yet)...
+(2,0,-126719460,0,1869697243735650):  no rational point found (hlim=8)
+(1234,0,-126719460,0,3030303474450):  no rational point found (hlim=8)
+(105,0,-126719460,0,35613280833060):  no rational point found (hlim=8)
+(64785,0,-126719460,0,57720066180):  no rational point found (hlim=8)
+(210,0,-126719460,0,17806640416530):  (x:y:z) = (617:0:1)
+	Curve E' 	Point [79944690:0:1], height = 0
+	Curve E 	Point [0:0:1], height = 0
+Adding gls generator #2: d1 = 210
+After first global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+Second descent will attempt to reduce this
+
+Second stage (using second descent)...
+d1=2: Using desc2(2,-126719460,1869697243735650)
+supp=[ -1 2 3 5 7 617 ]; mask=48; bgens=[ -14 1234 ]
+d3= 1 passes Hilbert symbol tests
+Processing d3 = 1: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=5)
+d3= -1 passes Hilbert symbol tests
+Processing d3 = -1: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= 2 passes Hilbert symbol tests
+Processing d3 = 2: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= -2 passes Hilbert symbol tests
+Processing d3 = -2: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (657049,-151968,4404636,-905211072,9870838884)
+Searching for points on gg up to height 8
+No point found.
+Found an els descendent but no rational point on it...
+We now construct and search the 3 other descendents...
+Processing d3 = 7: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (751681,1068648,-931213836,16605448272,-81649092924)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = -617: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (1328401,1229064,240178356,-505278576,1121994756)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = 8638: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (10489,2468,-630957774,78057901532,-2543105178311)
+Searching for points on gg up to height 8
+No point found.
+No rational point found on any of the other descendents...
+Second descent inconclusive for d1=2: ELS descendents exist but no rational point found
+
+d1=1234: Using desc2(1234,-126719460,3030303474450)
+supp=[ -1 2 3 5 7 617 ]; mask=48; bgens=[ -14 1234 ]
+d3= 15 passes Hilbert symbol tests
+Processing d3 = 15: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=5)
+d3= -15 passes Hilbert symbol tests
+Processing d3 = -15: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= 30 passes Hilbert symbol tests
+Processing d3 = 30: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= -30 passes Hilbert symbol tests
+Processing d3 = -30: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (188185,-269012,-11361438,-1177835724,34653701961)
+Searching for points on gg up to height 8
+No point found.
+Found an els descendent but no rational point on it...
+We now construct and search the 3 other descendents...
+Processing d3 = 105: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (617,0,-1395705828,1125816147968,-252641889387996)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = -9255: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (189977,276880,-8855172,-1278735904,33466167844)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = 129570: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (52545,91640,-230620620,1371285360,39054354500)
+Searching for points on gg up to height 8
+No point found.
+No rational point found on any of the other descendents...
+Second descent inconclusive for d1=1234: ELS descendents exist but no rational point found
+
+d1=105: Using desc2(105,-126719460,35613280833060)
+supp=[ -1 2 3 5 7 617 ]; mask=48; bgens=[ -14 1234 ]
+d3= -1 passes Hilbert symbol tests
+Processing d3 = -1: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (85696,-158176,-1191054,-259538896,4824591136)
+Searching for points on gg up to height 8
+No point found.
+Found an els descendent but no rational point on it...
+We now construct and search the 3 other descendents...
+Processing d3 = 14: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (696424,864200,-79953150,277376600,-99764600)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = -1234: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (1234,2468,-6800574,-6801808,323699345824)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = 4319: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (834184,587384,-56466606,-8223376,163500064)
+Searching for points on gg up to height 8
+No point found.
+No rational point found on any of the other descendents...
+Second descent inconclusive for d1=105: ELS descendents exist but no rational point found
+
+d1=64785: Using desc2(64785,-126719460,57720066180)
+supp=[ -1 2 3 5 7 617 ]; mask=48; bgens=[ -14 1234 ]
+d3= -15 passes Hilbert symbol tests
+Processing d3 = -15: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (1037794,-2065716,13427154,-149442336,448504704)
+Searching for points on gg up to height 8
+No point found.
+Found an els descendent but no rational point on it...
+We now construct and search the 3 other descendents...
+Processing d3 = 210: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (1234,2468,-56555454,-56556688,110798214304)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = -18510: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (3233896,-2125304,-2191494,-35664884,130447186)
+Searching for points on gg up to height 8
+No point found.
+Processing d3 = 64785: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (438754,76732,-58388934,83160808,275308744)
+Searching for points on gg up to height 8
+No point found.
+No rational point found on any of the other descendents...
+Second descent inconclusive for d1=64785: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+
+After gls sieving, nglsgens = 2
+shortfall in rank from first  descent = 1
+shortfall in rank from second descent = 1
+(gls)gens: [ 617 210 ]
+
+-------------------------------------------------------
+Summary of results:
+-------------------------------------------------------
+	0 <= rank(E) <= 1
+	#E(Q)/2E(Q) >= 2
+
+Information on III(E/Q):
+	#III(E/Q)[phi']    <= 2
+	#III(E/Q)[2]       <= 2
+
+Information on III(E'/Q):
+	#phi'(III(E/Q)[2]) = 1
+	#III(E'/Q)[phi]    = 4
+	#III(E'/Q)[2]      is between 4 and 8
+
+
+Used descent via 2-isogeny with isogenous curve E' = [0,0,0,-1613212693425900,7222574158576522830000]
+0 <= rank <= 1
+Searching for points (bound = 8)...done:
+  found points which generate a subgroup of rank 0
+  and regulator 1
+Processing points found during 2-descent...done:
+  now regulator = 1
+
+
+Regulator = 1
+
+The rank has not been completely determined, 
+only a lower bound of 0 and an upper bound of 1.
+
+ (1.16577 seconds)
+Enter curve: 

@@ -1,0 +1,104 @@
+========================================================================
+(m,n) = (19,16)   s = 617/2   b = 28510336
+e1,e2,e3 (original model)  = [-28510336, -80408057/2, -20217856]
+4*e_i    (integral model)  = [-114041344, -160816114, -80871424]
+E    = Elliptic Curve defined by y^2 = x^3 + 355728882*x^2 + 40567799802897408*x + 1483156504532277300035584 over Rational Field
+Emin = Elliptic Curve defined by y^2 = x^3 - 1613212693425900*x + 7222574158576522830000 over Rational Field
+disc = 2^26 * 3^6 * 5^6 * 7^6 * 19^4 * 617^8
+cond = 5103669009600 = 2^6 * 3^2 * 5^2 * 7^2 * 19 * 617^2
+torsion = (2, 2)
+REQUIRED class delta = (1,s,s) = (1, 1234, 1234)
+========================================================================
+
+[1] symbolic check of  X-e_i  identities (fixes the root order)
+    X-e1 - (mn)^2*F4 = 0    (must be 0)
+    X-e2 - s*m^2*F0  = 0    (must be 0)
+    X-e3 - s*n^2*F8  = 0    (must be 0)
+    => class of (X-e1,X-e2,X-e3) = (1, s, s) = (1, 1234, 1234)   CONFIRMED symbolically
+    sqclass(s) = 1234, sqclass(m^2 n^2)=1, sqclass(m^2)=1, sqclass(n^2)=1
+
+[3] rank upper bound (needed for |E(Q)/2E(Q)| = 2^(r+2))
+/usr/lib/python3.14/site-packages/sage/schemes/elliptic_curves/ell_number_field.py:303: DeprecationWarning: please use the 2-descent algorithm over QQ inside pari
+See https://github.com/sagemath/sage/issues/38461 for details.
+  t = simon_two_descent(self, verbose=verbose,
+    Sage/eclib rank_bounds(Emin) = [1, 3]   (0.0s)
+    PARI ellrank(Emin) = [1, 1, 2, []]   (0.1s)
+
+[4] (C) mwrank/eclib on E itself, escalating second_limit
+    second_limit=10   gens=()  [ok, 1.9s]
+    second_limit=12   gens=()  [ok, 21.4s]
+    second_limit=14   gens=()  [ok, 1069.8s]
+    second_limit=16   gens=[]  [TIMEOUT after 1200s, 1200.0s]
+
+[5] (D) 2-isogeny class with exact pullback maps to E
+    curves in the 2-isogeny class reachable from E: 5
+      #0  (0, 355728882, 0, 40567799802897408, 1483156504532277300035584)
+      #1  (0, 0, 0, -1269386570673900, 17388781634016192078000)
+      #2  (0, 0, 0, 6144364201166100, 56474886831958509390000)
+      #3  (0, 0, 0, -14872007552049900, -692667016942944295602000)
+      #4  (0, 0, 0, -1613212693425900, 7222574158576522830000)
+    pullback maps verified to land on E (checked on torsion)
+    second_limit=10  curve#0: 0 gens, 0 nontorsion  [ok, 1.8s]
+    second_limit=10  curve#1: 0 gens, 0 nontorsion  [ok, 1.7s]
+    second_limit=10  curve#2: 0 gens, 0 nontorsion  [ok, 2.0s]
+    second_limit=10  curve#3: 1 gens, 1 nontorsion  [ok, 3.7s]
+      >>> nontorsion on curve #3: (-137854570318311286286190554/1927907948549580001 : 192166609120426558810840421222203250944/2676883315438634074013911249 : 1)
+      >>> pulled back to E:      (868186890396953722266197279403532269515182080/240038881912932598367116603531132585921 : -4754733690333588880095805700152476315597522300028850545392912758945792/3718967582960599721378274986261486745744760063719433367969 : 1)
+
+[6] saturation on E
+    saturation index = 1   regulator = 94.0101700366037   (0.0s)
+    G = (868186890396953722266197279403532269515182080/240038881912932598367116603531132585921 : -4754733690333588880095805700152476315597522300028850545392912758945792/3718967582960599721378274986261486745744760063719433367969 : 1)
+
+[a] EXACT verification (rational arithmetic, no floating point)
+    integral model:  Y^2 - prod(X - 4e_i) = 0
+    original model:  X = x/4 = 217046722599238430566549319850883067378795520/240038881912932598367116603531132585921
+                     V = y/8 = -594341711291698610011975712519059539449690287503606318174114094868224/3718967582960599721378274986261486745744760063719433367969
+                     V^2 - (X+b)(X+s m^4)(X+s n^4) = 0
+    BOTH exact substitutions give 0  ->  the point is on the curve.
+
+[b] order
+    order(G) = +Infinity
+    canonical height h(G) = 94.0101700366037
+    naive height of x(G)  = log max(|num|,|den|) = 103.474980908751
+
+[c] the eight classes of E(Q)/2E(Q)
+    O                                                                      -> (1, 1, 1)
+    (-160816114, 0)                                                        -> (-129570, 617, -210)
+    (-114041344, 0)                                                        -> (-1, 129570, -129570)
+    (-80871424, 0)                                                         -> (129570, 210, 617)
+    (868186890396953722266197279403532269515182080/240038881912932598367116603531132585921, -4754733690333588880095805700152476315597522300028850545392912758945792/3718967582960599721378274986261486745744760063719433367969) -> (1234, 1234, 1)
+    (-11601121209758422716279972999527080289338241536/84020452774586145303275637660695322049, 136177323522210764439694917890002775339243737998315470421401672140800/770153913030781328935369627125981205061169226248593837407) -> (-105, 2, -210)
+    (-11374473404873964380931687977243803821186882848194/89402298153885605188488845189706487446001, -3830350252868014751600648459177580039893950997378351825209781848824703800/26731481224131238365641160697861917853787850032145556757362249) -> (-1234, 105, -129570)
+    (-2574447763186641660693699655030627739631004231/52024485861448689108542627081797055044, 178220055255681791386737724727748891045136854121431423315904452623175/375242218911609869651228503694332015571053612580036080072) -> (105, 64785, 617)
+    number of DISTINCT classes = 8  (need 8)
+    pairwise distinct: True
+
+    cross-check of delta on the ORIGINAL model V^2=prod(X-e_i):
+    original-model delta agrees with integral-model delta: True
+    closed under multiplication (is a subgroup of (Q*/Q*^2)^3): True
+
+[d] REQUIRED class
+    required (1,s,s) = (1, 1234, 1234)
+    PRESENT among the eight classes: False
+    sorted list of the eight classes:
+        (-129570, 617, -210) 
+        (-1234, 105, -129570) 
+        (-105, 2, -210) 
+        (-1, 129570, -129570) 
+        (1, 1, 1) 
+        (105, 64785, 617) 
+        (1234, 1234, 1) 
+        (129570, 210, 617) 
+
+[8] LOGIC
+    G has infinite order  ->  rank >= 1.
+    eclib/PARI 2-descent  ->  rank <= 1.
+    E has full rational 2-torsion  ->  |E(Q)/2E(Q)| = 2^(rank+2) = 8.
+    delta is INJECTIVE on E(Q)/2E(Q) (kernel = 2E(Q)).
+    8 distinct values from the 8 listed points  ->  the image is complete.
+    required class present: False
+    ==> no finite rational point of C maps into E(Q); together with the
+        point at infinity (needs s to be a square, and s=617/2 is not),
+        C_(19,16)(Q) = empty.   PAIR (19,16) IS CLOSED.
+
+TOTAL time 2302.7s

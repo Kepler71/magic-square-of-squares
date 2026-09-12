@@ -1,0 +1,143 @@
+========================================================================
+(m,n) = (19,16)   gcd = 1
+s = (m^2+n^2)/2 = 617/2      b = s*m^2*n^2 = 28510336
+e1,e2,e3 = [-28510336, -80408057/2, -20217856]
+========================================================================
+
+[1] SYMBOLIC check of the identities defining the map C -> E
+    [OK ] X - e1 == (m n)^2 * F4      (=> class 1)
+    [OK ] X - e2 == s m^2 * F0        (=> class s)
+    [OK ] X - e3 == s n^2 * F8        (=> class s)
+    [OK ] (X-e1)(X-e2)(X-e3) == b^2 * F0*F4*F8  (=> V = +- b u0 u4 u8)
+    [OK ] F0 > 0 for all real t (disc<0 and lead>0)
+    [OK ] F4 > 0 for all real t
+    [OK ] F8 > 0 for all real t
+    [OK ] sqclass agrees with independent impl. on s
+    => REQUIRED class of any finite rational point of C:  delta = (1,s,s) = (1, 1234, 1234)
+
+[1b] points of C over t = infinity need s to be a square in Q
+    [OK ] s = 617/2 is NOT a square in Q (so NO points over infinity)
+
+[2] the elliptic curve
+    [OK ] the 4-scaled model is INTEGRAL
+    E  : y^2 = x^3 + 355728882 x^2 + 40567799802897408 x + 1483156504532277300035584
+    4e = [-114041344, -160816114, -80871424]
+    Emin = (0, 0, 0, -1613212693425900, 7222574158576522830000)
+    conductor N = 2^6 * 3^2 * 5^2 * 7^2 * 19 * 617^2
+    disc        = 2^26 * 3^6 * 5^6 * 7^6 * 19^4 * 617^8
+    torsion     = (2, 2)
+    [OK ] torsion is exactly (Z/2)^2  => |E(Q)/2E(Q)| = 2^(r+2)
+    [OK ] y^2 = prod(x-4e_i) is the model of V^2=prod(X-e_i) under x=4X,y=8V
+
+[3] RIGOROUS upper bound for rank E(Q)
+
+  [3a] calibration of Sage semantics: selmer_rank == dim_F2 Sel_2 (torsion included)
+       formula used:  dim Sel_2 = rank + dim Sha[2] + dim E(Q)[2]
+    [OK ] calib Sha[2]=4, E(Q)[2]=Z/2  predicted 4, selmer_rank 4
+    [OK ] calib 960d1, Sha=4           predicted 3, selmer_rank 3
+    [OK ] calib 571a1, no rational 2-torsion predicted 2, selmer_rank 2
+    [FAIL] calib y^2=x^3-x, full 2-torsion predicted 3, selmer_rank 2
+
+  [3b] E itself -- NOT sufficient
+       dim Sel_2(E) [pari] = 5   (0.1 s)
+       dim Sel_2(E) [mwrank] = 5   (1.5 s)
+    [FAIL] both algorithms agree on dim Sel_2(E)
+       dim E(Q)[2] = 2  =>  rank + dim Sha(E)[2] = 3  =>  only rank <= 3
+    [OK ] dim Sel_2(E) is indeed > 3 (round 1's implicit assumption was WRONG)
+
+  [3c] the 2-isogenous curve C = iso0 -- THIS gives rank <= 1
+    [OK ] C is 2-isogenous to E over Q (so rank(C) = rank(E))
+       C torsion = (2,) ;  dim C(Q)[2] = 1
+    [OK ] dim C(Q)[2] = 1
+       dim Sel_2(C) [pari] = 2   (0.0 s)
+       dim Sel_2(C) [mwrank] = 2   (1.7 s)
+    [FAIL] both algorithms agree on dim Sel_2(C)
+    [OK ] dim Sel_2(C) = 2  =>  rank(C) + dim Sha(C)[2] = 1  =>  rank(E) <= 1
+
+  [3d] independent confirmations of rank <= 1 (not relied upon)
+       E: rank_bound(pari)=1  rank_bound(mwrank)=1  pari ellrank=[1, 1, 2, []]
+       C: rank_bound(pari)=1  rank_bound(mwrank)=1  pari ellrank=[1, 1, 0, []]
+       E root number = -1   E.analytic_rank() = 1  (numerical; Gross-Zagier+Kolyvagin
+        would give rank=1 too, but the proof above does not need them)
+
+[4] building the 2-isogeny tree (exact pullback maps to E are kept)
+    E          min = (0, 0, 0, -1613212693425900, 7222574158576522830000)   (h = 109.122296903413)
+    iso0       min = (0, 0, 0, -1269386570673900, 17388781634016192078000)   (h = 102.353727365654)
+    iso1       min = (0, 0, 0, 6144364201166100, 56474886831958509390000)   (h = 113.310568270651)
+    iso2       min = (0, 0, 0, -14872007552049900, -692667016942944295602000)   (h = 111.702595073933)
+
+    mwrank two_descent on every curve of the tree
+      lim= 8 E          rank=0 #gens=0 (1.2s)
+      lim= 8 iso0       rank=0 #gens=0 (0.8s)
+      lim= 8 iso1       rank=0 #gens=0 (1.3s)
+      lim= 8 iso2       rank=0 #gens=0 (2.9s)
+      lim=10 E          rank=0 #gens=0 (1.4s)
+      lim=10 iso0       rank=0 #gens=0 (1.2s)
+      lim=10 iso1       rank=0 #gens=0 (1.5s)
+      lim=10 iso2       rank=1 #gens=1 (2.8s)
+        nontorsion on iso2 ; pulled back to E, order = +Infinity
+
+    source curve: iso2   point there: (-137854570318311286286190554/1927907948549580001, 192166609120426558810840421222203250944/2676883315438634074013911249)
+    pulled back to E by the dual isogeny.
+    saturation index = 1   regulator = 94.0101700366037
+    (saturation is a convenience only: the proof below uses just
+     'the 8 classes are distinct' + 'rank <= 1', not that G generates)
+
+[5] (a) EXACT verification of G, in rational arithmetic
+    x(G) = 868186890396953722266197279403532269515182080/240038881912932598367116603531132585921
+    y(G) = -4754733690333588880095805700152476315597522300028850545392912758945792/3718967582960599721378274986261486745744760063719433367969
+    numerator/denominator sizes: 45 / 39 digits
+    [OK ] y^2 - prod(x - 4e_i) == 0   (integral model)
+    [OK ] y^2 - (x^3 + a2 x^2 + a4 x + a6) == 0
+    [OK ] ORIGINAL model: V^2 - (X+b)(X+s m^4)(X+s n^4) == 0
+    X(orig) = 217046722599238430566549319850883067378795520/240038881912932598367116603531132585921
+    V(orig) = -594341711291698610011975712519059539449690287503606318174114094868224/3718967582960599721378274986261486745744760063719433367969
+
+    (b) order of G
+        G in E(Q)_tors ? False
+    [OK ] order(G) = infinity
+    [OK ] 2G, 3G, ... nontrivial: 12G != O (independent sanity)
+        canonical height h(G) = 94.0101700366037
+        => rank E(Q) >= 1
+
+[6] (c) the eight classes delta of E(Q)/2E(Q)
+      O                          -> (1, 1, 1)
+      T(x=-160816114)            -> (-129570, 617, -210)
+      T(x=-114041344)            -> (-1, 129570, -129570)
+      T(x=-80871424)             -> (129570, 210, 617)
+      G + O                      -> (1234, 1234, 1)
+      G + T(x=-160816114)        -> (-105, 2, -210)
+      G + T(x=-114041344)        -> (-1234, 105, -129570)
+      G + T(x=-80871424)         -> (105, 64785, 617)
+    [OK ] the 8 listed classes are PAIRWISE DISTINCT (=> |image| >= 8)
+    [OK ] the set is closed under multiplication (a subgroup of (Q*/Q*^2)^3)
+    [OK ] every class has product of coordinates a square (forced by V^2=prod)
+    [OK ] (1,1,1) is in the set (image of O)
+
+    |E(Q)/2E(Q)| = 2^(rank+2)  (torsion (Z/2)^2);  rank >= 1 from the exhibited
+    point of infinite order, rank <= 1 from dim Sel_2(C) = 2 on the 2-isogenous C
+    [OK ] rank is PINNED to 1 (>=1 from the point, <=1 from Sel_2 of the isogenous curve)
+    [OK ] hence |image of delta| = 2^3 = 8 = number of classes found  => IMAGE IS COMPLETE
+
+[7] (d) the required class  (1, s, s) = (1, 1234, 1234)
+      PRESENT in the (complete) image: False
+        (-129570, 617, -210)         
+        (-1234, 105, -129570)        
+        (-105, 2, -210)              
+        (-1, 129570, -129570)        
+        (1, 1, 1)                    
+        (105, 64785, 617)            
+        (1234, 1234, 1)              
+        (129570, 210, 617)           
+
+[8] BSD consistency cross-check (NUMERICAL -- not part of the proof)
+      L'(1) = 41.6405105684920   Omega = 0.000865109829845214   prod c_p = 2048   |tors| = 4  (19.7 s)
+      BSD:  Reg * |Sha|  = 376.040680146415
+      h(G) = Reg(G)      = 94.0101700366037
+      dim Sha(E)[2] = dim Sel_2(E) - rank - dim E(Q)[2] = 5 - 1 - 2 = 2
+      => |Sha(E)| divisible by 4 ; ratio (Reg*|Sha|)/h(G) = 4.00000000000000
+
+========================================================================
+SOME CHECKS FAILED: ['calib y^2=x^3-x, full 2-torsion predicted 3, selmer_rank 2', 'both algorithms agree on dim Sel_2(E)', 'both algorithms agree on dim Sel_2(C)']
+========================================================================
+total 87.7 s
