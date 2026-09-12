@@ -6434,3 +6434,1398 @@
   G2 c1/c5@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
   G2 c1/c7@-25: rank[2,2] g=2 src=pari sat=1 tors=8 st=3816 hmax=1000 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
   G2 c1/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c5@-25: rank[2,2] g=1 INC src=pari+mwTO sat=1 tors=8 st=104 hmax=838 pr=50 surv=8 ex=6 bad=0 hits=0 t=91s
+  G2 c3/c7@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c3/c4@-25: rank[1,3] g=3 src=pari+mw sat=1 tors=4 st=9580 hmax=387 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c5/c7@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G2 c5/c4@-25: rank[1,3] g=3 src=pari+mw sat=1 tors=4 st=9580 hmax=387 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c7/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=1828 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c2/c5@-25: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c6@-25: rank[2,2] g=2 src=pari sat=1 tors=8 st=3816 hmax=1000 pr=50 surv=67 ex=63 bad=0 hits=0 t=1s
+  G3 c2/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=52 ex=48 bad=0 hits=0 t=1s
+  G3 c3/c5@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=4492 hmax=993 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G3 c3/c6@-25: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c3/c4@-25: rank[3,3] g=3 src=pari sat=1 tors=2 st=4754 hmax=537 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c5/c6@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=1828 hmax=999 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c5/c4@-25: rank[3,3] g=3 src=pari sat=1 tors=2 st=4754 hmax=537 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G3 c6/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=52 ex=48 bad=0 hits=0 t=1s
+== (m,n)=(13,-11)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=20 ex=18 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c2/c4: кривая не построена
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=20 ex=18 bad=0 hits=0 t=1s
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c1/c5@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c7@-12: rank[2,2] g=2 src=pari sat=1 tors=8 st=2744 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-12: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=902 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c7@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c3/c4@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=246 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c5/c7@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c5/c4@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=246 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c7/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c3@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=998 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c5@-12: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=655 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c6@-12: rank[2,2] g=2 src=pari sat=1 tors=8 st=2744 hmax=1000 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c2/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+  G3 c3/c5@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=4988 hmax=999 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c3/c6@-12: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=655 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G3 c3/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=2 st=1226 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c5/c6@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=998 pr=50 surv=10 ex=6 bad=0 hits=0 t=1s
+  G3 c5/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=2 st=1226 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c6/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=60 ex=56 bad=0 hits=0 t=1s
+== (m,n)=(13,-10)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=120 hmax=850 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c1/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c1/c7@-23/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=832 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c3/c5@-23/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=1448 hmax=986 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c3/c7@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c3/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=405 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c5/c7@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c5/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=405 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c7/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c2/c3@-23/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2388 hmax=1000 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4778 hmax=389 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c6@-23/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=832 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c3/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=276 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c3/c6@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4778 hmax=389 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c3/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=627 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c5/c6@-23/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2388 hmax=1000 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c5/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=627 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c6/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+== (m,n)=(13,-9)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=951 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=38 ex=34 bad=0 hits=0 t=1s
+  G2 c1/c5@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c1/c7@-11/2: rank[2,2] g=2 src=pari sat=1 tors=8 st=6840 hmax=998 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c1/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c5@-11/2: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=872 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c7@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c3/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=4 st=3716 hmax=991 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c5/c7@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c5/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=4 st=3716 hmax=991 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c7/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c2/c3@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=312 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G3 c2/c5@-11/2: rank[2,2] g=2 src=pari+mw sat=1 tors=2 st=886 hmax=999 pr=50 surv=9 ex=5 bad=0 hits=0 t=35s
+  G3 c2/c6@-11/2: rank[2,2] g=2 src=pari sat=1 tors=8 st=6840 hmax=998 pr=50 surv=44 ex=40 bad=0 hits=0 t=1s
+  G3 c2/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G3 c3/c5@-11/2: rank[2,2] g=2 src=pari sat=1 tors=4 st=5940 hmax=999 pr=50 surv=20 ex=16 bad=0 hits=0 t=1s
+  G3 c3/c6@-11/2: rank[2,2] g=2 src=pari+mw sat=1 tors=2 st=886 hmax=999 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c3/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=991 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G3 c5/c6@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=312 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G3 c5/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=991 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G3 c6/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=40 ex=36 bad=0 hits=0 t=1s
+== (m,n)=(13,-8)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=948 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c0@-5/21: rank[2,2] g=2 src=pari sat=1 tors=4 st=1476 hmax=996 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=344 hmax=952 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c4/c2@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2052 hmax=996 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=28 ex=26 bad=0 hits=0 t=1s
+  G1 c4/c6@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2052 hmax=996 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c8@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1476 hmax=996 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G2 c1/c3@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c1/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c1/c7@-21/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=955 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=989 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c7@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c3/c4@-21/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9580 hmax=365 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c5/c7@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c5/c4@-21/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9580 hmax=365 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c7/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c3@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c2/c5@-21/5: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=558 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c6@-21/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=955 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G3 c3/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4180 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c3/c6@-21/5: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=558 pr=50 surv=10 ex=6 bad=0 hits=0 t=1s
+  G3 c3/c4@-21/5: rank[4,4] g=4 src=pari sat=1 tors=2 st=4794 hmax=113 pr=50 surv=11 ex=7 bad=0 hits=0 t=1s
+  G3 c5/c6@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=999 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c5/c4@-21/5: rank[4,4] g=4 src=pari sat=1 tors=2 st=4794 hmax=113 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c6/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+== (m,n)=(13,-7)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=312 hmax=954 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c1/c5@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c1/c7@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=4232 hmax=998 pr=50 surv=81 ex=77 bad=0 hits=0 t=1s
+  G2 c1/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=28 ex=24 bad=0 hits=0 t=1s
+  G2 c3/c5@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=5064 hmax=995 pr=50 surv=82 ex=78 bad=0 hits=0 t=1s
+  G2 c3/c7@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c3/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=301 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c5/c7@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c5/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=301 pr=50 surv=31 ex=27 bad=0 hits=0 t=1s
+  G2 c7/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c2/c3@-10/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=995 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c2/c5@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=485 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G3 c2/c6@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=4232 hmax=998 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G3 c2/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=37 ex=33 bad=0 hits=0 t=1s
+  G3 c3/c5@-10/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=5228 hmax=998 pr=50 surv=16 ex=12 bad=0 hits=0 t=1s
+  G3 c3/c6@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=485 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c3/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4774 hmax=397 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G3 c5/c6@-10/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=995 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c5/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4774 hmax=397 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G3 c6/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=37 ex=33 bad=0 hits=0 t=1s
+== (m,n)=(13,-6)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=937 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=938 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c1/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c1/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=998 pr=50 surv=44 ex=40 bad=0 hits=0 t=1s
+  G2 c1/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3880 hmax=999 pr=50 surv=54 ex=50 bad=0 hits=0 t=1s
+  G2 c3/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c3/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3324 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c5/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3324 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=2668 hmax=999 pr=50 surv=15 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c5@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4762 hmax=517 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c6@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=998 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c3/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=4764 hmax=997 pr=50 surv=20 ex=16 bad=0 hits=0 t=1s
+  G3 c3/c6@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4762 hmax=517 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c3/c4@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4758 hmax=395 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c5/c6@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=2668 hmax=999 pr=50 surv=15 ex=11 bad=0 hits=0 t=1s
+  G3 c5/c4@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4758 hmax=395 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c6/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+== (m,n)=(13,-5)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=867 pr=50 surv=24 ex=16 bad=0 hits=0 t=1s
+  G1 c4/c0@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=2012 hmax=998 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c4/c8@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=2012 hmax=998 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G2 c1/c3@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c5@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c1/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=409 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G2 c1/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c5@-9/4: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=4100 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c5/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=4100 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c7/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=1308 hmax=990 pr=50 surv=15 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c5@-9/4: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=571 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c2/c6@-9/4: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=409 pr=50 surv=31 ex=27 bad=0 hits=0 t=1s
+  G3 c2/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=45 ex=41 bad=0 hits=0 t=1s
+  G3 c3/c5@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=183 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c3/c6@-9/4: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=571 pr=50 surv=15 ex=11 bad=0 hits=0 t=1s
+  G3 c3/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=2 st=1250 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c5/c6@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=1308 hmax=990 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c5/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=2 st=1250 hmax=1000 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c6/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+== (m,n)=(13,-4)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=30 ex=28 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=9704 hmax=999 pr=50 surv=20 ex=12 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=833 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=30 ex=28 bad=0 hits=0 t=1s
+  G1 c2/c4: кривая не построена
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c1/c5@-17/9: rank[2,2] g=2 src=pari sat=3 tors=4 st=3500 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c7@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=996 pr=50 surv=90 ex=86 bad=0 hits=0 t=1s
+  G2 c1/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=99 ex=95 bad=0 hits=0 t=1s
+  G2 c3/c5@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3592 hmax=968 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c3/c7@-17/9: rank[2,2] g=2 src=pari sat=3 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c4@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3548 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c5/c4@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3548 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=99 ex=95 bad=0 hits=0 t=1s
+  G3 c2/c3@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=2172 hmax=998 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c2/c5@-17/9: rank[4,4] g=4 src=pari sat=1 tors=2 st=4802 hmax=155 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c6@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=996 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G3 c2/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+  G3 c3/c5@-17/9: rank[3,3] g=3 src=pari sat=3 tors=4 st=9604 hmax=194 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c3/c6@-17/9: rank[4,4] g=4 src=pari sat=1 tors=2 st=4802 hmax=155 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c3/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=645 pr=50 surv=16 ex=12 bad=0 hits=0 t=1s
+  G3 c5/c6@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=2172 hmax=998 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c5/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=645 pr=50 surv=14 ex=10 bad=0 hits=0 t=1s
+  G3 c6/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=48 ex=44 bad=0 hits=0 t=1s
+== (m,n)=(13,-3)
+  G1 c2/c0@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c6@0: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=986 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c2@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1820 hmax=999 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G1 c6/c8@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c6@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1820 hmax=999 pr=50 surv=22 ex=20 bad=0 hits=0 t=1s
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=40 ex=36 bad=0 hits=0 t=1s
+  G2 c1/c5@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=40 ex=36 bad=0 hits=0 t=1s
+  G2 c1/c7@-8/5: rank[3,3] g=3 src=pari sat=1 tors=8 st=19176 hmax=376 pr=50 surv=148 ex=144 bad=0 hits=0 t=1s
+  G2 c1/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c3/c5@-8/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=933 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c7@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G2 c3/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4332 hmax=997 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G2 c5/c7@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=46 ex=42 bad=0 hits=0 t=1s
+  G2 c5/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4332 hmax=997 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c7/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c2/c3@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2228 hmax=994 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c2/c5@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=890 hmax=1000 pr=50 surv=11 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-8/5: rank[3,3] g=3 src=pari sat=1 tors=8 st=19176 hmax=376 pr=50 surv=85 ex=81 bad=0 hits=0 t=1s
+  G3 c2/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G3 c3/c5@-8/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=153 pr=50 surv=10 ex=6 bad=0 hits=0 t=1s
+  G3 c3/c6@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=890 hmax=1000 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c3/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=999 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c5/c6@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2228 hmax=994 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G3 c5/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c6/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+== (m,n)=(13,-2)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=995 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=31 ex=27 bad=0 hits=0 t=1s
+  G2 c1/c7@-15/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=932 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c1/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=369 pr=50 surv=60 ex=56 bad=0 hits=0 t=1s
+  G2 c3/c7@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3484 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=28 ex=24 bad=0 hits=0 t=1s
+  G2 c5/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3484 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c3@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=378 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G3 c2/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=781 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c2/c6@-15/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=932 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=55 ex=51 bad=0 hits=0 t=1s
+  G3 c3/c5@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=4348 hmax=999 pr=50 surv=20 ex=16 bad=0 hits=0 t=1s
+  G3 c3/c6@-15/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=781 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c3/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=1098 hmax=988 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c5/c6@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=378 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G3 c5/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=1098 hmax=988 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c6/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=56 ex=52 bad=0 hits=0 t=1s
+== (m,n)=(13,-1)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=987 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c1/c5@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c1/c7@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c3/c5@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c7@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c3/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=190 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c5/c7@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c5/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=190 pr=50 surv=20 ex=16 bad=0 hits=0 t=1s
+  G2 c7/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G3 c2/c3@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=2204 hmax=981 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c5@-7/6: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=414 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c2/c6@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G3 c3/c5@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=143 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c3/c6@-7/6: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=414 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c3/c4@-7/6: rank[2,2] g=2 src=pari sat=1 tors=2 st=1238 hmax=1000 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c5/c6@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=2204 hmax=981 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c5/c4@-7/6: rank[2,2] g=2 src=pari sat=1 tors=2 st=1238 hmax=1000 pr=50 surv=9 ex=5 bad=0 hits=0 t=1s
+  G3 c6/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+== (m,n)=(13,1)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=987 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c1/c5@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c1/c7@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c3/c5@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c7@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c3/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=190 pr=50 surv=20 ex=16 bad=0 hits=0 t=1s
+  G2 c5/c7@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=4012 hmax=1000 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c5/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=190 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c7/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G3 c2/c3@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=2204 hmax=981 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c5@-7/6: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=414 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c6@-7/6: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=143 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G3 c6/c3@-7/6: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=414 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c4/c3@-7/6: rank[2,2] g=2 src=pari sat=1 tors=2 st=1238 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c5@-7/6: rank[2,2] g=2 src=pari sat=1 tors=4 st=2204 hmax=981 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c4/c5@-7/6: rank[2,2] g=2 src=pari sat=1 tors=2 st=1238 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c4@-7/6: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=215 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+== (m,n)=(13,2)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=995 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=31 ex=27 bad=0 hits=0 t=1s
+  G2 c1/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c7@-15/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=932 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c1/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=369 pr=50 surv=60 ex=56 bad=0 hits=0 t=1s
+  G2 c3/c7@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=28 ex=24 bad=0 hits=0 t=1s
+  G2 c3/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3484 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9476 hmax=417 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c5/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3484 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c3@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=378 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G3 c2/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=781 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c6@-15/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=932 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=56 ex=52 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4348 hmax=999 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G3 c6/c3@-15/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=781 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c4/c3@-15/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=1098 hmax=988 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c5@-15/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=378 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G3 c4/c5@-15/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=1098 hmax=988 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c4@-15/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3436 hmax=997 pr=50 surv=55 ex=51 bad=0 hits=0 t=1s
+== (m,n)=(13,3)
+  G1 c0/c2@0: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=986 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c2@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1820 hmax=999 pr=50 surv=22 ex=20 bad=0 hits=0 t=1s
+  G1 c6/c8@-1: rank[2,2] g=2 src=pari sat=1 tors=2 st=550 hmax=998 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c6@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1820 hmax=999 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=40 ex=36 bad=0 hits=0 t=1s
+  G2 c1/c5@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=40 ex=36 bad=0 hits=0 t=1s
+  G2 c1/c7@-8/5: rank[3,3] g=3 src=pari sat=1 tors=8 st=19176 hmax=376 pr=50 surv=148 ex=144 bad=0 hits=0 t=1s
+  G2 c1/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c3/c5@-8/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=933 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c7@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=46 ex=42 bad=0 hits=0 t=1s
+  G2 c3/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4332 hmax=997 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c5/c7@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=71 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G2 c5/c4@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4332 hmax=997 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G2 c7/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c2/c3@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2228 hmax=994 pr=50 surv=23 ex=21 bad=0 hits=0 t=1s
+  G3 c2/c5@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=890 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-8/5: rank[3,3] g=3 src=pari sat=1 tors=8 st=19176 hmax=376 pr=50 surv=88 ex=84 bad=0 hits=0 t=1s
+  G3 c2/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=153 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c6/c3@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=890 hmax=1000 pr=50 surv=11 ex=9 bad=0 hits=0 t=1s
+  G3 c4/c3@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=999 pr=50 surv=21 ex=19 bad=0 hits=0 t=1s
+  G3 c6/c5@-8/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2228 hmax=994 pr=50 surv=21 ex=19 bad=0 hits=0 t=1s
+  G3 c4/c5@-8/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c6/c4@-8/5: rank[4,4] g=4 src=pari sat=1 tors=4 st=9604 hmax=90 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+== (m,n)=(13,4)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=30 ex=28 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=9704 hmax=999 pr=50 surv=20 ex=12 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=833 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G1 c2/c4: кривая не построена
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=498 pr=50 surv=30 ex=28 bad=0 hits=0 t=1s
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c5@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c1/c7@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=996 pr=50 surv=90 ex=86 bad=0 hits=0 t=1s
+  G2 c1/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=99 ex=95 bad=0 hits=0 t=1s
+  G2 c3/c5@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3592 hmax=968 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c3/c7@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c4@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3548 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c5/c4@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3548 hmax=997 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=99 ex=95 bad=0 hits=0 t=1s
+  G3 c2/c3@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=2172 hmax=998 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c5@-17/9: rank[4,4] g=4 src=pari sat=1 tors=2 st=4802 hmax=155 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c6@-17/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=996 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c2/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=3 tors=4 st=9604 hmax=194 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c6/c3@-17/9: rank[4,4] g=4 src=pari sat=1 tors=2 st=4802 hmax=155 pr=50 surv=23 ex=21 bad=0 hits=0 t=1s
+  G3 c4/c3@-17/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=645 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c6/c5@-17/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=2172 hmax=998 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c4/c5@-17/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=645 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c6/c4@-17/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=263 pr=50 surv=48 ex=44 bad=0 hits=0 t=1s
+== (m,n)=(13,5)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=867 pr=50 surv=24 ex=16 bad=0 hits=0 t=1s
+  G1 c4/c0@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=2012 hmax=998 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c4/c8@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=2012 hmax=998 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G2 c1/c3@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c1/c5@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c1/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=409 pr=50 surv=30 ex=26 bad=0 hits=0 t=1s
+  G2 c1/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c5@-9/4: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=959 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=4100 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c5/c7@-9/4: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=248 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=4100 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c7/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=1308 hmax=990 pr=50 surv=15 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c5@-9/4: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=571 pr=50 surv=15 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c6@-9/4: rank[3,3] g=3 src=pari sat=1 tors=8 st=19208 hmax=409 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G3 c2/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=47 ex=43 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=183 pr=50 surv=37 ex=33 bad=0 hits=0 t=1s
+  G3 c6/c3@-9/4: rank[3,3] g=3 src=pari sat=1 tors=2 st=4782 hmax=571 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c4/c3@-9/4: rank[2,2] g=2 src=pari sat=1 tors=2 st=1250 hmax=1000 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c6/c5@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=1308 hmax=990 pr=50 surv=19 ex=17 bad=0 hits=0 t=1s
+  G3 c4/c5@-9/4: rank[2,2] g=2 src=pari sat=1 tors=2 st=1250 hmax=1000 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c6/c4@-9/4: rank[2,2] g=2 src=pari sat=1 tors=4 st=3868 hmax=997 pr=50 surv=41 ex=37 bad=0 hits=0 t=1s
+== (m,n)=(13,6)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=937 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=938 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c1/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c1/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=998 pr=50 surv=44 ex=40 bad=0 hits=0 t=1s
+  G2 c1/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3880 hmax=999 pr=50 surv=54 ex=50 bad=0 hits=0 t=1s
+  G2 c3/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c3/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3324 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3380 hmax=999 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c5/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3324 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=2668 hmax=999 pr=50 surv=15 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c5@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4762 hmax=517 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-19/7: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4764 hmax=997 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c6/c3@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4762 hmax=517 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c4/c3@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4758 hmax=395 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c6/c5@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=2668 hmax=999 pr=50 surv=15 ex=13 bad=0 hits=0 t=1s
+  G3 c4/c5@-19/7: rank[3,3] g=3 src=pari sat=1 tors=2 st=4758 hmax=395 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c6/c4@-19/7: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=1000 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+== (m,n)=(13,7)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=312 hmax=954 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c1/c5@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c1/c7@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=4232 hmax=998 pr=50 surv=81 ex=77 bad=0 hits=0 t=1s
+  G2 c1/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=28 ex=24 bad=0 hits=0 t=1s
+  G2 c3/c5@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=5064 hmax=995 pr=50 surv=82 ex=78 bad=0 hits=0 t=1s
+  G2 c3/c7@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c3/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=301 pr=50 surv=31 ex=27 bad=0 hits=0 t=1s
+  G2 c5/c7@-10/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9572 hmax=84 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c5/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=301 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c7/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c2/c3@-10/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=995 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c2/c5@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=485 pr=50 surv=32 ex=30 bad=0 hits=0 t=1s
+  G3 c2/c6@-10/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=4232 hmax=998 pr=50 surv=37 ex=33 bad=0 hits=0 t=1s
+  G3 c2/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=41 ex=37 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=5228 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c6/c3@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=485 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G3 c4/c3@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4774 hmax=397 pr=50 surv=17 ex=15 bad=0 hits=0 t=1s
+  G3 c6/c5@-10/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=995 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c4/c5@-10/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4774 hmax=397 pr=50 surv=24 ex=22 bad=0 hits=0 t=1s
+  G3 c6/c4@-10/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=326 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+== (m,n)=(13,8)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=948 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c0@-5/21: rank[2,2] g=2 src=pari sat=1 tors=4 st=1476 hmax=996 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=344 hmax=952 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=28 ex=26 bad=0 hits=0 t=1s
+  G1 c4/c2@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2052 hmax=996 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=450 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G1 c4/c6@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2052 hmax=996 pr=50 surv=2 ex=0 bad=0 hits=0 t=1s
+  G1 c4/c8@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=1476 hmax=996 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G2 c1/c3@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c1/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c1/c7@-21/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=955 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=3272 hmax=989 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c7@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c3/c4@-21/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9580 hmax=365 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c5/c7@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=997 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+  G2 c5/c4@-21/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9580 hmax=365 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c7/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c3@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=999 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c2/c5@-21/5: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=558 pr=50 surv=11 ex=9 bad=0 hits=0 t=1s
+  G3 c2/c6@-21/5: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=955 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=28 ex=24 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4180 hmax=1000 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c6/c3@-21/5: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=558 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c4/c3@-21/5: rank[4,4] g=4 src=pari sat=1 tors=2 st=4794 hmax=113 pr=50 surv=19 ex=17 bad=0 hits=0 t=1s
+  G3 c6/c5@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c4/c5@-21/5: rank[4,4] g=4 src=pari sat=1 tors=2 st=4794 hmax=113 pr=50 surv=15 ex=13 bad=0 hits=0 t=1s
+  G3 c6/c4@-21/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3500 hmax=998 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+== (m,n)=(13,9)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=951 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c1/c5@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=38 ex=34 bad=0 hits=0 t=1s
+  G2 c1/c7@-11/2: rank[2,2] g=2 src=pari sat=1 tors=8 st=6840 hmax=998 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c1/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c5@-11/2: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=872 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c7@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c3/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=4 st=3716 hmax=991 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c5/c7@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9468 hmax=277 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c5/c4@-11/2: rank[2,2] g=2 src=pari sat=1 tors=4 st=3716 hmax=991 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c7/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G3 c2/c3@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=312 pr=50 surv=28 ex=26 bad=0 hits=0 t=1s
+  G3 c2/c5@-11/2: rank[2,2] g=2 src=pari+mw sat=1 tors=2 st=886 hmax=999 pr=50 surv=9 ex=7 bad=0 hits=0 t=36s
+  G3 c2/c6@-11/2: rank[2,2] g=2 src=pari sat=1 tors=8 st=6840 hmax=998 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+  G3 c2/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=5940 hmax=999 pr=50 surv=39 ex=35 bad=0 hits=0 t=1s
+  G3 c6/c3@-11/2: rank[2,2] g=2 src=pari+mw sat=1 tors=2 st=886 hmax=999 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c4/c3@-11/2: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=991 pr=50 surv=24 ex=22 bad=0 hits=0 t=1s
+  G3 c6/c5@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=312 pr=50 surv=27 ex=25 bad=0 hits=0 t=1s
+  G3 c4/c5@-11/2: rank[2,2] g=2 src=pari sat=1 tors=2 st=1306 hmax=991 pr=50 surv=18 ex=16 bad=0 hits=0 t=1s
+  G3 c6/c4@-11/2: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=150 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+== (m,n)=(13,10)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=120 hmax=850 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c1/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c1/c7@-23/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=832 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=25 ex=21 bad=0 hits=0 t=1s
+  G2 c3/c5@-23/3: rank[2,2] g=2 src=pari sat=1 tors=8 st=1448 hmax=986 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c3/c7@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=35 ex=31 bad=0 hits=0 t=1s
+  G2 c3/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=405 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G2 c5/c7@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=274 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c5/c4@-23/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=405 pr=50 surv=26 ex=22 bad=0 hits=0 t=1s
+  G2 c7/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c2/c3@-23/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2388 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4778 hmax=389 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-23/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=832 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G3 c2/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=276 pr=50 surv=52 ex=48 bad=0 hits=0 t=1s
+  G3 c6/c3@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4778 hmax=389 pr=50 surv=14 ex=12 bad=0 hits=0 t=1s
+  G3 c4/c3@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=627 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G3 c6/c5@-23/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=2388 hmax=1000 pr=50 surv=11 ex=9 bad=0 hits=0 t=1s
+  G3 c4/c5@-23/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=627 pr=50 surv=21 ex=19 bad=0 hits=0 t=1s
+  G3 c6/c4@-23/3: rank[4,4] g=4 src=pari sat=1 tors=4 st=9564 hmax=99 pr=50 surv=23 ex=19 bad=0 hits=0 t=1s
+== (m,n)=(13,11)
+  G1 c2/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=20 ex=18 bad=0 hits=0 t=1s
+  G1 c6/c0@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=20 ex=18 bad=0 hits=0 t=1s
+  G1 c2/c4: кривая не построена
+  G1 c6/c8@-1: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=523 pr=50 surv=25 ex=23 bad=0 hits=0 t=1s
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c5@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c1/c7@-12: rank[2,2] g=2 src=pari sat=1 tors=8 st=2744 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c1/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c5@-12: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=902 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c3/c7@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=33 ex=29 bad=0 hits=0 t=1s
+  G2 c3/c4@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=246 pr=50 surv=24 ex=20 bad=0 hits=0 t=1s
+  G2 c5/c7@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=346 pr=50 surv=36 ex=32 bad=0 hits=0 t=1s
+  G2 c5/c4@-12: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=246 pr=50 surv=22 ex=18 bad=0 hits=0 t=1s
+  G2 c7/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G3 c2/c3@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=998 pr=50 surv=10 ex=8 bad=0 hits=0 t=1s
+  G3 c2/c5@-12: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=655 pr=50 surv=26 ex=24 bad=0 hits=0 t=1s
+  G3 c2/c6@-12: rank[2,2] g=2 src=pari sat=1 tors=8 st=2744 hmax=1000 pr=50 surv=29 ex=25 bad=0 hits=0 t=1s
+  G3 c2/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=49 ex=45 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4988 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=1s
+  G3 c6/c3@-12: rank[3,3] g=3 src=pari sat=1 tors=2 st=4798 hmax=655 pr=50 surv=23 ex=21 bad=0 hits=0 t=1s
+  G3 c4/c3@-12: rank[2,2] g=2 src=pari sat=1 tors=2 st=1226 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c5@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=2004 hmax=998 pr=50 surv=10 ex=8 bad=0 hits=0 t=1s
+  G3 c4/c5@-12: rank[2,2] g=2 src=pari sat=1 tors=2 st=1226 hmax=1000 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c4@-12: rank[2,2] g=2 src=pari sat=1 tors=4 st=3580 hmax=995 pr=50 surv=59 ex=55 bad=0 hits=0 t=1s
+== (m,n)=(13,12)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=104 hmax=872 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G2 c1/c5@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c1/c7@-25: rank[2,2] g=2 src=pari sat=1 tors=8 st=3816 hmax=1000 pr=50 surv=19 ex=15 bad=0 hits=0 t=1s
+  G2 c1/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c3/c5@-25: rank[2,2] g=1 INC src=pari+mwTO sat=1 tors=8 st=104 hmax=838 pr=50 surv=8 ex=6 bad=0 hits=0 t=91s
+  G2 c3/c7@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=32 ex=28 bad=0 hits=0 t=1s
+  G2 c3/c4@-25: rank[1,3] g=3 src=pari+mw sat=1 tors=4 st=9580 hmax=387 pr=50 surv=21 ex=17 bad=0 hits=0 t=1s
+  G2 c5/c7@-25: rank[3,3] g=3 src=pari sat=1 tors=4 st=9532 hmax=346 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G2 c5/c4@-25: rank[1,3] g=3 src=pari+mw sat=1 tors=4 st=9580 hmax=387 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c7/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G3 c2/c3@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=1828 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c5@-25: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=987 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-25: rank[2,2] g=2 src=pari sat=1 tors=8 st=3816 hmax=1000 pr=50 surv=61 ex=57 bad=0 hits=0 t=1s
+  G3 c2/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=53 ex=49 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4492 hmax=993 pr=50 surv=27 ex=23 bad=0 hits=0 t=1s
+  G3 c6/c3@-25: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=987 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c4/c3@-25: rank[3,3] g=3 src=pari sat=1 tors=2 st=4754 hmax=537 pr=50 surv=29 ex=27 bad=0 hits=0 t=1s
+  G3 c6/c5@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=1828 hmax=999 pr=50 surv=11 ex=9 bad=0 hits=0 t=1s
+  G3 c4/c5@-25: rank[3,3] g=3 src=pari sat=1 tors=2 st=4754 hmax=537 pr=50 surv=31 ex=29 bad=0 hits=0 t=1s
+  G3 c6/c4@-25: rank[2,2] g=2 src=pari sat=1 tors=4 st=3212 hmax=998 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+== (m,n)=(1,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=911 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=1s
+  G2 c1/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=1s
+  G2 c1/c7@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+  G2 c1/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=1s
+  G2 c3/c5@-15/13: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c3/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+  G2 c3/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c5/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=1s
+  G2 c5/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=18 ex=14 bad=0 hits=0 t=1s
+  G2 c7/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=1s
+  G3 c2/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c2/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c2/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=37 ex=33 bad=0 hits=0 t=1s
+  G3 c2/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=34 ex=30 bad=0 hits=0 t=1s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9556 hmax=266 pr=50 surv=64 ex=60 bad=0 hits=0 t=1s
+  G3 c6/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c4/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=7 bad=0 hits=0 t=1s
+  G3 c6/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=11 bad=0 hits=0 t=1s
+  G3 c4/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=10 ex=8 bad=0 hits=0 t=1s
+  G3 c6/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+== (m,n)=(1,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=911 pr=50 surv=8 ex=0 bad=0 hits=0 t=1s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=1s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=1s
+  G2 c1/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=1s
+  G2 c1/c7@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=50 ex=46 bad=0 hits=0 t=1s
+  G2 c1/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=1s
+  G2 c3/c5@-15/13: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=0s
+  G2 c3/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c5/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G2 c5/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=1s
+  G2 c7/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=1s
+  G3 c2/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c2/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G3 c2/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=34 ex=30 bad=0 hits=0 t=0s
+  G3 c3/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9556 hmax=266 pr=50 surv=41 ex=37 bad=0 hits=0 t=0s
+  G3 c3/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=15 ex=11 bad=0 hits=0 t=0s
+  G3 c5/c4@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c6/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+== (m,n)=(3,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=10696 hmax=999 pr=50 surv=42 ex=34 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c1/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c1/c7@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=8 st=3080 hmax=996 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G2 c3/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c3/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=44 ex=40 bad=0 hits=0 t=1s
+  G2 c5/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c5/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G2 c7/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G3 c2/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=30 bad=0 hits=0 t=0s
+  G3 c2/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=36 ex=32 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4716 hmax=994 pr=50 surv=28 ex=24 bad=0 hits=0 t=0s
+  G3 c6/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=14 ex=12 bad=0 hits=0 t=0s
+  G3 c6/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=31 ex=29 bad=0 hits=0 t=0s
+  G3 c4/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+== (m,n)=(3,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=10696 hmax=999 pr=50 surv=42 ex=34 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c1/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c1/c7@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=8 st=3080 hmax=996 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G2 c3/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c3/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=42 ex=38 bad=0 hits=0 t=1s
+  G2 c5/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c5/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=44 ex=40 bad=0 hits=0 t=1s
+  G2 c7/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G3 c2/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+  G3 c2/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G3 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=4716 hmax=994 pr=50 surv=23 ex=19 bad=0 hits=0 t=0s
+  G3 c3/c6@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c5/c6@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+  G3 c5/c4@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=11 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=36 ex=32 bad=0 hits=0 t=0s
+== (m,n)=(5,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=967 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=955 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c1/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c1/c7@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=994 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=58 ex=54 bad=0 hits=0 t=0s
+  G2 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c5/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c7/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G3 c2/c3@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4188 hmax=1000 pr=50 surv=19 ex=15 bad=0 hits=0 t=0s
+  G3 c6/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=11 ex=9 bad=0 hits=0 t=0s
+  G3 c6/c5@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=46 ex=42 bad=0 hits=0 t=0s
+== (m,n)=(5,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=967 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=955 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c1/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c1/c7@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=994 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c5/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=58 ex=54 bad=0 hits=0 t=0s
+  G2 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c7/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G3 c2/c3@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c2/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G3 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=4188 hmax=1000 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c3/c6@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c6/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=46 ex=42 bad=0 hits=0 t=0s
+== (m,n)=(9,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=893 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=961 pr=50 surv=5 ex=1 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c1/c5@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+  G2 c1/c7@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=81 ex=77 bad=0 hits=0 t=0s
+  G2 c1/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=3192 hmax=995 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c3/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=67 ex=63 bad=0 hits=0 t=0s
+  G2 c5/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+  G2 c5/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=68 ex=64 bad=0 hits=0 t=0s
+  G2 c7/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c3@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c5@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=14 ex=12 bad=0 hits=0 t=0s
+  G3 c2/c6@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=30 ex=26 bad=0 hits=0 t=0s
+  G3 c2/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4548 hmax=997 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c6/c3@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=18 ex=16 bad=0 hits=0 t=0s
+  G3 c6/c5@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c6/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+== (m,n)=(9,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=893 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=961 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+  G2 c1/c5@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c1/c7@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=81 ex=77 bad=0 hits=0 t=0s
+  G2 c1/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=3192 hmax=995 pr=50 surv=21 ex=17 bad=0 hits=0 t=0s
+  G2 c3/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+  G2 c3/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=68 ex=64 bad=0 hits=0 t=0s
+  G2 c5/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c5/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=67 ex=63 bad=0 hits=0 t=0s
+  G2 c7/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c3@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c5@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G3 c2/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c3/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4548 hmax=997 pr=50 surv=11 ex=7 bad=0 hits=0 t=0s
+  G3 c3/c6@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=11 ex=7 bad=0 hits=0 t=0s
+  G3 c3/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=16 ex=12 bad=0 hits=0 t=0s
+  G3 c5/c6@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=15 ex=11 bad=0 hits=0 t=0s
+  G3 c6/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+== (m,n)=(11,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=312 hmax=955 pr=50 surv=40 ex=32 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=935 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c7@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G2 c3/c5@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=862 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c3/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c5/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G3 c2/c3@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=22 ex=20 bad=0 hits=0 t=0s
+  G3 c2/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=14 ex=12 bad=0 hits=0 t=0s
+  G3 c2/c6@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=41 ex=37 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4004 hmax=999 pr=50 surv=28 ex=24 bad=0 hits=0 t=0s
+  G3 c6/c3@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c4/c3@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=14 ex=12 bad=0 hits=0 t=0s
+  G3 c6/c5@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=12 ex=10 bad=0 hits=0 t=0s
+  G3 c4/c5@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=18 ex=16 bad=0 hits=0 t=0s
+  G3 c6/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+== (m,n)=(11,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=312 hmax=955 pr=50 surv=40 ex=32 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=935 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c7@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G2 c3/c5@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=862 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c3/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c5/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G3 c2/c3@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c2/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c2/c6@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G3 c3/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=4004 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G3 c3/c6@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c3/c4@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c5/c6@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c5/c4@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c6/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=39 ex=35 bad=0 hits=0 t=0s
+== (m,n)=(13,-14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=998 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c1/c5@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c1/c7@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=40 ex=36 bad=0 hits=0 t=0s
+  G2 c3/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=8 st=2312 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c3/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c5/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G3 c2/c3@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c2/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=3932 hmax=993 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G3 c6/c3@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c4/c5@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+== (m,n)=(13,14)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=998 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c1/c5@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c1/c7@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=40 ex=36 bad=0 hits=0 t=0s
+  G2 c3/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=8 st=2312 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c3/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c5/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G3 c2/c3@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c2/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+  G3 c3/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=3932 hmax=993 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c3/c6@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c6@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c5/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c6/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+== (m,n)=(14,-13)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=998 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=28 ex=24 bad=0 hits=0 t=0s
+  G2 c1/c5@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c1/c7@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c3/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=8 st=2312 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=28 ex=24 bad=0 hits=0 t=0s
+  G2 c3/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9604 hmax=502 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c5/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=353 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=40 ex=36 bad=0 hits=0 t=0s
+  G3 c2/c3@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c2/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-27: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=884 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G3 c3/c5@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=3932 hmax=993 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c3/c6@-27: rank[2,2] g=2 src=pari sat=1 tors=2 st=742 hmax=987 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c6@-27: rank[2,2] g=2 src=pari sat=1 tors=4 st=2060 hmax=999 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c5/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=540 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c6/c4@-27: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=468 pr=50 surv=31 ex=27 bad=0 hits=0 t=0s
+== (m,n)=(14,-11)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=312 hmax=955 pr=50 surv=24 ex=16 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=935 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c1/c7@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G2 c3/c5@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=862 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c3/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3116 hmax=999 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c5/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3028 hmax=998 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G3 c2/c3@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c2/c6@-25/3: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=858 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=39 ex=35 bad=0 hits=0 t=0s
+  G3 c3/c5@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=4004 hmax=999 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G3 c3/c6@-25/3: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=1000 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c3/c4@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c5/c6@-25/3: rank[3,3] g=3 src=pari sat=1 tors=4 st=9540 hmax=419 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c5/c4@-25/3: rank[3,3] g=3 src=pari sat=1 tors=2 st=4794 hmax=562 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c6/c4@-25/3: rank[2,2] g=2 src=pari sat=1 tors=4 st=3228 hmax=1000 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+== (m,n)=(14,-9)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=893 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=961 pr=50 surv=5 ex=1 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c1/c5@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c1/c7@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=81 ex=77 bad=0 hits=0 t=0s
+  G2 c1/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=3192 hmax=995 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c3/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=67 ex=63 bad=0 hits=0 t=0s
+  G2 c5/c7@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c5/c4@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9588 hmax=401 pr=50 surv=68 ex=64 bad=0 hits=0 t=0s
+  G2 c7/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c3@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c5@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=14 ex=10 bad=0 hits=0 t=0s
+  G3 c2/c6@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G3 c2/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c3/c5@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=4548 hmax=997 pr=50 surv=11 ex=7 bad=0 hits=0 t=0s
+  G3 c3/c6@-23/5: rank[5,5] g=5 src=pari sat=1 tors=2 st=4778 hmax=63 pr=50 surv=15 ex=11 bad=0 hits=0 t=0s
+  G3 c3/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=15 ex=11 bad=0 hits=0 t=0s
+  G3 c5/c6@-23/5: rank[1,1] g=1 src=pari sat=1 tors=4 st=100 hmax=859 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=2 st=1118 hmax=999 pr=50 surv=16 ex=12 bad=0 hits=0 t=0s
+  G3 c6/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+== (m,n)=(14,-5)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=967 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=955 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c1/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c1/c7@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=994 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c5/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=52 ex=48 bad=0 hits=0 t=0s
+  G2 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c7/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G3 c2/c3@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=46 ex=42 bad=0 hits=0 t=0s
+  G3 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=4188 hmax=1000 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c3/c6@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=12 ex=8 bad=0 hits=0 t=0s
+  G3 c5/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c6/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+== (m,n)=(14,-3)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=10696 hmax=999 pr=50 surv=40 ex=32 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c1/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c1/c7@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=8 st=3080 hmax=996 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G2 c3/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c3/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=44 ex=40 bad=0 hits=0 t=0s
+  G2 c5/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G2 c5/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G2 c7/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G3 c2/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+  G3 c2/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=36 ex=32 bad=0 hits=0 t=0s
+  G3 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=4716 hmax=994 pr=50 surv=21 ex=17 bad=0 hits=0 t=0s
+  G3 c3/c6@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=11 ex=7 bad=0 hits=0 t=0s
+  G3 c5/c6@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=28 bad=0 hits=0 t=0s
+  G3 c5/c4@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c6/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+== (m,n)=(14,-1)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=911 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G2 c1/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=0s
+  G2 c1/c7@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=52 ex=48 bad=0 hits=0 t=0s
+  G2 c1/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G2 c3/c5@-15/13: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G2 c3/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c5/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c5/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c7/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G3 c2/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=15 ex=11 bad=0 hits=0 t=0s
+  G3 c2/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c2/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G3 c2/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G3 c3/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9556 hmax=266 pr=50 surv=30 ex=26 bad=0 hits=0 t=0s
+  G3 c3/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c3/c4@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c5/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=9 bad=0 hits=0 t=0s
+  G3 c5/c4@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=5 bad=0 hits=0 t=0s
+  G3 c6/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=34 ex=30 bad=0 hits=0 t=0s
+== (m,n)=(14,1)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=168 hmax=911 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=41 ex=37 bad=0 hits=0 t=0s
+  G2 c1/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G2 c1/c7@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=52 ex=48 bad=0 hits=0 t=0s
+  G2 c1/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G2 c3/c5@-15/13: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=956 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c3/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c5/c7@-15/13: rank[3,3] g=3 src=pari sat=1 tors=4 st=9564 hmax=379 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G2 c5/c4@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c7/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=43 ex=39 bad=0 hits=0 t=0s
+  G3 c2/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c2/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-15/13: rank[2,2] g=2 src=pari sat=1 tors=8 st=2520 hmax=991 pr=50 surv=47 ex=43 bad=0 hits=0 t=0s
+  G3 c2/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[3,3] g=3 src=pari sat=1 tors=4 st=9556 hmax=266 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G3 c6/c3@-15/13: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=976 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=10 ex=8 bad=0 hits=0 t=0s
+  G3 c6/c5@-15/13: rank[2,2] g=2 src=pari sat=1 tors=4 st=1660 hmax=998 pr=50 surv=13 ex=11 bad=0 hits=0 t=0s
+  G3 c4/c5@-15/13: rank[3,3] g=3 src=pari sat=1 tors=2 st=4786 hmax=479 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c4@-15/13: rank[3,3] g=3 src=pari sat=3 tors=4 st=9572 hmax=490 pr=50 surv=34 ex=30 bad=0 hits=0 t=0s
+== (m,n)=(14,3)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[2,2] g=2 src=pari sat=1 tors=8 st=10696 hmax=999 pr=50 surv=40 ex=32 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[0,0] g=0 src=pari sat=1 tors=8 st=8 hmax=0 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=37 ex=33 bad=0 hits=0 t=0s
+  G2 c1/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c1/c7@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G2 c1/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G2 c3/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=8 st=3080 hmax=996 pr=50 surv=24 ex=20 bad=0 hits=0 t=0s
+  G2 c3/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=33 ex=29 bad=0 hits=0 t=0s
+  G2 c3/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+  G2 c5/c7@-17/11: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=440 pr=50 surv=35 ex=31 bad=0 hits=0 t=0s
+  G2 c5/c4@-17/11: rank[4,4] g=4 src=pari sat=3 tors=4 st=9604 hmax=85 pr=50 surv=44 ex=40 bad=0 hits=0 t=0s
+  G2 c7/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=22 ex=18 bad=0 hits=0 t=0s
+  G3 c2/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=31 ex=29 bad=0 hits=0 t=0s
+  G3 c2/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-17/11: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=960 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G3 c2/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=38 ex=34 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4716 hmax=994 pr=50 surv=28 ex=24 bad=0 hits=0 t=0s
+  G3 c6/c3@-17/11: rank[2,2] g=2 src=pari sat=1 tors=2 st=750 hmax=980 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c5@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=2708 hmax=998 pr=50 surv=32 ex=30 bad=0 hits=0 t=0s
+  G3 c4/c5@-17/11: rank[3,3] g=3 src=pari sat=1 tors=2 st=4802 hmax=298 pr=50 surv=14 ex=12 bad=0 hits=0 t=0s
+  G3 c6/c4@-17/11: rank[2,2] g=2 src=pari sat=1 tors=4 st=3372 hmax=998 pr=50 surv=36 ex=32 bad=0 hits=0 t=0s
+== (m,n)=(14,5)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=408 hmax=967 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=232 hmax=955 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=55 ex=51 bad=0 hits=0 t=0s
+  G2 c1/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c1/c7@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c1/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c3/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=8 st=3896 hmax=994 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
+  G2 c3/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=52 ex=48 bad=0 hits=0 t=0s
+  G2 c3/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=25 ex=21 bad=0 hits=0 t=0s
+  G2 c5/c7@-19/9: rank[3,3] g=3 src=pari sat=1 tors=4 st=9524 hmax=359 pr=50 surv=65 ex=61 bad=0 hits=0 t=0s
+  G2 c5/c4@-19/9: rank[2,2] g=2 src=pari sat=1 tors=4 st=3332 hmax=994 pr=50 surv=26 ex=22 bad=0 hits=0 t=0s
+  G2 c7/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G3 c2/c3@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c5@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c2/c6@-19/9: rank[1,1] g=1 src=pari sat=1 tors=8 st=184 hmax=964 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c2/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=46 ex=42 bad=0 hits=0 t=0s
+  G3 c3/c5@-1: rank[2,2] g=2 src=pari sat=1 tors=4 st=4188 hmax=1000 pr=50 surv=18 ex=14 bad=0 hits=0 t=0s
+  G3 c6/c3@-19/9: rank[3,3] g=3 src=pari sat=1 tors=2 st=4790 hmax=473 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c3@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c6/c5@-19/9: rank[1,1] g=1 src=pari sat=1 tors=4 st=108 hmax=977 pr=50 surv=9 ex=7 bad=0 hits=0 t=0s
+  G3 c4/c5@-19/9: rank[2,2] g=2 src=pari sat=1 tors=2 st=1062 hmax=999 pr=50 surv=11 ex=9 bad=0 hits=0 t=0s
+  G3 c6/c4@-19/9: rank[4,4] g=4 src=pari sat=1 tors=4 st=9508 hmax=91 pr=50 surv=42 ex=38 bad=0 hits=0 t=0s
+== (m,n)=(14,9)
+  G1 c0/c2: кривая не построена
+  G1 c0/c6: кривая не построена
+  G1 c0/c8@0: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=893 pr=50 surv=8 ex=0 bad=0 hits=0 t=0s
+  G1 c0/c4: кривая не построена
+  G1 c2/c6@-1: rank[1,1] g=1 src=pari sat=1 tors=8 st=248 hmax=961 pr=50 surv=4 ex=0 bad=0 hits=0 t=0s
+  G1 c2/c8: кривая не построена
+  G1 c2/c4: кривая не построена
+  G1 c6/c8: кривая не построена
+  G1 c6/c4: кривая не построена
+  G1 c8/c4: кривая не построена
+  G2 c1/c3@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=27 ex=23 bad=0 hits=0 t=0s
+  G2 c1/c5@-23/5: rank[3,3] g=3 src=pari sat=1 tors=4 st=9596 hmax=303 pr=50 surv=29 ex=25 bad=0 hits=0 t=0s
+  G2 c1/c7@-23/5: rank[2,2] g=2 src=pari sat=1 tors=8 st=4360 hmax=999 pr=50 surv=81 ex=77 bad=0 hits=0 t=0s
+  G2 c1/c4@-23/5: rank[2,2] g=2 src=pari sat=1 tors=4 st=3364 hmax=999 pr=50 surv=17 ex=13 bad=0 hits=0 t=0s
