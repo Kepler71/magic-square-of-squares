@@ -25,6 +25,11 @@ Every claim in this repository carries one of:
 `SUMMARY_2026-09-12.md` is the single entry point: statements, boundaries and labels only, with pointers to the
 files that contain the details.
 
+For a readable account of the same work — written to be followed without running any of the code — see the field
+notes at <https://magic-squares-field-notes.kellerbm71.chatgpt.site/> (and `/history` there for how the three
+systems actually worked). They were written from the other side of the collaboration, so where the two disagree,
+the labelled statements in `SUMMARY_2026-09-12.md` are the ones to trust.
+
 ## What we believe we contribute
 
 **1. Exclusion of ratios at every scale.** *(proved (SW))*
