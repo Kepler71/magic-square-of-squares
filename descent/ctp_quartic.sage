@@ -379,17 +379,110 @@ class FisherCTP:
         return lcm([QQ(t).denominator() for t in list(self.k(c))])
 
     def _msr(self, g):
-        if not hasattr(self, '_embs'):
-            self._embs = [None] if _is_QQ(self.k) else list(self.k.embeddings(CC))
-        tot = RR(0)
+        """ размер квартики в битах (точно, без переполнения плавающей точки) """
+        tot = 0
         for c in g:
             if c == 0:
                 continue
-            tot += RR(log(RR(self._den(c))))
-            for s in self._embs:
-                v = abs(CC(c)) if s is None else abs(s(c))
-                tot += RR(log(1 + v))
+            co = [QQ(c)] if _is_QQ(self.k) else [QQ(t) for t in list(self.k(c))]
+            for t in co:
+                if t == 0:
+                    continue
+                tot += ZZ(t.numerator()).nbits() + ZZ(t.denominator()).nbits()
         return tot
+
+    # --- вложения k -> R/C с произвольной точностью (по координатам, без переполнения) ---
+    def _emb_list(self):
+        """ список пар (тип, значение sigma(r)) для образующей r поля k; для QQ — [('R', None)] """
+        if hasattr(self, '_embl'):
+            return self._embl
+        k = self.k
+        if _is_QQ(k):
+            self._embl = [('R', None)]
+        else:
+            D = QQ(k.gen() ^ 2)
+            assert k.degree() == 2 and k.gen() ^ 2 == D, "поддержаны только квадратичные k и QQ"
+            self._embl = [('R', 1), ('R', -1)] if D > 0 else [('C', 1)]
+            self._D = D
+        return self._embl
+
+    def _sig(self, c, j, prec):
+        """ j-е вложение элемента c в RealField/ComplexField(prec) """
+        k = self.k
+        if _is_QQ(k):
+            return RealField(prec)(QQ(c))
+        t, sg = self._emb_list()[j]
+        c0, c1 = [QQ(u) for u in list(k(c))]
+        if t == 'R':
+            R = RealField(prec)
+            return R(c0) + R(c1) * sg * R(self._D).sqrt()
+        C = ComplexField(prec)
+        return C(c0) + C(c1) * C(-self._D).sqrt() * C(0, 1)
+
+    def _from_sigmas(self, T, prec):
+        """ элемент k, приближающий заданные значения T[j] при вложениях """
+        k = self.k
+        if _is_QQ(k):
+            return QQ(RealField(prec)(T[0]).nearby_rational(max_error=abs(RealField(prec)(T[0])) / 2 ^ 40 + 2 ^ (-40)))
+        R = RealField(prec)
+        if self._emb_list()[0][0] == 'R':
+            t1, t2 = R(T[0]), R(T[1])
+            c0 = (t1 + t2) / 2
+            c1 = (t1 - t2) / (2 * R(self._D).sqrt())
+        else:
+            z = ComplexField(prec)(T[0])
+            c0 = z.real()
+            c1 = z.imag() / R(-self._D).sqrt()
+        def rat(u):
+            u = R(u)
+            if u == 0:
+                return QQ(0)
+            return QQ(u.nearby_rational(max_error=abs(u) / 2 ^ 60))
+        return k(rat(c0)) + k(rat(c1)) * k.gen()
+
+    def _prec_for(self, g):
+        return max(64, 2 * self._msr(g) // 5 + 200)
+
+    def _balance(self, g, iters=60):
+        """ приведение: точное «депрессирование» (b -> 0 сдвигом x -> x - b/(4a), det = 1) и
+            балансировка diag(s,1). Масштаб s подбирается из симметрических функций корней:
+            |sigma(s)| ~ |sigma(c/a)|^(1/2), |sigma(d/a)|^(1/3), |sigma(e/a)|^(1/4)
+            (это характерные величины корней депрессированной квартики). Оба преобразования сохраняют I, J. """
+        k = self.k
+        for it in range(iters):
+            if g[0] == 0:
+                break
+            if g[1] != 0:
+                g = self.gl2(g, [[1, -g[1] / (4 * g[0])], [0, 1]])
+            prec = self._prec_for(g)
+            embs = self._emb_list()
+            best = g; bm = self._msr(g)
+            for (idx, p) in ((2, 2), (3, 3), (4, 4)):
+                if g[idx] == 0:
+                    continue
+                ratio = g[idx] / g[0]
+                try:
+                    T = [abs(self._sig(ratio, j, prec)) ^ (QQ(1) / p) for j in range(len(embs))]
+                    s = self._from_sigmas(T, prec)
+                except Exception:
+                    continue
+                if s == 0:
+                    continue
+                for ss in (s, 1 / s):
+                    try:
+                        gn = self.gl2(g, [[ss, 0], [0, 1]])
+                    except Exception:
+                        continue
+                    m = self._msr(gn)
+                    if m < bm:
+                        best, bm = gn, m
+            gr = list(reversed(g))
+            if self._msr(gr) < bm:
+                best, bm = gr, self._msr(gr)
+            if bm >= self._msr(g):
+                break
+            g = best
+        return g
 
     def _round(self, c):
         """ ближайший целый элемент O_k к c """
@@ -401,8 +494,64 @@ class FisherCTP:
         co = vector(QQ, list(k(c))) * M.inverse()
         return sum(ZZ(round(t)) * k(b) for t, b in zip(co, B))
 
+    def _covariant_reduce(self, g, iters=25, prec_cap=40000):
+        """ Приведение по ковариантной точке (Юлиа / Stoll–Cremona), обобщённое на квадратичное k.
+            Для каждого вложения sigma поля k: корни alpha_i многочлена sigma(g)(x,1) в C,
+            ковариантная точка z0 = x0 + i y0, где
+                x0 = среднее Re(alpha_i),   y0 = sqrt( sum |alpha_i - x0|^2 / 4 )
+            (это минимум формы Юлиа sum |z - alpha_i|^2 / Im z).
+            Подбираем c, s в k с sigma_j(c) ~ x0^(j), sigma_j(s) ~ y0^(j) и применяем
+            gamma = [[s, c],[0,1]] (то есть x -> s x + c z), что сохраняет I, J. """
+        k = self.k
+        embs = self._emb_list()
+        for it in range(iters):
+            m0 = self._msr(g)
+            prec = min(prec_cap, max(200, m0 // 2 + 200))
+            Cf = ComplexField(prec)
+            X0, Y0 = [], []
+            ok = True
+            for j in range(len(embs)):
+                Rp = PolynomialRing(Cf, 'x'); xx = Rp.gen()
+                try:
+                    gc = sum(Cf(self._sig(g[t], j, prec)) * xx ^ (4 - t) for t in range(5))
+                    rts = gc.roots(Cf, multiplicities=False)
+                except Exception:
+                    ok = False; break
+                if len(rts) < 3:
+                    ok = False; break
+                x0 = sum(r.real() for r in rts) / len(rts)
+                y0 = (sum(abs(r - x0) ^ 2 for r in rts) / 4).sqrt()
+                if y0 == 0:
+                    ok = False; break
+                X0.append(x0); Y0.append(y0)
+            if not ok:
+                break
+            try:
+                c = self._from_sigmas(X0, prec)
+                s = self._from_sigmas(Y0, prec)
+            except Exception:
+                break
+            if s == 0:
+                break
+            try:
+                gn = self.gl2(g, [[s, c], [0, 1]])
+            except Exception:
+                break
+            if self._msr(gn) >= m0:
+                gr = list(reversed(g))
+                if self._msr(gr) < m0:
+                    g = gr; continue
+                break
+            g = gn
+        return g
+
     def reduce_quartic(self, g, rounds=40):
         k = self.k
+        g = self._balance(g)
+        g = self._covariant_reduce(g)
+        g = self._balance(g)
+        if g[0] == 0 or self._msr(list(reversed(g))) < self._msr(g):
+            g = self._balance(list(reversed(g)))
         best = list(g); bm = self._msr(best)
         units = []
         if not _is_QQ(k):
@@ -498,6 +647,35 @@ class FisherCTP:
         s = QQ(s2).sqrt()
         return a / s ^ 2, k(s)
 
+    def small_rep(self, a):
+        """ a = a' * s^2 с МАЛЫМ представителем a' класса a в k*/k*^2.
+            Через k.selmer_space(S,2) с S = простые, делящие (a) (плюс над 2): образующие
+            группы Сельмера уже приведены, поэтому a' — произведение нескольких малых элементов.
+            Без этого решения коник (is_norm) получаются астрономическими. """
+        k = self.k
+        a0, s0 = self.sq_reduce(a)
+        if _is_QQ(k):
+            return a0, s0
+        if not hasattr(self, '_srcache'):
+            self._srcache = {}
+        I = k.ideal(a0)
+        try:
+            ps = set([ZZ(2)])
+            for P, ee in I.factor():
+                ps.add(ZZ(P.smallest_integer()))
+            key = tuple(sorted(ps))
+            if key not in self._srcache:
+                S = sorted(sum([k.primes_above(p) for p in sorted(ps)], []),
+                           key=lambda P: (P.smallest_integer(), str(P)))
+                self._srcache[key] = k.selmer_space(S, 2)
+            V, gens, fromV, toV = self._srcache[key]
+            rep = k(fromV(toV(a0)))
+            q = a0 / rep
+            assert q.is_square(), "small_rep: класс не совпал"
+            return rep, s0 * q.sqrt()
+        except Exception:
+            return a0, s0
+
     def solve_conic(self, M, tag=None):
         """ ненулевой v с v^t M v = 0 (M симметрична 3x3, невырождена, коника разрешима) """
         k = self.k
@@ -517,7 +695,7 @@ class FisherCTP:
                     return v
         D, T = self.diagonalize(M)
         assert all(d != 0 for d in D)
-        reps = [self.sq_reduce(d) for d in D]
+        reps = [self.small_rep(d) for d in D]
         a, b, c = [r for r, _ in reps]
         pt = None
         order = []
