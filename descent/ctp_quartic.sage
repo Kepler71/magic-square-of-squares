@@ -40,6 +40,15 @@
 # p-адических приближений в методе Фишера нет вообще (в отличие от метода Касселса в ctp.sage).
 
 import random, functools, time
+
+
+class SearchExhausted(RuntimeError):
+    """Поиск локальной точки исчерпан — но это НЕ доказательство её отсутствия.
+
+    Отдельный класс заведён намеренно: `RuntimeError` с текстом «точки нет» уже был
+    прочитан как теорема (лог n79b, ядро i=2). Ловить его надо явно и трактовать как
+    «не смогли», а не как локальную неразрешимость.
+    """
 print = functools.partial(print, flush=True)
 
 
@@ -1237,25 +1246,57 @@ class FisherCTP:
                 return x, z
         if isinstance(pl, RealPlace):
             # интервалы положительности sigma(g1)(x,1): по вещественным корням
-            emb = (lambda c: RR(QQ(c))) if pl.emb is None else (lambda c: RR(pl.emb(k(c))))
-            Rr = PolynomialRing(RR, 'x'); xr = Rr.gen()
+            # точность по динамическому диапазону коэффициентов: при |коэфф.| ~ 10^31
+            # 53-битная RR даёт мусорные корни и поиск положительной области проваливается
+            prc = self._prec_for(g1)
+            RF = RealField(prc)
+            emb = (lambda c: RF(QQ(c))) if pl.emb is None else (lambda c: RF(pl.emb(k(c))))
+            Rr = PolynomialRing(RF, 'x'); xr = Rr.gen()
             gr = sum(emb(g1[j]) * xr ^ (4 - j) for j in range(5))
-            rts = sorted([r for r in gr.roots(RR, multiplicities=False)])
-            pts = []
+            rts = sorted([r for r in gr.roots(RF, multiplicities=False)])
+            # кандидаты вместе с ДОПУСКОМ: положительный интервал квартики бывает очень узким
+            # (коэффициенты ~10^31), поэтому рациональное приближение должно быть точнее его ширины
+            cands2 = []
+            sc = max([abs(r) for r in rts] + [RF(1)])
             if rts:
-                pts += [rts[0] - 1, rts[0] - 10, rts[-1] + 1, rts[-1] + 10]
-                pts += [(rts[i] + rts[i + 1]) / 2 for i in range(len(rts) - 1)]
-            pts += [RR(0), RR(1), RR(-1), RR(10), RR(-10), RR(100), RR(-100),
-                    RR(1) / 10, RR(-1) / 10, RR(1) / 1000, RR(-1) / 1000]
-            for x0 in pts:
-                for jj in range(60):
-                    xq = QQ(x0.nearby_rational(max_denominator=10 ^ 6)) + \
-                         (QQ(random.randint(-1000, 1000)) / 10 ^ 6 if jj else 0)
+                for t in range(len(rts) - 1):
+                    mid = (rts[t] + rts[t + 1]) / 2
+                    cands2.append((mid, (rts[t + 1] - rts[t]) / 8))
+                for (p0, w0) in ((rts[0] - sc, sc / 8), (rts[-1] + sc, sc / 8),
+                                 (rts[0] - sc / 100, sc / 800), (rts[-1] + sc / 100, sc / 800)):
+                    cands2.append((p0, w0))
+            for v0 in (RF(0), RF(1), RF(-1), RF(10), RF(-10), sc, -sc, sc * 10, -sc * 10):
+                cands2.append((v0, max(abs(v0), RF(1)) / 8))
+            for (x0, tol) in cands2:
+                for jj in range(40):
+                    err = tol / (4 ^ min(jj, 5))
+                    try:
+                        xq = QQ(x0.nearby_rational(max_error=err))
+                    except Exception:
+                        continue
+                    if jj:
+                        try:
+                            step = QQ(err.nearby_rational(max_error=err / 8))
+                        except Exception:
+                            step = QQ(0)
+                        xq = xq + QQ(random.randint(-1000, 1000)) * step / 1000
                     x = k(xq); z = k(1)
                     v = quartic_eval(g1, x, z)
                     if v != 0 and gamv(x, z) != 0 and pl.is_sq(v):
                         return x, z
-            raise RuntimeError(f"нет вещественной локальной точки ({pl.name}); g1 = {g1}")
+            if g1[0] != 0 and pl.is_sq(g1[0]) and gamv(k(1), k(0)) != 0:
+                return k(1), k(0)
+            # ВАЖНО (правка 12.09, ошибку нашёл Codex): это исчерпание ЭВРИСТИЧЕСКОГО поиска,
+            # а НЕ доказательство отсутствия вещественной точки. Поиск даёт ложный отрицательный
+            # ответ на узких положительных интервалах: nearby_rational округляет с ошибкой ~1e-6,
+            # а случайные возмущения крупнее самого интервала.
+            # Контрпример Codex: g(x) = 1e-40 − (x²−2)² при x = 367296043199/259717522849 —
+            # точка существует в ℚ, поиск её не находит.
+            # Формулировку менять нельзя: «точки нет» здесь было бы выдачей ненайденного
+            # за несуществующее — ровно та ошибка, которую проект ловит у себя с начала.
+            raise SearchExhausted(
+                f"поиск не нашёл вещественную точку ({pl.name}) — это НЕ означает, что её нет; "
+                f"нужна сертифицированная изоляция корней квартики; g1 = {g1}")
         # кэш локальных точек для данной пары (g1, место)
         if not hasattr(self, '_lpcache'):
             self._lpcache = {}
