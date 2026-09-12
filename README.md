@@ -41,9 +41,18 @@ do not carry edge pairs to corner pairs.
 
 **2. An open implementation of the Cassels–Tate pairing over a quadratic field.**
 `descent/ctp.sage` (Cassels' conic method) and `descent/ctp_quartic.sage` (Fisher's binary quartics,
-arXiv:2208.14977). PARI's `casselspairing` is over ℚ only, Sage has none, Magma's is closed. Validated on 38 curves
-with known answers; reproduces Example 3.4 of Fisher exactly; the two methods agree element-by-element on the
-validation set.
+arXiv:2208.14977). PARI's `ellrank.c` implements Fisher's method over ℚ only; Sage has none; Magma's is closed.
+Ours runs over ℚ and over quadratic fields, with exact local arithmetic throughout in the quartic version.
+
+Checks: Example 3.4 of Fisher reproduced exactly (I, J, Δ, m, γ₁ and the contribution of each place); on four curves
+with full 2-torsion over ℚ(√d) the Fisher and Cassels matrices agree **element-by-element**; on 14 curves with one
+2-torsion point and an exact rank from PARI the bound is sharp everywhere; symmetry is checked by recomputing with
+the arguments reversed, including on non-zero values.
+
+*Known limit.* On our target curve (89,23,65) the pairing does **not** finish. The set of places needs the primes
+dividing g(1,0), and |N(g(1,0))| has 46 digits, because our quartics are reduced but not **minimised** — minimisation
+of genus-one models (Cremona–Fisher–Stoll) should bring that to about 15 digits. All 37 quartics are built and cached;
+what is missing is that one step.
 
 ## The hardest computation: rank 1 over ℚ(√165)
 
