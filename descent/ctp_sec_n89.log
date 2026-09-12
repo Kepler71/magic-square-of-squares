@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_7hr746_j/ctp_sectionidzuossd.sage.py", line 26, in <module>
+    vals, nP = ct.pair(els[i], els + tors, reps=_sage_const_2 )
+               ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 204, in pair
+  File "<string>", line 156, in normalize_form
+AssertionError
+EXIT 1

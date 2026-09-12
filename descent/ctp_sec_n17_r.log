@@ -1,0 +1,11 @@
+A=169 C=409 D=34 k=x^2 - 30 roots=[13906, 2312*r, -13906]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0]
+[0 0 1 1 0 0 0]
+[0 0 0 0 0 0 0]
+dim Sel2 = 7; symmetric True; zero diagonal True; torsion in kernel True
+rank CTP = 2  =>  rank E1(k) <= 3   (2s, seed 5)
+EXIT 0

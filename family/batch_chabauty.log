@@ -1,0 +1,139 @@
+######## (7,1,5) D=15 X0=2 p=11 N=6
+local saturation: L = 6, primes l | pL = [2, 3, 11], indices = {2: 1, 3: 1, 11: 1}
+classes: 24, cut by mod-11 test: 14, surviving: 10
+   r=  0 T#0: Strassmann bound 1 (min val 2, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  2 T#3: Strassmann bound 1 (min val 1, tail ok True)
+   r=  3 T#0: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#2: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  4 T#3: Strassmann bound 1 (min val 1, tail ok True)
+   r=  5 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 15
+known P with x(P) in Q: 5 ['O', -37/25, 7/5, 37/25, 7/5]
+   class r=2 T#3: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -210000
+   class r=3 T#0: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -222000
+   class r=3 T#2: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: 222000
+   class r=3 T#3: theta(-1/2) = O(p^31);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=4 T#3: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -210000
+######## (23,7,17) D=34 X0=5/3 p=7 N=6
+local saturation: L = 6, primes l | pL = [2, 3, 7], indices = {2: 1, 3: 1, 7: 1}
+classes: 24, cut by mod-7 test: 14, surviving: 10
+   r=  0 T#0: Strassmann bound 1 (min val 3, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  2 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  3 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#2: Strassmann bound 2 (min val 3, tail ok True)
+   r=  3 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  4 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  5 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 15
+known P with x(P) in Q: 5 ['O', 23/17, 23/17, 409/289, -409/289]
+   class r=2 T#2: theta(-1/2) = O(p^26);  points per embedding equal: True;  exact zero: True;  point: -61471456
+   class r=3 T#1: theta(-1/2) = O(p^26);  points per embedding equal: True;  exact zero: True;  point: -64301344
+   class r=3 T#2: theta(-1/2) = O(p^27);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=3 T#3: theta(-1/2) = O(p^26);  points per embedding equal: True;  exact zero: True;  point: 64301344
+   class r=4 T#2: theta(-1/2) = O(p^26);  points per embedding equal: True;  exact zero: True;  point: -61471456
+######## (31,17,25) D=7 X0=4/3 p=11 N=6
+local saturation: L = 6, primes l | pL = [2, 3, 11], indices = {2: 1, 3: 1, 11: 1}
+classes: 24, cut by mod-11 test: 14, surviving: 10
+   r=  0 T#0: Strassmann bound 1 (min val 2, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  2 T#1: Strassmann bound 1 (min val 1, tail ok True)
+   r=  3 T#0: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#2: Strassmann bound 2 (min val 2, tail ok True)
+   r=  4 T#1: Strassmann bound 1 (min val 1, tail ok True)
+   r=  5 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 15
+known P with x(P) in Q: 5 ['O', 793/625, -793/625, 31/25, 31/25]
+   class r=2 T#1: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -54250000
+   class r=3 T#0: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: 55510000
+   class r=3 T#1: theta(-1/2) = O(p^31);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=3 T#2: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -55510000
+   class r=4 T#1: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -54250000
+######## (41,1,29) D=609 X0=5/2 p=73 N=11
+local saturation: L = 44, primes l | pL = [2, 11, 73], indices = {2: 1, 11: 1, 73: 1}
+classes: 44, cut by mod-73 test: 37, surviving: 7
+   r=  0 T#0: Strassmann bound 1 (min val 2, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 3, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  3 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  8 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r= 10 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 9
+known P with x(P) in Q: 5 ['O', -1261/841, 1261/841, 41/29, 41/29]
+######## (47,23,37) D=1295 X0=6 p=23 N=8
+local saturation: L = 16, primes l | pL = [2, 23], indices = {2: 1, 23: 1}
+classes: 32, cut by mod-23 test: 27, surviving: 5
+   r=  0 T#0: Strassmann bound 1 (min val 2, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  7 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 7
+known P with x(P) in Q: 5 ['O', 1789/1369, 47/37, -1789/1369, 47/37]
+######## (49,31,41) D=41 X0=5/4 p=31 N=6
+local saturation: L = 126, primes l | pL = [2, 3, 7, 31], indices = {2: 1, 3: 1, 7: 1, 31: 1}
+classes: 24, cut by mod-31 test: 14, surviving: 10
+   r=  0 T#0: Strassmann bound 1 (min val 2, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  2 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  3 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#2: Strassmann bound 2 (min val 2, tail ok True)
+   r=  3 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  4 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  5 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 15
+known P with x(P) in Q: 5 [-2041/1681, 49/41, 'O', 49/41, 2041/1681]
+   class r=2 T#2: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -2215396624
+   class r=3 T#1: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -2250684176
+   class r=3 T#2: theta(-1/2) = O(p^31);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=3 T#3: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: 2250684176
+   class r=4 T#2: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: -2215396624
+######## (73,17,53) D=265 X0=7/2 p=17 N=10
+local saturation: L = 10, primes l | pL = [2, 5, 17], indices = {2: 1, 5: 1, 17: 1}
+classes: 40, cut by mod-17 test: 30, surviving: 10
+   r=  0 T#0: Strassmann bound 1 (min val 3, tail ok True)
+   r=  0 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  0 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  1 T#0: Strassmann bound 1 (min val 1, tail ok True)
+   r=  4 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  5 T#1: Strassmann bound 2 (min val 2, tail ok True)
+   r=  5 T#2: Strassmann bound 2 (min val 3, tail ok True)
+   r=  5 T#3: Strassmann bound 2 (min val 2, tail ok True)
+   r=  6 T#2: Strassmann bound 1 (min val 1, tail ok True)
+   r=  9 T#0: Strassmann bound 1 (min val 1, tail ok True)
+all classes: rigorous tail bound OK
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 15
+known P with x(P) in Q: 5 ['O', 73/53, 73/53, -4069/2809, 4069/2809]
+   class r=4 T#2: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -46080409040
+   class r=5 T#1: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -48462441040
+   class r=5 T#2: theta(-1/2) = O(p^30);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=5 T#3: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: 48462441040
+   class r=6 T#2: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -46080409040
+
+==== Magma lines (Q:=Rationals(); R<t>:=PolynomialRing(Q);) ====
+f:=15*(t^2-1)*(t^2+1)*(769*t^2-962*t+769); print "(7,1,5)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=34*(t^2-1)*(t^2+1)*(97921*t^2-138242*t+97921); print "(23,7,17)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=7*(t^2-1)*(t^2+1)*(418849*t^2-724802*t+418849); print "(31,17,25)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=609*(t^2-1)*(t^2+1)*(883681*t^2-1061762*t+883681); print "(41,1,29)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=1295*(t^2-1)*(t^2+1)*(2050561*t^2-3395522*t+2050561); print "(47,23,37)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=41*(t^2-1)*(t^2+1)*(2955361*t^2-5392322*t+2955361); print "(49,31,41)", RankBounds(Jacobian(HyperellipticCurve(f)));
+f:=265*(t^2-1)*(t^2+1)*(9478081*t^2-12605762*t+9478081); print "(73,17,53)", RankBounds(Jacobian(HyperellipticCurve(f)));
+exit 0

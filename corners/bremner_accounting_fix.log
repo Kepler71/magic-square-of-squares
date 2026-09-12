@@ -1,0 +1,2 @@
+(103,19) C0=5485 non□ time=2s hits=0 bases ok=6 err=0 skip=0 detail=[('ok', 'TL/BR: rank 1, |n|<=12'), ('ok', 'TL/D: rank 2, |n|<=8'), ('ok', 'BR/D: rank 2, |n|<=8'), ('ok', 'BL/TR: rank 1, |n|<=12'), ('ok', 'BL/D: rank 2, |n|<=8'), ('ok', 'TR/D: rank 2, |n|<=8')]
+(101,99) C0=10001 non□ time=4s hits=0 bases ok=6 err=0 skip=0 detail=[('ok', 'TL/BR: rank 2, |n|<=8'), ('ok', 'TL/D: rank 3, |n|<=5'), ('ok', 'BR/D: rank 3, |n|<=5'), ('ok', 'BL/TR: rank 2, |n|<=8'), ('ok', 'BL/D: rank 3, |n|<=5'), ('ok', 'TR/D: rank 3, |n|<=5')]

@@ -1,0 +1,31 @@
+row 0: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] torsion [0, 0] places 20 (1s)
+row 1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0] torsion [0, 0] places 20 (2s)
+row 2: [0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1] torsion [0, 0] places 20 (2s)
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_u790u737/ctp_section2s075kqk.sage.py", line 26, in <module>
+    vals, nP = ct.pair(els[i], els + tors, reps=_sage_const_2 )
+               ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 245, in pair
+  File "<string>", line 151, in tangent_forms
+  File "<string>", line 124, in solve_conic
+  File "sage/rings/number_field/number_field_element.pyx", line 1677, in sage.rings.number_field.number_field_element.NumberFieldElement.is_norm
+    a, b = self._rnfisnorm(L, proof=proof)
+  File "sage/rings/number_field/number_field_element.pyx", line 1812, in sage.rings.number_field.number_field_element.NumberFieldElement._rnfisnorm
+    x, q = pari.rnfisnorm(rnf_data, self)
+  File "cypari2/auto_instance.pxi", line 35901, in cypari2.pari_instance.Pari_auto.rnfisnorm
+    sig_on()
+  File "cypari2/handle_error.pyx", line 211, in cypari2.handle_error._pari_err_handle
+cypari2.handle_error.PariError: the PARI stack overflows (current size: 8000000000; maximum size: 8000000000)
+You can use pari.allocatemem() to change the stack size and try again
+EXIT 1

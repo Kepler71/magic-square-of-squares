@@ -1,0 +1,294 @@
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1050470]
+[New LWP 1050469]
+[New LWP 1050468]
+[New LWP 1050467]
+[New LWP 1050466]
+[New LWP 1050465]
+[New LWP 1050464]
+[New LWP 1050463]
+[New LWP 1050462]
+[New LWP 1050461]
+[New LWP 1050460]
+[New LWP 1050459]
+[New LWP 1050458]
+[New LWP 1050457]
+[New LWP 1050456]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f72740a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007f727410550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007f7273628ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007f7273629206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007f727403e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007f7270dbae94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007f7272b3b36e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007f7272b64f3d in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007f7272b868af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007f7272b61779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007f7272b61bba in __gmpn_mul_n () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007f7272b891de in __gmpn_ni_invertappr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007f7272b8db27 in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007f7272b6e06b in __gmpn_tdiv_qr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007f7272b71015 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007f7272b4c11e in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#17 0x00007f7272b597eb in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#18 0x00007f72718d7b33 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#19 0x00007f7274634855 in PyNumber_Add () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007f727445e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#21 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#22 0x00007f72735a08b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#23 0x00007f727359b705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#24 0x00007f72746710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007f727468e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#26 0x00007f7274615df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#27 0x00007f727259c49d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#28 0x00007f727259d4ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#29 0x00007f7274469935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#30 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#31 0x00007f72735951f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007f7272592a2c in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007f7272dd35a2 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007f7272dd1a39 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007f7272ae40b8 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#36 0x00007f7272ae07e2 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#37 0x00007f7272acf3dc in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#38 0x00007f72735a1820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#39 0x00007f727359bd99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#40 0x00007f7274631df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007f72745a6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007f7274671292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007f72747511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007f727463bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007f727445e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007f727461cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007f72745a31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007f7274730d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007f72744693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007f72744b8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007f727445dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007f72746dfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007f72744693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007f72745d6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007f7274625a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007f72746db9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007f72746251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007f727445d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007f727470571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007f7274705d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#68 0x00007f7274704dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#69 0x00007f7274704c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#70 0x00007f72746a9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#71 0x00007f72746a3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#72 0x00007f7274027781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#73 0x00007f72740278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#74 0x00005646200d7045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007f72741054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007f727403e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f7272b3b350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007f7272b64c60 in __gmpn_mul_fft ()
+#9  0x00007f7272b86290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007f7272b615f0 in __gmpn_nussbaumer_mul ()
+#11 0x00007f7272b61850 in __gmpn_mul_n ()
+#12 0x00007f7272b88f50 in __gmpn_ni_invertappr ()
+#13 0x0000000000000000 in ?? ()
+#14 0x00007f7272b6d3a0 in __gmpn_tdiv_qr ()
+#15 0x00007f7272b70c00 in __gmpn_gcd ()
+#16 0x00007f7272b4bc80 in __gmpz_gcd ()
+#17 0x0000000000000000 in ?? ()
+#18 0x0000000000000000 in ?? ()
+#19 0x00007f7274634810 in PyNumber_Add ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x0000000000000000 in ?? ()
+#25 0x0000000000000000 in ?? ()
+#26 0x00007f7274615d90 in PyNumber_InPlaceAdd ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x0000000000000000 in ?? ()
+#40 0x0000000000000000 in ?? ()
+#41 0x0000000000000000 in ?? ()
+#42 0x0000000000000000 in ?? ()
+#43 0x0000000000000000 in ?? ()
+#44 0x00007f727463baa0 in PyNumber_Multiply ()
+#45 0x0000000000000000 in ?? ()
+#46 0x0000000000000000 in ?? ()
+#47 0x00007f72745a31d0 in PyIter_Next ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x0000000000000000 in ?? ()
+#51 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#52 0x0000000000000000 in ?? ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#56 0x0000000000000000 in ?? ()
+#57 0x0000000000000000 in ?? ()
+#58 0x0000000000000000 in ?? ()
+#59 0x0000000000000000 in ?? ()
+#60 0x00007f7274625940 in PyObject_CallMethodObjArgs ()
+#61 0x0000000000000000 in ?? ()
+#62 0x00007f7274624ac0 in PyImport_ImportModuleLevelObject ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#66 0x0000000000000000 in ?? ()
+#67 0x0000000000000000 in ?? ()
+#68 0x0000000000000000 in ?? ()
+#69 0x0000000000000000 in ?? ()
+#70 0x00007f72746a9cc0 in Py_RunMain ()
+#71 0x00007f72746a3ec0 in Py_BytesMain ()
+#72 0x0000000000000000 in ?? ()
+#73 0x00007f7274027830 in __libc_start_main ()
+#74 0x00005646200d7020 in _start ()
+
+[Inferior 1 (process 1050407) detached]

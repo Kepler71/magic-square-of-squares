@@ -1,0 +1,185 @@
+  k = x^2 - 5, a = 1, b = -3
+  Delta ~ d = 13;  K = k(sqrt d), abs poly x^4 - 36*x^2 + 64
+  S: 3 простых над [2, 3, 13];  dim k(S,2) = 5, dim K(S_K,2) = 9  (0s)
+  места: (2, 0)[dim 12, tgt 4], (3, 0)[dim 6, tgt 2], (13, 0)[dim 4, tgt 1], real -2.2361[dim 3, tgt 1], real 2.2361[dim 3, tgt 1]
+    (2, 0): dim Im mu_v = 4 / 12  (0s)
+    (3, 0): dim Im mu_v = 2 / 6  (0s)
+    (13, 0): dim Im mu_v = 1 / 4  (0s)
+    real -2.2361: dim Im mu_v = 1 / 3  (0s)
+    real 2.2361: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 1  =>  rank E(k) <= 0   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=-3 d=5: истинный ранг 0, dim Sel^2 = 1, граница 0 OK (точно)  (0s)
+  k = x^2 + 1, a = 1, b = -3
+  Delta ~ d = 13;  K = k(sqrt d), abs poly x^4 - 24*x^2 + 196
+  S: 4 простых над [2, 3, 13];  dim k(S,2) = 5, dim K(S_K,2) = 7  (0s)
+  места: (2, r + 1)[dim 10, tgt 3], (3, 0)[dim 6, tgt 2], (13, r + 8)[dim 4, tgt 1], (13, r + 5)[dim 4, tgt 1]
+    (2, r + 1): dim Im mu_v = 3 / 10  (0s)
+    (3, 0): dim Im mu_v = 2 / 6  (0s)
+    (13, r + 8): dim Im mu_v = 1 / 4  (0s)
+    (13, r + 5): dim Im mu_v = 1 / 4  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=-3 d=-1: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 - 2, a = 1, b = -3
+  Delta ~ d = 13;  K = k(sqrt d), abs poly x^4 - 30*x^2 + 121
+  S: 3 простых над [2, 3, 13];  dim k(S,2) = 5, dim K(S_K,2) = 8  (0s)
+  места: (2, r)[dim 10, tgt 3], (3, 0)[dim 6, tgt 2], (13, 0)[dim 4, tgt 1], real -1.4142[dim 3, tgt 1], real 1.4142[dim 3, tgt 1]
+    (2, r): dim Im mu_v = 3 / 10  (0s)
+    (3, 0): dim Im mu_v = 2 / 6  (0s)
+    (13, 0): dim Im mu_v = 1 / 4  (0s)
+    real -1.4142: dim Im mu_v = 1 / 3  (0s)
+    real 1.4142: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=-3 d=2: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 - 5, a = 1, b = 1
+  Delta ~ d = -3;  K = k(sqrt d), abs poly x^4 - 4*x^2 + 64
+  S: 2 простых над [2, 3];  dim k(S,2) = 4, dim K(S_K,2) = 5  (0s)
+  места: (2, 0)[dim 12, tgt 4], (3, 0)[dim 4, tgt 1], real -2.2361[dim 1, tgt 0], real 2.2361[dim 1, tgt 0]
+    (2, 0): dim Im mu_v = 4 / 12  (0s)
+    (3, 0): dim Im mu_v = 1 / 4  (0s)
+    real -2.2361: dim Im mu_v = 0 / 1  (0s)
+    real 2.2361: dim Im mu_v = 0 / 1  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=1 d=5: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 + 7, a = 1, b = 1
+  Delta ~ d = -3;  K = k(sqrt d), abs poly x^4 + 20*x^2 + 16
+  S: 3 простых над [2, 3];  dim k(S,2) = 4, dim K(S_K,2) = 5  (0s)
+  места: (2, 1/2*r - 1/2)[dim 7, tgt 2], (2, 1/2*r + 1/2)[dim 7, tgt 2], (3, 0)[dim 4, tgt 1]
+    (2, 1/2*r - 1/2): dim Im mu_v = 2 / 7  (0s)
+    (2, 1/2*r + 1/2): dim Im mu_v = 2 / 7  (0s)
+    (3, 0): dim Im mu_v = 1 / 4  (0s)
+  dim Sel^2 = 1  =>  rank E(k) <= 0   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=1 d=-7: истинный ранг 0, dim Sel^2 = 1, граница 0 OK (точно)  (0s)
+  k = x^2 - 3, a = -2, b = -4
+  Delta ~ d = 5;  K = k(sqrt d), abs poly x^4 - 16*x^2 + 4
+  S: 2 простых над [2, 5];  dim k(S,2) = 4, dim K(S_K,2) = 6  (0s)
+  места: (2, r + 1)[dim 10, tgt 3], (5, 0)[dim 4, tgt 1], real -1.7321[dim 3, tgt 1], real 1.7321[dim 3, tgt 1]
+    (2, r + 1): dim Im mu_v = 3 / 10  (0s)
+    (5, 0): dim Im mu_v = 1 / 4  (0s)
+    real -1.7321: dim Im mu_v = 1 / 3  (0s)
+    real 1.7321: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=-2 b=-4 d=3: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+пропуск (a,b,d)=(3, 1, 5): Delta квадрат в k
+  k = x^2 + 3, a = 3, b = 1
+  Delta ~ d = 5;  K = k(sqrt d), abs poly x^4 - 4*x^2 + 64
+  S: 2 простых над [2, 5];  dim k(S,2) = 3, dim K(S_K,2) = 5  (0s)
+  места: (2, 0)[dim 12, tgt 4], (5, 0)[dim 4, tgt 1]
+    (2, 0): dim Im mu_v = 4 / 12  (0s)
+    (5, 0): dim Im mu_v = 1 / 4  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': False, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': True, 'mu_T_consistent': True})
+### a=3 b=1 d=-3: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 - 2, a = -5, b = 5
+  Delta ~ d = 5;  K = k(sqrt d), abs poly x^4 - 14*x^2 + 9
+  S: 2 простых над [2, 5];  dim k(S,2) = 4, dim K(S_K,2) = 6  (0s)
+  места: (2, r)[dim 10, tgt 3], (5, 0)[dim 4, tgt 1], real -1.4142[dim 3, tgt 1], real 1.4142[dim 3, tgt 1]
+    (2, r): dim Im mu_v = 3 / 10  (0s)
+    (5, 0): dim Im mu_v = 1 / 4  (0s)
+    real -1.4142: dim Im mu_v = 1 / 3  (0s)
+    real 1.4142: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=-5 b=5 d=2: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 - 13, a = 2, b = -7
+  Delta ~ d = 2;  K = k(sqrt d), abs poly x^4 - 30*x^2 + 121
+  S: 2 простых над [2, 7];  dim k(S,2) = 4, dim K(S_K,2) = 7  (0s)
+  места: (2, 0)[dim 10, tgt 3], (7, 0)[dim 6, tgt 2], real -3.6056[dim 3, tgt 1], real 3.6056[dim 3, tgt 1]
+    (2, 0): dim Im mu_v = 3 / 10  (0s)
+    (7, 0): dim Im mu_v = 2 / 6  (0s)
+    real -3.6056: dim Im mu_v = 1 / 3  (0s)
+    real 3.6056: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 1  =>  rank E(k) <= 0   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=2 b=-7 d=13: истинный ранг 0, dim Sel^2 = 1, граница 0 OK (точно)  (0s)
+  k = x^2 + 1, a = 1, b = -5
+  Delta ~ d = 21;  K = k(sqrt d), abs poly x^4 - 40*x^2 + 484
+  S: 5 простых над [2, 3, 5, 7];  dim k(S,2) = 6, dim K(S_K,2) = 9  (0s)
+  места: (2, r + 1)[dim 10, tgt 3], (3, 0)[dim 4, tgt 1], (5, r + 3)[dim 6, tgt 2], (5, r + 2)[dim 6, tgt 2], (7, 0)[dim 4, tgt 1]
+    (2, r + 1): dim Im mu_v = 3 / 10  (0s)
+    (3, 0): dim Im mu_v = 1 / 4  (0s)
+    (5, r + 3): dim Im mu_v = 2 / 6  (0s)
+    (5, r + 2): dim Im mu_v = 2 / 6  (0s)
+    (7, 0): dim Im mu_v = 1 / 4  (0s)
+  dim Sel^2 = 1  =>  rank E(k) <= 0   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=1 b=-5 d=-1: истинный ранг 0, dim Sel^2 = 1, граница 0 OK (точно)  (0s)
+  k = x^2 - 6, a = 5, b = 5
+  Delta ~ d = 5;  K = k(sqrt d), abs poly x^4 - 22*x^2 + 1
+  S: 3 простых над [2, 5];  dim k(S,2) = 5, dim K(S_K,2) = 7  (0s)
+  места: (2, r)[dim 10, tgt 3], (5, r + 4)[dim 4, tgt 1], (5, r + 1)[dim 4, tgt 1], real -2.4495[dim 3, tgt 1], real 2.4495[dim 3, tgt 1]
+    (2, r): dim Im mu_v = 3 / 10  (0s)
+    (5, r + 4): dim Im mu_v = 1 / 4  (0s)
+    (5, r + 1): dim Im mu_v = 1 / 4  (0s)
+    real -2.4495: dim Im mu_v = 1 / 3  (0s)
+    real 2.4495: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=5 b=5 d=6: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+  k = x^2 - 17, a = 7, b = 5
+  Delta ~ d = 29;  K = k(sqrt d), abs poly x^4 - 92*x^2 + 144
+  S: 4 простых над [2, 5, 29];  dim k(S,2) = 6, dim K(S_K,2) = 9  (0s)
+  места: (2, 1/2*r - 1/2)[dim 7, tgt 2], (2, 1/2*r + 1/2)[dim 7, tgt 2], (5, 0)[dim 6, tgt 2], (29, 0)[dim 4, tgt 1], real -4.1231[dim 3, tgt 1], real 4.1231[dim 3, tgt 1]
+    (2, 1/2*r - 1/2): dim Im mu_v = 2 / 7  (0s)
+    (2, 1/2*r + 1/2): dim Im mu_v = 2 / 7  (0s)
+    (5, 0): dim Im mu_v = 2 / 6  (0s)
+    (29, 0): dim Im mu_v = 1 / 4  (0s)
+    real -4.1231: dim Im mu_v = 1 / 3  (0s)
+    real 4.1231: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 3  =>  rank E(k) <= 2   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=7 b=5 d=17: истинный ранг 2, dim Sel^2 = 3, граница 2 OK (точно)  (0s)
+  k = x^2 - 2, a = -3, b = -11
+  Delta ~ d = 53;  K = k(sqrt d), abs poly x^4 - 110*x^2 + 2601
+  S: 3 простых над [2, 11, 53];  dim k(S,2) = 5, dim K(S_K,2) = 8  (0s)
+  места: (2, r)[dim 10, tgt 3], (11, 0)[dim 6, tgt 2], (53, 0)[dim 4, tgt 1], real -1.4142[dim 3, tgt 1], real 1.4142[dim 3, tgt 1]
+    (2, r): dim Im mu_v = 3 / 10  (0s)
+    (11, 0): dim Im mu_v = 2 / 6  (0s)
+    (53, 0): dim Im mu_v = 1 / 4  (0s)
+    real -1.4142: dim Im mu_v = 1 / 3  (0s)
+    real 1.4142: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=-3 b=-11 d=2: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+пропуск (a,b,d)=(4, -1, 5): Delta квадрат в k
+  k = x^2 + 1, a = 6, b = 7
+  Delta ~ d = r;  K = k(sqrt d), abs poly x^4 + 1
+  S: 2 простых над [2, 7];  dim k(S,2) = 3, dim K(S_K,2) = 5  (0s)
+  места: (2, r + 1)[dim 10, tgt 3], (7, 0)[dim 6, tgt 2]
+    (2, r + 1): dim Im mu_v = 3 / 10  (0s)
+    (7, 0): dim Im mu_v = 2 / 6  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=6 b=7 d=-1: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+пропуск (a,b,d)=(1, -6, 5): Delta квадрат в k
+пропуск (a,b,d)=(-1, -6, 2): Delta квадрат в k
+  k = x^2 - 3, a = 9, b = 2
+  Delta ~ d = 73;  K = k(sqrt d), abs poly x^4 - 152*x^2 + 4900
+  S: 3 простых над [2, 73];  dim k(S,2) = 5, dim K(S_K,2) = 8  (0s)
+  места: (2, r + 1)[dim 12, tgt 4], (73, r + 52)[dim 4, tgt 1], (73, r + 21)[dim 4, tgt 1], real -1.7321[dim 3, tgt 1], real 1.7321[dim 3, tgt 1]
+    (2, r + 1): dim Im mu_v = 4 / 12  (0s)
+    (73, r + 52): dim Im mu_v = 1 / 4  (0s)
+    (73, r + 21): dim Im mu_v = 1 / 4  (0s)
+    real -1.7321: dim Im mu_v = 1 / 3  (0s)
+    real 1.7321: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 3  =>  rank E(k) <= 2   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=9 b=2 d=3: истинный ранг 2, dim Sel^2 = 3, граница 2 OK (точно)  (0s)
+  k = x^2 - 6, a = -4, b = 2
+  Delta ~ d = 2*r + 5;  K = k(sqrt d), abs poly x^4 - 10*x^2 + 1
+  S: 1 простых над [2];  dim k(S,2) = 3, dim K(S_K,2) = 5  (0s)
+  места: (2, r)[dim 10, tgt 3], real -2.4495[dim 3, tgt 1], real 2.4495[dim 3, tgt 1]
+    (2, r): dim Im mu_v = 3 / 10  (0s)
+    real -2.4495: dim Im mu_v = 1 / 3  (0s)
+    real 2.4495: dim Im mu_v = 1 / 3  (0s)
+  dim Sel^2 = 2  =>  rank E(k) <= 1   (контроли: {'torsion_nonzero': True, 'torsion_in_Sel': True, 'norm_condition': True, 'N_theta': True, 'T_in_2E': False, 'mu_T_consistent': True})
+### a=-4 b=2 d=6: истинный ранг 1, dim Sel^2 = 2, граница 1 OK (точно)  (0s)
+
+| a | b | d | rank E(k) | dim Sel^2 | граница | точна |
+|---|---|---|---|---|---|---|
+| 1 | -3 | 5 | 0 | 1 | 0 | да |
+| 1 | -3 | -1 | 1 | 2 | 1 | да |
+| 1 | -3 | 2 | 1 | 2 | 1 | да |
+| 1 | 1 | 5 | 1 | 2 | 1 | да |
+| 1 | 1 | -7 | 0 | 1 | 0 | да |
+| -2 | -4 | 3 | 1 | 2 | 1 | да |
+| 3 | 1 | -3 | 1 | 2 | 1 | да |
+| -5 | 5 | 2 | 1 | 2 | 1 | да |
+| 2 | -7 | 13 | 0 | 1 | 0 | да |
+| 1 | -5 | -1 | 0 | 1 | 0 | да |
+| 5 | 5 | 6 | 1 | 2 | 1 | да |
+| 7 | 5 | 17 | 2 | 3 | 2 | да |
+| -3 | -11 | 2 | 1 | 2 | 1 | да |
+| 6 | 7 | -1 | 1 | 2 | 1 | да |
+| 9 | 2 | 3 | 2 | 3 | 2 | да |
+| -4 | 2 | 6 | 1 | 2 | 1 | да |

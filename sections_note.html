@@ -1,0 +1,226 @@
+<title>Сечения s = 1/5 и 1/4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap">
+<style>
+:root {
+  --paper: #F6F7F9;
+  --sheet: #FFFFFF;
+  --ink: #1A2130;
+  --ink-soft: #4A5468;
+  --rule: #D9DDE5;
+  --accent: #2F4F8F;
+  --accent-soft: #E6EBF5;
+  --ok: #2E6B4F;   --ok-bg: #E3F0E9;
+  --po: #2F4F8F;   --po-bg: #E6EBF5;
+  --num: #8A5E0E;  --num-bg: #F6ECD9;
+  --open: #A23B2C; --open-bg: #F6E3E0;
+  --cell: #EEF1F6;
+  --serif: "Source Serif 4", "Source Serif Pro", Georgia, "Times New Roman", serif;
+  --sans: "IBM Plex Sans", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #12161F; --sheet: #181D28; --ink: #E4E8F0; --ink-soft: #A7B0C2; --rule: #2C3444;
+    --accent: #8FA9E0; --accent-soft: #1F2940;
+    --ok: #7CC4A0; --ok-bg: #16291F; --po: #8FA9E0; --po-bg: #1C2540;
+    --num: #E0B36A; --num-bg: #2E2414; --open: #EB8B7C; --open-bg: #331B18; --cell: #1F2533;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #12161F; --sheet: #181D28; --ink: #E4E8F0; --ink-soft: #A7B0C2; --rule: #2C3444;
+  --accent: #8FA9E0; --accent-soft: #1F2940;
+  --ok: #7CC4A0; --ok-bg: #16291F; --po: #8FA9E0; --po-bg: #1C2540;
+  --num: #E0B36A; --num-bg: #2E2414; --open: #EB8B7C; --open-bg: #331B18; --cell: #1F2533;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: var(--serif); font-size: 17px; line-height: 1.6;
+  padding-inline: 20px; padding-block: 40px 72px;
+}
+main { max-width: 760px; margin-inline: auto; display: flex; flex-direction: column; gap: 40px; }
+header { display: flex; flex-direction: column; gap: 14px; border-bottom: 1px solid var(--rule); padding-bottom: 28px; }
+.eyebrow { font-family: var(--sans); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-soft); font-weight: 500; }
+h1 { font-family: var(--sans); font-weight: 600; font-size: 34px; line-height: 1.15; margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h2 { font-family: var(--sans); font-weight: 600; font-size: 22px; line-height: 1.25; margin: 0; text-wrap: balance; }
+h3 { font-family: var(--sans); font-weight: 600; font-size: 17px; margin: 0; color: var(--ink); }
+p { margin: 0; max-width: 68ch; }
+section { display: flex; flex-direction: column; gap: 16px; }
+.lede { font-size: 19px; color: var(--ink); max-width: 64ch; }
+.meta { font-family: var(--sans); font-size: 13px; color: var(--ink-soft); display: flex; flex-wrap: wrap; gap: 6px 18px; }
+code, .mono { font-family: var(--mono); font-size: 0.86em; }
+.f { font-family: var(--mono); font-size: 14.5px; background: var(--cell); padding: 12px 14px; border-radius: 4px; overflow-x: auto; white-space: pre; line-height: 1.55; }
+ul, ol { margin: 0; padding-left: 1.25em; display: flex; flex-direction: column; gap: 6px; max-width: 68ch; }
+a { color: var(--accent); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chip { display: inline-block; font-family: var(--sans); font-size: 11.5px; font-weight: 600; letter-spacing: 0.04em; padding: 2px 8px; border-radius: 999px; white-space: nowrap; vertical-align: 1px; }
+.ok   { color: var(--ok);   background: var(--ok-bg); }
+.po   { color: var(--po);   background: var(--po-bg); }
+.num  { color: var(--num);  background: var(--num-bg); }
+.open { color: var(--open); background: var(--open-bg); }
+.claim { background: var(--sheet); border: 1px solid var(--rule); border-radius: 6px; padding: 20px 22px; display: flex; flex-direction: column; gap: 12px; }
+.claim p { max-width: none; }
+.claim strong { font-weight: 600; }
+.tablewrap { overflow-x: auto; border: 1px solid var(--rule); border-radius: 6px; background: var(--sheet); }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; line-height: 1.45; }
+th, td { text-align: left; vertical-align: top; padding: 9px 12px; border-bottom: 1px solid var(--rule); }
+th { font-family: var(--sans); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; background: var(--paper); }
+tr:last-child td { border-bottom: 0; }
+td.n { font-variant-numeric: tabular-nums; font-family: var(--mono); font-size: 13.5px; white-space: nowrap; }
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: start; }
+.square { display: grid; grid-template-columns: repeat(3, 58px); grid-auto-rows: 58px; gap: 3px; }
+.square div { display: flex; align-items: center; justify-content: center; font-family: var(--mono); font-size: 15px; font-variant-numeric: tabular-nums; background: var(--cell); color: var(--ink); border-radius: 3px; }
+.square .v7 { background: var(--accent-soft); }
+.square .v17 { background: var(--num-bg); }
+.figcap { font-family: var(--sans); font-size: 12.5px; color: var(--ink-soft); max-width: 190px; margin-top: 8px; line-height: 1.4; }
+.note { font-size: 15px; color: var(--ink-soft); }
+.steps { counter-reset: st; list-style: none; padding: 0; gap: 14px; }
+.steps li { counter-increment: st; display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 4px 10px; }
+.steps li::before { content: counter(st); font-family: var(--sans); font-weight: 600; font-size: 13px; color: var(--accent); border: 1px solid var(--rule); border-radius: 50%; width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; margin-top: 1px; }
+.steps li > div { display: flex; flex-direction: column; gap: 4px; }
+footer { border-top: 1px solid var(--rule); padding-top: 22px; font-size: 14.5px; color: var(--ink-soft); display: flex; flex-direction: column; gap: 10px; }
+@media (max-width: 560px) {
+  body { font-size: 16px; padding-block: 28px 56px; }
+  h1 { font-size: 27px; }
+  .pair { grid-template-columns: 1fr; }
+}
+</style>
+
+<main>
+<header>
+  <div class="eyebrow">Магический квадрат 3×3 из квадратов · рабочая записка</div>
+  <h1>Сечения s = 1/5 и 1/4</h1>
+  <p class="lede">Два сечения семейства «центрального креста» не содержат магического квадрата из девяти различных рациональных квадратов. Ниже — постановка, общая схема доказательства, данные по каждому сечению и полный перечень зависимостей.</p>
+  <div class="meta"><span>11 сентября 2026</span><span>Claude Code · Codex · Grok</span><span>не рецензировано</span></div>
+</header>
+
+<section>
+  <h2>Что утверждается</h2>
+  <div class="claim">
+    <p><strong>Утверждение.</strong> Пусть центральный крест квадрата с центром 1 содержит пару клеток B(s)², H(s)² при s = 1/5 (эквивалентно 2/3, 5, 3/2) или при s = 1/4 (эквивалентно 3/5, 4, 5/3). Тогда все девять клеток любого такого магического квадрата из рациональных квадратов принимают не более трёх различных значений.</p>
+    <p><span class="chip po">доказано (ПО)</span> Доказательство опирается на вычисления Sage/PARI/mwrank, одну верхнюю границу ранга из Magma на сечение и собственную реализацию эллиптического Шаботи; все звенья перечислены в разделе «Зависимости».</p>
+  </div>
+  <p class="note">Общая задача Гарднера этим не решается: сечений бесконечно много, закрыты два. Для шести из одиннадцати проверенных сечений этот метод, по-видимому, неприменим (ранг ≥ 2).</p>
+</section>
+
+<section>
+  <h2>Постановка</h2>
+  <p>Нормируем центр до 1. Пары противоположных клеток креста лежат на окружности B² + H² = 2 с параметризацией</p>
+  <div class="f">B(u) = (1 + 2u − u²)/(1 + u²),   H(u) = (1 − 2u − u²)/(1 + u²).</div>
+  <p>Крест задают параметры s и t: b = B(s), h = H(s), d = B(t), f = H(t). Магичность вынуждает углы a² = (h² + f²)/2, c² = (h² + d²)/2, g² = (b² + f²)/2, i² = (b² + d²)/2. Сечение — фиксированная пара b = β/n, h = η/n с β² + η² = 2n² (здесь β, η — числители); положим</p>
+  <div class="f">A = (η² + n²)/2,   C = (β² + n²)/2,   A + C = 2n².</div>
+  <p>Условие «четыре угла — квадраты» задаёт кривую C<sub>s</sub> рода 49 над прямой t:</p>
+  <div class="f">Y₁,₂² = A(t²+1)² ± 2n²·t(t²−1),   Y₃,₄² = C(t²+1)² ± 2n²·t(t²−1).</div>
+  <div class="pair">
+    <p>Для s = 1/5: (β, η, n) = (17, 7, 13), A = 109, C = 229. Для s = 1/4: (23, 7, 17), A = 169, C = 409. На каждом сечении есть «вырожденные» точки — t из орбиты самого s; справа такой квадрат для s = t = 1/5, умноженный на 169: встречаются только 7², 13², 17².</p>
+    <figure style="margin:0">
+      <div class="square" role="img" aria-label="Вырожденный квадрат: 49 289 169 / 289 169 49 / 169 49 289">
+        <div class="v7">49</div><div class="v17">289</div><div>169</div>
+        <div class="v17">289</div><div>169</div><div class="v7">49</div>
+        <div>169</div><div class="v7">49</div><div class="v17">289</div>
+      </div>
+      <figcaption class="figcap">s = t = 1/5, клетки ×169. Сумма по любой линии 507.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <h2>Общая схема для сечения</h2>
+  <p>Шаги 1–4 выведены для произвольных A, C; отличаются только числовые данные.</p>
+  <ol class="steps">
+    <li><div><h3>Отображение на кривую рода 2</h3>
+      <p>X = (Y₃ − Y₄)/(Y₁ − Y₂) лежит одновременно на Q: (A X² − C)(X⁴ − 1) = □ и Q′: (C X² − A)(X⁴ − 1) = □. Исключение Y-координат даёт тождество</p>
+      <div class="f">[2n²·t(t²−1)(1−X⁴) / (2X(t²+1)²)]² = (C − A X²)(A − C X²).</div>
+      <p><span class="chip ok">доказано</span> символически; исключительные случаи t = 0, ±1, ∞, w = 0, X = ±1 разобраны для каждого сечения.</p></div></li>
+    <li><div><h3>Классы спуска</h3>
+      <p>Для X = p/q классы (d₁, d₂, d₃) — свободные от квадратов части p² − q², p² + q², A p² − C q²; дополненная система добавляет C p² − A q² = d₃ v². Кандидаты берутся из делителей попарных результантов; каждый либо содержит известную точку, либо не имеет точек над ℝ или ℚ<sub>ℓ</sub> (строгий тест дроблением ℤ<sub>ℓ</sub> на шары).</p>
+      <p><span class="chip po">доказано (ПО)</span> В обоих сечениях локально разрешимы ровно 4 класса.</p></div></li>
+    <li><div><h3>Бисэллиптичность и ранг</h3>
+      <p>Фактор C<sub>J₂</sub>: d₃W² = t(t²−1)(At − C)(Ct − A). Замена z = (t−1)/(t+1) даёт y² = c·z(z²−1)(z² − β′²), β′ = (C − A)/(C + A) ∈ ℚ, поэтому инволюция z ↦ β′/z поднимается над k = ℚ(√((C−A)(C+A))) и Jac(C<sub>J₂</sub>) ~ Res<sub>k/ℚ</sub> E₁. Верхняя граница ранга — по двойственной Ришело-модели, для которой при разбиении {0,∞},{1,−1},{C/A, A/C} доказано тождество</p>
+      <div class="f">δ·G₁G₂G₃ = (2ACD)²·D(t²−1)(t²+1)(½(A²+C²)t² − 2AC·t + ½(A²+C²)).</div>
+      <p><span class="chip ok">доказано</span> тождества; <span class="chip po">ПО</span> границы Magma RankBounds.</p></div></li>
+    <li><div><h3>Эллиптический Шаботи и обратный переход</h3>
+      <p>При rank E₁(k) = 1 точки P = T + rG + m·NG с x(P) ∈ ℚ — нули p-адического ряда θ(m) = σ₁x − σ₂x по двум вложениям k → ℚ<sub>p</sub>. Классы вычетов отсекаются по модулю p; в остальных число нулей ограничено по Штрассману со строгой оценкой хвоста v<sub>p</sub>(cₙ) ≥ n − v<sub>p</sub>(n!); подгруппа ⟨G⟩ насыщена локально по всем ℓ | pL. Нули либо целые (известные точки), либо в точности m = −1/2 (образы тех же точек через 2-кручение).</p>
+      <p><span class="chip po">доказано (ПО)</span> Итог: x-рациональны только O, T₁, T₃, ±G₀; их прообразы — вырожденные X.</p></div></li>
+  </ol>
+</section>
+
+<section>
+  <h2>Сечение s = 1/5</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Звено</th><th>Данные</th><th>Статус</th></tr>
+    <tr><td>классы</td><td>(±5, 13, ±65), (±6, 26, ±39); известные X = 3/2, 5, 2/3, 1/5; ещё 58 кандидатов отсечены над ℚ₂/ℚ₃</td><td><span class="chip po">ПО</span></td></tr>
+    <tr><td>поле, кривая</td><td>k = ℚ(√15); E₁: y² = x³ − 100326681·x + 98571779592·√15</td><td><span class="chip ok">доказано</span></td></tr>
+    <tr><td>нижняя граница ранга</td><td>G₀ = (−676√15 − 8619, 30420√15 + 182520) — образ точки t = 9/4, бесконечного порядка</td><td><span class="chip ok">доказано</span></td></tr>
+    <tr><td>верхняя граница ранга</td><td>RankBounds(Jac C₁) = [0, 1], C₁: W² = 65(t²−1)(t²+1)(32161t² − 49922t + 32161); повторено собственным 2-спуском в Sage на нечётной модели y² = 78v(v² + 60²)(v² + 169²): dim Sel² = 3 ⇒ rank ≤ 1</td><td><span class="chip po">ПО · Magma + Sage</span></td></tr>
+    <tr><td>Шаботи</td><td>p = 7 и 17, модели D = 65 и 39; две независимые реализации (Claude; Codex — через дифференциальное уравнение для формального параметра)</td><td><span class="chip po">ПО · ×2</span></td></tr>
+    <tr><td>подъёмы</td><td>t ∈ {±1/5, ±5, ±2/3, ±3/2}; клетки 49/169, 1, 289/169</td><td><span class="chip ok">доказано</span></td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>Сечение s = 1/4</h2>
+  <div class="tablewrap"><table>
+    <tr><th>Звено</th><th>Данные</th><th>Статус</th></tr>
+    <tr><td>классы</td><td>(±1, 34, ±34), (±15, 17, ±255); известные X = 5/3, 4, 3/5, 1/4</td><td><span class="chip po">ПО</span></td></tr>
+    <tr><td>исключения</td><td>A = 169 = 13² — квадрат, но C = 409 нет; t = 0, ±1, ∞, w = 0, X = ±1 исключены</td><td><span class="chip ok">доказано</span></td></tr>
+    <tr><td>поле, кривая</td><td>k = ℚ(√30); E₁: y² = x³ + √30·x² − 246830266·x + 270512696846·√30</td><td><span class="chip ok">доказано</span></td></tr>
+    <tr><td>нижняя граница ранга</td><td>образ точки t = 25/9; бесконечный порядок подтверждён Codex отдельно (редукции при p = 7)</td><td><span class="chip ok">доказано</span></td></tr>
+    <tr><td>верхняя граница ранга</td><td>RankBounds = [0, 1] на ядре K10 = {(0, 409/169), (∞, −1), (1, 169/409)}: <span class="mono">5806578242153·(t² + 57122/69599·t − 69121/69599)(t² + 2t − 409/169)(t² + 2t − 747/409)</span></td><td><span class="chip po">ПО · Magma</span></td></tr>
+    <tr><td>Шаботи</td><td>p = 7, N = 6: из 24 классов 14 отсечены, оценка 15 целиком покрыта известными нулями и точными «призраками»; независимый аудит Codex (свой код для классов, ОДУ для формального параметра, подъёмы) — те же пять точек, модели D = 34 и 255</td><td><span class="chip po">ПО · ×2</span></td></tr>
+    <tr><td>подъёмы</td><td>t ∈ {±1/4, ±4, ±3/5, ±5/3}; три различных значения клеток</td><td><span class="chip ok">доказано</span></td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>Зависимости</h2>
+  <p>Что именно должно быть верно, чтобы утверждение держалось, и чем это подкреплено.</p>
+  <ul>
+    <li><strong>Ручные выводы:</strong> тождество (шаг 1), критерий подъёма через 1 ± 4h, бисэллиптичность над k, связь ранга J₂ и E₁(k). Каждый вывод продублирован символической или численной проверкой (совпадение многочленов Фробениуса, точные тождества).</li>
+    <li><strong>Sage / PARI / mwrank:</strong> ранги эллиптических факторов, насыщение по одному простому (<code>one_prime</code>), формальные группы, p-адическая арифметика.</li>
+    <li><strong>Magma (онлайн-калькулятор, V2.29-10):</strong> по одной верхней границе RankBounds на сечение. Для s = 1/5 граница повторена собственной реализацией 2-спуска для рода 2 в Sage (совпала с Magma на трёх контрольных моделях); для s = 1/4 модель K10 чётной степени — пока только Magma.</li>
+    <li><strong>Реализации Шаботи:</strong> для обоих сечений — две независимые (Claude и Codex).</li>
+    <li><strong>Не использованы:</strong> гипотеза чётности, BSD, конечность Ш, глобальные нижние оценки высоты (признаны ненадёжными в ходе аудита).</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Остальные сечения до n = 65</h2>
+  <p>Схема применена ко всем примитивным парам с n ≤ 65. Во всех одиннадцати случаях — ровно 4 локально разрешимых класса с одной вырожденной точкой в каждом <span class="chip num">наблюдение</span>. Решающим оказывается ранг E₁ над k.</p>
+  <div class="tablewrap"><table>
+    <tr><th>(β, η, n)</th><th>k</th><th>корневое число</th><th>лучшая верхняя граница</th><th>состояние</th></tr>
+    <tr><td class="n">(17, 7, 13)</td><td>ℚ(√15)</td><td class="n">−1</td><td class="n">1</td><td><span class="chip ok">закрыто</span></td></tr>
+    <tr><td class="n">(23, 7, 17)</td><td>ℚ(√30)</td><td class="n">−1</td><td class="n">1</td><td><span class="chip ok">закрыто</span></td></tr>
+    <tr><td class="n">(89, 23, 65)</td><td>ℚ(√462)</td><td class="n">−1</td><td class="n">3</td><td><span class="chip num">ранг 1 или 3</span></td></tr>
+    <tr><td class="n">(79, 47, 65)</td><td>ℚ(√7)</td><td class="n">−1</td><td class="n">5</td><td><span class="chip num">поиск ядра</span></td></tr>
+    <tr><td class="n">(71, 49, 61)</td><td>ℚ(√165)</td><td class="n">−1</td><td class="n">3</td><td><span class="chip num">ранг 1 или 3</span></td></tr>
+    <tr><td class="n">(7,1,5)</td><td>ℚ(√3)</td><td class="n">+1</td><td class="n">2</td><td><span class="chip open">вероятно ранг 2</span></td></tr>
+    <tr><td class="n">(31,17,25), (41,1,29), (47,23,37), (49,31,41), (73,17,53)</td><td>—</td><td class="n">+1</td><td class="n">—</td><td><span class="chip open">вероятно ранг ≥ 2</span></td></tr>
+  </table></div>
+  <p class="note">Корневое число +1 означает чётный коранг p<sup>∞</sup>-Сельмера (теоремы о p-чётности); вывод «ранг ≥ 2» требует ещё конечности Ш и потому остаётся оценкой. При ранге 2 = роду классический Шаботи над ℚ не работает, а квадратичный над ℚ требует ρ(J₂) ≥ 2, тогда как End<sub>ℚ</sub>(J₂) = ℤ (множители E₁, E₁<sup>σ</sup> неизогенны и переставляются Галуа). Готовых реализаций квадратичного Шаботи над вещественным квадратичным полем для условия x(P) ∈ ℚ не найдено.</p>
+</section>
+
+<section>
+  <h2>Открытые вопросы</h2>
+  <ul>
+    <li>Независимая от Magma верхняя граница ранга для s = 1/4: модель K10 чётной степени требует полного 2-спуска для секстик (в Sage пока нет). Дополнительная проверка: классический Шаботи над ℚ на самой C<sub>J₂</sub> (rank 1 &lt; род 2) — Magma <code>Chabauty</code>.</li>
+    <li>Независимая от Magma верхняя граница ранга — например, собственный спуск через изогению Ришело в Sage с контролем по известным ответам Magma.</li>
+    <li>Доказательство того, что «ровно 4 класса» выполняется для всех сечений, а не только наблюдается.</li>
+    <li>Метод для сечений с рангом 2: квадратичный Шаботи над числовым полем для условия x(P) ∈ ℚ.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Контекст</h2>
+  <p>A. Auel, B. Singer, <a href="https://arxiv.org/abs/2609.09351">The algebraic geometry of 3-by-3 magic squares of squares</a>, arXiv:2609.09351 (8 сентября 2026): поверхность магических квадратов из квадратов — особое полное пересечение шести квадрик в P⁸; группа автоморфизмов, диаграмма Ходжа, подрешётка Пикара ранга 518 (верхняя граница 544), проекции на поверхности дель Пеццо, K3 и Энриквеса. Сечения центрального креста — кривые на этой поверхности; закрытие отдельных сечений в статье не рассматривается (по аннотации).</p>
+  <p>Почему именно квадраты: в магическом 3×3 противоположные клетки дают в сумме удвоенный центр, так что каждая пара — решение xᵏ + yᵏ = 2wᵏ. При k ≥ 3 нетривиальных решений нет (Darmon–Merel, 1997), поэтому 3×3 из кубов и высших степеней невозможен; при k = 2 это окружность u² + v² = 2 — та самая параметризация B(s), H(s), на которой построены сечения (сводка — Grok, <code>GROK_INFO_POWERS_AND_CENTER.md</code>).</p>
+  <p>Поисковые эксперименты (не доказательства): свёртка бимагических квадратов 9×9 в 3×3 — 4,2 млн группировок, не более двух квадратных клеток из девяти (Codex, <code>RESULT_FROM_CODEX_2026-09-11_BLOCK_FOLDING_9X9.md</code>); поиск «крест + k углов» по решёткам Морделла–Вейля кривых углов — 80 сечений с n ≤ 500, точки решёток с |nⱼ| ≤ 5: ранги 317 кривых углов — 2 (150), 3 (140), 4 (24), ни одной меньше 2; невырожденных t с двумя и более квадратными углами не найдено (<code>corners/</code>).</p>
+</section>
+
+<footer>
+  <p>Файлы (каталог <code>~/magicKube</code>): <code>VERIFY_CODEX_CHAIN_s15.md</code>, <code>FAMILY_SECTIONS.md</code>, <code>RESULTS.md</code>; скрипты <code>verify_s15/</code>, <code>s15/</code>, <code>family/</code>. Записки Codex: <code>RESULT_FROM_CODEX_*</code>, <code>REPLY_FROM_CODEX_*</code>.</p>
+  <p>Работа выполнена с участием ИИ-систем и не проходила рецензирование. Приоритет не заявляется. Любое утверждение следует считать непроверенным, пока его не проверил математик.</p>
+</footer>
+</main>

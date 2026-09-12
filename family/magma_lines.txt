@@ -1,0 +1,10 @@
+f:=15*(t^2-1)*(t^2+1)*(769*t^2-962*t+769); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(7,1,5)", lo, hi;
+f:=34*(t^2-1)*(t^2+1)*(97921*t^2-138242*t+97921); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(23,7,17)", lo, hi;
+f:=7*(t^2-1)*(t^2+1)*(418849*t^2-724802*t+418849); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(31,17,25)", lo, hi;
+f:=609*(t^2-1)*(t^2+1)*(883681*t^2-1061762*t+883681); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(41,1,29)", lo, hi;
+f:=1295*(t^2-1)*(t^2+1)*(2050561*t^2-3395522*t+2050561); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(47,23,37)", lo, hi;
+f:=41*(t^2-1)*(t^2+1)*(2955361*t^2-5392322*t+2955361); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(49,31,41)", lo, hi;
+f:=265*(t^2-1)*(t^2+1)*(9478081*t^2-12605762*t+9478081); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(73,17,53)", lo, hi;
+f:=671*(t^2-1)*(t^2+1)*(14281441*t^2-26820482*t+14281441); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(71,49,61)", lo, hi;
+f:=910*(t^2-1)*(t^2+1)*(21265729*t^2-28871042*t+21265729); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(89,23,65)", lo, hi;
+f:=455*(t^2-1)*(t^2+1)*(18866689*t^2-33669122*t+18866689); lo,hi:=RankBounds(Jacobian(HyperellipticCurve(f))); print "(79,47,65)", lo, hi;

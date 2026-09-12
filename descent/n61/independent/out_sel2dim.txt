@@ -1,0 +1,18 @@
+A: носители eps/eta и множество мест проверены
+  Fractional ideal (2)               dim V= 8  dim image=4  (попыток 25)
+  Fractional ideal (1/2*r - 11/2)    dim V= 4  dim image=2  (попыток 0)
+  Fractional ideal (13, 1/2*r + 23   dim V= 4  dim image=2  (попыток 0)
+  Fractional ideal (13, 1/2*r + 3/   dim V= 4  dim image=2  (попыток 0)
+  Fractional ideal (61)              dim V= 4  dim image=2  (попыток 0)
+  Fractional ideal (337, 1/2*r + 1   dim V= 4  dim image=2  (попыток 36)
+  Fractional ideal (337, 1/2*r + 5   dim V= 4  dim image=2  (попыток 30)
+  Fractional ideal (-2*r + 61)       dim V= 4  dim image=2  (попыток 0)
+  Fractional ideal (2*r + 61)        dim V= 4  dim image=2  (попыток 0)
+  ('inf', 1)                         dim V= 2  dim image=1  (попыток 0)
+  ('inf', -1)                        dim V= 2  dim image=1  (попыток 0)
+суммарная коразмерность: 22
+
+dim k(S,2)^2 = 22   число условий = 22   ранг условий = 15
+МОЙ независимый dim Sel^2 = 7
+
+ИТОГ: ВСЕ ОК

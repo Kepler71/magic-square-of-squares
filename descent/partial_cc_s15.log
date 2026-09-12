@@ -1,0 +1,7 @@
+=== s15: full 2-descent на E1: dim Sel^2 = 5 -> rank <= 3
+-- i=1: Sel^phi(E) = 5, Sel^phi^(E') = 0 -> rank <= 3  (0s)
+   dim Sel^2(E') = 4 -> rank <= 3;  изогения E -> E' проверена: True;  неравенство dim Sel^2(E') <= 5+0-1 = 4: OK  (1s)
+-- i=2: Sel^phi(E) = 4, Sel^phi^(E') = 3 -> rank <= 5  (0s)
+   dim Sel^2(E') = 6 -> rank <= 5;  изогения E -> E' проверена: True;  неравенство dim Sel^2(E') <= 4+3-1 = 6: OK  (1s)
+-- i=3: Sel^phi(E) = 4, Sel^phi^(E') = 1 -> rank <= 3  (0s)
+   dim Sel^2(E') = 4 -> rank <= 3;  изогения E -> E' проверена: True;  неравенство dim Sel^2(E') <= 4+1-1 = 4: OK  (0s)

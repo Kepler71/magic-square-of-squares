@@ -1,0 +1,10 @@
+p = 23: orders of G mod the two primes: 10, 14;  N = 70
+classes: 280, cut by mod-23 test: 238, surviving: 42
+TOTAL upper bound for #{P in E1(k): x(P) in Q} (given rank 1): 51
+known P with x(P) in Q: 5 ['O', -37/25, 7/5, 37/25, 7/5]
+   class r=34 T#2: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -210000
+   class r=35 T#1: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -222000
+   class r=35 T#2: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: O
+   class r=35 T#3: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: 222000
+   class r=36 T#2: theta(-1/2) = O(p^29);  points per embedding equal: True;  exact zero: True;  point: -210000
+done

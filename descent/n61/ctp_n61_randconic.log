@@ -1,0 +1,8 @@
+dim Sel2 = 7
+symmetric: True  zero diagonal: True
+rank CTP = 4  => rank E1(k) <= 1
+local rank of images of T1, T2, G: 3 (3 => independent => kernel of CTP = <T1, T2, G>)
+dim Sel2 = 7
+symmetric: True  zero diagonal: True
+rank CTP = 4  => rank E1(k) <= 1
+local rank of images of T1, T2, G: 3 (3 => independent => kernel of CTP = <T1, T2, G>)

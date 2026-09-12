@@ -1,0 +1,8 @@
+.pkgcache/
+*.zip
+gpu6/gen_*.bin
+gpu6/gen_*.npy
+gpu6/pairs_*.bin
+gpu6/sieve6
+corners/exc/
+descent/n61/independent/__pycache__/

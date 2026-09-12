@@ -1,0 +1,11 @@
+(301,235) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 9604', 'TR/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=9s
+(253,83) rank5-bases ['BR/D: rank 5, tors 4, |n|<=3, new f 9604', 'BL/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=9s
+(271,129) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 9604', 'TR/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=10s
+(281,279) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 9604', 'TR/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=10s
+(169,119) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 11662', 'TR/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=9s
+(161,159) rank5-bases ['BR/D: rank 5, tors 4, |n|<=3, new f 9604', 'BL/D: rank 5, tors 4, |n|<=3, new f 9604'] hits=[] time=11s
+(191,161) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 14182', 'TR/D: rank 5, tors 4, |n|<=3, new f 16357'] hits=[] time=11s
+(217,169) rank5-bases ['BR/D: rank 5, tors 4, |n|<=3, new f 14182', 'BL/D: rank 5, tors 4, |n|<=3, new f 13132'] hits=[] time=11s
+(113,47) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 9604', 'TR/D: rank 5, tors 4, |n|<=3, new f 14182'] hits=[] time=12s
+(223,97) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 14215', 'TR/D: rank 5, tors 4, |n|<=3, new f 14215'] hits=[] time=12s
+(169,49) rank5-bases ['TL/D: rank 5, tors 4, |n|<=3, new f 11662', 'TR/D: rank 5, tors 4, |n|<=3, new f 13130'] hits=[] time=14s

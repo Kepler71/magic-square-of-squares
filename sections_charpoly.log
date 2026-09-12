@@ -1,0 +1,41 @@
+dim Q[..]/I = 224 (7.6s)
+
+[l1] charpoly factored (61.6s): orbit (deg, mult): [(1, 1), (1, 1), (1, 24), (2, 1), (2, 4), (2, 4), (2, 4), (2, 6), (2, 6), (2, 6), (4, 1), (4, 1), (4, 8), (4, 8), (8, 8)]
+      distinct points: 41,  total with mult: 224
+
+[l2] charpoly factored (61.3s): orbit (deg, mult): [(1, 1), (1, 1), (1, 24), (2, 1), (2, 4), (2, 4), (2, 4), (2, 6), (2, 6), (2, 6), (4, 1), (4, 1), (4, 8), (4, 8), (8, 8)]
+      distinct points: 41,  total with mult: 224
+
+[a] charpoly factored (24.1s): orbit (deg, mult): [(1, 2), (1, 2), (1, 8), (1, 188), (2, 8), (4, 2)]
+      distinct points: 10,  total with mult: 224
+
+[c] charpoly factored (32.3s): orbit (deg, mult): [(1, 2), (1, 2), (1, 8), (1, 12), (1, 24), (2, 8), (2, 12), (4, 2), (4, 16), (4, 16)]
+      distinct points: 21,  total with mult: 224
+orbit size 1, mult 1: rational
+orbit size 1, mult 1: rational
+orbit size 1, mult 24: rational
+orbit size 2, mult 1: disc -1 * 2^2
+      proper subfield degrees: []; quadratic subfields: [-4]
+orbit size 2, mult 4: disc -1 * 2^2
+      proper subfield degrees: []; quadratic subfields: [-4]
+orbit size 2, mult 4: disc 2^3 * 3
+      proper subfield degrees: []; quadratic subfields: [24]
+orbit size 2, mult 4: disc -1 * 2^2
+      proper subfield degrees: []; quadratic subfields: [-4]
+orbit size 2, mult 6: disc -1 * 2^2
+      proper subfield degrees: []; quadratic subfields: [-4]
+orbit size 2, mult 6: disc 2^3 * 3
+      proper subfield degrees: []; quadratic subfields: [24]
+orbit size 2, mult 6: disc -1 * 2^2
+      proper subfield degrees: []; quadratic subfields: [-4]
+orbit size 4, mult 1: disc 2^8 * 3^2
+      proper subfield degrees: [2, 2, 2]; quadratic subfields: [-4, -24, 24]
+orbit size 4, mult 1: disc 2^8 * 3^2
+      proper subfield degrees: [2, 2, 2]; quadratic subfields: [-4, -24, 24]
+orbit size 4, mult 8: disc 2^8 * 3^2
+      proper subfield degrees: [2, 2, 2]; quadratic subfields: [8, 24, 12]
+orbit size 4, mult 8: disc 2^8 * 3^2
+      proper subfield degrees: [2, 2, 2]; quadratic subfields: [12, 24, 8]
+orbit size 8, mult 8: disc 2^16 * 3^4
+      proper subfield degrees: [2, 2, 2, 2, 2, 2, 2, 4, 4, 4, 4, 4, 4, 4]; quadratic subfields: [-4, 8, -8, 12, -3, 24, -24]
+exit 0

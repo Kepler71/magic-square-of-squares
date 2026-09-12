@@ -1,0 +1,14 @@
+row 0: [0, 0, 0, 0, 0] torsion [0, 0] places 20 (1s)
+row 1: [0, 0, 0, 0, 0] torsion [0, 0] places 20 (1s)
+row 2: [0, 0, 0, 0, 0] torsion [0, 0] places 20 (2s)
+row 3: [0, 0, 0, 0, 0] torsion [0, 0] places 20 (2s)
+row 4: [0, 0, 0, 0, 0] torsion [0, 0] places 20 (2s)
+A=109 C=229 D=65 k=x^2 - 15 roots=[14885, 3380*r, -14885]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[0 0 0 0 0]
+[0 0 0 0 0]
+dim Sel2 = 5; symmetric True; zero diagonal True; torsion in kernel True
+rank CTP = 0  =>  rank E1(k) <= 3   (2s, seed 5)
+EXIT 0

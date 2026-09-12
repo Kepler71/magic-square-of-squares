@@ -1,0 +1,10 @@
+{
+ "bound": 1024,
+ "values": 132121,
+ "survivors": 106958,
+ "cpu_modular_recheck": "all pass",
+ "positive_radical_survivors": 23946,
+ "at_least_one_rational_radical": 2,
+ "product_square": 0,
+ "six_line_points": []
+}

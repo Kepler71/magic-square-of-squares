@@ -1,0 +1,11 @@
+A=3217 C=5233 D=455 k=x^2 - 7 roots=[2381015, 709800*r, -2381015]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 0]
+dim Sel2 = 7; symmetric True; zero diagonal True; torsion in kernel True
+rank CTP = 0  =>  rank E1(k) <= 5   (3s, seed 3)
+EXIT 0

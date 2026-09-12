@@ -1,0 +1,18 @@
+dim Sel2 = 7
+row 0: [0, 0, 0, 0, 0, 0, 0] | torsion,G: [0, 0, 0] | places 27 | 0s
+row 1: [0, 0, 0, 0, 0, 0, 1] | torsion,G: [0, 0, 0] | places 27 | 1s
+row 2: [0, 0, 0, 1, 1, 1, 0] | torsion,G: [0, 0, 0] | places 27 | 1s
+row 3: [0, 0, 1, 0, 1, 0, 0] | torsion,G: [0, 0, 0] | places 27 | 2s
+row 4: [0, 0, 1, 1, 0, 1, 1] | torsion,G: [0, 0, 0] | places 27 | 2s
+row 5: [0, 0, 1, 0, 1, 0, 0] | torsion,G: [0, 0, 0] | places 27 | 3s
+row 6: [0, 1, 0, 0, 1, 0, 0] | torsion,G: [0, 0, 0] | places 27 | 3s
+[0 0 0 0 0 0 0]
+[0 0 0 0 0 0 1]
+[0 0 0 1 1 1 0]
+[0 0 1 0 1 0 0]
+[0 0 1 1 0 1 1]
+[0 0 1 0 1 0 0]
+[0 1 0 0 1 0 0]
+symmetric: True  zero diagonal: True
+rank CTP = 4  => rank E1(k) <= 1
+EXIT 0

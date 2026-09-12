@@ -1,0 +1,20 @@
+S = [(2, 4), (11, 11), (13, 13), (13, 13), (61, 3721), (337, 337), (337, 337), (3061, 3061), (3061, 3061)]
+плохие простые: [(2, 4), (11, 11), (13, 13), (13, 13), (61, 3721), (337, 337), (337, 337), (3061, 3061), (3061, 3061)]
+dim k(S,2) заявлен: 11
+
+место                         target  achieved(cert)  achieved(мой)  теория
+Fractional ideal (2)               4              4             4       4  OK
+Fractional ideal (1/2*r - 11       2              2             2       2  OK
+Fractional ideal (13, 1/2*r        2              2             2       2  OK
+Fractional ideal (13, 1/2*r        2              2             2       2  OK
+Fractional ideal (61)              2              2             2       2  OK
+Fractional ideal (337, 1/2*r       2              2             2       2  OK
+Fractional ideal (337, 1/2*r       2              2             2       2  OK
+Fractional ideal (-2*r + 61)       2              2             2       2  OK
+Fractional ideal (2*r + 61)        2              2             2       2  OK
+('inf', 1)                         1              1             1       1  OK
+('inf', -1)                        1              1             1       1  OK
+('inf', 1)                         1              1             1       1  OK
+('inf', -1)                        1              1             1       1  OK
+
+ИТОГ: ВСЕ ОК

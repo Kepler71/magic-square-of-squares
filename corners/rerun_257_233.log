@@ -1,0 +1,9 @@
+TL/BR: ellrank [1,1], root number -1, points used 1 (sat index 1), tors 4, |n|<=12, new f 13, 0s
+TL/D: ellrank [1,3], root number -1, points used 1 (sat index 1), tors 4, |n|<=12, new f 12, 16s
+BR/D: ellrank [2,2], root number 1, points used 1 (sat index 1), tors 4, |n|<=12, new f 12, 16s
+BL/TR: ellrank [2,2], root number 1, points used 1 (sat index 1), tors 4, |n|<=12, new f 13, 10s
+BL/D: ellrank [2,2], root number 1, points used 1 (sat index 1), tors 4, |n|<=12, new f 12, 16s
+TR/D: ellrank [1,3], root number -1, points used 1 (sat index 1), tors 4, |n|<=12, new f 12, 18s
+(257,233) C0=60169 non□ hits=[]
+regulator 458.616998564732
+(257,233) BL/TR rank 2 full lattice |n|<=8: new f 153 hits []

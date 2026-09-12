@@ -1,0 +1,2622 @@
+(449,391) C0=177241 □ K=50000
+  TL/BR: rank[1,1] gens=1 src=pari sat=1 tors=8 states=800000 hmax=15147260446.6 primes=150 surv=17 exact=15 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=2154s
+  TL/D: rank[3,3] gens=3 src=pari sat=1 tors=4 states=400000 hmax=4395.7 primes=150 surv=13 exact=10 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=1s t=5s
+  BR/D: rank[2,2] gens=2 src=pari+mwrank sat=1 tors=4 states=400000 hmax=146964.4 primes=150 surv=13 exact=10 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=3s t=6s
+  BL/TR: rank[2,2] gens=2 src=pari sat=1 tors=8 states=800000 hmax=316971.0 primes=150 surv=9 exact=7 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  BL/D: rank[2,2] gens=2 src=pari+mwrank sat=1 tors=4 states=400000 hmax=146964.4 primes=150 surv=13 exact=11 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  TR/D: rank[3,3] gens=3 src=pari sat=1 tors=4 states=400000 hmax=4395.7 primes=150 surv=13 exact=11 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7f7273628cd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7f7273628e36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7f7273629206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7f727403e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7f727403e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7f7270dbae94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7f7272b3b36e]
+/usr/lib/libgmp.so.10(__gmpn_mul_fft+0x2dd) [0x7f7272b64f3d]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x61f) [0x7f7272b868af]
+/usr/lib/libgmp.so.10(__gmpn_nussbaumer_mul+0x189) [0x7f7272b61779]
+/usr/lib/libgmp.so.10(__gmpn_mul_n+0x36a) [0x7f7272b61bba]
+/usr/lib/libgmp.so.10(__gmpn_ni_invertappr+0x28e) [0x7f7272b891de]
+/usr/lib/libgmp.so.10(+0x64b27) [0x7f7272b8db27]
+/usr/lib/libgmp.so.10(__gmpn_tdiv_qr+0xccb) [0x7f7272b6e06b]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x415) [0x7f7272b71015]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x49e) [0x7f7272b4c11e]
+/usr/lib/libgmp.so.10(+0x307eb) [0x7f7272b597eb]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x37b33) [0x7f72718d7b33]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Add+0x45) [0x7f7274634855]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f727445e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f72745e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7f72735a08b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7f727359b705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7f72746710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7f727468e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7f7274615df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7f727259c49d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7f727259d4ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7f7274469935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f72745e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7f72735951f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x15a2c) [0x7f7272592a2c]
+/usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so(+0x365a2) [0x7f7272dd35a2]
+/usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so(+0x34a39) [0x7f7272dd1a39]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x310b8) [0x7f7272ae40b8]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x2d7e2) [0x7f7272ae07e2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1c3dc) [0x7f7272acf3dc]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7f72735a1820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7f727359bd99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7f7274631df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7f72745a6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7f7274671292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7f72747511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7f727463bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f727445e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7f727461cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7f72745a31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7f7274730d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f72744693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f72745b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f72746bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7f72744b8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7f727445dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f72745b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f72746bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7f72746dfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f72744693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f72745e478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7f72745d6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7f7274625a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7f72746db9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7f72746251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7f727445d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f72745b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f72746bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7f727470571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7f7274705d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7f7274704dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7f7274704c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7f72746a9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7f72746a3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7f7274027781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f72740278b9]
+/usr/bin/python(_start+0x25) [0x5646200d7045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1050407.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1050470]
+[New LWP 1050469]
+[New LWP 1050468]
+[New LWP 1050467]
+[New LWP 1050466]
+[New LWP 1050465]
+[New LWP 1050464]
+[New LWP 1050463]
+[New LWP 1050462]
+[New LWP 1050461]
+[New LWP 1050460]
+[New LWP 1050459]
+[New LWP 1050458]
+[New LWP 1050457]
+[New LWP 1050456]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f72740a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007f727410550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007f7273628ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007f7273629206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007f727403e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007f7270dbae94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007f7272b3b36e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007f7272b64f3d in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007f7272b868af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007f7272b61779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007f7272b61bba in __gmpn_mul_n () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007f7272b891de in __gmpn_ni_invertappr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007f7272b8db27 in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007f7272b6e06b in __gmpn_tdiv_qr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007f7272b71015 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007f7272b4c11e in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#17 0x00007f7272b597eb in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#18 0x00007f72718d7b33 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#19 0x00007f7274634855 in PyNumber_Add () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007f727445e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#21 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#22 0x00007f72735a08b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#23 0x00007f727359b705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#24 0x00007f72746710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007f727468e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#26 0x00007f7274615df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#27 0x00007f727259c49d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#28 0x00007f727259d4ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#29 0x00007f7274469935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#30 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#31 0x00007f72735951f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007f7272592a2c in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007f7272dd35a2 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007f7272dd1a39 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007f7272ae40b8 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#36 0x00007f7272ae07e2 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#37 0x00007f7272acf3dc in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#38 0x00007f72735a1820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#39 0x00007f727359bd99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#40 0x00007f7274631df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007f72745a6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007f7274671292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007f72747511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007f727463bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007f727445e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007f727461cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007f72745a31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007f7274730d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007f72744693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007f72744b8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007f727445dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007f72746dfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007f72744693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007f72745e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007f72745d6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007f7274625a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007f72746db9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007f72746251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007f727445d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007f72745b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007f72746bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007f727470571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007f7274705d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#68 0x00007f7274704dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#69 0x00007f7274704c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#70 0x00007f72746a9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#71 0x00007f72746a3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#72 0x00007f7274027781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#73 0x00007f72740278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#74 0x00005646200d7045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007f72741054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007f727403e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f7272b3b350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007f7272b64c60 in __gmpn_mul_fft ()
+#9  0x00007f7272b86290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007f7272b615f0 in __gmpn_nussbaumer_mul ()
+#11 0x00007f7272b61850 in __gmpn_mul_n ()
+#12 0x00007f7272b88f50 in __gmpn_ni_invertappr ()
+#13 0x0000000000000000 in ?? ()
+#14 0x00007f7272b6d3a0 in __gmpn_tdiv_qr ()
+#15 0x00007f7272b70c00 in __gmpn_gcd ()
+#16 0x00007f7272b4bc80 in __gmpz_gcd ()
+#17 0x0000000000000000 in ?? ()
+#18 0x0000000000000000 in ?? ()
+#19 0x00007f7274634810 in PyNumber_Add ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x0000000000000000 in ?? ()
+#25 0x0000000000000000 in ?? ()
+#26 0x00007f7274615d90 in PyNumber_InPlaceAdd ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x0000000000000000 in ?? ()
+#40 0x0000000000000000 in ?? ()
+#41 0x0000000000000000 in ?? ()
+#42 0x0000000000000000 in ?? ()
+#43 0x0000000000000000 in ?? ()
+#44 0x00007f727463baa0 in PyNumber_Multiply ()
+#45 0x0000000000000000 in ?? ()
+#46 0x0000000000000000 in ?? ()
+#47 0x00007f72745a31d0 in PyIter_Next ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x0000000000000000 in ?? ()
+#51 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#52 0x0000000000000000 in ?? ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#56 0x0000000000000000 in ?? ()
+#57 0x0000000000000000 in ?? ()
+#58 0x0000000000000000 in ?? ()
+#59 0x0000000000000000 in ?? ()
+#60 0x00007f7274625940 in PyObject_CallMethodObjArgs ()
+#61 0x0000000000000000 in ?? ()
+#62 0x00007f7274624ac0 in PyImport_ImportModuleLevelObject ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x00007f72746bc1f0 in PyEval_EvalCode ()
+#66 0x0000000000000000 in ?? ()
+#67 0x0000000000000000 in ?? ()
+#68 0x0000000000000000 in ?? ()
+#69 0x0000000000000000 in ?? ()
+#70 0x00007f72746a9cc0 in Py_RunMain ()
+#71 0x00007f72746a3ec0 in Py_BytesMain ()
+#72 0x0000000000000000 in ?? ()
+#73 0x00007f7274027830 in __libc_start_main ()
+#74 0x00005646200d7020 in _start ()
+
+[Inferior 1 (process 1050407) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_mbr14ddp.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7fc066476cd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7fc066476e36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7fc066477206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7fc066e3e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7fc066e3e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7fc05fedde94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7fc06598336e]
+/usr/lib/libgmp.so.10(__gmpn_tdiv_qr+0x1302) [0x7fc0659b66a2]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x415) [0x7fc0659b9015]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x30a) [0x7fc065993f8a]
+/usr/lib/libgmp.so.10(+0x306dd) [0x7fc0659a16dd]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x37b33) [0x7fc0643bbb33]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Add+0x45) [0x7fc067434855]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fc06725e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc0673e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7fc0663ee8b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7fc0663e9705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7fc0674710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7fc06748e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7fc067415df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7fc0653e449d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7fc0653e54ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7fc067269935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc0673e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7fc0663e31f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x9769) [0x7fc0653ce769]
+/usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so(+0xa470) [0x7fc065646470]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1bb6a) [0x7fc065916b6a]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7fc0663ef820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7fc0663e9d99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7fc067431df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7fc0673a6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7fc067471292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7fc0675511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7fc06743bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fc06725e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7fc06741cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7fc0673a31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7fc067530d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fc0672693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc0673b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc0674bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7fc0672b8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7fc06725dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc0673b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc0674bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7fc0674dfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fc0672693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc0673e478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7fc0673d6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7fc067425a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7fc0674db9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7fc0674251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7fc06725d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc0673b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc0674bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7fc06750571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7fc067505d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7fc067504dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7fc067504c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7fc0674a9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7fc0674a3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7fc066e27781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fc066e278b9]
+/usr/bin/python(_start+0x25) [0x5599c5b8b045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1050403.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1050500]
+[New LWP 1050499]
+[New LWP 1050498]
+[New LWP 1050497]
+[New LWP 1050496]
+[New LWP 1050495]
+[New LWP 1050494]
+[New LWP 1050493]
+[New LWP 1050492]
+[New LWP 1050491]
+[New LWP 1050490]
+[New LWP 1050489]
+[New LWP 1050488]
+[New LWP 1050487]
+[New LWP 1050486]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fc066ea0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007fc066f0550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007fc066476ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007fc066477206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007fc066e3e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007fc05fedde94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007fc06598336e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007fc0659b66a2 in __gmpn_tdiv_qr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007fc0659b9015 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007fc065993f8a in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007fc0659a16dd in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007fc0643bbb33 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#13 0x00007fc067434855 in PyNumber_Add () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#14 0x00007fc06725e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#15 0x00007fc0673e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#16 0x00007fc0663ee8b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#17 0x00007fc0663e9705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#18 0x00007fc0674710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#19 0x00007fc06748e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007fc067415df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#21 0x00007fc0653e449d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#22 0x00007fc0653e54ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#23 0x00007fc067269935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#24 0x00007fc0673e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007fc0663e31f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#26 0x00007fc0653ce769 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#27 0x00007fc065646470 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#28 0x00007fc065916b6a in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#29 0x00007fc0663ef820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#30 0x00007fc0663e9d99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#31 0x00007fc067431df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#32 0x00007fc0673a6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#33 0x00007fc067471292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#34 0x00007fc0675511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#35 0x00007fc06743bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#36 0x00007fc06725e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#37 0x00007fc06741cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#38 0x00007fc0673a31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#39 0x00007fc067530d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#40 0x00007fc0672693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007fc0673b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007fc0674bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007fc0672b8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007fc06725dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007fc0673b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007fc0674bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007fc0674dfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007fc0672693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007fc0673e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007fc0673d6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007fc067425a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007fc0674db9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007fc0674251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007fc06725d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007fc0673b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007fc0674bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007fc06750571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007fc067505d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007fc067504dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007fc067504c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007fc0674a9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007fc0674a3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007fc066e27781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#64 0x00007fc066e278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#65 0x00005599c5b8b045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007fc066f054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007fc066e3e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007fc065983350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007fc0659b53a0 in __gmpn_tdiv_qr ()
+#9  0x00007fc0659b8c00 in __gmpn_gcd ()
+#10 0x00007fc065993c80 in __gmpz_gcd ()
+#11 0x0000000000000000 in ?? ()
+#12 0x0000000000000000 in ?? ()
+#13 0x00007fc067434810 in PyNumber_Add ()
+#14 0x0000000000000000 in ?? ()
+#15 0x0000000000000000 in ?? ()
+#16 0x0000000000000000 in ?? ()
+#17 0x0000000000000000 in ?? ()
+#18 0x0000000000000000 in ?? ()
+#19 0x0000000000000000 in ?? ()
+#20 0x00007fc067415d90 in PyNumber_InPlaceAdd ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x0000000000000000 in ?? ()
+#25 0x0000000000000000 in ?? ()
+#26 0x0000000000000000 in ?? ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x00007fc06743baa0 in PyNumber_Multiply ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x00007fc0673a31d0 in PyIter_Next ()
+#39 0x0000000000000000 in ?? ()
+#40 0x0000000000000000 in ?? ()
+#41 0x0000000000000000 in ?? ()
+#42 0x00007fc0674bc1f0 in PyEval_EvalCode ()
+#43 0x0000000000000000 in ?? ()
+#44 0x0000000000000000 in ?? ()
+#45 0x0000000000000000 in ?? ()
+#46 0x00007fc0674bc1f0 in PyEval_EvalCode ()
+#47 0x0000000000000000 in ?? ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x0000000000000000 in ?? ()
+#51 0x00007fc067425940 in PyObject_CallMethodObjArgs ()
+#52 0x0000000000000000 in ?? ()
+#53 0x00007fc067424ac0 in PyImport_ImportModuleLevelObject ()
+#54 0x0000000000000000 in ?? ()
+#55 0x0000000000000000 in ?? ()
+#56 0x00007fc0674bc1f0 in PyEval_EvalCode ()
+#57 0x0000000000000000 in ?? ()
+#58 0x0000000000000000 in ?? ()
+#59 0x0000000000000000 in ?? ()
+#60 0x0000000000000000 in ?? ()
+#61 0x00007fc0674a9cc0 in Py_RunMain ()
+#62 0x00007fc0674a3ec0 in Py_BytesMain ()
+#63 0x0000000000000000 in ?? ()
+#64 0x00007fc066e27830 in __libc_start_main ()
+#65 0x00005599c5b8b020 in _start ()
+
+[Inferior 1 (process 1050403) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_d1db4nts.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+(287,223) TIMEOUT/FAIL
+(113,41) TIMEOUT/FAIL
+(1063,127) TIMEOUT/FAIL
+(1031,217) TIMEOUT/FAIL
+(769,217) TIMEOUT/FAIL
+(1751,743) C0=1809025 □ K=50000
+  TL/BR: rank[2,2] gens=1 INCOMPLETE src=pari+mwrank sat=1 tors=8 states=800008 hmax=18154035281.4 primes=150 surv=18 exact=14 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=10s t=756s
+  TL/D: rank[4,4] gens=4 src=pari sat=1 tors=4 states=400004 hmax=1241.1 primes=150 surv=17 exact=13 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  BR/D: rank[4,4] gens=4 src=pari sat=1 tors=4 states=400004 hmax=873.2 primes=150 surv=17 exact=13 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  BL/TR: rank[2,2] gens=2 src=pari sat=1 tors=8 states=800008 hmax=541551.2 primes=150 surv=17 exact=13 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  BL/D: rank[4,4] gens=4 src=pari sat=1 tors=4 states=400004 hmax=873.2 primes=150 surv=17 exact=13 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+  TR/D: rank[4,4] gens=4 src=pari sat=1 tors=4 states=400004 hmax=1241.1 primes=150 surv=17 exact=13 badbase=0 hits7=[(9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False), (9, False)] exc=0 t_gens=0s t=3s
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7f0fe1c50cd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7f0fe1c50e36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7f0fe1c51206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7f0fe263e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7f0fe263e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7f0fdaf79e94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7f0fe116336e]
+/usr/lib/libgmp.so.10(__gmpn_mul_fft+0x2dd) [0x7f0fe118cf3d]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x61f) [0x7f0fe11ae8af]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x1cd) [0x7f0fe11ae45d]
+/usr/lib/libgmp.so.10(__gmpn_nussbaumer_mul+0x189) [0x7f0fe1189779]
+/usr/lib/libgmp.so.10(__gmpn_mul+0xdfd) [0x7f0fe118aa3d]
+/usr/lib/libgmp.so.10(__gmpn_tdiv_qr+0xd6a) [0x7f0fe119610a]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x415) [0x7f0fe1199015]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x30a) [0x7f0fe1173f8a]
+/usr/lib/libgmp.so.10(+0x306dd) [0x7f0fe11816dd]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x37b33) [0x7f0fdbb0bb33]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Add+0x45) [0x7f0fe2c34855]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f0fe2a5e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f0fe2be478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7f0fe1bc88b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7f0fe1bc3705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7f0fe2c710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7f0fe2c8e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7f0fe2c15df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7f0fe0bc449d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7f0fe0bc54ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7f0fe2a69935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f0fe2be478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7f0fe1bbd1f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x9769) [0x7f0fe0bae769]
+/usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so(+0xa470) [0x7f0fe0e26470]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1bb6a) [0x7f0fe10f6b6a]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7f0fe1bc9820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7f0fe1bc3d99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7f0fe2c31df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7f0fe2ba6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7f0fe2c71292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7f0fe2d511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7f0fe2c3bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f0fe2a5e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7f0fe2c1cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7f0fe2ba31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7f0fe2d30d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f0fe2a693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f0fe2bb9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f0fe2cbc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7f0fe2ab8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7f0fe2a5dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f0fe2bb9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f0fe2cbc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7f0fe2cdfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f0fe2a693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f0fe2be478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7f0fe2bd6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7f0fe2c25a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7f0fe2cdb9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7f0fe2c251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7f0fe2a5d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f0fe2bb9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f0fe2cbc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7f0fe2d0571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7f0fe2d05d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7f0fe2d04dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7f0fe2d04c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7f0fe2ca9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7f0fe2ca3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7f0fe2627781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f0fe26278b9]
+/usr/bin/python(_start+0x25) [0x561381e16045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1065410.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1065432]
+[New LWP 1065431]
+[New LWP 1065430]
+[New LWP 1065429]
+[New LWP 1065428]
+[New LWP 1065427]
+[New LWP 1065426]
+[New LWP 1065425]
+[New LWP 1065424]
+[New LWP 1065423]
+[New LWP 1065422]
+[New LWP 1065421]
+[New LWP 1065420]
+[New LWP 1065419]
+[New LWP 1065418]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f0fe26a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007f0fe270550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007f0fe1c50ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007f0fe1c51206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007f0fe263e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007f0fdaf79e94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007f0fe116336e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007f0fe118cf3d in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007f0fe11ae8af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007f0fe11ae45d in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007f0fe1189779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007f0fe118aa3d in __gmpn_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007f0fe119610a in __gmpn_tdiv_qr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007f0fe1199015 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007f0fe1173f8a in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007f0fe11816dd in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#17 0x00007f0fdbb0bb33 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#18 0x00007f0fe2c34855 in PyNumber_Add () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#19 0x00007f0fe2a5e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007f0fe2be478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#21 0x00007f0fe1bc88b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#22 0x00007f0fe1bc3705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#23 0x00007f0fe2c710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#24 0x00007f0fe2c8e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007f0fe2c15df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#26 0x00007f0fe0bc449d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#27 0x00007f0fe0bc54ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#28 0x00007f0fe2a69935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#29 0x00007f0fe2be478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#30 0x00007f0fe1bbd1f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#31 0x00007f0fe0bae769 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007f0fe0e26470 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007f0fe10f6b6a in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007f0fe1bc9820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007f0fe1bc3d99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#36 0x00007f0fe2c31df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#37 0x00007f0fe2ba6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#38 0x00007f0fe2c71292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#39 0x00007f0fe2d511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#40 0x00007f0fe2c3bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007f0fe2a5e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007f0fe2c1cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007f0fe2ba31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007f0fe2d30d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007f0fe2a693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007f0fe2bb9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007f0fe2cbc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007f0fe2ab8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007f0fe2a5dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007f0fe2bb9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007f0fe2cbc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007f0fe2cdfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007f0fe2a693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007f0fe2be478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007f0fe2bd6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007f0fe2c25a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007f0fe2cdb9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007f0fe2c251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007f0fe2a5d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007f0fe2bb9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007f0fe2cbc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007f0fe2d0571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007f0fe2d05d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007f0fe2d04dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007f0fe2d04c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007f0fe2ca9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007f0fe2ca3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#68 0x00007f0fe2627781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#69 0x00007f0fe26278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#70 0x0000561381e16045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007f0fe27054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007f0fe263e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f0fe1163350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007f0fe118cc60 in __gmpn_mul_fft ()
+#9  0x00007f0fe11ae290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007f0fe11ae290 in __gmpn_mulmod_bnm1 ()
+#11 0x00007f0fe11895f0 in __gmpn_nussbaumer_mul ()
+#12 0x00007f0fe1189c40 in __gmpn_mul ()
+#13 0x00007f0fe11953a0 in __gmpn_tdiv_qr ()
+#14 0x00007f0fe1198c00 in __gmpn_gcd ()
+#15 0x00007f0fe1173c80 in __gmpz_gcd ()
+#16 0x0000000000000000 in ?? ()
+#17 0x0000000000000000 in ?? ()
+#18 0x00007f0fe2c34810 in PyNumber_Add ()
+#19 0x0000000000000000 in ?? ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x0000000000000000 in ?? ()
+#25 0x00007f0fe2c15d90 in PyNumber_InPlaceAdd ()
+#26 0x0000000000000000 in ?? ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x0000000000000000 in ?? ()
+#40 0x00007f0fe2c3baa0 in PyNumber_Multiply ()
+#41 0x0000000000000000 in ?? ()
+#42 0x0000000000000000 in ?? ()
+#43 0x00007f0fe2ba31d0 in PyIter_Next ()
+#44 0x0000000000000000 in ?? ()
+#45 0x0000000000000000 in ?? ()
+#46 0x0000000000000000 in ?? ()
+#47 0x00007f0fe2cbc1f0 in PyEval_EvalCode ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x0000000000000000 in ?? ()
+#51 0x00007f0fe2cbc1f0 in PyEval_EvalCode ()
+#52 0x0000000000000000 in ?? ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x0000000000000000 in ?? ()
+#56 0x00007f0fe2c25940 in PyObject_CallMethodObjArgs ()
+#57 0x0000000000000000 in ?? ()
+#58 0x00007f0fe2c24ac0 in PyImport_ImportModuleLevelObject ()
+#59 0x0000000000000000 in ?? ()
+#60 0x0000000000000000 in ?? ()
+#61 0x00007f0fe2cbc1f0 in PyEval_EvalCode ()
+#62 0x0000000000000000 in ?? ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x0000000000000000 in ?? ()
+#66 0x00007f0fe2ca9cc0 in Py_RunMain ()
+#67 0x00007f0fe2ca3ec0 in Py_BytesMain ()
+#68 0x0000000000000000 in ?? ()
+#69 0x00007f0fe2627830 in __libc_start_main ()
+#70 0x0000561381e16020 in _start ()
+
+[Inferior 1 (process 1065410) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_5no0gvhh.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+(1207,823) TIMEOUT/FAIL
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7f89d7a76cd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7f89d7a76e36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7f89d7a77206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7f89d843e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7f89d843e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7f89d410be94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7f89d6f8336e]
+/usr/lib/libgmp.so.10(__gmpn_mul_fft+0x2dd) [0x7f89d6facf3d]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x61f) [0x7f89d6fce8af]
+/usr/lib/libgmp.so.10(__gmpn_nussbaumer_mul+0x189) [0x7f89d6fa9779]
+/usr/lib/libgmp.so.10(__gmpn_mul+0xdfd) [0x7f89d6faaa3d]
+/usr/lib/libgmp.so.10(__gmpn_hgcd_matrix_adjust+0x27e) [0x7f89d6fb3fde]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x1a5) [0x7f89d6fb8da5]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x49e) [0x7f89d6f9411e]
+/usr/lib/libgmp.so.10(__gmpq_mul+0x24b) [0x7f89d6fa1e7b]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x3ec63) [0x7f89d59c2c63]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x4e) [0x7f89d8a3baee]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f89d885e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f89d89e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7f89d79ee8b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7f89d79e9705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7f89d8a710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7f89d8a8e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7f89d8a15df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7f89d69e449d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7f89d69e54ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7f89d8869935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f89d89e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7f89d79e31f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x9769) [0x7f89d69ce769]
+/usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so(+0xa470) [0x7f89d6c46470]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1bb6a) [0x7f89d6f16b6a]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7f89d79ef820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7f89d79e9d99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7f89d8a31df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7f89d89a6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7f89d8a71292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7f89d8b511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7f89d8a3bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7f89d885e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7f89d8a1cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7f89d89a31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7f89d8b30d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f89d88693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f89d89b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f89d8abc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7f89d88b8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7f89d885dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f89d89b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f89d8abc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7f89d8adfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7f89d88693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7f89d89e478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7f89d89d6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7f89d8a25a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7f89d8adb9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7f89d8a251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7f89d885d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7f89d89b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7f89d8abc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7f89d8b0571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7f89d8b05d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7f89d8b04dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7f89d8b04c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7f89d8aa9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7f89d8aa3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7f89d8427781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7f89d84278b9]
+/usr/bin/python(_start+0x25) [0x564d91122045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1070242.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1070382]
+[New LWP 1070381]
+[New LWP 1070380]
+[New LWP 1070379]
+[New LWP 1070378]
+[New LWP 1070377]
+[New LWP 1070376]
+[New LWP 1070375]
+[New LWP 1070374]
+[New LWP 1070373]
+[New LWP 1070372]
+[New LWP 1070371]
+[New LWP 1070370]
+[New LWP 1070369]
+[New LWP 1070368]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007f89d84a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007f89d850550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007f89d7a76ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007f89d7a77206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007f89d843e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007f89d410be94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007f89d6f8336e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007f89d6facf3d in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007f89d6fce8af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007f89d6fa9779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007f89d6faaa3d in __gmpn_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007f89d6fb3fde in __gmpn_hgcd_matrix_adjust ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007f89d6fb8da5 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007f89d6f9411e in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007f89d6fa1e7b in __gmpq_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007f89d59c2c63 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#17 0x00007f89d8a3baee in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#18 0x00007f89d885e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#19 0x00007f89d89e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007f89d79ee8b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#21 0x00007f89d79e9705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#22 0x00007f89d8a710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#23 0x00007f89d8a8e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#24 0x00007f89d8a15df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007f89d69e449d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#26 0x00007f89d69e54ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#27 0x00007f89d8869935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#28 0x00007f89d89e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#29 0x00007f89d79e31f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#30 0x00007f89d69ce769 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#31 0x00007f89d6c46470 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007f89d6f16b6a in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007f89d79ef820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007f89d79e9d99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007f89d8a31df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#36 0x00007f89d89a6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#37 0x00007f89d8a71292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#38 0x00007f89d8b511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#39 0x00007f89d8a3bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#40 0x00007f89d885e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007f89d8a1cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007f89d89a31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007f89d8b30d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007f89d88693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007f89d89b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007f89d8abc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007f89d88b8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007f89d885dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007f89d89b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007f89d8abc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007f89d8adfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007f89d88693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007f89d89e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007f89d89d6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007f89d8a25a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007f89d8adb9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007f89d8a251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007f89d885d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007f89d89b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007f89d8abc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007f89d8b0571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007f89d8b05d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007f89d8b04dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007f89d8b04c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007f89d8aa9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007f89d8aa3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007f89d8427781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#68 0x00007f89d84278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#69 0x0000564d91122045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007f89d85054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007f89d843e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007f89d6f83350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007f89d6facc60 in __gmpn_mul_fft ()
+#9  0x00007f89d6fce290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007f89d6fa95f0 in __gmpn_nussbaumer_mul ()
+#11 0x00007f89d6fa9c40 in __gmpn_mul ()
+#12 0x00007f89d6fb3d60 in __gmpn_hgcd_matrix_adjust ()
+#13 0x00007f89d6fb8c00 in __gmpn_gcd ()
+#14 0x00007f89d6f93c80 in __gmpz_gcd ()
+#15 0x00007f89d6fa1c30 in __gmpq_mul ()
+#16 0x0000000000000000 in ?? ()
+#17 0x00007f89d8a3baa0 in PyNumber_Multiply ()
+#18 0x0000000000000000 in ?? ()
+#19 0x0000000000000000 in ?? ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x00007f89d8a15d90 in PyNumber_InPlaceAdd ()
+#25 0x0000000000000000 in ?? ()
+#26 0x0000000000000000 in ?? ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x00007f89d8a3baa0 in PyNumber_Multiply ()
+#40 0x0000000000000000 in ?? ()
+#41 0x0000000000000000 in ?? ()
+#42 0x00007f89d89a31d0 in PyIter_Next ()
+#43 0x0000000000000000 in ?? ()
+#44 0x0000000000000000 in ?? ()
+#45 0x0000000000000000 in ?? ()
+#46 0x00007f89d8abc1f0 in PyEval_EvalCode ()
+#47 0x0000000000000000 in ?? ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x00007f89d8abc1f0 in PyEval_EvalCode ()
+#51 0x0000000000000000 in ?? ()
+#52 0x0000000000000000 in ?? ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x00007f89d8a25940 in PyObject_CallMethodObjArgs ()
+#56 0x0000000000000000 in ?? ()
+#57 0x00007f89d8a24ac0 in PyImport_ImportModuleLevelObject ()
+#58 0x0000000000000000 in ?? ()
+#59 0x0000000000000000 in ?? ()
+#60 0x00007f89d8abc1f0 in PyEval_EvalCode ()
+#61 0x0000000000000000 in ?? ()
+#62 0x0000000000000000 in ?? ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x00007f89d8aa9cc0 in Py_RunMain ()
+#66 0x00007f89d8aa3ec0 in Py_BytesMain ()
+#67 0x0000000000000000 in ?? ()
+#68 0x00007f89d8427830 in __libc_start_main ()
+#69 0x0000564d91122020 in _start ()
+
+[Inferior 1 (process 1070242) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_piu3qky1.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7fc76a69ecd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7fc76a69ee36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7fc76a69f206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7fc76b03e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7fc76b03e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7fc763fbbe94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7fc769bab36e]
+/usr/lib/libgmp.so.10(__gmpn_mul_fft+0x25f) [0x7fc769bd4ebf]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x61f) [0x7fc769bf68af]
+/usr/lib/libgmp.so.10(__gmpn_nussbaumer_mul+0x189) [0x7fc769bd1779]
+/usr/lib/libgmp.so.10(__gmpn_mul+0xdfd) [0x7fc769bd2a3d]
+/usr/lib/libgmp.so.10(__gmpn_hgcd_matrix_adjust+0x27e) [0x7fc769bdbfde]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x1a5) [0x7fc769be0da5]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x49e) [0x7fc769bbc11e]
+/usr/lib/libgmp.so.10(__gmpq_mul+0x24b) [0x7fc769bc9e7b]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x3ec63) [0x7fc7685c2c63]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x4e) [0x7fc76b63baee]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fc76b45e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc76b5e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7fc76a6168b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7fc76a611705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7fc76b6710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7fc76b68e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7fc76b615df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7fc76960c49d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7fc76960d4ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7fc76b469935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc76b5e478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7fc76a60b1f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x9769) [0x7fc7695f6769]
+/usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so(+0xa470) [0x7fc76986e470]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1bb6a) [0x7fc769b3eb6a]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7fc76a617820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7fc76a611d99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7fc76b631df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7fc76b5a6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7fc76b671292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7fc76b7511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7fc76b63bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fc76b45e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7fc76b61cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7fc76b5a31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7fc76b730d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fc76b4693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc76b5b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc76b6bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7fc76b4b8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7fc76b45dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc76b5b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc76b6bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7fc76b6dfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fc76b4693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fc76b5e478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7fc76b5d6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7fc76b625a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7fc76b6db9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7fc76b6251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7fc76b45d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fc76b5b9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fc76b6bc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7fc76b70571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7fc76b705d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7fc76b704dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7fc76b704c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7fc76b6a9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7fc76b6a3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7fc76b027781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fc76b0278b9]
+/usr/bin/python(_start+0x25) [0x55b81667c045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1070229.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+[New LWP 1070553]
+[New LWP 1070552]
+[New LWP 1070551]
+[New LWP 1070550]
+[New LWP 1070549]
+[New LWP 1070548]
+[New LWP 1070547]
+[New LWP 1070546]
+[New LWP 1070545]
+[New LWP 1070544]
+[New LWP 1070543]
+[New LWP 1070542]
+[New LWP 1070541]
+[New LWP 1070540]
+[New LWP 1070539]
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fc76b0a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007fc76b10550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007fc76a69eea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007fc76a69f206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007fc76b03e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007fc763fbbe94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007fc769bab36e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007fc769bd4ebf in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007fc769bf68af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007fc769bd1779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007fc769bd2a3d in __gmpn_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007fc769bdbfde in __gmpn_hgcd_matrix_adjust ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007fc769be0da5 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007fc769bbc11e in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007fc769bc9e7b in __gmpq_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007fc7685c2c63 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#17 0x00007fc76b63baee in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#18 0x00007fc76b45e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#19 0x00007fc76b5e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007fc76a6168b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#21 0x00007fc76a611705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#22 0x00007fc76b6710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#23 0x00007fc76b68e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#24 0x00007fc76b615df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007fc76960c49d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#26 0x00007fc76960d4ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#27 0x00007fc76b469935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#28 0x00007fc76b5e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#29 0x00007fc76a60b1f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#30 0x00007fc7695f6769 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#31 0x00007fc76986e470 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007fc769b3eb6a in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007fc76a617820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007fc76a611d99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007fc76b631df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#36 0x00007fc76b5a6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#37 0x00007fc76b671292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#38 0x00007fc76b7511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#39 0x00007fc76b63bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#40 0x00007fc76b45e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007fc76b61cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007fc76b5a31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007fc76b730d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007fc76b4693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007fc76b5b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007fc76b6bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007fc76b4b8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007fc76b45dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007fc76b5b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007fc76b6bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007fc76b6dfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007fc76b4693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007fc76b5e478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007fc76b5d6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007fc76b625a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007fc76b6db9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007fc76b6251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007fc76b45d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007fc76b5b9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007fc76b6bc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007fc76b70571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007fc76b705d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007fc76b704dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007fc76b704c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007fc76b6a9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007fc76b6a3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007fc76b027781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#68 0x00007fc76b0278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#69 0x000055b81667c045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007fc76b1054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007fc76b03e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007fc769bab350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007fc769bd4c60 in __gmpn_mul_fft ()
+#9  0x00007fc769bf6290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007fc769bd15f0 in __gmpn_nussbaumer_mul ()
+#11 0x00007fc769bd1c40 in __gmpn_mul ()
+#12 0x00007fc769bdbd60 in __gmpn_hgcd_matrix_adjust ()
+#13 0x00007fc769be0c00 in __gmpn_gcd ()
+#14 0x00007fc769bbbc80 in __gmpz_gcd ()
+#15 0x00007fc769bc9c30 in __gmpq_mul ()
+#16 0x0000000000000000 in ?? ()
+#17 0x00007fc76b63baa0 in PyNumber_Multiply ()
+#18 0x0000000000000000 in ?? ()
+#19 0x0000000000000000 in ?? ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x00007fc76b615d90 in PyNumber_InPlaceAdd ()
+#25 0x0000000000000000 in ?? ()
+#26 0x0000000000000000 in ?? ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x00007fc76b63baa0 in PyNumber_Multiply ()
+#40 0x0000000000000000 in ?? ()
+#41 0x0000000000000000 in ?? ()
+#42 0x00007fc76b5a31d0 in PyIter_Next ()
+#43 0x0000000000000000 in ?? ()
+#44 0x0000000000000000 in ?? ()
+#45 0x0000000000000000 in ?? ()
+#46 0x00007fc76b6bc1f0 in PyEval_EvalCode ()
+#47 0x0000000000000000 in ?? ()
+#48 0x0000000000000000 in ?? ()
+#49 0x0000000000000000 in ?? ()
+#50 0x00007fc76b6bc1f0 in PyEval_EvalCode ()
+#51 0x0000000000000000 in ?? ()
+#52 0x0000000000000000 in ?? ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x00007fc76b625940 in PyObject_CallMethodObjArgs ()
+#56 0x0000000000000000 in ?? ()
+#57 0x00007fc76b624ac0 in PyImport_ImportModuleLevelObject ()
+#58 0x0000000000000000 in ?? ()
+#59 0x0000000000000000 in ?? ()
+#60 0x00007fc76b6bc1f0 in PyEval_EvalCode ()
+#61 0x0000000000000000 in ?? ()
+#62 0x0000000000000000 in ?? ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x00007fc76b6a9cc0 in Py_RunMain ()
+#66 0x00007fc76b6a3ec0 in Py_BytesMain ()
+#67 0x0000000000000000 in ?? ()
+#68 0x00007fc76b027830 in __libc_start_main ()
+#69 0x000055b81667c020 in _start ()
+
+[Inferior 1 (process 1070229) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_4zqzko8v.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+sig_error() without sig_on()
+------------------------------------------------------------------------
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6cd4) [0x7fa0c6f76cd4]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x6e36) [0x7fa0c6f76e36]
+/usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so(+0x7206) [0x7fa0c6f77206]
+/usr/lib/libc.so.6(+0x3e6f0) [0x7fa0c783e6f0]
+/usr/lib/libc.so.6(kill+0xb) [0x7fa0c783e8fb]
+/usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so(+0x4e94) [0x7fa0c4035e94]
+/usr/lib/libgmp.so.10(__gmp_tmp_reentrant_alloc+0x1e) [0x7fa0c648536e]
+/usr/lib/libgmp.so.10(__gmpn_mul_fft+0x2dd) [0x7fa0c64aef3d]
+/usr/lib/libgmp.so.10(__gmpn_mulmod_bnm1+0x61f) [0x7fa0c64d08af]
+/usr/lib/libgmp.so.10(__gmpn_nussbaumer_mul+0x189) [0x7fa0c64ab779]
+/usr/lib/libgmp.so.10(__gmpn_mul_n+0x36a) [0x7fa0c64abbba]
+/usr/lib/libgmp.so.10(__gmpn_ni_invertappr+0x28e) [0x7fa0c64d31de]
+/usr/lib/libgmp.so.10(+0x64b27) [0x7fa0c64d7b27]
+/usr/lib/libgmp.so.10(__gmpn_tdiv_qr+0xccb) [0x7fa0c64b806b]
+/usr/lib/libgmp.so.10(__gmpn_gcd+0x415) [0x7fa0c64bb015]
+/usr/lib/libgmp.so.10(__gmpz_gcd+0x30a) [0x7fa0c6495f8a]
+/usr/lib/libgmp.so.10(+0x306dd) [0x7fa0c64a36dd]
+/usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so(+0x37b33) [0x7fa0c4bbbb33]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Add+0x45) [0x7fa0c7e34855]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fa0c7c5e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fa0c7de478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x278b5) [0x7fa0c6eee8b5]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22705) [0x7fa0c6ee9705]
+/usr/lib/libpython3.14.so.1.0(+0x2710d9) [0x7fa0c7e710d9]
+/usr/lib/libpython3.14.so.1.0(+0x28e513) [0x7fa0c7e8e513]
+/usr/lib/libpython3.14.so.1.0(PyNumber_InPlaceAdd+0x62) [0x7fa0c7e15df2]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x1f49d) [0x7fa0c5ee649d]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x204ff) [0x7fa0c5ee74ff]
+/usr/lib/libpython3.14.so.1.0(+0x69935) [0x7fa0c7c69935]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fa0c7de478b]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x1c1f4) [0x7fa0c6ee31f4]
+/usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so(+0x9769) [0x7fa0c5ed0769]
+/usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so(+0xa470) [0x7fa0c6048470]
+/usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so(+0x1bb6a) [0x7fa0c6418b6a]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x28820) [0x7fa0c6eef820]
+/usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so(+0x22d99) [0x7fa0c6ee9d99]
+/usr/lib/libpython3.14.so.1.0(+0x231df2) [0x7fa0c7e31df2]
+/usr/lib/libpython3.14.so.1.0(+0x1a6632) [0x7fa0c7da6632]
+/usr/lib/libpython3.14.so.1.0(+0x271292) [0x7fa0c7e71292]
+/usr/lib/libpython3.14.so.1.0(+0x3511f4) [0x7fa0c7f511f4]
+/usr/lib/libpython3.14.so.1.0(PyNumber_Multiply+0x210) [0x7fa0c7e3bcb0]
+/usr/lib/libpython3.14.so.1.0(+0x5e7c3) [0x7fa0c7c5e7c3]
+/usr/lib/libpython3.14.so.1.0(+0x21cae8) [0x7fa0c7e1cae8]
+/usr/lib/libpython3.14.so.1.0(PyIter_Next+0x16) [0x7fa0c7da31e6]
+/usr/lib/libpython3.14.so.1.0(+0x330d62) [0x7fa0c7f30d62]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fa0c7c693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fa0c7db9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fa0c7ebc2a4]
+/usr/lib/libpython3.14.so.1.0(+0xb8375) [0x7fa0c7cb8375]
+/usr/lib/libpython3.14.so.1.0(+0x5dfc1) [0x7fa0c7c5dfc1]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fa0c7db9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fa0c7ebc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x2dfd76) [0x7fa0c7edfd76]
+/usr/lib/libpython3.14.so.1.0(+0x693f9) [0x7fa0c7c693f9]
+/usr/lib/libpython3.14.so.1.0(+0x1e478b) [0x7fa0c7de478b]
+/usr/lib/libpython3.14.so.1.0(+0x1d6ef0) [0x7fa0c7dd6ef0]
+/usr/lib/libpython3.14.so.1.0(PyObject_CallMethodObjArgs+0x125) [0x7fa0c7e25a65]
+/usr/lib/libpython3.14.so.1.0(+0x2db9c6) [0x7fa0c7edb9c6]
+/usr/lib/libpython3.14.so.1.0(PyImport_ImportModuleLevelObject+0x731) [0x7fa0c7e251f1]
+/usr/lib/libpython3.14.so.1.0(+0x5d945) [0x7fa0c7c5d945]
+/usr/lib/libpython3.14.so.1.0(+0x1b9172) [0x7fa0c7db9172]
+/usr/lib/libpython3.14.so.1.0(PyEval_EvalCode+0xb4) [0x7fa0c7ebc2a4]
+/usr/lib/libpython3.14.so.1.0(+0x30571f) [0x7fa0c7f0571f]
+/usr/lib/libpython3.14.so.1.0(+0x305d7e) [0x7fa0c7f05d7e]
+/usr/lib/libpython3.14.so.1.0(+0x304dfb) [0x7fa0c7f04dfb]
+/usr/lib/libpython3.14.so.1.0(+0x304c07) [0x7fa0c7f04c07]
+/usr/lib/libpython3.14.so.1.0(Py_RunMain+0x31e) [0x7fa0c7ea9fde]
+/usr/lib/libpython3.14.so.1.0(Py_BytesMain+0x3c) [0x7fa0c7ea3efc]
+/usr/lib/libc.so.6(+0x27781) [0x7fa0c7827781]
+/usr/lib/libc.so.6(__libc_start_main+0x89) [0x7fa0c78278b9]
+/usr/bin/python(_start+0x25) [0x561111b8e045]
+------------------------------------------------------------------------
+Attaching gdb to process id 1070238.
+GNU gdb (GDB) 17.2
+Copyright (C) 2025 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-pc-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+
+This GDB supports auto-downloading debuginfo from the following URLs:
+  <https://debuginfod.archlinux.org>
+Enable debuginfod for this session? (y or [n]) [answered N; input not from terminal]
+Debuginfod has been disabled.
+To make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.
+(No debugging symbols found in /usr/bin/python3.14)
+(No debugging symbols found in /usr/lib/libpython3.14.so.1.0)
+(No debugging symbols found in /usr/lib/libc.so.6)
+(No debugging symbols found in /usr/lib/libm.so.6)
+(No debugging symbols found in /lib64/ld-linux-x86-64.so.2)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/grp.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/fcntl.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_struct.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/binascii.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libz.so.1)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/string.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/zlib.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/math.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgcc_s.so.1)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/sage_object.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/persist.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/lazy_import.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_pickle.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_bz2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libbz2.so.1.0)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_lzma.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/liblzma.so.5)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_zstd.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libzstd.so.1)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_bisect.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_random.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_socket.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_posixsubprocess.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/select.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/instancedoc.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_heapq.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/lazy_attribute.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/inherit_comparison.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/nested_class.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/classcall_metaclass.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/category_object.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/getattr.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/category_cy_helper.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/c3_controlled.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/cachefunc.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/function_mangling.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/weak_dict.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/dict_del_by_value.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/fast_methods.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/constant_function.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/richcmp.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/builtin_types.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/coerce_dict.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/parent.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/map.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/sets/pythonclass.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/category_singleton.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/functor.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/morphism.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/arith/power.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgmp.so.10)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/debug_options.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/lazy_string.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/gmpy2/gmpy2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libmpc.so.3)
+(No debugging symbols found in /usr/lib/libmpfr.so.6)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_json.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/coerce_maps.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/type.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/parent_gens.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/parent_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/parent_old.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/mutability.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/element_wrapper.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/cpython/debug.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/misc_c.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_interpreters.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_ssl.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libssl.so.3)
+(No debugging symbols found in /usr/lib/libcrypto.so.3)
+(No debugging symbols found in /usr/lib/libbrotlienc.so.1)
+(No debugging symbols found in /usr/lib/libbrotlidec.so.1)
+(No debugging symbols found in /usr/lib/libbrotlicommon.so.1)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_asyncio.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/unicodedata.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/sage_timeit_class.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/session.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_hashlib.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_blake2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/fpickle.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/reset.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/randstate.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/gmp/pylong.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/error.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libntl.so.45)
+(No debugging symbols found in /usr/lib/libstdc++.so.6)
+(No debugging symbols found in /usr/lib/libgf2x.so.3)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/integer.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/fast_arith.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/number_field/number_field_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/ring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/categories/coercion_methods.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_double.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/abc.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/allocator.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/pari_instance.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libpari-gmp-tls.so.9)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/gen.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/stack.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/string_utils.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/convert.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/closure.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/handle_error.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cypari2/custom_block.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/arith/rational_reconstruction.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/integer_ring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/number_field/number_field_element_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/convert.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_pContext.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_p.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZX.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_pX.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_pEContext.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_pE.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_ZZ_pEX.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_lzz_pContext.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_lzz_p.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/element_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/integer_mod.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/arith/functions.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_lzz_pX.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_mat_ZZ.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_GF2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_GF2X.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_GF2EContext.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_GF2E.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_GF2EX.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_mat_GF2E.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/ntl/ntl_mat_GF2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/symmetrica/symmetrica.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libsymmetrica.so.3)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/data_structures/bitset.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/memory_allocator/memory_allocator.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/data_structures/bitset_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/termios.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/resource.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/factory.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/commutative_polynomial.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/binary_tree.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_compiled.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/multi_polynomial.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polydict.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/derivative.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/pow_computer.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_capped_relative_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_generic_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/local_generic_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/array.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/arith/srange.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/morphism.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/common_conversion.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_gmp.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/finite_field_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_capped_absolute_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_fixed_mod_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_floating_point_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/fraction_field_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_double_element_gsl.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgsl.so.28)
+(No debugging symbols found in /usr/lib/libcblas.so.3)
+(No debugging symbols found in /usr/lib/libblas.so.3)
+(No debugging symbols found in /usr/lib/libgfortran.so.5)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/function_field/element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/function_field/element_rational.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/power_series_ring_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/multi_polynomial_ring_base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/element_givaro.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgivaro.so.9)
+(No debugging symbols found in /usr/lib/libgmpxx.so.4)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/element_pari_ffelt.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_interval.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libmpfi.so.0)
+(No debugging symbols found in /usr/lib/libflint.so.24)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_mpfr.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/mpmath/utils.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_mpfr.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_double.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_conversion.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_sage_complex_double.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/parser.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/cmath.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_sage_real_mpfr.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_mpfi.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/convert/mpfi.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_lazy.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/free_module_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/module.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/number_field/number_field_morphisms.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/number_field/number_field_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/evaluation_ntl.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/number_field/number_field_element_quadratic.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/real_arb.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_arb.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_complex_arb.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/group.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/constructor.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/args.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/residue_field.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_printing.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_ZZ_pX_FM_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_ZZ_pX_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_ext_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/pow_computer_ext.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_ZZ_pX_CR_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/padic_ZZ_pX_CA_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/qadic_flint_CR.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/pow_computer_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_integer_dense_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/flint/fmpz_poly_sage.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/evaluation_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/qadic_flint_CA.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/qadic_flint_FM.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/qadic_flint_FP.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/pow_computer_relative.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/relative_ramified_CA.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/relative_ramified_CR.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/relative_ramified_FM.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/padics/relative_ramified_FP.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/sets/family.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/semirings/tropical_semiring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/laurent_polynomial.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/structure/list_clone.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/cyclotomic.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_rational_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/flint/fmpq_poly_sage.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/power_series_mpoly.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/power_series_poly.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/laurent_series_ring_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/multi_polynomial_libsingular.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libSingular-4.4.1.so)
+(No debugging symbols found in /usr/lib/libpolys-4.4.1.so)
+(No debugging symbols found in /usr/lib/libfactory-4.4.1.so)
+(No debugging symbols found in /usr/lib/libomalloc-0.9.6.so)
+(No debugging symbols found in /usr/lib/libsingular_resources-4.4.1.so)
+(No debugging symbols found in /usr/lib/libreadline.so.8)
+(No debugging symbols found in /usr/lib/libncursesw.so.6)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/singular/function.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/plural.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/element_ntl_gf2e.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/singular/ring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/singular/singular.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/bin/../lib/singular/MOD/singmathic.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/singular/polynomial.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/noncommutative_ideals.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/multi_polynomial_ideal_libsingular.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/singular/option.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/bin/../lib/singular/MOD/p_Procs_FieldIndep.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/complex_mpc.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/tate_algebra_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/puiseux_series_ring_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/bernoulli_mod_p.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/bernmm.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/symbolic/ring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/symbolic/expression.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/symbolic/function.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/combinat_cython.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/monoids/free_abelian_monoid_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/algebras/quatalg/quaternion_algebra_cython.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix0.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix1.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_integer_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libiml.so.0)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/vector_integer_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/arith/multi_modular.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_modn_dense_float.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libfflas.so.1)
+(No debugging symbols found in /usr/lib/libffpack.so.1)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/vector_modn_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_modn_dense_double.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_mod2_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgd.so.3)
+(No debugging symbols found in /usr/lib/libm4ri.so.2)
+(No debugging symbols found in /usr/lib/libpng16.so.16)
+(No debugging symbols found in /usr/lib/libfreetype.so.6)
+(No debugging symbols found in /usr/lib/libfontconfig.so.1)
+(No debugging symbols found in /usr/lib/libjpeg.so.8)
+(No debugging symbols found in /usr/lib/libXpm.so.4)
+(No debugging symbols found in /usr/lib/libwebp.so.7)
+(No debugging symbols found in /usr/lib/libheif.so.1)
+(No debugging symbols found in /usr/lib/libavif.so.16)
+(No debugging symbols found in /usr/lib/libgomp.so.1)
+(No debugging symbols found in /usr/lib/libexpat.so.1)
+(No debugging symbols found in /usr/lib/libX11.so.6)
+(No debugging symbols found in /usr/lib/libsharpyuv.so.0)
+(No debugging symbols found in /usr/lib/libx265.so.217)
+(No debugging symbols found in /usr/lib/libde265.so.0)
+(No debugging symbols found in /usr/lib/libaom.so.3)
+(No debugging symbols found in /usr/lib/libx264.so.165)
+(No debugging symbols found in /usr/lib/libopenh264.so.8)
+(No debugging symbols found in /usr/lib/libyuv.so)
+(No debugging symbols found in /usr/lib/libdav1d.so.7)
+(No debugging symbols found in /usr/lib/librav1e.so.0.8)
+(No debugging symbols found in /usr/lib/libSvtAv1Enc.so.4)
+(No debugging symbols found in /usr/lib/libxcb.so.1)
+(No debugging symbols found in /usr/lib/libmvec.so.1)
+(No debugging symbols found in /usr/lib/libXau.so.6)
+(No debugging symbols found in /usr/lib/libXdmcp.so.6)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/vector_mod2_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/linbox/linbox_flint_interface.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_sage_matrix.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/pari/convert_sage.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_rational_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/vector_rational_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/algebras/quatalg/quaternion_algebra_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/words/word_char.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/words/word_datatypes.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modular/modsym/p1list.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/search.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/quadratic_forms/quadratic_form__evaluate.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/quadratic_forms/count_local_2.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modules/with_basis/indexed_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/data_structures/blas_dict.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/lazy_list.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/misc/callable_dict.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/algebras/finite_dimensional_algebras/finite_dimensional_algebra_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/algebras/clifford_algebra_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/matrix_gps/group_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/matrix_gps/group_element_gap.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/libgap_wrapper.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/gap/element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libgap.so.11)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/gap/util.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/gap/libgap.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/sets/recursively_enumerated_set.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/integer_lists/base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/integer_lists/invlex.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/permutation_cython.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modular/arithgroup/arithgroup_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modular/arithgroup/congroup.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/modular/arithgroup/farey_symbol.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/ore_polynomial_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/factorint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/generic_graph_pyx.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/graph_backends.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/c_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/data_structures/pairing_heap.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/dense_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/static_sparse_backend.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/static_sparse_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/views.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/boost_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/base/static_dense_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/connectivity.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/sets/disjoint_set.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/perm_gps/partn_ref/data_structures.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/distances_all_pairs.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/line_graph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/path_enumeration.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/traversals.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/slice_decomposition.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/independent_sets.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/weakly_chordal.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/asteroidal_triples.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/tree_decomposition.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/vertex_separation.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/fast_digraph.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/clique_separators.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/bandwidth.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/cutwidth.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/cliquer.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libcliquer.so.1)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/spanning_tree.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/graph_products.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/comparability.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/isoperimetric_inequalities.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_coloring.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/hyperbolicity.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/chrompoly.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/graph_decompositions/rankwidth.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/librw.so.0)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/matchpoly.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/graphs/convexity_properties.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/numerical/backends/generic_backend.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/groups/perm_gps/permgroup_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_sqlite3.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libsqlite3.so.0)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/sets/finite_set_map_cy.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/probability/probability_distribution.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/functions/prime_pi.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/calculus/integration.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/ext/fast_callable.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/ext/interpreters/wrapper_rdf.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/calculus/interpolation.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/calculus/ode.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/calculus/var.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/crypto/sbox.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/crypto/boolean_function.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/pbori/pbori.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libbrial_groebner.so.3)
+(No debugging symbols found in /usr/lib/libbrial.so.3)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/ext/fast_eval.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/plot/plot3d/base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/plot/plot3d/transform.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/plot/plot3d/index_face_set.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/plot/plot3d/shapes.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/plot/plot3d/parametric_surface.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/expnums.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/debruijn_sequence.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/partitions.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/flint/arith_sage.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/set_partition_iterator.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/posets/hasse_cython.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/geometry/point_collection.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/geometry/toric_lattice_element.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/geometry/abc.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/combinat/enumeration_mod_permgroup.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/geometry/triangulation/base.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cysignals/alarm.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/interfaces/process.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cysignals/pselect.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/cysignals/pysignals.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/dynamics/arithmetic_dynamics/projective_ds_helper.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/quadratic_forms/ternary.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_queue.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/numpy/_core/_multiarray_umath.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/lib-dynload/_ctypes.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libffi.so.8)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/numpy/linalg/_umath_linalg.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/liblapack.so.3)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/schemes/hyperelliptic_curves/hypellfrob.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/matrix_generic_dense.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/eclib/mwrank.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/libec.so.14)
+(No debugging symbols found in /usr/lib/libboost_thread.so.1.92.0)
+(No debugging symbols found in /usr/lib/libboost_atomic.so.1.92.0)
+(No debugging symbols found in /usr/lib/libboost_chrono.so.1.92.0)
+(No debugging symbols found in /usr/lib/libboost_date_time.so.1.92.0)
+(No debugging symbols found in /usr/lib/libboost_container.so.1.92.0)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/matrix/action.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/finite_rings/hom_finite_field.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/rings/polynomial/polynomial_zmod_flint.cpython-314-x86_64-linux-gnu.so)
+(No debugging symbols found in /usr/lib/python3.14/site-packages/sage/libs/flint/ulong_extras_sage.cpython-314-x86_64-linux-gnu.so)
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/usr/lib/libthread_db.so.1".
+0x00007fa0c78a0952 in ?? () from /usr/lib/libc.so.6
+
+Stack backtrace
+---------------
+No symbol table info available.
+#1  0x00007fa0c790550b in wait4 () from /usr/lib/libc.so.6
+No symbol table info available.
+#2  0x00007fa0c6f76ea9 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007fa0c6f77206 in ?? ()
+   from /usr/lib/python3.14/site-packages/cysignals/signals.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No symbol table info available.
+#5  0x00007fa0c783e8fb in kill () from /usr/lib/libc.so.6
+No symbol table info available.
+#6  0x00007fa0c4035e94 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/ext/memory.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#7  0x00007fa0c648536e in __gmp_tmp_reentrant_alloc ()
+   from /usr/lib/libgmp.so.10
+No symbol table info available.
+#8  0x00007fa0c64aef3d in __gmpn_mul_fft () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#9  0x00007fa0c64d08af in __gmpn_mulmod_bnm1 () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#10 0x00007fa0c64ab779 in __gmpn_nussbaumer_mul () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#11 0x00007fa0c64abbba in __gmpn_mul_n () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#12 0x00007fa0c64d31de in __gmpn_ni_invertappr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#13 0x00007fa0c64d7b27 in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#14 0x00007fa0c64b806b in __gmpn_tdiv_qr () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#15 0x00007fa0c64bb015 in __gmpn_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#16 0x00007fa0c6495f8a in __gmpz_gcd () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#17 0x00007fa0c64a36dd in ?? () from /usr/lib/libgmp.so.10
+No symbol table info available.
+#18 0x00007fa0c4bbbb33 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/rings/rational.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#19 0x00007fa0c7e34855 in PyNumber_Add () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#20 0x00007fa0c7c5e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#21 0x00007fa0c7de478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#22 0x00007fa0c6eee8b5 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#23 0x00007fa0c6ee9705 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#24 0x00007fa0c7e710d9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#25 0x00007fa0c7e8e513 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#26 0x00007fa0c7e15df2 in PyNumber_InPlaceAdd ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#27 0x00007fa0c5ee649d in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#28 0x00007fa0c5ee74ff in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#29 0x00007fa0c7c69935 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#30 0x00007fa0c7de478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#31 0x00007fa0c6ee31f4 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#32 0x00007fa0c5ed0769 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce_actions.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#33 0x00007fa0c6048470 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/categories/action.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#34 0x00007fa0c6418b6a in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/coerce.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#35 0x00007fa0c6eef820 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#36 0x00007fa0c6ee9d99 in ?? ()
+   from /usr/lib/python3.14/site-packages/sage/structure/element.cpython-314-x86_64-linux-gnu.so
+No symbol table info available.
+#37 0x00007fa0c7e31df2 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#38 0x00007fa0c7da6632 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#39 0x00007fa0c7e71292 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#40 0x00007fa0c7f511f4 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#41 0x00007fa0c7e3bcb0 in PyNumber_Multiply ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#42 0x00007fa0c7c5e7c3 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#43 0x00007fa0c7e1cae8 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#44 0x00007fa0c7da31e6 in PyIter_Next () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#45 0x00007fa0c7f30d62 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#46 0x00007fa0c7c693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#47 0x00007fa0c7db9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#48 0x00007fa0c7ebc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#49 0x00007fa0c7cb8375 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#50 0x00007fa0c7c5dfc1 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#51 0x00007fa0c7db9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#52 0x00007fa0c7ebc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#53 0x00007fa0c7edfd76 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#54 0x00007fa0c7c693f9 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#55 0x00007fa0c7de478b in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#56 0x00007fa0c7dd6ef0 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#57 0x00007fa0c7e25a65 in PyObject_CallMethodObjArgs ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#58 0x00007fa0c7edb9c6 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#59 0x00007fa0c7e251f1 in PyImport_ImportModuleLevelObject ()
+   from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#60 0x00007fa0c7c5d945 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#61 0x00007fa0c7db9172 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#62 0x00007fa0c7ebc2a4 in PyEval_EvalCode () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#63 0x00007fa0c7f0571f in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#64 0x00007fa0c7f05d7e in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#65 0x00007fa0c7f04dfb in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#66 0x00007fa0c7f04c07 in ?? () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#67 0x00007fa0c7ea9fde in Py_RunMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#68 0x00007fa0c7ea3efc in Py_BytesMain () from /usr/lib/libpython3.14.so.1.0
+No symbol table info available.
+#69 0x00007fa0c7827781 in ?? () from /usr/lib/libc.so.6
+No symbol table info available.
+#70 0x00007fa0c78278b9 in __libc_start_main () from /usr/lib/libc.so.6
+No symbol table info available.
+#71 0x0000561111b8e045 in _start ()
+No symbol table info available.
+
+
+Cython backtrace
+----------------
+#0  0x0000000000000000 in ?? ()
+#1  0x00007fa0c79054b0 in wait4 ()
+#2  0x0000000000000000 in ?? ()
+#3  0x0000000000000000 in ?? ()
+#4  0x0000000000000000 in ?? ()
+#5  0x00007fa0c783e8f0 in kill ()
+#6  0x0000000000000000 in ?? ()
+#7  0x00007fa0c6485350 in __gmp_tmp_reentrant_alloc ()
+#8  0x00007fa0c64aec60 in __gmpn_mul_fft ()
+#9  0x00007fa0c64d0290 in __gmpn_mulmod_bnm1 ()
+#10 0x00007fa0c64ab5f0 in __gmpn_nussbaumer_mul ()
+#11 0x00007fa0c64ab850 in __gmpn_mul_n ()
+#12 0x00007fa0c64d2f50 in __gmpn_ni_invertappr ()
+#13 0x0000000000000000 in ?? ()
+#14 0x00007fa0c64b73a0 in __gmpn_tdiv_qr ()
+#15 0x00007fa0c64bac00 in __gmpn_gcd ()
+#16 0x00007fa0c6495c80 in __gmpz_gcd ()
+#17 0x0000000000000000 in ?? ()
+#18 0x0000000000000000 in ?? ()
+#19 0x00007fa0c7e34810 in PyNumber_Add ()
+#20 0x0000000000000000 in ?? ()
+#21 0x0000000000000000 in ?? ()
+#22 0x0000000000000000 in ?? ()
+#23 0x0000000000000000 in ?? ()
+#24 0x0000000000000000 in ?? ()
+#25 0x0000000000000000 in ?? ()
+#26 0x00007fa0c7e15d90 in PyNumber_InPlaceAdd ()
+#27 0x0000000000000000 in ?? ()
+#28 0x0000000000000000 in ?? ()
+#29 0x0000000000000000 in ?? ()
+#30 0x0000000000000000 in ?? ()
+#31 0x0000000000000000 in ?? ()
+#32 0x0000000000000000 in ?? ()
+#33 0x0000000000000000 in ?? ()
+#34 0x0000000000000000 in ?? ()
+#35 0x0000000000000000 in ?? ()
+#36 0x0000000000000000 in ?? ()
+#37 0x0000000000000000 in ?? ()
+#38 0x0000000000000000 in ?? ()
+#39 0x0000000000000000 in ?? ()
+#40 0x0000000000000000 in ?? ()
+#41 0x00007fa0c7e3baa0 in PyNumber_Multiply ()
+#42 0x0000000000000000 in ?? ()
+#43 0x0000000000000000 in ?? ()
+#44 0x00007fa0c7da31d0 in PyIter_Next ()
+#45 0x0000000000000000 in ?? ()
+#46 0x0000000000000000 in ?? ()
+#47 0x0000000000000000 in ?? ()
+#48 0x00007fa0c7ebc1f0 in PyEval_EvalCode ()
+#49 0x0000000000000000 in ?? ()
+#50 0x0000000000000000 in ?? ()
+#51 0x0000000000000000 in ?? ()
+#52 0x00007fa0c7ebc1f0 in PyEval_EvalCode ()
+#53 0x0000000000000000 in ?? ()
+#54 0x0000000000000000 in ?? ()
+#55 0x0000000000000000 in ?? ()
+#56 0x0000000000000000 in ?? ()
+#57 0x00007fa0c7e25940 in PyObject_CallMethodObjArgs ()
+#58 0x0000000000000000 in ?? ()
+#59 0x00007fa0c7e24ac0 in PyImport_ImportModuleLevelObject ()
+#60 0x0000000000000000 in ?? ()
+#61 0x0000000000000000 in ?? ()
+#62 0x00007fa0c7ebc1f0 in PyEval_EvalCode ()
+#63 0x0000000000000000 in ?? ()
+#64 0x0000000000000000 in ?? ()
+#65 0x0000000000000000 in ?? ()
+#66 0x0000000000000000 in ?? ()
+#67 0x00007fa0c7ea9cc0 in Py_RunMain ()
+#68 0x00007fa0c7ea3ec0 in Py_BytesMain ()
+#69 0x0000000000000000 in ?? ()
+#70 0x00007fa0c7827830 in __libc_start_main ()
+#71 0x0000561111b8e020 in _start ()
+
+[Inferior 1 (process 1070238) detached]
+Saved trace to /home/kep/magicKube/corners/cysignals_crash_logs/crash_3_4oeut4.log
+------------------------------------------------------------------------
+Unhandled SIGABRT: An abort() occurred.
+This probably occurred because a *compiled* module has a bug
+in it and is not properly wrapped with sig_on(), sig_off().
+Python will now terminate.
+------------------------------------------------------------------------
+timeout: отслеживаемая команда завершилась созданием дампа
+(1489,929) TIMEOUT/FAIL
+(1681,1567) TIMEOUT/FAIL
+(2159,487) TIMEOUT/FAIL

@@ -1,0 +1,91 @@
+(31,17,25) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=4s
+(7,1,5) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=4s
+(17,7,13) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=5s
+(23,7,17) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=6s
+(41,1,29) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=12s
+(49,31,41) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=25s
+(47,23,37) ranks=[2, 2, 4, 4] k2=0 k3=0 k4=0 time=38s
+(71,49,61) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=42s
+(103,7,73) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=44s
+(119,41,89) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=53s
+(79,47,65) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=60s
+(239,1,169) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=35s
+(161,73,125) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=62s
+(73,17,53) ranks=[2, 2, 4, 4] k2=0 k3=0 k4=0 time=62s
+(97,71,85) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=65s
+(137,7,97) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=68s
+(113,41,85) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=74s
+(193,17,137) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=72s
+(119,79,101) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=79s
+(89,23,65) ranks=[4, 4, 3, 3] k2=0 k3=0 k4=0 time=79s
+(217,47,157) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=67s
+(151,31,109) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=83s
+(191,89,149) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=79s
+(167,119,145) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=85s
+(127,97,113) ranks=[4, 4, 2, 2] k2=0 k3=0 k4=0 time=90s
+(161,127,145) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=102s
+(289,23,205) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=64s
+(217,113,173) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=93s
+(257,49,185) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=102s
+(199,161,181) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=105s
+(263,73,193) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=93s
+(313,103,233) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=80s
+(329,191,269) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=74s
+(287,241,265) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=78s
+(233,119,185) ranks=[4, 4, 2, 2] k2=0 k3=0 k4=0 time=109s
+(343,151,265) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=88s
+(271,103,205) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=111s
+(241,199,221) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=107s
+(281,161,229) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=119s
+(401,79,289) ranks=[4, 4, 2, 2] k2=0 k3=0 k4=0 time=91s
+(223,167,197) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=141s
+(311,31,221) ranks=[3, 3, 4, 4] k2=0 k3=0 k4=0 time=148s
+(329,89,241) ranks=[2, 2, 4, 4] k2=0 k3=0 k4=0 time=143s
+(391,71,281) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=156s
+(457,49,325) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=97s
+(367,137,277) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=177s
+(287,223,257) ranks=[4, 4, 3, 3] k2=0 k3=0 k4=0 time=189s
+(359,287,325) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=117s
+(383,233,317) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=135s
+(409,137,305) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=145s
+(353,217,293) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=167s
+Unable to compute the rank with certainty (lower bound=2).
+This could be because Sha(E/Q)[2] is nontrivial.
+Try calling something like two_descent(second_limit=13) on the
+curve then trying this command again.  You could also try rank
+with only_use_mwrank=False.
+Unable to compute the rank with certainty (lower bound=2).
+This could be because Sha(E/Q)[2] is nontrivial.
+Try calling something like two_descent(second_limit=13) on the
+curve then trying this command again.  You could also try rank
+with only_use_mwrank=False.
+(337,287,313) ranks=[3, 3, 'rank?', 'rank?'] k2=0 k3=0 k4=0 time=145s
+(431,17,305) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=211s
+(529,151,389) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=170s
+(553,97,397) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=162s
+(463,113,337) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=246s
+(497,47,353) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=240s
+(439,359,401) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=186s
+(503,329,425) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=176s
+(497,193,377) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=262s
+(511,271,409) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=230s
+(479,119,349) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=326s
+(487,217,377) ranks=[4, 4, 2, 2] k2=0 k3=0 k4=0 time=292s
+(601,7,425) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=238s
+(433,281,365) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=343s
+(391,337,365) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=342s
+(527,23,373) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=354s
+(599,193,445) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=261s
+(607,343,493) ranks=[3, 3, 'rank?', 'rank?'] k2=0 k3=0 k4=0 time=111s
+(553,263,433) ranks=[2, 2, 3, 3] k2=0 k3=0 k4=0 time=289s
+(521,353,445) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=291s
+(631,71,449) ranks=[4, 4, 2, 2] k2=0 k3=0 k4=0 time=297s
+(593,257,457) ranks=[2, 2, 4, 4] k2=0 k3=0 k4=0 time=252s
+(449,391,421) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=332s
+(641,119,461) ranks=[3, 3, 'rank?', 'rank?'] k2=0 k3=0 k4=0 time=231s
+(569,383,485) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=213s
+(679,41,481) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=244s
+(623,313,493) ranks=[2, 2, 2, 2] k2=0 k3=0 k4=0 time=192s
+(511,449,481) ranks=[3, 3, 2, 2] k2=0 k3=0 k4=0 time=262s
+(527,439,485) ranks=[3, 3, 3, 3] k2=0 k3=0 k4=0 time=280s
+DONE

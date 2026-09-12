@@ -1,0 +1,18 @@
+E = (0, -163724*w, 0, -8641548001801, 1414828805046866924*w)
+G = (-2906101 : 54028920*w + 297159060 : 1), u(G) = 71/61
+torsion (2, 2): [(0 : 1 : 0), (-2939651 : 0 : 1), (163724*w : 0 : 1), (2939651 : 0 : 1)]
+G has finite order? False;  canonical height h(G) = 8.20254500578807
+   exact  l=2: not divisible
+   exact  l=3: not divisible
+   exact  l=5: not divisible
+   exact  l=7: not divisible
+   exact  l=11: not divisible
+   exact  l=13: not divisible
+l-saturation locally proved for l in: [2, 3, 5, 7, 13, 19, 29]
+    l=2: prime above 29, N(P)=29, |E(F_P)|=32
+    l=3: prime above 167, N(P)=27889, |E(F_P)|=28080
+    l=5: prime above 71, N(P)=5041, |E(F_P)|=5120
+    l=7: prime above 101, N(P)=101, |E(F_P)|=112
+    l=13: prime above 223, N(P)=49729, |E(F_P)|=49920
+    l=19: prime above 271, N(P)=73441, |E(F_P)|=72960
+    l=29: prime above 233, N(P)=54289, |E(F_P)|=53824
