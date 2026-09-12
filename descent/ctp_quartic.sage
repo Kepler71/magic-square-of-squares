@@ -510,7 +510,7 @@ class FisherCTP:
             rng = ZZ(ceil(abs(RR(hi / lo).log(2)))) + ZZ(ceil(abs(RR(hi).log(2)))) + ZZ(ceil(abs(RR(lo).log(2))))
         except Exception:
             rng = 1000
-        return int(min(2 * 10 ^ 6, max(200, rng + extra)))
+        return int(min(3 * 10 ^ 4, max(200, rng + extra)))
 
     def _prec_for(self, g):
         vals = []
