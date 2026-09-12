@@ -29,6 +29,7 @@ for i in which:
         Ep = EllipticCurve(k, [0, k(ap), 0, k(bp), 0])
         I, J = IJ_of_curve(Ep)
         F = FisherCTP(k, I, J); F.conic_verbose = True; F.conic_timeout = int(os.environ.get("CTO", "180"))
+        F.fact_cache_path = f'/home/kep/magicKube/descent/fact_{name}_{i+1}.sobj'
         F.base_S = sorted(set(list(PD.S) + [P for q in primes(2, 60) for P in k.primes_above(q)]), key=lambda P: (P.norm(), str(P)))
         dl = deltas_partial(F, Ep, PD, PD.Sel)
         M, quart, sym_ok = ctp_matrix(F, dl, verbose=True, with_diag=True,

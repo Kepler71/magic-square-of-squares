@@ -1178,11 +1178,29 @@ class FisherCTP:
             ps |= set(ZZ(cg).prime_factors())
             return [LocSq(k, p) for p in sorted(ps)] + [RealPlace(k)]
         Ps = []
+        if not hasattr(self, '_factmemo'):
+            self._factmemo = {}
+            fp = getattr(self, 'fact_cache_path', None)
+            if fp:
+                try:
+                    self._factmemo = load(fp)
+                except Exception:
+                    self._factmemo = {}
         def add_ideal(I):
             if I == 0 or I == k.ideal(1):
                 return
-            for P, _ in I.factor():
-                Ps.append(P)
+            ky = str(I)
+            if ky in self._factmemo:
+                Ps.extend(self._factmemo[ky]); return
+            got = [P for P, _ in I.factor()]
+            self._factmemo[ky] = got
+            fp = getattr(self, 'fact_cache_path', None)
+            if fp:
+                try:
+                    save(self._factmemo, fp)
+                except Exception:
+                    pass
+            Ps.extend(got)
         add_ideal(k.ideal(self.disc))
         add_ideal(k.ideal(a2))
         den = k.ideal(1)
@@ -1565,15 +1583,42 @@ def ctp_matrix(F, deltas, verbose=True, with_diag=False, reps=1, sym_checks=3, c
     if verbose:
         print(f"    квартик построено: {len(quart)}  ({time.time()-t0:.0f}s)")
     M = matrix(GF(2), n, n)
+    vcache = {}
+    vpath = (cache + '.vals') if cache else None
+    if vpath and _os.path.exists(vpath):
+        try:
+            vcache = load(vpath)
+            if verbose:
+                print(f"    значений спаривания из кэша: {len(vcache)}")
+        except Exception:
+            vcache = {}
     for i in range(n):
         for j in range(i + 1, n):
-            v, npl = F.pair(quart[(i,)], quart[(j,)], quart[(i, j)], reps=reps)
+            if (i, j) in vcache:
+                v = vcache[(i, j)]; npl = -1
+            else:
+                v, npl = F.pair(quart[(i,)], quart[(j,)], quart[(i, j)], reps=reps)
+                vcache[(i, j)] = int(v)
+                if vpath:
+                    try:
+                        save(vcache, vpath)
+                    except Exception:
+                        pass
             M[i, j] = v; M[j, i] = v
             if verbose:
                 print(f"    <{i},{j}> = {v}  (мест {npl}, {time.time()-t0:.0f}s)")
     if with_diag:
         for i in range(n):
-            v, _ = F.pair(quart[(i,)], quart[(i,)], quart[()], reps=reps)
+            if ('d', i) in vcache:
+                v = vcache[('d', i)]
+            else:
+                v, _ = F.pair(quart[(i,)], quart[(i,)], quart[()], reps=reps)
+                vcache[('d', i)] = int(v)
+                if vpath:
+                    try:
+                        save(vcache, vpath)
+                    except Exception:
+                        pass
             M[i, i] = v
             if verbose:
                 print(f"    <{i},{i}> = {v}")
