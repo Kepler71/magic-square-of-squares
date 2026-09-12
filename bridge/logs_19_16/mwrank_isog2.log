@@ -1,0 +1,49 @@
+Program mwrank: uses 2-descent (via 2-isogeny if possible) to
+determine the rank of an elliptic curve E over Q, and list a
+set of points that generate E(Q) modulo 2E(Q).
+and finally saturate to obtain generating points on the curve.
+For more details see the mwrank documentation.
+For details of algorithms see the author's book.
+
+Please acknowledge use of this program in published work, 
+and send problems to [адрес автора программы убран из публикации].
+
+eclib version 20250627, using NTL bigints and NTL real and complex multiprecision floating point
+Using multiprecision floating point with 50 bits precision.
+Enter curve: Curve [0,0,0,6144364201166100,56474886831958509390000] :	
+1 points of order 2:
+[-9069900:0:1]
+
+Using 2-isogenous curve [0,54419400,0,-24824246062694400,0] (minimal model [0,0,0,-1613212693425900,7222574158576522830000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	1
+rk(S^{phi'}(E))=	4
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	1
+rk(phi(S^{2}(E')))=	4
+rk(S^{2}(E))=	4
+rk(S^{2}(E'))=	5
+
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(-27209700,6391153459196100)
+(c',d')=(54419400,-24824246062694400)
+First stage (no second descent yet)...
+(1234,0,-27209700,0,5179216741650):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=1234: RR: division by zero
+timeout: отслеживаемая команда завершилась созданием дампа

@@ -1,0 +1,167 @@
+Program mwrank: uses 2-descent (via 2-isogeny if possible) to
+determine the rank of an elliptic curve E over Q, and list a
+set of points that generate E(Q) modulo 2E(Q).
+and finally saturate to obtain generating points on the curve.
+For more details see the mwrank documentation.
+For details of algorithms see the author's book.
+
+Please acknowledge use of this program in published work, 
+and send problems to [адрес автора программы убран из публикации].
+
+eclib version 20250627, using NTL bigints and NTL real and complex multiprecision floating point
+Using multiprecision floating point with 50 bits precision.
+Enter curve: Curve [0,0,0,-14872007552049900,-692667016942944295602000] :	
+1 points of order 2:
+[-75409740:0:1]
+
+Using 2-isogenous curve [0,452458440,0,42428143547596800,0] (minimal model [0,0,0,-1613212693425900,7222574158576522830000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	1
+rk(S^{phi'}(E))=	4
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	1
+rk(phi(S^{2}(E')))=	4
+rk(S^{2}(E))=	4
+rk(S^{2}(E'))=	5
+
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(-226229220,2187879108552900)
+(c',d')=(452458440,42428143547596800)
+First stage (no second descent yet)...
+(1234,0,-226229220,0,1772997656850):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=1234: 
+ (x:y:z) = (78108031127:1993733363533969846721408:1388491249)
+	Curve E 	Point [10453210305935016010220509894703314:192166609120426558810840421222203250944:2676883315438634074013911249], height = 47.005085018302
+Second descent successfully found rational point for d1=1234
+
+After second global descent, this component of the rank = 1
+-------------------------------------------------------
+2. E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+First stage (no second descent yet)...
+(2,0,452458440,0,21214071773798400):  no rational point found (hlim=8)
+(-105,0,452458440,0,-404077557596160):  no rational point found (hlim=8)
+(1234,0,452458440,0,34382612275200):  no rational point found (hlim=8)
+(-64785,0,452458440,0,-654906900480):  no rational point found (hlim=8)
+(15,0,452458440,0,2828542903173120):  no rational point found (hlim=8)
+(-14,0,452458440,0,-3030581681971200):  no rational point found (hlim=8)
+(9255,0,452458440,0,4584348303360):  no rational point found (hlim=8)
+(-8638,0,452458440,0,-4911801753600):  no rational point found (hlim=8)
+(30,0,452458440,0,1414271451586560):  no rational point found (hlim=8)
+(-7,0,452458440,0,-6061163363942400):  no rational point found (hlim=8)
+(18510,0,452458440,0,2292174151680):  no rational point found (hlim=8)
+(-4319,0,452458440,0,-9823603507200):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 0
+	and upper bound 2
+	(difference =   2)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=2: 
+Second descent inconclusive for d1=2: ELS descendents exist but no rational point found
+
+d1=-105: 
+Second descent inconclusive for d1=-105: ELS descendents exist but no rational point found
+
+d1=1234: 
+Second descent inconclusive for d1=1234: ELS descendents exist but no rational point found
+
+d1=-64785: 
+Second descent inconclusive for d1=-64785: ELS descendents exist but no rational point found
+
+d1=15: 
+Second descent inconclusive for d1=15: ELS descendents exist but no rational point found
+
+d1=-14: 
+Second descent inconclusive for d1=-14: ELS descendents exist but no rational point found
+
+d1=9255: 
+Second descent inconclusive for d1=9255: ELS descendents exist but no rational point found
+
+d1=-8638: 
+Second descent inconclusive for d1=-8638: ELS descendents exist but no rational point found
+
+d1=30: 
+Second descent inconclusive for d1=30: ELS descendents exist but no rational point found
+
+d1=-7: 
+Second descent inconclusive for d1=-7: ELS descendents exist but no rational point found
+
+d1=18510: 
+Second descent inconclusive for d1=18510: ELS descendents exist but no rational point found
+
+d1=-4319: 
+Second descent inconclusive for d1=-4319: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 0
+	and upper bound 2
+	(difference =   2)
+
+-------------------------------------------------------
+Summary of results:
+-------------------------------------------------------
+	1 <= rank(E) <= 3
+	#E(Q)/2E(Q) >= 4
+
+Information on III(E/Q):
+	#III(E/Q)[phi']    <= 4
+	#III(E/Q)[2]       <= 4
+
+Information on III(E'/Q):
+	#phi'(III(E/Q)[2]) = 1
+	#III(E'/Q)[phi]    = 1
+	#III(E'/Q)[2]      <= 4
+
+-------------------------------------------------------
+
+List of points on E = [0,0,0,-14872007552049900,-692667016942944295602000]:
+
+I.  Points on E mod phi(E')
+Point [-191409864521630365466309293775461946:192166609120426558810840421222203250944:2676883315438634074013911249], height = 47.005085018302
+
+II.  Points on phi(E') mod 2E
+--none (modulo torsion).
+
+-------------------------------------------------------
+Computing full set of 2 coset representatives for
+2E(Q) in E(Q) (modulo torsion), and sorting into height order....done.
+
+
+Used descent via 2-isogeny with isogenous curve E' = [0,0,0,-1613212693425900,7222574158576522830000]
+1 <= rank <= 3
+Searching for points (bound = 8)...done:
+  found points which generate a subgroup of rank 0
+  and regulator 1
+Processing points found during 2-descent...done:
+2-descent increases rank to 1,   now regulator = 47.005085018302
+Saturating (with bound = -1)...done:
+  points were already saturated.
+Transferring points from minimal curve [0,0,0,-14872007552049900,-692667016942944295602000] back to original curve [0,0,0,-14872007552049900,-692667016942944295602000]
+
+Generator 1 is [-191409864521630365466309293775461946:192166609120426558810840421222203250944:2676883315438634074013911249]; height 47.005085018302
+
+Regulator = 47.005085018302
+
+The rank has not been completely determined, 
+only a lower bound of 1 and an upper bound of 3.
+
+If the rank is equal to the lower bound, the basis given is for the full Mordell-Weil group (modulo torsion).
+ (164.261 seconds)
+Enter curve: 

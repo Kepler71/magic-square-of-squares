@@ -1,0 +1,12 @@
+# Generalised elimination: Y1^2=A p+B1 q, Y2^2=A p-B1 q, Y3^2=C p+B2 q, Y4^2=C p-B2 q, r=(B2/B1)^2.
+var('A C r p Xx')
+u = 4*p*Xx^2*(A*Xx^2-C)/(Xx^4-r)
+v = 4*p*(C*Xx^2-r*A)/(Xx^4-r)
+print("u+v-4Ap                    =", (u+v-4*A*p).simplify_full())
+print("r*u/X^2 + X^2*v - 4Cp      =", (r*u/Xx^2+Xx^2*v-4*C*p).simplify_full())
+print()
+print("=> Q : (A X^2 - C)(X^4 - r) = square,   Q' : (C X^2 - r A)(X^4 - r) = square")
+print("   r = 1  : edge+edge  (B=2n0^2, A=(h0^2+n0^2)/2, C=(b0^2+n0^2)/2)  <-- family/pipeline.sage")
+print("   r = 1  : corner+corner (B=4n0^2, A=h0^2, C=b0^2)                 <-- same code, new constants")
+print("   r = 4  : mixed  fix EDGE + parametrise CORNER (B1=4n0^2,B2=8n0^2, A=h0^2, C=b0^2)")
+print("   r = 1/4: mixed  fix CORNER + parametrise EDGE")

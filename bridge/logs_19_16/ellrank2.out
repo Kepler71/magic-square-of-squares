@@ -1,0 +1,19 @@
+  ***   Warning: new stack size = 6000000000 (5722.046 Mbytes).
+effort=1 bounds=[1,1] sha2dim=2 npts=0 time_ms=150
+effort=2 bounds=[1,1] sha2dim=2 npts=0 time_ms=340
+effort=3 bounds=[1,1] sha2dim=2 npts=0 time_ms=1197
+effort=4 bounds=[1,1] sha2dim=2 npts=0 time_ms=2158
+effort=5 bounds=[1,1] sha2dim=2 npts=0 time_ms=3435
+effort=6 bounds=[1,1] sha2dim=2 npts=0 time_ms=7553
+effort=7 bounds=[1,1] sha2dim=2 npts=0 time_ms=16901
+effort=8 bounds=[1,1] sha2dim=2 npts=0 time_ms=25369
+effort=9 bounds=[1,1] sha2dim=2 npts=0 time_ms=34793
+effort=10 bounds=[1,1] sha2dim=2 npts=0 time_ms=41483
+effort=11 bounds=[1,1] sha2dim=2 npts=0 time_ms=45543
+effort=12 bounds=[1,1] sha2dim=2 npts=0 time_ms=70279
+effort=13 bounds=[1,1] sha2dim=2 npts=0 time_ms=89549
+effort=14 bounds=[1,1] sha2dim=2 npts=0 time_ms=130948
+effort=15 bounds=[1,1] sha2dim=2 npts=0 time_ms=129208
+effort=16 bounds=[1,1] sha2dim=2 npts=0 time_ms=184543
+effort=17 bounds=[1,1] sha2dim=2 npts=0 time_ms=212578
+effort=18 bounds=[1,1] sha2dim=2 npts=0 time_ms=198748

@@ -1,0 +1,161 @@
+{
+  "note": "gens in new_bridge_verified.json are on the MINIMAL models; phi1/phi2 land on the RAW models. Same points, X-translation only.",
+  "E1": {
+    "raw_ainvs": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "minimal_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "1617792974488319",
+      "-14262298467262390622975"
+    ],
+    "json_minimal_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "1617792974488319",
+      "-14262298467262390622975"
+    ],
+    "minimal_ainvs_agree": true,
+    "iso_raw_to_minimal_urst": [
+      "1",
+      "-12536304",
+      "0",
+      "0"
+    ],
+    "iso_is_integral_X_translation": true,
+    "disc_ratio_raw_over_minimal": "1",
+    "raw_model_is_minimal_up_to_translation": true,
+    "json_gen_on_minimal_model": true,
+    "json_gen_on_raw_model": false,
+    "conductor": "14405924506384320",
+    "conductor_primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      17,
+      23,
+      37,
+      1213,
+      9397
+    ],
+    "json_gen_minimal": "(34384993, 286391046720)",
+    "json_gen_pulled_back_to_raw": "(21848689, 286391046720)",
+    "pari_ellrank_point": [
+      "21848689",
+      "286391046720"
+    ],
+    "pari_point_on_raw_model": true,
+    "pari_point_equals_pulled_back_gen": true,
+    "canonical_height_raw": "1.94633297014005",
+    "canonical_height_minimal": "1.94633297014005",
+    "heights_agree": true,
+    "torsion_invariants": [
+      2
+    ],
+    "torsion_points_raw": [
+      "(0 : 1 : 0)",
+      "(-4092529 : 0 : 1)"
+    ],
+    "rank_pari_ellrank": "[1, 1, 0, [[21848689, 286391046720]]]",
+    "json_rank": 1,
+    "json_rank_bound": 1,
+    "json_certain": true,
+    "saturation_index": "1",
+    "saturation_index_is_1": true,
+    "saturated_generator": "(21848689, 286391046720)",
+    "saturation_succeeded": true,
+    "sage_gens_raw": [
+      "(21848689, 286391046720)"
+    ],
+    "sage_gens_count": 1,
+    "sage_gen_equals_recorded": true
+  },
+  "E2": {
+    "raw_ainvs": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "minimal_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "-591442657639681",
+      "6146344290377784993025"
+    ],
+    "json_minimal_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "-591442657639681",
+      "6146344290377784993025"
+    ],
+    "minimal_ainvs_agree": true,
+    "iso_raw_to_minimal_urst": [
+      "1",
+      "-15762384",
+      "0",
+      "0"
+    ],
+    "iso_is_integral_X_translation": true,
+    "disc_ratio_raw_over_minimal": "1",
+    "raw_model_is_minimal_up_to_translation": true,
+    "json_gen_on_minimal_model": true,
+    "json_gen_on_raw_model": false,
+    "conductor": "14405924506384320",
+    "conductor_primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      17,
+      23,
+      37,
+      1213,
+      9397
+    ],
+    "json_gen_minimal": "(-2479007, 87162492480)",
+    "json_gen_pulled_back_to_raw": "(-18241391, 87162492480)",
+    "pari_ellrank_point": [
+      "-18241391",
+      "87162492480"
+    ],
+    "pari_point_on_raw_model": true,
+    "pari_point_equals_pulled_back_gen": true,
+    "canonical_height_raw": "2.11883385954680",
+    "canonical_height_minimal": "2.11883385954680",
+    "heights_agree": true,
+    "torsion_invariants": [
+      2
+    ],
+    "torsion_points_raw": [
+      "(0 : 1 : 0)",
+      "(-44182609 : 0 : 1)"
+    ],
+    "rank_pari_ellrank": "[1, 1, 0, [[-18241391, 87162492480]]]",
+    "json_rank": 1,
+    "json_rank_bound": 1,
+    "json_certain": true,
+    "saturation_index": "1",
+    "saturation_index_is_1": true,
+    "saturated_generator": "(-18241391, 87162492480)",
+    "saturation_succeeded": true,
+    "sage_gens_raw": [
+      "(-18241391, 87162492480)"
+    ],
+    "sage_gens_count": 1,
+    "sage_gen_equals_recorded": true
+  }
+}

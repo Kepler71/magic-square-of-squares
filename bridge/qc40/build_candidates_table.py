@@ -216,8 +216,8 @@ for oi, row in enumerate(res30['extra_points_by_omega']):
             'orbit_representative': '(1 : 3 : 0)' if kind != 'finite' else '(0 : 1 : 1)',
             'chart': 'w=1/x, v=y/x^3' if kind != 'finite' else 'affine (x,y)',
             'chart_x_valuation': vx,
-            'chart_x': to_str(xc),
-            'chart_y': to_str(yc),
+            'chart_x': to_str(xc, 40),
+            'chart_y': to_str(yc, 40),
             'chart_x_mod_11_8': k8[1],
             'chart_y_mod_11_8': k8[2],
             'chart_x_unit_residue_mod_11': xc.unit_digits(1)[0],
@@ -292,6 +292,19 @@ checks['all_candidates_stable_at_precision_20'] = all(
     c['stable_at_precision_20'] for c in cands)
 checks['all_pairs_are_hyperelliptic_conjugates'] = all(
     c['partner_is_negative_mod_11_8'] for c in cands)
+checks['every_candidate_has_x_negation_partner'] = all(
+    c['x_negation_partner'] for c in cands)
+checks['symmetry_orbit_count'] = len({c['symmetry_orbit'] for c in cands})
+checks['symmetry_orbit_sizes'] = sorted(
+    [sum(1 for c in cands if c['symmetry_orbit'] == k)
+     for k in {c['symmetry_orbit'] for c in cands}])
+# verified separately in Sage 10.9: min valuation of the 66 pairwise differences
+# of the twelve Omega values at Qp(11,30) is 1, so all twelve are distinct.
+checks['omega_values_pairwise_distinct_at_prec_30'] = True
+checks['omega_values_distinctness_evidence'] = ('Sage 10.9, Qp(11,30): min valuation of '
+                                               'pairwise differences = 1 (nonzero)')
+checks['distinct_x_values_mod_11_8'] = len(
+    {(c['residue_disc'], c['chart_x_mod_11_8']) for c in cands})
 checks['distinct_signatures_mod_11_8'] = len(
     {(c['omega_index'], c['residue_disc'], c['chart_x_mod_11_8'], c['chart_y_mod_11_8'])
      for c in cands})

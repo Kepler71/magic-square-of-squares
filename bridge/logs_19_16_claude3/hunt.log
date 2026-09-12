@@ -1,0 +1,17 @@
+  ***   Warning: new stack size = 6000000000 (5722.046 Mbytes).
+  ***   syntax error, unexpected end of file, expecting ',': 
+  ***   ...0,7222574158576522830000],
+  ***                               ^-
+... skipping file 'gen_19_16_hunt.gp'
+  ***   syntax error, unexpected ',', expecting end of file: 
+  ***   ...,17388781634016192078000],
+  ***                               ^-
+  ***   syntax error, unexpected ',', expecting end of file: 
+  ***   ...,56474886831958509390000],
+  ***                               ^-
+  ***   syntax error, unexpected ']', expecting end of file: 
+  ***   ...692667016942944295602000]];
+  ***                               ^--
+  ***   at top-level: for(i=1,4,E=ellinit(V[i]);rk=ellrankinit(E);fo
+  ***                                      ^-------------------------
+  ***   incorrect type in _[_] OCcompo1 [not a vector] (t_POL).

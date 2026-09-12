@@ -1,0 +1,17 @@
+s = 617/2  b = 28510336
+[proved] three identities X-e_i hold identically in t
+delta* = (1, 1234, 1234)
+s square in Q? False
+roots of scaled model (e1,e2,e3) = [-114041344, -160816114, -80871424]
+E0 = Elliptic Curve defined by y^2 = x^3 + 355728882*x^2 + 40567799802897408*x + 1483156504532277300035584 over Rational Field
+E  = Elliptic Curve defined by y^2 = x^3 - 1613212693425900*x + 7222574158576522830000 over Rational Field
+iso u,r,s,t = 1 -118576294 0 0
+roots on E in same order: [4534950, -42239820, 37704870]
+u^2 = 1  (square scale -> delta preserved: True )
+conductor = 5103669009600 = 2^6 * 3^2 * 5^2 * 7^2 * 19 * 617^2
+disc = 2^26 * 3^6 * 5^6 * 7^6 * 19^4 * 617^8
+torsion = (2, 2)
+root number = -1
+selmer_rank (dim Sel^2) = 5  0.1s
+rank_bound (mwrank) = 1  0.1s
+isogeny class sizes: [(0, 0, 0, -1613212693425900, 7222574158576522830000), (0, 0, 0, -1269386570673900, 17388781634016192078000), (0, 0, 0, 6144364201166100, 56474886831958509390000), (0, 0, 0, -14872007552049900, -692667016942944295602000)]

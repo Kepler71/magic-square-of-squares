@@ -1,0 +1,19 @@
+# ('F0', 'F4', 'F8', 'L') deg 8 even_t False even_x True
+{"label": "F0*F4*F8*L | coord x | y^2=g(u)", "deg": 4, "genus": 1, "g": "44182609*u^4 + 81791520*u^3 + 84896062*u^2 + 51379680*u + 4092529", "elliptic": {"ainvs": "(1, 0, 0, 4205861622780, 7197370953293328912)", "pari": [4, 4], "eclib_bound": 4}}
+{"label": "F0*F4*F8*L | coord x | y^2=u*g(u)", "deg": 5, "genus": 2, "g": "44182609*u^5 + 81791520*u^4 + 84896062*u^3 + 51379680*u^2 + 4092529*u", "Lpoly_reducible": [13, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+# ('F0', 'F4', 'F8', 'U') deg 8 even_t False even_x True
+{"label": "F0*F4*F8*U | coord x | y^2=g(u)", "deg": 4, "genus": 1, "g": "4092529*u^4 + 51379680*u^3 + 84896062*u^2 + 81791520*u + 44182609", "elliptic": {"ainvs": "(1, 0, 0, 4205861622780, 7197370953293328912)", "pari": [4, 4], "eclib_bound": 4}}
+{"label": "F0*F4*F8*U | coord x | y^2=u*g(u)", "deg": 5, "genus": 2, "g": "4092529*u^5 + 51379680*u^4 + 84896062*u^3 + 81791520*u^2 + 44182609*u", "Lpoly_reducible": [13, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+# ('F0', 'F4', 'L', 'U') deg 8 even_t True even_x False
+{"label": "F0*F4*L*U | coord t | y^2=g(u)", "deg": 4, "genus": 1, "g": "5345344*u^4 + 20082657*u^3 + 5827107*u^2 + 9882019*u + 18792225", "elliptic": {"ainvs": "(0, 0, 0, -838534463100, 1506207023635680000)", "pari": [3, 3], "eclib_bound": 3}}
+{"label": "F0*F4*L*U | coord t | y^2=u*g(u)", "deg": 5, "genus": 2, "g": "5345344*u^5 + 20082657*u^4 + 5827107*u^3 + 9882019*u^2 + 18792225*u", "Lpoly_reducible": [11, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+# ('F0', 'F8', 'L', 'U') deg 8 even_t True even_x True
+{"label": "F0*F8*L*U | coord t | y^2=g(u)", "deg": 4, "genus": 1, "g": "1202702400*u^4 + 3657997441*u^3 - 1061608318*u^2 + 3657997441*u + 1202702400", "elliptic": {"ainvs": "(0, -1, 0, 7219302286217245440, 40928029519479926161117363200)", "pari": [2, 2], "eclib_bound": 2}}
+{"label": "F0*F8*L*U | coord t | y^2=u*g(u)", "deg": 5, "genus": 2, "g": "1202702400*u^5 + 3657997441*u^4 - 1061608318*u^3 + 3657997441*u^2 + 1202702400*u", "bielliptic_coord": "(u-1)/(u+1)", "E_plus": {"ainvs": "(1, 0, 0, -476610581683473360, -44900264311931284805318400)", "pari": [1, 1], "eclib_bound": 1}, "E_minus": {"ainvs": "(1, 0, 0, -843234106807186560, 243600817170333811048185600)", "pari": [3, 3], "eclib_bound": 3}, "rank_Jac": [4, 4]}
+# ('F4', 'F8', 'L', 'U') deg 8 even_t True even_x False
+{"label": "F4*F8*L*U | coord t | y^2=g(u)", "deg": 4, "genus": 1, "g": "18792225*u^4 + 9882019*u^3 + 5827107*u^2 + 20082657*u + 5345344", "elliptic": {"ainvs": "(0, 0, 0, -838534463100, 1506207023635680000)", "pari": [3, 3], "eclib_bound": 3}}
+{"label": "F4*F8*L*U | coord t | y^2=u*g(u)", "deg": 5, "genus": 2, "g": "18792225*u^5 + 9882019*u^4 + 5827107*u^3 + 20082657*u^2 + 5345344*u", "Lpoly_reducible": [11, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+# ('F0', 'F4', 'F8', 'L', 'U') deg 10 even_t True even_x True
+{"label": "F0*F4*F8*L*U | coord t | y^2=g(u)", "deg": 5, "genus": 2, "g": "1202702400*u^5 + 4860699841*u^4 + 2596389123*u^3 + 2596389123*u^2 + 4860699841*u + 1202702400", "Lpoly_reducible": [8, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+{"label": "F0*F4*F8*L*U | coord t | y^2=u*g(u)", "deg": 6, "genus": 2, "g": "1202702400*u^6 + 4860699841*u^5 + 2596389123*u^4 + 2596389123*u^3 + 4860699841*u^2 + 1202702400*u", "Lpoly_reducible": [8, 27], "rank_Jac": "нужен RankBounds (Magma): нет расщепления в u / (u-1)/(u+1)"}
+saved

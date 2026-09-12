@@ -1,319 +1,711 @@
 {
-  "title": "Forty 11-adic candidates on the mixed genus-2 bridge D for G1(15,8)",
-  "generated_by": "bridge/qc40/build_candidates_table.py",
-  "status_of_this_file": "extraction + internal cross-checks; NOT a proof of anything about D(Q)",
+  "title": "Forty 11-adic candidates on the mixed genus-2 bridge D for G1(15,8), tagged by Omega class",
+  "generated_by": "bridge/qc40/build_candidates_table_v2.sage (Sage 10.9)",
+  "supersedes": "the first edition produced by build_candidates_table.py; the two extractions were cross-checked and agree on all 40 signatures",
+  "status_of_this_file": "EXTRACTION + CROSS-CHECKS ONLY. It proves nothing about D(Q). A candidate that is not removed is NOT a rational point.",
   "curve": {
+    "pair_m_n": [
+      15,
+      8
+    ],
     "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+    "f_factored": "(49 + 529*x^2) * (289*(1+x^2) - 322*x) * (289*(1+x^2) + 322*x)",
     "a0_a2_a4_a6": [
       "4092529",
       "47287151",
       "37608911",
       "44182609"
     ],
+    "sqrt_a0": "2023",
+    "sqrt_a6": "6647",
+    "genus": 2,
     "p": 11,
-    "precision_of_main_run": 30,
-    "profile": "full_five_square_lift_only",
-    "source_status_string": "completed; full certificate still requires audit"
+    "precision_main_run": 30,
+    "precision_check_run": 20,
+    "qc_profile": "full_five_square_lift_only",
+    "run_status_string": "completed; full certificate still requires audit",
+    "E1_ainvs": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "E2_ainvs": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "phi1": "(x, y) -> (a6*x^2, a6*y)   on E1: Y^2 = X^3 + a4 X^2 + a2 a6 X + a0 a6^2",
+    "phi2": "(x, y) -> (a0/x^2, a0*y/x^3) on E2: Y^2 = X^3 + a2 X^2 + a0 a4 X + a0^2 a6"
   },
   "omega_ordering": {
-    "definition": "run_qc_twelve.py line 64: [r7*log(7)+r17*log(17)+r23*log(23) for r7 in [-2,-4/3] for r17 in [-2,0,2] for r23 in [2,4/3]]",
-    "index_formula": "index = 6*i7 + 2*i17 + i23, i7 in {0,1} over [-2,-4/3], i17 in {0,1,2} over [-2,0,2], i23 in {0,1} over [2,4/3]",
+    "source": "run_qc_twelve.py line 64 (verbatim)",
+    "definition": "omega = [r7*log(7) + r17*log(17) + r23*log(23) for r7 in [-2, -4/3] for r17 in [-2, 0, 2] for r23 in [2, 4/3]]",
+    "index_formula": "index = 6*i7 + 2*i17 + i23, where i7 indexes [-2, -4/3], i17 indexes [-2, 0, 2], i23 indexes [2, 4/3]",
+    "twelve_values_pairwise_distinct": true,
+    "distinctness_evidence": "Qp(11,30): all 66 pairwise differences have valuation in [1, 3], hence nonzero",
+    "standard_bound_without_the_reduction": 59506083,
     "rows": [
       {
         "omega_index": 0,
         "c7": "-2",
         "c17": "-2",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            9,
-            1
-          ],
-          [
-            2,
-            1
-          ]
+        "value_11adic_prec30": "3*11 + 10*11^2 + 5*11^3 + 3*11^4 + 5*11^5 + 7*11^6 + 2*11^7 + 5*11^8 + 4*11^9 + 8*11^10 + 8*11^11 + 2*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 10*11^16 + 4*11^17 + 8*11^18 + 3*11^19 + 6*11^20 + 6*11^21 + 10*11^22 + 5*11^23 + 7*11^24 + 9*11^26 + 10*11^27 + 9*11^28 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 4,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04"
         ],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 1,
         "c7": "-2",
         "c17": "-2",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 0,
-        "known_rational_points": 2,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [
-          [
-            0,
-            2
-          ]
+        "value_11adic_prec30": "9*11 + 7*11^2 + 6*11^3 + 3*11^4 + 10*11^5 + 4*11^6 + 10*11^7 + 9*11^8 + 10*11^9 + 6*11^10 + 3*11^11 + 3*11^12 + 4*11^13 + 9*11^15 + 4*11^16 + 6*11^17 + 2*11^18 + 2*11^19 + 4*11^20 + 2*11^21 + 7*11^22 + 11^23 + 11^24 + 4*11^25 + 10*11^26 + 9*11^27 + 5*11^28 + 2*11^29 + O(11^30)",
+        "candidates_total": 0,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [],
+        "known_rational_points": [
+          "(0 : -2023 : 1)",
+          "(0 : 2023 : 1)"
         ],
-        "strassmann_base_known_double": [
-          false,
-          true
-        ]
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              0,
+              2
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": true,
+          "certified": true
+        }
       },
       {
         "omega_index": 2,
         "c7": "-2",
         "c17": "0",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [
-          [
-            10,
-            1
-          ],
-          [
-            1,
-            1
-          ]
+        "value_11adic_prec30": "8*11 + 3*11^2 + 9*11^3 + 3*11^4 + 4*11^5 + 3*11^6 + 4*11^7 + 5*11^8 + 4*11^9 + 3*11^10 + 11^11 + 2*11^12 + 3*11^13 + 2*11^14 + 5*11^15 + 8*11^17 + 11^18 + 10*11^19 + 8*11^20 + 10*11^21 + 6*11^22 + 5*11^23 + 11^25 + 10*11^26 + 3*11^28 + 4*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 4,
+        "candidate_ids": [
+          "C05",
+          "C06",
+          "C07",
+          "C08"
         ],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 0,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 3,
         "c7": "-2",
         "c17": "0",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            9,
-            1
-          ],
-          [
-            2,
-            1
-          ]
+        "value_11adic_prec30": "3*11 + 11^2 + 10*11^3 + 3*11^4 + 9*11^5 + 11^7 + 10*11^8 + 10*11^9 + 11^10 + 7*11^11 + 2*11^12 + 3*11^13 + 10*11^14 + 9*11^15 + 5*11^16 + 9*11^17 + 6*11^18 + 8*11^19 + 6*11^20 + 6*11^21 + 3*11^22 + 11^23 + 5*11^24 + 4*11^25 + 10*11^28 + 5*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 4,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [
+          "C09",
+          "C10",
+          "C11",
+          "C12"
         ],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 4,
         "c7": "-2",
         "c17": "2",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 0,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "value_11adic_prec30": "2*11 + 8*11^2 + 11^3 + 4*11^4 + 3*11^5 + 10*11^6 + 5*11^7 + 5*11^8 + 4*11^9 + 9*11^10 + 4*11^11 + 11^12 + 2*11^13 + 11^14 + 6*11^15 + 11^16 + 6*11^18 + 5*11^19 + 4*11^21 + 3*11^22 + 5*11^23 + 4*11^24 + 11^25 + 2*11^27 + 7*11^28 + 7*11^29 + O(11^30)",
+        "candidates_total": 0,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [],
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 5,
         "c7": "-2",
         "c17": "2",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [
-          [
-            10,
-            1
-          ],
-          [
-            1,
-            1
-          ]
+        "value_11adic_prec30": "8*11 + 5*11^2 + 2*11^3 + 4*11^4 + 8*11^5 + 7*11^6 + 2*11^7 + 10*11^8 + 10*11^9 + 7*11^10 + 10*11^11 + 11^12 + 2*11^13 + 9*11^14 + 10*11^15 + 6*11^16 + 11^17 + 4*11^19 + 9*11^20 + 10*11^21 + 10*11^22 + 9*11^24 + 4*11^25 + 11^26 + 11^27 + 3*11^28 + 9*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 4,
+        "candidate_ids": [
+          "C13",
+          "C14",
+          "C15",
+          "C16"
         ],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 6,
         "c7": "-4/3",
         "c17": "-2",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [
-          [
-            10,
-            1
-          ],
-          [
-            1,
-            1
-          ]
+        "value_11adic_prec30": "9*11 + 7*11^2 + 5*11^3 + 9*11^4 + 9*11^5 + 8*11^6 + 6*11^8 + 7*11^9 + 8*11^10 + 9*11^11 + 8*11^12 + 6*11^13 + 5*11^14 + 11^15 + 11^16 + 8*11^17 + 2*11^18 + 9*11^19 + 11^20 + 7*11^21 + 11^23 + 10*11^24 + 7*11^25 + 4*11^27 + 9*11^28 + 8*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 4,
+        "candidate_ids": [
+          "C17",
+          "C18",
+          "C19",
+          "C20"
         ],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 7,
         "c7": "-4/3",
         "c17": "-2",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 8,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            10,
-            1
-          ],
-          [
-            1,
-            1
-          ]
+        "value_11adic_prec30": "4*11 + 5*11^2 + 6*11^3 + 9*11^4 + 3*11^5 + 6*11^6 + 8*11^7 + 10*11^8 + 2*11^9 + 7*11^10 + 4*11^11 + 9*11^12 + 6*11^13 + 2*11^14 + 6*11^15 + 6*11^16 + 9*11^17 + 7*11^18 + 7*11^19 + 10*11^20 + 2*11^21 + 8*11^22 + 7*11^23 + 3*11^24 + 2*11^26 + 3*11^27 + 5*11^28 + 10*11^29 + O(11^30)",
+        "candidates_total": 8,
+        "candidates_in_infinity_disc": 4,
+        "candidates_in_x0_disc": 4,
+        "candidate_ids": [
+          "C21",
+          "C22",
+          "C23",
+          "C24",
+          "C25",
+          "C26",
+          "C27",
+          "C28"
         ],
-        "strassmann_roots_orbit2_x0": [
-          [
-            7,
-            1
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
           ],
-          [
-            4,
-            1
-          ]
-        ],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              7,
+              1
+            ],
+            [
+              4,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 8,
         "c7": "-4/3",
         "c17": "0",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            9,
-            1
-          ],
-          [
-            2,
-            1
-          ]
+        "value_11adic_prec30": "3*11 + 11^2 + 9*11^3 + 9*11^4 + 8*11^5 + 4*11^6 + 2*11^7 + 6*11^8 + 7*11^9 + 3*11^10 + 2*11^11 + 8*11^12 + 5*11^13 + 4*11^14 + 2*11^15 + 2*11^16 + 7*11^18 + 4*11^19 + 4*11^20 + 8*11^22 + 3*11^24 + 8*11^25 + 11^26 + 5*11^27 + 2*11^28 + 11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 4,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [
+          "C29",
+          "C30",
+          "C31",
+          "C32"
         ],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 9,
         "c7": "-4/3",
         "c17": "0",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 0,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "value_11adic_prec30": "9*11 + 9*11^2 + 9*11^3 + 9*11^4 + 2*11^5 + 2*11^6 + 10*11^7 + 10*11^8 + 2*11^9 + 2*11^10 + 8*11^11 + 8*11^12 + 5*11^13 + 11^14 + 7*11^15 + 7*11^16 + 11^17 + 11^18 + 3*11^19 + 2*11^20 + 7*11^21 + 4*11^22 + 7*11^23 + 7*11^24 + 3*11^26 + 4*11^27 + 9*11^28 + 2*11^29 + O(11^30)",
+        "candidates_total": 0,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [],
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 0,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 10,
         "c7": "-4/3",
         "c17": "2",
         "c23": "2",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 2,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            0,
-            2
-          ]
+        "value_11adic_prec30": "8*11 + 5*11^2 + 11^3 + 10*11^4 + 7*11^5 + 4*11^7 + 6*11^8 + 7*11^9 + 9*11^10 + 5*11^11 + 7*11^12 + 4*11^13 + 3*11^14 + 3*11^15 + 3*11^16 + 3*11^17 + 7*11^20 + 4*11^21 + 4*11^22 + 7*11^24 + 8*11^25 + 2*11^26 + 6*11^27 + 6*11^28 + 4*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 0,
+        "candidates_in_x0_disc": 4,
+        "candidate_ids": [
+          "C33",
+          "C34",
+          "C35",
+          "C36"
         ],
-        "strassmann_roots_orbit2_x0": [
-          [
-            10,
-            1
+        "known_rational_points": [
+          "(1 : -6647 : 0)",
+          "(1 : 6647 : 0)"
+        ],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              0,
+              2
+            ]
           ],
-          [
-            1,
-            1
-          ]
-        ],
-        "strassmann_base_known_double": [
-          true,
-          false
-        ]
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": true,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [
+            [
+              10,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       },
       {
         "omega_index": 11,
         "c7": "-4/3",
         "c17": "2",
         "c23": "4/3",
-        "value": "c7*log_11(7) + c17*log_11(17) + c23*log_11(23)",
-        "extras": 4,
-        "known_rational_points": 0,
-        "strassmann_roots_orbit1_infinity": [
-          [
-            9,
-            1
-          ],
-          [
-            2,
-            1
-          ]
+        "value_11adic_prec30": "3*11 + 3*11^2 + 2*11^3 + 10*11^4 + 11^5 + 9*11^6 + 3*11^9 + 8*11^10 + 8*11^12 + 4*11^13 + 8*11^15 + 8*11^16 + 4*11^17 + 5*11^18 + 9*11^19 + 4*11^20 + 11^22 + 7*11^23 + 11^25 + 4*11^26 + 5*11^27 + 2*11^28 + 6*11^29 + O(11^30)",
+        "candidates_total": 4,
+        "candidates_in_infinity_disc": 4,
+        "candidates_in_x0_disc": 0,
+        "candidate_ids": [
+          "C37",
+          "C38",
+          "C39",
+          "C40"
         ],
-        "strassmann_roots_orbit2_x0": [],
-        "strassmann_base_known_double": [
-          false,
-          false
-        ]
+        "known_rational_points": [],
+        "strassmann_orbit1_infinity": {
+          "roots_mod11": [
+            [
+              9,
+              1
+            ],
+            [
+              2,
+              1
+            ]
+          ],
+          "bound": 2,
+          "tail_bound": 29,
+          "base_known_double": false,
+          "certified": true
+        },
+        "strassmann_orbit2_x0": {
+          "roots_mod11": [],
+          "bound": 2,
+          "tail_bound": 26,
+          "base_known_double": false,
+          "certified": true
+        }
       }
     ]
   },
   "residue_discs": {
-    "note": "Only two residue discs survive the five-squareness test mod 11 (local_discs_11.json: allowed projective x in {0, infinity}).",
+    "why_only_two": "local_discs_11.py/json, reproduced here: of the 12 projective x in P^1(F_11), only x = 0 and x = infinity make all five square forms of G1(15,8) squares mod 11; in every excluded case the offending value is a unit non-residue (no zeros occur), so the form is a non-square in Q_11 for the whole disc.",
+    "five_forms": [
+      "289*(a^2+b^2) - 322*a*b",
+      "289*(a^2+b^2)",
+      "289*(a^2+b^2) + 322*a*b",
+      "49*b^2 + 529*a^2",
+      "529*b^2 + 49*a^2"
+    ],
+    "quadratic_residues_mod_11": [
+      0,
+      1,
+      3,
+      4,
+      5,
+      9
+    ],
+    "table_mod_11": [
+      {
+        "a": 0,
+        "b": 1,
+        "values": [
+          3,
+          3,
+          3,
+          5,
+          1
+        ],
+        "all_five_square": true,
+        "contains_zero": false
+      },
+      {
+        "a": 1,
+        "b": 1,
+        "values": [
+          3,
+          6,
+          9,
+          6,
+          6
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 2,
+        "b": 1,
+        "values": [
+          9,
+          4,
+          10,
+          9,
+          10
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 3,
+        "b": 1,
+        "values": [
+          10,
+          8,
+          6,
+          3,
+          2
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 4,
+        "b": 1,
+        "values": [
+          6,
+          7,
+          8,
+          10,
+          4
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 5,
+        "b": 1,
+        "values": [
+          8,
+          1,
+          5,
+          8,
+          5
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 6,
+        "b": 1,
+        "values": [
+          5,
+          1,
+          8,
+          8,
+          5
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 7,
+        "b": 1,
+        "values": [
+          8,
+          7,
+          6,
+          10,
+          4
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 8,
+        "b": 1,
+        "values": [
+          6,
+          8,
+          10,
+          3,
+          2
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 9,
+        "b": 1,
+        "values": [
+          10,
+          4,
+          9,
+          9,
+          10
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 10,
+        "b": 1,
+        "values": [
+          9,
+          6,
+          3,
+          6,
+          6
+        ],
+        "all_five_square": false,
+        "contains_zero": false
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "values": [
+          3,
+          3,
+          3,
+          1,
+          5
+        ],
+        "all_five_square": true,
+        "contains_zero": false
+      }
+    ],
     "orbit_1": {
       "representative": "(1 : 3 : 0)",
       "disc": "infinity",
-      "tail_bound": 29
+      "tail_bound": 29,
+      "series_coefficient_count": 32
     },
     "orbit_2": {
       "representative": "(0 : 1 : 1)",
       "disc": "x = 0",
-      "tail_bound": 26
+      "tail_bound": 26,
+      "series_coefficient_count": 29
     },
-    "disc_filter_used_in_run": "P[2]==0 or P[0]==0",
+    "disc_filter_used_in_run": "P[2] == 0 or P[0] == 0",
     "disc_coverage_from_run": {
       "finite_field_points": 12,
       "all_orbit_representatives": [
@@ -327,62 +719,409 @@
         "(0 : 1 : 1)"
       ],
       "canonical_coverage_verified": true
-    }
+    },
+    "CAVEAT": "The run therefore covers only 4 of the 12 residue discs of D(F_11). This is sound for the five-squareness locus and for nothing else: the output is NOT a determination of D(Q)."
   },
-  "known_rational_points": [
-    {
-      "point": "(0 : -2023 : 1)",
-      "omega_index": 1,
-      "omega_c7_c17_c23": [
-        "-2",
-        "-2",
-        "4/3"
-      ],
-      "x": "x = 0",
-      "t_equals": "1",
-      "residue_disc": "x=0",
-      "source_list": "rational_points_by_omega"
-    },
-    {
-      "point": "(0 : 2023 : 1)",
-      "omega_index": 1,
-      "omega_c7_c17_c23": [
-        "-2",
-        "-2",
-        "4/3"
-      ],
-      "x": "x = 0",
-      "t_equals": "1",
-      "residue_disc": "x=0",
-      "source_list": "rational_points_by_omega"
-    },
-    {
-      "point": "(1 : -6647 : 0)",
-      "omega_index": 10,
-      "omega_c7_c17_c23": [
-        "-4/3",
-        "2",
-        "2"
-      ],
-      "x": "x = infinity",
-      "t_equals": "-1",
-      "residue_disc": "infinity",
-      "source_list": "rational_points_by_omega"
-    },
-    {
-      "point": "(1 : 6647 : 0)",
-      "omega_index": 10,
-      "omega_c7_c17_c23": [
-        "-4/3",
-        "2",
-        "2"
-      ],
-      "x": "x = infinity",
-      "t_equals": "-1",
-      "residue_disc": "infinity",
-      "source_list": "rational_points_by_omega"
-    }
-  ],
+  "known_rational_points_control": {
+    "note": "These four points must survive any sieve built from this table. A sieve that removes one of them is broken and must be reported, not tuned.",
+    "points": [
+      {
+        "point": "(0 : -2023 : 1)",
+        "omega_index": 1,
+        "omega_c7_c17_c23": [
+          "-2",
+          "-2",
+          "4/3"
+        ],
+        "x": "0",
+        "t": "1",
+        "residue_disc": "x=0",
+        "disc_orbit": 2,
+        "on_curve_exact_over_Q": true,
+        "nine_cells_roots": [
+          17,
+          7,
+          23,
+          23,
+          17,
+          7,
+          7,
+          23,
+          17
+        ],
+        "degenerate": true
+      },
+      {
+        "point": "(0 : 2023 : 1)",
+        "omega_index": 1,
+        "omega_c7_c17_c23": [
+          "-2",
+          "-2",
+          "4/3"
+        ],
+        "x": "0",
+        "t": "1",
+        "residue_disc": "x=0",
+        "disc_orbit": 2,
+        "on_curve_exact_over_Q": true,
+        "nine_cells_roots": [
+          17,
+          7,
+          23,
+          23,
+          17,
+          7,
+          7,
+          23,
+          17
+        ],
+        "degenerate": true
+      },
+      {
+        "point": "(1 : -6647 : 0)",
+        "omega_index": 10,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "2",
+          "2"
+        ],
+        "x": "infinity",
+        "t": "-1",
+        "residue_disc": "infinity",
+        "disc_orbit": 1,
+        "on_curve_exact_over_Q": true,
+        "nine_cells_roots": [
+          17,
+          23,
+          7,
+          7,
+          17,
+          23,
+          23,
+          7,
+          17
+        ],
+        "degenerate": true
+      },
+      {
+        "point": "(1 : 6647 : 0)",
+        "omega_index": 10,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "2",
+          "2"
+        ],
+        "x": "infinity",
+        "t": "-1",
+        "residue_disc": "infinity",
+        "disc_orbit": 1,
+        "on_curve_exact_over_Q": true,
+        "nine_cells_roots": [
+          17,
+          23,
+          7,
+          7,
+          17,
+          23,
+          23,
+          7,
+          17
+        ],
+        "degenerate": true
+      }
+    ],
+    "t_values": [
+      "1 (the two points x = 0)",
+      "-1 (the two points at infinity)"
+    ],
+    "nine_cell_status": "both lifts are magic squares of squares but DEGENERATE (only three distinct cell values); see qc_precision_audit.json",
+    "lifts_from_precision_audit": [
+      {
+        "m": 15,
+        "n": 8,
+        "t": "-1",
+        "cells": [
+          "289",
+          "49",
+          "529",
+          "529",
+          "289",
+          "49",
+          "49",
+          "529",
+          "289"
+        ],
+        "nonsquare_indices": [],
+        "all_squares": true,
+        "positive": true,
+        "distinct": false,
+        "all_eight_sums_equal": true,
+        "valid_magic_square_of_distinct_positive_squares": false,
+        "primitive_integer_roots": [
+          17,
+          7,
+          23,
+          23,
+          17,
+          7,
+          7,
+          23,
+          17
+        ],
+        "primitive_integer_cells": [
+          289,
+          49,
+          529,
+          529,
+          289,
+          49,
+          49,
+          529,
+          289
+        ]
+      },
+      {
+        "m": 15,
+        "n": 8,
+        "t": "1",
+        "cells": [
+          "289",
+          "529",
+          "49",
+          "49",
+          "289",
+          "529",
+          "529",
+          "49",
+          "289"
+        ],
+        "nonsquare_indices": [],
+        "all_squares": true,
+        "positive": true,
+        "distinct": false,
+        "all_eight_sums_equal": true,
+        "valid_magic_square_of_distinct_positive_squares": false,
+        "primitive_integer_roots": [
+          17,
+          23,
+          7,
+          7,
+          17,
+          23,
+          23,
+          7,
+          17
+        ],
+        "primitive_integer_cells": [
+          289,
+          529,
+          49,
+          49,
+          289,
+          529,
+          529,
+          49,
+          289
+        ]
+      }
+    ]
+  },
+  "orbit_structure_over_E1_x_E2": {
+    "why": "phi1_X = a6*x^2 and phi2_X = a0/x^2 depend on x only through x^2, and phi1_X * phi2_X = a0*a6 identically. sigma: x -> -x fixes both X and flips the sign of phi2_Y; iota: y -> -y flips both Y. So the group <sigma, iota> ~ (Z/2)^2 acts simply transitively on the four sign choices over one pair (X1, X2). Verified numerically below.",
+    "orbits": [
+      {
+        "orbit": 1,
+        "members": [
+          "C01",
+          "C02",
+          "C03",
+          "C04"
+        ],
+        "omega_index": 0,
+        "omega_c7_c17_c23": [
+          "-2",
+          "-2",
+          "2"
+        ],
+        "residue_disc": "infinity",
+        "phi1_X_key": "-2:503086571480965059",
+        "phi2_X_key": "2:2614497821144672918",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 2,
+        "members": [
+          "C05",
+          "C06",
+          "C07",
+          "C08"
+        ],
+        "omega_index": 2,
+        "omega_c7_c17_c23": [
+          "-2",
+          "0",
+          "2"
+        ],
+        "residue_disc": "x=0",
+        "phi1_X_key": "2:2467124684770118976",
+        "phi2_X_key": "-2:3273242695355775066",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 3,
+        "members": [
+          "C09",
+          "C10",
+          "C11",
+          "C12"
+        ],
+        "omega_index": 3,
+        "omega_c7_c17_c23": [
+          "-2",
+          "0",
+          "4/3"
+        ],
+        "residue_disc": "infinity",
+        "phi1_X_key": "-2:4075250353113566698",
+        "phi2_X_key": "2:2797386842742409559",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 4,
+        "members": [
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "omega_index": 5,
+        "omega_c7_c17_c23": [
+          "-2",
+          "2",
+          "4/3"
+        ],
+        "residue_disc": "x=0",
+        "phi1_X_key": "2:5548667431399466240",
+        "phi2_X_key": "-2:2845871928159655187",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 5,
+        "members": [
+          "C17",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "omega_index": 6,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "-2",
+          "2"
+        ],
+        "residue_disc": "x=0",
+        "phi1_X_key": "4:551393625522863913",
+        "phi2_X_key": "-4:4786339829458364882",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 6,
+        "members": [
+          "C21",
+          "C22",
+          "C23",
+          "C24"
+        ],
+        "omega_index": 7,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "-2",
+          "4/3"
+        ],
+        "residue_disc": "infinity",
+        "phi1_X_key": "-2:150782963099323091",
+        "phi2_X_key": "2:3935174164808524815",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 7,
+        "members": [
+          "C25",
+          "C26",
+          "C27",
+          "C28"
+        ],
+        "omega_index": 7,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "-2",
+          "4/3"
+        ],
+        "residue_disc": "x=0",
+        "phi1_X_key": "2:2353768194950032565",
+        "phi2_X_key": "-2:1655200637493981433",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 8,
+        "members": [
+          "C29",
+          "C30",
+          "C31",
+          "C32"
+        ],
+        "omega_index": 8,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "0",
+          "2"
+        ],
+        "residue_disc": "infinity",
+        "phi1_X_key": "-2:4311954441233435716",
+        "phi2_X_key": "2:598610401317463869",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 9,
+        "members": [
+          "C33",
+          "C34",
+          "C35",
+          "C36"
+        ],
+        "omega_index": 10,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "2",
+          "2"
+        ],
+        "residue_disc": "x=0",
+        "phi1_X_key": "2:807024046250053564",
+        "phi2_X_key": "-2:5535807378113976503",
+        "distinct_signY_pairs": 4
+      },
+      {
+        "orbit": 10,
+        "members": [
+          "C37",
+          "C38",
+          "C39",
+          "C40"
+        ],
+        "omega_index": 11,
+        "omega_c7_c17_c23": [
+          "-4/3",
+          "2",
+          "4/3"
+        ],
+        "residue_disc": "infinity",
+        "phi1_X_key": "-2:3986645898751181528",
+        "phi2_X_key": "2:4773968807318962277",
+        "distinct_signY_pairs": 4
+      }
+    ],
+    "consequence_for_the_sieve": "the 40 candidates carry only 10 distinct pairs (phi1_X, phi2_X); a sieve that works with X-coordinates alone sees 10 classes, not 40, and each class has a single well-defined Omega index."
+  },
   "candidates": [
     {
       "id": "C01",
@@ -395,23 +1134,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 3*11^2 + 8*11^3 + 4*11^4 + 5*11^5 + 7*11^6 + 5*11^7 + 5*11^9 + 8*11^10 + 9*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 8*11^3 + 4*11^6 + 10*11^7 + 3*11^8 + 3*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 237274029020049705530,
+      "chart_y_mod_11_20": 170883771332547286131,
       "chart_x_mod_11_8": 110711711,
-      "chart_y_mod_11_8": 201968957,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 12389924,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1319904389462,
+      "raw_point_string_from_run": "(5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25) : 10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C02",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C03",
+      "symmetry_orbit": 1,
+      "phi1_X_key": "-2:503086571480965059",
+      "phi1_Y_key": "-3:2561768828261435421",
+      "phi2_X_key": "2:2614497821144672918",
+      "phi2_Y_key": "0:1899976960669394472",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C02",
@@ -424,23 +1178,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 3*11^2 + 8*11^3 + 4*11^4 + 5*11^5 + 7*11^6 + 5*11^7 + 5*11^9 + 8*11^10 + 9*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 6*11^6 + 7*11^8 + 10*11^9 + 7*11^10 + 8*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 237274029020049705530,
+      "chart_y_mod_11_20": 501866223600012723070,
       "chart_x_mod_11_8": 110711711,
-      "chart_y_mod_11_8": 12389924,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 201968957,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1319904389462,
+      "raw_point_string_from_run": "(5*11^-1 + 4 + 11 + 3*11^2 + 6*11^4 + 11^5 + 2*11^6 + 6*11^7 + 7*11^8 + 3*11^9 + 9*11^10 + 5*11^11 + 9*11^12 + 7*11^13 + 9*11^14 + 6*11^15 + 3*11^16 + 6*11^17 + 5*11^18 + 7*11^19 + 8*11^21 + 10*11^22 + 11^24 + O(11^25) : 11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C01",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C04",
+      "symmetry_orbit": 1,
+      "phi1_X_key": "-2:503086571480965059",
+      "phi1_Y_key": "-3:2998148485230796060",
+      "phi2_X_key": "2:2614497821144672918",
+      "phi2_Y_key": "0:3659940352822837009",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C03",
@@ -453,23 +1222,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 7*11^2 + 2*11^3 + 6*11^4 + 5*11^5 + 3*11^6 + 5*11^7 + 10*11^8 + 5*11^9 + 2*11^10 + 11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 6*11^6 + 7*11^8 + 10*11^9 + 7*11^10 + 8*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 435475965912510303671,
+      "chart_y_mod_11_20": 170883771332547286131,
       "chart_x_mod_11_8": 103647170,
       "chart_y_mod_11_8": 12389924,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1648580156387,
+      "raw_point_string_from_run": "(6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25) : 11^-3 + 6*11^-2 + 4*11^-1 + 7 + 3*11 + 10*11^2 + 6*11^3 + 3*11^4 + 9*11^6 + 11^7 + 3*11^8 + 6*11^9 + 7*11^10 + 5*11^12 + 10*11^13 + 11^14 + 9*11^15 + 7*11^16 + 2*11^17 + 2*11^18 + 6*11^19 + 6*11^20 + 6*11^21 + 4*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C04",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C01",
+      "symmetry_orbit": 1,
+      "phi1_X_key": "-2:503086571480965059",
+      "phi1_Y_key": "-3:2998148485230796060",
+      "phi2_X_key": "2:2614497821144672918",
+      "phi2_Y_key": "0:1899976960669394472",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C04",
@@ -482,23 +1266,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 7*11^2 + 2*11^3 + 6*11^4 + 5*11^5 + 3*11^6 + 5*11^7 + 10*11^8 + 5*11^9 + 2*11^10 + 11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 8*11^3 + 4*11^6 + 10*11^7 + 3*11^8 + 3*11^10 + 2*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 435475965912510303671,
+      "chart_y_mod_11_20": 501866223600012723070,
       "chart_x_mod_11_8": 103647170,
       "chart_y_mod_11_8": 201968957,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1648580156387,
+      "raw_point_string_from_run": "(6*11^-1 + 6 + 9*11 + 7*11^2 + 10*11^3 + 4*11^4 + 9*11^5 + 8*11^6 + 4*11^7 + 3*11^8 + 7*11^9 + 11^10 + 5*11^11 + 11^12 + 3*11^13 + 11^14 + 4*11^15 + 7*11^16 + 4*11^17 + 5*11^18 + 3*11^19 + 10*11^20 + 2*11^21 + 10*11^23 + 9*11^24 + O(11^25) : 10*11^-3 + 4*11^-2 + 6*11^-1 + 3 + 7*11 + 4*11^3 + 7*11^4 + 10*11^5 + 11^6 + 9*11^7 + 7*11^8 + 4*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 9*11^14 + 11^15 + 3*11^16 + 8*11^17 + 8*11^18 + 4*11^19 + 4*11^20 + 4*11^21 + 6*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C03",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C02",
+      "symmetry_orbit": 1,
+      "phi1_X_key": "-2:503086571480965059",
+      "phi1_Y_key": "-3:2561768828261435421",
+      "phi2_X_key": "2:2614497821144672918",
+      "phi2_Y_key": "0:3659940352822837009",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C05",
@@ -511,23 +1310,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 2556828989492844033,
+      "chart_y_mod_11_20": 332093070598983256916,
       "chart_x_mod_11_8": 69895298,
       "chart_y_mod_11_8": 80863487,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2243264248094,
+      "raw_point_string_from_run": "(11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C06",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C07",
+      "symmetry_orbit": 2,
+      "phi1_X_key": "2:2467124684770118976",
+      "phi1_Y_key": "0:2630804556780952451",
+      "phi2_X_key": "-2:3273242695355775066",
+      "phi2_Y_key": "-3:1894318254142848271",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C06",
@@ -540,23 +1354,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 2556828989492844033,
+      "chart_y_mod_11_20": 340656924333576752285,
       "chart_x_mod_11_8": 69895298,
       "chart_y_mod_11_8": 133495394,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2243264248094,
+      "raw_point_string_from_run": "(11 + 4*11^2 + 10*11^3 + 10*11^4 + 4*11^5 + 6*11^6 + 3*11^7 + 10*11^9 + 6*11^10 + 5*11^11 + 2*11^12 + 10*11^13 + 7*11^15 + 5*11^17 + 5*11^21 + 9*11^22 + 4*11^23 + 11^24 + O(11^25) : 10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C05",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C08",
+      "symmetry_orbit": 2,
+      "phi1_X_key": "2:2467124684770118976",
+      "phi1_Y_key": "0:2929112756711279030",
+      "phi2_X_key": "-2:3273242695355775066",
+      "phi2_Y_key": "-3:3665599059349383210",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C07",
@@ -569,23 +1398,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 670193165943067165168,
+      "chart_y_mod_11_20": 332093070598983256916,
       "chart_x_mod_11_8": 144463583,
       "chart_y_mod_11_8": 80863487,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 1991339516596,
+      "raw_point_string_from_run": "(10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^4 + 7*11^5 + 11^6 + 4*11^7 + 6*11^9 + 7*11^11 + 3*11^12 + 9*11^13 + 4*11^14 + 3*11^15 + 8*11^17 + 4*11^18 + 5*11^19 + 7*11^20 + 7*11^21 + 2*11^22 + 4*11^23 + 8*11^24 + 3*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C08",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C05",
+      "symmetry_orbit": 2,
+      "phi1_X_key": "2:2467124684770118976",
+      "phi1_Y_key": "0:2630804556780952451",
+      "phi2_X_key": "-2:3273242695355775066",
+      "phi2_Y_key": "-3:3665599059349383210",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C08",
@@ -598,23 +1442,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 670193165943067165168,
+      "chart_y_mod_11_20": 340656924333576752285,
       "chart_x_mod_11_8": 144463583,
       "chart_y_mod_11_8": 133495394,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 1991339516596,
+      "raw_point_string_from_run": "(10*11 + 6*11^2 + 6*11^5 + 4*11^6 + 7*11^7 + 10*11^8 + 4*11^10 + 5*11^11 + 8*11^12 + 10*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 10*11^18 + 10*11^19 + 10*11^20 + 5*11^21 + 11^22 + 6*11^23 + 9*11^24 + O(11^25) : 10 + 7*11 + 10*11^3 + 9*11^4 + 3*11^5 + 9*11^6 + 6*11^7 + 10*11^8 + 4*11^9 + 10*11^10 + 3*11^11 + 7*11^12 + 11^13 + 6*11^14 + 7*11^15 + 10*11^16 + 2*11^17 + 6*11^18 + 5*11^19 + 3*11^20 + 3*11^21 + 8*11^22 + 6*11^23 + 2*11^24 + 7*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C07",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C06",
+      "symmetry_orbit": 2,
+      "phi1_X_key": "2:2467124684770118976",
+      "phi1_Y_key": "0:2929112756711279030",
+      "phi2_X_key": "-2:3273242695355775066",
+      "phi2_Y_key": "-3:1894318254142848271",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C09",
@@ -627,23 +1486,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 10*11^2 + 3*11^3 + 11^4 + 7*11^5 + 9*11^6 + 11^8 + 8*11^9 + 11^10 + 7*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 11^3 + 4*11^4 + 11^6 + 2*11^8 + 2*11^10 + 6*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 17091349,
-      "chart_y_mod_11_8": 1832432,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 207440610497919238176,
+      "chart_y_mod_11_20": 186590574838633564206,
+      "chart_x_mod_11_8": 197267532,
+      "chart_y_mod_11_8": 212526449,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1965087951771,
+      "raw_point_string_from_run": "(6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25) : 10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C10",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C11",
+      "symmetry_orbit": 3,
+      "phi1_X_key": "-2:4075250353113566698",
+      "phi1_Y_key": "-3:2826303421461339393",
+      "phi2_X_key": "2:2797386842742409559",
+      "phi2_Y_key": "0:399546748319870165",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C10",
@@ -656,23 +1530,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 10*11^2 + 3*11^3 + 11^4 + 7*11^5 + 9*11^6 + 11^8 + 8*11^9 + 11^10 + 7*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^4 + 10*11^5 + 9*11^6 + 10*11^7 + 8*11^8 + 10*11^9 + 8*11^10 + 4*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 17091349,
-      "chart_y_mod_11_8": 212526449,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 207440610497919238176,
+      "chart_y_mod_11_20": 486159420093926444995,
+      "chart_x_mod_11_8": 197267532,
+      "chart_y_mod_11_8": 1832432,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1965087951771,
+      "raw_point_string_from_run": "(6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25) : 11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C09",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C12",
+      "symmetry_orbit": 3,
+      "phi1_X_key": "-2:4075250353113566698",
+      "phi1_Y_key": "-3:2733613892030892088",
+      "phi2_X_key": "2:2797386842742409559",
+      "phi2_Y_key": "0:5160370565172361316",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C11",
@@ -685,23 +1574,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 7*11^3 + 9*11^4 + 3*11^5 + 11^6 + 10*11^7 + 9*11^8 + 2*11^9 + 9*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^4 + 10*11^5 + 9*11^6 + 10*11^7 + 8*11^8 + 10*11^9 + 8*11^10 + 4*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 197267532,
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 465309384434640771025,
+      "chart_y_mod_11_20": 186590574838633564206,
+      "chart_x_mod_11_8": 17091349,
       "chart_y_mod_11_8": 212526449,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2077579622326,
+      "raw_point_string_from_run": "(5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25) : 11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C12",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C09",
+      "symmetry_orbit": 3,
+      "phi1_X_key": "-2:4075250353113566698",
+      "phi1_Y_key": "-3:2733613892030892088",
+      "phi2_X_key": "2:2797386842742409559",
+      "phi2_Y_key": "0:399546748319870165",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C12",
@@ -714,23 +1618,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 7*11^3 + 9*11^4 + 3*11^5 + 11^6 + 10*11^7 + 9*11^8 + 2*11^9 + 9*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 11^3 + 4*11^4 + 11^6 + 2*11^8 + 2*11^10 + 6*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 197267532,
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 465309384434640771025,
+      "chart_y_mod_11_20": 486159420093926444995,
+      "chart_x_mod_11_8": 17091349,
       "chart_y_mod_11_8": 1832432,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 5 + 6*11 + 8*11^2 + 3*11^3 + 6*11^4 + 4*11^5 + 5*11^6 + 8*11^7 + 3*11^8 + 8*11^9 + 6*11^10 + 2*11^11 + 5*11^12 + 3*11^13 + 5*11^14 + 4*11^16 + 11^17 + 6*11^18 + 11^19 + 6*11^20 + 8*11^21 + 8*11^22 + 6*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 7*11^-1 + 3 + 11 + 8*11^2 + 4*11^3 + 7*11^4 + 9*11^5 + 4*11^6 + 9*11^7 + 8*11^8 + 5*11^9 + 10*11^10 + 4*11^11 + 4*11^13 + 4*11^14 + 9*11^16 + 7*11^17 + 7*11^18 + 2*11^20 + 10*11^21 + 5*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2077579622326,
+      "raw_point_string_from_run": "(5*11^-1 + 5 + 4*11 + 2*11^2 + 7*11^3 + 4*11^4 + 6*11^5 + 5*11^6 + 2*11^7 + 7*11^8 + 2*11^9 + 4*11^10 + 8*11^11 + 5*11^12 + 7*11^13 + 5*11^14 + 10*11^15 + 6*11^16 + 9*11^17 + 4*11^18 + 9*11^19 + 4*11^20 + 2*11^21 + 2*11^22 + 4*11^23 + 11^24 + O(11^25) : 10*11^-3 + 10*11^-2 + 3*11^-1 + 7 + 9*11 + 2*11^2 + 6*11^3 + 3*11^4 + 11^5 + 6*11^6 + 11^7 + 2*11^8 + 5*11^9 + 6*11^11 + 10*11^12 + 6*11^13 + 6*11^14 + 10*11^15 + 11^16 + 3*11^17 + 3*11^18 + 10*11^19 + 8*11^20 + 5*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C11",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C10",
+      "symmetry_orbit": 3,
+      "phi1_X_key": "-2:4075250353113566698",
+      "phi1_Y_key": "-3:2826303421461339393",
+      "phi2_X_key": "2:2797386842742409559",
+      "phi2_Y_key": "0:5160370565172361316",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C13",
@@ -743,23 +1662,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 67330923,
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 21063003857411588886,
+      "chart_y_mod_11_20": 130727882159511410872,
+      "chart_x_mod_11_8": 147027958,
       "chart_y_mod_11_8": 890526,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 693134861871,
+      "raw_point_string_from_run": "(11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25) : 10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C14",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C15",
+      "symmetry_orbit": 4,
+      "phi1_X_key": "2:5548667431399466240",
+      "phi1_Y_key": "0:1695079969437712101",
+      "phi2_X_key": "-2:2845871928159655187",
+      "phi2_Y_key": "-3:3757652219910306640",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C14",
@@ -772,23 +1706,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + O(11^12)",
-      "chart_x_mod_11_8": 67330923,
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 21063003857411588886,
+      "chart_y_mod_11_20": 542022112773048598329,
+      "chart_x_mod_11_8": 147027958,
       "chart_y_mod_11_8": 213468355,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 693134861871,
+      "raw_point_string_from_run": "(11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C13",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C16",
+      "symmetry_orbit": 4,
+      "phi1_X_key": "2:5548667431399466240",
+      "phi1_Y_key": "0:3864837344054519380",
+      "phi2_X_key": "-2:2845871928159655187",
+      "phi2_Y_key": "-3:1802265093581924841",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C15",
@@ -801,23 +1750,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 147027958,
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 651686991075148420315,
+      "chart_y_mod_11_20": 130727882159511410872,
+      "chart_x_mod_11_8": 67330923,
       "chart_y_mod_11_8": 890526,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2541656656210,
+      "raw_point_string_from_run": "(10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25) : 10 + 7*11 + 9*11^3 + 5*11^4 + 5*11^5 + 8*11^8 + 8*11^9 + 9*11^10 + 10*11^11 + 4*11^13 + 2*11^14 + 7*11^16 + 5*11^17 + 11^18 + 2*11^19 + 7*11^20 + 4*11^21 + 11^22 + 11^23 + 5*11^24 + 2*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C16",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C13",
+      "symmetry_orbit": 4,
+      "phi1_X_key": "2:5548667431399466240",
+      "phi1_Y_key": "0:1695079969437712101",
+      "phi2_X_key": "-2:2845871928159655187",
+      "phi2_Y_key": "-3:1802265093581924841",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C16",
@@ -830,23 +1794,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + O(11^12)",
-      "chart_x_mod_11_8": 147027958,
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 651686991075148420315,
+      "chart_y_mod_11_20": 542022112773048598329,
+      "chart_x_mod_11_8": 67330923,
       "chart_y_mod_11_8": 213468355,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 3*11^2 + 2*11^3 + 10*11^4 + 10*11^5 + 5*11^6 + 7*11^7 + 7*11^8 + 2*11^9 + 6*11^10 + 11^11 + 2*11^12 + 5*11^13 + 3*11^14 + 4*11^15 + 7*11^16 + 8*11^17 + 3*11^18 + 11^20 + 5*11^21 + 10*11^22 + 9*11^23 + 6*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2541656656210,
+      "raw_point_string_from_run": "(10*11 + 7*11^2 + 8*11^3 + 5*11^6 + 3*11^7 + 3*11^8 + 8*11^9 + 4*11^10 + 9*11^11 + 8*11^12 + 5*11^13 + 7*11^14 + 6*11^15 + 3*11^16 + 2*11^17 + 7*11^18 + 10*11^19 + 9*11^20 + 5*11^21 + 11^23 + 4*11^24 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^3 + 5*11^4 + 5*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 2*11^9 + 11^10 + 10*11^12 + 6*11^13 + 8*11^14 + 10*11^15 + 3*11^16 + 5*11^17 + 9*11^18 + 8*11^19 + 3*11^20 + 6*11^21 + 9*11^22 + 9*11^23 + 5*11^24 + 8*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C15",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C14",
+      "symmetry_orbit": 4,
+      "phi1_X_key": "2:5548667431399466240",
+      "phi1_Y_key": "0:3864837344054519380",
+      "phi2_X_key": "-2:2845871928159655187",
+      "phi2_Y_key": "-3:3757652219910306640",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C17",
@@ -859,23 +1838,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 2,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 2,
-      "chart_x": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + O(11^14)",
-      "chart_y": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 238938006733069024810,
+      "chart_y_mod_11_20": 101714696942090348469,
       "chart_x_mod_11_8": 170788475,
       "chart_y_mod_11_8": 174811517,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 27,
-      "curve_residual_valuation": 27,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 27,
+      "curve_residual_valuation_sage": 27,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 4,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -4,
+      "phi2_Y_valuation": -6,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 2,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2284494279574,
+      "raw_point_string_from_run": "(10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25) : 1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + 2*11^26 + O(11^27) : 1 + O(11^30))",
       "hyperelliptic_partner": "C18",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C19",
+      "symmetry_orbit": 5,
+      "phi1_X_key": "4:551393625522863913",
+      "phi1_Y_key": "0:830638971481325939",
+      "phi2_X_key": "-4:4786339829458364882",
+      "phi2_Y_key": "-6:227165671569045626",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C18",
@@ -888,23 +1882,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 2,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 2,
-      "chart_x": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + O(11^14)",
-      "chart_y": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 238938006733069024810,
+      "chart_y_mod_11_20": 571035297990469660732,
       "chart_x_mod_11_8": 170788475,
       "chart_y_mod_11_8": 39547364,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 27,
-      "curve_residual_valuation": 27,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 27,
+      "curve_residual_valuation_sage": 27,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 4,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -4,
+      "phi2_Y_valuation": -6,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 2,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2284494279574,
+      "raw_point_string_from_run": "(10*11^2 + 5*11^4 + 4*11^5 + 8*11^6 + 8*11^7 + 11^8 + 6*11^9 + 11^10 + 5*11^11 + 10*11^12 + 4*11^13 + 9*11^14 + 10*11^15 + 7*11^16 + 10*11^17 + 9*11^18 + 3*11^19 + 3*11^20 + 8*11^21 + 9*11^22 + 6*11^23 + 3*11^24 + O(11^25) : 10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + 8*11^26 + O(11^27) : 1 + O(11^30))",
       "hyperelliptic_partner": "C17",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C20",
+      "symmetry_orbit": 5,
+      "phi1_X_key": "4:551393625522863913",
+      "phi1_Y_key": "0:4729278342010905542",
+      "phi2_X_key": "-4:4786339829458364882",
+      "phi2_Y_key": "-6:5332751641923185855",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C19",
@@ -917,23 +1926,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 2,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 2,
-      "chart_x": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + O(11^14)",
-      "chart_y": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 433811988199490984391,
+      "chart_y_mod_11_20": 101714696942090348469,
       "chart_x_mod_11_8": 43570406,
       "chart_y_mod_11_8": 174811517,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 27,
-      "curve_residual_valuation": 27,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 27,
+      "curve_residual_valuation_sage": 27,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 4,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -4,
+      "phi2_Y_valuation": -6,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 2,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2609624223867,
+      "raw_point_string_from_run": "(11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25) : 1 + 3*11 + 5*11^2 + 9*11^3 + 4*11^4 + 7*11^5 + 10*11^6 + 8*11^7 + 6*11^8 + 2*11^9 + 7*11^10 + 5*11^12 + 6*11^13 + 7*11^14 + 6*11^15 + 2*11^16 + 3*11^17 + 7*11^18 + 11^19 + 11^20 + 4*11^21 + 10*11^22 + 10*11^23 + 6*11^24 + 8*11^25 + 2*11^26 + O(11^27) : 1 + O(11^30))",
       "hyperelliptic_partner": "C20",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C17",
+      "symmetry_orbit": 5,
+      "phi1_X_key": "4:551393625522863913",
+      "phi1_Y_key": "0:830638971481325939",
+      "phi2_X_key": "-4:4786339829458364882",
+      "phi2_Y_key": "-6:5332751641923185855",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C20",
@@ -946,23 +1970,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 2,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 2,
-      "chart_x": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + O(11^14)",
-      "chart_y": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 433811988199490984391,
+      "chart_y_mod_11_20": 571035297990469660732,
       "chart_x_mod_11_8": 43570406,
       "chart_y_mod_11_8": 39547364,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 27,
-      "curve_residual_valuation": 27,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 27,
+      "curve_residual_valuation_sage": 27,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 4,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -4,
+      "phi2_Y_valuation": -6,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 2,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2609624223867,
+      "raw_point_string_from_run": "(11^2 + 10*11^3 + 5*11^4 + 6*11^5 + 2*11^6 + 2*11^7 + 9*11^8 + 4*11^9 + 9*11^10 + 5*11^11 + 6*11^13 + 11^14 + 3*11^16 + 11^18 + 7*11^19 + 7*11^20 + 2*11^21 + 11^22 + 4*11^23 + 7*11^24 + O(11^25) : 10 + 7*11 + 5*11^2 + 11^3 + 6*11^4 + 3*11^5 + 2*11^7 + 4*11^8 + 8*11^9 + 3*11^10 + 10*11^11 + 5*11^12 + 4*11^13 + 3*11^14 + 4*11^15 + 8*11^16 + 7*11^17 + 3*11^18 + 9*11^19 + 9*11^20 + 6*11^21 + 4*11^24 + 2*11^25 + 8*11^26 + O(11^27) : 1 + O(11^30))",
       "hyperelliptic_partner": "C19",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C18",
+      "symmetry_orbit": 5,
+      "phi1_X_key": "4:551393625522863913",
+      "phi1_Y_key": "0:4729278342010905542",
+      "phi2_X_key": "-4:4786339829458364882",
+      "phi2_Y_key": "-6:227165671569045626",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C21",
@@ -975,23 +2014,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 11^5 + 5*11^6 + 5*11^7 + 4*11^8 + 7*11^9 + 11^10 + 11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "8 + 2*11^2 + 3*11^3 + 8*11^5 + 8*11^8 + 5*11^9 + 11^10 + 6*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 141564668568070399179,
+      "chart_y_mod_11_20": 69089495486242942582,
       "chart_x_mod_11_8": 106568220,
-      "chart_y_mod_11_8": 1292651,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25)",
-      "projective_y_raw": "8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 213066230,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2522162877640,
+      "raw_point_string_from_run": "(11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25) : 3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C22",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C23",
+      "symmetry_orbit": 6,
+      "phi1_X_key": "-2:150782963099323091",
+      "phi1_Y_key": "-3:2128010527483255662",
+      "phi2_X_key": "2:3935174164808524815",
+      "phi2_Y_key": "0:1312535078227303868",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C22",
@@ -1004,23 +2058,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 11^5 + 5*11^6 + 5*11^7 + 4*11^8 + 7*11^9 + 11^10 + 11^11 + 2*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 8*11^2 + 7*11^3 + 10*11^4 + 2*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 5*11^9 + 9*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 141564668568070399179,
+      "chart_y_mod_11_20": 603660499446317066619,
       "chart_x_mod_11_8": 106568220,
-      "chart_y_mod_11_8": 213066230,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25)",
-      "projective_y_raw": "3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 1292651,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2522162877640,
+      "raw_point_string_from_run": "(11^-1 + 8 + 3*11^2 + 4*11^3 + 10*11^4 + 9*11^5 + 3*11^6 + 4*11^7 + 9*11^8 + 8*11^9 + 9*11^10 + 9*11^11 + 4*11^12 + 2*11^14 + 9*11^15 + 11^16 + 7*11^17 + 10*11^18 + 2*11^20 + 10*11^21 + 2*11^22 + 11^24 + O(11^25) : 8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C21",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C24",
+      "symmetry_orbit": 6,
+      "phi1_X_key": "-2:150782963099323091",
+      "phi1_Y_key": "-3:3431906786008975819",
+      "phi2_X_key": "2:3935174164808524815",
+      "phi2_Y_key": "0:4247382235264927613",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C23",
@@ -1033,23 +2102,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 9*11^5 + 5*11^6 + 5*11^7 + 6*11^8 + 3*11^9 + 9*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 8*11^2 + 7*11^3 + 10*11^4 + 2*11^5 + 10*11^6 + 10*11^7 + 2*11^8 + 5*11^9 + 9*11^10 + 4*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 531185326364489610022,
+      "chart_y_mod_11_20": 69089495486242942582,
       "chart_x_mod_11_8": 107790661,
       "chart_y_mod_11_8": 213066230,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 3118273364997,
+      "raw_point_string_from_run": "(10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25) : 8*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 10*11 + 5*11^2 + 6*11^3 + 11^4 + 8*11^5 + 9*11^6 + 7*11^7 + 11^8 + 10*11^9 + 2*11^10 + 4*11^12 + 3*11^14 + 5*11^15 + 10*11^16 + 5*11^17 + 3*11^18 + 5*11^19 + 11^20 + 4*11^21 + 11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C24",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C21",
+      "symmetry_orbit": 6,
+      "phi1_X_key": "-2:150782963099323091",
+      "phi1_Y_key": "-3:3431906786008975819",
+      "phi2_X_key": "2:3935174164808524815",
+      "phi2_Y_key": "0:1312535078227303868",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C24",
@@ -1062,23 +2146,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 9*11^5 + 5*11^6 + 5*11^7 + 6*11^8 + 3*11^9 + 9*11^10 + 9*11^11 + 8*11^12 + O(11^13)",
-      "chart_y": "8 + 2*11^2 + 3*11^3 + 8*11^5 + 8*11^8 + 5*11^9 + 11^10 + 6*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 531185326364489610022,
+      "chart_y_mod_11_20": 603660499446317066619,
       "chart_x_mod_11_8": 107790661,
       "chart_y_mod_11_8": 1292651,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25)",
-      "projective_y_raw": "3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 3118273364997,
+      "raw_point_string_from_run": "(10*11^-1 + 2 + 10*11 + 7*11^2 + 6*11^3 + 11^5 + 7*11^6 + 6*11^7 + 11^8 + 2*11^9 + 11^10 + 11^11 + 6*11^12 + 10*11^13 + 8*11^14 + 11^15 + 9*11^16 + 3*11^17 + 10*11^19 + 8*11^20 + 8*11^22 + 10*11^23 + 9*11^24 + O(11^25) : 3*11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11^2 + 4*11^3 + 9*11^4 + 2*11^5 + 11^6 + 3*11^7 + 9*11^8 + 8*11^10 + 10*11^11 + 6*11^12 + 10*11^13 + 7*11^14 + 5*11^15 + 5*11^17 + 7*11^18 + 5*11^19 + 9*11^20 + 6*11^21 + 9*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C23",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C22",
+      "symmetry_orbit": 6,
+      "phi1_X_key": "-2:150782963099323091",
+      "phi1_Y_key": "-3:2128010527483255662",
+      "phi2_X_key": "2:3935174164808524815",
+      "phi2_Y_key": "0:4247382235264927613",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C25",
@@ -1091,23 +2190,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 22064515,
-      "chart_y_mod_11_8": 29431401,
-      "chart_x_unit_residue_mod_11": 4,
-      "projective_x_raw": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 7,
+      "chart_x_mod_11_20": 91517401858884739573,
+      "chart_y_mod_11_20": 138783205548385524974,
+      "chart_x_mod_11_8": 192294366,
+      "chart_y_mod_11_8": 184927480,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2292244847366,
+      "raw_point_string_from_run": "(7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25) : 1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C26",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C27",
+      "symmetry_orbit": 7,
+      "phi1_X_key": "2:2353768194950032565",
+      "phi1_Y_key": "0:3099139320240816620",
+      "phi2_X_key": "-2:1655200637493981433",
+      "phi2_Y_key": "-3:851437026663404165",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C26",
@@ -1120,23 +2234,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 22064515,
-      "chart_y_mod_11_8": 184927480,
-      "chart_x_unit_residue_mod_11": 4,
-      "projective_x_raw": "4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 7,
+      "chart_x_mod_11_20": 91517401858884739573,
+      "chart_y_mod_11_20": 533966789384174484227,
+      "chart_x_mod_11_8": 192294366,
+      "chart_y_mod_11_8": 29431401,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2292244847366,
+      "raw_point_string_from_run": "(7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25) : 10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C25",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C28",
+      "symmetry_orbit": 7,
+      "phi1_X_key": "2:2353768194950032565",
+      "phi1_Y_key": "0:2460777993251414861",
+      "phi2_X_key": "-2:1655200637493981433",
+      "phi2_Y_key": "-3:4708480286828827316",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C27",
@@ -1149,23 +2278,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 192294366,
-      "chart_y_mod_11_8": 29431401,
-      "chart_x_unit_residue_mod_11": 7,
-      "projective_x_raw": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 4,
+      "chart_x_mod_11_20": 581232593073675269628,
+      "chart_y_mod_11_20": 138783205548385524974,
+      "chart_x_mod_11_8": 22064515,
+      "chart_y_mod_11_8": 184927480,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 1368833806374,
+      "raw_point_string_from_run": "(4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25) : 1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C28",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C25",
+      "symmetry_orbit": 7,
+      "phi1_X_key": "2:2353768194950032565",
+      "phi1_Y_key": "0:3099139320240816620",
+      "phi2_X_key": "-2:1655200637493981433",
+      "phi2_Y_key": "-3:4708480286828827316",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C28",
@@ -1178,23 +2322,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 192294366,
-      "chart_y_mod_11_8": 184927480,
-      "chart_x_unit_residue_mod_11": 7,
-      "projective_x_raw": "7*11 + 6*11^2 + 10*11^3 + 10*11^4 + 5*11^5 + 9*11^6 + 9*11^7 + 10*11^8 + 2*11^9 + 5*11^10 + 6*11^11 + 11^12 + 10*11^13 + 5*11^14 + 7*11^15 + 5*11^17 + 5*11^18 + 11^19 + 3*11^20 + 6*11^21 + 6*11^22 + 5*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 8*11^2 + 8*11^3 + 2*11^4 + 4*11^5 + 5*11^6 + 9*11^7 + 11^8 + 5*11^9 + 10*11^10 + 2*11^11 + 11^12 + 6*11^13 + 6*11^14 + 3*11^15 + 6*11^16 + 10*11^17 + 2*11^18 + 2*11^19 + 6*11^20 + 5*11^21 + 2*11^23 + 3*11^24 + 7*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 4,
+      "chart_x_mod_11_20": 581232593073675269628,
+      "chart_y_mod_11_20": 533966789384174484227,
+      "chart_x_mod_11_8": 22064515,
+      "chart_y_mod_11_8": 29431401,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 1368833806374,
+      "raw_point_string_from_run": "(4*11 + 4*11^2 + 5*11^5 + 11^6 + 11^7 + 8*11^9 + 5*11^10 + 4*11^11 + 9*11^12 + 5*11^14 + 3*11^15 + 10*11^16 + 5*11^17 + 5*11^18 + 9*11^19 + 7*11^20 + 4*11^21 + 4*11^22 + 5*11^23 + 3*11^24 + O(11^25) : 10 + 7*11 + 2*11^2 + 2*11^3 + 8*11^4 + 6*11^5 + 5*11^6 + 11^7 + 9*11^8 + 5*11^9 + 8*11^11 + 9*11^12 + 4*11^13 + 4*11^14 + 7*11^15 + 4*11^16 + 8*11^18 + 8*11^19 + 4*11^20 + 5*11^21 + 10*11^22 + 8*11^23 + 7*11^24 + 3*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C27",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C26",
+      "symmetry_orbit": 7,
+      "phi1_X_key": "2:2353768194950032565",
+      "phi1_Y_key": "0:2460777993251414861",
+      "phi2_X_key": "-2:1655200637493981433",
+      "phi2_Y_key": "-3:851437026663404165",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C29",
@@ -1207,23 +2366,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 5*11^3 + 3*11^4 + 3*11^6 + 4*11^7 + 9*11^8 + 4*11^10 + 10*11^11 + 3*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^5 + 9*11^6 + 8*11^7 + 11^8 + 2*11^9 + 8*11^10 + 7*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 83313967,
-      "chart_y_mod_11_8": 172820057,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 317665556597917168267,
+      "chart_y_mod_11_20": 122450027201579353108,
+      "chart_x_mod_11_8": 131044914,
+      "chart_y_mod_11_8": 41538824,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1043403402095,
+      "raw_point_string_from_run": "(5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25) : 10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C30",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C31",
+      "symmetry_orbit": 8,
+      "phi1_X_key": "-2:4311954441233435716",
+      "phi1_Y_key": "-3:4151458066437777482",
+      "phi2_X_key": "2:598610401317463869",
+      "phi2_Y_key": "0:410376171387210685",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C30",
@@ -1236,23 +2410,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 5*11^3 + 3*11^4 + 3*11^6 + 4*11^7 + 9*11^8 + 4*11^10 + 10*11^11 + 3*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 11^3 + 10*11^4 + 4*11^5 + 11^6 + 2*11^7 + 9*11^8 + 8*11^9 + 2*11^10 + 3*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 83313967,
-      "chart_y_mod_11_8": 41538824,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 317665556597917168267,
+      "chart_y_mod_11_20": 550299967730980656093,
+      "chart_x_mod_11_8": 131044914,
+      "chart_y_mod_11_8": 172820057,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1043403402095,
+      "raw_point_string_from_run": "(5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25) : 11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C29",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C32",
+      "symmetry_orbit": 8,
+      "phi1_X_key": "-2:4311954441233435716",
+      "phi1_Y_key": "-3:1408459247054453999",
+      "phi2_X_key": "2:598610401317463869",
+      "phi2_Y_key": "0:5149541142105020796",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C31",
@@ -1265,23 +2454,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 10*11^2 + 5*11^3 + 7*11^4 + 10*11^5 + 7*11^6 + 6*11^7 + 11^8 + 10*11^9 + 6*11^10 + 7*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 11^3 + 10*11^4 + 4*11^5 + 11^6 + 2*11^7 + 9*11^8 + 8*11^9 + 2*11^10 + 3*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 131044914,
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 355084438334642840934,
+      "chart_y_mod_11_20": 122450027201579353108,
+      "chart_x_mod_11_8": 83313967,
       "chart_y_mod_11_8": 41538824,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2781732410610,
+      "raw_point_string_from_run": "(6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25) : 11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C32",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C29",
+      "symmetry_orbit": 8,
+      "phi1_X_key": "-2:4311954441233435716",
+      "phi1_Y_key": "-3:1408459247054453999",
+      "phi2_X_key": "2:598610401317463869",
+      "phi2_Y_key": "0:410376171387210685",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C32",
@@ -1294,23 +2498,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 10*11^2 + 5*11^3 + 7*11^4 + 10*11^5 + 7*11^6 + 6*11^7 + 11^8 + 10*11^9 + 6*11^10 + 7*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 9*11^3 + 6*11^5 + 9*11^6 + 8*11^7 + 11^8 + 2*11^9 + 8*11^10 + 7*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 131044914,
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 355084438334642840934,
+      "chart_y_mod_11_20": 550299967730980656093,
+      "chart_x_mod_11_8": 83313967,
       "chart_y_mod_11_8": 172820057,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 5 + 9*11 + 11^3 + 9*11^4 + 10*11^5 + 4*11^6 + 2*11^7 + 3*11^8 + 2*11^9 + 5*11^10 + 8*11^11 + 8*11^12 + 8*11^13 + 10*11^14 + 11^15 + 2*11^16 + 7*11^17 + 7*11^18 + 4*11^19 + 6*11^20 + 9*11^21 + 9*11^22 + 2*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 10*11^-1 + 1 + 10*11 + 11^2 + 6*11^3 + 4*11^4 + 5*11^5 + 11^6 + 3*11^8 + 4*11^9 + 4*11^10 + 3*11^11 + 8*11^12 + 7*11^14 + 9*11^15 + 2*11^16 + 7*11^17 + 10*11^18 + 11^19 + 5*11^20 + 9*11^21 + 6*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 2781732410610,
+      "raw_point_string_from_run": "(6*11^-1 + 5 + 11 + 10*11^2 + 9*11^3 + 11^4 + 6*11^6 + 8*11^7 + 7*11^8 + 8*11^9 + 5*11^10 + 2*11^11 + 2*11^12 + 2*11^13 + 9*11^15 + 8*11^16 + 3*11^17 + 3*11^18 + 6*11^19 + 4*11^20 + 11^21 + 11^22 + 8*11^23 + 3*11^24 + O(11^25) : 10*11^-3 + 10*11^-2 + 9 + 9*11^2 + 4*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 10*11^7 + 7*11^8 + 6*11^9 + 6*11^10 + 7*11^11 + 2*11^12 + 10*11^13 + 3*11^14 + 11^15 + 8*11^16 + 3*11^17 + 9*11^19 + 5*11^20 + 11^21 + 4*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C31",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C30",
+      "symmetry_orbit": 8,
+      "phi1_X_key": "-2:4311954441233435716",
+      "phi1_Y_key": "-3:4151458066437777482",
+      "phi2_X_key": "2:598610401317463869",
+      "phi2_Y_key": "0:5149541142105020796",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C33",
@@ -1323,23 +2542,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 203132853,
-      "chart_y_mod_11_8": 72944037,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 73998412483603790622,
+      "chart_y_mod_11_20": 249444233728412142694,
+      "chart_x_mod_11_8": 11226028,
+      "chart_y_mod_11_8": 141414844,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2932801824349,
+      "raw_point_string_from_run": "(11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25) : 10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C34",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C35",
+      "symmetry_orbit": 9,
+      "phi1_X_key": "2:807024046250053564",
+      "phi1_Y_key": "0:1047609666755084028",
+      "phi2_X_key": "-2:5535807378113976503",
+      "phi2_Y_key": "-3:2177018400424506462",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C34",
@@ -1352,23 +2586,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + O(11^12)",
-      "chart_x_mod_11_8": 203132853,
-      "chart_y_mod_11_8": 141414844,
-      "chart_x_unit_residue_mod_11": 10,
-      "projective_x_raw": "10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 1,
+      "chart_x_mod_11_20": 73998412483603790622,
+      "chart_y_mod_11_20": 423305761204147866507,
+      "chart_x_mod_11_8": 11226028,
+      "chart_y_mod_11_8": 72944037,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2932801824349,
+      "raw_point_string_from_run": "(11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C33",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C36",
+      "symmetry_orbit": 9,
+      "phi1_X_key": "2:807024046250053564",
+      "phi1_Y_key": "0:4512307646737147453",
+      "phi2_X_key": "-2:5535807378113976503",
+      "phi2_Y_key": "-3:3382898913067725019",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C35",
@@ -1381,23 +2630,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + O(11^12)",
-      "chart_x_mod_11_8": 11226028,
-      "chart_y_mod_11_8": 72944037,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25)",
-      "projective_y_raw": "1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 598751582448956218579,
+      "chart_y_mod_11_20": 249444233728412142694,
+      "chart_x_mod_11_8": 203132853,
+      "chart_y_mod_11_8": 141414844,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2531671595366,
+      "raw_point_string_from_run": "(10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25) : 10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C36",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C33",
+      "symmetry_orbit": 9,
+      "phi1_X_key": "2:807024046250053564",
+      "phi1_Y_key": "0:1047609666755084028",
+      "phi2_X_key": "-2:5535807378113976503",
+      "phi2_Y_key": "-3:3382898913067725019",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C36",
@@ -1410,23 +2674,38 @@
       "residue_disc": "x=0",
       "disc_orbit": 2,
       "orbit_representative": "(0 : 1 : 1)",
-      "chart": "affine (x,y)",
+      "affine_x_valuation": 1,
+      "affine_y_valuation": 0,
+      "chart": "affine (x, y)",
       "chart_x_valuation": 1,
-      "chart_x": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + O(11^13)",
-      "chart_y": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + O(11^12)",
-      "chart_x_mod_11_8": 11226028,
-      "chart_y_mod_11_8": 141414844,
-      "chart_x_unit_residue_mod_11": 1,
-      "projective_x_raw": "11 + 3*11^2 + 8*11^3 + 7*11^4 + 3*11^5 + 6*11^6 + 7*11^8 + 11^9 + 5*11^10 + 7*11^11 + 4*11^12 + 10*11^13 + 6*11^14 + 4*11^15 + 4*11^16 + 3*11^17 + 2*11^18 + 11^19 + 3*11^20 + 3*11^21 + 7*11^22 + 9*11^23 + 10*11^24 + O(11^25)",
-      "projective_y_raw": "10 + 7*11 + 9*11^3 + 9*11^5 + 2*11^6 + 7*11^7 + 10*11^8 + 9*11^10 + 11^11 + 10*11^12 + 6*11^13 + 10*11^14 + 6*11^15 + 5*11^16 + 9*11^17 + 4*11^19 + 8*11^20 + 8*11^21 + 2*11^22 + 5*11^23 + 9*11^25 + O(11^26)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 25,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_x_unit_mod_11": 10,
+      "chart_x_mod_11_20": 598751582448956218579,
+      "chart_y_mod_11_20": 423305761204147866507,
+      "chart_x_mod_11_8": 203132853,
+      "chart_y_mod_11_8": 72944037,
+      "abs_precision_chart_x": 25,
+      "abs_precision_chart_y": 26,
+      "curve_residual_valuation_sage": 26,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": 2,
+      "phi1_Y_valuation": 0,
+      "phi1_reduction": "affine",
+      "phi2_X_valuation": -2,
+      "phi2_Y_valuation": -3,
+      "phi2_reduction": "identity/infinity",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 1,
+      "t_plus_1_valuation": 0,
+      "t_mod_11_12": 2531671595366,
+      "raw_point_string_from_run": "(10*11 + 7*11^2 + 2*11^3 + 3*11^4 + 7*11^5 + 4*11^6 + 10*11^7 + 3*11^8 + 9*11^9 + 5*11^10 + 3*11^11 + 6*11^12 + 4*11^14 + 6*11^15 + 6*11^16 + 7*11^17 + 8*11^18 + 9*11^19 + 7*11^20 + 7*11^21 + 3*11^22 + 11^23 + O(11^25) : 1 + 3*11 + 10*11^2 + 11^3 + 10*11^4 + 11^5 + 8*11^6 + 3*11^7 + 10*11^9 + 11^10 + 9*11^11 + 4*11^13 + 4*11^15 + 5*11^16 + 11^17 + 10*11^18 + 6*11^19 + 2*11^20 + 2*11^21 + 8*11^22 + 5*11^23 + 10*11^24 + 11^25 + O(11^26) : 1 + O(11^30))",
       "hyperelliptic_partner": "C35",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C34",
+      "symmetry_orbit": 9,
+      "phi1_X_key": "2:807024046250053564",
+      "phi1_Y_key": "0:4512307646737147453",
+      "phi2_X_key": "-2:5535807378113976503",
+      "phi2_Y_key": "-3:2177018400424506462",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C37",
@@ -1439,23 +2718,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 4*11^2 + 11^3 + 10*11^4 + 2*11^5 + 9*11^6 + 9*11^7 + 2*11^8 + 4*11^9 + 8*11^10 + 2*11^11 + 7*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 4*11^4 + 5*11^5 + 11^6 + 6*11^7 + 9*11^8 + 8*11^9 + 7*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 296967672276921817985,
+      "chart_y_mod_11_20": 168119408686490591146,
       "chart_x_mod_11_8": 191798937,
-      "chart_y_mod_11_8": 119559382,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 94799499,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 471650815459,
+      "raw_point_string_from_run": "(6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25) : 10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C38",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C39",
+      "symmetry_orbit": 10,
+      "phi1_X_key": "-2:3986645898751181528",
+      "phi1_Y_key": "-3:4102739716778814300",
+      "phi2_X_key": "2:4773968807318962277",
+      "phi2_Y_key": "0:3955207491033193992",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C38",
@@ -1468,23 +2762,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "2*11 + 4*11^2 + 11^3 + 10*11^4 + 2*11^5 + 9*11^6 + 9*11^7 + 2*11^8 + 4*11^9 + 8*11^10 + 2*11^11 + 7*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 10*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 4*11^7 + 11^8 + 2*11^9 + 3*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 2,
+      "chart_x_mod_11_20": 296967672276921817985,
+      "chart_y_mod_11_20": 504630586246069418055,
       "chart_x_mod_11_8": 191798937,
-      "chart_y_mod_11_8": 94799499,
-      "chart_x_unit_residue_mod_11": 2,
-      "projective_x_raw": "6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "chart_y_mod_11_8": 119559382,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 471650815459,
+      "raw_point_string_from_run": "(6*11^-1 + 4 + 4*11 + 8*11^2 + 11^3 + 10*11^4 + 5*11^5 + 7*11^6 + 3*11^7 + 3*11^8 + 11^9 + 6*11^10 + 4*11^11 + 9*11^12 + 7*11^13 + 10*11^14 + 8*11^15 + 4*11^16 + 7*11^17 + 10*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 10*11^22 + 3*11^23 + 3*11^24 + O(11^25) : 11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C37",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C40",
+      "symmetry_orbit": 10,
+      "phi1_X_key": "-2:3986645898751181528",
+      "phi1_Y_key": "-3:1457177596713417181",
+      "phi2_X_key": "2:4773968807318962277",
+      "phi2_Y_key": "0:1604709822459037489",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C39",
@@ -1497,23 +2806,38 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 6*11^2 + 9*11^3 + 8*11^5 + 11^6 + 11^7 + 8*11^8 + 6*11^9 + 2*11^10 + 8*11^11 + 3*11^12 + O(11^13)",
-      "chart_y": "3 + 10*11 + 2*11^2 + 10*11^3 + 6*11^4 + 5*11^5 + 9*11^6 + 4*11^7 + 11^8 + 2*11^9 + 3*11^10 + 7*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 375782322655638191216,
+      "chart_y_mod_11_20": 168119408686490591146,
       "chart_x_mod_11_8": 22559944,
       "chart_y_mod_11_8": 94799499,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1266978213247,
+      "raw_point_string_from_run": "(5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25) : 11^-3 + 5*11^-2 + 6*11^-1 + 6 + 5*11 + 10*11^2 + 11^3 + 8*11^4 + 7*11^5 + 8*11^6 + 7*11^7 + 7*11^9 + 8*11^10 + 11^11 + 9*11^12 + 10*11^13 + 6*11^14 + 5*11^15 + 9*11^16 + 3*11^17 + 3*11^18 + 3*11^19 + 3*11^20 + 7*11^21 + 3*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C40",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C37",
+      "symmetry_orbit": 10,
+      "phi1_X_key": "-2:3986645898751181528",
+      "phi1_Y_key": "-3:1457177596713417181",
+      "phi2_X_key": "2:4773968807318962277",
+      "phi2_Y_key": "0:3955207491033193992",
+      "phi1X_times_phi2X_equals_a0a6": true
     },
     {
       "id": "C40",
@@ -1526,53 +2850,43 @@
       "residue_disc": "infinity",
       "disc_orbit": 1,
       "orbit_representative": "(1 : 3 : 0)",
-      "chart": "w=1/x, v=y/x^3",
+      "affine_x_valuation": -1,
+      "affine_y_valuation": -3,
+      "chart": "w = 1/x, v = y/x^3",
       "chart_x_valuation": 1,
-      "chart_x": "9*11 + 6*11^2 + 9*11^3 + 8*11^5 + 11^6 + 11^7 + 8*11^8 + 6*11^9 + 2*11^10 + 8*11^11 + 3*11^12 + O(11^13)",
-      "chart_y": "8 + 8*11^2 + 4*11^4 + 5*11^5 + 11^6 + 6*11^7 + 9*11^8 + 8*11^9 + 7*11^10 + 3*11^11 + O(11^12)",
+      "chart_x_unit_mod_11": 9,
+      "chart_x_mod_11_20": 375782322655638191216,
+      "chart_y_mod_11_20": 504630586246069418055,
       "chart_x_mod_11_8": 22559944,
       "chart_y_mod_11_8": 119559382,
-      "chart_x_unit_residue_mod_11": 9,
-      "projective_x_raw": "5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25)",
-      "projective_y_raw": "10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23)",
-      "projective_z_raw": "1 + O(11^4)",
-      "absolute_precision_x": 27,
-      "absolute_precision_y": 26,
-      "curve_residual_valuation": 26,
+      "abs_precision_chart_x": 26,
+      "abs_precision_chart_y": 23,
+      "curve_residual_valuation_sage": 23,
       "stable_at_precision_20": true,
-      "is_known_rational_point": false,
+      "phi1_X_valuation": -2,
+      "phi1_Y_valuation": -3,
+      "phi1_reduction": "identity/infinity",
+      "phi2_X_valuation": 2,
+      "phi2_Y_valuation": 0,
+      "phi2_reduction": "affine",
+      "t_valuation": 0,
+      "t_minus_1_valuation": 0,
+      "t_plus_1_valuation": 1,
+      "t_mod_11_12": 1266978213247,
+      "raw_point_string_from_run": "(5*11^-1 + 6 + 6*11 + 2*11^2 + 9*11^3 + 5*11^5 + 3*11^6 + 7*11^7 + 7*11^8 + 9*11^9 + 4*11^10 + 6*11^11 + 11^12 + 3*11^13 + 2*11^15 + 6*11^16 + 3*11^17 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^23 + 7*11^24 + O(11^25) : 10*11^-3 + 5*11^-2 + 4*11^-1 + 4 + 5*11 + 9*11^3 + 2*11^4 + 3*11^5 + 2*11^6 + 3*11^7 + 10*11^8 + 3*11^9 + 2*11^10 + 9*11^11 + 11^12 + 4*11^14 + 5*11^15 + 11^16 + 7*11^17 + 7*11^18 + 7*11^19 + 7*11^20 + 3*11^21 + 7*11^22 + O(11^23) : 1 + O(11^30))",
       "hyperelliptic_partner": "C39",
-      "partner_is_negative_mod_11_8": true
+      "x_negation_partner": "C38",
+      "symmetry_orbit": 10,
+      "phi1_X_key": "-2:3986645898751181528",
+      "phi1_Y_key": "-3:4102739716778814300",
+      "phi2_X_key": "2:4773968807318962277",
+      "phi2_Y_key": "0:1604709822459037489",
+      "phi1X_times_phi2X_equals_a0a6": true
     }
   ],
   "checks": {
     "candidate_count": 40,
     "candidate_count_equals_40": true,
-    "extra_counts_from_source": [
-      4,
-      0,
-      4,
-      4,
-      0,
-      4,
-      4,
-      8,
-      4,
-      0,
-      4,
-      4
-    ],
-    "extra_counts_sum": 40,
-    "omega_size": 12,
-    "omega_upper_bound_field_in_source": 12,
-    "all_candidates_on_curve_min_residual_valuation": 26,
-    "all_candidates_stable_at_precision_20": true,
-    "all_pairs_are_hyperelliptic_conjugates": true,
-    "distinct_signatures_mod_11_8": 40,
-    "x_valuations_seen": [
-      1,
-      2
-    ],
     "per_omega_counts": [
       4,
       0,
@@ -1587,7 +2901,39 @@
       4,
       4
     ],
-    "per_omega_counts_match_source": true,
+    "per_omega_counts_match_run_extra_counts": true,
+    "extra_counts_sum": 40,
+    "omega_size": 12,
+    "omega_size_equals_12": true,
+    "omega_upper_bound_field_in_run": 12,
+    "omega_pairwise_differences": 66,
+    "omega_min_pairwise_difference_valuation": 1,
+    "omega_max_pairwise_difference_valuation": 3,
+    "omega_twelve_values_pairwise_distinct": true,
+    "standard_omega_cartesian_count": 59506083,
+    "standard_omega_cartesian_count_reproduced": true,
+    "theory_omega_index_for_x0": 1,
+    "theory_omega_index_for_xinfinity": 10,
+    "run_omega_indices_of_known_points": [
+      1,
+      10
+    ],
+    "theory_matches_run_on_known_points": true,
+    "known_rational_point_count": 4,
+    "known_points_all_on_curve_exact_over_Q": true,
+    "known_points_disjoint_from_candidates": true,
+    "min_curve_residual_valuation_sage": 23,
+    "all_candidates_stable_at_precision_20": true,
+    "distinct_signatures_mod_11_20": 40,
+    "counts_by_disc": {
+      "infinity": 20,
+      "x=0": 20
+    },
+    "affine_x_valuations_seen": [
+      -1,
+      1,
+      2
+    ],
     "strassmann_predicted_per_omega": [
       4,
       0,
@@ -1602,20 +2948,89 @@
       4,
       4
     ],
-    "strassmann_matches_extras": true,
-    "strassmann_all_certified": true,
+    "strassmann_matches_candidate_counts": true,
+    "strassmann_all_rows_certified": true,
     "strassmann_max_bound": 2,
     "strassmann_min_tail_margin": 23,
-    "known_rational_points": 4,
-    "known_points_are_not_among_the_40": true,
-    "known_omega_indices": [
-      1,
-      10
+    "distinct_phi1_X_values": 10,
+    "distinct_phi2_X_values": 10,
+    "distinct_phi_X_pairs": 10,
+    "phi1X_times_phi2X_equals_a0a6_for_all": true,
+    "each_orbit_has_four_distinct_signY_pairs": true,
+    "each_orbit_has_a_single_omega_index": true,
+    "each_orbit_has_a_single_residue_disc": true,
+    "every_candidate_has_hyperelliptic_partner": true,
+    "every_candidate_has_x_negation_partner": true,
+    "symmetry_orbit_count": 10,
+    "symmetry_orbit_sizes": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
     ],
-    "theory_omega_for_x0": 1,
-    "theory_omega_for_xinf": 10,
-    "theory_matches_run_for_x0": true,
-    "theory_matches_run_for_xinf": true
+    "residue_disc_filter_reproduced": [
+      {
+        "a": 0,
+        "b": 1,
+        "values": [
+          3,
+          3,
+          3,
+          5,
+          1
+        ],
+        "all_five_square": true,
+        "contains_zero": false
+      },
+      {
+        "a": 1,
+        "b": 0,
+        "values": [
+          3,
+          3,
+          3,
+          1,
+          5
+        ],
+        "all_five_square": true,
+        "contains_zero": false
+      }
+    ],
+    "residue_disc_filter_no_zero_values": true,
+    "independent_extraction_agrees_with_pure_python_table": true,
+    "phi1_identity_verified": true,
+    "phi2_identity_verified": true,
+    "E1_ainvs": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "E2_ainvs": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "E1_torsion_invariants": [
+      2
+    ],
+    "E2_torsion_invariants": [
+      2
+    ],
+    "E1_ellrank_pari": "[1, 1, 0, [[21848689, 286391046720]]]",
+    "E2_ellrank_pari": "[1, 1, 0, [[-18241391, 87162492480]]]",
+    "E1_good_ordinary_at_11": true,
+    "E2_good_ordinary_at_11": true,
+    "f_disc_valuation_at_11": 0
   },
   "precision_audit": {
     "precision_runs": [
@@ -1631,8 +3046,499 @@
     "warning": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation."
   },
   "precision_audit_warning_verbatim": "Precision stability and curve equations checked; not a full independent audit of QC zero isolation.",
+  "strassmann_audit_rows": [
+    {
+      "orbit": 1,
+      "omega": 0,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 1,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 2,
+      "min_v": 2,
+      "tail_bound": 29,
+      "strassmann_bound": 0,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 1
+    },
+    {
+      "orbit": 1,
+      "omega": 3,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 4,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 5,
+      "min_v": 3,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 1
+    },
+    {
+      "orbit": 1,
+      "omega": 6,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 7,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 8,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 9,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 10,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          0,
+          2
+        ]
+      ],
+      "base_known_double": true,
+      "certified": true,
+      "root_count": 1,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 1,
+      "omega": 11,
+      "min_v": 1,
+      "tail_bound": 29,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          9,
+          1
+        ],
+        [
+          2,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 0,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 1,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          0,
+          2
+        ]
+      ],
+      "base_known_double": true,
+      "certified": true,
+      "root_count": 1,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 2,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 3,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 4,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 5,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 6,
+      "min_v": 3,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 1
+    },
+    {
+      "orbit": 2,
+      "omega": 7,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          7,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 8,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 9,
+      "min_v": 2,
+      "tail_bound": 26,
+      "strassmann_bound": 0,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 1
+    },
+    {
+      "orbit": 2,
+      "omega": 10,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [
+        [
+          10,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 2,
+      "refinement_depth": 0
+    },
+    {
+      "orbit": 2,
+      "omega": 11,
+      "min_v": 1,
+      "tail_bound": 26,
+      "strassmann_bound": 2,
+      "roots_mod11": [],
+      "base_known_double": false,
+      "certified": true,
+      "root_count": 0,
+      "refinement_depth": 0
+    }
+  ],
+  "mw_basis": {
+    "note": "full basis and saturation certificate: mw_basis_saturation.json",
+    "MODEL_WARNING": "the 'gens' in new_bridge_verified.json are points of the MINIMAL models; phi1 and phi2 land on the RAW models. The two differ by an integral translation of X (u=1, s=t=0), equal discriminants, equal canonical heights. Do not mix them.",
+    "E1_raw_generator": [
+      "21848689",
+      "286391046720"
+    ],
+    "E1_minimal_generator": [
+      "34384993",
+      "286391046720"
+    ],
+    "E1_torsion_raw": [
+      "(0 : 1 : 0)",
+      "(-4092529 : 0 : 1)"
+    ],
+    "E1_rank": 1,
+    "E1_saturation_index": 1,
+    "E1_saturation_index_bound": 4,
+    "E1_saturation_primes_checked": [
+      2,
+      3
+    ],
+    "E2_raw_generator": [
+      "-18241391",
+      "87162492480"
+    ],
+    "E2_minimal_generator": [
+      "-2479007",
+      "87162492480"
+    ],
+    "E2_torsion_raw": [
+      "(0 : 1 : 0)",
+      "(-44182609 : 0 : 1)"
+    ],
+    "E2_rank": 1,
+    "E2_saturation_index": 1,
+    "E2_saturation_index_bound": 10,
+    "E2_saturation_primes_checked": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "rank_upper_bound_method": "eclib rank_bound (2-descent Selmer bound) = 1 for both; PARI ellrank independently returns [1,1]",
+    "saturation_status": "index 1 PROVED by eclib saturation up to its own proven index bound; see mw_basis_saturation.json for the primes and the auxiliary primes used.",
+    "json_gens_from_new_bridge_verified": [
+      {
+        "raw_ainvs": [
+          "0",
+          "37608911",
+          "0",
+          "2089269703356959",
+          "7989037884942063852049"
+        ],
+        "minimal_ainvs": [
+          "0",
+          "-1",
+          "0",
+          "1617792974488319",
+          "-14262298467262390622975"
+        ],
+        "rank": 1,
+        "rank_bound": 1,
+        "certain": true,
+        "gens": [
+          [
+            "34384993",
+            "286391046720",
+            "1"
+          ]
+        ]
+      },
+      {
+        "raw_ainvs": [
+          "0",
+          "47287151",
+          "0",
+          "153915558925919",
+          "740005399550399109169"
+        ],
+        "minimal_ainvs": [
+          "0",
+          "-1",
+          "0",
+          "-591442657639681",
+          "6146344290377784993025"
+        ],
+        "rank": 1,
+        "rank_bound": 1,
+        "certain": true,
+        "gens": [
+          [
+            "-2479007",
+            "87162492480",
+            "1"
+          ]
+        ]
+      }
+    ]
+  },
   "source_sha256": {
     "qc_mixed_15_8_p11_n30_twelve_check.json": "d3cf5bed191a1d562a02f273d23069c3e525c70f29637faba3a29e57b15b18a3",
+    "candidates_table_pure_python_v1.json": "e5d72efa09f00a1e7b98aea86df1091b0807276626c10d1ccd406a07c4895914",
     "qc_mixed_15_8_p11_n30_twelve_check_functions.json": "83539470606b431759e6a55c312fe10d7ed97f2da1887fdd40742e985c08fe33",
     "qc_mixed_15_8_p11_n20_twelve.json": "3bfb2dac686a15920be94641bd1f78239539cd949d1584e2b9510ed274bbb8f6",
     "strassmann_audit.json": "9d50955e638edf73f953fbfa6e54a36c4e39a0ab65e91d1c9ebb5162e0d791ca",
@@ -1640,11 +3546,19 @@
     "omega_structure.json": "f7801ff464315add0cd244ef77f86babc18e82b202c7e98248b2e5b539b168fd",
     "local_discs_11.json": "12f4a3eabc72d5862bc2869f178bdde003840209aebf58b7f076ad5f0954033f",
     "new_bridge_verified.json": "5ee026f6bea416c0c2a97dad6419af60748ee43d44961c2aa643dfb9019e8492",
-    "run_qc_twelve.py": "091d67953eca30c2a17d2dfdbab1d2c4147d1effc3dc1bc1ed068e068628538a"
+    "run_qc_twelve.py": "091d67953eca30c2a17d2dfdbab1d2c4147d1effc3dc1bc1ed068e068628538a",
+    "mw_basis_saturation.json": "4ccd913159d8df4647286c90399b45fa10f2bc47a9c7b980f48174ddf166b8df",
+    "TWELVE_HEIGHT_VALUES.md": "987692dfebafb41582cdf9c81a4cf992e02b60ee5edd45bd1c0f5410cc43f66d",
+    "MIXED_GENUS2_BRIDGE_2026-09-12.md": "5d7ebd385c6a71f33c2ea654c1b1ff34330abd72cbc2ef5a8e41c5093217060f"
   },
   "not_established": [
-    "This table does NOT claim that any of the 40 candidates is or is not rational.",
-    "This table does NOT claim D(Q) equals the four known points.",
-    "Omega membership is taken from the run; it is a superset statement (the 12 triples are not claimed to be simultaneously realisable)."
+    "This table does NOT claim that any of the 40 candidates is rational.",
+    "This table does NOT claim that any of the 40 candidates is irrational.",
+    "This table does NOT claim D(Q) = {the four known points}; status stays 126/127.",
+    "Omega is a proven SUPERSET of 12 values; the 12 triples are not claimed to be simultaneously realisable, so some Omega classes may be empty for trivial reasons.",
+    "Saturation of E1(Q), E2(Q) IS established (index 1, see mw_basis_saturation.json), but this gives no information about D(Q) by itself.",
+    "phi1(Jac(D)(Q)) x phi2(Jac(D)(Q)) is NOT claimed equal to E1(Q) x E2(Q); no exclusion may rest on that.",
+    "The coverage is the five-squareness locus only (2 of 4 disc orbits).",
+    "Precision audit warning (verbatim): Precision stability and curve equations checked; not a full independent audit of QC zero isolation."
   ]
 }

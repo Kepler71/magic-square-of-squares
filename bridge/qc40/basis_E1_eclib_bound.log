@@ -1,0 +1,22 @@
+P1 = [34384993:286391046720:1]	  is generator number 1
+saturating basis (reg=1.94633297)...Saturation index bound (for points of good reduction)  = 4
+Tamagawa index primes are [ 2 3 ]
+Saturation primes are now[ 2 3 ]
+Checking saturation at [ 2 3 ]
+Checking 2-saturation 
+Points were proved 2-saturated (max q used = 29)
+Checking 3-saturation 
+Points were proved 3-saturated (max q used = 19)
+done
+### eclib saturation (max_prime=-1, verbose): собственная граница простых eclib
+index = 1  regulator = 1.94633297014005  points = [(34384993 : 286391046720 : 1)]
+### CPS height bound (Cremona-Prickett-Siksek): 26.4187996755849
+### Sage Cremona-Siksek mu и граница индекса:
+   tol=0.000100000000000000 n_max=12 -> mu = 0.0275437340693585, n <= 8.40615050495044
+   tol=0.0000100000000000000 n_max=16 -> mu = 0.0275437340693585, n <= 8.40615050495044
+### PARI ellsaturation B=20/50/100:
+   B = 20 -> [[34384993, 286391046720]]
+   B = 50 -> [[34384993, 286391046720]]
+   B = 100 -> [[34384993, 286391046720]]
+### torsion: (2,)  2-torsion roots: ['8443775']
+### isogeny degrees: [1, 2]

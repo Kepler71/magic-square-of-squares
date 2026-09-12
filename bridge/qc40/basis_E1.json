@@ -1,0 +1,970 @@
+{
+  "curve_D": {
+    "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+    "a0_a2_a4_a6": [
+      "4092529",
+      "47287151",
+      "37608911",
+      "44182609"
+    ],
+    "genus": 2,
+    "bridge_identity": "proved",
+    "source": "bridge/qc40/new_bridge_verified.json"
+  },
+  "map_phi1": {
+    "phi1": "(a6*x^2, a6*y)",
+    "quotient_by": "sigma(x,y)=(-x,y)",
+    "identity_multiplier": "1952102938046881",
+    "pullback_differential": "x dx / y",
+    "status": "proved"
+  },
+  "model": {
+    "E1_raw_ainvs": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "E1_min_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "1617792974488319",
+      "-14262298467262390622975"
+    ],
+    "iso_raw_to_min": "Elliptic-curve morphism:\n  From: Elliptic Curve defined by y^2 = x^3 + 37608911*x^2 + 2089269703356959*x + 7989037884942063852049 over Rational Field\n  To:   Elliptic Curve defined by y^2 = x^3 - x^2 + 1617792974488319*x - 14262298467262390622975 over Rational Field\n  Via:  (u,r,s,t) = (1, -12536304, 0, 0)",
+    "generator_min_model": [
+      "34384993",
+      "286391046720"
+    ],
+    "generator_raw_model": [
+      "21848689",
+      "286391046720"
+    ],
+    "exact_substitution_residual_min": "0",
+    "exact_substitution_residual_raw": "0",
+    "status": "proved"
+  },
+  "invariants": {
+    "conductor": "14405924506384320",
+    "conductor_factored": "2^6 * 3 * 5 * 7 * 13 * 17 * 23 * 37 * 1213 * 9397",
+    "disc_min_factored": "-1 * 2^20 * 3^2 * 5^2 * 7^2 * 13^2 * 17^8 * 23^6 * 37^2 * 1213^2 * 9397^2",
+    "j_invariant": "1786292708427217164370409528810214849856009919/1368948735016263604709866476070818440112900",
+    "torsion_invariants": [
+      2
+    ],
+    "torsion_points": [
+      "(0 : 1 : 0)",
+      "(8443775 : 0 : 1)"
+    ],
+    "two_torsion_poly_factored": "(x - 8443775) * (x^2 + 8443774*x + 1689090302295169)",
+    "good_reduction_at_11": true,
+    "status": "proved_software"
+  },
+  "rank": {
+    "value": 1,
+    "eclib": {
+      "rank": 1,
+      "rank_bound": 1,
+      "certain": true,
+      "selmer_rank": 2,
+      "gens": [
+        "[34384993, 286391046720, 1]"
+      ]
+    },
+    "selmer_dim_pari": 2,
+    "selmer_dim_mwrank": 2,
+    "dim_E_Q_2torsion": 1,
+    "sha2_dim": 0,
+    "argument": "dim Sel_2 = 2 = rank + dim E(Q)[2] + dim Sha[2]; rank >= 1 из точки P => rank = 1, Sha[2] = 0",
+    "pari_ellrank_interval": [
+      1,
+      1
+    ],
+    "sage_rank_proof_true": 1,
+    "sage_gens_proof_true": [
+      "(34384993 : 286391046720 : 1)"
+    ],
+    "root_number": -1,
+    "status": "proved_software"
+  },
+  "heights": {
+    "hhat_P_sage": "1.94633297014005",
+    "hhat_P_pari": "1.94633297014005",
+    "regulator": "1.94633297014005",
+    "status": "numerical"
+  },
+  "index_bound": {
+    "method": "Cremona-Siksek lower bound mu for canonical height of non-torsion points; n^2*mu <= hhat(P)",
+    "runs": {
+      "tol=0.100000000000000,n_max=5": {
+        "mu": "0.0254723345334631",
+        "index_bound": "8.74126315551970",
+        "seconds": "0.16"
+      },
+      "tol=0.0100000000000000,n_max=8": {
+        "mu": "0.0274785559220549",
+        "index_bound": "8.41611414357810",
+        "seconds": "0.11"
+      },
+      "tol=0.00100000000000000,n_max=10": {
+        "mu": "0.0275344134486803",
+        "index_bound": "8.40757315938462",
+        "seconds": "0.14"
+      },
+      "tol=0.000100000000000000,n_max=12": {
+        "mu": "0.0275437340693585",
+        "index_bound": "8.40615050495044",
+        "seconds": "0.19"
+      }
+    },
+    "mu_used": "0.0275437340693585",
+    "index_bound_n_le": 8,
+    "primes_to_exclude": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "status": "proved_software"
+  },
+  "non_divisibility": {
+    "division_points_exact": {
+      "2": {
+        "P": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        },
+        "P+T": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        }
+      },
+      "3": {
+        "P": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        },
+        "P+T": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        }
+      },
+      "5": {
+        "P": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        },
+        "P+T": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        }
+      },
+      "7": {
+        "P": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        },
+        "P+T": {
+          "solutions": [],
+          "empty": true,
+          "seconds": 0
+        }
+      }
+    },
+    "mod_p_certificates": {
+      "2": {
+        "P": {
+          "p": 11,
+          "group_invariants": [
+            14
+          ],
+          "discrete_log": [
+            3
+          ],
+          "reason": "образ P не лежит в 2*E(F_11)"
+        },
+        "P+T": {
+          "p": 29,
+          "group_invariants": [
+            2,
+            16
+          ],
+          "discrete_log": [
+            6,
+            1
+          ],
+          "reason": "образ P+T не лежит в 2*E(F_29)"
+        }
+      },
+      "3": {
+        "P": {
+          "p": 19,
+          "group_invariants": [
+            12
+          ],
+          "discrete_log": [
+            8
+          ],
+          "reason": "образ P не лежит в 3*E(F_19)"
+        },
+        "P+T": {
+          "p": 19,
+          "group_invariants": [
+            12
+          ],
+          "discrete_log": [
+            2
+          ],
+          "reason": "образ P+T не лежит в 3*E(F_19)"
+        }
+      },
+      "5": {
+        "P": {
+          "p": 31,
+          "group_invariants": [
+            40
+          ],
+          "discrete_log": [
+            33
+          ],
+          "reason": "образ P не лежит в 5*E(F_31)"
+        },
+        "P+T": {
+          "p": 31,
+          "group_invariants": [
+            40
+          ],
+          "discrete_log": [
+            13
+          ],
+          "reason": "образ P+T не лежит в 5*E(F_31)"
+        }
+      },
+      "7": {
+        "P": {
+          "p": 11,
+          "group_invariants": [
+            14
+          ],
+          "discrete_log": [
+            3
+          ],
+          "reason": "образ P не лежит в 7*E(F_11)"
+        },
+        "P+T": {
+          "p": 11,
+          "group_invariants": [
+            14
+          ],
+          "discrete_log": [
+            10
+          ],
+          "reason": "образ P+T не лежит в 7*E(F_11)"
+        }
+      }
+    },
+    "note": "division_points -- точное решение уравнения q*Q = Pt над Q (многочлены деления); модульные сертификаты независимы от этого кода: если Pt = q*Q в E(Q), то для любого простого p хорошей редукции образ Pt лежит в q*E(F_p).",
+    "status": "proved_software"
+  },
+  "saturation": {
+    "claim": "E1(Q) = <P> (+) <T>, P = (34384993 : 286391046720 : 1) (порядок oo), T = (8443775 : 0 : 1) (порядок 2)",
+    "index": 1,
+    "proof_steps": [
+      "rank = 1 из 2-спуска: dim Sel_2 = 2 = rank + dim E(Q)[2] + dim Sha[2], rank >= 1 из P",
+      "mu = 0.0275437340693585 -- доказанная нижняя граница hhat на неторсионных точках (Cremona-Siksek)",
+      "hhat(P) = 1.94633297014005 => индекс n <= 8",
+      "для q in [2, 3, 5, 7]: division_points(q) пусто для P и P+T (точная арифметика)",
+      "независимо: модульные сертификаты неделимости"
+    ],
+    "cross_checks": {
+      "eclib_full": {
+        "index": 1,
+        "regulator": "1.94633297014005"
+      },
+      "eclib_max_prime_11": {
+        "index": 1
+      },
+      "eclib_max_prime_100": {
+        "index": 1
+      },
+      "pari_ellsaturation": "[[34384993, 286391046720]]"
+    },
+    "status": "proved_software"
+  },
+  "known_points_control": {
+    "points": [
+      {
+        "D_point": [
+          "0",
+          "2023"
+        ],
+        "t": "1",
+        "phi1_raw": [
+          "0",
+          "89381418007"
+        ],
+        "phi1_min": "(12536304 : 89381418007 : 1)",
+        "exact_residual": "0",
+        "basis_coordinates": {
+          "k": -2,
+          "torsion": "O"
+        },
+        "order": "infinite"
+      },
+      {
+        "D_point": [
+          "0",
+          "-2023"
+        ],
+        "t": "1",
+        "phi1_raw": [
+          "0",
+          "-89381418007"
+        ],
+        "phi1_min": "(12536304 : -89381418007 : 1)",
+        "exact_residual": "0",
+        "basis_coordinates": {
+          "k": 2,
+          "torsion": "O"
+        },
+        "order": "infinite"
+      },
+      {
+        "D_point": [
+          "infty",
+          "1*6647"
+        ],
+        "t": "-1",
+        "phi1_min": "O",
+        "basis_coordinates": {
+          "k": 0,
+          "torsion": "O"
+        }
+      },
+      {
+        "D_point": [
+          "infty",
+          "-1*6647"
+        ],
+        "t": "-1",
+        "phi1_min": "O",
+        "basis_coordinates": {
+          "k": 0,
+          "torsion": "O"
+        }
+      }
+    ],
+    "warning": "phi1-образ известной конечной точки D равен -2*P (индекс 2 в <P>); использовать как образующую E1(Q) её НЕЛЬЗЯ",
+    "status": "proved"
+  },
+  "local_data_for_sieve": {
+    "model": "minimal E1",
+    "P": "(34384993 : 286391046720 : 1)",
+    "T": "(8443775 : 0 : 1)",
+    "primes": {
+      "11": {
+        "order": 14,
+        "invariants": [
+          14
+        ],
+        "dlog_P": [
+          3
+        ],
+        "dlog_T": [
+          7
+        ],
+        "a_p": -2
+      },
+      "19": {
+        "order": 12,
+        "invariants": [
+          12
+        ],
+        "dlog_P": [
+          8
+        ],
+        "dlog_T": [
+          6
+        ],
+        "a_p": 8
+      },
+      "29": {
+        "order": 32,
+        "invariants": [
+          2,
+          16
+        ],
+        "dlog_P": [
+          6,
+          0
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": -2
+      },
+      "31": {
+        "order": 40,
+        "invariants": [
+          40
+        ],
+        "dlog_P": [
+          33
+        ],
+        "dlog_T": [
+          20
+        ],
+        "a_p": -8
+      },
+      "41": {
+        "order": 48,
+        "invariants": [
+          4,
+          12
+        ],
+        "dlog_P": [
+          1,
+          2
+        ],
+        "dlog_T": [
+          6,
+          0
+        ],
+        "a_p": -6
+      },
+      "43": {
+        "order": 50,
+        "invariants": [
+          50
+        ],
+        "dlog_P": [
+          14
+        ],
+        "dlog_T": [
+          25
+        ],
+        "a_p": -6
+      },
+      "47": {
+        "order": 54,
+        "invariants": [
+          54
+        ],
+        "dlog_P": [
+          33
+        ],
+        "dlog_T": [
+          27
+        ],
+        "a_p": -6
+      },
+      "53": {
+        "order": 52,
+        "invariants": [
+          2,
+          26
+        ],
+        "dlog_P": [
+          6,
+          1
+        ],
+        "dlog_T": [
+          13,
+          1
+        ],
+        "a_p": 2
+      },
+      "59": {
+        "order": 62,
+        "invariants": [
+          62
+        ],
+        "dlog_P": [
+          49
+        ],
+        "dlog_T": [
+          31
+        ],
+        "a_p": -2
+      },
+      "61": {
+        "order": 72,
+        "invariants": [
+          2,
+          36
+        ],
+        "dlog_P": [
+          17,
+          0
+        ],
+        "dlog_T": [
+          18,
+          0
+        ],
+        "a_p": -10
+      },
+      "67": {
+        "order": 56,
+        "invariants": [
+          56
+        ],
+        "dlog_P": [
+          18
+        ],
+        "dlog_T": [
+          28
+        ],
+        "a_p": 12
+      },
+      "71": {
+        "order": 74,
+        "invariants": [
+          74
+        ],
+        "dlog_P": [
+          66
+        ],
+        "dlog_T": [
+          37
+        ],
+        "a_p": -2
+      },
+      "73": {
+        "order": 80,
+        "invariants": [
+          2,
+          40
+        ],
+        "dlog_P": [
+          24,
+          1
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": -6
+      },
+      "79": {
+        "order": 82,
+        "invariants": [
+          82
+        ],
+        "dlog_P": [
+          74
+        ],
+        "dlog_T": [
+          41
+        ],
+        "a_p": -2
+      },
+      "83": {
+        "order": 88,
+        "invariants": [
+          88
+        ],
+        "dlog_P": [
+          83
+        ],
+        "dlog_T": [
+          44
+        ],
+        "a_p": -4
+      },
+      "89": {
+        "order": 100,
+        "invariants": [
+          2,
+          50
+        ],
+        "dlog_P": [
+          49,
+          0
+        ],
+        "dlog_T": [
+          25,
+          0
+        ],
+        "a_p": -10
+      },
+      "97": {
+        "order": 100,
+        "invariants": [
+          2,
+          50
+        ],
+        "dlog_P": [
+          17,
+          1
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": -2
+      },
+      "101": {
+        "order": 120,
+        "invariants": [
+          2,
+          60
+        ],
+        "dlog_P": [
+          39,
+          0
+        ],
+        "dlog_T": [
+          30,
+          0
+        ],
+        "a_p": -18
+      },
+      "103": {
+        "order": 94,
+        "invariants": [
+          94
+        ],
+        "dlog_P": [
+          72
+        ],
+        "dlog_T": [
+          47
+        ],
+        "a_p": 10
+      },
+      "107": {
+        "order": 114,
+        "invariants": [
+          114
+        ],
+        "dlog_P": [
+          93
+        ],
+        "dlog_T": [
+          57
+        ],
+        "a_p": -6
+      },
+      "109": {
+        "order": 96,
+        "invariants": [
+          4,
+          24
+        ],
+        "dlog_P": [
+          3,
+          0
+        ],
+        "dlog_T": [
+          12,
+          0
+        ],
+        "a_p": 14
+      },
+      "113": {
+        "order": 108,
+        "invariants": [
+          2,
+          54
+        ],
+        "dlog_P": [
+          42,
+          1
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": 6
+      },
+      "127": {
+        "order": 138,
+        "invariants": [
+          138
+        ],
+        "dlog_P": [
+          22
+        ],
+        "dlog_T": [
+          69
+        ],
+        "a_p": -10
+      },
+      "131": {
+        "order": 124,
+        "invariants": [
+          124
+        ],
+        "dlog_P": [
+          92
+        ],
+        "dlog_T": [
+          62
+        ],
+        "a_p": 8
+      },
+      "137": {
+        "order": 148,
+        "invariants": [
+          2,
+          74
+        ],
+        "dlog_P": [
+          45,
+          0
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": -10
+      },
+      "139": {
+        "order": 120,
+        "invariants": [
+          120
+        ],
+        "dlog_P": [
+          32
+        ],
+        "dlog_T": [
+          60
+        ],
+        "a_p": 20
+      },
+      "149": {
+        "order": 156,
+        "invariants": [
+          2,
+          78
+        ],
+        "dlog_P": [
+          52,
+          1
+        ],
+        "dlog_T": [
+          39,
+          0
+        ],
+        "a_p": -6
+      },
+      "151": {
+        "order": 148,
+        "invariants": [
+          148
+        ],
+        "dlog_P": [
+          44
+        ],
+        "dlog_T": [
+          74
+        ],
+        "a_p": 4
+      },
+      "157": {
+        "order": 164,
+        "invariants": [
+          2,
+          82
+        ],
+        "dlog_P": [
+          56,
+          0
+        ],
+        "dlog_T": [
+          41,
+          1
+        ],
+        "a_p": -6
+      },
+      "163": {
+        "order": 176,
+        "invariants": [
+          176
+        ],
+        "dlog_P": [
+          167
+        ],
+        "dlog_T": [
+          88
+        ],
+        "a_p": -12
+      },
+      "167": {
+        "order": 186,
+        "invariants": [
+          186
+        ],
+        "dlog_P": [
+          97
+        ],
+        "dlog_T": [
+          93
+        ],
+        "a_p": -18
+      },
+      "173": {
+        "order": 168,
+        "invariants": [
+          2,
+          84
+        ],
+        "dlog_P": [
+          28,
+          0
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": 6
+      },
+      "179": {
+        "order": 186,
+        "invariants": [
+          186
+        ],
+        "dlog_P": [
+          134
+        ],
+        "dlog_T": [
+          93
+        ],
+        "a_p": -6
+      },
+      "181": {
+        "order": 180,
+        "invariants": [
+          2,
+          90
+        ],
+        "dlog_P": [
+          20,
+          1
+        ],
+        "dlog_T": [
+          45,
+          0
+        ],
+        "a_p": 2
+      },
+      "191": {
+        "order": 176,
+        "invariants": [
+          176
+        ],
+        "dlog_P": [
+          103
+        ],
+        "dlog_T": [
+          88
+        ],
+        "a_p": 16
+      },
+      "193": {
+        "order": 180,
+        "invariants": [
+          2,
+          90
+        ],
+        "dlog_P": [
+          69,
+          0
+        ],
+        "dlog_T": [
+          45,
+          0
+        ],
+        "a_p": 14
+      },
+      "197": {
+        "order": 204,
+        "invariants": [
+          2,
+          102
+        ],
+        "dlog_P": [
+          80,
+          0
+        ],
+        "dlog_T": [
+          0,
+          1
+        ],
+        "a_p": -6
+      },
+      "199": {
+        "order": 182,
+        "invariants": [
+          182
+        ],
+        "dlog_P": [
+          8
+        ],
+        "dlog_T": [
+          91
+        ],
+        "a_p": 18
+      },
+      "211": {
+        "order": 198,
+        "invariants": [
+          3,
+          66
+        ],
+        "dlog_P": [
+          62,
+          0
+        ],
+        "dlog_T": [
+          33,
+          0
+        ],
+        "a_p": 14
+      }
+    },
+    "image_condition": {
+      "statement": "(X_min - shift)/a6 = x_D^2 -- квадрат в Q для любого конечного z in D(Q)",
+      "shift_X_min_minus_X_raw": "12536304",
+      "a6": "44182609",
+      "status": "proved",
+      "caveat": "редукция условия по модулю p требует отдельного разбора полюсов"
+    }
+  },
+  "summary": {
+    "E1_min_ainvs": [
+      "0",
+      "-1",
+      "0",
+      "1617792974488319",
+      "-14262298467262390622975"
+    ],
+    "rank": 1,
+    "torsion": "Z/2",
+    "basis": {
+      "free_generator": "(34384993 : 286391046720 : 1)",
+      "torsion_generator": "(8443775 : 0 : 1)"
+    },
+    "saturated": true,
+    "index": 1,
+    "index_bound_before_checks": 8,
+    "regulator": "1.94633297014005",
+    "status": "proved_software",
+    "what_is_NOT_claimed": [
+      "не утверждается, что D(Q) состоит ровно из четырёх точек",
+      "не утверждается, что образ Jac(D)(Q) равен E1(Q) x E2(Q)",
+      "насыщенность доказана только для E1; фактор E2 -- отдельный расчёт (basis_E2.sage)"
+    ],
+    "seconds_total": "2.5"
+  }
+}

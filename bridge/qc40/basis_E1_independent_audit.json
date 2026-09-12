@@ -1,0 +1,200 @@
+{
+  "model": {
+    "E1_min_ainvs": [
+      0,
+      -1,
+      0,
+      1617792974488319,
+      -14262298467262390622975
+    ],
+    "E1_raw_ainvs": [
+      0,
+      37608911,
+      0,
+      2089269703356959,
+      7989037884942063852049
+    ],
+    "shift_Xmin_minus_Xraw": 12536304,
+    "P": [
+      34384993,
+      286391046720
+    ],
+    "T": [
+      8443775,
+      0
+    ]
+  },
+  "exact_substitution": {
+    "P_min": 0,
+    "T_min": 0,
+    "P_raw": 0,
+    "status": "proved"
+  },
+  "known_point_control": {
+    "phi1_image_min": [
+      "12536304",
+      "89381418007"
+    ],
+    "basis_coordinates": {
+      "k": -2,
+      "torsion": "O"
+    },
+    "trap": "образ известной точки = -2P; как образующую использовать НЕЛЬЗЯ",
+    "status": "proved"
+  },
+  "discriminant": {
+    "value": "-358861697192103406393063237503108629164956057600",
+    "matches_log_factorization": true,
+    "status": "proved"
+  },
+  "torsion": {
+    "orders_mod_p": {
+      "11": 14,
+      "19": 12,
+      "29": 32,
+      "31": 40,
+      "41": 48,
+      "43": 50,
+      "47": 54,
+      "53": 52,
+      "59": 62,
+      "61": 72,
+      "67": 56,
+      "71": 74,
+      "73": 80
+    },
+    "gcd": 2,
+    "conclusion": "Z/2",
+    "argument": "кручение инъективно в E(F_p) при хорошей редукции и p нечётном",
+    "status": "proved"
+  },
+  "independent_nondivisibility": {
+    "certificates": {
+      "2": {
+        "P": {
+          "p": 11,
+          "order_E_Fp": 14,
+          "image": [
+            5,
+            9
+          ],
+          "size_qE": 7,
+          "reason": "образ P не лежит в 2*E(F_11)"
+        },
+        "P+T": {
+          "p": 29,
+          "order_E_Fp": 32,
+          "image": [
+            22,
+            27
+          ],
+          "size_qE": 8,
+          "reason": "образ P+T не лежит в 2*E(F_29)"
+        }
+      },
+      "3": {
+        "P": {
+          "p": 19,
+          "order_E_Fp": 12,
+          "image": [
+            9,
+            5
+          ],
+          "size_qE": 4,
+          "reason": "образ P не лежит в 3*E(F_19)"
+        },
+        "P+T": {
+          "p": 19,
+          "order_E_Fp": 12,
+          "image": [
+            8,
+            15
+          ],
+          "size_qE": 4,
+          "reason": "образ P+T не лежит в 3*E(F_19)"
+        }
+      },
+      "5": {
+        "P": {
+          "p": 31,
+          "order_E_Fp": 40,
+          "image": [
+            10,
+            29
+          ],
+          "size_qE": 8,
+          "reason": "образ P не лежит в 5*E(F_31)"
+        },
+        "P+T": {
+          "p": 31,
+          "order_E_Fp": 40,
+          "image": [
+            12,
+            25
+          ],
+          "size_qE": 8,
+          "reason": "образ P+T не лежит в 5*E(F_31)"
+        }
+      },
+      "7": {
+        "P": {
+          "p": 11,
+          "order_E_Fp": 14,
+          "image": [
+            5,
+            9
+          ],
+          "size_qE": 2,
+          "reason": "образ P не лежит в 7*E(F_11)"
+        },
+        "P+T": {
+          "p": 11,
+          "order_E_Fp": 14,
+          "image": [
+            2,
+            1
+          ],
+          "size_qE": 2,
+          "reason": "образ P+T не лежит в 7*E(F_11)"
+        }
+      }
+    },
+    "note": "если Q = q*S в E(Q), то образ Q лежит в q*E(F_p) для любого p хорошей редукции; обратное направление не используется",
+    "status": "proved"
+  },
+  "canonical_height": {
+    "sequence": [
+      17.353130777158913,
+      4.086034828220876,
+      2.1962939538330386,
+      1.9975831960942936,
+      1.9602627151158634,
+      1.949215264412206,
+      1.9472981351903393,
+      1.9465187672119506,
+      1.9463920089585878
+    ],
+    "limit_estimate": 1.9463920089585878,
+    "sage_pari_value": 1.94633297014005,
+    "status": "numerical"
+  },
+  "small_point_search": {
+    "window": "|u|<=4000, v<=59",
+    "found": [],
+    "status": "observation"
+  },
+  "summary": {
+    "independently_confirmed": [
+      "P, T на кривой (точная арифметика)",
+      "E1(Q)_tors = Z/2",
+      "P неторсионна => rank >= 1",
+      "phi1(0,2023) = -2P",
+      "P и P+T не делятся на 2,3,5,7"
+    ],
+    "NOT_independently_confirmed": [
+      "rank E1(Q) = 1 (зависит от 2-спуска в ПО)",
+      "граница индекса n <= 8 (Cremona-Siksek в Sage; независимо eclib CPS даёт простые {2,3})"
+    ],
+    "status": "proved + proved_software"
+  }
+}

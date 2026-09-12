@@ -1,0 +1,1557 @@
+{
+  "curve_D": {
+    "f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+    "a0a2a4a6": [
+      "4092529",
+      "47287151",
+      "37608911",
+      "44182609"
+    ],
+    "genus": "2",
+    "bridge_identity": "proved",
+    "quadratic_factors": [
+      "529*x^2 + 49",
+      "289*x^2 - 322*x + 289",
+      "289*x^2 + 322*x + 289"
+    ],
+    "jac_two_torsion_rational": "(Z/2)^2",
+    "bad_primes_of_model": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      17,
+      23,
+      37,
+      1213,
+      9397
+    ],
+    "status": "proved"
+  },
+  "maps": {
+    "phi1": "(a6*x^2, a6*y)",
+    "phi2": "(a0/x^2, a0*y/x^3)",
+    "E1_ainvs_raw": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "E2_ainvs_raw": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "symbolic_identity_phi1": "proved, cofactor a6^2",
+    "symbolic_identity_phi2": "proved, cofactor a0^2",
+    "phi1_quotient_by": "sigma(x,y)=(-x,y)",
+    "phi2_quotient_by": "tau(x,y)=(-x,-y)",
+    "degrees": [
+      "2",
+      "2"
+    ],
+    "pullback_differentials": [
+      "x dx / y",
+      "- dx / y"
+    ],
+    "numeric_substitutions": [
+      [
+        "2",
+        "y^2 only",
+        true
+      ],
+      [
+        "3",
+        "y^2 only",
+        true
+      ],
+      [
+        "1/2",
+        "y^2 only",
+        true
+      ],
+      [
+        "-5/3",
+        "y^2 only",
+        true
+      ],
+      [
+        "7",
+        "y^2 only",
+        true
+      ],
+      [
+        "-11/7",
+        "y^2 only",
+        true
+      ]
+    ],
+    "status": "proved"
+  },
+  "E2": {
+    "ainvs_raw": [
+      "0",
+      "47287151",
+      "0",
+      "153915558925919",
+      "740005399550399109169"
+    ],
+    "ainvs_min": [
+      "0",
+      "-1",
+      "0",
+      "-591442657639681",
+      "6146344290377784993025"
+    ],
+    "X_min_minus_X_raw": 15762384,
+    "conductor": "14405924506384320",
+    "conductor_factored": "2^6 * 3 * 5 * 7 * 13 * 17 * 23 * 37 * 1213 * 9397",
+    "disc_min_factored": "-1 * 2^20 * 3^2 * 5^2 * 7^6 * 13^2 * 17^8 * 23^2 * 37^2 * 1213^2 * 9397^2",
+    "torsion_invariants": [
+      2
+    ],
+    "torsion_generator": "(-28420225 : 0 : 1)",
+    "generator_min_model": "(-2479007 : 87162492480 : 1)",
+    "generator_raw_model": "[-18241391, 87162492480]",
+    "canonical_height": "2.11883385954680",
+    "eclib": {
+      "rank": 1,
+      "rank_bound": 1,
+      "certain": true,
+      "selmer_rank": 2,
+      "gens": [
+        "[-2479007, 87162492480, 1]"
+      ]
+    },
+    "pari_ellrank_interval": [
+      1,
+      1
+    ],
+    "eclib_saturation_index": 1,
+    "eclib_saturation_index_bound_CAPTURED": 10,
+    "eclib_saturation_primes_checked_CAPTURED": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "gens_proof_true": [
+      "(-2479007 : 87162492480 : 1)"
+    ],
+    "provable_min_canonical_height": "0.00532597915916999",
+    "q_bound_from_height": 19,
+    "independent_nondivisibility_certificates": {
+      "2": {
+        "P": {
+          "p": 11,
+          "group": [
+            10
+          ],
+          "discrete_log": [
+            9
+          ],
+          "reason": "image not in 2*E(F_11)"
+        },
+        "P+T": {
+          "p": 29,
+          "group": [
+            2,
+            12
+          ],
+          "discrete_log": [
+            5,
+            1
+          ],
+          "reason": "image not in 2*E(F_29)"
+        }
+      },
+      "3": {
+        "P": {
+          "p": 31,
+          "group": [
+            24
+          ],
+          "discrete_log": [
+            11
+          ],
+          "reason": "image not in 3*E(F_31)"
+        }
+      },
+      "5": {
+        "P": {
+          "p": 11,
+          "group": [
+            10
+          ],
+          "discrete_log": [
+            9
+          ],
+          "reason": "image not in 5*E(F_11)"
+        }
+      },
+      "7": {
+        "P": {
+          "p": 79,
+          "group": [
+            70
+          ],
+          "discrete_log": [
+            26
+          ],
+          "reason": "image not in 7*E(F_79)"
+        }
+      },
+      "11": {
+        "P": {
+          "p": 83,
+          "group": [
+            88
+          ],
+          "discrete_log": [
+            39
+          ],
+          "reason": "image not in 11*E(F_83)"
+        }
+      },
+      "13": {
+        "P": {
+          "p": 151,
+          "group": [
+            156
+          ],
+          "discrete_log": [
+            144
+          ],
+          "reason": "image not in 13*E(F_151)"
+        }
+      },
+      "17": {
+        "P": {
+          "p": 53,
+          "group": [
+            2,
+            34
+          ],
+          "discrete_log": [
+            5,
+            1
+          ],
+          "reason": "image not in 17*E(F_53)"
+        }
+      },
+      "19": {
+        "P": {
+          "p": 421,
+          "group": [
+            2,
+            228
+          ],
+          "discrete_log": [
+            174,
+            1
+          ],
+          "reason": "image not in 19*E(F_421)"
+        }
+      }
+    },
+    "division_points": {
+      "2": {
+        "P": [],
+        "P+T": []
+      },
+      "3": {
+        "P": [],
+        "P+T": []
+      },
+      "5": {
+        "P": [],
+        "P+T": []
+      },
+      "7": {
+        "P": [],
+        "P+T": []
+      }
+    },
+    "basis_statement": "E2(Q) = <P2> (+) <T2>, P2 бесконечного порядка, T2 порядка 2",
+    "saturated": true,
+    "status": "proved_software",
+    "status_note": "ранг 1 подтверждён двумя независимыми реализациями (eclib certain=True, PARI ellrank [1,1]); насыщенность подтверждена (i) eclib saturation с его собственной строгой границей индекса, (ii) независимо: доказуемой нижней границей высоты плюс сертификаты неделимости mod p для всех q до этой границы"
+  },
+  "E1": {
+    "ainvs_raw": [
+      "0",
+      "37608911",
+      "0",
+      "2089269703356959",
+      "7989037884942063852049"
+    ],
+    "ainvs_min": [
+      "0",
+      "-1",
+      "0",
+      "1617792974488319",
+      "-14262298467262390622975"
+    ],
+    "X_min_minus_X_raw": 12536304,
+    "torsion_invariants": [
+      2
+    ],
+    "torsion_generator": "(8443775 : 0 : 1)",
+    "generator_min_model": "(34384993 : 286391046720 : 1)",
+    "generator_raw_model": "[21848689, 286391046720]",
+    "canonical_height": "1.94633297014005",
+    "eclib": {
+      "rank": 1,
+      "rank_bound": 1,
+      "certain": true
+    },
+    "eclib_saturation_index": 1,
+    "eclib_saturation_index_bound_CAPTURED": 4,
+    "eclib_saturation_primes_checked_CAPTURED": [
+      2,
+      3
+    ],
+    "provable_min_canonical_height": "0.0274785559220549",
+    "q_bound_from_height": 8,
+    "independent_nondivisibility_certificates": {
+      "2": {
+        "P": {
+          "p": 11,
+          "group": [
+            14
+          ],
+          "discrete_log": [
+            3
+          ],
+          "reason": "image not in 2*E(F_11)"
+        },
+        "P+T": {
+          "p": 29,
+          "group": [
+            2,
+            16
+          ],
+          "discrete_log": [
+            14,
+            1
+          ],
+          "reason": "image not in 2*E(F_29)"
+        }
+      },
+      "3": {
+        "P": {
+          "p": 19,
+          "group": [
+            12
+          ],
+          "discrete_log": [
+            4
+          ],
+          "reason": "image not in 3*E(F_19)"
+        }
+      },
+      "5": {
+        "P": {
+          "p": 31,
+          "group": [
+            40
+          ],
+          "discrete_log": [
+            29
+          ],
+          "reason": "image not in 5*E(F_31)"
+        }
+      },
+      "7": {
+        "P": {
+          "p": 11,
+          "group": [
+            14
+          ],
+          "discrete_log": [
+            3
+          ],
+          "reason": "image not in 7*E(F_11)"
+        }
+      },
+      "11": {
+        "P": {
+          "p": 83,
+          "group": [
+            88
+          ],
+          "discrete_log": [
+            81
+          ],
+          "reason": "image not in 11*E(F_83)"
+        }
+      },
+      "13": {
+        "P": {
+          "p": 199,
+          "group": [
+            182
+          ],
+          "discrete_log": [
+            58
+          ],
+          "reason": "image not in 13*E(F_199)"
+        }
+      }
+    },
+    "basis_statement": "E1(Q) = <P1> (+) <T1>, T1 порядка 2",
+    "saturated": true,
+    "status": "proved_software"
+  },
+  "Psi_Phi": {
+    "Psi": "(phi1_*, phi2_*) : Jac(D) -> E1 x E2  ((2,2)-изогения, deg 4)",
+    "Phi": "phi1^* + phi2^* : E1 x E2 -> Jac(D)  (deg 4)",
+    "Psi_after_Phi": "[2]",
+    "cross_terms_vanish": "тождественно, прямой расчёт на дивизорах (не нужна гипотеза Hom=0)",
+    "second_argument_non_isogenous": {
+      "p": 11,
+      "a_p(E1)": -2,
+      "a_p(E2)": 2
+    },
+    "numeric_checks": [
+      [
+        "(34384993 : 286391046720 : 1)",
+        true
+      ],
+      [
+        "(79052833 : -779524000320 : 1)",
+        true
+      ],
+      [
+        "(2688984502492657/10804369 : -141183938960016137400000/35513960903 : 1)",
+        true
+      ],
+      [
+        "(1608446359619377/100140049 : 126226678037784425400000/1002101470343 : 1)",
+        true
+      ]
+    ],
+    "status": "proved"
+  },
+  "image_of_Jac": {
+    "Psi": "(phi1_*, phi2_*) : Jac(D) -> E1 x E2",
+    "lower_containment": {
+      "statement": "Psi(Jac(D)(Q)) содержит 2*(E1(Q)xE2(Q)) + <(T1,T2)>",
+      "reason_1": "Psi o Phi = [2], крест-члены обнулены тождественно",
+      "reason_2": "класс 2-кручения [W(289x^2-322x+289) - inf+ - inf-] in Jac(D)(Q) даёт (T1,T2)",
+      "verified_over": "Q(i)",
+      "status": "proved"
+    },
+    "upper_containment": {
+      "method": "редукция mod p: z in Jac(D)(Q) => Psi(z) mod p in Psi(Jac(D)(F_p))",
+      "primes_used": [
+        11,
+        19,
+        29,
+        31,
+        41,
+        43,
+        47,
+        53,
+        59,
+        61,
+        67,
+        71,
+        73,
+        79,
+        83,
+        89,
+        97
+      ],
+      "per_prime": [
+        {
+          "p": 11,
+          "num_D_Fp": 12,
+          "card_E1xE2_Fp": 140,
+          "card_image": 70,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 19,
+          "num_D_Fp": 12,
+          "card_E1xE2_Fp": 240,
+          "card_image": 120,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 29,
+          "num_D_Fp": 26,
+          "card_E1xE2_Fp": 768,
+          "card_image": 192,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 31,
+          "num_D_Fp": 32,
+          "card_E1xE2_Fp": 960,
+          "card_image": 480,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 41,
+          "num_D_Fp": 38,
+          "card_E1xE2_Fp": 1536,
+          "card_image": 384,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 43,
+          "num_D_Fp": 52,
+          "card_E1xE2_Fp": 2300,
+          "card_image": 1150,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 47,
+          "num_D_Fp": 64,
+          "card_E1xE2_Fp": 3132,
+          "card_image": 1566,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 53,
+          "num_D_Fp": 66,
+          "card_E1xE2_Fp": 3536,
+          "card_image": 884,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 59,
+          "num_D_Fp": 60,
+          "card_E1xE2_Fp": 3596,
+          "card_image": 1798,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 61,
+          "num_D_Fp": 82,
+          "card_E1xE2_Fp": 5184,
+          "card_image": 1296,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 67,
+          "num_D_Fp": 60,
+          "card_E1xE2_Fp": 4032,
+          "card_image": 2016,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 71,
+          "num_D_Fp": 80,
+          "card_E1xE2_Fp": 5772,
+          "card_image": 2886,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 73,
+          "num_D_Fp": 78,
+          "card_E1xE2_Fp": 5760,
+          "card_image": 1440,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 79,
+          "num_D_Fp": 72,
+          "card_E1xE2_Fp": 5740,
+          "card_image": 2870,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 83,
+          "num_D_Fp": 92,
+          "card_E1xE2_Fp": 7744,
+          "card_image": 3872,
+          "local_index": 2,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "2"
+        },
+        {
+          "p": 89,
+          "num_D_Fp": 94,
+          "card_E1xE2_Fp": 8400,
+          "card_image": 2100,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "0",
+              "1",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "1",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "0",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        },
+        {
+          "p": 97,
+          "num_D_Fp": 102,
+          "card_E1xE2_Fp": 10000,
+          "card_image": 2500,
+          "local_index": 4,
+          "surviving_classes": [
+            [
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1",
+              "0",
+              "1"
+            ],
+            [
+              "1",
+              "0",
+              "1",
+              "0"
+            ],
+            [
+              "1",
+              "1",
+              "1",
+              "1"
+            ]
+          ],
+          "predicted_local_index": "4"
+        }
+      ],
+      "self_checks": [
+        "S -- подгруппа (300 случайных пар на каждое p)",
+        "2*(E1xE2)(F_p) содержится в S",
+        "#D(F_p) = p + 1 - a_p(E1) - a_p(E2)"
+      ],
+      "surviving_classes": [
+        [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "1"
+        ]
+      ],
+      "status": "proved_software"
+    },
+    "kernel_of_Psi": {
+      "order": "4",
+      "description": "K = {0, [W(529x^2+49)-Dinf], [{beta,-beta}-Dinf], [{bbar,-bbar}-Dinf]}, beta -- корень 289x^2-322x+289",
+      "K_over_Q": "Z/2 (только [W(529x^2+49)-Dinf] рационален)",
+      "local_index_formula": "|K(F_p)| = 4 если p = 1 mod 4, иначе 2",
+      "formula_matches_all_computed_local_indices": true,
+      "status": "proved (сверено с брутфорсом на всех использованных p)"
+    },
+    "exact_image_determined": true,
+    "index_in_product": "8",
+    "index_divides": "8",
+    "index_divides_unconditionally": "16",
+    "membership_rule": "(m1*P1 + e1*T1, m2*P2 + e2*T2) in Psi(Jac(D)(Q))  <=>  m1 = 0 mod 2, m2 = 0 mod 2, e1 = e2",
+    "warning": "E1(Q) x E2(Q) -- НАДмножество образа. Брать всё произведение как область решета безопасно (можно недоисключить, но нельзя исключить лишнее). Обратное (считать произведение равным образу) НЕ обосновано и здесь опровергнуто: индекс 8."
+  },
+  "known_points_control": {
+    "points": [
+      {
+        "point": [
+          "0",
+          "2023"
+        ],
+        "t": "t=1",
+        "phi1": "(12536304 : 89381418007 : 1)",
+        "phi2": "O",
+        "phi1_coords_(m,e)": [
+          -2,
+          "0"
+        ],
+        "Psi_minus_base_phi2_coords": [
+          2,
+          "0"
+        ],
+        "passes_sieve_condition": true
+      },
+      {
+        "point": [
+          "0",
+          "-2023"
+        ],
+        "t": "t=1",
+        "phi1": "(12536304 : -89381418007 : 1)",
+        "phi2": "O",
+        "phi1_coords_(m,e)": [
+          2,
+          "0"
+        ],
+        "Psi_minus_base_phi2_coords": [
+          2,
+          "0"
+        ],
+        "passes_sieve_condition": true
+      },
+      {
+        "point": [
+          "infty",
+          "1*6647"
+        ],
+        "t": "t=-1",
+        "phi1": "O",
+        "phi2": "(15762384 : 27203040263 : 1)",
+        "phi2_coords_(m,e)": [
+          -2,
+          "0"
+        ],
+        "Psi_minus_base_phi2_coords": [
+          "0",
+          "0"
+        ],
+        "passes_sieve_condition": true
+      },
+      {
+        "point": [
+          "infty",
+          "-1*6647"
+        ],
+        "t": "t=-1",
+        "phi1": "O",
+        "phi2": "(15762384 : -27203040263 : 1)",
+        "phi2_coords_(m,e)": [
+          2,
+          "0"
+        ],
+        "Psi_minus_base_phi2_coords": [
+          4,
+          "0"
+        ],
+        "passes_sieve_condition": true
+      }
+    ],
+    "all_pass": true,
+    "base_point_for_Abel_Jacobi": "inf+",
+    "status": "proved_software"
+  },
+  "compatibility": {
+    "X1raw_times_X2raw": "180818608628161",
+    "X1raw_times_X2raw_factored": "7^2 * 17^8 * 23^2",
+    "in_minimal_coords": "(X1min - 12536304)*(X2min - 15762384) = 180818608628161",
+    "Y1_over_Y2": "a6*x^3/a0",
+    "x_recovered": "x = a0*Y1/(X1raw*Y2)",
+    "degenerate_cases": {
+      "x=0": "phi2(z)=O, X1raw=0",
+      "x=infty": "phi1(z)=O, X2raw=0"
+    },
+    "note": "поточечное тождество, не зависит от индекса образа Jac(D)(Q)",
+    "status": "proved"
+  },
+  "sieve_input": {
+    "group_to_sieve_over": "E1(Q) x E2(Q) = (<P1> (+) <T1>) x (<P2> (+) <T2>)",
+    "generators": {
+      "P1": "(34384993 : 286391046720 : 1)",
+      "T1": "(8443775 : 0 : 1)",
+      "P2": "(-2479007 : 87162492480 : 1)",
+      "T2": "(-28420225 : 0 : 1)"
+    },
+    "heights": {
+      "hhat_P1": "1.94633297014005",
+      "hhat_P2": "2.11883385954680"
+    },
+    "constraint_A_unconditional": "(X1raw)*(X2raw) = 180818608628161",
+    "constraint_B_from_index": "для z in D(Q): phi1(z) = m1 P1 + e1 T1, phi2(z) = m2 P2 + e2 T2 => m1 = 0 mod 2, m2 = 0 mod 2, e1 = e2",
+    "constraint_B_status": "proved_software (локальные препятствия mod p, §6)",
+    "constraint_B_reduction_factor": "8",
+    "control_passed": true,
+    "must_not_do": "нельзя исключать кандидата на основании предположения, что образ Jac(D)(Q) совпадает со всем E1(Q)xE2(Q); и нельзя объявлять неудалённого кандидата рациональной точкой"
+  }
+}

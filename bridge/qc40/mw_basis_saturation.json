@@ -1,0 +1,90 @@
+{
+  "title": "Full Mordell-Weil basis and saturation certificate for the two elliptic factors of the mixed genus-2 bridge D of G1(15,8)",
+  "generated_by": "bridge/qc40/check_generators_sage.sage + eclib saturation with verbose=True, Sage 10.9",
+  "WARNING_MODEL": "The 'gens' recorded in new_bridge_verified.json are points of the MINIMAL models. The maps phi1 = (a6 x^2, a6 y) and phi2 = (a0/x^2, a0 y/x^3) land on the RAW models below. Feeding a minimal-model point to phi_i, or comparing a phi_i image with a minimal-model generator, is an error. The two models differ by an integral translation of X only (u=1, s=t=0), the discriminants are equal, and canonical heights agree.",
+  "curve_f": "44182609*x^6 + 37608911*x^4 + 47287151*x^2 + 4092529",
+  "a0_a2_a4_a6": ["4092529", "47287151", "37608911", "44182609"],
+  "E1": {
+    "role": "target of phi1 = (a6*x^2, a6*y)",
+    "raw_ainvs": [0, 37608911, 0, 2089269703356959, 7989037884942063852049],
+    "raw_equation": "Y^2 = X^3 + a4*X^2 + a2*a6*X + a0*a6^2",
+    "minimal_ainvs": [0, -1, 0, 1617792974488319, -14262298467262390622975],
+    "iso_raw_to_minimal_urst": [1, -12536304, 0, 0],
+    "discriminant_ratio_raw_over_minimal": 1,
+    "conductor": "14405924506384320",
+    "conductor_primes": [2, 3, 5, 7, 13, 17, 23, 37, 1213, 9397],
+    "rank": 1,
+    "rank_lower_bound_from_explicit_point": 1,
+    "rank_upper_bound_eclib_rank_bound": 1,
+    "rank_pari_ellrank": "[1, 1, 0, [[21848689, 286391046720]]]",
+    "root_number": -1,
+    "selmer_rank_2_descent": 2,
+    "selmer_rank_minus_E2_torsion_rank": 1,
+    "generator_raw_model": ["21848689", "286391046720"],
+    "generator_minimal_model": ["34384993", "286391046720"],
+    "canonical_height": "1.94633297014005",
+    "regulator": "1.94633297014005",
+    "torsion_invariants": [2],
+    "torsion_points_raw_model": ["(0 : 1 : 0)", "(-4092529 : 0 : 1)"],
+    "torsion_point_is_minus_a0": true,
+    "saturation": {
+      "index": 1,
+      "eclib_saturation_index_bound_good_reduction": 4,
+      "tamagawa_index_primes": [2, 3],
+      "primes_checked": [2, 3],
+      "proof_detail": {
+        "2": "proved 2-saturated, max auxiliary prime q used = 29",
+        "3": "proved 3-saturated, max auxiliary prime q used = 19"
+      },
+      "conclusion": "E1(Q) = Z*(21848689, 286391046720)  (+)  Z/2*(-4092529, 0)   on the RAW model"
+    }
+  },
+  "E2": {
+    "role": "target of phi2 = (a0/x^2, a0*y/x^3)",
+    "raw_ainvs": [0, 47287151, 0, 153915558925919, 740005399550399109169],
+    "raw_equation": "Y^2 = X^3 + a2*X^2 + a0*a4*X + a0^2*a6",
+    "minimal_ainvs": [0, -1, 0, -591442657639681, 6146344290377784993025],
+    "iso_raw_to_minimal_urst": [1, -15762384, 0, 0],
+    "discriminant_ratio_raw_over_minimal": 1,
+    "conductor": "14405924506384320",
+    "conductor_primes": [2, 3, 5, 7, 13, 17, 23, 37, 1213, 9397],
+    "rank": 1,
+    "rank_lower_bound_from_explicit_point": 1,
+    "rank_upper_bound_eclib_rank_bound": 1,
+    "rank_pari_ellrank": "[1, 1, 0, [[-18241391, 87162492480]]]",
+    "root_number": -1,
+    "selmer_rank_2_descent": 2,
+    "selmer_rank_minus_E2_torsion_rank": 1,
+    "generator_raw_model": ["-18241391", "87162492480"],
+    "generator_minimal_model": ["-2479007", "87162492480"],
+    "canonical_height": "2.11883385954680",
+    "regulator": "2.11883385954680",
+    "torsion_invariants": [2],
+    "torsion_points_raw_model": ["(0 : 1 : 0)", "(-44182609 : 0 : 1)"],
+    "torsion_point_is_minus_a6": true,
+    "saturation": {
+      "index": 1,
+      "eclib_saturation_index_bound_good_reduction": 10,
+      "tamagawa_index_primes": [2, 3],
+      "primes_checked": [2, 3, 5, 7],
+      "proof_detail": {
+        "2": "proved 2-saturated, max auxiliary prime q used = 29",
+        "3": "proved 3-saturated, max auxiliary prime q used = 29",
+        "5": "proved 5-saturated, max auxiliary prime q used = 11",
+        "7": "proved 7-saturated, max auxiliary prime q used = 79"
+      },
+      "conclusion": "E2(Q) = Z*(-18241391, 87162492480)  (+)  Z/2*(-44182609, 0)   on the RAW model"
+    }
+  },
+  "status_labels": {
+    "rank_1_both_factors": "proved (software): rank >= 1 from an explicit point of infinite height; rank <= 1 from eclib rank_bound (complete 2-descent Selmer bound), independently [1,1] from PARI ellrank",
+    "torsion_Z2_both_factors": "proved (software): Sage torsion_subgroup",
+    "saturation_index_1": "proved (software): eclib saturation with the default proven index bound; every prime up to that bound checked, see proof_detail",
+    "caveat": "All of the above is machine proof by PARI/eclib/Sage. It has NOT been reproduced by a second independent implementation (no Magma run)."
+  },
+  "not_established": [
+    "This file says nothing about D(Q).",
+    "Equality of phi1(Jac(D)(Q)) x phi2(Jac(D)(Q)) with E1(Q) x E2(Q) is NOT claimed; no sieve exclusion may rest on such an equality.",
+    "Sha(E_i) is not computed; it is not needed for the rank bound used here, which comes from the 2-Selmer group."
+  ]
+}

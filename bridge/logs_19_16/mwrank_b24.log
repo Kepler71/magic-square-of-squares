@@ -1,0 +1,256 @@
+Program mwrank: uses 2-descent (via 2-isogeny if possible) to
+determine the rank of an elliptic curve E over Q, and list a
+set of points that generate E(Q) modulo 2E(Q).
+and finally saturate to obtain generating points on the curve.
+For more details see the mwrank documentation.
+For details of algorithms see the author's book.
+
+Please acknowledge use of this program in published work, 
+and send problems to [адрес автора программы убран из публикации].
+
+eclib version 20250627, using NTL bigints and NTL real and complex multiprecision floating point
+Using multiprecision floating point with 50 bits precision.
+Enter curve: Curve [0,0,0,-1613212693425900,7222574158576522830000] :	
+3 points of order 2:
+[-42239820:0:1], [4534950:0:1], [37704870:0:1]
+
+****************************
+* Using 2-isogeny number 1 *
+****************************
+
+(c,d)  =(-126719460,3739394487471300)
+(c',d')=(253438920,1100243592806400)
+Using 2-isogenous curve [0,253438920,0,1100243592806400,0] (minimal model [0,0,0,-1269386570673900,17388781634016192078000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+Finding els gens for E (c= -126719460, d= 3739394487471300)
+Support (length 7): [ -1 2 3 5 7 19 617 ]
+Adding (torsion) els generator #1: d1 = 617
+Adding els generator #2: d1 = 2
+Adding els generator #3: d1 = 105
+After els sieving, nelsgens = 3
+2-rank of S^{phi}(E') = 3
+(els)gens: [ 617 2 105 ]
+
+Finding els gens for E' (c'= 253438920, d'= 1100243592806400)
+Support (length 6): [ -1 2 3 5 7 617 ]
+Adding els generator #1: d1 = -14
+Adding els generator #2: d1 = 1234
+After els sieving, nelsgens = 2
+2-rank of S^{phi'}(E) = 2
+(els)gens: [ -14 1234 ]
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	3
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+Finding els2 gens for E (c= -126719460, d= 3739394487471300) which lift to S^2(E)
+Adding (torsion) els2 generator #1: d1 = 617
+Adding els2 generator #2: d1 = 2
+Adding els2 generator #3: d1 = 105
+After els2 sieving, nels2gens = 3
+2-rank of phi'(S^2(E)) = 3
+(els2)gens: [ 617 2 105 ]
+
+Finding els2 gens for E' (c'= 253438920, d'= 1100243592806400) which lift to S^2(E')
+After els2 sieving, nels2gens = 0
+2-rank of phi(S^2(E')) = 0
+After second local descent, rank bound = 1
+rk(phi'(S^{2}(E)))=	3
+rk(phi(S^{2}(E')))=	0
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	2
+
+****************************
+* Using 2-isogeny number 2 *
+****************************
+
+(c,d)  =(13604850,-1551515378918400)
+(c',d')=(-27209700,6391153459196100)
+Using 2-isogenous curve [0,-27209700,0,6391153459196100,0] (minimal model [0,0,0,6144364201166100,56474886831958509390000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+Finding els gens for E (c= 13604850, d= -1551515378918400)
+Support (length 7): [ -1 2 3 5 7 19 617 ]
+Adding (torsion) els generator #1: d1 = -129570
+Adding (torsion) els generator #2: d1 = -1
+Adding els generator #3: d1 = 30
+Adding els generator #4: d1 = 14
+After els sieving, nelsgens = 4
+2-rank of S^{phi}(E') = 4
+(els)gens: [ -129570 -1 30 14 ]
+
+Finding els gens for E' (c'= -27209700, d'= 6391153459196100)
+Support (length 6): [ -1 2 3 5 7 617 ]
+Adding els generator #1: d1 = 1234
+After els sieving, nelsgens = 1
+2-rank of S^{phi'}(E) = 1
+(els)gens: [ 1234 ]
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+Finding els2 gens for E (c= 13604850, d= -1551515378918400) which lift to S^2(E)
+Adding (torsion) els2 generator #1: d1 = -129570
+Adding (torsion) els2 generator #2: d1 = -1
+Adding els2 generator #3: d1 = 30
+Adding els2 generator #4: d1 = 14
+After els2 sieving, nels2gens = 4
+2-rank of phi'(S^2(E)) = 4
+(els2)gens: [ -129570 -1 30 14 ]
+
+Finding els2 gens for E' (c'= -27209700, d'= 6391153459196100) which lift to S^2(E')
+Adding els2 generator #1: d1 = 1234
+After els2 sieving, nels2gens = 1
+2-rank of phi(S^2(E')) = 1
+(els2)gens: [ 1234 ]
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 3 *
+****************************
+
+(c,d)  =(113114610,2651758971724800)
+(c',d')=(-226229220,2187879108552900)
+Using 2-isogenous curve [0,-226229220,0,2187879108552900,0] (minimal model [0,0,0,-14872007552049900,-692667016942944295602000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+Finding els gens for E (c= 113114610, d= 2651758971724800)
+Support (length 6): [ -1 2 3 5 7 617 ]
+Adding (torsion) els generator #1: d1 = -210
+Adding (torsion) els generator #2: d1 = 617
+Adding els generator #3: d1 = 2
+Adding els generator #4: d1 = 15
+After els sieving, nelsgens = 4
+2-rank of S^{phi}(E') = 4
+(els)gens: [ -210 617 2 15 ]
+
+Finding els gens for E' (c'= -226229220, d'= 2187879108552900)
+Support (length 7): [ -1 2 3 5 7 19 617 ]
+Adding els generator #1: d1 = 1234
+After els sieving, nelsgens = 1
+2-rank of S^{phi'}(E) = 1
+(els)gens: [ 1234 ]
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+Finding els2 gens for E (c= 113114610, d= 2651758971724800) which lift to S^2(E)
+Adding (torsion) els2 generator #1: d1 = -210
+Adding (torsion) els2 generator #2: d1 = 617
+Adding els2 generator #3: d1 = 2
+Adding els2 generator #4: d1 = 15
+After els2 sieving, nels2gens = 4
+2-rank of phi'(S^2(E)) = 4
+(els2)gens: [ -210 617 2 15 ]
+
+Finding els2 gens for E' (c'= -226229220, d'= 2187879108552900) which lift to S^2(E')
+Adding els2 generator #1: d1 = 1234
+After els2 sieving, nels2gens = 1
+2-rank of phi(S^2(E')) = 1
+(els2)gens: [ 1234 ]
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+Rerunning the local descent for isogeny number 1, which gave the best upper bound on the rank
+(c,d)  =(-126719460,3739394487471300)
+(c',d')=(253438920,1100243592806400)
+Using 2-isogenous curve [0,253438920,0,1100243592806400,0] (minimal model [0,0,0,-1269386570673900,17388781634016192078000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+Finding els gens for E (c= -126719460, d= 3739394487471300)
+Support (length 7): [ -1 2 3 5 7 19 617 ]
+Adding (torsion) els generator #1: d1 = 617
+Adding els generator #2: d1 = 2
+Adding els generator #3: d1 = 105
+After els sieving, nelsgens = 3
+2-rank of S^{phi}(E') = 3
+(els)gens: [ 617 2 105 ]
+
+Finding els gens for E' (c'= 253438920, d'= 1100243592806400)
+Support (length 6): [ -1 2 3 5 7 617 ]
+Adding els generator #1: d1 = -14
+Adding els generator #2: d1 = 1234
+After els sieving, nelsgens = 2
+2-rank of S^{phi'}(E) = 2
+(els)gens: [ -14 1234 ]
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	3
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+Finding els2 gens for E (c= -126719460, d= 3739394487471300) which lift to S^2(E)
+Adding (torsion) els2 generator #1: d1 = 617
+Adding els2 generator #2: d1 = 2
+Adding els2 generator #3: d1 = 105
+After els2 sieving, nels2gens = 3
+2-rank of phi'(S^2(E)) = 3
+(els2)gens: [ 617 2 105 ]
+
+Finding els2 gens for E' (c'= 253438920, d'= 1100243592806400) which lift to S^2(E')
+After els2 sieving, nels2gens = 0
+2-rank of phi(S^2(E')) = 0
+After second local descent, rank bound = 1
+rk(phi'(S^{2}(E)))=	3
+rk(phi(S^{2}(E')))=	0
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	2
+
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(-126719460,3739394487471300)
+(c',d')=(253438920,1100243592806400)
+Adding (torsion) gls generator #1: d1 = 617
+First stage (no second descent yet)...
+(2,0,-126719460,0,1869697243735650):  no rational point found (hlim=8)
+(1234,0,-126719460,0,3030303474450):  no rational point found (hlim=8)
+(105,0,-126719460,0,35613280833060):  no rational point found (hlim=8)
+(64785,0,-126719460,0,57720066180):  no rational point found (hlim=8)
+(210,0,-126719460,0,17806640416530):  (x:y:z) = (617:0:1)
+	Curve E 	Point [79944690:0:1], height = 0
+Adding gls generator #2: d1 = 210
+After first global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+Second descent will attempt to reduce this
+
+Second stage (using second descent)...
+d1=2: Using desc2(2,-126719460,1869697243735650)
+supp=[ -1 2 3 5 7 617 ]; mask=48; bgens=[ -14 1234 ]
+d3= 1 passes Hilbert symbol tests
+Processing d3 = 1: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=5)
+d3= -1 passes Hilbert symbol tests
+Processing d3 = -1: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= 2 passes Hilbert symbol tests
+Processing d3 = 2: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Not locally soluble (p=3)
+d3= -2 passes Hilbert symbol tests
+Processing d3 = -2: 	q1=d3 is soluble.	q1=d3 and q3=d3 both soluble, forming quartic.
+Descendent quartic (after reduction) = (657049,-151968,4404636,-905211072,9870838884)
+Searching for points on gg up to height 24
