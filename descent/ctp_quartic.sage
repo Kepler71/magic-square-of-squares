@@ -332,17 +332,37 @@ class FisherCTP:
         # ВНИМАНИЕ: корни x-координат 2-кручения E_{I,J} равны Theta = -3 phi (проверка:
         #   (-3phi)^3 - 27 I (-3phi) - 27 J = -27(phi^3 - 3 I phi + J) = 0),
         # поэтому базис для разложения [.]_j — (1, Theta, Theta^2), Theta = -3 phi.
-        Rt = PolynomialRing(k, 't0,t1,t2'); t0, t1, t2 = Rt.gens()
+        # БАЗИС: берём k-базис L, СОГЛАСОВАННЫЙ с разложением L = prod F_i (через идемпотенты).
+        # Тогда c2(t) = Tr_{L/k}(delta t^2 / f'(Theta)) блочно-диагональна, её коэффициенты —
+        # S-единицы (delta и f'(e_i) поддержаны на S), и коника решается. В базисе (1,Theta,Theta^2)
+        # коэффициенты получаются огромными и задача становится неподъёмной.
+        Rt = PolynomialRing(k, 't0,t1,t2'); tg = Rt.gens()
         RtX = PolynomialRing(Rt, 'X')
         cub = RtX([Rt(c) for c in self.E.cub.list()])
         Lt = RtX.quotient(cub, 'th'); th = Lt.gen()
-        thx = -3 * th
         dl = self.E.coeffs(delta)
         dlt = Lt(RtX([Rt(c) for c in dl]))
-        tt = t0 + t1 * thx + t2 * thx ^ 2
+        BB = self._L_basis()
+        tt = sum(tg[j] * Lt(RtX([Rt(c) for c in BB[j]])) for j in range(3))
         pr = (dlt * tt * tt).lift()
         d = [Rt(pr[j]) for j in range(3)]
         return [d[0], -d[1] / 3, d[2] / 9]      # коэффициенты в базисе (1, Theta, Theta^2)
+
+    def _L_basis(self):
+        """ k-базис L, согласованный с разложением на компоненты-поля; возвращает (1,phi,phi^2)-координаты """
+        if hasattr(self, '_Lbas'):
+            return self._Lbas
+        out = []
+        for i, c in enumerate(self.E.comps):
+            for m in range(c['deg']):
+                vals = []
+                for i2, c2 in enumerate(self.E.comps):
+                    vals.append(c['r'] ^ m if i2 == i else c2['F'](0))
+                out.append(self.E.coeffs(self.E.from_comps(vals)))
+        assert len(out) == 3
+        assert matrix(self.k, out).is_invertible()
+        self._Lbas = out
+        return out
 
     def quartic_from_delta(self, delta, tag=None):
         """ бинарная квартика с инвариантами (I,J), представляющая класс delta в L^*/L^*2 """
@@ -513,7 +533,19 @@ class FisherCTP:
             if g[0] == 0:
                 break
             if g[1] != 0:
-                g = self.gl2(g, [[1, -g[1] / (4 * g[0])], [0, 1]])
+                # сдвиг: точный (b -> 0) может раздуть знаменатели, поэтому берём лучший из
+                # точного и округлённых вариантов по битовой мере
+                n0 = -g[1] / (4 * g[0])
+                bestt = g; bmt = self._msr(g)
+                for nn in (n0, self._round(n0), self._round(n0) + 1, self._round(n0) - 1):
+                    try:
+                        gt = self.gl2(g, [[1, nn], [0, 1]])
+                    except Exception:
+                        continue
+                    mt = self._msr(gt)
+                    if mt < bmt:
+                        bestt, bmt = gt, mt
+                g = bestt
             prec = self._prec_for(g)
             embs = self._emb_list()
             best = g; bm = self._msr(g)
@@ -929,6 +961,20 @@ class FisherCTP:
             return a0, s0
         if not hasattr(self, '_srcache'):
             self._srcache = {}
+        # (1) сначала пробуем ИЗВЕСТНОЕ множество простых (плохие простые кривой + малые):
+        # коэффициенты коники почти всегда лежат в k(S,2), а факторизовать их нормы (100+ цифр) нельзя
+        BS = getattr(self, 'base_S', None)
+        if BS:
+            try:
+                if not hasattr(self, '_bsdata'):
+                    self._bsdata = k.selmer_space(list(BS), 2)
+                V, gens, fromV, toV = self._bsdata
+                rep = k(fromV(toV(a0)))
+                q = a0 / rep
+                if q != 0 and q.is_square():
+                    return rep, s0 * q.sqrt()
+            except Exception:
+                pass
         nn = QQ(k(a0).norm())
         if (ZZ(nn.numerator()).nbits() + ZZ(nn.denominator()).nbits()) > 200:
             return a0, s0          # факторизация нормы неподъёмна — оставляем как есть

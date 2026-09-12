@@ -29,6 +29,7 @@ for i in which:
         Ep = EllipticCurve(k, [0, k(ap), 0, k(bp), 0])
         I, J = IJ_of_curve(Ep)
         F = FisherCTP(k, I, J); F.conic_verbose = True; F.conic_timeout = int(os.environ.get("CTO", "180"))
+        F.base_S = sorted(set(list(PD.S) + [P for q in primes(2, 60) for P in k.primes_above(q)]), key=lambda P: (P.norm(), str(P)))
         dl = deltas_partial(F, Ep, PD, PD.Sel)
         M, quart = ctp_matrix(F, dl, verbose=True, with_diag=True)
         n = M.nrows()

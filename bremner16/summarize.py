@@ -51,7 +51,7 @@ def canon(cells):
 
 
 SAL = canon(SALLOWS)
-pat = re.compile(r'HIT (\S+) \((?:P,Q|m,n)\)=\(([-\d]+),([-\d]+)\) [pt]=(\S+) nsq=(\d+) pos=(\w+) cells=\[(.*)\]')
+pat = re.compile(r'HIT (\S+) \((?:P,Q|m,n)\)=\(([-\d]+),([-\d]+)\) [pt]=(\S+) nsq=(\d+) (?:pos=(\w+) )?cells=\[(.*)\]')
 
 stats = {'pairs': 0, 'bases': 0, 'nocurve': 0, 'err': 0, 'timeout': 0, 'inc': 0}
 hits = {}
@@ -72,7 +72,7 @@ for fn in sys.argv[1:]:
         m = pat.search(line)
         if m:
             fam, A, B, t, nsq, pos, cells = m.groups()
-            cl = [Fraction(x.strip()) for x in cells.split(',')]
+            cl = [Fraction(x.strip().strip("'")) for x in cells.split(',')]
             key = canon(cl)
             hits.setdefault(key, []).append((fam, A, B, t, int(nsq), pos))
 
