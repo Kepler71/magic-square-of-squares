@@ -1,0 +1,88 @@
+=== d=10 roots=[0, 18, -11]: dim Sel^2 = 5
+  Фишер:  rank = 2, симметрия True, нулевая диагональ True; обратный порядок [((2, 4), 0, 0, True), ((0, 1), 0, 0, True), ((1, 4), 0, 0, True)]  (30s)
+[0 0 1 1 1]
+[0 0 0 0 0]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  Касселс: rank = 2  (1s)
+[0 0 1 1 1]
+[0 0 0 0 0]
+[1 0 0 1 0]
+[1 0 1 0 1]
+[1 0 0 1 0]
+  *** МАТРИЦЫ СОВПАЛИ: True; ранги 2 vs 2
+=== d=2 roots=[0, 30, -13]: dim Sel^2 = 5
+  Фишер:  rank = 2, симметрия True, нулевая диагональ True; обратный порядок [((1, 4), 1, 1, True), ((2, 4), 1, 1, True), ((1, 2), 0, 0, True)]  (13s)
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  Касселс: rank = 2  (1s)
+[0 1 1 0 1]
+[1 0 0 1 1]
+[1 0 0 1 1]
+[0 1 1 0 1]
+[1 1 1 1 0]
+  *** МАТРИЦЫ СОВПАЛИ: True; ранги 2 vs 2
+=== d=13 roots=[0, 31, -25]: dim Sel^2 = 5
+  Фишер:  rank = 2, симметрия True, нулевая диагональ True; обратный порядок [((0, 2), 0, 0, True), ((1, 4), 1, 1, True), ((1, 2), 0, 0, True)]  (18s)
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  Касселс: rank = 2  (1s)
+[0 0 0 1 1]
+[0 0 0 1 1]
+[0 0 0 1 1]
+[1 1 1 0 1]
+[1 1 1 1 0]
+  *** МАТРИЦЫ СОВПАЛИ: True; ранги 2 vs 2
+
+(10, [0, 18, -11], True)
+(2, [0, 30, -13], True)
+(13, [0, 31, -25], True)

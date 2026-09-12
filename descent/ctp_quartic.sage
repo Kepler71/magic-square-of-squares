@@ -1253,54 +1253,62 @@ class FisherCTP:
         for (x, z) in pts:
             if gamv(x, z) != 0:
                 return x, z
-        # (2) систематический поиск по дереву классов вычетов с ОТСЕЧЕНИЕМ.
-        # Для целой квартики G и класса x in c + P^n O: G(x) = G(c) + O(P^n), поэтому если
-        #     n - v(G(c)) >= 2 v(2) + 1,
-        # то квадратичный класс G(x) постоянен на классе: либо принимаем, либо класс мёртв.
-        # Мёртвые классы отбрасываются; живые ветвятся. g1 всюду локально разрешима => решение найдётся.
-        res = self._residues(pl)
-        if res is None:
-            # большое поле вычетов: расширенный случайный поиск (плотность решений ~1/2)
-            for it in range(60000):
-                j = random.randint(-3, 8)
-                cen = random.choice(centers + [k(0)])
-                x = cen + (k_rand(k, 10 ^ 6) * pl.pi ^ j if pl.kind == 'nf'
-                           else k(random.randint(-10 ^ 6, 10 ^ 6)) * QQ(pl.p) ^ j)
-                z = k(1)
-                v = quartic_eval(g1, x, z)
-                if v != 0 and pl.is_sq(v) and gamv(x, z) != 0:
-                    pts.append((x, z)); self._lpcache[key] = pts
-                    return x, z
-            raise RuntimeError(f"нет локальной точки при {pl.name} (большое поле вычетов)")
+        # (2) систематический поиск по дереву классов вычетов.
+        # Для целой квартики G и класса x in c + P^n O: G(x) = G(c) + O(P^n), поэтому при
+        #     n - v(G(c)) >= 2 v(2) + 1
+        # квадратичный класс G(x) постоянен на классе — класс либо принимается, либо мёртв.
+        # Ветвление идёт НЕ по всем вычетам (поле вычетов бывает порядка 10^13 и больше),
+        # а только по КОРНЯМ приведённого многочлена: для G_c(T) = G(c + pi^n T), m = min валюация
+        # его коэффициентов, Ghat = G_c/pi^m, ghat = Ghat mod P — валюация v(G_c(T)) превышает m
+        # лишь при ghat(T) = 0, значит живые подклассы отвечают корням ghat (их не больше 4).
+        # «Общий» случай (валюация не растёт) ловится случайными пробами внутри класса.
         pi = pl.pi if pl.kind == 'nf' else QQ(pl.p)
         e2 = (pl.val(k(2)) if pl.kind == 'nf' else QQ(2).valuation(pl.p))
         prec = 2 * e2 + 1
-        # целые модели (умножение на квадрат не меняет квадратичный класс)
         def integral(g):
             D = lcm([self._den(c) for c in g])
             return [c * D ^ 2 for c in g]
+        RT = PolynomialRing(k, 'T'); TT = RT.gen()
+        rf = pl.P.residue_field() if pl.kind == 'nf' else GF(pl.p)
+        RU = PolynomialRing(rf, 'u'); uu = RU.gen()
+        def redroots(poly):
+            try:
+                cs = [k(poly[t]) for t in range(poly.degree() + 1)]
+                vs = [pl.val(c) for c in cs if c != 0]
+                if not vs:
+                    return None
+                m = min(vs)
+                hat = [c / pi ^ m for c in cs]
+                ph = sum((rf(hat[t]) if pl.kind == 'nf' else rf(QQ(hat[t]))) * uu ^ t
+                         for t in range(len(hat)))
+                if ph == 0:
+                    return None
+                return [k(rf.lift(r)) if pl.kind == 'nf' else k(ZZ(r))
+                        for r in ph.roots(multiplicities=False)]
+            except Exception:
+                return None
         charts = [(integral(g1), False), (integral(list(reversed(g1))), True)]
         for gg, rev in charts:
+            gpoly = sum(gg[t] * TT ^ (4 - t) for t in range(5))
             live = [(k(0), 0)]
-            for depth in range(1, 60):
+            for depth in range(0, 60):
                 new = []
                 for (c, n) in live:
-                    for r in res:
-                        c2 = c + r * pi ^ n
-                        if rev and c2 == 0 and n == 0:
-                            continue
+                    for c2 in [c] + [c + pi ^ n * k_rand(k, 10 ^ 5) for _ in range(25)]:
                         val = quartic_eval(gg, c2, k(1))
                         x, z = (k(1), c2) if rev else (c2, k(1))
                         if val != 0 and pl.is_sq(val):
                             pts.append((x, z)); self._lpcache[key] = pts
                             if gamv(x, z) != 0:
                                 return x, z
-                            new.append((c2, n + 1)); continue
-                        if val == 0:
-                            new.append((c2, n + 1)); continue
-                        if (n + 1) - pl.val(val) >= prec:
-                            continue                       # класс мёртв
-                        new.append((c2, n + 1))
+                    val = quartic_eval(gg, c, k(1))
+                    if val != 0 and n - pl.val(val) >= prec:
+                        continue                        # класс мёртв
+                    rts = redroots(gpoly(c + pi ^ n * TT))
+                    if not rts:
+                        continue
+                    for r in rts:
+                        new.append((c + pi ^ n * r, n + 1))
                 live = new
                 if not live:
                     break
@@ -1546,6 +1554,7 @@ def ctp_matrix(F, deltas, verbose=True, with_diag=False, reps=1, sym_checks=3, c
     sym_ok = []
     pairs = [(i, j) for i in range(n) for j in range(i + 1, n)]
     random.shuffle(pairs)
+    pairs.sort(key=lambda t: 0 if M[t[0], t[1]] != 0 else 1)   # сперва НЕнулевые элементы
     for (i, j) in pairs[:int(sym_checks)]:
         vr, _ = F.pair(quart[(j,)], quart[(i,)], quart[(i, j)], reps=reps)
         ok = (GF(2)(vr) == M[i, j])
