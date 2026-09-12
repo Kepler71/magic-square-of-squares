@@ -1,0 +1,10 @@
+66b3: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+102b5: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+114c3: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+120a5: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+130b3: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+195a7: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+210c5: dim ell2cover = 3, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+210e5: dim ell2cover = 4, PARI s = 2, мой rank CTP = 2, OK  симм True диаг0 True (ранг 0..0)
+
+кривых с s>=1 проверено 8, расхождений 0

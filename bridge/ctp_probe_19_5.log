@@ -1,0 +1,59 @@
+s,b 193 1741825
+M (0, 0, 0, -766425627513, 254371088344251312)
+minimal roots [453936, -1009197, 555261]
+I,J 36788430120624 -439553240658866267136
+phis [-5447232, 12110364, -6663132]
+TARGET g1 = [1560984, -3890108, 104220, 2348424, 500256]
+TARGET ERROR Object of type Integer is not JSON serializable
+Traceback (most recent call last):
+  File "/tmp/sage_9c_e1ntz/ctp_probe_19_5ynuaw280.sage.py", line 60, in <module>
+    dump()
+    ~~~~^^
+  File "/tmp/sage_9c_e1ntz/ctp_probe_19_5ynuaw280.sage.py", line 52, in dump
+    (out / 'ctp_probe_19_5.json').write_text(json.dumps(record, indent=_sage_const_2 ) + '\n')
+                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Integer is not JSON serializable
+when serializing dict item 'm'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_9c_e1ntz/ctp_probe_19_5ynuaw280.sage.py", line 65, in <module>
+    dump()
+    ~~~~^^
+  File "/tmp/sage_9c_e1ntz/ctp_probe_19_5ynuaw280.sage.py", line 52, in dump
+    (out / 'ctp_probe_19_5.json').write_text(json.dumps(record, indent=_sage_const_2 ) + '\n')
+                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Integer is not JSON serializable
+when serializing dict item 'm'

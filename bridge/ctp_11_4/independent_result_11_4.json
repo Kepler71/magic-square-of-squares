@@ -1,0 +1,137 @@
+{
+  "pair": "(m,n) = (11,4)",
+  "verifier": "стандартный Python (fractions/math), без Sage, PARI и кода проекта",
+  "s": "137/2",
+  "b": 132616,
+  "M": "y^2 = x^3 - 4644297081900 x + 3655579703416830000",
+  "I": "222926259931200",
+  "J": "-6316841727504282240000",
+  "target_squareclass": [
+    1,
+    274,
+    274
+  ],
+  "z_g1_squareclass_verified": true,
+  "invariants_verified": true,
+  "Hessian_identities_verified": true,
+  "Fisher_gamma_verified": true,
+  "three_quartics_ELS_verified": true,
+  "ELS_places_checked": [
+    [
+      "11",
+      "137",
+      "2",
+      "3",
+      "5",
+      "7",
+      "real"
+    ],
+    [
+      "11",
+      "137",
+      "2",
+      "3",
+      "5",
+      "7",
+      "real"
+    ],
+    [
+      "11",
+      "137",
+      "2",
+      "29",
+      "3",
+      "5",
+      "563",
+      "7",
+      "real"
+    ]
+  ],
+  "required_places_Remark_3_3": [
+    "11",
+    "137",
+    "2",
+    "2531",
+    "3",
+    "5",
+    "7",
+    "real"
+  ],
+  "places_used": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "11",
+    "13",
+    "137",
+    "2531",
+    "real"
+  ],
+  "hilbert_symbols": {
+    "2": 1,
+    "3": 1,
+    "5": 1,
+    "7": 1,
+    "11": 1,
+    "13": 1,
+    "137": 1,
+    "2531": 1,
+    "real": -1
+  },
+  "places_with_minus_one": [
+    "real"
+  ],
+  "finite_hilbert_symbols_all_plus_one": true,
+  "hilbert_products_per_run": [
+    -1,
+    -1,
+    -1
+  ],
+  "pairing_value": -1,
+  "pairing_in_Q_mod_Z": "1/2",
+  "reverse_pair_g2_g1": 1,
+  "pair_g1_g3": 1,
+  "self_pair_g1_g1": 0,
+  "control_image_of_E_Q_pairs_trivially": [
+    {
+      "point_x": "1820070",
+      "class": [
+        "105",
+        "210",
+        "2"
+      ],
+      "pair_with_g2": 0
+    },
+    {
+      "point_x": "-2474220",
+      "class": [
+        "-28770",
+        "137",
+        "-210"
+      ],
+      "pair_with_g2": 0
+    },
+    {
+      "point_x": "1006950",
+      "class": [
+        "-1",
+        "28770",
+        "-28770"
+      ],
+      "pair_with_g2": 0
+    },
+    {
+      "point_x": "1467270",
+      "class": [
+        "28770",
+        "210",
+        "137"
+      ],
+      "pair_with_g2": 0
+    }
+  ],
+  "rank_bound_required": false,
+  "checks_passed": 254,
+  "conclusion_using_Fisher_Theorem_3_1": "<[g1],[g2]>_CT = -1 != 0, поэтому [g1] не лежит в образе E(Q)/2E(Q); значит класс (1,274,274) не достигается, конечных рациональных точек на C_(11,4) нет; бесконечность исключена тем, что s = 137/2 не квадрат. C_(11,4)(Q) = пусто."
+}

@@ -1,0 +1,26 @@
+E_min: Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+isogeny class size: 4   matrix:
+ [1 2 2 2]
+[2 1 4 4]
+[2 4 1 4]
+[2 4 4 1]   (0.0s)
+
+--- curve 0: Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+    tors: (2, 2)
+    mwrank: rank=1 bound=3 selmer=5 CERTAIN=False (0.3s)
+    PARI ellrank(3): [1, 1, 2, [[6609976, 16178953076]]] (0.1s)
+
+--- curve 1: Elliptic Curve defined by y^2 = x^3 - 4578080049900*x + 3770264556857358000 over Rational Field
+    tors: (2,)
+    mwrank: rank=1 bound=3 selmer=4 CERTAIN=False (0.2s)
+    PARI ellrank(3): [1, 1, 2, [[6607510, 16186385600]]] (0.1s)
+
+--- curve 2: Elliptic Curve defined by y^2 = x^3 + 3367963790100*x + 14950704222501390000 over Rational Field
+    tors: (2,)
+    mwrank: rank=1 bound=3 selmer=4 CERTAIN=False (0.2s)
+    PARI ellrank(3): [1, 1, 2, [[1068752344/169, 37359506584772/2197]]] (0.0s)
+
+--- curve 3: Elliptic Curve defined by y^2 = x^3 - 13716030465900*x - 14979375435861522000 over Rational Field
+    tors: (2,)
+    mwrank: rank=1 bound=3 selmer=4 CERTAIN=False (0.2s)
+    PARI ellrank(3): [1, 1, 2, [[6962776, 15069044276]]] (0.0s)

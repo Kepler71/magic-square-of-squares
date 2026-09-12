@@ -1,0 +1,390 @@
+ERR 546g2: AssertionError: вырожденная коника
+ERR 680a3: AssertionError: I(g) = 3489 != 55824
+ERR 726e4: AssertionError: вырожденная коника
+ERR 480f3: AssertionError: I(g) = 1441 != 23056
+798g1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 552e2: AssertionError: I(g) = 553 != 8848
+ERR 234c1: AssertionError: вырожденная коника
+ERR 312c3: AssertionError: I(g) = 2497 != 39952
+ERR 689a2: AssertionError: вырожденная коника
+ERR 465b2: AssertionError: вырожденная коника
+ERR 450g2: AssertionError: вырожденная коника
+ERR 414c3: AssertionError: вырожденная коника
+ERR 549a2: AssertionError: вырожденная коника
+ERR 624f4: AssertionError: I(g) = -407 != -6512
+ERR 784j2: AssertionError: I(g) = 24745 != 395920
+ERR 465a2: AssertionError: вырожденная коника
+ERR 630c5: AssertionError: вырожденная коника
+ERR 840c2: AssertionError: I(g) = 421 != 6736
+ERR 890h4: AssertionError: вырожденная коника
+ERR 552d4: AssertionError: I(g) = -743 != -11888
+858b3: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+154a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 252b2: AssertionError: I(g) = 981 != 15696
+ERR 82a2: AssertionError: вырожденная коника
+ERR 114c2: AssertionError: вырожденная коника
+ERR 880h2: AssertionError: I(g) = 181 != 2896
+ERR 21a2: AssertionError: вырожденная коника
+ERR 102b2: AssertionError: вырожденная коника
+ERR 448a3: AssertionError: I(g) = 708 != 11328
+870b1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 630d4: AssertionError: вырожденная коника
+ERR 289a2: AssertionError: вырожденная коника
+ERR 798h2: AssertionError: вырожденная коника
+ERR 480a3: AssertionError: I(g) = 169 != 2704
+ERR 410a2: AssertionError: вырожденная коника
+ERR 680a2: AssertionError: I(g) = 489 != 7824
+ERR 663b1: AssertionError: вырожденная коника
+ERR 525b5: AssertionError: вырожденная коника
+ERR 210d1: AssertionError: вырожденная коника
+ERR 609b5: AssertionError: вырожденная коника
+ERR 475c2: AssertionError: вырожденная коника
+ERR 147a2: AssertionError: вырожденная коника
+ERR 800c1: AssertionError: вырожденная коника
+ERR 720h6: AssertionError: I(g) = -15111 != -241776
+ERR 576h3: AssertionError: I(g) = 1188 != 19008
+ERR 429b4: AssertionError: вырожденная коника
+ERR 624f3: AssertionError: I(g) = 913 != 14608
+ERR 238a2: AssertionError: вырожденная коника
+ERR 768h2: AssertionError: I(g) = 88 != 1408
+ERR 429a2: AssertionError: вырожденная коника
+ERR 336e3: AssertionError: I(g) = 1873 != 29968
+ERR 600a3: AssertionError: I(g) = 15025 != 240400
+ERR 496f2: AssertionError: I(g) = 993 != 15888
+ERR 455a4: AssertionError: вырожденная коника
+ERR 42a2: AssertionError: вырожденная коника
+ERR 847c2: AssertionError: вырожденная коника
+ERR 795a1: AssertionError: вырожденная коника
+423c4: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 672f4: AssertionError: I(g) = -47 != -752
+ERR 616e2: AssertionError: I(g) = 93 != 1488
+ERR 272a1: AssertionError: вырожденная коника
+ERR 342c2: AssertionError: вырожденная коника
+ERR 65a2: AssertionError: вырожденная коника
+ERR 870a3: AssertionError: вырожденная коника
+ERR 210a2: AssertionError: вырожденная коника
+ERR 198a2: AssertionError: вырожденная коника
+ERR 620b2: AssertionError: I(g) = 3621 != 57936
+ERR 350a2: AssertionError: вырожденная коника
+ERR 345d2: AssertionError: вырожденная коника
+ERR 610b3: AssertionError: вырожденная коника
+ERR 210c5: AssertionError: вырожденная коника
+ERR 792d1: AssertionError: I(g) = 333 != 5328
+ERR 714d2: AssertionError: вырожденная коника
+ERR 582c1: AssertionError: вырожденная коника
+ERR 816a1: AssertionError: вырожденная коника
+ERR 368a1: AssertionError: вырожденная коника
+ERR 765c2: AssertionError: вырожденная коника
+ERR 141c2: AssertionError: вырожденная коника
+ERR 720a2: AssertionError: I(g) = 369 != 5904
+ERR 605b1: AssertionError: вырожденная коника
+ERR 706c2: AssertionError: вырожденная коника
+ERR 630c4: AssertionError: вырожденная коника
+ERR 96b1: AssertionError: вырожденная коника
+ERR 442d2: AssertionError: вырожденная коника
+ERR 630d5: AssertionError: вырожденная коника
+ERR 504a1: AssertionError: вырожденная коника
+ERR 330b6: AssertionError: вырожденная коника
+ERR 480f1: AssertionError: вырожденная коника
+ERR 387d2: AssertionError: вырожденная коника
+ERR 450c3: AssertionError: вырожденная коника
+770e4: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 414c1: AssertionError: вырожденная коника
+ERR 640h1: AssertionError: вырожденная коника
+ERR 639a2: AssertionError: вырожденная коника
+ERR 192a4: AssertionError: I(g) = -92 != -1472
+ERR 650a2: AssertionError: вырожденная коника
+ERR 784j1: AssertionError: вырожденная коника
+ERR 816h5: AssertionError: I(g) = 1331713 != 21307408
+ERR 525b3: AssertionError: вырожденная коника
+ERR 630d2: AssertionError: вырожденная коника
+ERR 720j2: AssertionError: I(g) = 8001 != 128016
+ERR 246d1: AssertionError: вырожденная коника
+ERR 290a2: AssertionError: вырожденная коника
+ERR 640a2: AssertionError: I(g) = 24 != 384
+ERR 222c2: AssertionError: вырожденная коника
+890e1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 399a2: AssertionError: вырожденная коника
+ERR 320f2: AssertionError: I(g) = -44 != -704
+ERR 735a2: AssertionError: вырожденная коника
+ERR 112a2: AssertionError: I(g) = 121 != 1936
+ERR 720c3: AssertionError: I(g) = 5409 != 86544
+ERR 870a2: AssertionError: вырожденная коника
+ERR 525c2: AssertionError: вырожденная коника
+ERR 246d2: AssertionError: вырожденная коника
+ERR 226a2: AssertionError: вырожденная коника
+ERR 330c2: AssertionError: вырожденная коника
+ERR 684b1: AssertionError: вырожденная коника
+ERR 600a4: AssertionError: I(g) = -5975 != -95600
+ERR 160a1: AssertionError: вырожденная коника
+ERR 520a1: AssertionError: I(g) = 69 != 1104
+ERR 624g2: AssertionError: I(g) = 445 != 7120
+ERR 320b3: AssertionError: I(g) = 1284 != 20544
+ERR 560d3: AssertionError: I(g) = 4209 != 67344
+ERR 480b1: AssertionError: вырожденная коника
+ERR 882e6: AssertionError: вырожденная коника
+ERR 630i6: AssertionError: вырожденная коника
+ERR 205a3: AssertionError: вырожденная коника
+ERR 294c2: AssertionError: вырожденная коника
+ERR 62a2: AssertionError: вырожденная коника
+ERR 342e1: AssertionError: вырожденная коника
+ERR 784j3: AssertionError: вырожденная коника
+ERR 63a4: AssertionError: вырожденная коника
+ERR 819a2: AssertionError: вырожденная коника
+660c1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 495a1: AssertionError: вырожденная коника
+ERR 99a1: AssertionError: вырожденная коника
+ERR 234c2: AssertionError: вырожденная коника
+ERR 816j1: AssertionError: вырожденная коника
+ERR 306b2: AssertionError: вырожденная коника
+ERR 306b1: AssertionError: вырожденная коника
+ERR 672e1: AssertionError: вырожденная коника
+399b1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 150c6: AssertionError: вырожденная коника
+ERR 690e4: AssertionError: вырожденная коника
+ERR 846c4: AssertionError: вырожденная коника
+ERR 630d1: AssertionError: вырожденная коника
+ERR 530b1: AssertionError: вырожденная коника
+ERR 580a2: AssertionError: I(g) = -51 != -816
+ERR 57b1: AssertionError: вырожденная коника
+ERR 576a1: AssertionError: J(g) = -216 != -13824
+ERR 231a3: AssertionError: вырожденная коника
+ERR 833a2: AssertionError: вырожденная коника
+450c1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 735e4: AssertionError: вырожденная коника
+ERR 272b2: AssertionError: I(g) = 273 != 4368
+ERR 377a1: AssertionError: вырожденная коника
+ERR 576a4: AssertionError: I(g) = 1620 != 25920
+ERR 504a2: AssertionError: I(g) = 333 != 5328
+ERR 505a1: AssertionError: вырожденная коника
+ERR 882e3: AssertionError: вырожденная коника
+ERR 495a3: AssertionError: вырожденная коника
+759a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 598a1: AssertionError: вырожденная коника
+ERR 480g1: AssertionError: вырожденная коника
+ERR 399b2: AssertionError: вырожденная коника
+605b3: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 672b1: AssertionError: вырожденная коника
+ERR 723a1: AssertionError: вырожденная коника
+ERR 576b2: AssertionError: вырожденная коника
+ERR 480a1: AssertionError: вырожденная коника
+ERR 342f2: AssertionError: вырожденная коника
+ERR 700e2: AssertionError: I(g) = 4125 != 66000
+ERR 240c2: AssertionError: I(g) = 49 != 784
+ERR 528j2: AssertionError: вырожденная коника
+ERR 576h1: AssertionError: I(g) = -27 != -432
+ERR 759a2: AssertionError: вырожденная коника
+ERR 665b3: AssertionError: вырожденная коника
+ERR 390b5: AssertionError: вырожденная коника
+ERR 385a2: AssertionError: вырожденная коника
+ERR 66b2: AssertionError: вырожденная коника
+ERR 640h2: AssertionError: I(g) = 796 != 12736
+ERR 336e4: AssertionError: I(g) = 2353 != 37648
+ERR 448a2: AssertionError: I(g) = 228 != 3648
+ERR 494b2: AssertionError: вырожденная коника
+ERR 552e3: AssertionError: I(g) = 913 != 14608
+ERR 171a2: AssertionError: вырожденная коника
+ERR 784c2: AssertionError: I(g) = 2793 != 44688
+678c1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 770e3: AssertionError: вырожденная коника
+ERR 768g2: AssertionError: I(g) = 280 != 4480
+ERR 858e3: AssertionError: вырожденная коника
+ERR 795a3: AssertionError: вырожденная коника
+ERR 660b1: AssertionError: вырожденная коника
+ERR 312b2: AssertionError: I(g) = -35 != -560
+ERR 240c1: AssertionError: вырожденная коника
+ERR 342c4: AssertionError: вырожденная коника
+ERR 450f2: AssertionError: вырожденная коника
+ERR 102b3: AssertionError: вырожденная коника
+ERR 777d3: AssertionError: вырожденная коника
+ERR 825b2: AssertionError: вырожденная коника
+ERR 320a2: AssertionError: вырожденная коника
+ERR 552d1: AssertionError: вырожденная коника
+ERR 320b2: AssertionError: I(g) = 84 != 1344
+ERR 672f2: AssertionError: I(g) = 673 != 10768
+ERR 450c4: AssertionError: вырожденная коника
+207a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 570e2: AssertionError: вырожденная коника
+ERR 496f1: AssertionError: I(g) = 33 != 528
+ERR 414d2: AssertionError: вырожденная коника
+ERR 240b6: AssertionError: I(g) = 16009 != 256144
+ERR 646d2: AssertionError: вырожденная коника
+846b1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 480h1: AssertionError: вырожденная коника
+ERR 890a2: AssertionError: вырожденная коника
+ERR 576i5: AssertionError: I(g) = 41508 != 664128
+ERR 726e2: AssertionError: вырожденная коника
+ERR 528a1: AssertionError: вырожденная коника
+798c1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 630f6: AssertionError: вырожденная коника
+ERR 330b3: AssertionError: вырожденная коника
+ERR 858a2: AssertionError: вырожденная коника
+ERR 285a1: AssertionError: вырожденная коника
+ERR 429a1: AssertionError: вырожденная коника
+ERR 782a2: AssertionError: вырожденная коника
+ERR 616a2: AssertionError: I(g) = 1065 != 17040
+ERR 552a1: AssertionError: I(g) = 193 != 3088
+ERR 840j2: AssertionError: I(g) = 1261 != 20176
+ERR 138c2: AssertionError: вырожденная коника
+ERR 800a3: AssertionError: I(g) = 825 != 13200
+ERR 24a1: AssertionError: I(g) = 13 != 208
+ERR 161a1: AssertionError: вырожденная коника
+ERR 660c2: AssertionError: I(g) = 2149 != 34384
+ERR 410a1: AssertionError: вырожденная коника
+ERR 342c1: AssertionError: вырожденная коника
+ERR 225c2: AssertionError: вырожденная коника
+ERR 545a3: AssertionError: вырожденная коника
+ERR 780c1: AssertionError: вырожденная коника
+ERR 205a4: AssertionError: вырожденная коника
+ERR 64a1: AssertionError: I(g) = 12 != 192
+ERR 550g1: AssertionError: вырожденная коника
+ERR 434d2: AssertionError: вырожденная коника
+655a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 2..2)
+ERR 558c2: AssertionError: вырожденная коника
+ERR 585f4: AssertionError: вырожденная коника
+ERR 282b2: AssertionError: вырожденная коника
+ERR 448b3: AssertionError: I(g) = 3588 != 57408
+ERR 890b2: AssertionError: вырожденная коника
+ERR 732c2: AssertionError: I(g) = 493 != 7888
+ERR 798a1: AssertionError: вырожденная коника
+ERR 545a1: AssertionError: вырожденная коника
+ERR 768a1: AssertionError: вырожденная коника
+ERR 504g3: AssertionError: I(g) = 108873 != 1741968
+ERR 840j6: AssertionError: I(g) = -7199 != -115184
+ERR 360e4: AssertionError: I(g) = -351 != -5616
+ERR 885b1: AssertionError: вырожденная коника
+ERR 224a1: AssertionError: вырожденная коника
+ERR 530b2: AssertionError: вырожденная коника
+ERR 48a3: AssertionError: I(g) = 73 != 1168
+ERR 504e1: AssertionError: вырожденная коника
+798d1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 720g1: AssertionError: вырожденная коника
+ERR 392a4: AssertionError: I(g) = 8673 != 138768
+ERR 462c1: AssertionError: вырожденная коника
+ERR 240b2: AssertionError: I(g) = 889 != 14224
+ERR 735e5: AssertionError: вырожденная коника
+ERR 275a3: AssertionError: вырожденная коника
+ERR 840f5: AssertionError: I(g) = 31441 != 503056
+ERR 21a1: AssertionError: вырожденная коника
+ERR 505a2: AssertionError: вырожденная коника
+ERR 360e1: AssertionError: вырожденная коника
+ERR 510d4: AssertionError: вырожденная коника
+ERR 720e2: AssertionError: I(g) = 441 != 7056
+ERR 390b2: AssertionError: вырожденная коника
+794a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 2..2)
+ERR 732c1: AssertionError: вырожденная коника
+ERR 434a1: AssertionError: вырожденная коника
+ERR 549a1: AssertionError: вырожденная коника
+ERR 588c2: AssertionError: I(g) = 133 != 2128
+ERR 760d1: AssertionError: вырожденная коника
+ERR 475b1: AssertionError: вырожденная коника
+ERR 480f4: AssertionError: I(g) = -44 != -704
+ERR 291c1: AssertionError: вырожденная коника
+ERR 310b1: AssertionError: вырожденная коника
+ERR 192a2: AssertionError: I(g) = 28 != 448
+ERR 630e1: AssertionError: вырожденная коника
+ERR 630j3: AssertionError: вырожденная коника
+ERR 870e1: AssertionError: вырожденная коника
+ERR 616e4: AssertionError: I(g) = -327 != -5232
+ERR 700e1: AssertionError: вырожденная коника
+ERR 210d2: AssertionError: вырожденная коника
+ERR 440a1: AssertionError: вырожденная коника
+ERR 448a1: AssertionError: вырожденная коника
+ERR 624g4: AssertionError: I(g) = 2245 != 35920
+ERR 600a6: AssertionError: I(g) = 6025 != 96400
+ERR 333c1: AssertionError: вырожденная коника
+ERR 840a3: AssertionError: I(g) = 5209 != 83344
+ERR 63a2: AssertionError: вырожденная коника
+ERR 897e1: AssertionError: вырожденная коника
+ERR 752a2: AssertionError: I(g) = 465 != 7440
+ERR 663c1: AssertionError: вырожденная коника
+ERR 174d2: AssertionError: вырожденная коника
+ERR 693d2: AssertionError: вырожденная коника
+ERR 576a2: AssertionError: I(g) = 180 != 2880
+ERR 784j5: AssertionError: вырожденная коника
+ERR 522k2: AssertionError: вырожденная коника
+ERR 441d3: AssertionError: вырожденная коника
+ERR 693d3: AssertionError: вырожденная коника
+ERR 651d2: AssertionError: вырожденная коника
+ERR 656a2: AssertionError: I(g) = -87 != -1392
+ERR 660c4: AssertionError: I(g) = 4669 != 74704
+ERR 75b3: AssertionError: вырожденная коника
+ERR 630e3: AssertionError: вырожденная коника
+ERR 210e2: AssertionError: вырожденная коника
+ERR 168b2: AssertionError: I(g) = 757 != 12112
+ERR 624f2: AssertionError: вырожденная коника
+ERR 576i4: AssertionError: I(g) = 6948 != 111168
+ERR 256a1: AssertionError: вырожденная коника
+ERR 714a2: AssertionError: вырожденная коника
+ERR 238c2: AssertionError: вырожденная коника
+ERR 738c2: AssertionError: вырожденная коника
+ERR 760e2: AssertionError: I(g) = 381 != 6096
+ERR 545a2: AssertionError: вырожденная коника
+ERR 546c3: AssertionError: вырожденная коника
+ERR 759b2: AssertionError: вырожденная коника
+ERR 880a2: AssertionError: I(g) = 69 != 1104
+ERR 336d4: AssertionError: I(g) = 4993 != 79888
+ERR 840a1: AssertionError: I(g) = 949 != 15184
+ERR 272a2: AssertionError: I(g) = 145 != 2320
+ERR 330e2: AssertionError: вырожденная коника
+ERR 336b2: AssertionError: I(g) = 37 != 592
+ERR 525d2: AssertionError: вырожденная коника
+ERR 805c2: AssertionError: вырожденная коника
+ERR 288b4: AssertionError: I(g) = -207 != -3312
+ERR 226a1: AssertionError: вырожденная коника
+ERR 192d2: AssertionError: I(g) = 52 != 832
+ERR 765c1: AssertionError: вырожденная коника
+870b3: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 210d3: AssertionError: вырожденная коника
+ERR 195a5: AssertionError: вырожденная коника
+ERR 370a1: AssertionError: вырожденная коника
+ERR 800a2: AssertionError: I(g) = 825 != 13200
+ERR 742e2: AssertionError: вырожденная коника
+ERR 342c3: AssertionError: вырожденная коника
+ERR 665b4: AssertionError: вырожденная коника
+ERR 291b1: AssertionError: вырожденная коника
+ERR 399a1: AssertionError: вырожденная коника
+672e4: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 798g2: AssertionError: вырожденная коника
+ERR 640b2: AssertionError: I(g) = 24 != 384
+ERR 580a1: AssertionError: вырожденная коника
+ERR 855b1: AssertionError: вырожденная коника
+ERR 768h1: AssertionError: вырожденная коника
+ERR 626a2: AssertionError: вырожденная коника
+ERR 550g2: AssertionError: вырожденная коника
+ERR 525a4: AssertionError: вырожденная коника
+ERR 880c3: AssertionError: I(g) = 22641 != 362256
+ERR 609b2: AssertionError: вырожденная коника
+ERR 392a3: AssertionError: I(g) = 43953 != 703248
+ERR 320b4: AssertionError: I(g) = -156 != -2496
+ERR 624h2: AssertionError: I(g) = 217 != 3472
+ERR 560d4: AssertionError: I(g) = 12849 != 205584
+ERR 774e2: AssertionError: вырожденная коника
+ERR 330c3: AssertionError: вырожденная коника
+ERR 714f4: AssertionError: вырожденная коника
+ERR 640a1: AssertionError: I(g) = 39 != 624
+ERR 288b2: AssertionError: I(g) = 873 != 13968
+ERR 528b2: AssertionError: I(g) = 133 != 2128
+ERR 674b2: AssertionError: вырожденная коника
+ERR 285b1: AssertionError: вырожденная коника
+ERR 312b1: AssertionError: вырожденная коника
+714f1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 441c3: AssertionError: вырожденная коника
+ERR 630i2: AssertionError: вырожденная коника
+ERR 672e3: AssertionError: I(g) = 673 != 10768
+ERR 570a2: AssertionError: вырожденная коника
+ERR 726a2: AssertionError: вырожденная коника
+ERR 640b1: AssertionError: I(g) = 39 != 624
+ERR 782a1: AssertionError: вырожденная коника
+438f1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+ERR 395a2: AssertionError: вырожденная коника
+ERR 650a4: AssertionError: вырожденная коника
+ERR 896b2: AssertionError: I(g) = 120 != 1920
+ERR 120a5: AssertionError: I(g) = 9601 != 153616
+ERR 678c2: AssertionError: вырожденная коника
+ERR 330e4: AssertionError: вырожденная коника
+ERR 504f1: AssertionError: вырожденная коника
+389a1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 2..2)
+525c1: dim(ell2cover) = 2, PARI s = 0, мой rank CTP = 0, OK  симм True диаг0 True  (ранг 1..1)
+
+проверено 25 кривых, расхождений 0

@@ -1,0 +1,46 @@
+{
+  "pair": "(m,n)=(19,5)",
+  "verifier": "чистый Python 3 (fractions, math, json); Sage/PARI/код проекта не импортируются",
+  "target_class": "(1,193,193)",
+  "pairing_value": -1,
+  "reverse_pairing_value": -1,
+  "runs": {
+    "forward_run_0": {
+      "product": -1,
+      "negative_places": [
+        "3",
+        "23",
+        "31"
+      ]
+    },
+    "forward_run_1": {
+      "product": -1,
+      "negative_places": [
+        "3",
+        "23",
+        "31"
+      ]
+    },
+    "normalized_run_0": {
+      "product": -1,
+      "negative_places": [
+        "7"
+      ]
+    },
+    "reverse_run_0": {
+      "product": -1,
+      "negative_places": [
+        "3"
+      ]
+    },
+    "reverse_run_1": {
+      "product": -1,
+      "negative_places": [
+        "3"
+      ]
+    }
+  },
+  "checks_passed": 482,
+  "rank_used": false,
+  "conclusion": "<[g1],[g2]>_CT = -1 != 0  =>  класс (1,193,193) не лежит в образе E(Q)/2E(Q)  =>  на C_(19,5) нет конечных рациональных точек; бесконечность исключена тем, что s=193 не квадрат  =>  C_(19,5)(Q) = 0"
+}

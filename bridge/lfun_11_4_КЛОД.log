@@ -1,0 +1,15 @@
+E: Elliptic Curve defined by y^2 = x^3 + 2306121/2*x^2 + 152914271268*x + 2332318050320896 over Rational Field
+N = 145677470400
+w = -1
+deriv_at1(200000): L'(1) = 13.5982491   err_bound = 4515.12  (0.9s)
+   |L'(1)| > err ? False    отношение: 0.00301171769388020
+deriv_at1(1000000): L'(1) = 13.59799924402403   err_bound = 0.00861330  (4.6s)
+   |L'(1)| > err ? True    отношение: 1578.72192382812
+deriv_at1(3000000): L'(1) = 13.59799924431468486978185748084   err_bound = 4.32935e-17  (13.8s)
+   |L'(1)| > err ? True    отношение: 3.14088896772178e17
+L1_vanishes? True
+analytic_rank(pari)     = 1
+analytic_rank(rubinstein)= 1
+analytic_rank(sympow)   = 1
+Sha analytic (rank1 BSD) = 4.00000000000000
+E.rank(only_use_mwrank=False) = 1

@@ -1,0 +1,73 @@
+{
+  "verifier": "стандартный Python (fractions/math/json); без Sage, PARI и кода проекта",
+  "pair": "(m,n) = (19,5)",
+  "s": "193",
+  "b": "1741825",
+  "target_class_delta": [
+    "1",
+    "193",
+    "193"
+  ],
+  "z_g1_class_matches_delta": true,
+  "pairing_value": -1,
+  "pairing_in_QmodZ": "1/2",
+  "places_total": 11,
+  "places": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "11",
+    "13",
+    "19",
+    "23",
+    "31",
+    "193",
+    "real"
+  ],
+  "places_with_minus_one": [
+    "7"
+  ],
+  "hilbert_symbols_run0": {
+    "2": 1,
+    "3": 1,
+    "5": 1,
+    "7": -1,
+    "11": 1,
+    "13": 1,
+    "19": 1,
+    "23": 1,
+    "31": 1,
+    "193": 1,
+    "real": 1
+  },
+  "runs_agree": true,
+  "recompute_gamma_unnormalised": -1,
+  "recompute_with_a_eq_g3_1_0": -1,
+  "places_added_for_a_eq_g3": [
+    "67"
+  ],
+  "symmetry_recomputed_in_python": -1,
+  "symmetry_places": [
+    "2",
+    "3",
+    "5",
+    "7",
+    "19",
+    "193",
+    "337",
+    "real"
+  ],
+  "symmetry_minus_places": [
+    "2"
+  ],
+  "symmetry_reverse_pair": true,
+  "pair_g1_g3": true,
+  "diagonal_g1_g1_zero": true,
+  "infinity_excluded_because_s_not_square": true,
+  "rank_bound_used": false,
+  "checks_total": 52,
+  "checks_failed": 0,
+  "failed": [],
+  "conclusion": "delta=(1,193,193) НЕ лежит в образе E(Q)/2E(Q); конечных рациональных точек на C_(19,5) нет; вместе с исключением бесконечности C_(19,5)(Q) = пусто"
+}

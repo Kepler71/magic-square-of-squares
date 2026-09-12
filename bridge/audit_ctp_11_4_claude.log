@@ -1,0 +1,87 @@
+[    0.0s] m,n = 11,4   s = 137/2   b = 132616
+[    0.0s] E0 = Elliptic Curve defined by y^2 = x^3 + 2306121/2*x^2 + 152914271268*x + 2332318050320896 over Rational Field
+[    0.0s] M  = Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+   iso (u,r,s,t) = (1/2, -768707/2, 0, 0)
+   корни M = [1006950, -2474220, 1467270]
+   x_E0 = u^2 x_M + r,  u^2 = 1/4  квадрат? True
+[    0.0s] I = 222926259931200
+           J = -6316841727504282240000
+   phi = [-12083400, 29690640, -17607240]
+   порядок компонент L -> [1, 0, 2]
+[    0.1s] delta целевой (в порядке корней) = [1, 274, 274]   (ожидается [1, 274, 274])
+[    0.1s] === партнёр 0: delta2 = (2055, 137, 15) ===
+   delta3 класс = [2055, 2, 4110]
+[    0.2s]    g1 построена за 0.1s: [1510425, -7882980, 3020850, 7882980, 1510425]
+      z(g1) класс = [1, 274, 274]  == delta? True
+[    0.3s]    g2 построена за 0.1s: [-44280614, -206798760, -339888780, -236489400, -59122350]
+      z(g2) класс = [2055, 137, 15]  == delta? True
+[    0.4s]    g3 построена за 0.1s: [23685798724/44521, 7372244096/44521, -512550732036/44521, 580561343936/44521, 675504419569/44521]
+      z(g3) класс = [2055, 2, 4110]  == delta? True
+      a = g(1,0): |N| цифр 6
+    места: 10, нетривиальные: ['7', '17', 'real']
+    места: 10, нетривиальные: ['7', '17', 'real']
+    места: 10, нетривиальные: ['7', '17', 'real']
+[    0.4s]    <g1,g2>_CT = 1  (-1), мест 10, 0.0s
+      a = g(1,0): |N| цифр 3
+    места: 8, нетривиальные: ['137']
+    места: 8, нетривиальные: ['137']
+[    0.4s]    ОБРАТНО <g2,g1>_CT = 1 (-1), мест 8, 0.0s
+      a = g(1,0): |N| цифр 6
+    места: 10, нетривиальные: ['7', '17', 'real']
+[    0.4s]    <g1,g3>_CT = 1 (ожидается = <g1,g2> = 1)
+[    0.4s] === партнёр 1: delta2 = (30, 137, 4110) ===
+   delta3 класс = [30, 2, 15]
+[    0.5s]    g1 построена за 0.1s: [1510425, -7882980, 3020850, 7882980, 1510425]
+      z(g1) класс = [1, 274, 274]  == delta? True
+[    0.5s]    g2 построена за 0.1s: [13736716, 26238240, 9666720, -3452400, -863100]
+      z(g2) класс = [30, 137, 4110]  == delta? True
+[    0.6s]    g3 построена за 0.1s: [4108356, 2071440, -8458380, -1726200, 2853025]
+      z(g3) класс = [30, 2, 15]  == delta? True
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['17']
+    места: 9, нетривиальные: ['17']
+    места: 9, нетривиальные: ['17']
+[    0.6s]    <g1,g2>_CT = 1  (-1), мест 9, 0.0s
+      a = g(1,0): |N| цифр 3
+    места: 8, нетривиальные: ['137']
+    места: 8, нетривиальные: ['137']
+[    0.6s]    ОБРАТНО <g2,g1>_CT = 1 (-1), мест 8, 0.0s
+      a = g(1,0): |N| цифр 4
+    места: 9, нетривиальные: ['17']
+[    0.6s]    <g1,g3>_CT = 1 (ожидается = <g1,g2> = 1)
+[    0.6s] === контроль: точки E(Q) ===
+   генераторы MW (не доказано): [(1820070 : 1109908800 : 1)]
+   x=-2474220: не удалось: вырожденная коника
+   x=1006950: не удалось: вырожденная коника
+   x=1467270: не удалось: вырожденная коника
+      a = g(1,0): |N| цифр 6
+    места: 9, нетривиальные: ['136751', 'real']
+   x=1820070  класс=[105, 210, 2]  <.,g2> = 0  (ОБЯЗАН быть 0)
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_euvcjhtg/audit_ctp_11_4_claudek1slxz61.sage.py", line 143, in <module>
+    open('/home/kep/magicKube/bridge/audit_ctp_11_4_claude.json', 'w').write(json.dumps(out, indent=_sage_const_1 , ensure_ascii=False))
+                                                                             ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/json/__init__.py", line 242, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/usr/lib/python3.14/json/encoder.py", line 202, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.14/json/encoder.py", line 263, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.14/json/encoder.py", line 182, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type Integer is not JSON serializable
+when serializing list item 0
+when serializing dict item 'delta_target'

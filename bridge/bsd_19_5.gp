@@ -1,0 +1,17 @@
+default(parisize,4000000000);
+s=193;m=19;n=5;b=s*m^2*n^2;e1=-b;e2=-s*m^4;e3=-s*n^4;
+E=ellinit([0,-(e1+e2+e3),0,e1*e2+e1*e3+e2*e3,-e1*e2*e3]);
+G=[-28561963657/1369, -2089086742828800/50653];
+print("G on E? ", ellisoncurve(E,G));
+print("canonical height h(G) = ", ellheight(E,G));
+print("real period omega1 = ", E.omega[1]);
+print("disc > 0 ? ", E.disc > 0);
+gr = ellglobalred(E);
+print("tamagawa product = ", vecprod(apply(x->x[4], gr[5])));
+print("torsion order = ", elltors(E)[1]);
+ar = ellanalyticrank(E);
+print("analytic rank = ", ar[1]);
+print("L^(r)(1)/r! = ", ar[2]);
+c = ellbsd(E);
+print("ellbsd(E) = ", c);
+print("Sha_an = L/ellbsd = ", ar[2]/c);

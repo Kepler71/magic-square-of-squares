@@ -1,0 +1,440 @@
+E = Elliptic Curve defined by y^2 = x^3 + 4612242*x^2 + 2446628340288*x + 149268355220537344 over Rational Field
+N = 145677470400 = 2^6 * 3^2 * 5^2 * 7^2 * 11 * 137^2
+минимальная модель: Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+изоморфизм E->Emin: Elliptic-curve morphism:
+  From: Elliptic Curve defined by y^2 = x^3 + 4612242*x^2 + 2446628340288*x + 149268355220537344 over Rational Field
+  To:   Elliptic Curve defined by y^2 = x^3 - 4644297081900*x + 3655579703416830000 over Rational Field
+  Via:  (u,r,s,t) = (1, -1537414, 0, 0)
+Working with minimal curve [0,0,0,-4644297081900,3655579703416830000] via [u,r,s,t] = [1,-1537414,0,0]
+
+3 points of order 2:
+[-2474220:0:1], [1006950:0:1], [1467270:0:1]
+
+****************************
+* Using 2-isogeny number 1 *
+****************************
+
+Using 2-isogenous curve [0,14845320,0,211894502400,0] (minimal model [0,0,0,-4578080049900,3770264556857358000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	3
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	3
+rk(phi(S^{2}(E')))=	2
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 2 *
+****************************
+
+Using 2-isogenous curve [0,-6041700,0,15535343420100,0] (minimal model [0,0,0,3367963790100,14950704222501390000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 3 *
+****************************
+
+Using 2-isogenous curve [0,-8803620,0,12118544568900,0] (minimal model [0,0,0,-13716030465900,-14979375435861522000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+After second local descent, combined upper bound on rank = 3
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(4401810,1814346676800)
+(c',d')=(-8803620,12118544568900)
+First stage (no second descent yet)...
+(2,0,4401810,0,907173338400):  (x:y:z) = (420:1321320:1)
+	Curve E 	Point [352800:1109908800:1], height = 5.261556104
+(15,0,4401810,0,120956445120):  no rational point found (hlim=8)
+(-14,0,4401810,0,-129596191200):  no rational point found (hlim=8)
+(2055,0,4401810,0,882893760):  no rational point found (hlim=8)
+(-1918,0,4401810,0,-945957600):  no rational point found (hlim=8)
+(30,0,4401810,0,60478222560):  no rational point found (hlim=8)
+(-7,0,4401810,0,-259192382400):  no rational point found (hlim=8)
+(4110,0,4401810,0,441446880):  no rational point found (hlim=8)
+(-959,0,4401810,0,-1891915200):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=15: 
+Second descent inconclusive for d1=15: ELS descendents exist but no rational point found
+
+d1=-14: 
+Second descent inconclusive for d1=-14: ELS descendents exist but no rational point found
+
+d1=2055: 
+Second descent inconclusive for d1=2055: ELS descendents exist but no rational point found
+
+d1=-1918: 
+Second descent inconclusive for d1=-1918: ELS descendents exist but no rational point found
+
+d1=30: 
+Second descent inconclusive for d1=30: ELS descendents exist but no rational point found
+
+d1=-7: 
+Second descent inconclusive for d1=-7: ELS descendents exist but no rational point found
+
+d1=4110: 
+Second descent inconclusive for d1=4110: ELS descendents exist but no rational point found
+
+d1=-959: 
+Second descent inconclusive for d1=-959: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+-------------------------------------------------------
+2. E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+First stage (no second descent yet)...
+(274,0,-8803620,0,44228264850):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=274: 
+Second descent inconclusive for d1=274: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+
+-------------------------------------------------------
+Summary of results:
+-------------------------------------------------------
+	1 <= rank(E) <= 3
+	#E(Q)/2E(Q) >= 8
+
+Information on III(E/Q):
+	#III(E/Q)[phi']    <= 2
+	#III(E/Q)[2]       <= 4
+
+Information on III(E'/Q):
+	#phi'(III(E/Q)[2]) <= 2
+	#III(E'/Q)[phi]    <= 2
+	#III(E'/Q)[2]      <= 4
+
+-------------------------------------------------------
+
+List of points on E = [0,0,0,-4644297081900,3655579703416830000]:
+
+I.  Points on E mod phi(E')
+Point [1820070:1109908800:1], height = 5.261556104
+
+II.  Points on phi(E') mod 2E
+--none (modulo torsion).
+
+-------------------------------------------------------
+Computing full set of 2 coset representatives for
+2E(Q) in E(Q) (modulo torsion), and sorting into height order....done.
+
+
+=== 1. eclib: попытки усилить 2-спуск ===
+  second_limit= 8 n_aux= 6 -> rank=1 bound=3 certain=False selmer=5
+Working with minimal curve [0,0,0,-4644297081900,3655579703416830000] via [u,r,s,t] = [1,-1537414,0,0]
+
+3 points of order 2:
+[-2474220:0:1], [1006950:0:1], [1467270:0:1]
+
+****************************
+* Using 2-isogeny number 1 *
+****************************
+
+Using 2-isogenous curve [0,14845320,0,211894502400,0] (minimal model [0,0,0,-4578080049900,3770264556857358000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	3
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	3
+rk(phi(S^{2}(E')))=	2
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 2 *
+****************************
+
+Using 2-isogenous curve [0,-6041700,0,15535343420100,0] (minimal model [0,0,0,3367963790100,14950704222501390000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 3 *
+****************************
+
+Using 2-isogenous curve [0,-8803620,0,12118544568900,0] (minimal model [0,0,0,-13716030465900,-14979375435861522000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+After second local descent, combined upper bound on rank = 3
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(4401810,1814346676800)
+(c',d')=(-8803620,12118544568900)
+First stage (no second descent yet)...
+(2,0,4401810,0,907173338400):  (x:y:z) = (420:1321320:1)
+	Curve E 	Point [352800:1109908800:1], height = 5.261556104
+(15,0,4401810,0,120956445120):  no rational point found (hlim=8)
+(-14,0,4401810,0,-129596191200):  no rational point found (hlim=8)
+(2055,0,4401810,0,882893760):  no rational point found (hlim=8)
+(-1918,0,4401810,0,-945957600):  no rational point found (hlim=8)
+(30,0,4401810,0,60478222560):  no rational point found (hlim=8)
+(-7,0,4401810,0,-259192382400):  no rational point found (hlim=8)
+(4110,0,4401810,0,441446880):  no rational point found (hlim=8)
+(-959,0,4401810,0,-1891915200):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=15: 
+Second descent inconclusive for d1=15: ELS descendents exist but no rational point found
+
+d1=-14: 
+Second descent inconclusive for d1=-14: ELS descendents exist but no rational point found
+
+d1=2055: 
+Second descent inconclusive for d1=2055: ELS descendents exist but no rational point found
+
+d1=-1918: 
+Second descent inconclusive for d1=-1918: ELS descendents exist but no rational point found
+
+d1=30: 
+Second descent inconclusive for d1=30: ELS descendents exist but no rational point found
+
+d1=-7: 
+Second descent inconclusive for d1=-7: ELS descendents exist but no rational point found
+
+d1=4110: 
+Second descent inconclusive for d1=4110: ELS descendents exist but no rational point found
+
+d1=-959: 
+Second descent inconclusive for d1=-959: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+-------------------------------------------------------
+2. E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+First stage (no second descent yet)...
+(274,0,-8803620,0,44228264850):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=274: 
+Second descent inconclusive for d1=274: ELS descendents exist but no rational point found
+
+After second global descent, this component of the rank
+	has lower bound 0
+	and upper bound 1
+	(difference =   1)
+
+-------------------------------------------------------
+Summary of results:
+-------------------------------------------------------
+	1 <= rank(E) <= 3
+	#E(Q)/2E(Q) >= 8
+
+Information on III(E/Q):
+	#III(E/Q)[phi']    <= 2
+	#III(E/Q)[2]       <= 4
+
+Information on III(E'/Q):
+	#phi'(III(E/Q)[2]) <= 2
+	#III(E'/Q)[phi]    <= 2
+	#III(E'/Q)[2]      <= 4
+
+-------------------------------------------------------
+
+List of points on E = [0,0,0,-4644297081900,3655579703416830000]:
+
+I.  Points on E mod phi(E')
+Point [1820070:1109908800:1], height = 5.261556104
+
+II.  Points on phi(E') mod 2E
+--none (modulo torsion).
+
+-------------------------------------------------------
+Computing full set of 2 coset representatives for
+2E(Q) in E(Q) (modulo torsion), and sorting into height order....done.
+
+  second_limit=12 n_aux= 8 -> rank=1 bound=3 certain=False selmer=5
+Working with minimal curve [0,0,0,-4644297081900,3655579703416830000] via [u,r,s,t] = [1,-1537414,0,0]
+
+3 points of order 2:
+[-2474220:0:1], [1006950:0:1], [1467270:0:1]
+
+****************************
+* Using 2-isogeny number 1 *
+****************************
+
+Using 2-isogenous curve [0,14845320,0,211894502400,0] (minimal model [0,0,0,-4578080049900,3770264556857358000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	3
+rk(S^{phi'}(E))=	2
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	3
+rk(phi(S^{2}(E')))=	2
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 2 *
+****************************
+
+Using 2-isogenous curve [0,-6041700,0,15535343420100,0] (minimal model [0,0,0,3367963790100,14950704222501390000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+****************************
+* Using 2-isogeny number 3 *
+****************************
+
+Using 2-isogenous curve [0,-8803620,0,12118544568900,0] (minimal model [0,0,0,-13716030465900,-14979375435861522000])
+-------------------------------------------------------
+First step, determining 1st descent Selmer groups
+-------------------------------------------------------
+After first local descent, rank bound = 3
+rk(S^{phi}(E'))=	4
+rk(S^{phi'}(E))=	1
+
+-------------------------------------------------------
+Second step, determining 2nd descent Selmer groups
+-------------------------------------------------------
+After second local descent, rank bound = 3
+rk(phi'(S^{2}(E)))=	4
+rk(phi(S^{2}(E')))=	1
+rk(S^{2}(E))=	5
+rk(S^{2}(E'))=	4
+
+After second local descent, combined upper bound on rank = 3
+Third step, determining E(Q)/phi(E'(Q)) and E'(Q)/phi'(E(Q))
+-------------------------------------------------------
+1. E(Q)/phi(E'(Q))
+-------------------------------------------------------
+(c,d)  =(4401810,1814346676800)
+(c',d')=(-8803620,12118544568900)
+First stage (no second descent yet)...
+(2,0,4401810,0,907173338400):  (x:y:z) = (420:1321320:1)
+	Curve E 	Point [352800:1109908800:1], height = 5.261556104
+(15,0,4401810,0,120956445120):  no rational point found (hlim=8)
+(-14,0,4401810,0,-129596191200):  no rational point found (hlim=8)
+(2055,0,4401810,0,882893760):  no rational point found (hlim=8)
+(-1918,0,4401810,0,-945957600):  no rational point found (hlim=8)
+(30,0,4401810,0,60478222560):  no rational point found (hlim=8)
+(-7,0,4401810,0,-259192382400):  no rational point found (hlim=8)
+(4110,0,4401810,0,441446880):  no rational point found (hlim=8)
+(-959,0,4401810,0,-1891915200):  no rational point found (hlim=8)
+After first global descent, this component of the rank
+	has lower bound 1
+	and upper bound 2
+	(difference =   1)
+Second descent will attempt to reduce this
+Second stage (using second descent)...
+d1=15: 

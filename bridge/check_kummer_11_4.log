@@ -1,0 +1,54 @@
+==============================================================================
+ПАРА (m,n) = (11,4),  gcd = 1
+==============================================================================
+s = 137/2,  b = 132616
+s*m^4 = 2005817/2,  s*n^4 = 17536
+
+--- 0. Символьная проверка тождеств C -> E (над Q[T,M,N]) ---
+X-e1 - (mn)^2 F4                == 0 ? True
+X-e2 - s m^2 F0                 == 0 ? True
+X-e3 - s n^2 F8                 == 0 ? True
+(X-e1)(X-e2)(X-e3) - b^2 F0F4F8 == 0 ? True
+=> delta(образа) = (кв., s*кв., s*кв.)
+ТРЕБУЕМЫЙ КЛАСС delta =  (1, 274, 274)
+F0,F4,F8 > 0 при всех вещественных t ?  m^2>0,n^2>0,s=137/2>0 -> True
+
+--- 1. Кривая E; целая перешкалировка X=x/4, V=v/8 (масштаб — квадрат) ---
+e (рациональные) = [-132616, -2005817/2, -17536]
+f_i = 4 e_i (целые)  = [-530464, -4011634, -70144]
+y^2 = x^3 + (4612242)x^2 + (2446628340288)x + (149268355220537344)
+E = Elliptic Curve defined by y^2 = x^3 + 4612242*x^2 + 2446628340288*x + 149268355220537344 over Rational Field
+disc != 0 ? True   N = 145677470400
+плохие простые: [2, 3, 5, 7, 11, 137]
+E_rat изоморфна E ? True
+
+--- 2. Кручение ---
+E(Q)_tors = (2, 2)  порядок = 4
+x-координаты 2-кручения: [-4011634, -530464, -70144]
+2-ранг кручения = 2  => |T/2T| = 4
+
+--- 3. РАНГ: нижняя и ВЕРХНЯЯ границы ---
+mwrank: rank = 1  rank_bound = 3  certain = False  selmer_rank = 5
+=> |Sel^2(E/Q)| = 2^(selmer_rank + 2) = 128
+Unable to compute the rank with certainty (lower bound=1).
+This could be because Sha(E/Q)[2] is nontrivial.
+Try calling something like two_descent(second_limit=13) on the
+curve then trying this command again.  You could also try rank
+with only_use_mwrank=False.
+Traceback (most recent call last):
+  File "/usr/bin/sage", line 5, in <module>
+    from sage.cli.__main__ import main
+  File "/usr/lib/python3.14/site-packages/sage/cli/__main__.py", line 9, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/__init__.py", line 56, in main
+    return RunFileCmd(options).run()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/site-packages/sage/cli/run_file_cmd.py", line 50, in run
+    eval(compile(open(input_file, 'rb').read(), input_file, 'exec'), sage_globals())
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_3dck_xe1/check_kummer_11_4_классыzgh7cqit.sage.py", line 110, in <module>
+    r_sage = E.rank(only_use_mwrank=True, proof=True)
+  File "/usr/lib/python3.14/site-packages/sage/schemes/elliptic_curves/ell_rational_field.py", line 2018, in rank
+    raise RuntimeError('rank not provably correct (lower bound: {})'.format(rank))
+RuntimeError: rank not provably correct (lower bound: 1)

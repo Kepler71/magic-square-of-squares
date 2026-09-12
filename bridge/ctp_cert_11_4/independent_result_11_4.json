@@ -1,0 +1,72 @@
+{
+ "verifier": "стандартный Python (fractions/math/json); Sage, PARI и код проекта не используются",
+ "pair": "(m,n)=(11,4)",
+ "s": "137/2",
+ "b": "132616",
+ "delta_target": [
+  1,
+  274,
+  274
+ ],
+ "target_class_of_z_g1_verified": [
+  1,
+  274,
+  274
+ ],
+ "I": "222926259931200",
+ "J": "-6316841727504282240000",
+ "quartics_invariants_verified": true,
+ "hessian_identity_verified": true,
+ "product_z1z2z3_is_square": true,
+ "gamma_recomputed": [
+  "-44834976200/3",
+  "107593048640/3",
+  "-14330317820"
+ ],
+ "a_equals_g2_at_1_0": "255094",
+ "places_forward": [
+  "2",
+  "3",
+  "5",
+  "7",
+  "11",
+  "13",
+  "19",
+  "137",
+  "real"
+ ],
+ "hilbert_forward": {
+  "2": 1,
+  "3": 1,
+  "5": 1,
+  "7": -1,
+  "11": 1,
+  "13": 1,
+  "19": 1,
+  "137": 1,
+  "real": 1
+ },
+ "nontrivial_places_forward": [
+  "7"
+ ],
+ "hilbert_reverse": {
+  "2": 1,
+  "3": -1,
+  "5": 1,
+  "7": 1,
+  "11": 1,
+  "13": 1,
+  "137": 1,
+  "real": 1
+ },
+ "nontrivial_places_reverse": [
+  "3"
+ ],
+ "pairing_value": -1,
+ "pairing_reverse_value": -1,
+ "control_g1_g3": -1,
+ "three_quartics_ELS_verified": true,
+ "infinity_on_C_excluded": true,
+ "rank_bound_used_anywhere": false,
+ "conclusion": "<[g1],[g2]>_CT = -1 != 0 => [g1] не лежит в образе E(Q)/2E(Q); значит delta=(1,274,274) не достигается, конечных рациональных точек на C_(11,4) нет, а бесконечность исключена отдельно => C_(11,4)(Q) = пусто."
+}
