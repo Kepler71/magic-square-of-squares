@@ -1,0 +1,51 @@
+=== d=10 roots=[0, 18, -11]: dim Sel^2 = 5
+!! d=10 [0, 18, -11]: MemoryError: 
+Traceback (most recent call last):
+  File "/tmp/sage_0aom2vwr/xcheck_quarticaz1sv92t.sage.py", line 61, in <module>
+    _, _, same = run(d, rts, seed=seed)
+                 ~~~^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_0aom2vwr/xcheck_quarticaz1sv92t.sage.py", line 29, in run
+    Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
+                        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1494, in ctp_matrix
+  File "<string>", line 1381, in pair
+  File "<string>", line 1259, in local_point
+  File "<string>", line 1307, in _residues
+  File "sage/rings/finite_rings/residue_field.pyx", line 740, in sage.rings.finite_rings.residue_field.ResidueField_generic.lift
+    return R(x)
+MemoryError
+=== d=7 roots=[0, 11, -12]: dim Sel^2 = 4
+  Фишер:  rank = 2, симметрия True, нулевая диагональ True  (8s)
+[0 0 0 1]
+[0 0 0 0]
+[0 0 0 1]
+[1 0 1 0]
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  ***   Warning: not enough memory, new PARI stack 4000002048
+  ***   Warning: not enough memory, new PARI stack 2000003072
+  Касселс: rank = 2  (1s)
+[0 0 0 1]
+[0 0 0 0]
+[0 0 0 1]
+[1 0 1 0]
+  *** МАТРИЦЫ СОВПАЛИ: True; ранги 2 vs 2
+
+(10, [0, 18, -11], 'ERR')
+(7, [0, 11, -12], True)

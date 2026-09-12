@@ -43,11 +43,11 @@ def run_case(a, b, d, min_excess=0, verbose=False):
     F = FisherCTP(k, I, J)
     dl = deltas_partial(F, E, PD, PD.Sel)
     t0 = time.time()
-    M, quart = ctp_matrix(F, dl, verbose=False, with_diag=True)
+    M, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=True)
     n = M.nrows()
-    sym = (M == M.transpose()); dg0 = all(M[i, i] == 0 for i in range(n))
+    sym = all(o[3] for o in sym_ok) if sym_ok else None; dg0 = all(M[i, i] == 0 for i in range(n))
     rk = M.rank()
-    return ('case', a, b, d, tr, dim, exc, rk, dim - 1 - rk, sym, dg0, round(time.time() - t0))
+    return ('case', a, b, d, tr, dim, exc, rk, dim - 1 - rk, sym, dg0, round(time.time() - t0), sym_ok)
 
 
 CASES = [(1, -3, 5), (1, 1, 5), (-2, -4, 3), (3, 1, -3), (-5, 5, 2), (2, -7, 13), (5, 5, 6),
@@ -96,6 +96,6 @@ if __name__ == '__main__' or True:
     print("| a | b | d | rank E(k) | dim Sel^2 | rank CTP | граница | точна | симм | диаг0 |")
     print("|---|---|---|---|---|---|---|---|---|---|")
     for r in rows:
-        _, a, b, d, tr, dim, exc, rk, bnd, sym, dg0, tt = r
+        _, a, b, d, tr, dim, exc, rk, bnd, sym, dg0, tt, sok = r
         print(f"| {a} | {b} | {d} | {tr} | {dim} | {rk} | {bnd} | {'да' if bnd == tr else 'нет'} | {sym} | {dg0} |")
         assert bnd >= tr, "ГРАНИЦА НИЖЕ ИСТИННОГО РАНГА"

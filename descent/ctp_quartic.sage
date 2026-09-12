@@ -1259,6 +1259,19 @@ class FisherCTP:
         # то квадратичный класс G(x) постоянен на классе: либо принимаем, либо класс мёртв.
         # Мёртвые классы отбрасываются; живые ветвятся. g1 всюду локально разрешима => решение найдётся.
         res = self._residues(pl)
+        if res is None:
+            # большое поле вычетов: расширенный случайный поиск (плотность решений ~1/2)
+            for it in range(60000):
+                j = random.randint(-3, 8)
+                cen = random.choice(centers + [k(0)])
+                x = cen + (k_rand(k, 10 ^ 6) * pl.pi ^ j if pl.kind == 'nf'
+                           else k(random.randint(-10 ^ 6, 10 ^ 6)) * QQ(pl.p) ^ j)
+                z = k(1)
+                v = quartic_eval(g1, x, z)
+                if v != 0 and pl.is_sq(v) and gamv(x, z) != 0:
+                    pts.append((x, z)); self._lpcache[key] = pts
+                    return x, z
+            raise RuntimeError(f"нет локальной точки при {pl.name} (большое поле вычетов)")
         pi = pl.pi if pl.kind == 'nf' else QQ(pl.p)
         e2 = (pl.val(k(2)) if pl.kind == 'nf' else QQ(2).valuation(pl.p))
         prec = 2 * e2 + 1
@@ -1296,17 +1309,26 @@ class FisherCTP:
                 return x, z
         raise RuntimeError(f"нет локальной точки при {pl.name}; g1 = {g1}")
 
+    RES_CAP = 4096
+
     def _residues(self, pl):
+        """ полный набор представителей O/P; None, если поле вычетов слишком велико
+            (тогда систематический перебор не имеет смысла — при N(P) большом случайная точка
+            находится с вероятностью ~1/2 за попытку) """
         if not hasattr(self, '_rescache'):
             self._rescache = {}
         if pl.name in self._rescache:
             return self._rescache[pl.name]
         k = self.k
         if pl.kind == 'Q':
-            out = [k(t) for t in range(pl.p)]
+            out = [k(t) for t in range(pl.p)] if pl.p <= self.RES_CAP else None
         else:
-            rf = pl.P.residue_field()
-            out = [k(rf.lift(t)) for t in rf]
+            q = ZZ(pl.P.norm())
+            if q > self.RES_CAP:
+                out = None
+            else:
+                rf = pl.P.residue_field()
+                out = [k(rf.lift(t)) for t in rf]
         self._rescache[pl.name] = out
         return out
 
@@ -1470,20 +1492,41 @@ def deltas_partial(F, E, PD, Sel):
     return out
 
 
-def ctp_matrix(F, deltas, verbose=True, with_diag=False, reps=1):
-    """ матрица спаривания Касселса–Тейта на базисе deltas (список элементов L) """
+def ctp_matrix(F, deltas, verbose=True, with_diag=False, reps=1, sym_checks=3, cache=None):
+    """ матрица спаривания Касселса–Тейта на базисе deltas (список элементов L).
+        sym_checks: сколько элементов дополнительно пересчитать в ОБРАТНОМ порядке аргументов,
+        <g_j, g_i> вместо <g_i, g_j>. Симметрия матрицы сама по себе тестом НЕ является
+        (верхний треугольник просто копируется), а такой пересчёт — является: формула Фишера
+        несимметрична по g1 и g2 (H строится по g1, а старший коэффициент берётся у g2). """
     n = len(deltas)
     t0 = time.time()
     quart = {}
+    import os as _os
+    if cache and _os.path.exists(cache):
+        try:
+            quart = load(cache)
+            if verbose:
+                print(f"    квартики загружены из кэша {cache}: {len(quart)}")
+        except Exception:
+            quart = {}
+    def _need(key, dl, tag):
+        if key in quart:
+            return
+        quart[key] = F.quartic_from_delta(dl, tag=tag)
+        if cache:
+            try:
+                save(quart, cache)
+            except Exception:
+                pass
     for i in range(n):
-        quart[(i,)] = F.quartic_from_delta(deltas[i], tag=f"b{i}")
+        _need((i,), deltas[i], f"b{i}")
         if verbose:
             print(f"    квартика {i}: {quart[(i,)]}  ({time.time()-t0:.0f}s)")
     for i in range(n):
         for j in range(i + 1, n):
-            quart[(i, j)] = F.quartic_from_delta(deltas[i] * deltas[j], tag=f"s{i}_{j}")
+            _need((i, j), deltas[i] * deltas[j], f"s{i}_{j}")
     if with_diag:
-        quart[()] = F.quartic_from_delta(F.L(1), tag="triv")
+        _need((), F.L(1), "triv")
     if verbose:
         print(f"    квартик построено: {len(quart)}  ({time.time()-t0:.0f}s)")
     M = matrix(GF(2), n, n)
@@ -1499,4 +1542,15 @@ def ctp_matrix(F, deltas, verbose=True, with_diag=False, reps=1):
             M[i, i] = v
             if verbose:
                 print(f"    <{i},{i}> = {v}")
-    return M, quart
+    # независимая проверка симметрии: пересчёт в обратном порядке аргументов
+    sym_ok = []
+    pairs = [(i, j) for i in range(n) for j in range(i + 1, n)]
+    random.shuffle(pairs)
+    for (i, j) in pairs[:int(sym_checks)]:
+        vr, _ = F.pair(quart[(j,)], quart[(i,)], quart[(i, j)], reps=reps)
+        ok = (GF(2)(vr) == M[i, j])
+        sym_ok.append(((i, j), int(M[i, j]), int(vr), bool(ok)))
+        if verbose:
+            print(f"    симметрия <{j},{i}> = {vr} vs <{i},{j}> = {M[i,j]}: {'OK' if ok else 'РАСХОЖДЕНИЕ!!!'}")
+        assert ok, f"спаривание несимметрично на ({i},{j})"
+    return M, quart, sym_ok

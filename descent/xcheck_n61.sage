@@ -25,7 +25,7 @@ I, J = IJ_of_curve(E)
 F = FisherCTP(k, I, J)
 t0 = time.time()
 dl = deltas_full2(F, E, rts, Cv, Sel)
-Mq, quart = ctp_matrix(F, dl, verbose=True, with_diag=True)
+Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=True, with_diag=True)
 print(f"Фишер: rank CTP = {Mq.rank()}, симметрия {Mq == Mq.transpose()}, "
       f"диагональ 0: {all(Mq[i,i] == 0 for i in range(n))}  ({time.time()-t0:.0f}s)")
 print(Mq)

@@ -31,9 +31,11 @@ for i in which:
         F = FisherCTP(k, I, J); F.conic_verbose = True; F.conic_timeout = int(os.environ.get("CTO", "180"))
         F.base_S = sorted(set(list(PD.S) + [P for q in primes(2, 60) for P in k.primes_above(q)]), key=lambda P: (P.norm(), str(P)))
         dl = deltas_partial(F, Ep, PD, PD.Sel)
-        M, quart = ctp_matrix(F, dl, verbose=True, with_diag=True)
+        M, quart, sym_ok = ctp_matrix(F, dl, verbose=True, with_diag=True,
+                                      cache=f'/home/kep/magicKube/descent/quart_{name}_{i+1}.sobj')
         n = M.nrows()
-        sym = (M == M.transpose()); dg0 = all(M[t, t] == 0 for t in range(n))
+        sym = all(o[3] for o in sym_ok); dg0 = all(M[t, t] == 0 for t in range(n))
+        print(f"   независимая проверка симметрии: {sym_ok}")
         rk = M.rank()
         print(M)
         print(f"** {name} i={i+1}: dim Sel^2(E') = {dim}, rank CTP = {rk} (симм {sym}, диаг0 {dg0})"

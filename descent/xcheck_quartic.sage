@@ -22,10 +22,10 @@ def run(d, rts, seed=1, do_cassels=True, with_diag=True):
     F = FisherCTP(k, I, J)
     t0 = time.time()
     dl = deltas_full2(F, E, rts, Cv, Sel)
-    Mq, quart = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
+    Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
     tq = time.time() - t0
     print(f"  Фишер:  rank = {Mq.rank()}, симметрия {Mq == Mq.transpose()}, "
-          f"нулевая диагональ {all(Mq[i,i] == 0 for i in range(n))}  ({tq:.0f}s)")
+          f"нулевая диагональ {all(Mq[i,i] == 0 for i in range(n))}; обратный порядок {sym_ok}  ({tq:.0f}s)")
     print(Mq)
     if do_cassels:
         t0 = time.time()

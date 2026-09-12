@@ -1,0 +1,43 @@
+=== d=10 roots=[0, 18, -11]: dim Sel^2 = 5
+!! d=10 [0, 18, -11]: RuntimeError: нет локальной точки при (12235917981239, w + 8065484195718) (большое поле вычетов)
+Traceback (most recent call last):
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 61, in <module>
+    _, _, same = run(d, rts, seed=seed)
+                 ~~~^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 29, in run
+    Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
+                        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1533, in ctp_matrix
+  File "<string>", line 1403, in pair
+  File "<string>", line 1272, in local_point
+RuntimeError: нет локальной точки при (12235917981239, w + 8065484195718) (большое поле вычетов)
+=== d=2 roots=[0, 30, -13]: dim Sel^2 = 5
+!! d=2 [0, 30, -13]: RuntimeError: нет локальной точки при (706049, w + 565468) (большое поле вычетов)
+Traceback (most recent call last):
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 61, in <module>
+    _, _, same = run(d, rts, seed=seed)
+                 ~~~^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 29, in run
+    Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
+                        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1533, in ctp_matrix
+  File "<string>", line 1403, in pair
+  File "<string>", line 1272, in local_point
+RuntimeError: нет локальной точки при (706049, w + 565468) (большое поле вычетов)
+=== d=13 roots=[0, 31, -25]: dim Sel^2 = 5
+!! d=13 [0, 31, -25]: RuntimeError: нет локальной точки при (3080924669, 1/2*w + 1866391491/2) (большое поле вычетов)
+Traceback (most recent call last):
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 61, in <module>
+    _, _, same = run(d, rts, seed=seed)
+                 ~~~^^^^^^^^^^^^^^^^^^^
+  File "/tmp/sage_98nh46jk/xcheck_quartici64mtj5d.sage.py", line 29, in run
+    Mq, quart, sym_ok = ctp_matrix(F, dl, verbose=False, with_diag=with_diag)
+                        ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1533, in ctp_matrix
+  File "<string>", line 1403, in pair
+  File "<string>", line 1272, in local_point
+RuntimeError: нет локальной точки при (3080924669, 1/2*w + 1866391491/2) (большое поле вычетов)
+
+(10, [0, 18, -11], 'ERR')
+(2, [0, 30, -13], 'ERR')
+(13, [0, 31, -25], 'ERR')
