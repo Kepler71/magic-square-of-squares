@@ -28,7 +28,7 @@ for i in which:
         dim, bd, PD = partial_descent_bound(k, ap, bp, verbose=True)
         Ep = EllipticCurve(k, [0, k(ap), 0, k(bp), 0])
         I, J = IJ_of_curve(Ep)
-        F = FisherCTP(k, I, J)
+        F = FisherCTP(k, I, J); F.conic_verbose = True; F.conic_timeout = int(os.environ.get("CTO", "180"))
         dl = deltas_partial(F, Ep, PD, PD.Sel)
         M, quart = ctp_matrix(F, dl, verbose=True, with_diag=True)
         n = M.nrows()

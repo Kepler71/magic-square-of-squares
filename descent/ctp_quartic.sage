@@ -213,6 +213,9 @@ class EtaleCubic:
             return ok
         return (ok, c['frA'](a.sqrt())) if ok else (False, None)
 
+    def is_unit(self, z):
+        return all(self.comp(z, i) != 0 for i in range(len(self.comps)))
+
     def is_square(self, z):
         return all(self._comp_is_square(c, self.comp(z, i)) for i, c in enumerate(self.comps))
 
@@ -288,6 +291,36 @@ class FisherCTP:
         assert G[0] * Gp == Hp ^ 2, "нарушено тождество G(1,0)G = H^2"
         return [H0, H1, H2]
 
+    def _make_z_unit(self, g):
+        """ Фишер (стр. 3): «By a change of coordinates we may assume that z(g) is a unit in L».
+            z(g) = (4 a phi + 3b^2 - 8ac)/3 может оказаться делителем нуля; тогда заменяем g на
+            собственно эквивалентную (сдвиги/обращение/перекос), пока z(g) не станет единицей. """
+        k = self.k
+        if self.E.is_unit(self.z_inv(g)):
+            return g
+        moves = [[[0, 1], [1, 0]]]
+        for n in (1, -1, 2, -2, 3, -3, 5, -5):
+            moves.append([[1, k(n)], [0, 1]])
+            moves.append([[1, 0], [k(n), 1]])
+        for mt in moves:
+            try:
+                gn = self.gl2(g, mt)
+            except Exception:
+                continue
+            if self.E.is_unit(self.z_inv(gn)):
+                return gn
+        for _ in range(400):
+            mt = [[k(1) + k_rand(k, 1), k_rand(k, 3)], [k_rand(k, 3), k(1) + k_rand(k, 1)]]
+            if matrix(k, mt).determinant() == 0:
+                continue
+            try:
+                gn = self.gl2(g, mt)
+            except Exception:
+                continue
+            if self.E.is_unit(self.z_inv(gn)):
+                return gn
+        raise RuntimeError("не удалось сделать z(g) единицей в L")
+
     def check_quartic(self, g):
         assert quartic_I(g) == self.I, f"I(g) = {quartic_I(g)} != {self.I}"
         assert quartic_J(g) == self.J, f"J(g) = {quartic_J(g)} != {self.J}"
@@ -320,22 +353,9 @@ class FisherCTP:
                                           else c2.coefficient({tv[i]: 1, tv[j]: 1}) / 2))
         assert M.determinant() != 0, "вырожденная коника"
         P = self.solve_conic(M, tag=tag)
-        # параметризация коники: t(x,z) = Q(w) P - 2 B(P,w) w,  w = x v1 + z v2
-        bas = [vector(k, [1, 0, 0]), vector(k, [0, 1, 0]), vector(k, [0, 0, 1])]
-        comp = [b for b in bas if matrix(k, [P, b]).rank() == 2]
-        v1, v2 = None, None
-        for i in range(len(comp)):
-            for j in range(i + 1, len(comp)):
-                if matrix(k, [P, comp[i], comp[j]]).rank() == 3:
-                    v1, v2 = comp[i], comp[j]; break
-            if v1 is not None:
-                break
-        assert v1 is not None
-        Rp = PolynomialRing(k, 'x,z'); xx, zz = Rp.gens()
-        w = [xx * v1[i] + zz * v2[i] for i in range(3)]
-        Qw = sum(M[i][j] * w[i] * w[j] for i in range(3) for j in range(3))
-        BPw = sum(M[i][j] * P[i] * w[j] for i in range(3) for j in range(3))
-        tpar = [Qw * P[i] - 2 * BPw * w[i] for i in range(3)]
+        P = self.reduce_conic_point(M, P)
+        tpar, Rp = self._param_from_point(M, P)
+        xx, zz = Rp.gens()
         assert sum(M[i][j] * tpar[i] * tpar[j] for i in range(3) for j in range(3)) == 0, "параметризация не на конике"
         sub = {tv[i]: tpar[i] for i in range(3)}
         gpoly = -Rp(c1.subs(sub))
@@ -354,6 +374,7 @@ class FisherCTP:
         g = [c / lam2 for c in g]
         self.check_quartic(g)
         g = self.reduce_quartic(g)
+        g = self._make_z_unit(g)
         # контроль: z(g) должен лежать в том же классе L^*/L^*2, что и delta
         rat = self.z_inv(g) * self.L(delta)
         assert self.E.is_square(rat), "z(g) не в классе delta"
@@ -419,12 +440,22 @@ class FisherCTP:
         C = ComplexField(prec)
         return C(c0) + C(c1) * C(-self._D).sqrt() * C(0, 1)
 
-    def _from_sigmas(self, T, prec):
-        """ элемент k, приближающий заданные значения T[j] при вложениях """
+    def _from_sigmas(self, T, prec, tolbits=60, abs_err=None):
+        """ элемент k, приближающий заданные значения T[j] при вложениях.
+            Округление c0, c1 — с ОБЩЕЙ абсолютной погрешностью, достаточной и для наименьшего |T_j|
+            (иначе при сильно разных |T_j| происходит катастрофическое сокращение). """
         k = self.k
-        if _is_QQ(k):
-            return QQ(RealField(prec)(T[0]).nearby_rational(max_error=abs(RealField(prec)(T[0])) / 2 ^ 40 + 2 ^ (-40)))
         R = RealField(prec)
+        if _is_QQ(k):
+            u = R(T[0])
+            if u == 0:
+                return QQ(0)
+            return QQ(u.nearby_rational(max_error=abs(u) / 2 ^ tolbits))
+        mags = [abs(R(t)) for t in T if R(t) != 0]
+        if not mags:
+            return k(0)
+        extra = ZZ(ceil(abs(RR(max(mags) / min(mags)).log(2)))) if min(mags) > 0 else 0
+        tb = tolbits + extra
         if self._emb_list()[0][0] == 'R':
             t1, t2 = R(T[0]), R(T[1])
             c0 = (t1 + t2) / 2
@@ -433,15 +464,44 @@ class FisherCTP:
             z = ComplexField(prec)(T[0])
             c0 = z.real()
             c1 = z.imag() / R(-self._D).sqrt()
+        scale = max(abs(c0), abs(c1))
+        if scale == 0:
+            return k(0)
+        err = scale / 2 ^ tb if abs_err is None else R(abs_err)
         def rat(u):
             u = R(u)
-            if u == 0:
+            if abs(u) < err:
                 return QQ(0)
-            return QQ(u.nearby_rational(max_error=abs(u) / 2 ^ 60))
+            return QQ(u.nearby_rational(max_error=err))
         return k(rat(c0)) + k(rat(c1)) * k.gen()
 
+    def _prec_range(self, vals, extra=300):
+        """ точность, достаточная для работы со значениями разного порядка (по динамическому диапазону) """
+        R = RealField(80)
+        ms = []
+        for v in vals:
+            a = abs(R(v))
+            if a != 0:
+                ms.append(a)
+        if not ms:
+            return 200
+        hi, lo = max(ms), min(ms)
+        try:
+            rng = ZZ(ceil(abs(RR(hi / lo).log(2)))) + ZZ(ceil(abs(RR(hi).log(2)))) + ZZ(ceil(abs(RR(lo).log(2))))
+        except Exception:
+            rng = 1000
+        return int(min(2 * 10 ^ 6, max(200, rng + extra)))
+
     def _prec_for(self, g):
-        return max(64, 2 * self._msr(g) // 5 + 200)
+        vals = []
+        for c in g:
+            if c == 0:
+                continue
+            if _is_QQ(self.k):
+                vals.append(QQ(c))
+            else:
+                vals += [QQ(t) for t in list(self.k(c)) if t != 0]
+        return self._prec_range(vals)
 
     def _balance(self, g, iters=60):
         """ приведение: точное «депрессирование» (b -> 0 сдвигом x -> x - b/(4a), det = 1) и
@@ -506,7 +566,7 @@ class FisherCTP:
         embs = self._emb_list()
         for it in range(iters):
             m0 = self._msr(g)
-            prec = min(prec_cap, max(200, m0 // 2 + 200))
+            prec = self._prec_for(g)
             Cf = ComplexField(prec)
             X0, Y0 = [], []
             ok = True
@@ -526,18 +586,22 @@ class FisherCTP:
                 X0.append(x0); Y0.append(y0)
             if not ok:
                 break
-            try:
-                c = self._from_sigmas(X0, prec)
-                s = self._from_sigmas(Y0, prec)
-            except Exception:
-                break
-            if s == 0:
-                break
-            try:
-                gn = self.gl2(g, [[s, c], [0, 1]])
-            except Exception:
-                break
-            if self._msr(gn) >= m0:
+            gn = None; mn = m0
+            R80 = RealField(80)
+            ymin = min([R80(abs(y)) for y in Y0])
+            for tb in (20, 60, 160):
+                try:
+                    c = self._from_sigmas(X0, prec, tolbits=tb, abs_err=ymin / 2 ^ tb)
+                    s = self._from_sigmas(Y0, prec, tolbits=tb)
+                    if s == 0:
+                        continue
+                    cand = self.gl2(g, [[s, c], [0, 1]])
+                except Exception:
+                    continue
+                mc = self._msr(cand)
+                if mc < mn:
+                    gn, mn = cand, mc
+            if gn is None:
                 gr = list(reversed(g))
                 if self._msr(gr) < m0:
                     g = gr; continue
@@ -647,6 +711,213 @@ class FisherCTP:
         s = QQ(s2).sqrt()
         return a / s ^ 2, k(s)
 
+    def _param_from_point(self, M, P):
+        """ параметризация коники {v^t M v = 0} из точки P: t(x,z) = Q(w)P - 2B(P,w)w, w = x v1 + z v2 """
+        k = self.k
+        bas = [vector(k, [1, 0, 0]), vector(k, [0, 1, 0]), vector(k, [0, 0, 1])]
+        comp = [b for b in bas if matrix(k, [P, b]).rank() == 2]
+        v1 = v2 = None
+        for i in range(len(comp)):
+            for j in range(i + 1, len(comp)):
+                if matrix(k, [P, comp[i], comp[j]]).rank() == 3:
+                    v1, v2 = comp[i], comp[j]; break
+            if v1 is not None:
+                break
+        assert v1 is not None
+        Rp = PolynomialRing(k, 'x,z'); xx, zz = Rp.gens()
+        w = [xx * v1[i] + zz * v2[i] for i in range(3)]
+        Qw = sum(M[i][j] * w[i] * w[j] for i in range(3) for j in range(3))
+        BPw = sum(M[i][j] * P[i] * w[j] for i in range(3) for j in range(3))
+        return [Qw * P[i] - 2 * BPw * w[i] for i in range(3)], Rp
+
+    def _sl2_reduce_pd_quartic(self, h):
+        """ h — положительно определённая бинарная квартика над Q ([h0..h4]).
+            Возвращает gamma в SL_2(Z) такую, что h о gamma приведена (ковариантная точка Юлиа
+            z0 = x0 + i y0, x0 = mean Re(корни), y0 = sqrt(sum |alpha - x0|^2 / 4), приводится
+            стандартным алгоритмом в фундаментальную область). """
+        # точность определяется ДИНАМИЧЕСКИМ ДИАПАЗОНОМ значений коэффициентов (а не их битовой длиной:
+        # коэффициенты могут быть дробями с огромными числителем и знаменателем, но умеренными значениями)
+        prec = self._prec_range([QQ(c) for c in h if c != 0])
+        Cf = ComplexField(prec)
+        Rp = PolynomialRing(Cf, 'x'); xx = Rp.gen()
+        hp = sum(Cf(QQ(h[t])) * xx ^ (4 - t) for t in range(5))
+        rts = hp.roots(Cf, multiplicities=False)
+        if len(rts) < 4:
+            return matrix(ZZ, [[1, 0], [0, 1]])
+        x0 = sum(r.real() for r in rts) / 4
+        y0 = (sum(abs(r - x0) ^ 2 for r in rts) / 4).sqrt()
+        if y0 <= 0:
+            return matrix(ZZ, [[1, 0], [0, 1]])
+        z = Cf(x0, y0)
+        gm = matrix(ZZ, [[1, 0], [0, 1]])
+        for _ in range(400):
+            nre = z.real()
+            n = ZZ(nre.round()) if hasattr(nre, 'round') else ZZ(round(RR(nre)))
+            if n != 0:
+                z = z - n
+                gm = matrix(ZZ, [[1, -n], [0, 1]]) * gm
+            if abs(z) < 1:
+                z = -1 / z
+                gm = matrix(ZZ, [[0, -1], [1, 0]]) * gm
+            else:
+                break
+        return gm.inverse()
+
+    def reduce_conic_point(self, M, P, iters=6):
+        """ приводит точку P коники: строит параметризацию, сворачивает её положительно определённой
+            квартикой h(x,z) = sum_i |sigma(t_i(x,z))|^2 (рациональная!), приводит h в SL_2(Z)
+            и берёт P' = t(gamma(1,0)). Именно размер P определяет знаменатели итоговой квартики. """
+        k = self.k
+        D = QQ(k.gen() ^ 2) if not _is_QQ(k) else QQ(0)
+        def size(v):
+            return self._msr(list(v))
+        best = vector(k, P); bs = size(best)
+        for it in range(iters):
+            try:
+                tp, Rp = self._param_from_point(M, best)
+                xx, zz = Rp.gens()
+                h = [QQ(0)] * 5
+                for ti in tp:
+                    if _is_QQ(k):
+                        parts = [ti]
+                    else:
+                        parts = None
+                    if _is_QQ(k):
+                        sq = ti * ti
+                        for j in range(5):
+                            h[j] += QQ(sq.coefficient({xx: 4 - j, zz: j}))
+                    else:
+                        # t_i = u + v r,  sum_sigma |sigma(t_i)|^2 = 2(u^2 + |D| v^2)
+                        u = Rp(0); v = Rp(0)
+                        for mono, co in zip(ti.monomials(), ti.coefficients()):
+                            c0, c1 = [QQ(s) for s in list(k(co))]
+                            u += c0 * mono; v += c1 * mono
+                        sq = u * u + abs(D) * v * v
+                        for j in range(5):
+                            h[j] += QQ(sq.coefficient({xx: 4 - j, zz: j}))
+                if all(c == 0 for c in h):
+                    break
+                gm = self._sl2_reduce_pd_quartic(h)
+                a_, c_ = k(gm[0][0]), k(gm[1][0])
+                Pn = vector(k, [ti.subs({xx: a_, zz: c_}) for ti in tp])
+                if Pn == 0:
+                    break
+                dd = lcm([self._den(t) for t in Pn])
+                Pn = vector(k, [t * dd for t in Pn])
+                gg = gcd([ZZ(s) for t in Pn for s in ([QQ(t)] if _is_QQ(k) else list(k(t))) if s != 0])
+                if gg > 1:
+                    Pn = vector(k, [t / gg for t in Pn])
+                assert (Pn * M * Pn) == 0, "приведённая точка не на конике"
+                if size(Pn) < bs:
+                    best, bs = Pn, size(Pn)
+                else:
+                    break
+            except Exception:
+                break
+        return best
+
+    def reduce_form(self, M):
+        """ U в GL_3(k) с «малой» M' = U^t M U (LLL по положительно определённой мажоранте).
+            Pos(v) = sum_j ( |sigma_j(v)|^2 + |Mhat_j sigma_j(v)|^2 ),  Mhat = M/масштаб.
+            Тогда |B'(u_i,u_j)| ограничено Pos-нормами (Коши–Буняковский), т.е. M' мала.
+            Без этого шага диагонализация даёт коэффициенты чудовищного размера, их факторизация
+            (для приведения по модулю квадратов) и решение коники становятся неподъёмными. """
+        k = self.k
+        n = 3
+        if _is_QQ(k):
+            omegas = [QQ(1)]; deg = 1
+        else:
+            omegas = [k(b) for b in k.ring_of_integers().basis()]; deg = 2
+        embs = self._emb_list()
+        vals = [M[i][j] for i in range(n) for j in range(n) if M[i][j] != 0]
+        try:
+            Dg, T = self.diagonalize(M)
+            if any(d == 0 for d in Dg):
+                return identity_matrix(k, n)
+            Ti = T.inverse()
+        except Exception:
+            return identity_matrix(k, n)
+        allv = vals + list(Dg) + Ti.list()
+        prec = self._prec_range([QQ(t) for c in allv if c != 0
+                                 for t in ([QQ(c)] if _is_QQ(k) else list(k(c))) if t != 0])
+        prec = int(min(prec, 8000))
+        R = RealField(prec); Cf = ComplexField(prec)
+        # мажоранта: B(u,v) = sum_m D_m L_m(u) L_m(v), L = T^{-1};  H(u) = sum_m |D_m| |L_m(u)|^2
+        aD = [[abs(Cf(self._sig(Dg[m], j, prec))) for m in range(n)] for j in range(len(embs))]
+        tiv = [[[Cf(self._sig(Ti[m][i], j, prec)) for i in range(n)] for m in range(n)]
+               for j in range(len(embs))]
+        omv = [[Cf(self._sig(omegas[l], j, prec)) for l in range(deg)] for j in range(len(embs))]
+        dim = n * deg
+        G = matrix(R, dim, dim)
+        for i in range(n):
+            for l in range(deg):
+                for i2 in range(n):
+                    for l2 in range(deg):
+                        s = R(0)
+                        for j in range(len(embs)):
+                            for m in range(n):
+                                u1 = tiv[j][m][i] * omv[j][l]
+                                u2 = tiv[j][m][i2] * omv[j][l2]
+                                s += aD[j][m] * (u1.conjugate() * u2).real()
+                        G[i * deg + l, i2 * deg + l2] = s
+        G = (G + G.transpose()) / 2
+        mx = max([abs(G[a][b]) for a in range(dim) for b in range(dim)])
+        if mx == 0:
+            return identity_matrix(k, n)
+        Gi = matrix(ZZ, dim, dim, lambda a, b: ZZ((G[a][b] / mx * 2 ^ 200).round()))
+        try:
+            U6 = Gi.LLL_gram()
+        except Exception:
+            return identity_matrix(k, n)
+        cols = []
+        for c in range(dim):
+            v = [sum(U6[i * deg + l, c] * omegas[l] for l in range(deg)) for i in range(n)]
+            if any(t != 0 for t in v):
+                cols.append(vector(k, v))
+        chosen = []
+        for v in cols:
+            if matrix(k, chosen + [v]).rank() == len(chosen) + 1:
+                chosen.append(v)
+            if len(chosen) == n:
+                break
+        if len(chosen) < n:
+            return identity_matrix(k, n)
+        U = matrix(k, chosen).transpose()
+        assert U.is_invertible()
+        return U
+
+    def _best_tp(self, t, abc):
+        """ (tp, w) с t = tp*w^2 и наименьшей |N(tp)|. Кандидаты: приведённый представитель из
+            selmer_space и все +-произведения подмножеств коэффициентов {A,B,C} диагональной формы
+            (класс t = -AB совпадает с одним из них, т.к. ABC = det с точностью до квадратов). """
+        k = self.k
+        cands = []
+        try:
+            r0, s0 = self.small_rep(t) if not _is_QQ(k) else self.sq_reduce(t)
+            cands.append((r0, s0))
+        except Exception:
+            pass
+        prods = [k(1)]
+        for u in abc:
+            prods = prods + [p * u for p in prods]
+        for cand in [sg * p for p in prods for sg in (1, -1)]:
+            if cand == 0:
+                continue
+            q = t / cand
+            try:
+                if (QQ(q).is_square() if _is_QQ(k) else q.is_square()):
+                    cands.append((cand, QQ(q).sqrt() if _is_QQ(k) else q.sqrt()))
+            except Exception:
+                pass
+        if not cands:
+            return (t, k(1))
+        def sz(c):
+            nm = QQ(c) if _is_QQ(k) else QQ(k(c).norm())
+            return abs(nm.numerator()) * abs(nm.denominator())
+        best = min(cands, key=lambda p: sz(p[0]))
+        assert best[0] * best[1] ^ 2 == t, "_best_tp: разложение неверно"
+        return best
+
     def small_rep(self, a):
         """ a = a' * s^2 с МАЛЫМ представителем a' класса a в k*/k*^2.
             Через k.selmer_space(S,2) с S = простые, делящие (a) (плюс над 2): образующие
@@ -658,6 +929,9 @@ class FisherCTP:
             return a0, s0
         if not hasattr(self, '_srcache'):
             self._srcache = {}
+        nn = QQ(k(a0).norm())
+        if (ZZ(nn.numerator()).nbits() + ZZ(nn.denominator()).nbits()) > 200:
+            return a0, s0          # факторизация нормы неподъёмна — оставляем как есть
         I = k.ideal(a0)
         try:
             ps = set([ZZ(2)])
@@ -676,13 +950,18 @@ class FisherCTP:
         except Exception:
             return a0, s0
 
-    def solve_conic(self, M, tag=None):
-        """ ненулевой v с v^t M v = 0 (M симметрична 3x3, невырождена, коника разрешима) """
+    def solve_conic(self, M, tag=None, tries=40, top=6):
+        """ ненулевой v с v^t M v = 0 (M симметрична 3x3, невырождена, коника разрешима).
+            Стратегия: (1) перебор малых точек; (2) МНОГО дешёвых случайных замен координат
+            U в GL_3(O_k) + LLL-приведение формы + диагонализация + приведение коэффициентов по
+            модулю квадратов; для каждого представления и каждой из трёх расстановок переменных
+            считается tp (класс -B/A по модулю квадратов) — именно |N(tp)| определяет размер поля
+            k(sqrt tp) и всю стоимость bnfisnorm; (3) is_norm запускается только для нескольких
+            кандидатов с наименьшей |N(tp)|, с прерываемым (cysignals) таймаутом. """
         k = self.k
         key = (tag, str(M))
         if key in self.conic_cache:
             return self.conic_cache[key]
-        # маленькие точки перебором
         for bound in (1, 2, 3):
             rng = [k(i) for i in range(-bound, bound + 1)] if _is_QQ(k) else \
                   [k_rand(k, bound) for _ in range(40)] + [k(0), k(1), k(-1)]
@@ -693,52 +972,100 @@ class FisherCTP:
                 if (v * M * v) == 0:
                     self.conic_cache[key] = v
                     return v
-        D, T = self.diagonalize(M)
+        cands = []
+        seen = set()
+        tlim = time.time() + float(getattr(self, 'conic_search_time', 60))
+        for attempt in range(int(tries)):
+            if attempt > 0 and time.time() > tlim:
+                break
+            try:
+                for c in self._conic_candidates(M, attempt):
+                    kk = str(c[1])
+                    if kk in seen:
+                        continue
+                    seen.add(kk)
+                    cands.append(c)
+            except Exception:
+                continue
+        cands.sort(key=lambda c: c[0])
+        if getattr(self, 'conic_verbose', False):
+            print(f"    кандидатов коники: {len(cands)}; лучшие |N(tp)|: {[c[0] for c in cands[:5]]}")
+        from cysignals.signals import AlarmInterrupt
+        errs = []
+        for c in cands[:int(top)]:
+            cost, tp, w, m, i, j, l, abc, T = c
+            try:
+                if tp.is_square() if not _is_QQ(k) else QQ(tp).is_square():
+                    st = tp.sqrt() if not _is_QQ(k) else QQ(tp).sqrt()
+                    pt = [None] * 3; pt[i] = st * w; pt[j] = k(1); pt[l] = k(0)
+                else:
+                    Xn = PolynomialRing(k, 'Xn').gen()
+                    Lrel = k.extension(Xn ^ 2 - tp, 'yy')
+                    alarm(int(getattr(self, 'conic_timeout', 180)))
+                    try:
+                        ok, el = m.is_norm(Lrel, element=True, proof=False)
+                    finally:
+                        cancel_alarm()
+                    assert ok, "не норма"
+                    cs_ = el.list()
+                    pt = [None] * 3
+                    pt[i] = k(cs_[0]); pt[j] = k(cs_[1]) / w; pt[l] = k(1)
+                a, b, cc = abc
+                assert a * pt[0] ^ 2 + b * pt[1] ^ 2 + cc * pt[2] ^ 2 == 0, "точка не на диаг. конике"
+                v = T * vector(k, pt)
+                assert v != 0 and (v * M * v) == 0, "точка коники неверна"
+                v = self._clear(v)
+                self.conic_cache[key] = v
+                return v
+            except (Exception, AlarmInterrupt) as ex:
+                errs.append(f"{type(ex).__name__}: {str(ex)[:60]}")
+                if getattr(self, 'conic_verbose', False):
+                    print("      ->", errs[-1])
+        raise RuntimeError("коника не решена: " + "; ".join(errs[:6]))
+
+    def _clear(self, v):
+        k = self.k
+        dd = lcm([self._den(t) for t in v])
+        v = vector(k, [t * dd for t in v])
+        try:
+            gg = gcd([ZZ(s) for t in v for s in ([QQ(t)] if _is_QQ(k) else list(k(t))) if s != 0])
+            if gg > 1:
+                v = vector(k, [t / gg for t in v])
+        except Exception:
+            pass
+        return v
+
+    def _conic_candidates(self, M0, attempt):
+        """ представления коники: (стоимость, tp, w, m, i, j, l, (a,b,c), T) """
+        k = self.k
+        U0 = identity_matrix(k, 3)
+        M = M0
+        if attempt > 0:
+            for _ in range(50):
+                U0 = matrix(k, 3, 3, lambda i, j: k_rand(k, 2) if i != j else k(1) + k_rand(k, 1))
+                if U0.is_invertible():
+                    break
+            M = U0.transpose() * M0 * U0
+        U = self.reduce_form(M)
+        U0 = U0 * U
+        Mr = U.transpose() * M * U
+        dn = lcm([self._den(Mr[i][j]) for i in range(3) for j in range(3)])
+        Mr = Mr * dn
+        D, T0 = self.diagonalize(Mr)
+        T = U0 * T0
         assert all(d != 0 for d in D)
         reps = [self.small_rep(d) for d in D]
         a, b, c = [r for r, _ in reps]
-        pt = None
-        order = []
+        Ts = T * diagonal_matrix(k, [1 / reps[t][1] for t in range(3)])
+        out = []
         for (i, j, l) in [(0, 1, 2), (0, 2, 1), (1, 2, 0)]:
-            A, B = [a, b, c][i], [a, b, c][j]
-            t = -B / A
-            if (QQ(t).is_square() if _is_QQ(k) else t.is_square()):
-                st = QQ(t).sqrt() if _is_QQ(k) else t.sqrt()
-                pt = [None] * 3; pt[i] = st; pt[j] = k(1); pt[l] = k(0)
-                break
-            nm = QQ(t) if _is_QQ(k) else t.norm()
-            order.append((abs(QQ(nm).numerator()) * abs(QQ(nm).denominator()), i, j, l))
-        if pt is None:
-            errs = []
-            for cost, i, j, l in sorted(order):
-                A, B, Cc = [a, b, c][i], [a, b, c][j], [a, b, c][l]
-                try:
-                    t = -B / A; m = -Cc / A
-                    if _is_QQ(k):
-                        con = Conic(QQ, [QQ(a), QQ(b), QQ(c)])
-                        ok, p0 = con.has_rational_point(point=True)
-                        assert ok
-                        pt = [QQ(p0[0]), QQ(p0[1]), QQ(p0[2])]
-                        break
-                    dd = lcm([QQ(cc).denominator() for cc in list(t)]); tp = t * dd ^ 2
-                    Xn = PolynomialRing(k, 'Xn').gen()
-                    Lrel = k.extension(Xn ^ 2 - tp, 'yy')
-                    ok, el = m.is_norm(Lrel, element=True, proof=False)
-                    assert ok, "не норма (коника без точки?)"
-                    cs_ = el.list()
-                    pt = [None] * 3
-                    pt[i] = k(cs_[0]); pt[j] = k(cs_[1]) * dd; pt[l] = k(1)
-                    break
-                except Exception as ex:
-                    errs.append(f"{(i,j,l)}: {type(ex).__name__}: {str(ex)[:80]}")
-            if pt is None:
-                raise RuntimeError("коника не решена: " + "; ".join(errs))
-        assert a * pt[0] ^ 2 + b * pt[1] ^ 2 + c * pt[2] ^ 2 == 0
-        y = vector(k, [pt[t] / reps[t][1] for t in range(3)])
-        v = T * y
-        assert v != 0 and (v * M * v) == 0, "точка коники неверна"
-        self.conic_cache[key] = v
-        return v
+            A, B, Cc = [a, b, c][i], [a, b, c][j], [a, b, c][l]
+            t = -B / A; m = -Cc / A
+            tp, w = self._best_tp(t, [a, b, c])
+            nm = QQ(tp) if _is_QQ(k) else QQ(tp.norm())
+            cost = abs(nm.numerator()) * abs(nm.denominator())
+            out.append((cost, tp, w, m, i, j, l, (a, b, c), Ts))
+        return out
 
     # --------- gamma1 ---------
     def gamma1(self, g1, g2, g3):

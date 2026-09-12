@@ -1,0 +1,21 @@
+# MODE=sq пар=140 K=1500 hcap=1200 primes=60 tmax=90 fams=['F1', 'F2', 'F3', 'F4']
+== (P,Q)=(3977,713) C=8162449 SQ
+  F1 c0/c2@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2748 hmax=1197 pr=60 surv=33 ex=29 bad=0 hits=0 t=0s
+  F1 c0/c3@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2524 hmax=1200 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F1 c0/c6@t0=713: rank[2,2] g=2 src=pari sat=1 tors=8 st=4328 hmax=1185 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F1 c0/c8@t0=713: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=1151 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F1 c2/c3@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2524 hmax=1200 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F1 c2/c6@t0=713: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=1123 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F1 c2/c8@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2132 hmax=1200 pr=60 surv=18 ex=14 bad=0 hits=0 t=0s
+  F1 c3/c6@t0=713: rank[4,4] g=4 src=pari+mw sat=2 tors=4 st=12004 hmax=203 pr=60 surv=42 ex=38 bad=0 hits=0 t=2s
+  F1 c3/c8@t0=713: rank[4,4] g=4 src=pari+mw sat=2 tors=4 st=12004 hmax=203 pr=60 surv=47 ex=43 bad=0 hits=0 t=1s
+  F1 c6/c8@t0=713: rank[2,2] g=2 src=pari+mw sat=1 tors=4 st=2636 hmax=1200 pr=60 surv=17 ex=13 bad=0 hits=0 t=74s
+  F2 c2/c3@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2748 hmax=1197 pr=60 surv=33 ex=29 bad=0 hits=0 t=0s
+  F2 c2/c5@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2748 hmax=1197 pr=60 surv=29 ex=25 bad=0 hits=0 t=0s
+  F2 c2/c6@t0=713: rank[4,4] g=4 src=pari sat=1 tors=4 st=11980 hmax=232 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c2/c8@t0=713: rank[4,4] g=4 src=pari sat=1 tors=4 st=11980 hmax=232 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c3/c5@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2524 hmax=1200 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c3/c6@t0=713: rank[2,2] g=2 src=pari sat=1 tors=4 st=2132 hmax=1200 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c3/c8@t0=713: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=1123 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c5/c6@t0=713: rank[2,2] g=2 src=pari sat=1 tors=8 st=4328 hmax=1185 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s
+  F2 c5/c8@t0=713: rank[1,1] g=1 src=pari sat=1 tors=8 st=200 hmax=1151 pr=60 surv=17 ex=13 bad=0 hits=0 t=0s

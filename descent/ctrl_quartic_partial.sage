@@ -27,7 +27,7 @@ def true_rank_k(a, b, d):
     return r1 + r2
 
 
-def run_case(a, b, d, min_excess=2, verbose=False):
+def run_case(a, b, d, min_excess=0, verbose=False):
     k = QuadraticField(d, 'r')
     if k(a ^ 2 - 4 * b).is_square():
         return None
