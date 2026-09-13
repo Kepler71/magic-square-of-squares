@@ -1,0 +1,6 @@
+slopes 12230 distinct pairs 36695
+inclusion violations: 0 undetermined: 0
+denominators 2-48: slopes 710; closed odd (non-pyth pair) 605 (+1 only via pythagorean pair); closed exact (non-pyth) 689 (+0 only via pythagorean pair)
+denominators 49-100: slopes 2332; closed odd (non-pyth pair) 1670 (+0 only via pythagorean pair); closed exact (non-pyth) 2160 (+0 only via pythagorean pair)
+denominators 101-200: slopes 9188; closed odd (non-pyth pair) 5673 (+0 only via pythagorean pair); closed exact (non-pyth) 7941 (+0 only via pythagorean pair)
+time 7s

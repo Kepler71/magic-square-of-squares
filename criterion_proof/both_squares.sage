@@ -40,7 +40,7 @@ def class_points(cs):
     return E, ps
 def is_nondeg_square_set(k,p):
     cells=[1+c*p for c in all_cells(k)]
-    return all(c>0 and QQ(c).is_square() for c in cells) and len(set(cells+[1]))==9
+    return all(c>=0 and QQ(c).is_square() for c in cells) and len(set(cells+[1]))==9
 restored=[]; pyth=[]; problems=[]
 for s in range(2,201):
     for r in range(1,s):

@@ -1,0 +1,8 @@
+PARI stack size set to 2000000000 bytes, maximum size set to 2000003072
+  ***   Warning: new maximum stack size = 4000002048 (3814.699 Mbytes).
+pairs 300, time 4s
+bound below PARI lower: 0 ; isogeny bound below PARI upper: 0
+inclusion Sel ⊆ S_odd violated: 0 ; odd bound < exact bound: 0
+exact bound 0: 48 ; odd bound 0: 16 ; PARI rank 0 (r1=r2=0): 110 ; PARI undecided: 3
+exact bound == PARI upper: 196 ; exact bound == PARI lower: 193
+undetermined depth events: 0
