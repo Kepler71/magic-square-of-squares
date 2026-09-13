@@ -1,0 +1,12 @@
+115/163 {'singles': [115], 'pairs': [48, 163]} ЗАКРЫТ
+67/168 {'singles': [67], 'pairs': [101, 168]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [67], 'pairs': [101, 235]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [67], 'pairs': [168, 235]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [101], 'pairs': [67, 168]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [101], 'pairs': [67, 235]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [101], 'pairs': [168, 235]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [168], 'pairs': [67, 101]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [168], 'pairs': [67, 235]} The computation exceeded the time limit and so was terminated prematur
+67/168 {'singles': [168], 'pairs': [101, 235]} The computation exceeded the memory limit and so was terminated premat
+67/168 {'singles': [235], 'pairs': [67, 101]} ЗАКРЫТ
+готово
