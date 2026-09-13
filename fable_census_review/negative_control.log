@@ -1,0 +1,78 @@
+наклон 247 / 825 коэффициенты [247, 825, 578, 1072]
+девять нормированных клеток при z0: ['1', '222121/180625', '139129/180625', '12769/7225', '1681/7225', '961/625', '289/625', '360721/180625', '529/180625']
+квадраты: [True, False, True, True, True, True, True, False, True]
+сверка с квадратом Бремнера: True
+classify: квадратов 7/9
+квадратные клетки 1 + c z0 при c = [-247, 825, -825, 578, -578, -1072]
+
+=== контроль рода 1: все тройки и четвёрки квадратных клеток ===
+(-247, 825, -825) T=4 L=0 mw=3 rank0=False pts=36/4 z0 в списке=False closed=False 0s
+(-247, 825, 578) T=8 L=0 mw=2 rank0=False pts=74/8 z0 в списке=False closed=False 2s
+(-247, 825, -578) T=4 L=0 mw=3 rank0=False pts=50/4 z0 в списке=False closed=False 0s
+(-247, 825, -1072) T=8 L=0 mw=1 rank0=False pts=24/8 z0 в списке=False closed=False 0s
+(-247, -825, 578) T=8 L=0 mw=2 rank0=False pts=56/8 z0 в списке=False closed=False 4s
+(-247, -825, -578) T=8 L=0 mw=2 rank0=False pts=62/8 z0 в списке=False closed=False 2s
+(-247, -825, -1072) T=8 L=0 mw=2 rank0=False pts=70/8 z0 в списке=False closed=False 0s
+(-247, 578, -578) T=4 L=0 mw=2 rank0=False pts=22/4 z0 в списке=False closed=False 2s
+(-247, 578, -1072) T=4 L=0 mw=3 rank0=False pts=36/4 z0 в списке=False closed=False 0s
+(-247, -578, -1072) T=4 L=0 mw=3 rank0=False pts=44/4 z0 в списке=False closed=False 0s
+(825, -825, 578) T=4 L=0 mw=4 rank0=False pts=110/4 z0 в списке=False closed=False 11s
+(825, -825, -578) T=4 L=0 mw=4 rank0=False pts=110/4 z0 в списке=False closed=False 0s
+(825, -825, -1072) T=4 L=0 mw=4 rank0=False pts=50/4 z0 в списке=False closed=False 34s
+(825, 578, -578) T=4 L=0 mw=3 rank0=False pts=46/4 z0 в списке=False closed=False 0s
+(825, 578, -1072) T=4 L=0 mw=3 rank0=False pts=70/4 z0 в списке=False closed=False 0s
+(825, -578, -1072) T=4 L=0 mw=3 rank0=False pts=40/4 z0 в списке=False closed=False 0s
+(-825, 578, -578) T=4 L=0 mw=3 rank0=False pts=46/4 z0 в списке=False closed=False 0s
+(-825, 578, -1072) T=4 L=0 mw=3 rank0=False pts=90/4 z0 в списке=False closed=False 0s
+(-825, -578, -1072) T=4 L=0 mw=2 rank0=False pts=16/4 z0 в списке=False closed=False 14s
+(578, -578, -1072) T=4 L=0 mw=2 rank0=False pts=22/4 z0 в списке=False closed=False 0s
+(-247, 825, -825, 578) T=4 L=0 mw=3 rank0=False pts=88/4 z0 в списке=False closed=False 0s
+(-247, 825, -825, -578) T=4 L=0 mw=3 rank0=False pts=26/4 z0 в списке=False closed=False 0s
+(-247, 825, -825, -1072) T=4 L=0 mw=3 rank0=False pts=60/4 z0 в списке=False closed=False 0s
+(-247, 825, 578, -578) T=4 L=0 mw=3 rank0=False pts=46/4 z0 в списке=False closed=False 0s
+(-247, 825, 578, -1072) T=4 L=0 mw=4 rank0=False pts=46/4 z0 в списке=False closed=False 0s
+(-247, 825, -578, -1072) T=4 L=ERR: the PARI stack overflows (current size: 64000000; maximum size: 1073741824)
+You can use pari.allocatemem() to change the stack size and try again mw=4 rank0=False pts=20/4 z0 в списке=False closed=False 0s
+(-247, -825, 578, -578) T=4 L=0 mw=3 rank0=False pts=36/4 z0 в списке=False closed=False 0s
+(-247, -825, 578, -1072) T=4 L=0 mw=4 rank0=False pts=94/4 z0 в списке=False closed=False 4s
+(-247, -825, -578, -1072) T=4 L=0 mw=2 rank0=False pts=18/4 z0 в списке=False closed=False 11s
+(-247, 578, -578, -1072) T=4 L=0 mw=4 rank0=False pts=54/4 z0 в списке=False closed=False 5s
+(825, -825, 578, -578) T=8 L=0 mw=1 rank0=False pts=28/8 z0 в списке=False closed=False 0s
+(825, -825, 578, -1072) T=8 L=0 mw=2 rank0=False pts=52/8 z0 в списке=False closed=False 15s
+(825, -825, -578, -1072) T=4 L=0 mw=3 rank0=False pts=16/4 z0 в списке=False closed=False 0s
+(825, 578, -578, -1072) T=4 L=0 mw=3 rank0=False pts=46/4 z0 в списке=False closed=False 0s
+(-825, 578, -578, -1072) T=4 L=0 mw=2 rank0=False pts=12/4 z0 в списке=False closed=False 69s
+ложных закрытий рода 1: 0
+
+=== контроль рода 1 на тройках Claude с нижней границей ранга >= 1 ===
+троек/четвёрок с нижней границей >= 1 в файле Claude: 132
+115/163 [-278, -163, -48, 115] Claude (1,1) L=0 mw=1 rank0=False closed=False
+115/163 [-278, 48, 163] Claude (1,1) L=0 mw=1 rank0=False closed=False
+115/163 [-115, -48, 48, 115] Claude (1,1) L=0 mw=1 rank0=False closed=False
+115/163 [-278, -163, -115, 115] Claude (2,2) L=0 mw=2 rank0=False closed=False
+67/168 [-168, -101, 67, 101] Claude (2,2) L=0 mw=2 rank0=False closed=False
+67/168 [-235, -101, 67, 235] Claude (1,1) L=0 mw=1 rank0=False closed=False
+67/168 [-235, -67, 67, 235] Claude (1,1) L=0 mw=1 rank0=False closed=False
+67/168 [-235, -168, -101, 168] Claude (2,2) L=0 mw=2 rank0=False closed=False
+115/163 [-278, -48, 48, 163] Claude (3,3) L=0 mw=3 rank0=False closed=False
+115/163 [-163, -48, 163] Claude (2,2) L=0 mw=2 rank0=False closed=False
+67/168 [-168, -101, -67, 101] Claude (2,2) L=0 mw=2 rank0=False closed=False
+115/163 [-278, -115, 48] Claude (1,1) L=0 mw=1 rank0=False closed=False
+ложных закрытий: 0
+
+=== контроль шести клеток на тройках Claude, где E+ и E- имели ранг >= 1 ===
+кандидатов: 4243
+101/185 [84, 101, 185] + Claude (2, 2) L=0 mw=2 rank0=False closed=False
+97/191 [94, 97, 288] + Claude (1, 1) L=0 mw=1 rank0=False closed=False
+17/43 [17, 43, 60] - Claude (1, 1) L=0 mw=1 rank0=False closed=False
+132/193 [61, 132, 325] + Claude (2, 2) L=ERR: the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)
+You can use pari.allocatemem() to change the stack size and try again mw=2 rank0=False closed=False
+90/161 [71, 90, 251] + Claude (1, 1) L=0 mw=1 rank0=False closed=False
+72/151 [72, 151, 223] - Claude (1, 1) L=0 mw=1 rank0=False closed=False
+106/119 [13, 119, 225] + Claude (1, 1) L=0 mw=1 rank0=False closed=False
+113/170 [57, 113, 170] - Claude (2, 2) L=0 mw=2 rank0=False closed=False
+69/83 [14, 69, 152] - Claude (2, 2) L=0 mw=2 rank0=False closed=False
+11/71 [11, 60, 71] + Claude (1, 1) L=0 mw=1 rank0=False closed=False
+72/73 [1, 72, 73] - Claude (2, 2) L=0 mw=2 rank0=False closed=False
+41/60 [19, 41, 101] - Claude (2, 2) L=0 mw=2 rank0=False closed=False
+ложных закрытий: 0
