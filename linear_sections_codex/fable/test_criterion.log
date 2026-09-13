@@ -1,0 +1,7 @@
+(i) критерий vs PARI, пар 48677 время 1 противоречий 0
+[]
+    ('notpure', 'SelNontriv', 'rank0') 4078
+    ('notpure', 'SelNontriv', 'rank>0') 30624
+    ('notpure', 'SelTriv', 'rank0') 6713
+    ('pure', 'SelTriv', 'rank0') 7262
+   распределение (верх критерия − (r2+s)): Counter({0: 36167, 2: 12040, 4: 470})

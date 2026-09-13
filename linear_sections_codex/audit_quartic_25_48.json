@@ -1,0 +1,10 @@
+{
+  "checks": [
+    {
+      "file": "four_cell_25_48.json",
+      "excluded_certificates_checked": 48
+    }
+  ],
+  "all_passed": true,
+  "checks_do_not_include": "Independent recomputation of PARI/eclib rank; minimal-model isomorphisms are checked separately."
+}

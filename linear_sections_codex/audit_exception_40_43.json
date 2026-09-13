@@ -1,0 +1,10 @@
+{
+  "checks": [
+    {
+      "file": "exception_40_43_certified.json",
+      "excluded_certificates_checked": 1
+    }
+  ],
+  "all_passed": true,
+  "checks_do_not_include": "Independent recomputation of PARI/eclib rank; minimal-model isomorphisms are checked separately."
+}

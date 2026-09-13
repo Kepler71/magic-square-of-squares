@@ -1,0 +1,4971 @@
+{
+  "all_passed": true,
+  "denominator_max": 48,
+  "total_slopes": 711,
+  "counts": {
+    "four_square_AP": 4,
+    "repeated_cells": 1,
+    "cubic": 650,
+    "quartic": 55,
+    "quartic_fisher": 1
+  },
+  "scope": "Reduced k=q/p after D8 normalization 0<q<p; all rational finite p, no height bound.",
+  "limitation": "Coverage audit links existing certificates; it does not recompute their rank proofs.",
+  "witnesses": [
+    {
+      "k": "1/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-1920800,1025280000"
+    },
+    {
+      "k": "1/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-1491780,701799300"
+    },
+    {
+      "k": "1/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1491780,701799300"
+    },
+    {
+      "k": "1/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-1491780,701799300"
+    },
+    {
+      "k": "1/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-1138984,468248704"
+    },
+    {
+      "k": "1/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1138984,468248704"
+    },
+    {
+      "k": "1/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-1138984,468248704"
+    },
+    {
+      "k": "1/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-56170,-5105305"
+    },
+    {
+      "k": "1/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,1,1,-56170,-5105305"
+    },
+    {
+      "k": "1/39",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-3040,-63520"
+    },
+    {
+      "k": "1/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-624264,190053504"
+    },
+    {
+      "k": "1/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-624264,190053504"
+    },
+    {
+      "k": "1/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-34965,2513592"
+    },
+    {
+      "k": "1/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-499800,136167552"
+    },
+    {
+      "k": "1/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-445060,114429700"
+    },
+    {
+      "k": "1/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-21824,1231841"
+    },
+    {
+      "k": "1/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-21824,1231841"
+    },
+    {
+      "k": "1/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-307520,65740800"
+    },
+    {
+      "k": "1/30",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-307520,65740800"
+    },
+    {
+      "k": "1/29",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-14980,-666400"
+    },
+    {
+      "k": "1/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-11970,-496125"
+    },
+    {
+      "k": "1/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-152100,22882500"
+    },
+    {
+      "k": "1/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-152100,22882500"
+    },
+    {
+      "k": "1/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-130000,18084352"
+    },
+    {
+      "k": "1/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-6900,220032"
+    },
+    {
+      "k": "2/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1623620,796828932"
+    },
+    {
+      "k": "1/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-6900,220032"
+    },
+    {
+      "k": "2/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1364180,612812928"
+    },
+    {
+      "k": "1/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-64680,6309828"
+    },
+    {
+      "k": "2/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-939684,350913924"
+    },
+    {
+      "k": "1/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-64680,6309828"
+    },
+    {
+      "k": "2/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-939684,350913924"
+    },
+    {
+      "k": "1/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-3325,72410"
+    },
+    {
+      "k": "2/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-769124,259360416"
+    },
+    {
+      "k": "1/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-34884,2496096"
+    },
+    {
+      "k": "2/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-769124,259360416"
+    },
+    {
+      "k": "1/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-34884,2496096"
+    },
+    {
+      "k": "2/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-450840,-111310812"
+    },
+    {
+      "k": "1/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-1360,18737"
+    },
+    {
+      "k": "2/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-306564,65431044"
+    },
+    {
+      "k": "1/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-1360,18737"
+    },
+    {
+      "k": "3/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1619960,793020900"
+    },
+    {
+      "k": "2/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-306564,65431044"
+    },
+    {
+      "k": "3/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1486164,696807936"
+    },
+    {
+      "k": "1/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-16800,832500"
+    },
+    {
+      "k": "3/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-77724,8333199"
+    },
+    {
+      "k": "2/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-208544,-34260684"
+    },
+    {
+      "k": "3/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-1486164,696807936"
+    },
+    {
+      "k": "1/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-9464,357504"
+    },
+    {
+      "k": "3/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-690740,220704000"
+    },
+    {
+      "k": "2/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-155480,-21815772"
+    },
+    {
+      "k": "3/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-620640,187960500"
+    },
+    {
+      "k": "1/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-9464,357504"
+    },
+    {
+      "k": "3/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-690740,220704000"
+    },
+    {
+      "k": "2/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-92580,10871172"
+    },
+    {
+      "k": "3/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-620640,187960500"
+    },
+    {
+      "k": "1/12",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-9464,357504"
+    },
+    {
+      "k": "4/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1404680,-574451328"
+    },
+    {
+      "k": "3/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-26975,-1538683"
+    },
+    {
+      "k": "2/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-92580,10871172"
+    },
+    {
+      "k": "3/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-304984,64707236"
+    },
+    {
+      "k": "4/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-84760,9488975"
+    },
+    {
+      "k": "1/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-4180,-90428"
+    },
+    {
+      "k": "4/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-47695,4003712"
+    },
+    {
+      "k": "3/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-18639,-864939"
+    },
+    {
+      "k": "2/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-64244,6244416"
+    },
+    {
+      "k": "3/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-304984,64707236"
+    },
+    {
+      "k": "4/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-58315,5394272"
+    },
+    {
+      "k": "1/10",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-2160,37908"
+    },
+    {
+      "k": "4/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-47695,4003712"
+    },
+    {
+      "k": "3/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,1,1,-18639,-864939"
+    },
+    {
+      "k": "5/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-1124400,459000000"
+    },
+    {
+      "k": "2/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-27460,1759492"
+    },
+    {
+      "k": "5/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1608360,785289600"
+    },
+    {
+      "k": "3/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-12660,546975"
+    },
+    {
+      "k": "4/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-58315,5394272"
+    },
+    {
+      "k": "5/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1248740,-446581500"
+    },
+    {
+      "k": "1/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-2160,37908"
+    },
+    {
+      "k": "5/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-77090,8201630"
+    },
+    {
+      "k": "4/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-30860,2072540"
+    },
+    {
+      "k": "3/26",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "0,1,0,-3041160,2040226308"
+    },
+    {
+      "k": "5/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1124400,459000000"
+    },
+    {
+      "k": "2/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-27460,1759492"
+    },
+    {
+      "k": "5/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-613520,184958400"
+    },
+    {
+      "k": "3/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-12660,546975"
+    },
+    {
+      "k": "4/33",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-476704,-48441536"
+    },
+    {
+      "k": "5/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-34330,2442275"
+    },
+    {
+      "k": "1/8",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-84,261"
+    },
+    {
+      "k": "6/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1600484,778093536"
+    },
+    {
+      "k": "5/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-436020,110784132"
+    },
+    {
+      "k": "4/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-10834,432419"
+    },
+    {
+      "k": "3/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-3260,71247"
+    },
+    {
+      "k": "5/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-683220,217368900"
+    },
+    {
+      "k": "2/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-16580,815328"
+    },
+    {
+      "k": "5/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-613520,184958400"
+    },
+    {
+      "k": "3/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-42384,3337236"
+    },
+    {
+      "k": "4/29",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-298640,-15972012"
+    },
+    {
+      "k": "5/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-34330,2442275"
+    },
+    {
+      "k": "6/43",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "0,1,0,-1486164,696807936"
+    },
+    {
+      "k": "1/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-420,3168"
+    },
+    {
+      "k": "7/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-108290,13685700"
+    },
+    {
+      "k": "6/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-755720,-176621568"
+    },
+    {
+      "k": "5/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-436020,110784132"
+    },
+    {
+      "k": "4/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-10834,432419"
+    },
+    {
+      "k": "7/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-51750,4494867"
+    },
+    {
+      "k": "3/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-3260,71247"
+    },
+    {
+      "k": "5/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-19725,-725400"
+    },
+    {
+      "k": "7/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1458724,677352964"
+    },
+    {
+      "k": "2/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-9300,347652"
+    },
+    {
+      "k": "7/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-149615,22187180"
+    },
+    {
+      "k": "5/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-21325,1187267"
+    },
+    {
+      "k": "3/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-42384,3337236"
+    },
+    {
+      "k": "7/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-603160,179694592"
+    },
+    {
+      "k": "4/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-103160,-8243100"
+    },
+    {
+      "k": "5/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-300040,63210112"
+    },
+    {
+      "k": "6/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-296740,61813088"
+    },
+    {
+      "k": "7/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1110200,449521152"
+    },
+    {
+      "k": "1/6",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "8/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-46254,3801204"
+    },
+    {
+      "k": "7/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-108290,13685700"
+    },
+    {
+      "k": "6/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-755720,-176621568"
+    },
+    {
+      "k": "5/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-11555,-283023"
+    },
+    {
+      "k": "4/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-5659,160976"
+    },
+    {
+      "k": "7/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-51750,4494867"
+    },
+    {
+      "k": "3/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-27000,1692900"
+    },
+    {
+      "k": "8/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-82815,9134217"
+    },
+    {
+      "k": "5/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-19725,-725400"
+    },
+    {
+      "k": "7/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-37594,-1569436"
+    },
+    {
+      "k": "2/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-4724,126084"
+    },
+    {
+      "k": "7/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-540324,-81866556"
+    },
+    {
+      "k": "5/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-171280,27115028"
+    },
+    {
+      "k": "8/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-29715,1940097"
+    },
+    {
+      "k": "3/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-1319,18249"
+    },
+    {
+      "k": "7/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-603160,179694592"
+    },
+    {
+      "k": "4/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-50184,-2213244"
+    },
+    {
+      "k": "9/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1569104,752449236"
+    },
+    {
+      "k": "5/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-61360,5762900"
+    },
+    {
+      "k": "6/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-296740,61813088"
+    },
+    {
+      "k": "7/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-33719,2368464"
+    },
+    {
+      "k": "8/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-23340,1353600"
+    },
+    {
+      "k": "9/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1437540,659520288"
+    },
+    {
+      "k": "1/5",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "9/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,1,1,-129174,-10801374"
+    },
+    {
+      "k": "8/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-46254,3801204"
+    },
+    {
+      "k": "7/34",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-710584,52172516"
+    },
+    {
+      "k": "6/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-87364,9744416"
+    },
+    {
+      "k": "5/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-40640,3112512"
+    },
+    {
+      "k": "9/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-872564,-130698876"
+    },
+    {
+      "k": "4/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-5659,160976"
+    },
+    {
+      "k": "7/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-51750,4494867"
+    },
+    {
+      "k": "10/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-582420,167976900"
+    },
+    {
+      "k": "3/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-4544,114036"
+    },
+    {
+      "k": "8/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-13699,598481"
+    },
+    {
+      "k": "5/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-71140,-2783200"
+    },
+    {
+      "k": "7/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-120800,15840000"
+    },
+    {
+      "k": "9/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-20254,1082564"
+    },
+    {
+      "k": "2/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-740,7812"
+    },
+    {
+      "k": "9/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-50770,4358900"
+    },
+    {
+      "k": "7/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-540324,-81866556"
+    },
+    {
+      "k": "5/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-59300,-1807548"
+    },
+    {
+      "k": "8/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-29715,1940097"
+    },
+    {
+      "k": "11/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-83925,-2994975"
+    },
+    {
+      "k": "3/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-7220,-71100"
+    },
+    {
+      "k": "10/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-2539860,1551932100"
+    },
+    {
+      "k": "7/30",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-256100,49273248"
+    },
+    {
+      "k": "11/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1542344,729907584"
+    },
+    {
+      "k": "4/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-21080,-332928"
+    },
+    {
+      "k": "9/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-215240,37049988"
+    },
+    {
+      "k": "5/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-61360,5762900"
+    },
+    {
+      "k": "11/46",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "0,1,0,-14089160,20326728708"
+    },
+    {
+      "k": "6/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-123140,16394400"
+    },
+    {
+      "k": "7/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-70980,7026372"
+    },
+    {
+      "k": "8/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-23340,1353600"
+    },
+    {
+      "k": "9/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-1437540,659520288"
+    },
+    {
+      "k": "10/41",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "1,0,0,-34330,2442275"
+    },
+    {
+      "k": "11/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-158015,-11606775"
+    },
+    {
+      "k": "1/4",
+      "method": "four_square_AP",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "12/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-95465,11172000"
+    },
+    {
+      "k": "11/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1069904,419765184"
+    },
+    {
+      "k": "10/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-723780,233085600"
+    },
+    {
+      "k": "9/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-136260,18271008"
+    },
+    {
+      "k": "8/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-18044,910541"
+    },
+    {
+      "k": "7/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-2975,57692"
+    },
+    {
+      "k": "6/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-87364,9744416"
+    },
+    {
+      "k": "11/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-970964,361697856"
+    },
+    {
+      "k": "5/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-40640,3112512"
+    },
+    {
+      "k": "9/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-334820,-10348668"
+    },
+    {
+      "k": "4/15",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 20,
+      "curve_key": "0,-1,0,-27460,1759492"
+    },
+    {
+      "k": "11/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-145814,21219266"
+    },
+    {
+      "k": "7/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-38344,2700544"
+    },
+    {
+      "k": "10/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-582420,167976900"
+    },
+    {
+      "k": "13/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-103075,12481025"
+    },
+    {
+      "k": "3/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-4544,114036"
+    },
+    {
+      "k": "11/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-49605,4143675"
+    },
+    {
+      "k": "8/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-13699,598481"
+    },
+    {
+      "k": "13/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-389844,86155524"
+    },
+    {
+      "k": "5/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-8320,270400"
+    },
+    {
+      "k": "12/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-66110,6393075"
+    },
+    {
+      "k": "7/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-120800,15840000"
+    },
+    {
+      "k": "9/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-20254,1082564"
+    },
+    {
+      "k": "11/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-36159,-144576"
+    },
+    {
+      "k": "13/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1382804,611826564"
+    },
+    {
+      "k": "2/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-740,7812"
+    },
+    {
+      "k": "13/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1262320,531603668"
+    },
+    {
+      "k": "11/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-641684,192994884"
+    },
+    {
+      "k": "9/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-50770,4358900"
+    },
+    {
+      "k": "7/24",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 21,
+      "curve_key": "1,0,0,-108290,13685700"
+    },
+    {
+      "k": "12/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-156390,23569875"
+    },
+    {
+      "k": "5/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-370,2387"
+    },
+    {
+      "k": "13/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-166959,-8541936"
+    },
+    {
+      "k": "8/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-10185,383625"
+    },
+    {
+      "k": "11/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-468564,2811204"
+    },
+    {
+      "k": "14/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1220000,12198900"
+    },
+    {
+      "k": "3/10",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-680,5700"
+    },
+    {
+      "k": "13/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-228820,36215168"
+    },
+    {
+      "k": "10/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-296560,2964500"
+    },
+    {
+      "k": "7/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-4374,4371"
+    },
+    {
+      "k": "11/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-32030,2133027"
+    },
+    {
+      "k": "4/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-115,392"
+    },
+    {
+      "k": "13/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-197904,28534464"
+    },
+    {
+      "k": "9/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-215240,37049988"
+    },
+    {
+      "k": "14/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-257860,42170500"
+    },
+    {
+      "k": "5/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-4080,84672"
+    },
+    {
+      "k": "11/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-5765,138417"
+    },
+    {
+      "k": "6/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-39540,2901888"
+    },
+    {
+      "k": "13/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-44219,397136"
+    },
+    {
+      "k": "7/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-70980,7026372"
+    },
+    {
+      "k": "15/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-76380,990525"
+    },
+    {
+      "k": "8/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-7390,231947"
+    },
+    {
+      "k": "9/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-35880,2076228"
+    },
+    {
+      "k": "10/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-231400,5998148"
+    },
+    {
+      "k": "11/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-76824,6499584"
+    },
+    {
+      "k": "12/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-35370,2452275"
+    },
+    {
+      "k": "13/40",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 42,
+      "curve_key": "1,0,0,-18965,441192"
+    },
+    {
+      "k": "14/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-857024,47820864"
+    },
+    {
+      "k": "15/46",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "1,0,0,-1453865,672963792"
+    },
+    {
+      "k": "1/3",
+      "method": "four_square_AP",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "16/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-15480,520377"
+    },
+    {
+      "k": "15/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-189560,22428900"
+    },
+    {
+      "k": "14/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-142324,14522816"
+    },
+    {
+      "k": "13/38",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "1,1,1,-675304,212681576"
+    },
+    {
+      "k": "12/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-28020,1709487"
+    },
+    {
+      "k": "11/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-51920,3134868"
+    },
+    {
+      "k": "10/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-723780,233085600"
+    },
+    {
+      "k": "9/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-136260,18271008"
+    },
+    {
+      "k": "8/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-5210,134615"
+    },
+    {
+      "k": "15/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-53830,1225250"
+    },
+    {
+      "k": "7/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-2975,57692"
+    },
+    {
+      "k": "13/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-29529,525609"
+    },
+    {
+      "k": "6/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-24804,1407456"
+    },
+    {
+      "k": "17/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-98460,11178000"
+    },
+    {
+      "k": "11/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-14565,186930"
+    },
+    {
+      "k": "16/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-75995,7571025"
+    },
+    {
+      "k": "5/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-11380,442372"
+    },
+    {
+      "k": "14/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-1977144,-153748764"
+    },
+    {
+      "k": "9/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-1070,7812"
+    },
+    {
+      "k": "13/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-73000,4413952"
+    },
+    {
+      "k": "17/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-211140,21355488"
+    },
+    {
+      "k": "4/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-39,36"
+    },
+    {
+      "k": "15/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-832720,272326100"
+    },
+    {
+      "k": "11/30",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "0,-1,0,-1829640,944611200"
+    },
+    {
+      "k": "7/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-38344,2700544"
+    },
+    {
+      "k": "17/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1135060,161556100"
+    },
+    {
+      "k": "10/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-156180,22004928"
+    },
+    {
+      "k": "13/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-103075,12481025"
+    },
+    {
+      "k": "16/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-235245,42959907"
+    },
+    {
+      "k": "3/8",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-75,225"
+    },
+    {
+      "k": "17/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1199640,466013988"
+    },
+    {
+      "k": "14/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-476600,48452352"
+    },
+    {
+      "k": "11/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-179924,11248896"
+    },
+    {
+      "k": "8/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-3549,74529"
+    },
+    {
+      "k": "13/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-389844,86155524"
+    },
+    {
+      "k": "18/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-179924,11248896"
+    },
+    {
+      "k": "5/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-8320,270400"
+    },
+    {
+      "k": "17/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-68169,6236766"
+    },
+    {
+      "k": "12/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-66110,6393075"
+    },
+    {
+      "k": "7/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-120800,15840000"
+    },
+    {
+      "k": "16/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-51270,4048707"
+    },
+    {
+      "k": "9/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-81184,8073716"
+    },
+    {
+      "k": "11/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-9825,159510"
+    },
+    {
+      "k": "13/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-18965,441192"
+    },
+    {
+      "k": "15/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-1973140,-51283388"
+    },
+    {
+      "k": "17/43",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-228820,36215168"
+    },
+    {
+      "k": "19/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-84959,4257369"
+    },
+    {
+      "k": "2/5",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "19/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-78385,4001990"
+    },
+    {
+      "k": "17/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-97840,1561600"
+    },
+    {
+      "k": "15/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-58660,643808"
+    },
+    {
+      "k": "13/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-18835,882065"
+    },
+    {
+      "k": "11/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-152624,20447316"
+    },
+    {
+      "k": "9/22",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 36,
+      "curve_key": "0,1,0,-3800,-50652"
+    },
+    {
+      "k": "16/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-4374,4371"
+    },
+    {
+      "k": "7/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-21540,620100"
+    },
+    {
+      "k": "19/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1281300,495476100"
+    },
+    {
+      "k": "12/29",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "0,1,0,-87364,9744416"
+    },
+    {
+      "k": "17/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-3475940,2428246212"
+    },
+    {
+      "k": "5/12",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-370,2387"
+    },
+    {
+      "k": "18/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-974900,325800000"
+    },
+    {
+      "k": "13/31",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 42,
+      "curve_key": "0,1,0,-2785744,1144752596"
+    },
+    {
+      "k": "8/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-10185,383625"
+    },
+    {
+      "k": "19/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1166640,424386900"
+    },
+    {
+      "k": "11/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-118500,8460000"
+    },
+    {
+      "k": "14/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-1220000,12198900"
+    },
+    {
+      "k": "17/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-45440,3233297"
+    },
+    {
+      "k": "20/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-5038200,120903552"
+    },
+    {
+      "k": "3/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-680,5700"
+    },
+    {
+      "k": "19/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-246189,1968984"
+    },
+    {
+      "k": "16/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-33109,1986491"
+    },
+    {
+      "k": "13/30",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-228820,36215168"
+    },
+    {
+      "k": "10/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-7220,-71100"
+    },
+    {
+      "k": "17/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-59300,-1807548"
+    },
+    {
+      "k": "7/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-1664,-9804"
+    },
+    {
+      "k": "18/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-795364,232779296"
+    },
+    {
+      "k": "11/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-32030,2133027"
+    },
+    {
+      "k": "15/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-349780,47690500"
+    },
+    {
+      "k": "19/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-960544,308148544"
+    },
+    {
+      "k": "4/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-115,392"
+    },
+    {
+      "k": "21/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1366664,517519236"
+    },
+    {
+      "k": "17/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-50184,-2213244"
+    },
+    {
+      "k": "13/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-197904,28534464"
+    },
+    {
+      "k": "9/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-2795,47400"
+    },
+    {
+      "k": "14/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-257860,42170500"
+    },
+    {
+      "k": "19/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-868404,259433856"
+    },
+    {
+      "k": "5/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-4080,84672"
+    },
+    {
+      "k": "21/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1246260,442617408"
+    },
+    {
+      "k": "16/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-2155,-26023"
+    },
+    {
+      "k": "11/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-5765,138417"
+    },
+    {
+      "k": "17/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-520680,119129472"
+    },
+    {
+      "k": "6/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-7560,168192"
+    },
+    {
+      "k": "19/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-748804,164790724"
+    },
+    {
+      "k": "13/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-13720,-467932"
+    },
+    {
+      "k": "20/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-906840,221075712"
+    },
+    {
+      "k": "7/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-70,-205"
+    },
+    {
+      "k": "22/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1296560,382233600"
+    },
+    {
+      "k": "15/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-17420,588845"
+    },
+    {
+      "k": "8/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-1440,16305"
+    },
+    {
+      "k": "17/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-28929,1514304"
+    },
+    {
+      "k": "9/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-35880,2076228"
+    },
+    {
+      "k": "19/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-44015,2810405"
+    },
+    {
+      "k": "10/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-4180,-90428"
+    },
+    {
+      "k": "21/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-64350,4969107"
+    },
+    {
+      "k": "11/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-76824,6499584"
+    },
+    {
+      "k": "23/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-113280,-13305600"
+    },
+    {
+      "k": "12/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-520,-4225"
+    },
+    {
+      "k": "13/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-11284,-424316"
+    },
+    {
+      "k": "14/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-14980,-666400"
+    },
+    {
+      "k": "15/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-1220,-15600"
+    },
+    {
+      "k": "16/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-318240,49158900"
+    },
+    {
+      "k": "17/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-137785,18792590"
+    },
+    {
+      "k": "18/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-503424,98708544"
+    },
+    {
+      "k": "19/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-631560,149103108"
+    },
+    {
+      "k": "20/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-260780,48946700"
+    },
+    {
+      "k": "21/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-919380,244971972"
+    },
+    {
+      "k": "22/45",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-6018760,5389576192"
+    },
+    {
+      "k": "23/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-6394,-192556"
+    },
+    {
+      "k": "1/2",
+      "method": "repeated_cells",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "24/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-6394,-192556"
+    },
+    {
+      "k": "23/45",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "0,-1,0,-52190800,144266417152"
+    },
+    {
+      "k": "22/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-919380,244971972"
+    },
+    {
+      "k": "21/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-4425204,3405197376"
+    },
+    {
+      "k": "20/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-38855,2114400"
+    },
+    {
+      "k": "19/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-503424,98708544"
+    },
+    {
+      "k": "18/35",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-2387400,1364948352"
+    },
+    {
+      "k": "17/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-318240,49158900"
+    },
+    {
+      "k": "16/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-15480,520377"
+    },
+    {
+      "k": "15/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-189560,22428900"
+    },
+    {
+      "k": "14/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-142324,14522816"
+    },
+    {
+      "k": "13/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-520,-4225"
+    },
+    {
+      "k": "25/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-113280,-13305600"
+    },
+    {
+      "k": "12/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-4675,85400"
+    },
+    {
+      "k": "23/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-64350,4969107"
+    },
+    {
+      "k": "11/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-51920,3134868"
+    },
+    {
+      "k": "21/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-42685,2336225"
+    },
+    {
+      "k": "10/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-2820,-50400"
+    },
+    {
+      "k": "19/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-28929,1514304"
+    },
+    {
+      "k": "9/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-114,-396"
+    },
+    {
+      "k": "17/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-17420,588845"
+    },
+    {
+      "k": "25/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1296560,382233600"
+    },
+    {
+      "k": "8/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-840,6192"
+    },
+    {
+      "k": "23/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-906840,221075712"
+    },
+    {
+      "k": "15/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-13720,-467932"
+    },
+    {
+      "k": "22/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-748804,164790724"
+    },
+    {
+      "k": "7/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-7560,168192"
+    },
+    {
+      "k": "20/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-30970,1348982"
+    },
+    {
+      "k": "13/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-7584,-167616"
+    },
+    {
+      "k": "19/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-2155,-26023"
+    },
+    {
+      "k": "25/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-103160,-8243100"
+    },
+    {
+      "k": "6/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-3860,57408"
+    },
+    {
+      "k": "23/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-868404,259433856"
+    },
+    {
+      "k": "17/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-21764,-699516"
+    },
+    {
+      "k": "11/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-3800,-50652"
+    },
+    {
+      "k": "16/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-1059,-7359"
+    },
+    {
+      "k": "21/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-547604,95827776"
+    },
+    {
+      "k": "26/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-117780,-7803072"
+    },
+    {
+      "k": "5/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-10,-10"
+    },
+    {
+      "k": "24/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-55949,3049089"
+    },
+    {
+      "k": "19/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-349780,47690500"
+    },
+    {
+      "k": "14/25",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "0,-1,0,-120800,15840000"
+    },
+    {
+      "k": "23/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-738784,144711424"
+    },
+    {
+      "k": "9/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-1070,7812"
+    },
+    {
+      "k": "22/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-59300,-1807548"
+    },
+    {
+      "k": "13/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-73000,4413952"
+    },
+    {
+      "k": "17/30",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-211140,21355488"
+    },
+    {
+      "k": "21/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-3065,-18183"
+    },
+    {
+      "k": "25/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-6694040,6229044900"
+    },
+    {
+      "k": "4/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-39,36"
+    },
+    {
+      "k": "27/47",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-582420,167976900"
+    },
+    {
+      "k": "23/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-45440,3233297"
+    },
+    {
+      "k": "19/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-115685,4977000"
+    },
+    {
+      "k": "15/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-118500,8460000"
+    },
+    {
+      "k": "26/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1166640,424386900"
+    },
+    {
+      "k": "11/19",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 20,
+      "curve_key": "0,-1,0,-1829640,944611200"
+    },
+    {
+      "k": "18/31",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "1,0,0,-50770,4358900"
+    },
+    {
+      "k": "25/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-884600,168960000"
+    },
+    {
+      "k": "7/12",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-335,1200"
+    },
+    {
+      "k": "24/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-4524720,1279314432"
+    },
+    {
+      "k": "17/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-1135060,161556100"
+    },
+    {
+      "k": "27/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-132864,265716"
+    },
+    {
+      "k": "10/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-21540,620100"
+    },
+    {
+      "k": "23/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-4374,4371"
+    },
+    {
+      "k": "13/22",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 36,
+      "curve_key": "0,-1,0,-7584,-167616"
+    },
+    {
+      "k": "16/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-1025,767"
+    },
+    {
+      "k": "19/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-32624,260544"
+    },
+    {
+      "k": "22/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-58660,643808"
+    },
+    {
+      "k": "25/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-97840,1561600"
+    },
+    {
+      "k": "28/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-78385,4001990"
+    },
+    {
+      "k": "3/5",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "29/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-84959,4257369"
+    },
+    {
+      "k": "26/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-6635220,6070315968"
+    },
+    {
+      "k": "23/38",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "1,1,1,-637219,189492056"
+    },
+    {
+      "k": "20/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-18965,441192"
+    },
+    {
+      "k": "17/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-9825,159510"
+    },
+    {
+      "k": "14/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-81184,8073716"
+    },
+    {
+      "k": "25/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-721920,100991232"
+    },
+    {
+      "k": "11/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-179924,11248896"
+    },
+    {
+      "k": "19/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-1825940,874606212"
+    },
+    {
+      "k": "27/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-59754,2312019"
+    },
+    {
+      "k": "8/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-455,1325"
+    },
+    {
+      "k": "29/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-179924,11248896"
+    },
+    {
+      "k": "21/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-49504,1642676"
+    },
+    {
+      "k": "13/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-49504,1642676"
+    },
+    {
+      "k": "18/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-179924,11248896"
+    },
+    {
+      "k": "23/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-476600,48452352"
+    },
+    {
+      "k": "28/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-65160,2420847"
+    },
+    {
+      "k": "5/8",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-65,47"
+    },
+    {
+      "k": "27/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-6989780,6506958528"
+    },
+    {
+      "k": "22/35",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "1,0,0,-5765,138417"
+    },
+    {
+      "k": "17/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-134760,6610500"
+    },
+    {
+      "k": "29/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1135060,161556100"
+    },
+    {
+      "k": "12/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-335,1200"
+    },
+    {
+      "k": "19/30",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-1829640,944611200"
+    },
+    {
+      "k": "26/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-118500,8460000"
+    },
+    {
+      "k": "7/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-39,36"
+    },
+    {
+      "k": "30/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1233860,165271008"
+    },
+    {
+      "k": "23/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-73000,4413952"
+    },
+    {
+      "k": "16/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-6170,54695"
+    },
+    {
+      "k": "25/39",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "0,1,0,-11201060,13861250208"
+    },
+    {
+      "k": "9/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-11380,442372"
+    },
+    {
+      "k": "29/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1034960,116490900"
+    },
+    {
+      "k": "20/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-14565,186930"
+    },
+    {
+      "k": "31/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-98460,11178000"
+    },
+    {
+      "k": "11/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-3860,57408"
+    },
+    {
+      "k": "24/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-29529,525609"
+    },
+    {
+      "k": "13/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-7560,168192"
+    },
+    {
+      "k": "28/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-53830,1225250"
+    },
+    {
+      "k": "15/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-840,6192"
+    },
+    {
+      "k": "17/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-136260,18271008"
+    },
+    {
+      "k": "19/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-84959,4257369"
+    },
+    {
+      "k": "21/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-51920,3134868"
+    },
+    {
+      "k": "23/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-4675,85400"
+    },
+    {
+      "k": "25/38",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 49,
+      "curve_key": "0,1,0,-39540,2901888"
+    },
+    {
+      "k": "27/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-710584,52172516"
+    },
+    {
+      "k": "29/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-189560,22428900"
+    },
+    {
+      "k": "31/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-15480,520377"
+    },
+    {
+      "k": "2/3",
+      "method": "four_square_AP",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "31/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-10126264,11145852544"
+    },
+    {
+      "k": "29/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-857024,47820864"
+    },
+    {
+      "k": "27/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,1,1,-323515,33376697"
+    },
+    {
+      "k": "25/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-35370,2452275"
+    },
+    {
+      "k": "23/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-76824,6499584"
+    },
+    {
+      "k": "21/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-231400,5998148"
+    },
+    {
+      "k": "19/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-35880,2076228"
+    },
+    {
+      "k": "17/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-97840,1561600"
+    },
+    {
+      "k": "32/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-76380,990525"
+    },
+    {
+      "k": "15/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-58660,643808"
+    },
+    {
+      "k": "28/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-44219,397136"
+    },
+    {
+      "k": "13/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-32624,260544"
+    },
+    {
+      "k": "24/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-5765,138417"
+    },
+    {
+      "k": "11/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-1025,767"
+    },
+    {
+      "k": "31/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1026040,34844900"
+    },
+    {
+      "k": "20/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-2795,47400"
+    },
+    {
+      "k": "29/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-778484,20998656"
+    },
+    {
+      "k": "9/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-115,392"
+    },
+    {
+      "k": "25/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-26255,98400"
+    },
+    {
+      "k": "16/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-4374,4371"
+    },
+    {
+      "k": "23/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-296560,2964500"
+    },
+    {
+      "k": "30/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-228820,36215168"
+    },
+    {
+      "k": "7/10",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-680,5700"
+    },
+    {
+      "k": "33/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1220000,12198900"
+    },
+    {
+      "k": "26/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-468564,2811204"
+    },
+    {
+      "k": "19/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-132864,265716"
+    },
+    {
+      "k": "31/44",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "0,1,0,-2785744,1144752596"
+    },
+    {
+      "k": "12/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-370,2387"
+    },
+    {
+      "k": "29/41",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "0,1,0,-47384120,123423700068"
+    },
+    {
+      "k": "17/24",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 20,
+      "curve_key": "0,-1,0,-5571040,4977817600"
+    },
+    {
+      "k": "22/31",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "0,1,0,-970964,361697856"
+    },
+    {
+      "k": "27/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-521300,-2606400"
+    },
+    {
+      "k": "32/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-18835,882065"
+    },
+    {
+      "k": "5/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-740,7812"
+    },
+    {
+      "k": "33/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1119684,-23504544"
+    },
+    {
+      "k": "28/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-36159,-144576"
+    },
+    {
+      "k": "23/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-16390,-53245"
+    },
+    {
+      "k": "18/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-97700,-781152"
+    },
+    {
+      "k": "31/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-855144,-20509056"
+    },
+    {
+      "k": "13/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-8320,270400"
+    },
+    {
+      "k": "34/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-389844,86155524"
+    },
+    {
+      "k": "21/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-176960,-2474892"
+    },
+    {
+      "k": "29/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-40035,-289935"
+    },
+    {
+      "k": "8/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-75,225"
+    },
+    {
+      "k": "35/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-83055,-1015623"
+    },
+    {
+      "k": "27/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-156180,22004928"
+    },
+    {
+      "k": "19/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-38344,2700544"
+    },
+    {
+      "k": "30/41",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "1,0,0,-191240,31575600"
+    },
+    {
+      "k": "11/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-118500,8460000"
+    },
+    {
+      "k": "25/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-334820,-10348668"
+    },
+    {
+      "k": "14/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-11380,442372"
+    },
+    {
+      "k": "31/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-780004,-41194144"
+    },
+    {
+      "k": "17/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-24804,1407456"
+    },
+    {
+      "k": "20/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-2975,57692"
+    },
+    {
+      "k": "23/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-5210,134615"
+    },
+    {
+      "k": "26/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-376500,-15737148"
+    },
+    {
+      "k": "29/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-580520,-31193532"
+    },
+    {
+      "k": "32/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-53625,-907065"
+    },
+    {
+      "k": "35/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-28020,1709487"
+    },
+    {
+      "k": "3/4",
+      "method": "four_square_AP",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "34/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-11023940,12194986500"
+    },
+    {
+      "k": "31/41",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-34330,2442275"
+    },
+    {
+      "k": "28/37",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-5838320,5420942100"
+    },
+    {
+      "k": "25/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-298640,-15972012"
+    },
+    {
+      "k": "22/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-70980,7026372"
+    },
+    {
+      "k": "19/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-39540,2901888"
+    },
+    {
+      "k": "35/46",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-14089160,20326728708"
+    },
+    {
+      "k": "16/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-3065,-18183"
+    },
+    {
+      "k": "29/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-526004,-41055036"
+    },
+    {
+      "k": "13/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-21080,-332928"
+    },
+    {
+      "k": "36/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-32030,2133027"
+    },
+    {
+      "k": "23/30",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-204580,-10696672"
+    },
+    {
+      "k": "33/43",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-683220,217368900"
+    },
+    {
+      "k": "10/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-7220,-71100"
+    },
+    {
+      "k": "37/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-83925,-2994975"
+    },
+    {
+      "k": "27/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-10185,383625"
+    },
+    {
+      "k": "17/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-59300,-1807548"
+    },
+    {
+      "k": "24/31",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 20,
+      "curve_key": "1,0,0,-66110,6393075"
+    },
+    {
+      "k": "31/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-40540,-1085395"
+    },
+    {
+      "k": "7/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1664,-9804"
+    },
+    {
+      "k": "32/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-20254,1082564"
+    },
+    {
+      "k": "25/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-120800,15840000"
+    },
+    {
+      "k": "18/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-71140,-2783200"
+    },
+    {
+      "k": "29/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-476704,-48441536"
+    },
+    {
+      "k": "11/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-4544,114036"
+    },
+    {
+      "k": "37/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1243240,-213327488"
+    },
+    {
+      "k": "26/33",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-3983064,3058919424"
+    },
+    {
+      "k": "15/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-349780,47690500"
+    },
+    {
+      "k": "34/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-872564,-130698876"
+    },
+    {
+      "k": "19/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-40640,3112512"
+    },
+    {
+      "k": "23/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-87364,9744416"
+    },
+    {
+      "k": "27/34",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-4555304,3741475584"
+    },
+    {
+      "k": "31/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-18044,910541"
+    },
+    {
+      "k": "35/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-10935160,11804152192"
+    },
+    {
+      "k": "4/5",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "37/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1151604,-229469436"
+    },
+    {
+      "k": "33/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-23340,1353600"
+    },
+    {
+      "k": "29/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-33719,2368464"
+    },
+    {
+      "k": "25/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-237840,-21938688"
+    },
+    {
+      "k": "21/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-117780,-7803072"
+    },
+    {
+      "k": "38/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1569104,752449236"
+    },
+    {
+      "k": "17/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-50184,-2213244"
+    },
+    {
+      "k": "30/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-256100,49273248"
+    },
+    {
+      "k": "13/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-1059,-7359"
+    },
+    {
+      "k": "35/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-884800,-168920000"
+    },
+    {
+      "k": "22/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-171280,27115028"
+    },
+    {
+      "k": "31/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-540324,-81866556"
+    },
+    {
+      "k": "9/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-3800,-50652"
+    },
+    {
+      "k": "32/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-37594,-1569436"
+    },
+    {
+      "k": "23/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-111264,8930799"
+    },
+    {
+      "k": "37/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1067520,-240645132"
+    },
+    {
+      "k": "14/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-21764,-699516"
+    },
+    {
+      "k": "33/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-41740,-1902208"
+    },
+    {
+      "k": "19/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-5659,160976"
+    },
+    {
+      "k": "24/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-11555,-283023"
+    },
+    {
+      "k": "29/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,1,1,-292495,50577557"
+    },
+    {
+      "k": "34/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-8336920,5856808100"
+    },
+    {
+      "k": "39/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-46254,3801204"
+    },
+    {
+      "k": "5/6",
+      "method": "cubic",
+      "file": "small_slopes_verified.json"
+    },
+    {
+      "k": "36/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-33719,2368464"
+    },
+    {
+      "k": "31/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-494024,-84637056"
+    },
+    {
+      "k": "26/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-300040,63210112"
+    },
+    {
+      "k": "21/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-103160,-8243100"
+    },
+    {
+      "k": "37/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-603160,179694592"
+    },
+    {
+      "k": "16/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-2155,-26023"
+    },
+    {
+      "k": "27/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-17365,-582175"
+    },
+    {
+      "k": "38/45",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-15707720,23962828032"
+    },
+    {
+      "k": "11/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-7584,-167616"
+    },
+    {
+      "k": "39/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1458724,677352964"
+    },
+    {
+      "k": "28/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-19725,-725400"
+    },
+    {
+      "k": "17/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-2665,-37378"
+    },
+    {
+      "k": "40/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-51750,4494867"
+    },
+    {
+      "k": "23/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-141880,-14287900"
+    },
+    {
+      "k": "29/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-436020,110784132"
+    },
+    {
+      "k": "35/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-755720,-176621568"
+    },
+    {
+      "k": "41/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-108290,13685700"
+    },
+    {
+      "k": "6/7",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-420,3168"
+    },
+    {
+      "k": "37/43",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 49,
+      "curve_key": "0,-1,0,-855144,-20509056"
+    },
+    {
+      "k": "31/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-28285,-1335928"
+    },
+    {
+      "k": "25/29",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 21,
+      "curve_key": "0,-1,0,-3201540,1907180100"
+    },
+    {
+      "k": "19/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-42384,3337236"
+    },
+    {
+      "k": "32/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-31685,-1624885"
+    },
+    {
+      "k": "13/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-13720,-467932"
+    },
+    {
+      "k": "33/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-566180,-124068000"
+    },
+    {
+      "k": "20/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-3260,71247"
+    },
+    {
+      "k": "27/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-251464,-37196284"
+    },
+    {
+      "k": "34/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-436020,110784132"
+    },
+    {
+      "k": "41/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1600484,778093536"
+    },
+    {
+      "k": "7/8",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-70,-205"
+    },
+    {
+      "k": "36/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-48475,-3246568"
+    },
+    {
+      "k": "29/33",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-306564,65431044"
+    },
+    {
+      "k": "22/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,-1,0,-1296560,382233600"
+    },
+    {
+      "k": "37/42",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-613520,184958400"
+    },
+    {
+      "k": "15/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-16580,815328"
+    },
+    {
+      "k": "38/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-683220,217368900"
+    },
+    {
+      "k": "23/26",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,1,0,-1914424,1018856036"
+    },
+    {
+      "k": "31/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-415640,-83887488"
+    },
+    {
+      "k": "39/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,1,1,-77090,8201630"
+    },
+    {
+      "k": "8/9",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-114,-396"
+    },
+    {
+      "k": "41/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1248740,-446581500"
+    },
+    {
+      "k": "33/37",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 42,
+      "curve_key": "0,-1,0,-33300440,69320013312"
+    },
+    {
+      "k": "25/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-10735,-362788"
+    },
+    {
+      "k": "42/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1608360,785289600"
+    },
+    {
+      "k": "17/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-27460,1759492"
+    },
+    {
+      "k": "43/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-93065,-9251175"
+    },
+    {
+      "k": "26/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-2520900,1233232452"
+    },
+    {
+      "k": "35/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-650280,-171891900"
+    },
+    {
+      "k": "9/10",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-2820,-50400"
+    },
+    {
+      "k": "37/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-799544,-237701376"
+    },
+    {
+      "k": "28/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-12660,546975"
+    },
+    {
+      "k": "19/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-55200,-4367052"
+    },
+    {
+      "k": "29/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-18639,-864939"
+    },
+    {
+      "k": "39/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-47695,4003712"
+    },
+    {
+      "k": "10/11",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-4180,-90428"
+    },
+    {
+      "k": "41/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1174120,-435139900"
+    },
+    {
+      "k": "31/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-382980,-81013500"
+    },
+    {
+      "k": "21/23",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-64244,6244416"
+    },
+    {
+      "k": "32/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-26975,-1538683"
+    },
+    {
+      "k": "43/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-1404680,-574451328"
+    },
+    {
+      "k": "11/12",
+      "method": "cubic",
+      "file": "extended_slopes_7_12.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-76824,6499584"
+    },
+    {
+      "k": "34/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-542644,-139332476"
+    },
+    {
+      "k": "23/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-113280,-13305600"
+    },
+    {
+      "k": "35/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-605620,-165175100"
+    },
+    {
+      "k": "12/13",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-520,-4225"
+    },
+    {
+      "k": "37/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-46745,-3599593"
+    },
+    {
+      "k": "25/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-155480,-21815772"
+    },
+    {
+      "k": "38/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-827844,-267666876"
+    },
+    {
+      "k": "13/14",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,-1,0,-11284,-424316"
+    },
+    {
+      "k": "40/43",
+      "method": "quartic_fisher",
+      "file": "exception_40_43_certified.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-68110640,204180681300"
+    },
+    {
+      "k": "27/29",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-208544,-34260684"
+    },
+    {
+      "k": "41/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "1,0,0,-77724,8333199"
+    },
+    {
+      "k": "14/15",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-14980,-666400"
+    },
+    {
+      "k": "43/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1486164,696807936"
+    },
+    {
+      "k": "29/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-306564,65431044"
+    },
+    {
+      "k": "44/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-90649,-9938674"
+    },
+    {
+      "k": "15/16",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-1220,-15600"
+    },
+    {
+      "k": "31/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-306564,65431044"
+    },
+    {
+      "k": "16/17",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-1360,18737"
+    },
+    {
+      "k": "33/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-450840,-111310812"
+    },
+    {
+      "k": "17/18",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-34884,2496096"
+    },
+    {
+      "k": "35/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 9,
+      "curve_key": "1,0,0,-458835,92673297"
+    },
+    {
+      "k": "18/19",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-34884,2496096"
+    },
+    {
+      "k": "37/39",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-701784,-218165724"
+    },
+    {
+      "k": "19/20",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-3040,-63520"
+    },
+    {
+      "k": "39/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-860800,-297432652"
+    },
+    {
+      "k": "20/21",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "1,1,1,-3325,72410"
+    },
+    {
+      "k": "41/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-939684,350913924"
+    },
+    {
+      "k": "21/22",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-64680,6309828"
+    },
+    {
+      "k": "43/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,1,0,-1364180,612812928"
+    },
+    {
+      "k": "22/23",
+      "method": "quartic",
+      "file": "four_cell_followup.json",
+      "witness_index": 21,
+      "curve_key": "0,-1,0,-76824,6499584"
+    },
+    {
+      "k": "45/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,1,0,-1364180,612812928"
+    },
+    {
+      "k": "23/24",
+      "method": "cubic",
+      "file": "extended_slopes_13_24.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-6394,-192556"
+    },
+    {
+      "k": "24/25",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "1,0,0,-6900,220032"
+    },
+    {
+      "k": "25/26",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-130000,18084352"
+    },
+    {
+      "k": "26/27",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-152100,22882500"
+    },
+    {
+      "k": "27/28",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-11970,-496125"
+    },
+    {
+      "k": "28/29",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 27,
+      "curve_key": "0,1,0,-14980,-666400"
+    },
+    {
+      "k": "29/30",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 36,
+      "curve_key": "0,1,0,-189560,22428900"
+    },
+    {
+      "k": "30/31",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-307520,65740800"
+    },
+    {
+      "k": "31/32",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-307520,65740800"
+    },
+    {
+      "k": "32/33",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-23320,-1355200"
+    },
+    {
+      "k": "33/34",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-445060,114429700"
+    },
+    {
+      "k": "34/35",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-445060,114429700"
+    },
+    {
+      "k": "35/36",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-33180,-2304225"
+    },
+    {
+      "k": "36/37",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,0,0,-37074,-2722941"
+    },
+    {
+      "k": "37/38",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-624264,190053504"
+    },
+    {
+      "k": "38/39",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 9,
+      "curve_key": "0,-1,0,-11715704,15438693504"
+    },
+    {
+      "k": "39/40",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,1,1,-656760,149885865"
+    },
+    {
+      "k": "40/41",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-56170,-5105305"
+    },
+    {
+      "k": "41/42",
+      "method": "quartic",
+      "file": "four_cell_25_48.json",
+      "witness_index": 42,
+      "curve_key": "0,1,0,-4425204,3405197376"
+    },
+    {
+      "k": "42/43",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 6,
+      "curve_key": "0,-1,0,-1138984,468248704"
+    },
+    {
+      "k": "43/44",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "1,1,1,-74734,-7838854"
+    },
+    {
+      "k": "44/45",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "0,1,0,-16934280,19696868100"
+    },
+    {
+      "k": "45/46",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 0,
+      "curve_key": "0,1,0,-1431060,-655113600"
+    },
+    {
+      "k": "46/47",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 1,
+      "curve_key": "0,-1,0,-1491780,701799300"
+    },
+    {
+      "k": "47/48",
+      "method": "cubic",
+      "file": "extended_slopes_25_48.json",
+      "witness_index": 19,
+      "curve_key": "1,0,0,-1374280,455865152"
+    }
+  ]
+}

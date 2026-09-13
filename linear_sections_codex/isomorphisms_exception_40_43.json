@@ -1,0 +1,15 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "file": "exception_40_43_certified.json",
+      "k": "40/43",
+      "u_r_s_t": [
+        "1/43",
+        "-10948/1849",
+        "0",
+        "0"
+      ]
+    }
+  ]
+}

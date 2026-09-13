@@ -1,0 +1,524 @@
+{
+  "curve_ainvs": [
+    "0",
+    "1",
+    "0",
+    "-68110640",
+    "204180681300"
+  ],
+  "source_sha256": "3765c10088428f2e20d8cde711c494eb9721b5fd92f30d87ff4b533ba3d1f285",
+  "I": "3269310736",
+  "J": "-352863449015168",
+  "quartics": [
+    [
+      "513",
+      "-6912",
+      "23794",
+      "99072",
+      "105393"
+    ],
+    [
+      "13801",
+      "-15936",
+      "-14894",
+      "15936",
+      "13801"
+    ],
+    [
+      "1464151",
+      "1742336",
+      "742066",
+      "5481984/41",
+      "14494311/1681"
+    ]
+  ],
+  "covers_origin": "PARI ell2cover; pairing recomputed with the separate project Fisher implementation",
+  "runs": [
+    {
+      "direction": "forward",
+      "raw_gamma": [
+        "34276/3",
+        "-961696/9",
+        "-895604/9"
+      ],
+      "m_coefficients": [
+        "101734143513664/3",
+        "3426947936/3",
+        "34276/3"
+      ],
+      "gamma": [
+        "627",
+        "-5864",
+        "-5461"
+      ],
+      "a": "871",
+      "places": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "41",
+        "43",
+        "67",
+        "83",
+        "real"
+      ],
+      "local": [
+        {
+          "place": "2",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513",
+          "gamma_value": "627",
+          "hilbert": -1
+        },
+        {
+          "place": "3",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860",
+          "gamma_value": "-10698",
+          "hilbert": 1
+        },
+        {
+          "place": "5",
+          "x": "1",
+          "z": "2",
+          "quartic_value": "2560729",
+          "gamma_value": "-32945",
+          "hilbert": 1
+        },
+        {
+          "place": "7",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513",
+          "gamma_value": "627",
+          "hilbert": 1
+        },
+        {
+          "place": "11",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860",
+          "gamma_value": "-10698",
+          "hilbert": 1
+        },
+        {
+          "place": "13",
+          "x": "1",
+          "z": "-1",
+          "quartic_value": "37540",
+          "gamma_value": "1030",
+          "hilbert": 1
+        },
+        {
+          "place": "41",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513",
+          "gamma_value": "627",
+          "hilbert": 1
+        },
+        {
+          "place": "43",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513",
+          "gamma_value": "627",
+          "hilbert": 1
+        },
+        {
+          "place": "67",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860",
+          "gamma_value": "-10698",
+          "hilbert": 1
+        },
+        {
+          "place": "83",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860",
+          "gamma_value": "-10698",
+          "hilbert": 1
+        },
+        {
+          "place": "real",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513",
+          "gamma_value": "627",
+          "hilbert": 1
+        }
+      ],
+      "pairing_bit": 1,
+      "number_of_places": 11
+    },
+    {
+      "direction": "reverse",
+      "raw_gamma": [
+        "34276/3",
+        "-49856/3",
+        "-20828/3"
+      ],
+      "m_coefficients": [
+        "101734143513664/3",
+        "3426947936/3",
+        "34276/3"
+      ],
+      "gamma": [
+        "209",
+        "-304",
+        "-127"
+      ],
+      "a": "57",
+      "places": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "11",
+        "13",
+        "19",
+        "41",
+        "43",
+        "83",
+        "real"
+      ],
+      "local": [
+        {
+          "place": "2",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "3",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": -1
+        },
+        {
+          "place": "5",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "7",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "11",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "12708",
+          "gamma_value": "-222",
+          "hilbert": 1
+        },
+        {
+          "place": "13",
+          "x": "1",
+          "z": "2",
+          "quartic_value": "270657",
+          "gamma_value": "-907",
+          "hilbert": 1
+        },
+        {
+          "place": "19",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "41",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "43",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "83",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        },
+        {
+          "place": "real",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801",
+          "gamma_value": "209",
+          "hilbert": 1
+        }
+      ],
+      "pairing_bit": 1,
+      "number_of_places": 11
+    }
+  ],
+  "eclib_selmer_dimension": 4,
+  "rational_two_torsion_dimension": 2,
+  "quartic_jacobian_model": [
+    "0",
+    "0",
+    "0",
+    "-88271389872",
+    "9527313123409536"
+  ],
+  "jacobian_to_original_isomorphism": [
+    "6",
+    "12",
+    "0",
+    "0"
+  ],
+  "nontrivial_pairing_both_directions": true,
+  "everywhere_local_solubility": [
+    {
+      "quartic_index": 0,
+      "local_points": [
+        {
+          "place": "2",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513"
+        },
+        {
+          "place": "3",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860"
+        },
+        {
+          "place": "5",
+          "x": "1",
+          "z": "2",
+          "quartic_value": "2560729"
+        },
+        {
+          "place": "7",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513"
+        },
+        {
+          "place": "11",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860"
+        },
+        {
+          "place": "13",
+          "x": "1",
+          "z": "-1",
+          "quartic_value": "37540"
+        },
+        {
+          "place": "19",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860"
+        },
+        {
+          "place": "41",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513"
+        },
+        {
+          "place": "43",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513"
+        },
+        {
+          "place": "83",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "221860"
+        },
+        {
+          "place": "real",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "513"
+        }
+      ]
+    },
+    {
+      "quartic_index": 1,
+      "local_points": [
+        {
+          "place": "2",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "3",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "5",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "7",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "11",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "12708"
+        },
+        {
+          "place": "13",
+          "x": "1",
+          "z": "2",
+          "quartic_value": "270657"
+        },
+        {
+          "place": "37",
+          "x": "44986718106010049747489373334188753493028922595108716",
+          "z": "1",
+          "quartic_value": "56525941103562113412376425741794487825840191329847870808070453650385239814263550047005360250799532781240638274096775648169968268369999864610416879072310695366096293666840394826525326881601655868376416472781010461193"
+        },
+        {
+          "place": "41",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "43",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "83",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        },
+        {
+          "place": "373",
+          "x": "2259139155963524595166279802368795666945668287224762612269658675611995918682572918887745",
+          "z": "1",
+          "quartic_value": "359486418802320501581316119343874118276656613646795297821667865670829285379316357284681610514645573095038765351447495397484681020063852082327502021227381021634642525694230875431817966162976896218481921057770307346988569450921229910543333885568716029889032672209683434529549597743880714819447928488386713016572124653912865773859582163359751747033951423396"
+        },
+        {
+          "place": "real",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "13801"
+        }
+      ]
+    },
+    {
+      "quartic_index": 2,
+      "local_points": [
+        {
+          "place": "2",
+          "x": "-3",
+          "z": "1",
+          "quartic_value": "130847787072/1681"
+        },
+        {
+          "place": "3",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        },
+        {
+          "place": "5",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        },
+        {
+          "place": "7",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "6876773248/1681"
+        },
+        {
+          "place": "11",
+          "x": "1",
+          "z": "1",
+          "quartic_value": "6876773248/1681"
+        },
+        {
+          "place": "13",
+          "x": "3742477215384673016156416802279438290",
+          "z": "1",
+          "quartic_value": "482825547737677330415867963903908550714446856112338646388778870630648769490707065495831577467979428668857181146985725222581913508821150399402839086551488671/1681"
+        },
+        {
+          "place": "41",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        },
+        {
+          "place": "43",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        },
+        {
+          "place": "67",
+          "x": "2",
+          "z": "1",
+          "quartic_value": "68264408607/1681"
+        },
+        {
+          "place": "83",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        },
+        {
+          "place": "real",
+          "x": "1",
+          "z": "0",
+          "quartic_value": "1464151"
+        }
+      ]
+    }
+  ],
+  "rank_upper_bound_from_pairing": 0
+}

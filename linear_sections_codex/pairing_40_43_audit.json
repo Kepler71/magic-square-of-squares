@@ -1,0 +1,10 @@
+{
+  "all_passed": true,
+  "hilbert_symbols_recomputed": 22,
+  "quartics_local_solubility_checked": 3,
+  "algebra_checked": "I,J; m^2=z1*z2*z3; gamma formula; proportional normalization; leading coefficient square class; complete bad-prime coverage; exact Jacobian isomorphism",
+  "theoretical_inputs": "Fisher theorem and good-reduction local solubility; eclib Selmer dimension 4 (not independently recomputed here).",
+  "pairing_rank_lower_bound": 2,
+  "rational_two_torsion_dimension": 2,
+  "rank_upper_bound": 0
+}

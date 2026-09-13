@@ -1,0 +1,219 @@
+{
+  "slopes": [
+    {
+      "k": "40/43",
+      "status": "excluded",
+      "tried": [
+        {
+          "coefficients": [
+            "40/43",
+            "83/43",
+            "-40/43",
+            "-83/43"
+          ],
+          "curve_key": "0,1,0,-68110640,204180681300",
+          "eclib": {
+            "rank": 0,
+            "upper_bound": 2,
+            "certain": false
+          },
+          "certificate": {
+            "raw_ainvs": [
+              "0",
+              "32845/1849",
+              "0",
+              "6778776/79507",
+              "416894724/3418801"
+            ],
+            "A": "-123/20",
+            "root": "-43/40",
+            "torsion_order": 8,
+            "torsion_points": [
+              [
+                "0",
+                "1",
+                "0"
+              ],
+              [
+                "-20418/1849",
+                "0",
+                "1"
+              ],
+              [
+                "-246/43",
+                "-9840/1849",
+                "1"
+              ],
+              [
+                "-246/43",
+                "9840/1849",
+                "1"
+              ],
+              [
+                "-166/43",
+                "0",
+                "1"
+              ],
+              [
+                "-123/43",
+                "0",
+                "1"
+              ],
+              [
+                "0",
+                "-20418/1849",
+                "1"
+              ],
+              [
+                "0",
+                "20418/1849",
+                "1"
+              ]
+            ],
+            "torsion_bound": {
+              "bound": 8,
+              "finite_fields": [
+                {
+                  "prime": 7,
+                  "cardinality": 8
+                }
+              ]
+            },
+            "all_p_tests": [
+              {
+                "p": "-43/40",
+                "cells": [
+                  "-3/40",
+                  "123/40",
+                  "0",
+                  "43/40",
+                  "1",
+                  "37/40",
+                  "2",
+                  "-43/40",
+                  "83/40"
+                ],
+                "positive": false,
+                "distinct": true,
+                "square_indices": [
+                  2,
+                  4
+                ]
+              },
+              {
+                "p": "-43/83",
+                "cells": [
+                  "40/83",
+                  "2",
+                  "43/83",
+                  "86/83",
+                  "1",
+                  "80/83",
+                  "123/83",
+                  "0",
+                  "126/83"
+                ],
+                "positive": false,
+                "distinct": true,
+                "square_indices": [
+                  4,
+                  7
+                ]
+              },
+              {
+                "p": "0",
+                "cells": [
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "positive": true,
+                "distinct": false,
+                "square_indices": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ]
+              },
+              {
+                "p": "43/83",
+                "cells": [
+                  "126/83",
+                  "0",
+                  "123/83",
+                  "80/83",
+                  "1",
+                  "86/83",
+                  "43/83",
+                  "2",
+                  "40/83"
+                ],
+                "positive": false,
+                "distinct": true,
+                "square_indices": [
+                  1,
+                  4
+                ]
+              },
+              {
+                "p": "43/40",
+                "cells": [
+                  "83/40",
+                  "-43/40",
+                  "2",
+                  "37/40",
+                  "1",
+                  "43/40",
+                  "0",
+                  "123/40",
+                  "-3/40"
+                ],
+                "positive": false,
+                "distinct": true,
+                "square_indices": [
+                  4,
+                  6
+                ]
+              }
+            ],
+            "rank_proof": "eclib_selmer_plus_fisher_pairing",
+            "rank_proof_files": [
+              "pairing_40_43.json",
+              "pairing_40_43_audit.json"
+            ],
+            "exceptional_points": "O gives zero cell p=root; X=0 gives p=infinity, outside normalized finite square."
+          }
+        }
+      ],
+      "witness_index": 0
+    }
+  ],
+  "rank_cache": {
+    "0,1,0,-68110640,204180681300": {
+      "rank_bounds": [
+        0,
+        0
+      ],
+      "minimal_ainvs": [
+        "0",
+        "1",
+        "0",
+        "-68110640",
+        "204180681300"
+      ]
+    }
+  },
+  "note": "eclib rank upper bound remains2; its Selmer dimension4 plus independent Fisher pairing rank>=2 and rational2-torsion dimension2 prove rank0."
+}

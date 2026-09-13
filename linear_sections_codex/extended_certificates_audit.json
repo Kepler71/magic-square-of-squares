@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "file": "extended_slopes_7_12.json",
+      "excluded_certificates_checked": 34
+    },
+    {
+      "file": "extended_slopes_13_24.json",
+      "excluded_certificates_checked": 127
+    },
+    {
+      "file": "four_cell_followup.json",
+      "excluded_certificates_checked": 7
+    }
+  ],
+  "all_passed": true,
+  "checks_do_not_include": "Independent recomputation of PARI/eclib rank; minimal-model isomorphisms are checked separately."
+}
