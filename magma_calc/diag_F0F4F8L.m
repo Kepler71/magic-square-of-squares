@@ -1,0 +1,10 @@
+SetClassGroupBounds("GRH");
+t := Cputime();
+H0 := HyperellipticCurve(Polynomial([0, 4092529, 51379680, 84896062, 81791520, 44182609]));
+H := ReducedMinimalWeierstrassModel(H0);
+print "MODEL:", H;
+print "t_model:", Cputime(t);
+J := Jacobian(H);
+rb := [RankBounds(J)];
+print "RANKBOUNDS:", rb;
+print "t_rank:", Cputime(t);

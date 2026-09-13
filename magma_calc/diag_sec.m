@@ -1,0 +1,10 @@
+SetClassGroupBounds("GRH");
+P<t>:=PolynomialRing(Rationals());
+T0:=Cputime();
+H:=HyperellipticCurve(34*t*(t^2-1)*(169*t-409)*(409*t-169));
+H2,phi:=ReducedMinimalWeierstrassModel(H);
+print "MODEL:", H2; print "t0:", Cputime(T0);
+J:=Jacobian(H2);
+lo,hi:=RankBounds(J); print "RANK:", lo, hi, "t1:", Cputime(T0);
+pts2,ok:=RationalPointsGenus2(H2);
+print "NPTS:", #pts2, "COMPLETE:", ok, "t2:", Cputime(T0);

@@ -1,0 +1,3 @@
+{"section": [23, 7, 17], "d3": -255, "seconds": 61.5, "output": "The computation exceeded the time limit and so was terminated prematurely."}
+{"section": [23, 7, 17], "d3": -34, "seconds": 62.1, "output": "The computation exceeded the time limit and so was terminated prematurely."}
+{"section": [23, 7, 17], "d3": 34, "seconds": 77.8, "output": "The computation exceeded the time limit and so was terminated prematurely."}
