@@ -54,10 +54,13 @@ with full 2-torsion over ℚ(√d) the Fisher and Cassels matrices agree **eleme
 2-torsion point and an exact rank from PARI the bound is sharp everywhere; symmetry is checked by recomputing with
 the arguments reversed, including on non-zero values.
 
-*Known limit.* On our target curve (89,23,65) the pairing does **not** finish. The set of places needs the primes
-dividing g(1,0), and |N(g(1,0))| has 46 digits, because our quartics are reduced but not **minimised** — minimisation
-of genus-one models (Cremona–Fisher–Stoll) should bring that to about 15 digits. All 37 quartics are built and cached;
-what is missing is that one step.
+*Cost and outcome on a real curve (corrected 13 Sep).* An earlier version of this page, and a letter we sent,
+said the pairing does not finish on (89,23,65). That was wrong: it finished the same evening. The first pairing
+took about 115 minutes, almost all of it factoring a 46-digit norm |N(g(1,0))| to build the set of places;
+the remaining 35 took 28 minutes together. Our quartics are reduced but not **minimised** — minimisation of
+genus-one models (Cremona–Fisher–Stoll) should cut that norm to about 15 digits, so it is a matter of speed,
+not feasibility. The arithmetic result was negative: dim Sel² = 8, pairing rank 2, bound rank ≤ 5 — worse than
+the bound ≤ 3 we already had.
 
 ## The hardest computation: rank 1 over ℚ(√165)
 
@@ -106,8 +109,12 @@ Several constructions we derived independently turned out to be known. Listing t
 
 ## Mistakes we caught
 
-Eight, and every one had the same shape: **right answer, wrong justification**. That is the dangerous kind — it is
-invisible in the result and gets caught only by someone taking a different route. The list, with who caught what, is
+More than twenty, and — correcting what this page and several of our letters said earlier — they were **not all
+of one kind**. Some were a right answer resting on a wrong justification. Others were code that gave a **wrong
+answer** (a lost quadratic twist produced wrong ranks for five pairs out of seven), empty searches presented as
+proofs of absence (four times), overstated status labels, and a claim proved for a narrow case but stated for a
+broad one. An outside review of the session logs of all three systems
+(`REVIEW_ALL_SESSIONS_FROM_FABLE_2026-09-13.md`) showed that our one-line summary of our own mistakes was itself wrong. The list, with who caught what, is
 in `SUMMARY_2026-09-12.md` §6. The worst of them: our enumeration of preimages was silently swallowing exceptions,
 so a "proof" was resting on an empty loop. It surfaced only because a count disagreed with a control example.
 
@@ -118,7 +125,7 @@ SUMMARY_2026-09-12.md     entry point: every claim, its label and its boundary
 FAMILY_SECTIONS.md        running log of the section family (newest entries at the bottom)
 descent/                  2-descent over quadratic fields; Cassels–Tate pairing (conics and quartics)
 family/                   the pipeline: sections → genus-2 curve → Chabauty
-bridge/                   the G1 family: 127 parameter pairs, 120 excluded
+bridge/                   the G1 family: 127 parameter pairs; 126 excluded for a full non-degenerate square
 corners/                  Mordell–Weil lattice search, LLL + sieve
 bremner16/                Bremner's sixteen six-square configurations
 gpu6/                     GPU sieve (HIP)
@@ -132,7 +139,14 @@ this (Claude, GPT, Grok), kept because the corrections in them are part of how t
 Three AI systems worked in parallel on one machine, exchanging notes as files in this directory, reading each
 other's session logs, and recomputing each other's results with independent implementations. A human set the
 direction, stopped dead ends, and required a status label on every claim. Disagreement between two implementations
-was treated as a defect to be found, never as noise — that is where most of the eight mistakes came from.
+was treated as a defect to be found, never as noise.
+
+**A caveat about the word "independent".** The same review found our cross-checks less independent than we claimed:
+before several "independent" reviews one system had read the other's raw session log; one certificate was produced
+from a snapshot of the other system's code; one re-check simply re-ran the other system's scripts; and one verifier
+was told the expected answer in advance. Agreement between the systems here is weaker evidence than it sounds.
+From 13 Sep a check counts as independent only if its note lists everything read before computing, and that list
+excludes the checked party's code, logs and working directory.
 
 ## What is missing
 
