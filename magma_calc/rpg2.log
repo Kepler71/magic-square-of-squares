@@ -1,0 +1,86 @@
+=== 23,7,17 d3=-255
+The computation exceeded the time limit and so was terminated prematurely.
+=== 23,7,17 d3=-34
+The computation exceeded the time limit and so was terminated prematurely.
+=== 23,7,17 d3=34
+The computation exceeded the time limit and so was terminated prematurely.
+=== 23,7,17 d3=255
+The computation exceeded the time limit and so was terminated prematurely.
+=== 31,17,25 d3=-7
+The computation exceeded the time limit and so was terminated prematurely.
+=== 31,17,25 d3=-6
+The computation exceeded the time limit and so was terminated prematurely.
+=== 31,17,25 d3=6
+The computation exceeded the time limit and so was terminated prematurely.
+=== 31,17,25 d3=7
+The computation exceeded the time limit and so was terminated prematurely.
+=== 41,1,29 d3=-609
+The computation exceeded the time limit and so was terminated prematurely.
+=== 41,1,29 d3=-145
+The computation exceeded the time limit and so was terminated prematurely.
+=== 41,1,29 d3=145
+The computation exceeded the time limit and so was terminated prematurely.
+=== 41,1,29 d3=609
+The computation exceeded the time limit and so was terminated prematurely.
+=== 47,23,37 d3=-1295
+The computation exceeded the time limit and so was terminated prematurely.
+=== 47,23,37 d3=-111
+504 Gateway Timeout
+Gateway Timeout
+The gateway did not receive a timely response
+from the upstream server or application.
+=== 47,23,37 d3=111
+The computation exceeded the time limit and so was terminated prematurely.
+=== 47,23,37 d3=1295
+The computation exceeded the time limit and so was terminated prematurely.
+=== 49,31,41 d3=-410
+The computation exceeded the time limit and so was terminated prematurely.
+=== 49,31,41 d3=-41
+504 Gateway Timeout
+Gateway Timeout
+The gateway did not receive a timely response
+from the upstream server or application.
+=== 49,31,41 d3=41
+The computation exceeded the time limit and so was terminated prematurely.
+=== 49,31,41 d3=410
+The computation exceeded the time limit and so was terminated prematurely.
+=== 73,17,53 d3=-371
+The computation exceeded the time limit and so was terminated prematurely.
+=== 73,17,53 d3=-265
+The computation exceeded the time limit and so was terminated prematurely.
+=== 73,17,53 d3=265
+The computation exceeded the time limit and so was terminated prematurely.
+=== 73,17,53 d3=371
+The computation exceeded the time limit and so was terminated prematurely.
+=== 71,49,61 d3=-915
+NPTS: 8
+PROVEN: true
+TVALS: [ 3061/4381, 1/121, inf, 0, 1, 4381/3061, -1, 1/121 ]
+=== 71,49,61 d3=-671
+NPTS: 8
+PROVEN: true
+TVALS: [ 25/36, 3061/4381, 25/36, 0, -1, inf, 1, 4381/3061 ]
+=== 71,49,61 d3=671
+NPTS: 8
+PROVEN: true
+TVALS: [ 36/25, 3061/4381, 36/25, 0, -1, inf, 4381/3061, 1 ]
+=== 71,49,61 d3=915
+NPTS: 8
+PROVEN: true
+TVALS: [ 3061/4381, 121, 0, -1, 121, inf, 1, 4381/3061 ]
+=== 89,23,65 d3=-2145
+The computation exceeded the time limit and so was terminated prematurely.
+=== 89,23,65 d3=-910
+The computation exceeded the time limit and so was terminated prematurely.
+=== 89,23,65 d3=910
+The computation exceeded the time limit and so was terminated prematurely.
+=== 89,23,65 d3=2145
+The computation exceeded the time limit and so was terminated prematurely.
+=== 79,47,65 d3=-455
+The computation exceeded the time limit and so was terminated prematurely.
+=== 79,47,65 d3=-65
+The computation exceeded the time limit and so was terminated prematurely.
+=== 79,47,65 d3=65
+The computation exceeded the time limit and so was terminated prematurely.
+=== 79,47,65 d3=455
+The computation exceeded the time limit and so was terminated prematurely.
