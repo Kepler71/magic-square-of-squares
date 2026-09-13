@@ -1,0 +1,11 @@
+shard 5: 1/92 (1,5) t=0s
+shard 5: 11/92 (17,20) t=1s
+shard 5: 21/92 (5,29) t=3s
+shard 5: 31/92 (9,35) t=6s
+shard 5: 41/92 (31,40) t=8s
+shard 5: 51/92 (4,45) t=10s
+shard 5: 61/92 (17,49) t=13s
+shard 5: 71/92 (17,53) t=19s
+shard 5: 81/92 (4,57) t=21s
+shard 5: 91/92 (1,60) t=24s
+shard 5 done, t=24s

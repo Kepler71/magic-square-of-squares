@@ -1,0 +1,11 @@
+shard 7: 1/92 (3,5) t=0s
+shard 7: 11/92 (1,21) t=1s
+shard 7: 21/92 (7,29) t=3s
+shard 7: 31/92 (12,35) t=4s
+shard 7: 41/92 (37,40) t=6s
+shard 7: 51/92 (8,45) t=11s
+shard 7: 61/92 (19,49) t=13s
+shard 7: 71/92 (19,53) t=16s
+shard 7: 81/92 (7,57) t=21s
+shard 7: 91/92 (11,60) t=24s
+shard 7 done, t=25s

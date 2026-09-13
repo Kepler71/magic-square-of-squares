@@ -1,0 +1,11 @@
+shard 4: 1/92 (3,4) t=0s
+shard 4: 11/92 (13,20) t=2s
+shard 4: 21/92 (4,29) t=4s
+shard 4: 31/92 (8,35) t=6s
+shard 4: 41/92 (29,40) t=9s
+shard 4: 51/92 (2,45) t=11s
+shard 4: 61/92 (16,49) t=15s
+shard 4: 71/92 (16,53) t=18s
+shard 4: 81/92 (2,57) t=23s
+shard 4: 91/92 (58,59) t=26s
+shard 4 done, t=26s

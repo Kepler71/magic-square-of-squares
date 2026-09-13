@@ -1,0 +1,200 @@
+{"slope": "17/43", "closed": false, "tried": []}
+{"slope": "26/51", "closed": false, "tried": []}
+{"slope": "9/61", "closed": false, "tried": []}
+{"slope": "47/54", "closed": false, "tried": []}
+{"slope": "31/66", "closed": false, "tried": []}
+{"slope": "45/76", "closed": false, "tried": []}
+{"slope": "31/76", "closed": false, "tried": []}
+{"slope": "9/80", "closed": false, "tried": []}
+{"slope": "3/86", "closed": false, "tried": []}
+{"slope": "16/89", "closed": false, "tried": []}
+{"slope": "11/91", "closed": false, "tried": []}
+{"slope": "21/92", "closed": false, "tried": []}
+{"slope": "26/93", "closed": false, "tried": []}
+{"slope": "82/93", "closed": false, "tried": []}
+{"slope": "42/89", "closed": false, "tried": []}
+{"slope": "68/91", "closed": false, "tried": []}
+{"slope": "66/95", "closed": false, "tried": []}
+{"slope": "80/93", "closed": false, "tried": []}
+{"slope": "71/98", "closed": false, "tried": []}
+{"slope": "80/89", "closed": false, "tried": []}
+{"slope": "47/101", "closed": false, "tried": []}
+{"slope": "79/110", "closed": false, "tried": []}
+{"slope": "11/109", "closed": false, "tried": []}
+{"slope": "81/110", "closed": false, "tried": []}
+{"slope": "34/111", "closed": false, "tried": []}
+{"slope": "29/110", "closed": false, "tried": []}
+{"slope": "94/105", "closed": false, "tried": []}
+{"slope": "12/119", "closed": false, "tried": []}
+{"slope": "52/115", "closed": false, "tried": []}
+{"slope": "13/119", "closed": false, "tried": []}
+{"slope": "35/114", "closed": false, "tried": []}
+{"slope": "106/119", "closed": false, "tried": []}
+{"slope": "52/107", "closed": false, "tried": []}
+{"slope": "103/110", "closed": false, "tried": []}
+{"slope": "89/120", "closed": false, "tried": []}
+{"slope": "113/120", "closed": false, "tried": []}
+{"slope": "20/123", "closed": false, "tried": []}
+{"slope": "5/123", "closed": false, "tried": []}
+{"slope": "33/124", "closed": false, "tried": []}
+{"slope": "55/126", "closed": false, "tried": []}
+{"slope": "32/129", "closed": false, "tried": []}
+{"slope": "79/126", "closed": false, "tried": []}
+{"slope": "4/131", "closed": false, "tried": []}
+{"slope": "26/129", "closed": false, "tried": []}
+{"slope": "49/131", "closed": false, "tried": []}
+{"slope": "86/131", "closed": false, "tried": []}
+{"slope": "69/130", "closed": false, "tried": []}
+{"slope": "5/131", "closed": false, "tried": []}
+{"slope": "119/134", "closed": false, "tried": []}
+{"slope": "5/132", "closed": false, "tried": []}
+{"slope": "87/131", "closed": false, "tried": []}
+{"slope": "93/134", "closed": false, "tried": []}
+{"slope": "129/134", "closed": false, "tried": []}
+{"slope": "93/140", "closed": false, "tried": []}
+{"slope": "61/130", "closed": false, "tried": []}
+{"slope": "28/143", "closed": false, "tried": []}
+{"slope": "134/141", "closed": false, "tried": []}
+{"slope": "11/142", "closed": false, "tried": []}
+{"slope": "114/139", "closed": false, "tried": []}
+{"slope": "129/142", "closed": false, "tried": []}
+{"slope": "115/143", "closed": false, "tried": []}
+{"slope": "59/147", "closed": false, "tried": []}
+{"slope": "57/148", "closed": false, "tried": []}
+{"slope": "49/144", "closed": false, "tried": []}
+{"slope": "5/137", "closed": false, "tried": []}
+{"slope": "47/146", "closed": false, "tried": []}
+{"slope": "73/145", "closed": false, "tried": []}
+{"slope": "96/149", "closed": false, "tried": []}
+{"slope": "119/151", "closed": false, "tried": []}
+{"slope": "11/153", "closed": false, "tried": []}
+{"slope": "115/151", "closed": false, "tried": []}
+{"slope": "2/151", "closed": false, "tried": []}
+{"slope": "23/153", "closed": false, "tried": []}
+{"slope": "70/151", "closed": false, "tried": []}
+{"slope": "47/155", "closed": false, "tried": []}
+{"slope": "76/155", "closed": false, "tried": []}
+{"slope": "85/152", "closed": false, "tried": []}
+{"slope": "11/120", "closed": true, "by": {"abc": [109, 120, 131], "kind": "-", "L_ratio": "128", "closed": true}, "tried": [{"abc": [109, 120, 131], "kind": "-", "L_ratio": "128", "closed": true}]}
+{"slope": "130/157", "closed": false, "tried": []}
+{"slope": "21/121", "closed": true, "by": {"abc": [21, 121, 142], "kind": "+", "L_ratio": "4608", "closed": true}, "tried": [{"abc": [21, 121, 142], "kind": "+", "L_ratio": "4608", "closed": true}]}
+{"slope": "139/158", "closed": false, "tried": []}
+{"slope": "91/159", "closed": false, "tried": []}
+{"slope": "58/161", "closed": false, "tried": []}
+{"slope": "157/160", "closed": false, "tried": []}
+{"slope": "90/161", "closed": false, "tried": []}
+{"slope": "117/122", "closed": true, "by": {"abc": [117, 122, 239], "kind": "+", "L_ratio": "9216", "closed": true}, "tried": [{"abc": [117, 122, 239], "kind": "+", "L_ratio": "9216", "closed": true}]}
+{"slope": "31/162", "closed": false, "tried": []}
+{"slope": "123/161", "closed": false, "tried": []}
+{"slope": "134/161", "closed": false, "tried": []}
+{"slope": "64/163", "closed": false, "tried": []}
+{"slope": "69/163", "closed": false, "tried": []}
+{"slope": "23/130", "closed": true, "by": {"abc": [107, 130, 153], "kind": "-", "L_ratio": "256", "closed": true}, "tried": [{"abc": [107, 130, 153], "kind": "-", "L_ratio": "256", "closed": true}]}
+{"slope": "148/157", "closed": true, "by": {"abc": [9, 148, 305], "kind": "-", "L_ratio": "64", "closed": true}, "tried": [{"abc": [9, 148, 305], "kind": "-", "L_ratio": "64", "closed": true}]}
+{"slope": "26/165", "closed": false, "tried": []}
+{"slope": "29/165", "closed": false, "tried": []}
+{"slope": "115/163", "closed": false, "tried": []}
+{"slope": "47/168", "closed": false, "tried": []}
+{"slope": "41/89", "closed": false, "tried": [{"abc": [48, 89, 130], "kind": "+", "L_ratio": 0}]}
+{"slope": "9/170", "closed": true, "by": {"abc": [161, 170, 179], "kind": "-", "L_ratio": "32", "closed": true}, "tried": [{"abc": [161, 170, 179], "kind": "-", "L_ratio": "32", "closed": true}]}
+{"slope": "35/166", "closed": false, "tried": []}
+{"slope": "131/135", "closed": true, "by": {"abc": [4, 135, 266], "kind": "-", "L_ratio": "384", "closed": true}, "tried": [{"abc": [4, 135, 266], "kind": "-", "L_ratio": "384", "closed": true}]}
+{"slope": "102/169", "closed": false, "tried": []}
+{"slope": "44/171", "closed": false, "tried": []}
+{"slope": "77/171", "closed": false, "tried": []}
+{"slope": "75/154", "closed": true, "by": {"abc": [75, 154, 229], "kind": "+", "L_ratio": "27648", "closed": true}, "tried": [{"abc": [75, 154, 229], "kind": "+", "L_ratio": "27648", "closed": true}]}
+{"slope": "82/171", "closed": false, "tried": []}
+{"slope": "57/172", "closed": false, "tried": []}
+{"slope": "63/172", "closed": false, "tried": []}
+{"slope": "78/173", "closed": false, "tried": []}
+{"slope": "120/157", "closed": false, "tried": [{"abc": [37, 120, 157], "kind": "+", "L_ratio": 0}]}
+{"slope": "97/171", "closed": true, "by": {"abc": [74, 97, 268], "kind": "-", "L_ratio": "128", "closed": true}, "tried": [{"abc": [74, 97, 268], "kind": "-", "L_ratio": "128", "closed": true}]}
+{"slope": "66/97", "closed": true, "by": {"abc": [66, 97, 163], "kind": "-", "L_ratio": "512", "closed": true}, "tried": [{"abc": [66, 97, 163], "kind": "-", "L_ratio": "512", "closed": true}]}
+{"slope": "93/173", "closed": false, "tried": []}
+{"slope": "35/174", "closed": false, "tried": []}
+{"slope": "127/171", "closed": false, "tried": []}
+{"slope": "65/174", "closed": false, "tried": []}
+{"slope": "169/174", "closed": false, "tried": []}
+{"slope": "115/174", "closed": false, "tried": []}
+{"slope": "151/174", "closed": true, "by": {"abc": [23, 151, 174], "kind": "+", "L_ratio": "2304", "closed": true}, "tried": [{"abc": [23, 151, 174], "kind": "+", "L_ratio": "2304", "closed": true}]}
+{"slope": "144/173", "closed": false, "tried": []}
+{"slope": "67/168", "closed": false, "tried": [{"abc": [67, 101, 168], "kind": "+", "L_ratio": 0}]}
+{"slope": "43/175", "closed": false, "tried": []}
+{"slope": "145/149", "closed": true, "by": {"abc": [4, 145, 294], "kind": "-", "L_ratio": "256", "closed": true}, "tried": [{"abc": [4, 145, 294], "kind": "-", "L_ratio": "256", "closed": true}]}
+{"slope": "33/173", "closed": true, "by": {"abc": [33, 140, 206], "kind": "-", "L_ratio": "128", "closed": true}, "tried": [{"abc": [33, 140, 206], "kind": "-", "L_ratio": "128", "closed": true}]}
+{"slope": "49/176", "closed": false, "tried": []}
+{"slope": "23/176", "closed": false, "tried": []}
+{"slope": "120/173", "closed": true, "by": {"abc": [53, 120, 173], "kind": "-", "L_ratio": "128", "closed": true}, "tried": [{"abc": [53, 120, 173], "kind": "-", "L_ratio": "128", "closed": true}]}
+{"slope": "92/179", "closed": false, "tried": []}
+{"slope": "21/178", "closed": false, "tried": []}
+{"slope": "105/179", "closed": false, "tried": []}
+{"slope": "121/179", "closed": false, "tried": []}
+{"slope": "151/180", "closed": false, "tried": []}
+{"slope": "119/179", "closed": false, "tried": []}
+{"slope": "101/148", "closed": true, "by": {"abc": [101, 148, 249], "kind": "+", "L_ratio": "13824", "closed": true}, "tried": [{"abc": [101, 148, 249], "kind": "+", "L_ratio": "13824", "closed": true}]}
+{"slope": "17/182", "closed": false, "tried": []}
+{"slope": "127/182", "closed": false, "tried": []}
+{"slope": "131/182", "closed": false, "tried": []}
+{"slope": "89/187", "closed": false, "tried": []}
+{"slope": "158/187", "closed": false, "tried": []}
+{"slope": "82/189", "closed": false, "tried": []}
+{"slope": "43/189", "closed": false, "tried": []}
+{"slope": "84/185", "closed": false, "tried": []}
+{"slope": "79/189", "closed": false, "tried": []}
+{"slope": "77/190", "closed": false, "tried": []}
+{"slope": "107/171", "closed": true, "by": {"abc": [107, 171, 278], "kind": "+", "L_ratio": "9216", "closed": true}, "tried": [{"abc": [107, 171, 278], "kind": "+", "L_ratio": "9216", "closed": true}]}
+{"slope": "60/191", "closed": false, "tried": []}
+{"slope": "33/191", "closed": false, "tried": []}
+{"slope": "97/177", "closed": true, "by": {"abc": [80, 97, 177], "kind": "-", "L_ratio": "256", "closed": true}, "tried": [{"abc": [80, 97, 177], "kind": "-", "L_ratio": "256", "closed": true}]}
+{"slope": "80/191", "closed": false, "tried": []}
+{"slope": "67/191", "closed": false, "tried": []}
+{"slope": "117/191", "closed": false, "tried": []}
+{"slope": "107/191", "closed": false, "tried": []}
+{"slope": "57/170", "closed": true, "by": {"abc": [113, 170, 227], "kind": "-", "L_ratio": "512", "closed": true}, "tried": [{"abc": [113, 170, 227], "kind": "-", "L_ratio": "512", "closed": true}]}
+{"slope": "170/191", "closed": false, "tried": []}
+{"slope": "37/157", "closed": false, "tried": [{"abc": [37, 120, 157], "kind": "+", "L_ratio": 0}]}
+{"slope": "142/191", "closed": true, "by": {"abc": [49, 191, 333], "kind": "-", "L_ratio": "256", "closed": true}, "tried": [{"abc": [49, 191, 333], "kind": "-", "L_ratio": "256", "closed": true}]}
+{"slope": "107/167", "closed": true, "by": {"abc": [60, 107, 167], "kind": "+", "L_ratio": "6912", "closed": true}, "tried": [{"abc": [60, 107, 167], "kind": "+", "L_ratio": "6912", "closed": true}]}
+{"slope": "46/193", "closed": false, "tried": []}
+{"slope": "120/191", "closed": false, "tried": []}
+{"slope": "108/193", "closed": false, "tried": []}
+{"slope": "146/193", "closed": false, "tried": []}
+{"slope": "79/155", "closed": true, "by": {"abc": [79, 155, 234], "kind": "-", "L_ratio": "1024", "closed": true}, "tried": [{"abc": [79, 155, 234], "kind": "-", "L_ratio": "1024", "closed": true}]}
+{"slope": "49/195", "closed": false, "tried": []}
+{"slope": "14/195", "closed": false, "tried": []}
+{"slope": "49/191", "closed": true, "by": {"abc": [49, 191, 240], "kind": "+", "L_ratio": "41472", "closed": true}, "tried": [{"abc": [49, 142, 240], "kind": "+", "L_ratio": 0}, {"abc": [49, 191, 240], "kind": "+", "L_ratio": "41472", "closed": true}]}
+{"slope": "1/195", "closed": false, "tried": []}
+{"slope": "1/194", "closed": false, "tried": [{"abc": [1, 193, 195], "kind": "+", "L_ratio": 0}]}
+{"slope": "89/194", "closed": true, "by": {"abc": [89, 105, 194], "kind": "+", "L_ratio": "13824", "closed": true}, "tried": [{"abc": [89, 105, 194], "kind": "+", "L_ratio": "13824", "closed": true}]}
+{"slope": "101/195", "closed": true, "by": {"abc": [94, 101, 195], "kind": "+", "L_ratio": "13824", "closed": true}, "tried": [{"abc": [94, 101, 195], "kind": "+", "L_ratio": "13824", "closed": true}]}
+{"slope": "43/174", "closed": true, "by": {"abc": [43, 131, 174], "kind": "+", "L_ratio": "9216", "closed": true}, "tried": [{"abc": [43, 131, 174], "kind": "+", "L_ratio": "9216", "closed": true}]}
+{"slope": "12/197", "closed": false, "tried": []}
+{"slope": "158/195", "closed": true, "by": {"abc": [37, 195, 353], "kind": "-", "L_ratio": "512", "closed": true}, "tried": [{"abc": [37, 195, 353], "kind": "-", "L_ratio": "512", "closed": true}]}
+{"slope": "78/197", "closed": false, "tried": []}
+{"slope": "181/195", "closed": false, "tried": []}
+{"slope": "21/197", "closed": false, "tried": []}
+{"slope": "107/198", "closed": false, "tried": []}
+{"slope": "127/198", "closed": false, "tried": []}
+{"slope": "56/199", "closed": false, "tried": []}
+{"slope": "58/199", "closed": false, "tried": []}
+{"slope": "167/198", "closed": false, "tried": []}
+{"slope": "195/197", "closed": true, "by": {"abc": [2, 195, 197], "kind": "+", "L_ratio": "4608", "closed": true}, "tried": [{"abc": [2, 195, 197], "kind": "+", "L_ratio": "4608", "closed": true}]}
+{"slope": "149/191", "closed": true, "by": {"abc": [42, 149, 340], "kind": "-", "L_ratio": "128", "closed": true}, "tried": [{"abc": [42, 149, 340], "kind": "-", "L_ratio": "128", "closed": true}]}
+{"slope": "133/199", "closed": false, "tried": []}
+{"slope": "123/199", "closed": false, "tried": []}
+{"slope": "112/199", "closed": false, "tried": []}
+{"slope": "180/199", "closed": false, "tried": []}
+{"slope": "193/194", "closed": true, "by": {"abc": [193, 194, 387], "kind": "+", "L_ratio": "9216", "closed": true}, "tried": [{"abc": [193, 194, 387], "kind": "+", "L_ratio": "9216", "closed": true}]}
+{"slope": "193/199", "closed": false, "tried": []}
+{"slope": "174/199", "closed": false, "tried": []}
+{"slope": "172/193", "closed": true, "by": {"abc": [21, 172, 193], "kind": "+", "L_ratio": "13824", "closed": true}, "tried": [{"abc": [21, 172, 193], "kind": "+", "L_ratio": "13824", "closed": true}]}
+{"slope": "60/173", "closed": false, "tried": [{"abc": [60, 113, 233], "kind": "+", "err": "the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)\nYo"}, {"abc": [113, 173, 233], "kind": "+", "err": "the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)\nYo"}]}
+{"slope": "15/191", "closed": false, "tried": [{"abc": [176, 191, 206], "kind": "+", "L_ratio": 0}]}
+{"slope": "165/191", "closed": false, "tried": [{"abc": [26, 165, 356], "kind": "+", "err": "the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)\nYo"}]}
+{"slope": "156/197", "closed": false, "tried": [{"abc": [41, 156, 353], "kind": "+", "err": "the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)\nYo"}]}
+{"slope": "165/194", "closed": true, "by": {"abc": [165, 194, 359], "kind": "+", "L_ratio": "27648", "closed": true}, "tried": [{"abc": [165, 194, 359], "kind": "+", "L_ratio": "27648", "closed": true}]}
+{"slope": "126/181", "closed": false, "tried": [{"abc": [55, 181, 307], "kind": "+", "L_ratio": 0}]}
+{"slope": "150/191", "closed": false, "tried": [{"abc": [150, 191, 341], "kind": "+", "L_ratio": 0}, {"abc": [150, 191, 341], "kind": "-", "L_ratio": 0}]}
+{"slope": "194/195", "closed": false, "tried": [{"abc": [1, 195, 389], "kind": "+", "L_ratio": 0}]}
+{"slope": "48/163", "closed": false, "tried": [{"abc": [115, 163, 211], "kind": "+", "L_ratio": 0}]}
+{"slope": "120/151", "closed": true, "by": {"abc": [120, 151, 271], "kind": "+", "L_ratio": "27648", "closed": true}, "tried": [{"abc": [31, 151, 271], "kind": "+", "err": "the PARI stack overflows (current size: 1073741824; maximum size: 1073741824)\nYo"}, {"abc": [120, 151, 271], "kind": "+", "L_ratio": "27648", "closed": true}]}

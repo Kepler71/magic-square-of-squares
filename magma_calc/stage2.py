@@ -6,6 +6,8 @@ from fractions import Fraction as F
 from chab_all_lib import magma
 opens=[l.strip() for l in open('../census_six_cells/open_after_six.txt') if l.strip()]
 skip={'3/86','79/110','11/142','48/163'}
+import json as _j
+skip|={_j.loads(l)['slope'] for l in open('../census_six_cells/kolyvagin.jsonl') if _j.loads(l)['closed']}
 done=set()
 if os.path.exists('stage2.jsonl'):
     for l in open('stage2.jsonl'): 
@@ -37,7 +39,12 @@ if rb eq 1 then
   Q:=[q : q in [J!(R-S) : R in pts, S in pts | R ne S] | Order(q) eq 0];
   if #Q gt 0 then S:=Chabauty(Q[1]); print "Z:", [ (R[3] eq 0) select "inf" else Sprint(R[1]/R[3]) : R in S]; else print "NOPT"; end if;
 end if;"""
-            t0=time.time(); res=magma(code); dt=time.time()-t0
+            while True:
+                t0=time.time(); res=magma(code); dt=time.time()-t0
+                if 'too many connections' in res or res.strip()=='':
+                    print('лимит/пусто — пауза 1800 с',flush=True); time.sleep(1800); continue
+                break
+            time.sleep(max(0,20-dt))
             rb=re.search(r"RB: (\d+)",res); zs=re.search(r"Z: \[(.*?)\]",res,re.S)
             rec=dict(slope=sl,c=c,pair=[a,b],rb=int(rb.group(1)) if rb else None,sec=round(dt,1))
             if zs:
