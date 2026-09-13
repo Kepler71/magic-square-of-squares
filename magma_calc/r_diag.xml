@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<calculator><headers><max_time>60</max_time><max_input>50000</max_input><seed>2041954841</seed><version>2.29-10</version><time>4.259</time><memory>110.56MB</memory></headers><results><line>MODEL: Hyperelliptic Curve defined by y^2 + x^2*y = 1040400*x^6 - 1728000*x^5 -</line><line>    2288808*x^4 + 3801480*x^3 - 7491169*x^2 + 12442080*x over Rational Field</line><line>t_model: 0.050</line><line>RANKBOUNDS: [ 1 ]</line><line>t_rank: 4.240</line><line></line></results></calculator>

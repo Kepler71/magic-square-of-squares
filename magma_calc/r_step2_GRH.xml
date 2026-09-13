@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<calculator><headers><max_time>60</max_time><max_input>50000</max_input><seed>4012066015</seed><version>2.29-10</version><warning>The computation exceeded the time limit and so was terminated prematurely.</warning></headers><results><line>RANK_LO: 1 RANK_HI: 5 t: 4.240</line></results></calculator>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<calculator><headers><max_time>60</max_time><max_input>50000</max_input><seed>1705625686</seed><version>2.29-10</version><warning>The computation exceeded the time limit and so was terminated prematurely.</warning></headers><results><line>MODEL: Hyperelliptic Curve defined by y^2 = 1156*x^5 - 97921*x^3 + 1040400*x</line><line>over Rational Field</line><line>t0: 0.060</line><line>RANK: 0 5 t1: 0.990</line></results></calculator>
