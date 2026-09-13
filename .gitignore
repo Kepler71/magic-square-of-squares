@@ -13,3 +13,12 @@ __pycache__/
 # личные данные адресатов - не для публикации
 CONTACTS_2026-09-12.md
 LETTER_DRAFT_2026-09-12.md
+
+# любые файлы с контактами, письмами и перепиской — не публиковать
+CONTACTS_*
+LETTER_*
+chrome_bridge/messages.json*
+# личная переписка — не публиковать
+*ZARHIN*
+GROK_INFO_2026-09-12_KALIMAN.md
+GROK_INFO_2026-09-12_2010.md
