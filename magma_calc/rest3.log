@@ -1,0 +1,36 @@
+79/110 79 31 110 The computation exceeded the time limit and so was terminate
+79/110 79 31 189 ДОКАЗАНО
+79/110 79 110 189 ДОКАЗАНО
+79/110 31 79 110 The computation exceeded the time limit and so was terminate
+79/110 31 79 189 ДОКАЗАНО
+79/110 31 110 189 ДОКАЗАНО
+79/110 110 79 31 The computation exceeded the time limit and so was terminate
+79/110 110 79 189 The computation exceeded the time limit and so was terminate
+79/110 110 31 189 The computation exceeded the time limit and so was terminate
+79/110 189 79 31 The computation exceeded the time limit and so was terminate
+79/110 189 79 110 The computation exceeded the time limit and so was terminate
+79/110 189 31 110 The computation exceeded the memory limit and so was termina
+11/142 11 131 142 504 Gateway Timeout Gateway Timeout The gateway did not rece
+11/142 11 131 153 The computation exceeded the time limit and so was terminate
+11/142 11 142 153 The computation exceeded the time limit and so was terminate
+11/142 131 11 142 The computation exceeded the time limit and so was terminate
+11/142 131 11 153 The computation exceeded the time limit and so was terminate
+11/142 131 142 153 ДОКАЗАНО
+11/142 142 11 131 The computation exceeded the time limit and so was terminate
+11/142 142 11 153 ДОКАЗАНО
+11/142 142 131 153 The computation exceeded the time limit and so was terminate
+11/142 153 11 131 The computation exceeded the memory limit and so was termina
+11/142 153 11 142 ДОКАЗАНО
+11/142 153 131 142 The computation exceeded the time limit and so was terminate
+48/163 48 115 163 The computation exceeded the time limit and so was terminate
+48/163 48 115 211 504 Gateway Timeout Gateway Timeout The gateway did not rece
+48/163 48 163 211 The computation exceeded the time limit and so was terminate
+48/163 115 48 163 ДОКАЗАНО
+48/163 115 48 211 The computation exceeded the time limit and so was terminate
+48/163 115 163 211 The computation exceeded the memory limit and so was termina
+48/163 163 48 115 The computation exceeded the time limit and so was terminate
+48/163 163 48 211 The computation exceeded the time limit and so was terminate
+48/163 163 115 211 The computation exceeded the time limit and so was terminate
+48/163 211 48 115 The computation exceeded the time limit and so was terminate
+48/163 211 48 163 ДОКАЗАНО
+48/163 211 115 163 The computation exceeded the time limit and so was terminate

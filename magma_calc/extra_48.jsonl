@@ -1,0 +1,18 @@
+{"kind": "6", "singles": [163, 211], "pair": [48, 115], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [163, -211], "pair": [48, 115], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [115, 211], "pair": [48, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [115, -211], "pair": [48, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [115, 163], "pair": [48, 211], "out": "PROVEN: true\nZVALS: [ 1/211, 0, -1/115, 0, -1/163, -1/211, 1/48, -1/48 ]"}
+{"kind": "6", "singles": [115, -163], "pair": [48, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [48, 211], "pair": [115, 163], "out": "The computation exceeded the memory limit and so was terminated prematurely.\nAn error occurred. See the output for details.\nCurrent total memory usage: 299.1MB, failed memory request: 83.0MB\nSystem Error: User memory limit has been reached\n&gt;&gt; print \"PROVEN:\", flag; print \"ZVALS:\", [ (R[3] eq 0) select \"inf\" else Spri\n                    ^\nRuntime error: Variable 'flag' has not been initialized\n&gt;&gt; lect \"inf\" else Sprint(R[1]/R[3]) : R in pts];\n                                            ^\nUser error: Identifier 'pts' has not been declared or assigned"}
+{"kind": "6", "singles": [48, -211], "pair": [115, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "6", "singles": [48, 163], "pair": [115, 211], "out": "PROVEN: true\nZVALS: [ 1/115, 1/211, 0, -1/115, 0, -1/163, -1/211, -1/48 ]"}
+{"kind": "6", "singles": [48, -163], "pair": [115, 211], "out": "PROVEN: false\nZVALS: [ 0, 0, -1/48, -1/115, 1/115, 1/127, 1/127, 1/163, -1/211, 1/211 ]"}
+{"kind": "6", "singles": [48, 115], "pair": [163, 211], "out": "PROVEN: true\nZVALS: [ 1/163, 1/211, 0, -1/115, -1/163, 0, -1/211, -1/48 ]"}
+{"kind": "6", "singles": [48, -115], "pair": [163, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [48], "pair": [115, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [48], "pair": [115, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [48], "pair": [163, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [115], "pair": [48, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [163], "pair": [48, 115], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"kind": "5", "singles": [163], "pair": [48, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}

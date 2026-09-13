@@ -1,0 +1,36 @@
+{"slope": "79/110", "single": 79, "pair": [31, 110], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 79, "pair": [31, 189], "out": "PROVEN: true\nZVALS: [ 1/31, 1/189, 0, -1/31, -1/79, -1/189, inf, 0 ]"}
+{"slope": "79/110", "single": 79, "pair": [110, 189], "out": "PROVEN: true\nZVALS: [ 0, -1/110, -1/189, 1/110, -1/79, inf, 0, 1/189 ]"}
+{"slope": "79/110", "single": 31, "pair": [79, 110], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 31, "pair": [79, 189], "out": "PROVEN: true\nZVALS: [ 1/189, 1/79, 0, -1/31, -1/79, -1/189, 0, inf ]"}
+{"slope": "79/110", "single": 31, "pair": [110, 189], "out": "PROVEN: true\nZVALS: [ 1/189, 0, -1/31, -1/110, 0, -1/189, inf, 1/110 ]"}
+{"slope": "79/110", "single": 110, "pair": [79, 31], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 110, "pair": [79, 189], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 110, "pair": [31, 189], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 189, "pair": [79, 31], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 189, "pair": [79, 110], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "79/110", "single": 189, "pair": [31, 110], "out": "The computation exceeded the memory limit and so was terminated prematurely.\nAn error occurred. See the output for details.\nCurrent total memory usage: 300.4MB, failed memory request: 83.0MB\nSystem Error: User memory limit has been reached\n&gt;&gt; print \"PROVEN:\", flag; print \"ZVALS:\", [ (R[3] eq 0) select \"inf\" else Spri\n                    ^\nRuntime error: Variable 'flag' has not been initialized\n&gt;&gt; lect \"inf\" else Sprint(R[1]/R[3]) : R in pts];\n                                            ^\nUser error: Identifier 'pts' has not been declared or assigned"}
+{"slope": "11/142", "single": 11, "pair": [131, 142], "out": "504 Gateway Timeout\nGateway Timeout\nThe gateway did not receive a timely response\nfrom the upstream server or application."}
+{"slope": "11/142", "single": 11, "pair": [131, 153], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 11, "pair": [142, 153], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 131, "pair": [11, 142], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 131, "pair": [11, 153], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 131, "pair": [142, 153], "out": "PROVEN: true\nZVALS: [ 0, 1/153, inf, 0, -1/131, -1/153, -1/142, 1/142 ]"}
+{"slope": "11/142", "single": 142, "pair": [11, 131], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 142, "pair": [11, 153], "out": "PROVEN: true\nZVALS: [ 1/11, 0, -1/11, 1/153, inf, 0, -1/153, -1/142 ]"}
+{"slope": "11/142", "single": 142, "pair": [131, 153], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "11/142", "single": 153, "pair": [11, 131], "out": "The computation exceeded the memory limit and so was terminated prematurely.\nAn error occurred. See the output for details.\nCurrent total memory usage: 331.5MB, failed memory request: 83.0MB\nSystem Error: User memory limit has been reached\n&gt;&gt; print \"PROVEN:\", flag; print \"ZVALS:\", [ (R[3] eq 0) select \"inf\" else Spri\n                    ^\nRuntime error: Variable 'flag' has not been initialized\n&gt;&gt; lect \"inf\" else Sprint(R[1]/R[3]) : R in pts];\n                                            ^\nUser error: Identifier 'pts' has not been declared or assigned"}
+{"slope": "11/142", "single": 153, "pair": [11, 142], "out": "PROVEN: true\nZVALS: [ 1/11, 0, -1/11, inf, 0, -1/153, -1/142, 1/142 ]"}
+{"slope": "11/142", "single": 153, "pair": [131, 142], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 48, "pair": [115, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 48, "pair": [115, 211], "out": "504 Gateway Timeout\nGateway Timeout\nThe gateway did not receive a timely response\nfrom the upstream server or application."}
+{"slope": "48/163", "single": 48, "pair": [163, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 115, "pair": [48, 163], "out": "PROVEN: true\nZVALS: [ 1/163, 0, -1/115, 0, -1/163, inf, 1/48, -1/48 ]"}
+{"slope": "48/163", "single": 115, "pair": [48, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 115, "pair": [163, 211], "out": "The computation exceeded the memory limit and so was terminated prematurely.\nAn error occurred. See the output for details.\nCurrent total memory usage: 331.3MB, failed memory request: 83.0MB\nSystem Error: User memory limit has been reached\n&gt;&gt; print \"PROVEN:\", flag; print \"ZVALS:\", [ (R[3] eq 0) select \"inf\" else Spri\n                    ^\nRuntime error: Variable 'flag' has not been initialized\n&gt;&gt; lect \"inf\" else Sprint(R[1]/R[3]) : R in pts];\n                                            ^\nUser error: Identifier 'pts' has not been declared or assigned"}
+{"slope": "48/163", "single": 163, "pair": [48, 115], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 163, "pair": [48, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 163, "pair": [115, 211], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 211, "pair": [48, 115], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "48/163", "single": 211, "pair": [48, 163], "out": "PROVEN: true\nZVALS: [ -1/163, 0, -1/211, -1/48, inf, 0, 1/48, 1/163 ]"}
+{"slope": "48/163", "single": 211, "pair": [115, 163], "out": "The computation exceeded the time limit and so was terminated prematurely."}
