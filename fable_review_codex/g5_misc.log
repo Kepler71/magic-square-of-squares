@@ -1,0 +1,3 @@
+{'j x(x+1)(x+16)': {'j': '13997521/225', 'integral': False, 'has_cm': False}, 'j x(x+1)(x+4)': {'j': '35152/9', 'integral': False, 'has_cm': False}}
+{'3P_diag_roots_match_codex': True, 'isqrt_bound_2P': True, 'gcd_N_den': 1, 'B_matches_census_cells': True}
+OK

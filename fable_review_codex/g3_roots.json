@@ -1,0 +1,38 @@
+{
+ "A_four_cells_bad_p0": [
+  "-1",
+  "-2",
+  "0"
+ ],
+ "A_six_cells_bad_p0": [
+  "-1",
+  "-2",
+  "0",
+  "1",
+  "2"
+ ],
+ "B_coincidence_k": [
+  "-1",
+  "-1/2",
+  "-2",
+  "0",
+  "1",
+  "1/2",
+  "2"
+ ],
+ "B_zero_lambda_k": [
+  "-1",
+  "0",
+  "1"
+ ],
+ "fixed_six_bad": [
+  "-1/2*b",
+  "0",
+  "1/2*b",
+  "-2*a",
+  "0",
+  "2*a"
+ ],
+ "max_abs_identity_random": true,
+ "rhombus_iff_positive_random": true
+}

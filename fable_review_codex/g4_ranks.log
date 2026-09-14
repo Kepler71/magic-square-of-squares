@@ -1,0 +1,6 @@
+cubic (0, 3360, -3360) {'lower': 2, 'upper': 2, 'cond_digits': 6, 'sec': 0.0}
+cubic (0, 3360, -8840) {'lower': 4, 'upper': 4, 'cond_digits': 9, 'sec': 0.0}
+cubic (0, -3360, -8840) {'lower': 4, 'upper': 4, 'cond_digits': 10, 'sec': 0.0}
+cubic (3360, -3360, -8840) {'lower': 2, 'upper': 2, 'cond_digits': 9, 'sec': 0.0}
+quartic all four {'lower': 2, 'upper': 2, 'cond_digits': 12, 'sec': 0.0}
+OK

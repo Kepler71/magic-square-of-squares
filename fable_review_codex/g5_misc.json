@@ -1,0 +1,16 @@
+{
+ "j x(x+1)(x+16)": {
+  "j": "13997521/225",
+  "integral": false,
+  "has_cm": false
+ },
+ "j x(x+1)(x+4)": {
+  "j": "35152/9",
+  "integral": false,
+  "has_cm": false
+ },
+ "3P_diag_roots_match_codex": true,
+ "isqrt_bound_2P": true,
+ "gcd_N_den": 1,
+ "B_matches_census_cells": true
+}
