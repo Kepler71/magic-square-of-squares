@@ -21,7 +21,9 @@ if rb eq 0 then S:=Chabauty0(J); print "Z:", [ (R[3] eq 0) select "inf" else Spr
             m=re.search(r"Z: \[(.*?)\]",res,re.S); rec=dict(slope=sl,c=c,pair=[a,b],out=res[:500])
             if m:
                 zs=[x.strip() for x in m.group(1).split(',')]
-                rec['closed']=all(z=='inf' or F(z)==0 or any(F(z) in (F(1,v),F(-1,v)) for v in vals) for z in zs)
+                from math import isqrt
+                sq=lambda x: x>=0 and isqrt(x.numerator)**2==x.numerator and isqrt(x.denominator)**2==x.denominator
+                rec['closed']=not any(z!='inf' and F(z)!=0 and all(sq(1+e*F(z)) for e in (s,-s,r,-r,s-r,r-s,s+r,-s-r)) for z in zs)
                 if not rec['closed']: rec['ALERT']=zs
             out.write(json.dumps(rec,ensure_ascii=False)+"\n"); out.flush()
             print(sl,c,a,b,res[:90].replace('\n',' | '),'ЗАКРЫТ' if rec.get('closed') else '',flush=True)

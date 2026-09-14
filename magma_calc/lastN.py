@@ -14,8 +14,16 @@ def curves(r,s):
         rest=[v for v in vals if v not in pa]
         for sg in (1,-1):
             yield (f"(1+{rest[0]}*z)*(1+({sg*rest[1]})*z)*(1-{pa[0]}^2*z^2)*(1-{pa[1]}^2*z^2)", dict(singles=[rest[0],sg*rest[1]],pairs=list(pa)))
+from math import isqrt
+def _sq(x): return x>=0 and isqrt(x.numerator)**2==x.numerator and isqrt(x.denominator)**2==x.denominator
 def degenerate(zs,vals):
-    return all(z in ('inf',) or F(z)==0 or any(F(z) in (F(1,v),F(-1,v)) for v in vals) for z in zs)
+    # закрыто, если ни одно конечное z≠0 не делает все восемь нецентральных клеток квадратами
+    r,sm,s,sp=vals
+    for z in zs:
+        if z=='inf' or F(z)==0: continue
+        t=F(z)
+        if all(_sq(1+e*t) for e in (s,-s,r,-r,sm,-sm,sp,-sp)): return False
+    return True
 import sys
 SL=[tuple(map(int,x.split('/'))) for x in sys.argv[2:]]
 out=open(sys.argv[1],'a')
