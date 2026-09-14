@@ -16,3 +16,8 @@
 5 [115] [48, 211] The computation exceeded the time limit and so was terminated prematurely.
 5 [163] [48, 115] The computation exceeded the time limit and so was terminated prematurely.
 5 [163] [48, 211] The computation exceeded the time limit and so was terminated prematurely.
+5 [163] [115, 211] The computation exceeded the time limit and so was terminated prematurely.
+5 [211] [48, 115] The computation exceeded the time limit and so was terminated prematurely.
+5 [211] [48, 163] PROVEN: true | ZVALS: [ -1/163, 0, -1/211, -1/48, inf, 0, 1/48, 1/163 ]
+5 [211] [115, 163] The computation exceeded the time limit and so was terminated prematurely.
+5 [115] [163, 211] The computation exceeded the memory limit and so was terminated prematurely. | An error occurred. See the output for detai
