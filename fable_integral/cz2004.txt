@@ -1,0 +1,1087 @@
+                     Annals of Mathematics, 160 (2004), 705–726
+
+
+
+
+            On integral points on surfaces
+                        By P. Corvaja and U. Zannier
+
+
+                                    Abstract
+
+      We study the integral points on surfaces by means of a new method, relying
+on the Schmidt Subspace Theorem. This method was recently introduced in
+[CZ] for the case of curves, leading to a new proof of Siegel’s celebrated theorem
+that any aﬃne algebraic curve deﬁned over a number ﬁeld has only ﬁnitely
+many S-integral points, unless it has genus zero and not more than two points
+at inﬁnity. Here, under certain conditions involving the intersection matrix of
+the divisors at inﬁnity, we shall conclude that the integral points on a surface
+all lie on a curve. We shall also give several examples and applications. One
+of them concerns curves, with a study of the integral points deﬁned over a
+variable quadratic ﬁeld; for instance we shall show that an aﬃne curve with at
+least ﬁve points at inﬁnity has at most ﬁnitely many such integral points.
+
+
+
+                     0. Introduction and statements
+
+     In the recent paper [CZ] a new method was introduced in connection with
+the integral points on an algebraic curve; this led to a novel proof of Siegel’s
+celebrated theorem, based on the Schmidt Subspace Theorem and entirely
+avoiding any recourse to abelian varieties and their arithmetic. Apart from
+this methodological point, we observed (see the Remark in [CZ]) that the
+approach was sometimes capable of quantitative improvements on the classical
+one, and we also alluded to the possibility of extensions to higher dimensional
+varieties. The present paper represents precisely a ﬁrst step in that direction,
+with an analysis of the case of surfaces.
+     The arguments in [CZ] allowed to deal with the special case of Siegel’s
+Theorem when the aﬃne curve misses at least three points with respect to its
+projective closure. But as is well-known, this already suﬃces to prove Siegel’s
+theorem in full generality. That special case was treated by embedding the
+curve in a space of large dimension and by constructing hyperplanes with high
+order contact with the curve at some point at inﬁnity; ﬁnally one exploited
+706                          P. CORVAJA AND U. ZANNIER
+
+
+the diophantine approximation via Schmidt’s Theorem rather than via Roth’s
+theorem, as in the usual approach. Correspondingly, here we shall work with
+(nonsingular) aﬃne surfaces missing at least four divisors; but now, unlike the
+case of curves, we shall need additional assumptions on the divisors, expressed
+in terms of their intersection matrix. These conditions appear naturally when
+using the Riemann-Roch theorem to embed the surface in a suitable space and
+to construct functions with zeros of large order along a prescribed divisor in
+the set, allowing an application of the Subspace Theorem.
+      The result of this approach is the Main Theorem below. Its assumptions
+appear somewhat technical, so we have preferred to start with its corollary
+Theorem 1 below; this is suﬃcient for some applications, such as to Corollary 1,
+which concerns the quadratic integral points on a curve. As a kind of “test” for
+the Main Theorem, we shall see how it immediately implies Siegel’s theorem
+on curves (Ex. 1.5). Still other applications of the method may be obtained
+looking at varieties deﬁned in Am by one equation f1 · · · fr = g, where fi , g
+are polynomials and deg g is “small”. (A special case arises with “norm form
+equations”, treated by Schmidt in full generality; see [S1].) However in general
+the variety has singularities at inﬁnity, so, even in the case of surfaces, the
+Main Theorem cannot be applied directly to such equation; this is why we
+postpone such analysis to a separate paper.
+      In the sequel we let X̃ denote a geometrically irreducible nonsingular
+projective surface deﬁned over a number ﬁeld k. We also let S be a ﬁnite set
+of places of k, including the archimedean ones, denoting as usual OS = {α ∈
+k : |α|v ≤ 1 for all v ∈ S}.
+      We view the S-integral points in the classical way; namely, letting X be
+an aﬃne Zariski-open subset of X̃ (deﬁned over k), embedded in Am , say, we
+deﬁne an S-integral point P ∈ X(OS ) as a point whose coordinates lie in OS .
+For our purposes, this is equivalent with the more modern deﬁnitions given
+e.g. in [Se1] or [V1].
+
+     Theorem 1. Let X̃ be a surface as above, and let X ⊂ X̃ be an aﬃne
+open subset. Assume that X̃ \ X = D1 ∪ · · · ∪ Dr , where the Di are distinct
+irreducible divisors such that no three of them share a common point. Assume
+also that there exist positive integers p1 , . . . , pr , c, such that: either
+ (a) r ≥ 4 and pi pj (Di .Dj ) = c for all pairs i, j, or
+ (b) r ≥ 5 and Di2 = 0, pi pj (Di .Dj ) = c for i = j.
+Then there exists a curve on X containing all S-integral points in X(k).
+
+     For both assumptions (a) and (b), we shall see below relevant examples.
+One may prove that condition (a) amounts to the pi Di being numerically equiv-
+alent. Below we shall note that some condition on the intersection numbers
+(Di .Dj ) is needed (see Ex. 1.1).
+                     ON INTEGRAL POINTS ON SURFACES                            707
+
+      An application of Theorem 1 concerns the points on a curve which are
+integral and deﬁned over a ﬁeld of degree at most 2 over k; we insist that
+here we do not view this ﬁeld as being ﬁxed, but varying with the point. This
+situation (actually for ﬁelds of any given degree in place of 2) has been studied
+in the context of rational points, via the former Mordell-Lang conjecture, now
+proved by Faltings; see e.g. [HSi, pp. 439-443] for an account of some results
+and several references. For instance, in the quadratic case it follows from
+rather general results by D. Abramovitch and J. Harris (see [HSi, Thms. F121,
+F125(i)]) that if a curve has inﬁnitely many points rational over a quadratic
+extension of k, then it admits a map of degree ≤ 2 either to P1 or to an elliptic
+curve. Other results in this direction, for points of arbitrary degree, can be
+deduced from Theorem 0.1 of [V2].
+      For integral points we may obtain without appealing to Mordell-Lang a
+result in the same vein, which however seems not to derive directly from the
+rational case, at least when the genus is ≤ 2. (In fact, in that case, Mordell-
+Lang as applied in [HSi] gives no information at all.) This result will be proved
+by applying Theorem 1 to the symmetric product of a curve with itself. We
+state it as a corollary, where we use the terminology quadratic (over k) S-
+integral point to mean a point deﬁned over a quadratic extension of k, which
+is integral at all places of Q except possibly those lying above S.
+
+     Corollary 1. Let C̃ be a geometrically irreducible projective curve and
+let C = C̃ \ {A1 , . . . , Ar } be an aﬃne subset, where the Ai are distinct points
+in C̃(k). Then
+  (i) If r ≥ 5, C contains only ﬁnitely many quadratic (over k) S-integral
+      points.
+ (ii) If r ≥ 4, there exists a ﬁnite set of rational maps ψ : C̃ → P1 of degree
+      2 such that all but ﬁnitely many of the quadratic S-integral points on C
+      are sent to P1 (k) by some of the mentioned maps.
+
+     In the next section we shall see that the result is in a sense best-possible
+(see Exs. 1.2 and 1.3), and we shall brieﬂy discuss possible extensions. We
+shall also state an “Addendum” which provides further information on the
+maps in (ii).
+     As mentioned earlier, we have postponed the statement of our main result
+(which implies Theorem 1), because of its somewhat involved formulation.
+Here it is:
+     Main Theorem. Let X̃ be a surface as above, and let X ⊂ X̃ be an aﬃne
+open subset. Assume that X̃ \ X = D1 ∪ · · · ∪ Dr , r ≥ 2, where the Di are
+distinct irreducible divisors with the following properties:
+  (i) No three of the Di share a common point.
+708                          P. CORVAJA AND U. ZANNIER
+
+
+ (ii) There exist positive integers p1 , . . . , pr such that, putting D := p1 D1 +
+      · · · + pr Dr , D is ample and the following holds. Deﬁning ξi , for i =
+      1, . . . , r, as the minimal positive solution of the equation Di2 ξ 2 −2(D.Di )ξ
+      + D2 = 0 (ξi exists; see §2), we have the inequality
+                              2D2 ξi > (D.Di )ξi2 + 3D2 pi .
+      Then there exists a curve on X containing X(OS ).
+     It may be seen that the condition that the Di are irreducible may be
+replaced with the one that they have no common components. Also, when
+three of them share a point, one may sometimes apply the result after a blow-
+up. Finally, the proof shows that we may allow isolated singularities on the
+aﬃne surface X.
+     Our proofs, though not eﬀective in the sense of leading to explicit equa-
+tions for the relevant curve, allow in principle quantitative conclusions such as
+an explicit estimation of the degree of the curve. Also, the bounds may be
+obtained to be rather uniform with respect to the ﬁeld k; one may use results
+due to Schlickewei, Evertse (as for instance in the Remark in [CZ, p. 271]) or
+more recent estimates by Evertse and Ferretti [EF]; this last paper uses the
+quantitative Subspace Theorem due to Evertse and Schlickewei [ES] to obtain a
+quantitative formulation of the main theorem by Faltings and Wüstholz [FW].
+However here we shall not pursue in this direction.
+                          1. Remarks and examples
+     In this section we collect several observations on the previous statements.
+Concerning Theorem 1, we start by pointing out that some condition on the
+intersection numbers (Di .Dj ) is needed.
+
+     Example 1.1. Let X̃ = P1 × P1 and let D1 , . . . , D4 be the divisors
+{0} × P1 , {∞} × P1 , P1 × {0} and P1 × {∞} in some order. Then, deﬁning
+X := X̃ \ (∪4i=1 Di ), we see that X is isomorphic to the product of the aﬃne
+line minus one point with itself. Therefore the integral points on X are (for
+suitable k, S) Zariski dense on X. (On the contrary, Theorem 1 easily implies
+that the integral points on P2 minus four divisors in general position are not
+Zariski dense, a well-known fact.)
+
+     Theorem 1 intersects results due to Vojta; see e.g. [V1, Thms. 2.4.1, 2.4.6]
+and [V2, Thm. 2.4.1] which state that the integral points on a smooth variety
+X̃ \ D are not Zariski dense, provided D is the sum of at least dim(X) + 2
+pairwise linearly equivalent components. He obtained such a result by an
+application of the S-unit equation theorem by Evertse and Schlickewei-van der
+Poorten. The second paper of Vojta uses very deep methods, related in part
+to Faltings’ paper [F1], to study integral points on subvarieties of semiabelian
+varieties. In the quoted corollary, this paper in particular improves on the
+                     ON INTEGRAL POINTS ON SURFACES                            709
+
+results in [V1] . By embedding our surface in a semiabelian variety one may
+then deduce the ﬁrst half of Theorem 1. However, even this second paper by
+Vojta seems not to lead directly to the Main Theorem or to the general case of
+Theorem 1. We wish also to quote the paper [NW], which again applies Vojta’s
+results by giving criteria for certain varieties to be embedded in semiabelian
+varieties.
+     For an application of Theorem 1 (a) see Corollary 1; for Theorem 1 (b),
+note that it applies in particular to “generic” surfaces in aﬃne 5-space A5 : we
+start with a surface X ⊂ A5 deﬁned by three equations fi (x1 , . . . , x5 ) = 0,
+where for i = 1, 2, 3, fi are polynomials of degree d in each variable. By embed-
+ding A5 in the compactiﬁcation (P1 )5 , one obtains a complete surface X̃, which
+we suppose to be smooth, with ﬁve divisors at inﬁnity D1 , . . . , D5 , namely the
+inverse images of the points at inﬁnity on P1 under the ﬁve natural projections.
+These divisors in general satisfy assumption (b); the self-intersections vanish
+because they are ﬁbers of morphisms to P1 and, for i = j, (Di .Dj ) will be (for
+a general choice of the fi ) equal to (3d)3 .
+     The conditions on the number of divisors Di and on the (Di .Dj ) which
+appear in the Main Theorem (and in Theorem 1) come naturally from our
+method. One may ask how these assumptions ﬁt with celebrated conjectures
+on integral points (see [HSi], [Ch.], [F]). We do not have any deﬁnite view here;
+we just recall Lang’s point of view, expressed in [L, pp. 225–226]; namely, on
+the one hand Lang’s Conjecture 5.1, [L, p. 225], predicts at most ﬁnitely many
+integral points on hyperbolic varieties; on the other hand, it is “a general idea”
+that taking out a suﬃciently large number of divisors (or a divisor of large
+degree) from a projective variety produces a hyperbolic space. Lang interprets
+in this way also the results by Vojta alluded to above.
+     Our method does not work at all by removing a single divisor. To our
+knowledge, only a few instances of this situation appear in the literature; we
+may mention Faltings’ theorem on integral points on aﬃne subsets of abelian
+varieties [F1, Cor. to Thm. 2] and also a recent paper by Faltings [F2]; this deals
+with certain aﬃne subsets of P2 obtained by removing a single divisor. For
+the analysis of integral points, one goes ﬁrst to an unramiﬁed cover where the
+pull-back of the removed divisor splits into several components. This idea of
+working on an unramiﬁed cover, with the purpose of increasing the components
+at inﬁnity, sometimes applies also in our context (see for this also Ex. 1.4
+below).
+     We now turn to Corollary 1, noting that in some sense its conclusions are
+best-possible.
+
+    Example 1.2. Let a rational map ψ : C̃ → P1 of degree 2 be given. We
+construct an aﬃne subset C ⊂ C̃ with four missing points and inﬁnitely many
+quadratic integral points. Let B1 , B2 be distinct points in P1 (k) and de-
+710                             P. CORVAJA AND U. ZANNIER
+
+
+ﬁne Y := P1 \ {B1 , B2 }. Lifting B1 , B2 by ψ gives in general four points
+A1 , . . . , A4 ∈ C̃. Deﬁne then C = C̃ \ {A1 , . . . , A4 }. Then ψ can be seen as
+a ﬁnite morphism from C to Y . Lifting (the possibly) inﬁnitely many inte-
+gral points in Y (OS ) by ψ produces then inﬁnitely many quadratic S  -integer
+points on C (for a suitable ﬁnite set S  ⊃ S).
+
+    Concrete examples are obtained e.g. with the classical space curves given
+by two simultaneous Pell equations, such as e.g. t2 − 2v 2 = 1, u2 − 3v 2 = 1.
+We now have an aﬃne subset of an elliptic curve, with four points at inﬁnity.
+We can obtain inﬁnitely many quadratic integral
+                                              √ points by solving in Z e.g.
+the ﬁrst Pell equation, and then deﬁning
+                                 √       u = 3v 2 + 1; or we may solve the
+                  then put t = 2v + 1; or we may also solve 3t − 2u = 1
+second equation and                  2                             2     2
+
+and then let v = t 2−1 . (This is the construction of Example 1.2 for the three
+                        2
+
+
+
+natural projections.)
+    It is actually possible to show through Corollary 1 that all but ﬁnitely
+many quadratic integral points arise in this way.1 We in fact have an additional
+property for the relevant maps in conclusion (ii), namely:
+
+     Addendum to Corollary 1. Assume that ψ is a quadratic map as in
+(ii) and that it sends to P1 (k) an inﬁnity of the integral points in question.
+Then the set ψ({A1 , . . . , A4 }) has two points. In particular, we have a linear -
+                     4
+equivalence relation      i=1 εi (Ai ) ∼ 0 on Div(C̃), where the εi ∈ {±1} have
+zero sum.
+
+     When such a ψ exists, the two relevant values of it can be sent to two
+prescribed points in P1 (k) by means of an automorphism of P1 ; in practice,
+the choice of the maps ψ then reduces to splitting the four points at inﬁnity in
+two pairs having equal sum in the Jacobian of C̃; this can be done in at most
+three ways, as in the example with the Pell equations. The simple proof for
+the Addendum will be given after the one for the corollary. This conclusion
+of course allows one to compute the relevant maps and to parametrize all but
+ﬁnitely many quadratic integral points on an aﬃne curve with four points at
+inﬁnity.
+     Concerning again Corollary 1 (ii), we now observe that “r ≥ 4” cannot be
+substituted with r ≥ 3.
+
+   Example 1.3. Let C = P1 \ {−1, 0, ∞}, realized with the plane equation
+X(X + 1)Y = 1. Let r, s run through the S-units in k and deﬁne a = s−r−1
+                                                                     2 ,
+
+   1
+     On the contrary, the quadratic rational points cannot be likewise described; we can obtain
+them as inverse images from P1 (k) under any map of degree 2 deﬁned over k, and it is easy
+to see that in general no ﬁnite set of such maps is suﬃcient to obtain almost all the points
+in question.
+                          ON INTEGRAL POINTS ON SURFACES                               711
+                                                      √           
+∆ = a2 − r. Then the points given by x = a + ∆, y = x (xrs+1) , where
+         √
+x = a − ∆, are quadratic S-integral on C. It is possible to show that they
+cannot all be mapped to k by one at least of a ﬁnite number of quadratic maps.
+
+     It is also possible to show that for the aﬃne elliptic curve E : Y 2 = X 3 −2,
+the quadratic integral points (over Z) cannot be all described like in (ii) of
+Corollary 1.
+     Note that E has only one point at inﬁnity. Probably similar examples
+cannot be constructed with more points at inﬁnity; namely, (ii) is unlikely to
+be best possible also for curves of genus g ≥ 1, in the sense that the condition
+r ≥ 4 may be then probably relaxed. In fact, a conjecture of Lang and Vojta
+(see [HSi, Conj. F.5.3.6, p. 486]) predicts that if X = X̃ \ D is an aﬃne
+variety with KX + D almost ample (i.e. “big”) and D with normal crossings,
+the integral points all lie on a proper subvariety. Now, in the proof of our
+corollary we work with X̃ equal to C̃ (2) , the two-fold symmetric power of C̃,
+                                            
+and with D equal to the image in C̃ (2) of ri=1 Ai × C̃. It is then easily checked
+that KX + D is (almost) ample precisely when g = 0 and r ≥ 4, or g = 1 and
+r ≥ 2 or g ≥ 2 and r ≥ 1. In other words, the Lang-Vojta conjecture essentially
+predicts that counterexamples sharper than those given here may not be found.
+     To prove this, one might try to proceed like in the deduction of Siegel’s
+theorem from the special case of three points at inﬁnity. Namely, one may then
+use unramiﬁed covers, as in [CZ], with the purpose of increasing the number of
+points at inﬁnity. (One also uses [V1, Thm. 1.4.11], essentially the Chevalley-
+Weil Theorem, to show that lifting the integral points does not produce inﬁnite
+degree extensions.) This idea, applied by means of a new construction, has
+been recently used also by Faltings [F2] to deal with the integral points on
+certain aﬃne subsets of P2 .
+     In the case of the present Corollary 1 a similar strategy does not help. In
+fact, the structure of the fundamental group of C̃ (2)2 prevents the number of
+components of a divisor to increase by pull-back on a cover. However there
+exist nontrivial instances beyond the case of curves, and showing one of them
+is our purpose in including this further result, namely:
+
+     Example 1.4. Let A be an abelian variety of dimension 2, let π : A → A
+be an isogeny of degree ≥ 4 and let E be an ample irreducible divisor on A.
+We suppose that for σ ∈ ker π no three of the divisors E + σ intersect. Then
+there are at most ﬁnitely many S-integral points in (A \ π(E))(k).
+     We remark that this is an extremely special case of a former conjecture
+by Lang, proved by Faltings [F1, Cor. to Thm. 2]: every aﬃne subset of an
+abelian variety has at most ﬁnitely many integral points.
+
+  2
+      Angelo Vistoli has pointed out to us that it is the abelianization of π1 (C̃).
+712                          P. CORVAJA AND U. ZANNIER
+
+
+       We just sketch a proof. Note now that π(E) is an irreducible divisor, so
+Theorem 1 cannot be applied directly. Consider D := π ∗ (π(E)); since π has
+degree ≥ 4, we see that D is the sum of r := deg π ≥ 4 irreducible divisors
+satisfying the assumptions for Theorem 1, with pi = 1 for i = 1, . . . , r.
+       Let now Σ be an inﬁnite set of S-integral points in Y (k), where Y =
+A \ π(E). By [V, Thm. 1.4.11], π −1 (Σ) is a set of S  -integral points on X(k  ),
+where X = A \ D, for some number ﬁeld k  and some ﬁnite set S  of places
+of k  . By Theorem 1 applied to X we easily deduce the conclusion, since there
+are no curves of genus zero on an abelian variety ([HSi, Ex. A74(b)]).
+
+     We conclude this section by showing how the Main Theorem leads directly
+to Siegel’s theorem for the case of at least three points at inﬁnity. (As remarked
+above, one recovers the full result by taking, when genus(C) > 0, an unramiﬁed
+cover of degree ≥ 3 and applying the special case and [V, Thm. 1.4.11].)
+
+     Example 1.5. We prove: Let C̃ be a projective curve and C = C̃ \
+{A1 , . . . , As }, s ≥ 3 an aﬃne subset. Then there are at most ﬁnitely many
+S-integral points on C. This special case of Siegel’s Theorem appears as Theo-
+rem 1 in [CZ]. We now show how this follows at once from the Main Theorem.
+First, it is standard that one can reduce to nonsingular curves. We then let
+X̃ = C̃ × C̃ and X = C × C. Then X̃ \ X is the union of 2s divisors Di of the
+form Ai × C̃ or C̃ × Ai , which will be referred to as of the ﬁrst or second type
+respectively. Plainly, the intersection product (Di .Dj ) will be 0 or 1 according
+as Di , Dj are of equal or diﬀerent types. We put in the Main Theorem r = 2s,
+p1 = · · · = pr = 1. All the hypotheses are veriﬁed except possibly (ii). To
+verify (ii), note that (Di .Di ) = 0, (D.Di ) = s, D2 = 2s2 . Therefore ξi = s and
+we have to prove that 4s3 > s3 + 6s2 which is true precisely when s > 2.
+     We conclude that the S-integral points on C × C are not Zariski dense,
+whence the assertion.
+
+             2. Tools from intersection theory on surfaces
+
+     We shall now recall a few simple facts from the theory of surfaces, useful
+for the proof of Main Theorem. These include a version of the Riemann-Roch
+theorem and involve intersection products. (See e.g. [H, Ch. V] for the basic
+theory.)
+     Let X̃ be a projective smooth algebraic surface deﬁned over the complex
+number ﬁeld C. We will follow the notation of [B] (especially Chapter 1),
+which is rather standard. For a divisor D on X̃ and an integer i = 0, 1, 2,
+we denote by hi (D) the dimension of the vector space Hi (X̃, O(D)). We shall
+make essential use of the following asymptotic version of the Riemann-Roch
+theorem:
+                    ON INTEGRAL POINTS ON SURFACES                            713
+
+   Lemma 2.1. Let D be an ample divisor on X̃. Then for positive integers
+N we have
+                                N 2 D2
+                     h0 (N D) =        + O(N ).
+                                  2
+
+     Proof. The classical Riemann-Roch theorem (see e.g. Théorème I.12 of
+[B] and the following Remarque I.13) gives
+              1        1
+    h0 (N D) = (N D)2 − (N D.K) + χ(OX ) + h1 (N D) − h0 (K − N D),
+              2        2
+where K is a canonical divisor of X̃. The ﬁrst term is precisely N 2 D2 /2.
+Concerning the other terms, observe that: h1 (N D) and h0 (K − N D) vanish
+for large N ; χ(OX ) is constant; the intersection product (N D.K) is linear
+in N . The result then follows.
+
+     We will need an estimate for the dimension of the linear space of sections of
+H0 (X, O(N D)) which have a zero of given order on a ﬁxed (eﬀective) curve C.
+We begin with a lemma.
+
+    Lemma 2.2. Let D be a divisor, C a curve on X̃; then
+
+                  h0 (D) − h0 (D − C) ≤ max{0, 1 + (D.C)}.
+
+    Proof. In proving the inequality we may replace D with any divisor linearly
+equivalent to it. In particular, we may assume that |D| does not contain any
+possible singularity of C.
+    Let us then recall that for every sheaf L the exact sequence
+
+                         0 → L(−C) → L → L|C → 0
+
+gives an exact sequence in cohomology
+
+            0 → H0 (X̃, L(−C)) → H0 (X̃, L) → H0 (C, L|C) → . . .
+
+from which we get
+
+              dim(H0 (X̃, L)/H0 (X̃, L(−C))) ≤ dim H0 (C, L|C).
+
+Applying this inequality with L = O(D) we get
+
+                  h0 (D) − h0 (D − C) ≤ dim H0 (C, O(D)|C).
+
+The sheaf O(D)|C is an invertible sheaf of degree (D.C) on the complete
+curve C. (See [B, Lemme 1.6], where C is assumed to be smooth; this makes
+no diﬀerence because of our opening assumption on |D|.) We can then bound
+the right term by max{0, 1 + (D.C)} as wanted.
+714                        P. CORVAJA AND U. ZANNIER
+
+
+     Lemma 2.3. Let D be an ample eﬀective divisor on X̃, C be an irre-
+ducible component of D. For positive integers N and j we have that either
+H0 (X̃, O(N D − jC)) = {0} or
+        0 ≤ h0 (N D − jC) − h0 (N D − (j + 1)C) ≤ N (D.C) − jC 2 + 1.
+
+    Proof. Suppose ﬁrst that (N D − jC.C) ≥ 0. Then Lemma 2.2 applied
+with N D − jC instead of D gives what we want. If otherwise N D − jC
+has negative intersection with the eﬀective curve C then O(N D − jC) has
+no regular sections. In fact, assume the contrary. Then there would exist an
+eﬀective divisor E linearly equivalent to N D − jC, whence E.C = (N D −
+jC.C) < 0. But E.C must be ≥ 0. In fact, since E is eﬀective we may write
+E = E1 + rC, where E1 is eﬀective and does not contain C and where r ≥ 0.
+Thus E.C = E1 .C + rC 2 . Now E.C > 0 follows at once, for since E1 is
+eﬀective we have E1 .C ≥ 0, while since (N D − jC).C < 0 we have C 2 > 0.
+This contradiction concludes the proof.
+
+      Lemma 2.4. Let D be an ample divisor, C be an eﬀective curve. Then
+                               D2 C 2 ≤ (D.C)2 .
+
+     Proof. This is in fact well-known (see e.g. [H, Ch. V, Ex. 1.9]). We give
+however a short proof for completeness. The inequality is nontrivial only in
+the case C 2 > 0. Assume this holds. Then if we had D2 C 2 > (D.C)2 , the
+intersection form on the rank two group generated by D and C in Pic(X̃)
+would be positive deﬁnite, which contradicts the Hodge index theorem [H,
+Ch. V, Thm. 1.9].
+
+     When the variety X̃ and the relevant divisors are deﬁned over a number
+ﬁeld k, one may choose bases in k(X) for the relevant vector spaces H 0 . This
+is a well-known fact which we shall tacitly use in the sequel.
+
+                                  3. Proofs
+
+     We shall begin with the proof of the Main Theorem, actually anticipating
+a few words on the strategy. Then we shall deduce Theorem 1 from the Main
+Theorem. In turn, Theorem 1 shall be employed for the proof of Corollary 1.
+
+       Proof of the Main Theorem. We begin with a brief sketch of our strategy,
+assuming for simplicity that S consists of just one (archimedean) absolute
+value. In the case treated in [CZ], of an aﬃne curve C with missing points
+A1 , . . . , Ar , r ≥ 3, we ﬁrst embed C in a high dimensional space by means
+of a basis for the space V of regular functions on C with at most poles of
+order N at the given points. Then, going to an inﬁnite subsequence {Pi } of
+                     ON INTEGRAL POINTS ON SURFACES                              715
+
+the integral points on C, we may assume that Pi → A, where A is some Ai .
+Linear algebra now gives functions in V vanishing at A with orders ≥ −N ,
+≥ −N + 1, . . . , ≥ −N + d, where d = dim V . Such functions may be viewed as
+linear forms in the previous basis and these vanishings imply that the product
+of these functions evaluated at the Pi is small. Then the Subspace Theorem
+(recalled below) applies.
+     The principles are similar in the present case of surfaces, the role of the
+points Ai being now played by the divisors Di . However one has to deal
+with several new technical diﬃculties. For instance, the construction of the
+functions with large order zeros is no longer automatic and the quantiﬁcation
+now involves intersection indices. Moreover, additional complications appear
+when the integral points converge simultaneously to two divisors in the set, i.e.
+to some intersection point (this is “Case C” of the proof below).
+     Now we go on with the details. We shall assume throughout that each of
+the divisors Di is deﬁned over k. Also, we assume that each valuation | · |v is
+                                            [k :Q ]
+                                           − [k:Q]
+                                              v  p
+normalized so that if v|p, then |p|v = p              , where kv is the completion of
+                                                                               [kv :R]
+k at v, and similarly for archimedean v; namely, we require that |2|v = 2 [k:Q] .
+As usual, for a point (x1 : . . . : xd ) ∈ Pd−1 (k), (d ≥ 2), we deﬁne the projective
+                                
+height as H(x1 : . . . : xd ) = v max(|x1 |v , . . . , |xd |v ).
+      The theorem will follow if we prove that for every inﬁnite sequence of
+integral points on X, there exists a curve deﬁned over k containing an inﬁnite
+subsequence. In fact, arrange all the curves on X deﬁned over k in a sequence
+C1 , C2 , .... Now, if the conclusion of the theorem is not true, we may ﬁnd for
+each n an integral point Pn on X outside C1 ∪ C2 ∪ · · · ∪ Cn . But then no given
+curve Cm can contain inﬁnitely many of the points Pi .
+      Let then {Pi }i∈N be an inﬁnite sequence of pairwise distinct integral points
+on X. By the observation just made, we may restrict our attention to any inﬁ-
+nite subsequence, and thus we may assume in particular that for each valuation
+v ∈ S the Pi converge v-adically to a point P v ∈ X̃(kv ).
+      We recall that Di , i = 1, . . . , r, are certain irreducible divisors on X̃,
+                          
+and that we put D = ri=1 pi Di , where pi are positive integers (satisfying the
+hypotheses of the theorem; in particular D is ample).
+      Fix a valuation v ∈ S. We shall argue in diﬀerent ways, according to the
+following three possibilities for P v .
+     Case A: P v does not belong to the support |D| of D.
+    Case B : P v lies in exactly one of the irreducible components of |D|, which
+we call Dv .
+     Case C : P v lies in exactly two of the Di ’s, which we call Dv , D∗v .
+    Note that our assumption that no three of the Di ’s share a common point
+implies that no other cases may occur.
+716                          P. CORVAJA AND U. ZANNIER
+
+
+    We ﬁx an integer N , suﬃciently large to justify the subsequent arguments.
+We then consider the following vector space V = VN :
+                     VN = {ϕ ∈ k(X) : div(ϕ) + N D ≥ 0}.
+Recall that we are assuming that each Di is deﬁned over k, and in particular we
+may apply the results of the previous section. Since X is nonsingular, whence
+normal, each function in V is regular on X (by [H, Chap. II, Prop. 6.3A]).
+Equivalently, V ⊂ k[X], i.e. every function in V is a polynomial in the aﬃne
+coordinates. Let then ϕ1 , . . . , ϕd be a basis for V over k. (For large enough N ,
+we may assume d ≥ 2.) By the above observation, ϕj ∈ k[X], so on multiplying
+all the ϕj by a suitable positive integer, we may assume that all the values
+ϕj (Pi ) lie in OS .
+       For v ∈ S, we shall construct suitable k-linear forms L1v , . . . , Ldv in
+ϕ1 , . . . , ϕd , linearly independent. Our aim is to ensure that the product
+d
+   j=1 |Ljv (Pi )|v is suﬃciently small with respect to the “local height” of the
+point (ϕ1 (Pi ), . . . , ϕd (Pi )).
+       More precisely, our ﬁrst aim will be to show that, for a positive number
+µv and for all the points in a suitable inﬁnite subsequence of {Pi }, we have
+                          
+                          d                                 −µv
+(3.1)                        |Ljv (Pi )|v   max(|ϕj (Pi )|v )     ,
+                                          j
+                    j=1
+
+where the implied constant does not depend on i.
+    During this construction, where v is supposed to be ﬁxed, we shall some-
+times omit the reference to it, in order to ease the notation.
+    In Case A, we simply choose Ljv = ϕj . Since now all the functions ϕj are
+regular at P v , they are bounded on the whole sequence Pi . Therefore
+                      d                                −1
+                         |Ljv (Pi )|v   max(|ϕj (Pi )|v )    ,
+                                           j
+                     j=1
+
+where the implied constant does not depend on i, and so (3.1) holds with
+µv = 1. (Note that since the constant function 1 lies in V , not all the ϕj can
+vanish at Pi .)
+     We now consider Case B, namely the sequence {Pi } converges v-adically
+to a point P v lying in Dv but in no other of the divisors Dj . Since X̃ is
+nonsingular, we may choose, once and for all, a local equation tv = 0 at P v for
+the divisor Dv , where tv is a suitable rational function on X.
+      We deﬁne a ﬁltration of V = VN by putting
+(3.2)       Wj := {ϕ ∈ V | ordDv (ϕ) ≥ j − 1 − N pv },        j = 1, 2, . . . .
+Here we put pv = pi , if Dv is the divisor Di . Observe that in fact we have a
+ﬁltration, since V = W1 ⊃ W2 ⊃ . . . , where eventually Wj = {0}. Starting
+                          ON INTEGRAL POINTS ON SURFACES                                        717
+
+then from the last nonzero Wj , we pick a basis of it and complete it successively
+to bases of the previous spaces of the ﬁltration. In this way we shall eventually
+ﬁnd a basis {ψ1 , . . . , ψd } of V containing a basis of each given Wj .
+     In particular, this basis contains exactly dim(Wj /Wj+1 ) elements in the
+set Wj \ Wj+1 ; the order at Dv of every such element is precisely j − 1 − N pv .
+Hence
+                 
+                 d                      
+(3.3)                   ordDv (ψj ) =         (j − 1 − N pv ) dim(Wj /Wj+1 ).
+                  j=1                   j≥1
+
+Our next task is to obtain a lower bound for the right-hand side. To do this it
+will be convenient to state separately a little combinatorial lemma.
+
+     Lemma 3.1. Let d, U1 , . . . , Uh ≥ 0 and let R be an integer ≤ h such
+     R
+that   j=1 Uj ≤ d. Suppose further that the real numbers x1 , . . . , xh satisfy
+                                                
+0 ≤ xj ≤ Uj and hj=1 xj = d. Then hj=1 jxj ≥ R      j=1 jUj .
+
+      Proof. We have
+ 
+ R              
+                h                          
+                                           R             
+                                                         R
+        jUj +         (R + 1 − j)xj ≤            jUj +         (R + 1 − j)xj
+ j=1            j=1                        j=1           j=1
+
+                                           
+                                           R             
+                                                         R                               
+                                                                                         R
+                                       ≤         jUj +         (R + 1 − j)Uj = (R + 1)         Uj .
+                                           j=1           j=1                             j=1
+      h                                           h
+But      j=1 (R + 1 − j)xj = (R + 1)d −              j=1 jxj , whence
+
+                         
+                         h             
+                                       R                             
+                                                                     R
+                               jxj ≥         jUj + (R + 1)(d −             Uj )
+                         j=1           j=1                           j=1
+                                           R
+and the result follows since d −              j=1 Uj ≥ 0.
+
+     We shall apply the lemma, taking xj := dim(Wj /Wj+1 ) and deﬁning h to
+                                            
+be the number of nonzero Wj . Observe that hj=1 xj = dim V = d, consistently
+with our previous notation. Recall from the previous section (Lemma 2.1) that,
+for D as in the statement of the theorem,
+                                             N 2 D2
+(3.4)                                  d=           + O(N ),
+                                               2
+where the implied constant depends only on the surface X̃ and on the divisor D.
+     Further, let us deﬁne Uj = 1 + N (D.Dv ) − jDv2 for j = 1, . . . , h. Note
+that, by Lemma 2.3, 0 ≤ xj ≤ Uj for j = 1, . . . , h.
+     Let ξ denote the minimal positive solution of the equation
+                                Dv2 ξ 2 − 2(D.Dv )ξ + D2 = 0,
+718                            P. CORVAJA AND U. ZANNIER
+
+
+so ξ = ξi if Dv = Di . Note that by Lemma 2.4 the solutions of this equation
+are real, and they cannot all be ≤ 0 because both D2 and D.Dv are positive
+(which follows from our assumption that D is ample). We also deduce that
+
+                                     (D.Dv ) ≥ ξDv2 .
+
+In fact, this is clear if Dv2 ≤ 0. Otherwise both roots must be positive, with
+            v
+sum 2 (D.D
+        Dv 2
+              )
+                ; and the assertion again follows since ξ is the minimal root.
+     We now choose λ to be positive, < ξ and such that
+
+                         λ2 (D.Dv ) λ3 Dv2 D2 pv
+(3.5)                              −      −      > 0.
+                              2        3    2
+This will be possible by continuity, in view of the assumption (ii) of the
+theorem, applied with ξi = ξ. In fact, by assumption we have 2D2 ξ >
+(D.Dv )ξ 2 + 3D2 pv .
+    Now, using the equation for ξ we see that
+
+                     2D2 ξ − (D.Dv )ξ 2 = 3(D.Dv )ξ 2 − 2Dv2 ξ 3 .
+
+ Therefore the previous inequality yields 3(D.Dv )ξ 2 − 2Dv2 ξ 3 − 3D2 pv > 0. So
+(3.5) will be true for all λ suﬃciently near to ξ.
+     Also, since λ < ξ we have, by deﬁnition of ξ,
+
+                                             Dv2 λ2   D2
+(3.6)                         (D.Dv )λ −            <    .
+                                               2      2
+    We shall apply Lemma 3.1, deﬁning R = [λN ]. We ﬁrst verify that
+R
+  j=1 Uj ≤ d for large enough N . In fact, we have
+
+                  
+                  R
+                                         R2 Dv2
+                        Uj = RN (D.Dv ) −       + O(R + N )
+                                            2
+                  j=1
+                                                 
+                                           Dv2 λ2
+                             ≤ N (D.D )λ −
+                                2    v
+                                                    + O(N )
+                                              2
+
+and the conclusion follows from (3.4), since by (3.6) the number between paren-
+theses is < D2 /2.
+     Observe that, since 0 ≤ (D.Dv ) − ξDv2 ≤ (D.Dv ) − λDv2 if Dv2 ≥ 0, we
+have Uj > 0 for j ≤ R, provided N is large enough. Thus, if we had R > h,
+                                                  h
+the sum R   j=1 Uj would be strictly larger than      j=1 xj = d, a contradiction
+which proves that R ≤ h.
+     We may thus apply Lemma 3.1, which yields
+
+               
+               h             
+                             R             
+                                           R
+                     jxj ≥         jUj =         j(1 + N (D.Dv ) − jDv2 ).
+               j=1           j=1           j=1
+                          ON INTEGRAL POINTS ON SURFACES                                         719
+                           2                                                              
+                           λ (D.Dv )   3   v2
+The right side is N 3          2     −λD 3    + O(1/N )              , so we obtain from       xj = d,
+                                                                                
+               
+               h                              h
+                                          −3 
+        N −3         (j − 1 − N p )xj ≥ N
+                                 v
+                                                 jxj − (N pv + 1)d
+               j=1                                   j=1
+
+                                            λ2 (D.Dv )
+                                               λ3 Dv2 D2 pv
+                                        ≥             −     − + O(1/N ).
+                                     2            3       2
+By (3.5) the right side will be positive for large N ; together with (3.3) this
+proves that, if N has been chosen suﬃciently large,
+                                       
+                                       d
+(3.7)                                          ordDv (ψj ) > 0.
+                                       j=1
+
+    Now, the functions ψj may be expressed as linear forms in the ϕ . We
+then put Ljv = ψj . We have
+                                       Ljv = tord
+                                              v
+                                                  D v (ψj )
+                                                            ρjv ,
+where ρjv are rational functions on X̃, regular at P v . In particular, the values
+ρjv (Pi ) are deﬁned for large i and are v-adically bounded as Pi varies. Hence
+                           
+                           d                                 d
+                                                                    ordDv (ψj )
+                                |Ljv (Pi )|v      |tv (Pi )|v j=1                 .
+                          j=1
+
+By a similar argument, we have
+                                max |ϕj (Pi )|v           |tv (Pi )|−N
+                                                                    v
+                                                                       pv
+                                                                          .
+                                  j
+
+Both displayed formulas make sense for all but a ﬁnite number of the points
+Pi , which we tacitly exclude. Then, the implied constants do not depend on i.
+      From these inequalities we ﬁnally obtain
+                      d                               −µv
+                         |Ljv (Pi )|v   max |ϕj (Pi )|v      ,
+                                                      j
+                          j=1
+
+for some positive µv independent of i; therefore we have shown (3.1) in this
+case. This concludes our discussion of Case B.
+
+        We ﬁnally treat Case C, namely the sequence {Pi } converges v-adically
+to a point P v ∈ Dv ∩ D∗v , where Dv , D∗v are two distinct divisors in the set
+{D1 , . . . , Dr }. Similarly to the above, we denote by pv , pv∗ the corresponding
+coeﬃcients in D.
+        By assumption, P v cannot belong to a third divisor in our set; let us
+choose two local equations tv = 0 and t∗v = 0 for Dv , D∗v respectively. Here
+tv , t∗v are regular functions, vanishing at P v ; also, since Dv , Dv∗ are distinct and
+irreducible, tv and t∗v are coprime in the local ring of X̃ at P v .
+720                                 P. CORVAJA AND U. ZANNIER
+
+
+    We shall now consider two ﬁltrations on the vector space V = VN , namely
+we put
+                       Wj := {ϕ ∈ V |ordDv (ϕ) ≥ j − 1 − N pv },
+                      Wj∗ := {ϕ ∈ V |ordD∗v (ϕ) ≥ j − 1 − N pv∗ }.
+The following lemma from linear algebra will be used to construct a suitable
+basis for V .
+
+    Lemma 3.2. Let V be vector space of ﬁnite dimension d over a ﬁeld k.
+Let V = W1 ⊃ W2 ⊃ · · · ⊃ Wh , V = W1∗ ⊃ W2∗ ⊃ · · · ⊃ Wh∗ be two ﬁltrations
+on V . There exists a basis ψ1 , . . . , ψd of V which contains a basis of each Wj
+and each Wj∗ .
+
+       Proof. We argue by induction on d, the case d = 1 being clear. Then we
+can certainly suppose (by reﬁning the ﬁrst ﬁltration) that W2 is a hyperplane
+in V . Put Wi := Wi∗ ∩ W2 . By the inductive hypothesis there exists a basis
+ψ1 , . . . , ψd−1 of W2 containing basis of both W3 , . . . , Wh and W1 , . . . , Wh ∗ . If
+all the Wi∗ for i = 2, . . . , h∗ are contained in W2 , then Wi = Wi∗ for all i > 1;
+in this case we just complete {ψ1 , . . . , ψd−1 } to any basis of V and we are done.
+Otherwise, let l be the maximum index with Wl∗ ⊂ W2 ; in this case let ψd be
+any element in Wl∗ \ W2 . We claim that {ψ1 , . . . , ψd } is a basis of V with the
+required property. Plainly it contains a basis of every W1 , . . . , Wh . Let i be an
+index in {1, . . . , h∗ }; we shall prove that the set {ψ1 , . . . , ψd } contains a basis
+of Wi∗ . This is true by construction if i > l, because in this case Wi∗ = Wi ; if
+i ≤ l, then the set {ψ1 , . . . , ψd } contains the element ψd ∈ Wl∗ ⊂ Wi∗ and it
+contains a basis for Wi , which is a hyperplane in Wi∗ ; hence it contains a basis
+of Wi∗ .
+       Now, let ψ1 , . . . , ψd be a basis as in Lemma 3.2. Again, we deﬁne the
+linear forms Ljv in the ϕ to satisfy Ljv = ψj . In analogy with Case B, we
+may write
+                                           D v ψj ∗ ordD∗
+                                                        v ψj
+                                Ljv = tord
+                                       v         tv          ρjv
+where the ρjv ∈ k(X) are regular at P v ; so, as before, their values at the Pi
+are deﬁned for large i and v-adically bounded as i → ∞. Here we have used
+the fact that P v is a smooth point, so the corresponding local ring is a unique
+factorization domain; in particular if a regular function is divisible both by
+a power of tv and a power of t∗v (which are coprime), it is divisible by their
+product.
+     Then we have
+                
+                d
+                                               (
+                                                   d
+                                                          ordDv ψj )+(
+                                                                         d
+                                                                                ordD∗v ψj )
+                     |Ljv (Pi )|v     |tv (Pi )|v   j=1                   j=1
+
+
+               j=1
+
+where the implied constant does not depend on i.
+                       ON INTEGRAL POINTS ON SURFACES                               721
+
+     Again, from the assumption (ii) applied to Dv and D∗v , the same argu-
+                                                            
+ment as in Case B gives the analogue of (3.7), both for dj=1 ordDv ψj and for
+d
+  j=1 ordD∗v ψj . Hence, as before, we deduce (3.1).
+     In conclusion, we have proved that (3.1) holds for all v ∈ S, for suitable
+choices of µv > 0. Also, the constant function equal to 1 lies in V , so is a linear
+combination of the ϕj , so max |ϕj (Pi )|v  1. Thus, letting µ := minv∈S µv > 0,
+we may write
+
+                
+                d                                          −µ
+                      |Ljv (Pi )|v        max |ϕj (Pi )|v         ,     v ∈ S.
+                                           j
+                j=1
+
+     Our theorem will now follow by a straightforward application of the Sub-
+space Theorem. We recall for the reader’s convenience the version we are going
+to apply, equivalent to the statement in [S2, Thm. 1D , p. 178].
+
+     Subspace Theorem. For an integer d ≥ 2 and v ∈ S, let L1v , . . . , Ldv
+be linearly independent linear forms in X1 , . . . , Xd with coeﬃcients in k, and
+let ε > 0. Then the solutions (x1 , . . . , xd ) ∈ OSd of the inequality
+
+                  
+                   d
+                            |Ljv (x1 , . . . , xd )|v ≤ H −ε (x1 : . . . : xd )
+                  v∈S j=1
+
+lie in the union of ﬁnitely many proper linear subspaces of k d .
+
+     We apply this theorem by putting (x1 , . . . , xd ) = (ϕ1 (Pi ), . . . , ϕd (Pi )).
+We may assume that H(x1 : . . . : xd ) tends to inﬁnity as i → ∞, for otherwise
+the projective points (x1 : . . . : xd ) would all lie in a ﬁnite set, whence the
+nonconstant function ϕ1 /ϕ2 would be constant, equal say to c, on an inﬁnite
+subsequence of the Pi . In this case the theorem follows, since inﬁnitely many
+points would then lie on the curve deﬁned on X by ϕ1 − cϕ2 = 0.
+     But then for large i the points (x1 , . . . , xd ) satisfy the inequality in the
+statement of the Subspace Theorem, by taking for example ε = µ/2. We may
+then conclude that some nontrivial linear relation c1 ϕ1 (Pi )+· · ·+cd ϕd (Pi ) = 0,
+with ﬁxed coeﬃcients c1 , . . . , cd , holds on an inﬁnite subsequence of the Pi .
+Again, the theorem follows since the ϕj are linearly independent.
+
+      Proof of Theorem 1. We ﬁrst assume part (a) and let p1 , . . . , pr , c as
+in the statement; namely pi pj (Di .Dj ) = c for 1 ≤ i, j ≤ r. We have only to
+check that the assumptions (i), (ii) for the Main Theorem are veriﬁed with this
+choice for the pi .
+      Assumption (i) actually appears also in the present theorem. To verify
+(ii) note ﬁrst that p1 D1 + · · · + pr Dr is automatically ample (e.g. by Nakai-
+722                              P. CORVAJA AND U. ZANNIER
+
+
+Moishezon). Also
+                                   cr                                   c
+                      (D.Di ) =       ,      D2 = r2 c,        Di2 =       ,
+                                   pi                                  p2i
+
+and it follows that ξi = rpi . Hence inequality (ii) amounts to 2r3 cpi > r3 cpi +
+3r2 cpi which is equivalent to r ≥ 4. This concludes the proof of the ﬁrst half.
+We now assume (b) arguing similarly. One ﬁnds ξi = rpi /2, and inequality (ii)
+in the Main Theorem amounts to r > 4.
+
+      Proof of Corollary 1. We start with a few reductions. First, by Siegel’s
+theorem we may assume that, given a number ﬁeld k  , only ﬁnitely many of
+the points in question are deﬁned over k  . Next, note that we may plainly
+enlarge S without aﬀecting the conclusion and we now prove that also k may
+be enlarged. It is obvious that Conclusion (i) remains unaﬀected if k is replaced
+by a ﬁnite extension k  . We show below that it suﬃces to show the following
+instead of (ii): Let r ≥ 4. Let T denote the set of points on C which are
+quadratic over k and integral over the ring of S-integers of k. Then there are
+a ﬁnite extension k  of k, a ﬁnite number of rational maps ψ1 , . . . , ψt ∈ k  (C)
+of degree 2 and a ﬁnite subset T  of T such that for every P ∈ T \ T  there is
+a map ψi ∈ {ψ1 , . . . , ψt } with ψi (P ) ∈ P1 (k  ).
+      We assume this last statement and deduce Conclusion (ii) of Corollary 1
+from it. Let ψ be one of the maps ψ1 , . . . , ψt . We may assume that there is an
+inﬁnite subset Σ of T which is sent by ψ to P1 (k  ). Note that the coordinate
+functions Xi in k[C], i = 1, . . . , m, satisfy by assumption quadratic equations
+Xi2 + ai Xi + bi = 0, where ai , bi are rational functions of ψ; by enlarging k  , we
+may then assume that ai , bi ∈ k  (ψ). By adding new coordinates expressed as
+linear combinations of the original ones, if necessary, the equations show that
+k  (C) has degree ≤ 2 over k  (a1 , b1 , . . . , am , bm ). This last ﬁeld is contained in
+k  (ψ), and [k  (C) : k  (ψ)] = 2 by assumption; so k  (ψ) = k  (a1 , b1 , . . . , am , bm ).
+      By the opening remark only ﬁnitely many of the points in Σ can be deﬁned
+over k  ; in the sequel we tacitly disregard these points. By taking suitable
+linear combinations (over k) of the coordinates, we may then assume that for
+all points P ∈ Σ and all i = 1, . . . , m, Xi (P ) ∈ k  . Evaluating the equations
+at P ∈ Σ we obtain Xi (P )2 + ai (P )Xi (P ) + bi (P ) = 0. Note that both
+ai (P ), bi (P ) lie in k  , since we are assuming that ψ sends Σ to P1 (k  ). The
+same equations hold by replacing Xi (P ) with its conjugate over k: in fact
+we are assuming that Xi (P ) are quadratic over k, but do not lie in k  , and
+this implies that Xi (P ) are of exact degree 2 over k  . But then we see that
+ai (P ), bi (P ) actually lie in k. Consider the ﬁeld L = k(a1 , b1 , . . . , am , bm ).
+Since L ⊂ k  (ψ), we see that L is the function ﬁeld of a curve over k, possibly
+reducible over k  . This curve however has the inﬁnitely many k-rational points
+obtained by evaluating the ai , bi at P , for P ∈ Σ. Therefore the given curve is
+                      ON INTEGRAL POINTS ON SURFACES                                723
+
+absolutely irreducible and of genus zero (the latter in view of Siegel’s theorem)
+and now the existence of k-rational points gives L = k(ϕ) for a certain function
+ϕ ∈ k  (ψ). Since ai (P ), bi (P ) ∈ k, we have ϕ(P ) ∈ k for P ∈ Σ. Now,
+C is absolutely irreducible, so k is algebraically closed in k(C). Therefore
+[k(C) : k(ϕ)] = [k  (C) : k  (ϕ)] = 2, since k  (ϕ) = k  (ψ). Therefore the function
+ϕ may be used instead of ψ to send the points in Σ to P1 (k) (rather than
+P1 (k  )).
+     We continue by observing that the integral points on C lift to integral
+points of a normalization, at the cost of enlarging k and S. Therefore, in view
+of what has just been shown, we may assume that C̃ is nonsingular.
+     We shall then apply Theorem 1 to the surface X̃ = C̃ (2) deﬁned as the
+symmetric product of C̃ with itself. (We recall from [Se2, III.14] that X̃ is in
+fact smooth.) Then we have a projection map π : C̃ × C̃ → X̃ of degree 2.
+     We let Di , i = 1, . . . , r, be the image in X̃ under π of the divisor Ai × C̃ ⊂
+C̃ × C̃.
+     That the Di intersect transversely, and that no three of them share a
+common point follows from the corresponding fact on C̃ × C̃. Also, note that
+each Di is ample on X̃, as follows e.g. from the Nakai-Moishezon criterion.
+A fortiori , we have that D1 +· · ·+Dr is ample. Deﬁne X := X̃ \(D1 ∪. . .∪Dr );
+then X is aﬃne and we may ﬁx some aﬃne embedding. (That the symmetric
+power of an aﬃne variety is aﬃne follows also from a well-known result on
+quotients of a variety by a ﬁnite group of automorphisms; see for instance [Bo,
+Prop. 6.15].)
+     Note that π restricts to a morphism from C × C to X.
+     Let now {Pi } be a sequence of S-integral points on C, such that Pi is
+deﬁned over a quadratic extension ki of k. Letting Pi ∈ C(ki ) be the point
+conjugate to Pi over k, we deﬁne Qi := (Pi , Pi ) ∈ C × C and Ri := π(Qi ) ∈
+X(ki ).
+     Observe that Ri ∈ X(k). In fact, for any function ϕ ∈ k(X), we have that
+  ∗
+ϕ = ϕ ◦ π is a symmetric rational function on C × C (that is, invariant under
+the natural involution of C × C). Therefore ϕ(Ri ) = ϕ∗ (Pi , Pi ) = ϕ∗ (Pi , Pi ).
+This immediately implies that ϕ(Ri ) is ﬁxed by the Galois group Gal(k̄/k),
+proving the claim.
+     Further, we note that for any ϕ ∈ k[X], there exists a positive integer
+m = mϕ such that all the values mϕ(Ri ) are S-integers. In fact, note that ϕ∗
+is regular on C × C, that is ϕ∗ ∈ k[C × C] = k[C] ⊗k k[C]; this proves the
+contention, since for any function ψ ∈ k[C], the values ψ(Pi ), ψ(Pi ) diﬀer from
+S-integers by a bounded denominator, as i varies.
+     In particular, this assertion holds taking as ϕ the coordinate functions
+on X. So, by multiplying such coordinates by a suitable positive integer (which
+amounts to apply an aﬃne linear coordinate change on X) we may assume that
+the Ri are integral points on X.
+724                           P. CORVAJA AND U. ZANNIER
+
+
+     We go on by proving that the assumptions for Theorem 1 are veriﬁed in
+our situation.
+     Note that the pull-back of Di in C̃ × C̃ is given by π ∗ (Di ) = Ai × C̃ + C̃ ×Ai .
+Since any two points on a curve represent algebraically equivalent divisors,
+the divisors π ∗ (Di ) must be algebraically equivalent. In particular, they are
+numerically equivalent, so the divisors Di are numerically equivalent. Since we
+plainly have (π ∗ (D1 ).π ∗ (D2 )) = 2, it follows that (Di .Dj ) = 1 for all pairs i, j
+([B, Prop. I.8]).
+     In conclusion, we have veriﬁed the assumptions for Theorem 1, with r ≥ 4
+and p1 = · · · = pr = c = 1.
+      From Theorem 1 we deduce that the Ri all lie on a certain closed curve
+Y ⊂ X. To prove our assertions we may now argue separately with each
+absolutely irreducible component of Y . Therefore we assume that the Ri are
+contained in the absolutely irreducible curve Y , deﬁned over a number ﬁeld
+containing k. Since Y contains the inﬁnitely many points Ri , all deﬁned over k,
+it follows that Y is in fact deﬁned itself over k. Also, Y must have genus zero
+and at most two points at inﬁnity, because of Siegel’s theorem. In the sequel
+we also suppose, as we may, that Y is closed in X and we let Ỹ be the closure
+of Y in X̃ and Z̃ = π −1 (Ỹ ), Z = π −1 (Y ) = Z̃ \ (∪ri=1 π ∗ (Di )).
+      Assume ﬁrst that r ≥ 5. Then, since Z̃ is complete at least one of the
+natural projections on C̃ is surjective, whence # Z̃ ∩ (∪ri=1 π ∗ (Di )) ≥ 5, and
+therefore Z̃ \ Z ≥ 5. Hence #(Ỹ \ Y ) ≥ 3, since #π −1 (R) ≤ 2 for every R ∈ X̃.
+But then Siegel’s theorem applies to Y and contradicts the fact that Y has
+inﬁnitely many integral points. This proves part (i).
+     From now on we suppose that r = 4. The case when C is rational can be
+treated directly, similarly to Example 1.3 above, even without appealing to the
+present methods. By extending the ground ﬁeld and S, C may be realized as
+the plane quartic (X − λ)(X 2 − 1)Y = 1, where λ ∈ k is not ±1. Let (x, y) be a
+quadratic S-integral point on C. Denoting the conjugation over k with a dash,
+we have that (x − λ)(x − λ) =: r, (x − 1)(x − 1) =: s, (x + 1)(x + 1) =: t are
+all S-units in k. Eliminating x, x gives 2r − (λ + 1)s + (λ − 1)t = 2(λ2 − 1) = 0.
+By S-unit equation-theory, as in [S2, Thm. 2A] or [V, Thm. 2.3.1], this yields
+some vanishing subsum for all but ﬁnitely many such relations. Say that e.g.
+t = 2(λ + 1), 2r = (λ + 1)s, the other cases being analogous. This leads to
+x + x = λ + 1 − 2s , xx = λ + 2s , whence x2 − (λ + 1 − 2s )x + λ + 2s = 0, i.e.
+s = −2(x −(λ+1)x+λ)  . Then the map given by x → −2(x −(λ+1)x+λ)
+         2                                                 2
+
+           x+1                                               x+1       satisﬁes the
+conclusion.
+     Suppose now that C has positive genus and view C as embedded in its
+Jacobian J. For a generic point R ∈ Ỹ , let {(P, Q), (Q, P )} = π −1 (R) ∈ Z̃.
+Then R → P + Q ∈ J is a well-deﬁned rational map from Ỹ to J. But
+Y is a rational curve, and it is well-known that then such a map has to be
+                             ON INTEGRAL POINTS ON SURFACES                                725
+
+constant ([HSi, Ex. A74(b)]), say P + Q = c for π(P, Q) = R ∈ Ỹ , where c is
+independent of R. We then have a degree 2 regular map ψ : C̃ → Y deﬁned
+by ψ(P ) = π((P, c − P )). It now suﬃces to note that ψ(Pi ) = π((Pi , Pi )) = Ri
+is an S-integral point in Y (k).
+
+       Proof for the Addendum.               Let ψ be one of the mentioned maps, and
+let {Pi }i∈N be an inﬁnite sequence of distinct quadratic integral points on
+C such that ψ(Pi ) ∈ k. We have equations Xi2 + ai Xi + bi = 0, where
+ai , bi ∈ k(ψ). By changing coordinates linearly, we may assume, as in the argu-
+ment at the beginning of the proof of the Corollary 1, that k(C) is quadratic
+over k(a1 , b1 , . . . , am , bm ) and that for each i, the values of the aﬃne coor-
+dinates X1 , . . . , Xm at Pi are of exact degree 2 over k. Then aj (Pi ), bj (Pi )
+are S-integers in k, for all i, j in question. The rational map ϕ : P →
+(a1 (P ), b1 (P ), . . . , am (P ), bm (P )) sends C to an aﬃne curve Y (over k) with
+inﬁnitely many S-integral points over k. This curve, whose aﬃne ring is
+k[Y ] = k[a1 , b1 , . . . , am , bm ], can have at most two points at inﬁnity, by Siegel’s
+theorem. On the other hand, the above quadratic equations for the coordinates
+imply that k[C] is integral over k[Y ], whence all of the (four) points at inﬁnity
+of C correspond to poles of some ai or bi . Therefore the a1 , b1 , . . . , am , bm have
+altogether at least the four poles A1 , . . . , A4 on C̃. But the above rational map
+ϕ has degree 2, whence ψ factors through it, namely k(ψ) = k(Y ). Therefore
+the curve Y has at least #{ψ(A1 ), . . . , ψ(A4 )} points at inﬁnity. By the above
+conclusion this cardinality is at most two, proving the ﬁrst contention of the
+addendum.
+       As to the second, say that ψ(A1 ) = ψ(A2 ) =: α and ψ(A3 ) = ψ(A4 ) =: β.
+Then ψ−α ψ−β has divisor (A1 ) + (A2 ) − (A3 ) − (A4 ), yielding a relation of the
+                               3
+
+mentioned type among the (Ai ).
+
+     Acknowledgements.      The authors thank Professors Enrico Bombieri,
+Barbara Fantechi, Angelo Vistoli and Paul Vojta for several very helpful discus-
+sions. They also thank the referee for his careful review and for his comments.
+
+            Università di Udine, Udine, Italy
+            E-mail address: corvaja@dimi.uniud.it
+            Scuola Normale Superiore, Pisa Italy
+            E-mail address: u.zannier@sns.it
+
+
+
+                                             References
+
+[B]        A. Beauville, Surfaces Algébriques Complexes, Astérisque 54, Soc. Math. de France,
+           Paris, 1978.
+
+      3
+          where ψ − ∞ is to be interpreted as 1
+726                            P. CORVAJA AND U. ZANNIER
+
+
+[Bo] A. Borel, Linear Algebraic Groups, 2nd ed., Graduate Texts in Math. 126, Springer-
+     Verlag, New York, 1991.
+[CZ] P. Corvaja and U. Zannier, A subspace theorem approach to integral points on curves,
+     C. R. Acad. Sci. Paris 334 (2002), 267–271
+[EF] J.-H. Evertse and R. Ferretti, Diophantine inequalities on projective varieties, Inter-
+     nat. Math. Res. Notices 2002, No. 25, 1295–1330.
+[ES] J.-H. Evertse and H. P. Schlickewei, A quantitative version of the absolute subspace
+     theorem, J. reine angew. Math. 548 (2002), 21–127.
+[F1] G. Faltings, Diophantine approximation on Abelian varieties, Ann. of Math. 133 (1991),
+     549–576.
+[F2] G. Faltings, A new application of Diophantine approximation, in A Panorama of Number
+     Theory (Proc. Conf. Zurich, 1999), Cambridge Univ. Press, Cambridge, 231–246.
+[FW] G. Faltings and G. Wüstholz, Diophantine approximations on projective varieties,
+    Invent. Math. 116 (1994), 109–138.
+[H] R. Hartshorne, Algebraic Geometry, Graduate Texts in Math. 52, Springer-Verlag, New
+    York, 1977.
+[HSi] M. Hindry and J. H. Silverman, Diophantine Geometry, Springer-Verlag, New York,
+     2000.
+[L]   S. Lang, Number Theory III, Encycl. of Mathematical Sciences 60, Springer-Verlag,
+      New York, 1991.
+[NW] J. Noguchi and J. Winkelmann, Holomorphic curves and integral points oﬀ divisors,
+    Math. Z . 239 (2002), 593–610.
+[S1] W. M. Schmidt, Diophantine Approximation, Lecture Notes in Math. 785, Springer-
+     Verlag, New York, 1980.
+[S1] W. M. Schmidt, Diophantine Approximations and Diophantine Equations, Lecture Notes
+     in Math. 1467, Springer-Verlag, New York, 1991.
+[Se1] J-P. Serre, Lectures on the Mordell-Weil Theorem, Friedr. Vieweg & Sohn, Braun-
+     schweig, Vieweg, 1989.
+[Se2] ——— , Algebraic Groups and Class Fields, Graduate Texts in Math. 117, Springer-
+     Verlag, New York, 1988.
+[Si] J. H. Silverman, The Arithmetic of Elliptic Curves, Graduate Texts in Math. 106,
+     Springer-Verlag, New York, 1986.
+[V1] P. Vojta, Diophantine Approximations and Value Distribution Theory, Lecture Notes
+     in Math. 1239, Springer-Verlag, New York, 1987.
+[V2] ——— , A generalization of theorems of Faltings and Thue-Siegel-Roth-Wirsing, J.
+     Amer. Math. Soc. 25 (1992), 763–804.
+[V3] ——— , Integral points on subvarieties of semi-abelian varieties, Invent. Math. 126
+     (1996), 133–181.
+                                 (Received June 5, 2002)
+

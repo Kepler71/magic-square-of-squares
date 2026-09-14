@@ -1,0 +1,2381 @@
+arXiv:math/0503699v1 [math.NT] 30 Mar 2005
+                                             Generalizations of Siegel’s and Picard’s Theorems
+                                                                               Aaron Levin
+
+
+                                                                                  Abstract
+                                                      We prove new theorems which are higher-dimensional generalizations
+                                                  of the classical theorems of Siegel on integral points on affine curves and
+                                                  of Picard on holomorphic maps from C to affine curves. These include
+                                                  results on integral points over varying number fields of bounded degree and
+                                                  results on Kobayashi hyperbolicity. We give a number of new conjectures
+                                                  describing, from our point of view, how we expect Siegel’s and Picard’s
+                                                  theorems to optimally generalize to higher dimensions. In some special
+                                                  cases we will be able to relate our conjectures to existing conjectures. In
+                                                  this respect, we are also led to formulate a new conjecture relating the
+                                                  absolute discriminant and height of an algebraic point on a projective
+                                                  variety over a number field.
+
+
+                                             1    Introduction
+                                             In this article we prove new theorems which are higher-dimensional generaliza-
+                                             tions of the classical theorems of Siegel on integral points on affine curves and
+                                             of Picard on holomorphic maps from C to affine curves. In the first section we
+                                             will give the statements of Siegel’s and Picard’s theorems, and we will recall
+                                             why these two theorems from such seemingly different areas of mathematics are
+                                             related. We will then proceed to give a number of new conjectures describing,
+                                             from our point of view, how we expect Siegel’s and Picard’s theorems to op-
+                                             timally generalize to higher dimensions. These include conjectures on integral
+                                             points over varying number fields of bounded degree and conjectures addressing
+                                             hyperbolic questions. These conjectures appear to be fundamentally new. How-
+                                             ever, in some special cases we will be able to relate our conjectures to Vojta’s
+                                             conjectures. In this respect, we are also led to formulate a new conjecture relat-
+                                             ing the absolute discriminant and height of an algebraic point on a projective
+                                             variety over a number field (Conjecture 15.14).
+                                                 We will then summarize our progress on these conjectures. We have been
+                                             able to get results in all dimensions, with best-possible results in many cases for
+                                             surfaces. Our technique is based on the new proof of Siegel’s theorem given by
+                                             Corvaja and Zannier in [2]. They showed how one may use the Schmidt Sub-
+                                             space Theorem to obtain a very simple and elegant proof of Siegel’s theorem.
+                                             More recently, they have used this technique to obtain other results on integral
+                                             points (see [3], [4], and [5]) and Ru has translated the approach to Nevanlinna
+                                             theory [21]. We will use the Schmidt Subspace Theorem approach to get results
+
+
+                                                                                      1
+on integral points on higher-dimensional varieties, and analogously, we will use
+a version of Cartan’s Second Main Theorem due to Vojta to obtain results on
+holomorphic curves in higher-dimensional complex varieties, generalizing Pi-
+card’s theorem.
+    As an application of our results, we show how to improve a result of Faltings
+on integral points on the complements of certain singular plane curves, proving
+a statement about hyperbolicity as well. We end with a discussion of our con-
+jectures, relating them to previously known results and conjectures, and giving
+examples limiting any improvement to their hypotheses and conclusions.
+
+
+2    Theorems of Siegel and Picard
+It has been observed by Osgood, Vojta, Lang, and others that there is a striking
+correspondence between statements in Nevanlinna theory and in Diophantine
+approximation (see [20] and [24]). This correspondence has been extremely lu-
+crative, influencing results and conjectures in both subjects considerably. The
+correspondence can be formulated in both a qualitative and quantitative way.
+In this section, we will concentrate on the simplest case of the qualitative cor-
+respondence, Siegel’s and Picard’s theorems.
+    Let V ⊂ An be an affine variety defined over a number field k. We will also
+view V as a complex analytic space. Then it has been noticed that V (OL,S )
+(the set of points with all coordinates in OL,S , the S-integers of L) seems to
+be infinite for sufficiently large number fields L and sets of places S if and only
+if there exists a non-constant holomorphic map f : C → V . When V = C is
+a curve (i.e. one-dimensional variety), this correspondence has been proven to
+hold exactly, and it is known precisely for which curves C the two statements
+hold. On the number theory side, Siegel’s theorem is the fundamental theorem
+on integral points on curves. On the analytic side the analogue is a theorem of
+Picard. We now give the following formulations of these two theorems.
+Theorem 2.1A (Siegel). Let k be a number field. Let S be a finite set of
+places of k containing the archimedean places. Let C be an affine curve defined
+over k embedded in affine space Am . Let C̃ be a projective closure of C. If
+#C̃\C > 2 (over k) then C has finitely many points in Am (Ok,S ).
+Theorem 2.1B (Picard). Let C̃ be a compact Riemann surface. Let C ⊂ C̃.
+If #C̃\C > 2, then all holomorphic maps f : C → C are constant.
+    In other words, Siegel’s and Picard’s theorems state that if D consists of
+many distinct points on a curve X, then any set of integral points on X\D is
+finite and any holomorphic map f : C → X\D is constant. We will thus view as
+generalizing Siegel’s or Picard’s theorem any theorem that asserts that if D has
+“enough components” then there is some limitation on the integral points on
+X\D or on the holomorphic maps f : C → X\D. In Picard’s theorem it may
+also be shown that the curves C in question satisfy the stronger condition of
+being Kobayashi hyperbolic. We will frequently be able to generalize this fact
+to higher dimensions as well.
+
+                                        2
+    Siegel’s theorem is usually stated with the extra information that the #C̃\C >
+2 hypothesis is unnecessary for nonrational affine curves C. However, it may
+be shown that this stronger version of Siegel’s theorem may be derived from
+Siegel’s theorem as we have stated it by using étale coverings of the curve C
+(see [2]). A similar statement holds for Picard’s theorem. It is Siegel’s and
+Picard’s theorems in the form we have given above that we will generalize.
+    We note that when the geometric genus of C is greater than one, Siegel’s
+theorem follows from the much stronger theorem of Faltings that C has only
+finitely many k-rational points. Similarly, it is a theorem of Picard that there
+are no nonconstant holomorphic maps f : C → C̃ when C̃ is a projective curve
+of geometric genus greater than one.
+
+
+3    Some Preliminary Definitions
+In order to state our conjectures and results we will need a few definitions. In
+Vojta’s Nevanlinna-Diophantine dictionary, the Diophantine object correspond-
+ing to a holomorphic map f : C → X\D is a set of (D, S)-integral points on X.
+We’ll now sketch the definition of a set of (D, S)-integral points on X in terms
+of Weil functions.
+    Let D be a Cartier divisor on a projective variety X, both defined over a
+number field k. Let Mk denote the set of places of k (see Section 7.1). Let
+v ∈ Mk . Extend | · |v to an absolute value on k v . We define a local Weil
+function for D relative to v to be a function λD,v : X(kv )\D → R such that if
+D is represented locally by (f ) on an open set U then
+
+                        λD,v (P ) = − log |f (P )|v + αv (P )
+
+where αv is a continuous function on U (k v ) (in the v-topology).
+    By choosing embeddings k → k v and k → k v , we may also think of λD,v as a
+function on X(k)\D or X(k)\D. A global Weil functions consists of a collection
+of local Weil functions, λD,v , for v ∈ Mk , where the αv above satisfy certain
+reasonable boundedness conditions as v varies. We refer the reader to [14] and
+[24] for a further discussion of this.
+Definition 3.1. Let D be an effective Cartier divisor on a projective variety
+X, both defined over a number field k. Let S be a finite set of places in Mk
+containing the archimedean places. Let R ⊂ X(k)\D. Then R is defined to be
+a (D, S)-integral set of points if there exists a global Weil function λD,v and
+constants cv , with cv = 0 for all but finitely many v, such that for all v ∈ Mk \S
+and all embeddings k → kv
+
+                                   λD,v (P ) ≤ cv
+for all P in R.
+   We will frequently just say D-integral, omitting the reference to S, when S
+has been fixed or when the statement is true for all possible S. Except where
+
+                                         3
+explicitly stated, we will also require from now on that a set of D-integral points
+be k-rational, i.e. R ⊂ X(k).
+    For us, the key property of a set of (D, S)-integral points is given by the
+following theorem.
+Theorem 3.2. Let R ⊂ X(k)\D be a set of (D, S)-integral points on X. Then
+for any regular function f on X\D (defined over k) there exists a constant a ∈ k
+such that af (P ) is S-integral for all P in R, that is af (P ) lies in the integral
+closure of Ok,S in k for all P ∈ R.
+    In fact, in what follows, most of our results hold, and our conjectures should
+hold, for any set R satisfying the conclusion of Theorem 3.2. We will prefer
+to work with sets of D-integral points because they are better geometrically
+behaved (e.g. under pullbacks) and because they are the right objects to use
+so that the Diophantine exceptional set we are about to define matches (con-
+jecturally) the holomorphic exceptional set we will define. We note that sets of
+D-integral points are also essentially the same as the sets of scheme-theoretic
+integral points one would get from working with models of X\D over Ok,S (see
+[24, Prop. 1.4.1]).
+    It will be necessary to define various exceptional sets of a variety.
+Definition 3.3A. Let X be a projective variety and D an effective Cartier
+divisor on X, both defined over a number field k. Let L be a number field,
+L ⊃ k, and S a finite set of places of L containing the archimedean places. We
+define the Diophantine exceptional set of X\D with respect to L and S to be
+                                            [
+                       ExcDio,L,S (X\D) =      dim>0 (R)
+                                              R
+
+where the union runs over all sets R of L-rational (D, S)-integral points on X
+and dim>0 (R) denotes the union of the positive dimensional irreducible compo-
+nents of the Zariski-closure of R. We define the absolute Diophantine excep-
+tional set of X\D to be
+                                     [
+                   ExcDio (X\D) =        ExcDio,L,S (X\D),
+                                      L⊃k,S
+
+with L ranging over all number fields and S ranging over all sets of places of L
+as above.
+   These definitions depend only on X\D and not on the choices of X and D.
+Definition 3.3B. Let X be a complex variety. We define the holomorphic
+exceptional set of X, Exchol (X), to be the union of all images of non-constant
+holomorphic maps f : C → X.
+   Conjecturally, it is expected that ExcDio (X\D) = Exchol (X\D) (it may also
+be necessary to take the Zariski-closures of both sides first).
+
+
+                                         4
+Definition 3.4A. Let X be a projective variety defined over a number field
+k. Let D be an effective Cartier divisor on X. Then we define X\D to be
+Mordellic if ExcDio (X\D) is empty. We define X\D to be quasi-Mordellic if
+ExcDio (X\D) is not Zariski-dense in X.
+Definition 3.4B. Let X be a complex variety. We define X to be Brody hy-
+perbolic if Exchol (X) is empty. We define X to be quasi-Brody hyperbolic if
+Exchol (X) is not Zariski-dense in X.
+    Note that X being quasi-Brody hyperbolic is a stronger condition than the
+non-existence of holomorphic maps f : C → X with Zariski-dense image. Sim-
+ilarly, X\D being quasi-Mordellic is stronger than the non-existence of dense
+sets of D-integral points on X.
+    We will also need a convenient measure of the size of a divisor. We will use
+OX (D), or simply O(D) when there is no ambiguity, to denote the invertible
+sheaf associated to a Cartier divisor D on X, and hi (D) to denote the dimension
+of the vector space H i (X, O(D)). When h0 (D) > 0, we will also frequently use
+the notation ΦD to denote the rational map (unique up to projective automor-
+                       0
+phisms) from X to Ph (D)−1 corresponding to a basis of H 0 (X, O(D)).
+Definition 3.5. Let D be a divisor on a nonsingular projective variety X. We
+define the dimension of D to be the integer κ(D) such that there exists positive
+constants c1 and c2 such that
+
+                         c1 nκ(D) ≤ h0 (nD) ≤ c2 nκ(D)
+
+for all sufficiently divisible n > 0. If h0 (nD) = 0 for all n > 0 then we let
+κ(D) = −∞.
+    Alternatively, if κ(D) ≥ 0, one can show that
+
+                κ(D) = max{dim ΦnD (X)|n > 0, h0 (nD) > 0}.
+
+If D is a Cartier divisor on a singular complex projective variety, we define
+κ(D) = κ(π ∗ D) where π : X ′ → X is a desingularization of X. It is easy
+to show that this is independent of the chosen desingularization. For more
+properties of κ(D) we refer the reader to [11, Ch. 10].
+Definition 3.6. We define a Cartier divisor D on X to be quasi-ample (or big)
+if κ(D) = dim X.
+    If D is quasi-ample then there exists an n > 0 such that ΦnD is birational,
+justifying the name.
+
+
+4     General Setup and Notation
+Throughout this paper we will use the following general setup and notation.
+
+
+
+                                       5
+                                                                           Pr
+General setup: Let X be a complex projective variety. Let D = i=1 Di
+be a divisor on X with the Di ’s effective Cartier divisors for all i. Suppose that
+at most m Di ’s meet at a point, so that the intersection of any m + 1 distinct
+Di ’s is empty.
+
+In the Diophantine setting, we will also assume that X and D are defined
+over a number field k and we let S be a finite set of places of k containing the
+archimedean places.
+   From now on, we will freely use the notation X, D, Di , r, m, k, and S as
+above without further explanation.
+
+
+5     Siegel and Picard-type Conjectures
+In this section we give conjectures generalizing Siegel’s theorem and Picard’s
+theorem in various directions.
+
+5.1    Main Conjectures
+Some special cases of the conjectures given in this section are related to Vojta’s
+Main Conjecture. Later, we will also give conjectures related to Vojta’s General
+Conjecture, hence our terminology in this section and the next. We remind the
+reader that throughout we are using the general setup of the last section.
+Conjecture 5.1A (Main Siegel-type Conjecture). Suppose that κ(Di ) ≥
+κ0 > 0 for all i. If r > m + κm0 then there does not exist a Zariski-dense set of
+k-rational (D, S)-integral points on X.
+Conjecture 5.1B (Main Picard-type Conjecture). Suppose that κ(Di ) ≥
+κ0 > 0 for all i. If r > m + κm0 then there does not exist a holomorphic map
+f : C → X\D with Zariski-dense image.
+    As mentioned earlier, we will usually just say D-integral, omitting k and
+S from the notation. Siegel’s theorem (resp. Picard’s theorem) is the case
+m = κ0 = dim X = 1 of Conjecture 5.1A (resp. Conjecture 5.1B). We note that
+the dimension of X does not appear in the conjectures, but κ(Di ) is bounded
+by dim X. We will now discuss some consequences and special cases of these
+conjectures which seem important enough in their own right to be listed sepa-
+rately as new conjectures, and which will sometimes contain extra conjectures
+(e.g. on the exceptional sets) which do not follow from the main conjectures
+above. At the two extremes of κ0 we have
+Conjecture 5.2A. If κ(Di ) > 0 for all i and r > 2m then there does not exist
+a Zariski-dense set of D-integral points on X.
+Conjecture 5.2B. If κ(Di ) > 0 for all i and r > 2m then there does not exist
+a holomorphic map f : C → X\D with Zariski-dense image.
+
+
+
+                                        6
+                                                              m
+Conjecture 5.3A. If Di is quasi-ample for all i and r > m + dim X then X\D
+is quasi-Mordellic.
+                                                              m
+Conjecture 5.3B. If Di is quasi-ample for all i and r > m + dim X then X\D
+is quasi-Brody hyperbolic.
+   We note that when the Di ’s are in some sort of general position, so that
+m = dim X, the inequalities in the last two conjectures above take the nicer
+form r > dim X + 1. The statements on quasi-Mordellicity and quasi-Brody
+hyperbolicity do not follow (directly at least) from the Main Conjectures.
+   Of particular interest is the case where Di is ample for all i. In this case we
+conjecture very precise bounds on the dimensions of the exceptional sets (see
+Remark 15.5 for a possible generalization to quasi-ample divisors).
+Conjecture 5.4A (Main Siegel-type Conjecture for Ample Divisors).
+Suppose that Di is ample for all i.
+
+                   m                          m
+(a). If r > m + dim  X then dim ExcDio (X) ≤ r−m .
+(b). In particular, if r > 2m then X\D is Mordellic.
+Conjecture 5.4B (Main Picard-type Conjecture for Ample Divisors).
+Suppose that Di is ample for all i.
+                  m                          m
+(a). If r > m + dim X then dim Exchol (X) ≤ r−m .
+(b). If r > 2m then X\D is complete hyperbolic and hyperbolically imbedded in
+X. In particular, X\D is Brody hyperbolic.
+   It is not hard to show that the Main Conjectures for ample divisors follow
+from Conjectures 5.3A and 5.3B.
+
+5.2    General Conjectures
+We will also consider the situation where the field that the integral points are
+defined over is allowed to vary over all fields of degree less than or equal to d
+over some fixed field k. So in this section we do not require that the integral
+points be k-rational.
+Definition 5.5. Let R ⊂ X(k). We define the degree of R over k to be degk R =
+supP ∈R [k(P ) : k].
+   Generalizing the Main Siegel-type Conjecture of last section, we conjecture
+Conjecture 5.6 (General Siegel-type Conjecture). Suppose that κ(Di ) ≥
+κ0 > 0 for all i. Let d be a positive integer. If r > m + m(2d−1)
+                                                            κ0    then there does
+not exist a Zariski-dense set of D-integral points on X of degree d over k.
+We will see later that this conjecture and others in this section are related to
+Vojta’s General Conjecture.
+   We will also want to define a degree d Diophantine exceptional set for a
+variety V . With the notation from our earlier definition for ExcDio we define
+
+                                        7
+Definition 5.7. Let X be a projective variety and D an effective Cartier divisor
+on X, both defined over a number field k. Let L be a number field, L ⊃ k, and
+S a finite set of places of L containing the archimedean places. We define the
+degree d Diophantine exceptional set of X\D with respect to L and S to be
+                                              [
+                      ExcDio,degd,L,S (X\D) =    dim>0 (R)
+                                               R
+
+where the union runs over all sets R of (D, S)-integral points on X of degree d
+over L. We define the degree d absolute Diophantine exceptional set of X\D to
+be                                   [
+              ExcDio,degd (X\D) =        ExcDio,degd,L,S (X\D),
+                                    L⊃k,S
+
+with L ranging over all number fields and S ranging over all sets of places of L
+as above.
+   Similarly we define X\D to be degree d Mordellic (resp. degree d quasi-
+Mordellic) if ExcDio,degd (X\D) is empty (resp. not Zariski-dense in X). At the
+two extremes of κ0 we have
+Conjecture 5.8. Let d be a positive integer. If κ(Di ) > 0 for all i and r > 2dm
+then there does not exist a Zariski-dense set of D-integral points on X of degree
+d over k.
+Conjecture 5.9. Let d be a positive integer. If Di is quasi-ample for all i and
+r > m + m(2d−1)
+         dim X then X\D is degree d quasi-Mordellic.
+   We can also give a conjecture for ample divisors giving bounds on the degree
+d Diophantine exceptional set.
+Conjecture 5.10 (General Siegel-type Conjecture for Ample Divisors).
+Suppose that Di is ample for all i.
+
+(a). If r > m + m(2d−1)
+                  dim X then dim ExcDio,degd (X\D) ≤
+                                                      m(2d−1)
+                                                       r−m .
+(b). In particular, if r > 2dm then X\D is degree d Mordellic.
+
+5.3    Conjectures over Z and Complex Quadratic Rings of
+       Integers
+When #S = 1, or equivalently, when Ok,S is Z or the ring of integers of a com-
+plex quadratic field, and Di is defined over k for all i, we conjecture improve-
+ments to our previous conjectures. We will refer to these conjectures as “over
+Z”, though they apply equally well to rings of integers of complex quadratic
+fields.
+Conjecture 5.11 (Main Siegel-type Conjecture over Z). Let k = Q or
+a complex quadratic field and let S = {v∞ } consist of the unique archimedean
+place of k. Suppose that Di is defined over k for all i and that κ(Di ) > 0 for
+all i. If r > m then there does not exist a Zariski-dense set of (D, S)-integral
+points on X.
+
+                                       8
+    We emphasize that in contrast to our previous conjectures, each Di must be
+defined over k. We also conjecture that in the above if each Di is quasi-ample,
+then ExcDio,k ,S (X) is not Zariski-dense in X. For ample divisors, as usual, we
+conjecture something more.
+Conjecture 5.12 (Main Siegel-type Conjecture over Z for Ample Di-
+visors). Let k = Q or a complex quadratic field and let S = {v∞ } consist of
+the unique archimedean place of k. Suppose that Di is ample and defined over
+k for all i.
+                                                                        T
+(a). All sets R of (D, S)-integral points on X have dim R ≤ 1 + dim( i Di ).
+(b). In particular, if D = D1 + D2 is a sum of two ample effective Cartier
+divisors on X, both defined over k, with no irreducible components in common,
+then there does not exist a Zariski-dense set of (D, S)-integral points on X.
+Conjecture 5.13 (General Siegel-type Conjecture over Z). Let k = Q or
+a complex quadratic field and let S = {v∞ } consist of the unique archimedean
+place of k. Suppose that Di is defined over k for all i and that κ(Di ) ≥ κ0 > 0
+for all i. Let d be a positive integer. If r > m + m(d−1)
+                                                     κ0   then there does not exist
+a Zariski-dense set of (D, S)-integral points on X of degree d over k.
+   If Di is quasi-ample for all i in the above conjecture, then we also conjecture
+that ExcDio,degd,k ,S (X\D) is not Zariski-dense in X. For ample divisors we have
+Conjecture 5.14 (General Siegel-type Conjecture over Z for Ample
+Divisors). Let k = Q or a complex quadratic field and let S = {v∞ } con-
+sist of the unique archimedean place of k. Suppose that Di is ample and de-
+fined over k for all i. Let d be a positive integer. If r > m + m(d−1)
+                                                                dim X then
+                            m(d−1)
+dim ExcDio,degd,k ,S (X\D) ≤ r−m .
+    We will discuss the conjectures in greater detail in Section 15.
+
+
+6     Overview of Results
+Sections 8-13 will be concerned with proving special cases of the above conjec-
+tures. In this section we highlight some of our results. Along the lines of the
+Main Conjectures we have
+Theorem 6.1A. Suppose r > 2m dim X.
+
+(a). If Di is quasi-ample for all i then X\D is quasi-Mordellic.
+(b). If Di is ample for all i then X\D is Mordellic.
+Theorem 6.1B. Suppose r > 2m dim X.
+
+(a). If Di is quasi-ample for all i then X\D is quasi-Brody hyperbolic.
+(b). If Di is ample for all i then X\D is complete hyperbolic and hyperbolically
+imbedded in X. In particular, X\D is Brody hyperbolic.
+
+                                        9
+    If in addition the Di ’s have no irreducible components in common, then
+in the part (a)’s above we only need r > 2[ m+12 ] dim X where [x] denotes the
+greatest integer in x.
+    When X is a surface, m ≤ 2, and the Di ’s have no irreducible components
+in common, we are able to prove the Main Conjectures, Conjectures 5.1A,B
+through 5.4A,B.
+Theorem 6.2A. Suppose X is a surface and the Di ’s have no irreducible com-
+ponents in common.
+
+(a). If m = 1, κ(Di ) > 0 for all i, and r > 2 then there does not exist a
+Zariski-dense set of D-integral points on X.
+(b). If m = 2, κ(Di ) > 0 for all i, and r > 4 then there does not exist a
+Zariski-dense set of D-integral points on X.
+(c). If m = 2, Di is quasi-ample for all i, and r > 3 then X\D is quasi-
+Mordellic.
+(d). If m = 2, Di is ample for all i, and r > 4 then X\D is Mordellic.
+Theorem 6.2B. Suppose X is a surface and the Di ’s have no irreducible com-
+ponents in common.
+
+(a). If m = 1, κ(Di ) > 0 for all i, and r > 2 then there does not exist a
+holomorphic map f : C → X\D with Zariski-dense image.
+(b). If m = 2, κ(Di ) > 0 for all i, and r > 4 then there does not exist a holo-
+morphic map f : C → X\D with Zariski-dense image.
+(c). If m = 2, Di is quasi-ample for all i, and r > 3 then X\D is quasi-Brody
+hyperbolic.
+(d). If m = 2, Di is ample for all i, and r > 4 then X\D is complete hyperbolic
+and hyperbolically imbedded in X. In particular, X\D is Brody hyperbolic.
+   We will see later that if m = 1, r > 1, and κ(Di ) > 0 for all i, then we must
+necessarily have κ(Di ) = 1 for all i.
+   As to the General Conjectures, when the integral points are allowed to vary
+over fields of a bounded degree, we prove
+Theorem 6.3. Let d be a postive integer. If Di is ample for all i and r >
+2d2 m dim X then X\D is degree d Mordellic (all sets of D-integral points on X
+of degree d over k are finite).
+Theorem 6.4. Let k = Q or a complex quadratic field. Let S = {v∞ } consist
+of the unique archimedean place of k. Let d be a positive integer. If Di is ample
+and defined over k for all i and r > dm then all sets of (D, S)-integral points
+on X of degree d over k are finite.
+    As an application of our results, we will discuss an improvement to a result
+of Faltings. Faltings [6] has recently shown how theorems on integral points on
+the complements of divisors with many components may occasionally be used
+to prove theorems on the complements of irreducible divisors. He shows how
+
+                                       10
+to do this with certain very singular curves on P2 by reducing the problem to
+a covering surface and applying the method of [7]. In [31], Zannier uses the
+subspace theorem approach instead of [7] to prove a result similar to Faltings.
+In Section 14 we will prove a theorem which generalizes both results. As an
+added bonus, we also prove the theorem in the case of holomorphic curves.
+
+
+7     Preliminaries
+7.1    Diophantine Approximation
+Let k be a number field. Let Ok be the ring of integers of k. As usual, we
+have a set Mk of absolute values (or places) of k consisting of one place for each
+prime ideal p of Ok , one place for each real embedding σ : k → R, and one
+place for each pair of conjugate embeddings σ, σ : k → C. Let kv denote the
+completion of k with respect to v. We normalize our absolute values so that
+|p|v = p−[kv :Qp ]/[k:Q] if v corresponds to p and p|p, and |x|v = |σ(x)|[kv :R]/[k:Q] if
+v corresponds to an embedding σ (in which case we say that v is archimedean).
+If v is a place of k and w is a place of a field extension L of k, then we say that
+w lies above v, or w|v, if w and v define the same topology on k.
+    With the above definitions we have the product formula
+                               Y
+                                    |x|v = 1 for all x ∈ k ∗ .
+                            v∈Mk
+
+For a point P = (x0 , . . . , xn ) ∈ Pn (k) we define the height to be
+                                     Y
+                       H(P ) =            max(|x0 |v , . . . , |xn |v ).
+                                   v∈Mk
+
+It follows from the product formula that H(P ) is independent of the choice
+of homogeneous coordinates for P . It is also easy to see that the height is
+independent of k. We define the logarithmic height to be
+                                   h(P ) = log H(P ).
+   At the core of our Diophantine results is the following version of Schmidt’s
+Subspace Theorem due to Vojta [25].
+Theorem 7.1A. Let k be a number field. Let S be a finite set of places in
+Mk containing the archimedean places. Let H1 , . . . , Hm be hyperplanes in Pn
+defined over k with corresponding Weil functions λH1 , . . . , λHm . Then there
+exists a finite union of hyperplanes Z, depending only on H1 , . . . , Hm (and not
+k or S), such that for any ǫ > 0,
+                     X       X
+                         max     λHi ,v (P ) ≤ (n + 1 + ǫ)h(P )                (1)
+                            I
+                      v∈S       i∈I
+
+holds for all but finitely many P in Pn (k)\Z, where the max is taken over
+subsets I ⊂ {1, . . . , m} such that the linear forms defining Hi , i ∈ I are linearly
+independent.
+
+                                           11
+   Explicitly, if H is a hyperplane on Pn defined by the linear form L(x0 , . . . , xn )
+then a Weil function for H is given by
+                                                       |xi |v
+                             λH,v (P ) = log max              .                        (2)
+                                                 i   |L(P )|v
+where P = (x0 , · · · , xn ).
+  We will also need the close relative of Schmidt’s theorem, the S-unit lemma.
+Theorem 7.2A. Let k be a number field and let n > 1 be an integer. Let Γ be
+a finitely generated subgroup of k ∗ . Then all but finitely many solutions of the
+equation
+                          u0 + u1 + · · · + un = 1, ui ∈ Γ                     (3)
+                                                                       P
+lie in one of the diagonal hyperplanes HI defined by the equation x∈I xi = 0,
+where I is a proper subset of {0, . . . , n} with at least two elements.
+    For the convenience of the reader, we have collected various properties of
+D-integral points that we will use (sometimes implicitly) throughout the paper
+(see [24]).
+Lemma 7.3. Let k be a number field and S a finite set of places in Mk contain-
+ing the archimedean places. Let D be an effective Cartier divisor on a projective
+variety X, both defined over k.
+
+(a). Let L be a finite extension of k and let T be the set of places of L ly-
+ing over places in S. If R is a set of (D, S)-integral points then it is a set of
+(D, T )-integral points.
+(b). Let E be an effective Cartier divisor on X. If R is a set of (D + E)-integral
+points then R is a set of D-integral points.
+(c). The D-integrality of a set is independent of the multiplicities of the com-
+ponents of D.
+(d). Let Y be a projective variety defined over k. Let π : Y → X be a morphism
+defined over k with π(Y ) 6⊂ D. If R is a set of (D, S)-integral points on X then
+π −1 (R) is a set of (π ∗ D, S)-integral points on Y .
+   Note also in (d), that if in addition π : Y \π ∗ D → X\D is a finite étale
+map, then by the Chevally-Weil theorem there exists a number field L such
+that π −1 (R) ⊂ Y (L) [24, Th. 1.4.11].
+
+7.2     Nevanlinna Theory and Kobayashi Hyperbolicity
+We will be interested in Nevanlinna theory as it applies to holomorphic maps
+f : C → Pn and hyperplanes on Pn . Let f : C → Pn be a holomorphic map.
+Then we may choose a representation of f , f = (f0 , . . . , fn ) where f0 , . . . , fn are
+                                                                                         1
+entire functions without common zeros. Let us define kf k = (|f0 |2 +· · ·+|fn |2 ) 2 .
+Then we define a characteristic function Tf (r) of f to be
+                                   Z 2π
+                                                       dθ
+                          Tf (r) =      log kf (reiθ )k .
+                                    0                  2π
+
+                                            12
+Note that by Jensen’s formula this function is well-defined up to a constant.
+Let H be a hyperplane in Pn defined by a linear form L. Then we define a Weil
+function λH (f (z)) of f with respect to H by
+
+                                                       |L(f (z))|
+                             λH (f (z)) = − log                   .             (4)
+                                                        kf (z)k
+
+We note that this is independent of the choice of f and depends on the choice
+of L only up to a constant. The analogue of Schmidt’s Subspace Theorem that
+we will need is the following version of Cartan’s Second Main Theorem, due to
+Vojta [29].
+Theorem 7.1B. Let H1 , . . . Hm be hyperplanes in Pn with corresponding Weil
+functions λH1 , . . . , λHm . Then there exists a finite union of hyperplanes Z such
+that for any ǫ > 0 and any holomorphic map f : C → Pn \Z
+                Z 2π         X                       dθ
+                       max         λHi (f (reiθ ))      ≤ (n + 1 + ǫ)Tf (r)     (5)
+                 0      I                            2π
+                             i∈I
+
+holds for all r outside a set of finite Lebesgue measure, where the max is taken
+over subsets I ⊂ {1, . . . , m} such that the linear forms defining Hi , i ∈ I, are
+linearly independent.
+   The analogue of the S-unit lemma is the Borel lemma.
+Theorem 7.2B. Let f1 , . . . , fn be entire functions. Suppose that
+
+                                    ef1 + · · · + efn = 1.                      (6)
+
+Then fi is constant for some i.
+    Closely connected to questions about holomorphic curves is the Kobayashi
+pseudo-distance and Kobayashi hyperbolicity. We refer the reader to [15] for the
+definitions of the Kobayashi pseudo-distance, Kobayashi hyperbolic, complete
+hyperbolic, and hyperbolically imbedded. It is trivial that Kobayashi hyperbolic
+implies Brody hyperbolic. We will want a criterion for proving the converse in
+special cases. On projective varieties, this is given by Brody’s theorem. More
+generally, we will use the following theorem of Green (see [10] and [15]).
+Theorem
+S           7.4 (Green). Let X be a complex projective variety. Let Y =
+  i∈I Di be a finite union of Cartier divisors Di on X. Suppose that for every
+subset ∅ ⊂ J ⊂ I,               \         [
+                                    Dj \      Di
+                                      j∈J       i∈I\J
+                              T
+is Brody hyperbolic, where j∈∅ Dj = X. Then X\Y is complete hyperbolic and
+hyperbolically imbedded in X.
+
+
+
+
+                                              13
+7.3    Nef and Quasi-ample Divisors
+We now recall some basic definitions and facts regarding nef and quasi-ample
+divisors. We will use the theory of intersection numbers on projective varieties
+as presented in, for instance, [13]. We will use the notation Dn to denote the
+intersection number of the n-fold intersection of D with itself. In what follows
+X will be a projective variety over an algebraically closed field of characteristic
+0.
+Definition 7.5. A Cartier divisor D (or invertible sheaf O(D)) on X is said
+to be numerically effective, or nef, if D.C ≥ 0 for any closed integral curve C
+on X.
+   The next lemma summarizes some basic properties of nef divisors (see [13]).
+Lemma 7.6. Nef divisors satisfy the following:
+
+(a). Let n = dim X. If D1 , . . . , Dn are nef divisors on X then D1 .D2 . . . . .Dn ≥
+0.
+(b). Let D be a nef divisor and A an ample divisor on X. Then A + D is
+ample.
+(c). Let f : X → Y be a morphism and let D be a nef divisor on Y . Then
+f ∗ O(D) is nef on X.
+    Recall that we have defined κ(D) and quasi-ampleness for a Cartier divisor
+(Definitions 3.5 and 3.6). It is always true that κ(D) ≤ dim X, so D is quasi-
+ample (or big) if and only if it has the largest possible dimension for a divisor on
+X. For nef divisors it is possible to give a more numerical criterion for a divisor
+to be quasi-ample. It is also possible in this case to get an asymptotic formula
+for h0 (nD). We have the following lemma, due to Sommese, as it appears in
+[12].
+Lemma 7.7. Let D be a nef divisor on a nonsingular projective variety X. Let
+                            q
+q = dim X. Then h0 (nD) = Dq! nq + O(nq−1 ). In particular, Dq > 0 if and only
+if D is quasi-ample.
+Proof. Let KX denote the canonical divisor on X. Let L be an ample divisor
+on X such that L + KX is very ample. Since D is nef, nD + L is ample, and so
+by Kodaira’s vanishing theorem we have
+
+                     H i (X, O(nD + L + KX )) = 0 for i > 0.
+
+Therefore,
+                                                          Dq q
+        h0 (nD + L + KX ) = χ(O(nD + L + KX )) =             n + O(nq−1 )
+                                                          q!
+by Riemann-Roch. Let Y be a general member of the linear system |L + KX |,
+so that Y is nonsingular and irreducible. Then we have an exact sequence
+
+0 → H 0 (X, O(nD)) → H 0 (X, O(nD + L + KX )) → H 0 (Y, i∗ O(nD + L + KX ))
+
+                                         14
+where i : Y → X is the inclusion map. But since dim Y = q − 1, we have
+                                                                        q
+dim H 0 (Y, i∗ O(nD + L + KX )) ≤ O(nq−1 ). It follows that h0 (nD) = Dq! nq +
+O(nq−1 ).
+
+    Since we will use it multiple times, we state the exact sequence used above
+as a lemma.
+Lemma 7.8. Let D be an effective Cartier divisor on X with inclusion map
+i : D → X. Let E be any Cartier divisor on X. Then we have exact sequences
+
+         0 → O(E − D) → O(E) → i∗ (i∗ O(E)) → 0                               (7)
+                0                      0                0     ∗
+         0 → H (X, O(E − D)) → H (X, O(E)) → H (D, i (O(E)).                  (8)
+
+Proof. If D is an effective Cartier divisor, then a fundamental exact sequence is
+
+                       0 → O(−D) → OX → i∗ OD → 0.
+
+Tensoring with O(E) and using the projection formula, we get the first exact
+sequence. Taking global sections then gives the second exact sequence.
+   We can prove a little more for surfaces.
+Lemma 7.9. Let D be an effective divisor on a nonsingular projective surface
+                             2 2
+X. If D2 > 0 then h0 (nD) ≥ n 2D + O(n) and D is quasi-ample.
+Proof. By Riemann-Roch,
+
+                                              n2 D 2   nD.K
+         h0 (nD) − h1 (nD) + h0 (K − nD) =           −      + 1 + pa .        (9)
+                                                2        2
+Since D is effective, D 6= 0, h0 (K − nD) = 0 for n ≫ 0 (for example, choose
+n > K.H where H is an ample divisor). We also have h1 (nD) ≥ 0, so h0 (nD) ≥
+n2 D2
+  2   + O(n) and D is quasi-ample.
+    It is not always true that if D is nef then h0 (E − D) ≤ h0 (E). If h0 (D) = 0
+(for example if D corresponds to a non-zero torsion element of Pic X) then
+when E = D we have h0 (E − D) = h0 (D − D) = h0 (0) = 1 > h0 (E) = 0.
+We will want some control over h0 (E − D) when D is nef, and so we prove the
+following weak lemma.
+Lemma 7.10. Let X be a nonsingular projective variety of dimension q. Let
+D be a nef divisor on X. Let E be any divisor on X. Then
+
+                      h0 (nE − mD) ≤ h0 (nE) + O(nq−1 )
+
+for all m, n ≥ 0, where the implied constant is independent of m.
+
+
+
+
+                                       15
+Proof. We first claim that if F is any nef divisor then there exists a divisor
+C, independent of F , such that h0 (C + F ) > 0. Explicitly, we may take C =
+(q+2)A+KX , where A is a very ample divisor on X. We prove this by induction
+on the dimension q. The case q = 1 is easy. For the inductive step, we have an
+exact sequence
+
+    0 → H 0 (X, O((q + 1)A + KX + F )) → H 0 (X, O((q + 2)A + KX + F ))
+      → H 0 (Y, i∗ (O((q + 2)A + KX + F ))) → H 1 (X, O((q + 1)A + KX + F ))
+
+where Y is an irreducible nonsingular element of |A| with inclusion map i : Y →
+X. Since (q + 1)A + F is ample, by Kodaira vanishing, the last term above is
+0. Since ωY ∼ = i∗ (O(A + KX )), by induction we get that dim H 0 (Y, i∗ (O((q +
+2)A + KX + F ))) > 0. Since the penultimate map in the exact sequence above
+is surjective, we therefore also have h0 ((q + 2)A + kX + F ) = h0 (C + F ) > 0,
+proving our claim. Then we have
+
+h0 (nE − mD) ≤ h0 (nE − mD + (C + mD)) = h0 (nE + C) ≤ h0 (nE) + O(nq−1 )
+
+independently of m, where the last inequality follows from Lemma 7.8 as in the
+proof of Lemma 7.7.
+
+
+8      Fundamental Theorems on Large Divisors
+In this section we prove a slightly expanded version of a theorem of Corvaja
+and Zannier and its analogue for holomorphic curves. These theorems will be
+fundamental to our future results.
+    Let D be a divisor on a nonsingular projective variety X defined over a
+field k. Let k(X) denote the function field of X over k. We will write D ≥ E
+if D − E is effective. Let div(f ) denote the principal divisor associated to f .
+Let L(D) be the k-vector space L(D) = {f ∈ k(X)|div(f ) ≥ −D}, and let
+l(D) = dim L(D) = h0 (D). If E is a prime divisor we let ordE f denote the
+coefficient of E in div(f ). We make the following definition.
+Definition 8.1. Let D be an effective divisor on a nonsingular projective variety
+X defined over a field k. Then we define D to be a very large divisorQ on X if
+for every P ∈ D(k) there exists a basis B of L(D) such that ordE f ∈B f > 0
+for every irreducible component E of D such that P ∈ E. We define D to be
+a large divisor if some nonnegative integral linear combination of its irreducible
+components is very large on X.
+Remark 8.2. Suppose D is very large. Let P ∈ D and let E be the set of
+irreducible components E of D such that P ∈ E. If B is a basis of L(D) that
+has the property in the definition of very large
+                                            T     with respect to P , then B also
+works as a basis with respect to any Q ∈ E∈E E. Thus, it is easily seen that
+in the definition of very large one only needs to use bases B ∈ B for some finite
+set of bases B for any very large divisor D.
+
+
+                                       16
+    We will see (Theorem 9.9) for example that on any nonsingular projective
+variety X the sum of sufficiently many ample effective divisors in general position
+is large. On the other hand, it is obvious from the definition that if D is an
+irreducible effective divisor on X then D cannot be large. Roughly speaking,
+large divisors have a lot of irreducible components of high D-dimension. With
+this definition we have the following theorems.
+Theorem 8.3A (Corvaja-Zannier). Let X be a nonsingular projective va-
+riety defined over a number field k. Let S ⊂ Mk be a finite set of places of
+k containing the archimedean places. Let D be a large divisor on X defined
+over k. Then there does not exist a Zariski-dense set of D-integral points on X.
+Furthermore, if D is very large and ΦD is a rational map to projective space cor-
+responding to D, then there exists a proper closed subset Z ⊂ X depending only
+on D (and not k or S) such that ΦD (R\Z) is finite for any set R of D-integral
+points on X. In particular, if ΦD is birational, X\D is quasi-Mordellic.
+Theorem 8.3B. Let X be a nonsingular complex projective variety. Let D be
+a large divisor on X. Then there does not exist a holomorphic map f : C →
+X\D with Zariski-dense image. Furthermore, if D is very large and ΦD is a
+rational map to projective space corresponding to D, then there exists a proper
+closed subset Z ⊂ X depending only on D such that for all holomorphic maps
+f : C → X\D, either f (C) ⊂ Z or ΦD ◦ f is constant. In particular, if ΦD is
+birational, X\D is quasi-Brody hyperbolic.
+    Theorem 8.3A appears, essentially, in the proof of the Main Theorem in [5],
+and for curves in [2]. We have added the last two statements to the theorem
+by using Vojta’s result on the exceptional hyperplanes in the Schmidt Subspace
+Theorem.
+    Given these theorems, many of our results mentioned in the introduction
+reduce to showing that certain divisors are large. Let us prove Theorem 8.3A
+first. Before proving this theorem, we need a lemma.
+Lemma 8.4. Let X be a projective variety defined over a number field k. Let
+R ⊂ X(k) be a Zariski-dense subset of X. Let v ∈ Mk . Then there exists a point
+P in X(kv )Sand a sequence {Pi } in R such that {Pi } → P in the v-topology on
+X(kv ) and {Pi } is Zariski-dense in X.
+Proof. We will always be working in the v-topology on X(kv ). First we claim
+that there exists a P in R ⊂ X(kv ) such that for every neighborhood U of P
+in X(kv ), U ∩ R is Zariski-dense in X. Indeed, suppose there is no such P .
+Then for each P in R, let UP be a neighborhood of P such that UP ∩ R is
+not Zariski-dense in X. Since X(kv ) is compact because X is projective, R is
+compact, so we may cover R by finitely many open sets UP1 , . . . , UPn . But then
+R = (UP1 ∩ R) ∪ · · · ∪ (UPn ∩ R) is not Zariski-dense in X, a contradiction.
+    Now pick some P as in the claim above. Embed X in Pnk for some n. Since k
+is countable, the set of hypersurfaces in Pnk not containing X is countable. Let
+{Hi } be an enumeration of these. There also exists a countable T     collection of
+neighborhoods {Ui } of P in X(kv ) such that Ui ⊂ Uj for i > j and Ui = {P }.
+
+                                        17
+Since Ui ∩ R is Zariski-dense in X, for allSi there exists a Pi ∈ Ui ∩ R such that
+Pi ∈
+   / Hi . Then {Pi } → P in X(kv ) and {Pi } is Zariski-dense in X since it is
+not contained in any hypersurface.
+Proof of Theorem 8.3A. Let D be a large divisor and S and X as in Theorem
+8.3A. Clearly, we may reduce to the case where D is very large. Extend-
+ing k if necessary and enlarging S, we may assume without loss of generality
+that every irreducible component of D is defined over k and that all of the
+finitely many functions in L(D) we use (see Remark 8.2) are defined over k.
+Let {φ1 , . . . , φl(D) } be a basis of L(D) over k. Let R be a (D, S)-integral set of
+points on X. It suffices to prove the theorem in the case that R is irreducible.
+By repeatedly applying Lemma 8.4, we see that there exists a sequenceSPi in R
+such that for each v in S, {Pi } converges to a point Pv ∈ X(kv ) and {Pi } is
+Zariski-dense in R.
+    Let S ′ be the set of places v ∈ S such that Pv ∈ D(kv ), and let S ′′ = S\S ′ .
+Since D is very large, for each v ∈ S ′ let Liv , i = 1, . . . , l(D) be a basis for
+                           Ql(D)
+L(D) such that ordE i=1 Liv > 0 for all irreducible components E of D such
+that Pv ∈ E(kv ). Of course each Liv is a linear form in the φj ’s over k. For
+v ∈ S ′′ , we set Ljv = φj for j = 1, . . . , l(D). Let φ(P ) = (φ1 (P ), . . . , φl(D) (P ))
+for P ∈ X\D. Let Hjv denote the hyperplane in Pl(D)−1 determined by Ljv
+with respect to the basis φ1 , . . . , φl(D) . Let λHjv ,v be the Weil function for Hjv
+given in Equation (2). We will now show that there exists ǫ > 0 and a constant
+C such that
+
+                  X l(D)
+                    X
+                            λHjv ,v (φ(Pi )) > (l(D) + ǫ)h(φ(Pi )) + C.                 (10)
+                  v∈S j=1
+
+Since R is a set of (D, S)-integral points, we have
+                                 X
+                     h(φ(Pi )) <    log max |φj (Pi )|v + O(1).
+                                                 j
+                                        v∈S
+
+Using this it suffices to prove that
+
+       X l(D)
+         X                 |φj ′ (Pi )|v              X
+                 log max                 > (l(D) + ǫ)   log max |φj ′ (Pi )|v + C ′
+                      j
+                      ′    |Ljv (Pi )|v                      j′
+       v∈S j=1                                                v∈S
+
+for some C ′ or rearranging things, simplifying, and exponentiating
+                                                       l(D)
+                            Y                          Y
+                                  | max(φj ′ (Pi ))ǫ          Ljv (Pi )|v
+                                    j′
+                            v∈S                        j=1
+
+is bounded for some ǫ > 0. Let
+
+   M = max{−ordE φj |E is an irreducible component of D, j = 1, . . . , l(D)}.
+
+
+                                               18
+               1
+Let ǫ = M        . For v ∈ S ′′ both |φj ′ (Pi )|v and |Ljv (Pi )|v are bounded for all
+i since Pv ∈     / D(kv ) and φj ′ and Ljv have poles lying only in the support of
+D. Let v ∈ S ′ . So Pv ∈ D(kv ). It follows from the definition of M and the
+                     Ql(D)
+fact that ordE i=1 Liv > 0 for any irreducible component E of D such that
+                                   Ql(D)
+Pv ∈ E(kv ) that ordE φj ′ ( i=1 Liv )M ≥ −M + M ≥ 0 for any irreducible
+component E of D such that Pv ∈ E(kv ). Since the φj ′ and Liv have poles
+only in the support of D, it follows from the previous order computation that
+                       Ql(D)
+| maxj ′ (φj ′ (Pi ))ǫ j=1    Ljv (Pi )|v is bounded for all i and all v ∈ S when ǫ =
+ 1
+M > 0. So we have proved Equation (10).
+     Note that either h(φ(Pi )) → ∞ as i → ∞ or φ(Pi ) = φ(R), and φ(Pi ) is
+constant for all i. In the latter case the theorem is proved, so we may assume
+the former. Therefore, making ǫ smaller, we see that Equation (10) holds with
+C = 0 for all but finitely many i. So by Schmidt’s Subspace Theorem, there
+exists a finite union of hyperplanes Z ⊂ Pl(D)−1 such that all but finitely many
+of the points in the set {φ(Pi ) = (φ1 (Pi ), . . . , φl(D) (Pi ))|i ∈ N} lie in Z. Using
+Remark 8.2 we see that we may choose the hyperplanes Hiv used above from a
+finite set of hyperplanes independent of R. Therefore, using the statement on
+the exceptional hyperplanes in the Schmidt Subspace Theorem, we see that Z
+may be chosen to depend only on D and not R, k, or S. Since it was assumed
+that R is irreducible and φ(R) is not a point, it follows that φ(R) ⊂ Z. Since
+φ1 , . . . , φd are linearly independent functions in K(X) and Z is a finite union of
+hyperplanes, it follows that φ−1 (Z) is a finite union of proper closed subvarieties
+of X. So R ⊂ φ−1 (Z) and the theorem is proved.
+   The proof of Theorem 8.3B is very similar.
+Proof of Theorem 8.3B. Since our assertion depends only on the support of D
+we may assume without loss of generality that D is very large on X. Let
+f : C → X\D be a holomorphic map. By Remark 8.2 there exists a finite set J
+of elements in L(D) such that for Q      any P ∈ D there exists a subset I ⊂ J that
+is a basis of L(D) such that ordE g∈I g > 0 for every irreducible component
+E of D such that P ∈ E. Let φ1 , . . . , φl(D) be a basis for L(D). Let φ =
+(φ1 , . . . , φl(D) ) : X\D → Pl(D)−1 . Let J ′ be the set of linear forms L in l(D)
+variables over C such that L ◦ φ ∈ J. If L is a linear form, let HL be the
+corresponding hyperplane. We will now show that there exists ǫ > 0 and a
+constant C such that
+                Z 2π      X                      dθ
+                      max    λHL (φ ◦ f (reiθ ))    > (l(D) + ǫ)Tφ◦f (r) − C     (11)
+                  0     I                        2π
+                      L∈I
+
+for all r > 0, where the max is taken over subsets I ⊂ J ′ such that I consists
+of exactly l(D) linearly independent linear forms. Substituting the definition
+of the Weil function in Equation (4) and the definition of Tφ◦f , after some
+manipulation the inequality in Equation (11) becomes
+           Z 2π                             X                         dθ
+                ǫ log |φ ◦ f (reiθ )| + min   log |L ◦ φ ◦ f (reiθ )|    <C
+            0                            I                            2π
+                                           L∈I
+
+
+                                           19
+                                         p
+with I as before. Since |φ◦f (reiθ )| ≤ l(D) maxj |φj ◦f (reiθ )| it clearly suffices
+to show that                                 Y
+                   max |φj ◦ f (reiθ )|ǫ min   |L ◦ φ ◦ f (reiθ )|              (12)
+                      j                   I
+                                               L∈I
+
+is bounded independently of r and θ for some ǫ > 0. Let D1 , . . . , Dm be the
+irreducible components of D. Let
+
+               M = max{−ordDi φj |i = 1, . . . , m, j = 1, . . . , l(D)}.
+
+We will work in the classical topology. Let P ∈ D. Then there exists a neigh-
+borhood U of P such that for all Q ∈ UQif Q ∈ Di for some i then P ∈ Di . Let
+I ⊂ J ′ be a subset of J ′ such that ordDi L∈I L◦φ > 0 for Q    all i such that P ∈ Di .
+                                                                              M
+If P ∈ Di , then by the definition of M we have    ord D i φj (   L∈I L ◦ φ)     ≥ 0 for
+                                                                 M
+                                                 Q
+all j. By the definition of U we see that φj ( L∈I L ◦ φ) is bounded for all
+j on the compact set U . SinceQ D is compact and may be covered by such sets
+we see that maxj |φj | minI L∈I |L ◦ φ|M is bounded on X\D (using also that
+away from D everything is obviously bounded since the φj ’s have poles only in
+                                                                                    1
+D). Therefore Equation (12) is bounded independently of r and θ for ǫ = M             .
+    If φ◦ f is constant then there is nothing to prove, so assume otherwise. Then
+Tφ◦f (r) → ∞ as r → ∞, and so making ǫ smaller, we see that we have proven
+the inequality (11) with C = 0 for all sufficiently large r. Therefore by Cartan’s
+Second Main Theorem, there exists a finite union of hyperplanes Z ⊂ Pl(D)−1
+depending only on D (the HL ’s depended only on D) such that φ(f (C)) ⊂ Z.
+Since the φj ’s are linearly independent and Z is a finite union of hyperplanes,
+φ−1 (Z) is a finite union of closed subvarieties of X and f (C) ⊂ φ−1 (Z).
+Remark 8.5. If D is very large and one can explicitly compute the map φ and
+the hyperplanes used in the above proofs, then one can explicitly compute the
+closed set Z in the theorems above. This follows from the explicit description
+of the exceptional hyperplanes in [25] and [29].
+
+
+9     Large Divisors
+                                  Pr
+For
+P an effective divisor D =          i=1 Di on X and P ∈ D(k), we let DP =
+   i:P ∈Di Di .
+                         Pr
+Lemma 9.1. Let D = i=1 Di be a divisor on a nonsingular projective variety
+X with Di effective for each i. Let P ∈ D. Let fPP    (m, n) = l(nD − mDP ) −
+l(nD − (m + 1)DP ). If there exists n > 0 such that ∞  m=0 (m − n)fP (m, n) > 0
+for all P ∈ D then nD is very large.
+                                  P∞
+Proof. Let n > 0 be such that m=0 (m − n)fP (m, n) > 0 for all P ∈ D. This
+sum is clearly finite for all P ∈ D and we let MP (n) be the largest integer such
+that fP (MP (n), n) > 0. Let P ∈ D. Let M = MP (n). Let Vj = L(nD − jDP ).
+So dim Vj /Vj+1 = fP (j, n). We have L(nD) = V0 ⊃ V1 ⊃ . . . ⊃ VM 6= 0. Choose
+a basis of VM and successively complete it to bases of VM−1 , VM−2 , . . . , V0 , to
+
+
+                                          20
+obtain a basis f1 , . . . , fl(nD) . Let E be an irreducible component of D such
+that P ∈ E. If fj ∈ Vm then ordE fj ≥ (m − n) ordE D. So we get that
+     Ql(nD)                     PM
+ordE i=1 fi ≥ (ordE D) m=0 (m− n)fP (m, n) > 0. So nD is very large.
+Theorem
+     Pr 9.2. Let X be a nonsingular projective variety. Let q = dim X. Let
+D = i=1 Di be a divisor on X such that Di is effective and nef for each i.
+Suppose also that every irreducible component of D is nonsingular. If
+
+                            Dq > 2qDq−1 .DP ,                ∀P ∈ D
+
+then nD is very large for n ≫ 0. In particular, D is large.
+                               Pk
+Proof. Let P ∈ D. Let DP = j=1 aj Ej , where each Ej is a distinct prime
+divisor. Repeatedly applying Lemma 7.8, we obtain
+
+   dim H 0 (X, O(nD − mDP )) − dim H 0 (X, O(nD − (m + 1)DP ))
+                         j −1
+                      k aX                                              j−1
+                      X                                                 X
+                  ≤             dim H 0 (Ej , i∗Ej O(nD − mDP −                  aj ′ Ej ′ − lEj ))
+                      j=1 l=0                                           j ′ =1
+
+It follows from the fact that DP is nef, Lemma 7.8, and Lemma 7.10 that
+
+                                          j−1
+                                          X
+   dim H 0 (Ej , i∗Ej O(nD − mDP −                 aj ′ Ej ′ − lEj ))
+                                          j ′ =1
+
+                                                    ≤ dim H 0 (Ej , i∗Ej O(nD)) + O(nq−2 ).
+
+Therefore,
+
+   dim H 0 (X, O(nD − mDP )) − dim H 0 (X, O(nD − (m + 1)DP ))
+                                              k
+                                              X
+                                          ≤         aj dim H 0 (Ej , i∗Ej O(nD)) + O(nq−2 ).
+                                              j=1
+
+                                q
+Since D is nef, l(nD) = nq! Dq + O(nq−1 ). Since i∗Ej O(D) is also nef, we have
+                                    q−1
+                             n
+dim H 0 (Ej , i∗Ej O(nD)) = (q−1)! Dq−1 .Ej + O(nq−2 ). So
+
+                        k
+               nq−1 X                                nq−1
+fP (m, n) ≤                aj Dq−1 .Ej + O(nq−2 ) =          Dq−1 .DP + O(nq−2 ).
+              (q − 1)! j=1                          (q − 1)!
+
+To use this estimate, we borrow a lemma from [5].
+Lemma 9.3. Let h and R be integers with R ≤ h and P     let x1 , . . . , xP
+                                                                          h , U1 , . . . , UR
+                                                          R                  h
+be real numbers. If 0 ≤ xi ≤ Ui for i = 1, . . . , R and j=1 Uj ≤ j=1 xj then
+Ph          PR
+  j=1 jxj ≥   j=1 jUj .
+
+
+
+
+                                                21
+Proof. We have
+  R
+  X             h
+                X                             R
+                                              X             R
+                                                            X
+        jUj +         (R + 1 − j)xj ≤               jUj +         (R + 1 − j)xj
+  j=1           j=1                           j=1           j=1
+                                              R
+                                              X             R
+                                                            X                                       R
+                                                                                                    X
+                                          ≤         jUj +         (R + 1 − j)Uj = (R + 1)                 Uj
+                                              j=1           j=1                                     j=1
+
+So, rearranging things.
+                                                                                      
+                      h
+                      X             R
+                                    X                             h
+                                                                  X            R
+                                                                               X
+                            jxj ≥         jUj + (R + 1)                xj −         Uj 
+                      j=1           j=1                           j=1          j=1
+
+
+and the last term is positive by assumption.
+                  q                           q−1
+                               n
+   Let Rn = nq! Dq and Sn = (q−1)!  Dq−1 .DP . In the notation of Lemma 9.1,
+we have
+                 MP (n)
+                  X
+                        fP (m, n) = l(nD) = Rn + O(nq−1 ).
+                            m=0
+
+and fP (m, n) ≤ Sn + O(nq−2 ). We will assume from now on that Sn 6= 0 (the
+case Sn = 0 is similar). Then using our estimate, we have MP (n) ≥ R
+                                                                   Sn + O(1)
+                                                                     n
+
+       Rn
+     P Sn +O(1)                   PMP (n)
+and m=0         (Sn + O(nq−2 )) ≤ m=0      fP (m, n). So using Lemma 9.3, for
+n ≫ 0 we get the estimate
+                                          Rn
+    MP (n)                                Sn
+                                             +O(1)                                     MP (n)
+     X                                        X                                         X
+                                                                        q−2
+             (m − n)fP (m, n) ≥                      m(Sn + O(n               )) − n            fP (m, n)
+    m=0                                    m=0                                         m=0
+                                          Rn2
+                                    ≥     − nRn + O(nq )
+                                      2Sn
+                                      Rn nq
+                                                                       
+                                              Dq − 2qDq−1 .DP + O(nq−1 ) .
+                                                             
+                                    ≥
+                                      Sn 2q!
+
+So for n ≫ 0, M                             q      q−1
+             P P
+               m=0 (m − n)fP (m, n) > 0 if D > 2qD     .DP . Then we are
+done by Lemma 9.1.
+   When q = 1 we obtain
+Corollary 9.4. Let D be an effective divisor on a nonsingular projective curve
+X. If D is a sum of more than 2 distinct points on X then D is large.
+   By Theorems 8.3A and 8.3B we then recover
+Corollary 9.5A. Siegel’s theorem (Theorem 2.1A)
+Corollary 9.5B. Picard’s theorem (Theorem 2.1B)
+
+                                                     22
+    Actually we have only proved these theorems for nonsingular curves C̃. How-
+ever, the general case follows from this case by looking at the normalization of
+C̃.                                        Pr
+    Suppose that we have a divisor D = i=1 Di satisfying P    the hypotheses of
+                                                                r
+Theorem 9.2. We would like to modify D to a divisor D′ = i=1 ai Di so that
+we may optimally apply the theorem. When each Di is ample, this amounts
+to choosing the ai ’s so that in the embedding given by nD′ for n ≫ 0 the
+degree of each ai Di is the same. In terms of intersection theory, we would like
+ai Di .(D′ )q−1 to be the same for each i. We make the following definition:
+Definition
+      Pr          9.6. Let X be a nonsingular projective variety. Let q = dim X. Let
+D = i=1 Di be a divisor on X with D1 , . . . , Dr effective.. Then D is said to
+                                                                       q
+have equidegree with respect to D1 , . . . , Dr if Di .Dq−1 = Dr for i = 1, . . . , r. We
+will say that D is equidegreelizableP     (with respect to D1 , . . . , Dr ) if there exist real
+                                           r
+numbers ai > 0 such that if D′ = i=1 ai Di then D′ has equidegree with respect
+to a1 D1 , . . . , ar Dr . (extending intersections to Div X ⊗ R in the canonical way).
+  We will frequently omit the reference to the Di ’s when it is clear what we
+mean.
+Lemma 9.7. Let X be a nonsingular projective variety. Let q = dim X. Let
+D1 , . . . , Dr be divisors on X with Diq > 0 for allPi. Suppose that all q-fold
+                                                                r
+intersections of the Di ’s are nonnegative. Then                i=1 Di is equidegreelizable
+with respect to D1 , . . . , Dr .
+                                                         Pr     ai   q
+Proof. Consider the function  Pr f (a1 , . . . , ar ) = ( i=1 e Di ) subject to the con-
+straint g(a1 , . . . , ar ) = i=1 ai = 0. Since all q-fold intersections of the Di ’s
+are nonnegative, f (a1 , . . . , ar ) ≥ eqai Diq for any i. Since Diq > 0 for all i, as
+max{ai } → ∞Pwe have f (a1 , . . . , ar ) → ∞. It follows that f attains a minimum
+                     r
+on the plane i=1 ai = 0. Therefore there exists a solution λ, a1 , . . . , ar to the
+                                                ∂f              Pr                   ∂g
+Lagrange multiplier equations g = 0, ∂a           i
+                                                     = eai Di .( i=1 eai Di )q−1 = λ ∂a i
+                                                                                          =
+                            ′
+                              P   r   ai
+λ, i = 1, . . . , r. So D = i=1 e Di has equidegree with respect to D1 , . . . , Dr
+and trivially eai > 0.
+    We give an example to show that not all divisor sums are equidegreelizable.
+Example 9.8. Let X = P1 × P1 . Let D1 = P1 × P1 , D2 = P2 × P1 , and D3 =
+P1 × Q, where P1 , P2 , and Q are points in the various P1 ’s. So D1 .D2 = D12 =
+D22 = D32 = 0 and D1 .D3 = D2 .D3 = 1. Let D = a1 D1 + a2 D2 + a3 D3 . Since
+a3 D3 .D = a1 D1 .D+a2 D2 .D, it is clear that there do not exist a1 , a2 , a3 > 0 such
+                  2
+that ai Di .D = D3 for i = 1, 2, 3. So D = D1 + D2 + D3 is not equidegreelizable
+with respect to D1 , D2 , and D3 .
+    With the above definition, we have the following theorem.
+Theorem Pr 9.9. Let X be a nonsingular projective variety. Let q = dim X. Let
+D = i=1 Di be a quasi-ample divisor on X equidegreelizable with respect to
+D1 , . . . , Dr , with D1 , . . . , Dr nef and effective. Suppose that every irreducible
+
+
+                                              23
+component of D is nonsingular. Suppose that the intersection of any m + 1
+distinct Di ’s is empty. If r > 2mq then D is large. Furthermore, there exists a
+very large divisor E with the same support as D such that ΦE is birational.
+Proof. Since D is equidegreelizable, we may find positive integers ai such that
+                              .(D′ )q−1
+if D′ = ri=1 ai Di then ai Di(D         is arbitrarily close to 1r for each i. Note
+        P
+                                ′ )q
+
+that D′ is again quasi-ample. Since for any P ∈ D(k), P belongs to at most m
+divisors Di , and r > 2mq, we have that
+                                      X
+              2q(D′ )q−1 .(D′ )P = 2q       ai Di .(D′ )q−1 < (D′ )q .
+                                      i:P ∈Di (k)
+
+So the hypotheses of Theorem 9.2 are satisfied and so nD′ is very large for n ≫ 0.
+The last statement then follows from the fact that D′ is quasi-ample.
+Lemma 9.10. Let X be a complex projective variety. Let D = ri=1 Di be a
+                                                                       P
+sum of effective Cartier divisors on X. Then there exists a nonsingularPprojec-
+                                                                                 r
+tive variety X ′ , a birational morphism π : X ′ → X, and a divisor D′ = i=1 Di′
+on X ′ such that Supp Di′ ⊂ Supp π ∗ Di for all i, every irreducible component of
+D′ is nonsingular, |Di′ | is base-point free for all i (in particular Di′ is nef ), and
+κ(Di′ ) = κ(Di ) = dim ΦDi′ (X ′ ) for all i.
+Proof. Taking a resolution of the singularities of X and of the embedded sin-
+gularities of the irreducible components of D we may assume that X and every
+irreducible component of D are nonsingular. For each i, let mi > 0 be such
+that dim Φmi Di (X) = κ(Di ). Let π : X ′ → X be the map obtained by blow-
+ing up the base-points of all the linear systems |mi Di |. Then π ∗ (mi Di ) =
+Di′ + Fi for each i, where |Di′ | is base-point free and Fi is the fixed part of
+|π ∗ (mi Di )|. We have, trivially from the definition, κ(Di ) = κ(mi Di ). Further,
+κ(mi Di ) = κ(π ∗ (mi Di )) (in fact l(mDi ) = l(π ∗ (mDi )) for all m follows easily
+from π∗ OX ′ = OX and the projection formula). Finally, κ(π ∗ (mi Di )) = κ(Di′ )
+since by construction κ(Di′ ) = maxn>0 dim ΦnDi′ (X ′ ) ≥ κ(Di ) = κ(π ∗ (mi Di ))
+(the other inequality
+                   Pr being    trivial). So κ(Di′ ) = κ(Di ) for all i and therefore
+   ′            ′          ′
+X , π, and D = i=1 Di satisfy the requirements of the lemma.
+   We now obtain one of our main results.
+Theorem 9.11A. Let X P       be a projective variety defined over a number field k.
+                               r
+Let q = dim X. Let D = i=1 Di be a divisor on X defined over k such that
+the Di ’s are effective Cartier divisors and the intersection of any m + 1 distinct
+Di ’s is empty.
+
+(a). If Di is quasi-ample for each i and r > 2mq then X\D is quasi-Mordellic.
+(b). If Di is ample for each i and r > 2mq then X\D is Mordellic.
+Theorem
+     Pr 9.11B. Let X be a complex projective variety. Let q = dim X. Let
+D = i=1 Di be a divisor on X such that the Di ’s are effective Cartier divisors
+and the intersection of any m + 1 distinct Di ’s is empty.
+
+                                          24
+(a). If Di is quasi-ample for each i and r > 2mq then X\D is quasi-Brody
+hyperbolic.
+(b). If Di is ample for each i and r > 2mq then X\D is complete hyperbolic
+and hyperbolically imbedded in X. In particular, X\D is Brody hyperbolic.
+    Aside from the statement about being complete hyperbolic and hyperboli-
+cally imbedded, the same proof works for both Theorems 9.11A and 9.11B.
+Proof. We’ll prove part (a) first. Note that if π : X ′ → X is a birational
+morphism and the conclusions of part (a) of the theorems hold for π ∗ D on
+X ′ then they hold for D on X. Therefore, by Lemma 9.10, we may assume
+(extending k in the Diophantine case if necessary) that X is nonsingular, every
+irreducible component of D is nonsingular, and Di is nef for all i. The statement
+then follows from Lemma 9.7, Theorem 9.9, and Theorems 8.3A and 8.3B.
+    For part (b), we note that by (a) any set of D-integral points (resp. the image
+of any holomorphic map f : C → X\D) is not Zariski-dense. Let R be a set of
+D-integral points (resp. the image of a holomorphic map f : C → X\D). Let
+Y be an irreducible component of the Zariski-closure of R. Suppose dim Y > 0.
+Then D pulls back to a sum of r ample (hence quasi-ample) divisors on Y
+such that the intersection of any m + 1 of them is empty. But R ∩ Y is a
+dense set of D|Y -integral points on Y (resp. the image of a holomorphic map
+f : C → Y \D), contradicting part (a) proven above since r > 2mq > 2m dim Y .
+Therefore dim Y = 0.
+    To prove the extra hyperbolicity statements in (b) in the analyticTcase, we
+use Theorem 7.4. Let ∅ ⊂ J ⊂ {1, . . . , r}. Let s = #J. Let X ′ = j∈J Dj .
+We may clearly    assume that X ′ 6⊂ Di for any i ∈ I\J and that dim X ′ > 0.
+Let D = i∈I\J Di |X ′ . Then D′ is a sum of r − s ample divisors on X ′ and
+      ′
+           P
+
+the intersection of any m − s + 1 of the ample divisors is empty since X ′ is
+already an intersection of s of the Di ’s. But r > 2mq implies that r − s >
+2(m − s) dim X ′ . Therefore by what we have proven above, X ′ \D′ is Brody
+hyperbolic. So by Theorem 7.4, X\D is complete hyperbolic and hyperbolically
+imbedded in X.
+    We can prove our Main Conjectures in the simple case m = 1 by reducing
+to Siegel’s and Picard’s theorems. We will need the following Bertini theorem
+(see [11, Th. 7.19]).
+Theorem 9.12. Let |D| be a base-point free linear system on a nonsingular pro-
+jective variety X with dim ΦD (X) ≥ 2. Then every member of |D| is connected
+and a general member of |D| is nonsingular and irreducible.
+Lemma 9.13. Suppose D = D1 +D2 is a Cartier divisor on a projective variety
+X with κ(D1 ) > 0, κ(D2 ) > 0 and D1 ∩D2 = ∅. Then κ(D) = κ(D1 ) = κ(D2 ) =
+1.
+Proof. By Lemma 9.10, we may assume that X is nonsingular and |D| is base-
+point free. If κ(D) ≥ 2 then dim ΦnD (X) ≥ 2 for some n > 0. But by Theorem
+9.12, every divisor in |nD| is connected, contradicting D1 ∩ D2 = ∅.
+
+                                        25
+Theorem 9.14. The Main Conjectures, Conjectures 5.1A,B through 5.4A,B,
+are true if m = 1 (i.e. Di ∩ Dj = ∅ for all i 6= j).
+Proof.
+Pr      By the above lemma, it suffices to prove the conjectures when D =
+   i=1 D i with r > 2, and κ(D) = 1. By Lemma 9.10, we may assume that X
+is nonsingular and D is base-point free. For n ≫ 0, ΦnD (X) is a nonsingular
+curve C and ΦnD has connected fibers. Therefore, since Di ∩ Dj = ∅ for i 6= j,
+we have ΦnD (X\D) = C\{r points}. Since r > 2, we are done by Siegel’s and
+Picard’s theorems.
+
+
+10      A Filtration Lemma
+We’ll now show how some of the results in the last section may be improved
+by use of a linear algebra lemma on filtrations. The idea of using this lemma,
+as well as its statement and proof, are taken from the paper [5]. Corvaja and
+Zannier used it to prove a result on integral points on surfaces, and it will be
+essential for our results on surfaces in the next section also.
+Lemma 10.1. Let V be a vector space of finite dimension d over a field k. Let
+V = W1 ⊃ W2 ⊃ · · · ⊃ Wh , V = W1∗ ⊃ W2∗ ⊃ · · · ⊃ Wh∗∗ be two filtrations on
+V . There exists a basis v1 , . . . , vd of V which contains a basis of each Wj and
+Wj∗ .
+Proof. The proof will be by induction on d. The case d = 1 is trivial. By
+refining the first filtration, we may assume without loss of generality that W2
+is a hyperplane in V . Let Wi′ = Wi∗ ∩ W2 . By the inductive hypothesis there
+exists a basis v1 , . . . , vd−1 of W2 containing a basis of each of W3 , . . . , Wh and
+W1′ , . . . , Wh′ . If Wi∗ ⊂ W2 for i > 1 then Wi′ = Wi∗ for i > 1. So in this case
+if we complete v1 , . . . , vd−1 to any basis of V we are done. Otherwise, let l
+be the maximal index with Wl∗ 6⊂ W2 and let vd ∈ Wl∗ \Wl′ . We claim that
+B = {v1 , . . . , vd } is a basis of V with the required property. It clearly contains
+a basis of Wi for each i. Let i ∈ {1, . . . , h∗ }. If i > l then Wi∗ = Wi′ and so by
+construction B contains a basis of Wi∗ . If i ≤ l then vd ∈ Wl∗ \Wl′ ⊂ Wi∗ \Wi′ .
+Since B contains a basis Bi′ of Wi′ and Wi′ is a hyperplane in Wi∗ , we see that
+Bi′ ∪ {vd } is a basis of Wi∗ .
+    Using our notation from the last section, suppose that for P ∈ D we have
+DP = DP,1 +DP,2 where DP,1 and DP,2 are effective divisors with no irreducible
+components in common. We may then prove the following versions of Lemma
+9.1 and Theorem 9.2.
+                         Pr
+Lemma 10.2. Let D = i=1 Di be a nonzero divisor on a nonsingular variety
+X with Di effective for each i. Let P ∈ D. Let fP,j (m, n) = l(nD −PmDP,j ) −
+                                                                      ∞
+l(nD−(m+1)DP,j ) for j = 1, 2. If there exists n > 0 such that either m=0 (m−
+n)fP,j (m, n) > 0 or DP,j = 0 for all P ∈ D and j = 1, 2 then nD is very large.
+
+
+
+
+                                          26
+Theorem
+Pr          10.3. Let X be a nonsingular variety. Let q = dim X. Let D =
+  i=1 D i be a divisor on X such that DP,j is nef for all P ∈ D and j = 1, 2.
+Suppose also that every irreducible component of D is nonsingular. If
+                     Dq > 2qDq−1 .DP,j ,        ∀P ∈ D, j = 1, 2
+then nD is very large for n ≫ 0.
+    The proofs are similar to the proofs of Lemma 9.1 and Theorem 9.2. The
+only difference is that in the proof of Lemma 10.2, we look at the two filtrations
+of L(nD) given by Wj = L(nD − jDP,1 ) and Wj∗ = L(nD − jDP,2 ) and we use
+the filtration lemma to construct a basis f1 , . . . , fl(nD) that contains a basis for
+each Wj and Wj∗ .
+    Suppose now that D = ri=1 Di where the Di ’s are effective divisors and
+                               P
+the intersection of any m + 1 distinct Di ’s is empty. We may then write DP =
+DP,1 + DP,2 where DP,1 and DP,2 are each not a sum of more than [ m+1        2 ] Di ’s,
+where [x] denotes the greatest integer in x. Using this, we get the following
+improvements to the part (a)’s of Theorems 9.11A and 9.11B.
+Theorem 10.4A. Let X P       be a projective variety defined over a number field k.
+                                r
+Let q = dim X. Let D = i=1 Di be a divisor on X defined over k such that
+the Di ’s are effective Cartier divisors with no irreducible components in common
+and the intersection of any m + 1 distinct Di ’s is empty. If Di is quasi-ample
+for each i and r > 2[ m+12 ]q then X\D is quasi-Mordellic.
+
+Theorem     10.4B. Let X be a complex projective variety. Let q = dim X. Let
+D = ri=1 Di be a divisor on X such that the Di ’s are effective Cartier divisors
+      P
+with no irreducible components in common and the intersection of any m + 1
+distinct Di ’s is empty. If Di is quasi-ample for each i and r > 2[ m+1
+                                                                      2 ]q then
+X\D is quasi-Brody hyperbolic.
+    Unfortunately, we need the requirement that the Di ’s have no irreducible
+components in common so that we may have DP,1 and DP,2 with no irreducible
+components in common (which is necessary in proving Lemma 10.2). Because
+of this, we cannot prove a finiteness result about ample divisors as we did in
+the last section, since the restrictions of the Di ’s to a subvariety of X may have
+irreducible components in common.
+
+
+11      Surfaces
+We will now see that we may make the results of the last two sections more
+precise if we restrict to the case where X is a surface. With regards to integral
+points, this section builds on some of the work in [5]. Corvaja and Zannier prove,
+essentially, Theorem 11.2 [5, Main Theorem] and they prove Theorem 11.5A
+when m = 2 and the Di ’s have multiples which are all numerically equivalent.
+The Nevanlinna-theoretic analogues of the results in [5] were proved by Ru and
+Liu in [16]. Our results overlap with their results as well.
+    We first prove a consequence of the Hodge Index theorem.
+
+                                          27
+Lemma 11.1. Let D be a divisor on a nonsingular surface X with D2 > 0.
+Then (D2 )(E 2 ) ≤ (D.E)2 for any divisor E on X.
+                                                                           N
+Proof. By the Hodge index theorem, the intersection pairing on Num X          R
+can be diagonalized with one +1 on the diagonal and all other diagonal
+                                                                     N   entries
+−1. We will identify elements of Pic X as elements of NumN        X    R in the
+canonical way. Extend D to an orthogonal basis B of Num X           R. Let E be
+any divisor on X. Writing E in the basis B, it is apparent from the Hodge index
+theorem that (D2 )(E 2 ) ≤ (D.E)2 .
+   For surfaces, the more precise version of Theorem 10.3 is
+Theorem 11.2P(Corvaja-Zannier). Let X be a nonsingular projective sur-
+                   r
+face. Let D = i=1 Di be a nef divisor      on X with the Di ’s effective divisors
+       2
+                                     P
+and D > 0. For P ∈ D, let DP = i:P ∈Di Di = DP,1 + DP,2 where DP,1 and
+DP,2 are effective divisors with no irreducible components in common. Suppose
+that for all P ∈ D, j = 1, 2 and m, n > 0 we have either l(nD − mDP,j ) = 0 or
+
+   l(nD − mDP,j ) − l(nD − (m + 1)DP,j ) ≤ (nD − mDP,j ).mDP,j + O(1)
+
+where the constant does not depend on m or n. Let AP,j = DP,j .DP,j , BP,j =
+D.DP,j , and C = D.D for j = 1, 2. If for all P ∈ D and j = 1, 2 either we have
+DP,j = 0 or we have
+                                                          q
+               2                                               2 −A
+AP,j > 0 =⇒ BP,j  − 2AP,j C + 3AP,j BP,j + (3AP,j − BP,j ) BP,j        P,j C < 0
+
+AP,j = 0 =⇒ C > 4BP,j
+                                                         q
+             2                                             2 −A
+AP,j < 0 =⇒ BP,j − 2AP,j C + 3AP,j BP,j + (3AP,j − BP,j ) BP,j P,j C > 0
+
+                                                          2
+then nD is very large for n ≫ 0 (note that by Lemma 11.1 BP,j − AP,j C > 0).
+Proof. Let P ∈ D and j ∈ {1, 2} with DP,j 6= 0. Let A = AP,j and B = BP,j .
+By assumption, we have
+
+fP,j (m, n) = dim H 0 (X, O(nD − mDP,j )) − dim H 0 (X, O(nD − (m + 1)DP,j ))
+            ≤ nB − mA + O(1)
+
+where the constant in the O(1) does not depend on m or n. We have
+
+                              D2 2        C
+                    l(nD) =     n + O(n) = n2 + O(n).
+                              2           2
+Solving
+                M(n)
+                X                           C 2
+                       nB − mA + O(1) =       n + O(n) = l(nD)
+                m=0
+                                            2
+
+
+
+
+                                       28
+for M (n), we get
+                          √
+                     B±    B 2 − AC
+          M (n) =                   n + O(1),                    A 6= 0
+                            A
+                   C
+          M (n) =    n + O(1),                           A = 0, B 6= 0
+                  2B
+          M (n) = O(n2 ),                                A = 0, B = 0.
+
+From now on, P
+             we will always choose the minus sign in the first expression above.
+We also have ∞m=0 fP,j (m, n) = l(nD). Therefore by Lemma 9.3,
+
+         ∞                          M(n)
+         X                          X
+             (m − n)fP,j (m, n) ≥          m(nB − mA + O(1)) − nl(nD).       (13)
+         m=0                        m=0
+             √
+Let K = B− BA −AC . If A 6= 0 then substituting K into (13) we get
+                 2
+
+
+
+          ∞
+          X                         A     B     C
+             (m − n)fP,j (m, n) ≥ (− K 3 + K 2 − )n3 + O(n2 )
+          m=0
+                                    3     2     2
+
+                B        C
+So if − A  3        2
+        3 K + 2 K − 2 > 0 then by Lemma 10.2, nD will be very large for
+n ≫ 0. Algebraic simplification then gives the theorem in the case A 6= 0. The
+other cases are similar.
+Lemma 11.3. Let X be a nonsingular projective surface. Let C be an irre-
+ducible curve on X and D any divisor on X. Then
+
+                     h0 (D) − h0 (D − C) ≤ max{0, 1 + C.D}.
+
+Proof. The statement depends only on the linear equivalence class of D, so
+replacing D by an appropriate divisor linearly equivalent to D, we may assume
+that the support of D does not contain any possible singularity of C. By Lemma
+7.8 we have
+                   h0 (D) − h0 (D − C) ≤ dim H 0 (C, O(D)|C )
+Since the support of D does not contain any singularity of C, O(D)|C has degree
+C.D on C and dim H 0 (C, O(D)|C ) ≤ max{0, 1 + C.D}.
+Lemma 11.4. Let X be a nonsingular projective surface. Let D be a nef divisor
+on X. Let E be an effective divisor on X such that either E is linearly equivalent
+to an irreducible curve or for every irreducible component C of E, C.E ≤ 0.
+Then for all m, n > 0 either l(nD − mE) = 0 or
+
+          l(nD − mE) − l(nD − (m + 1)E) ≤ (nD − mE).E + O(1)                 (14)
+
+where the constant is independent of m and n.
+
+
+
+
+                                           29
+Proof. In the first case, suppose E is linearly equivalent to an irreducible curve
+C. If (nD − mE).E ≥ 0 then (14) holds by Lemma 11.3. If (nD − mE).E =
+nD.C − mC.C < 0 then since D is nef, we must have C.C > 0. But if l(nD −
+mE) > 0 then nD−mE is linearly equivalent to an effective divisor F = G+mC
+where m ≥ 0 and G is an effective divisor not containing C. Since clearly
+G.C ≥ 0, F.C = (nD − mE).E < 0 implies C.C < 0, a contradiction. So either
+l(nD − mE) = 0 or (14) holds in this case.
+   Now suppose we are in the second
+                                  Pk case, where for every irreducible compo-
+nent C of E, C.E ≤ 0. Let E = j=1 aj Cj , where each Cj is a distinct prime
+divisor. Then as in the proof of Theorem 9.2 we have
+
+  l(nD − mE) − l(nD − (m + 1)E) ≤
+                       j −1
+                    k aX                                            j−1
+                    X                                               X
+                              dim H 0 (Cj , i∗Cj O(nD − mE −                aj ′ Cj ′ − lCj ))
+                    j=1 l=0                                        j ′ =1
+
+But
+                                 j−1
+                                 X
+dim H 0 (Cj , i∗Cj O(nD − mE −            aj ′ Cj ′ − lCj )) ≤ dim H 0 (Cj , i∗Cj O(nD − mE)) + O(1)
+                                 j ′ =1
+
+                                                         ≤ (nD − mE).Cj + O(1),
+
+where the constant is independent of m and n. The second inequality follows
+since (nD − mE).Cj ≥ nD.Cj ≥ 0 as D is nef and E.Cj ≤ 0. Combining the
+above inequalities, we then see that (14) always holds in this case.
+   Going back to the General Setup of Section 4, we have
+Theorem 11.5A. Let X be a projective surface. Suppose the Di ’s have no
+irreducible components in common.
+
+(a). If Di is quasi-ample for all i and r ≥ 4[ m+1
+                                                2 ] then X\D is quasi-Mordellic.
+(b). If Di is ample for all i and either m is even and r > 2m or m is odd and
+r > 2m + 1 then X\D is Mordellic.
+Theorem 11.5B. Let X be a projective surface. Suppose the Di ’s have no
+irreducible components in common.
+
+(a). If Di is quasi-ample for all i and r ≥ 4[ m+12 ] then X\D is quasi-Brody
+hyperbolic.
+(b). If Di is ample for all i and either m is even and r > 2m or m is odd and
+r > 2m + 1 then X\D is complete hyperbolic and hyperbolically imbedded in X.
+In particular, X\D is Brody hyperbolic.
+Proof. We’ll prove the part (a)’s first. It suffices to prove these in the case
+r = 4[ m+1
+        2 ]. As in the proofs of Theorems 9.11A and 9.11B, we may use Lemma
+9.10 to reduce to the case where X is nonsingular, |Di | is base-point free for all
+
+                                              30
+i, and dim ΦDi (X) = 2 for all i. Therefore Di2 > 0 and Di is nef for each i. By
+Lemma 9.7, D is P    equidegreelizable. So we      may find positive integers a1 , . . . , ar
+such that if D′ = ri=1 ai Di then ai(D   Di .D′
+                                           ′ )2  is arbitrarily close to 1r for all i. Since
+at most m Di ’s meet at any given point, DP′ is a sum of at most m ai Di ’s for
+any P ∈ D′ . Therefore we may write DP′ = DP,1           ′      ′
+                                                            + DP,2  where each DP,j  ′
+                                                                                         is a
+                   m+1                 ′             ′
+sum of at most [ 2 ] ai Di ’s, and DP,1 and DP,2 have no irreducible components
+                                    ′
+in common. Note that when DP,j          6= 0, we have, from our assumptions on the
+                ′
+Di ’s, that |DP,j | is base-point free and dim ΦDP,j   ′   (X) = 2. So by Theorem 9.12,
+   ′
+DP,j   is linearly equivalent to an irreducible curve. Therefore, by Lemma 11.4,
+we will be able to apply Theorem 11.2 to D′ .
+     The hardest case is clearly when DP,j ′
+                                                is a sum of the maximum [ m+1   2 ] ai Di ’s.
+For simplicity, we will now restrict to this case. It follows that in the notation
+of Theorem 11.2 we may take, for all such P and j,
+                             C      r     C
+                                 − m+1 =      −4 <ǫ
+                            BP,j  [ 2 ]  BP,j
+where by adjusting the ai ’s in D′ , ǫ may be made arbitrary close to 0 while
+                 A
+at the same time BP,j
+                   P,j
+                       is positive and bounded away from 0. Furthermore, by
+                A        BP,j         AP,j
+Lemma 11.1, BP,j
+              P,j
+                  ≤       C . Let a = BP,j        and c = BCP,j . Then by Theorem 11.2,
+we must show that
+                                                √
+                       1 − 2ac + 3a + (3a − 1) 1 − ac < 0                     (15)
+                                                           √
+where 0 < a ≤ 1c . When c = 4, we get 1 − 5a + (3a − 1) 1 − 4a, which is easily
+seen to have a root only at a = 0 for 0 ≤ a ≤ 41 , and is negative for 0 < a ≤ 41
+since putting a = 41 gives − 14 . So when c = 4 + ǫ, since a is bounded away from
+zero as ǫ → 0, we see that (15) is negative for small enough ǫ. Therefore by
+Theorem 11.2, nD′ is very large for n ≫ 0. Since D′ is quasi-ample, ΦnD′ is
+a birational map to projective space for some arbitrarily large n. Therefore by
+Theorems 8.3A and 8.3B we are done, as D and D′ have the same support.
+    Assume the hypotheses in the part (b)’s. Let Y be the Zariski-closure of a set
+of D-integral points (resp. f (C)). By what we have proven above, dim Y ≤ 1.
+If dim Y = 1, let C be an irreducible component of this curve with dim C > 0.
+Since each Di is ample, Di must intersect C in a point. Since at most m Di ’s
+meet at a point and r > 2m, we see that D|C contains at least 3 distinct points.
+Therefore by Siegel’s (resp. Picard’s) theorem we get a contradiction as the
+above gives a dense set of D|C -integral points (resp. a dense holomorphic map
+C → C\D|C ). This same argument and Theorem 7.4 show that in the analytic
+case X\D is hyperbolic and hyperbolically embedded in X.
+    It is possible to make minor improvements to this theorem. For example,
+Theorem    11.6A. Let X be a nonsingular projective surface. Suppose m = 2,
+D = 4i=1 Di , Di .Dj > 0 for i 6= j, D12 > 0, Di is nef for all i, and the Di ’s
+     P
+have no irreducible components in common. Suppose also that the conclusion of
+Lemma 11.4 holds with D any positive integral linear combination of the Di ’s
+and E = Di , for i = 1, 2, 3, 4. Then X\D is quasi-Mordellic.
+
+                                             31
+Theorem 11.6B. With the same hypotheses as above, in the analytic setting,
+X\D is quasi-Brody hyperbolic.
+
+Proof. We first show that for any ǫ > 0, ( 4i=1 eai Di )2 ≥ e 3 maxi {ai } on the
+                                                P                     2
+
+                 P4                                       P4
+plane (1+ǫ)a1 + i=2 ai = 0. If maxi {ai } = a1 then ( i=1 eai Di )2 ≥ e2a1 D12 ≥
+                                                                                       a
+e2a1 . Otherwise, if maxi {ai } = aj , j > 1, then clearly we must have ak ≥ − 3j
+                          P4     ai     2    aj +ak            2
+                                                                 a
+for some j 6= k. Then ( i=1 e Di ) ≥ e              Dj .Dk ≥ e 3 j since Dj .Dk ≥ 1.
+            P4     ai    2
+                                                                          P4
+Therefore ( i=1 e Di ) takes a minimum on the plane (1 + ǫ)a1 + i=2 ai = 0.
+So looking at the Lagrange multiplier equations as in Lemma 9.7, there      P4 exist
+real numbers bi > 0, λ > 0 (depending on ǫ) such that if D′ =                   i=1 bi Di
+then b1 D1 .D′ = (1 + ǫ)λ and bi Di .D′ = λ for i = 2, 3, 4, or written differently,
+  (D′ )2    4+ǫ       (D′ )2
+b1 D1 .D′ = 1+ǫ and bi Di .D′ = 4 + ǫ > 4 for i = 2, 3, 4. Note also that it follows
+from
+ P4 the inequality we proved above that in terms of a1 , . . . , a4 , the region where
+( i=1 eai Di )2 takes a minimum may be bounded independently of ǫ. Therefore
+there exist positive constants K, K ′ independent of ǫ, such that we may choose
+                                                                   2
+K < bi < K ′ for all i, and in particular, as ǫ → 0, b(b1 D 1 D1 )
+                                                              1 .D
+                                                                    ′ is bounded away
+
+from zero.
+    We now choose positive integers ci such that ccji closely approximates bbji , and
+          P4
+let E = i=1 ci Di . Having chosen ǫ small enough and the integers ci correctly,
+                                                                            E2
+we will then have E 2 > 4ci Di .E for i = 2, 3, 4 and we will have c1 D       1 .E
+                                                                                   close
+enough to 4 (see the proof of Theorem 11.5A, B) so that the inequalities in 11.2
+hold for EP,j = ci Di for any i. Since m = 2, we may always take EP,j = 0 or
+EP,j = ci Di for some i. By our hypotheses, we may apply Theorem 11.2, so
+nE is very large for n ≫ 0. Since D12 > 0, E is quasi-ample. So we are done by
+Theorems 8.3A and 8.3B, as D and E have the same support.
+Example 11.7. Let X = P1 × P1 . Let D1 = {0} × P1 , D2 = P1 × {0}, and let
+D3 and D4 be ample effective divisors on X. P
+                                            Suppose also that the intersection
+                                              4
+of any three of the Di ’s is empty. Let D = i=1 Di . Then the hypotheses of
+Theorems 11.6A, B are satisfied and X\D is quasi-Mordellic and quasi-Brody
+hyperbolic. Note also that X\D1 ∪ D2 ∼ = A2 ∼
+                                            = P2 \{a line}. Therefore, we can
+                                2
+also prove many theorems for P \D, where D is a sum of three effective divisors
+on P2 .
+    Recently, Corvaja and Zannier [1] have shown another way their methods
+may get results on P2 \D where D is a sum of three effective divisors satisfying
+certain hypotheses.
+    We have the following general corollary to the above theorems.
+Corollary
+P4            11.8A. Let X be a projective surface. Suppose m = 2, D =
+   i=1 D i , D 1 , D2 , D3 are quasi-ample, κ(D4 ) > 0, and the Di ’s have no ir-
+reducible components in common. Then X\D is quasi-Mordellic.
+Corollary
+P4            11.8B. Let X be a projective surface. Suppose m = 2, D =
+   i=1 D i , D 1 , D2 , D3 are quasi-ample, κ(D4 ) > 0, and the Di ’s have no ir-
+reducible components in common. Then X\D is quasi-Brody hyperbolic.
+
+
+                                           32
+Proof. We first reduce to the situation of Lemma 9.10. So X is nonsingular,
+each Di is nef, and D12 , D22 , D32 > 0, D42 ≥ 0 By Lemma 9.13, Di .Dj > 0 for
+i 6= j. For i = 1, 2, 3 and n > 0 nDi is linearly equivalent to an irreducible
+curve by Theorem 9.12, since by our reductions |nDi | is base-point free and
+dim ΦnDi (X) = 2. The same holds for nD4 if D42 > 0. If D42 = 0, then for every
+irreducible component C of D4 we must have C.D4 = 0 since D4 is nef. This
+verifies the hypotheses of Lemma 11.4 with E = Di for i = 1, 2, 3, 4. Therefore,
+we may apply Theorems 11.6A, B.
+    We note that one can construct examples where m = 2, D1 and D2 are
+quasi-ample, κ(D3 ) = κ(D4 ) = 1, the Di ’s have no irreducible components
+in common, and there exist dense sets of D-integral points. We now prove a
+theorem in the case where we only have κ(Di ) > 0 for all i.
+Theorem 11.9A. Let X be a projective surface. Suppose the Di ’s have no
+irreducible components in common. If κ(Di ) > 0 for all i and r > 4[ m+1
+                                                                      2 ] then
+there does not exist a Zariski-dense set of D-integral points on X.
+Theorem 11.9B. Let X be a projective surface. Suppose the Di ’s have no
+irreducible components in common. If κ(Di ) > 0 for all i and r > 4[ m+1
+                                                                      2 ] then
+there does not exist a holomorphic map f : C → X\D with Zariski-dense image.
+Proof. We first reduce to the situation of Lemma 9.10, so in particular |Di | is
+base-point free for all i. In this case, for any subset I ⊂ {1, . . . , r}, if DI =
+P
+    i∈I Di is quasi-ample, there exists nI > 0 such that dim ΦnI DI (X) = 2. Since
+the DQ  i ’s are nef, this happens if and only if Di .Dj > 0 for some i, j ∈ I. Let
+N = I nI where the I ranges over subsets such that DI is quasi-ample. Let
+D′ = N D and Di′ = N Di . Then we see that for any nonnegative integral linear
+combination, E, of the Di′ ’s, if E is quasi-ample, then E is linearly equivalent
+to an irreducible divisor since |E| is base-point free and dim ΦE (X) = 2, and
+otherwise, for every irreducible component C of E we have C.E = 0. Therefore,
+by Lemma 11.4, replacing D by D′ , we may assume that we may apply Theorem
+11.2 to any nonnegative linear combination of the Di ’s.
+     By Theorem 9.14, we are done if any three of the Di ’s have pairwise empty
+intersection. So suppose that this is not the case. Then we have m ≥ 2 and
+r ≥ 5. We now show that D P         is equidegreelizable. As in the proof of Lemma
+                                       r
+9.7, it suffices to show that ( i=1 eai Di )2 attains a minimum on the plane
+Pr                                                         Pr                 1
+                                                                  ai    2     3 maxi {ai } .
+    i=1 ai = 0. For this, it will suffice to show that ( i=1 e Di ) ≥ e
+Suppose maxi {ai } = aj for j ∈ {1, . . . , r}. Let ak and al be some choice of the
+                                       Pr                                          2a
+next largest ai ’s. Clearly, since i=1 ai = 0, we must have ak , al ≥ − r−2j ≥
+− 32 aj since r ≥ 5. We now show that either Dj .Dk ≥ 1 or Dj .Dl ≥ 1. Suppose
+otherwise. Then by our assumption, we must have Dk .Dl ≥ 1. But then
+Dk + Dl is quasi-ample, and so we must have (D      Pk r+ Dl ).Dj ≥ 1 by Lemma 9.13,
+a contradiction. So if, say, Dj .Dk ≥ 1 then ( i=1 eai Di )2 ≥ eaj +ak Dj .Dk ≥
+  1
+e 3 maxi {ai } , as was to be shown.
+                                 Pr Since D is equidegreelizable,    there exist positive
+                                                    Di .D′
+integers ci such that D′ = i=1 ci Di , and ci(D      ′ )2  is as close as we like to 1r .
+Since we may choose DP,j       ′
+                                  to consist of a sum of at most [ m+1  2 ] ci Di ’s and
+
+
+                                            33
+r > 4[ m+1
+        2 ], we may choose the ci ’s so that we always have C > 4BP,j . We
+also have AP,j ≥ 0. But then, as we have seen previously, the inequalities of
+Theorem 11.2 will be satisfied.
+   To summarize some of the results in this section:
+Theorem 11.10. Let X be a projective surface. Suppose that m ≤ 2 and
+the Di ’s have no irreducible components in common. Then all of the Main
+Conjectures (Conjectures 5.1A,B-5.4A,B) are true.
+
+
+12     Small S
+We now prove some theorems in the special case that #S is small relative to
+the number of components of D. Throughout we use the general Diophantine
+setup of Section 4.
+Theorem 12.1. Suppose that Di is defined over k for all i. Let s = #S.
+
+(a). If Di is quasi-ample for all i and r > ms then there exists a proper closed
+subset Z ⊂ X such that for any set R of (D, S)-integral points on X, R\Z if
+finite.
+(b). If Di is ample for all i and r > ms then all sets of (D, S)-integral points
+on X are finite.
+Proof. We reduce to the case where X is nonsingular. We prove part (a) first.
+Our proof is a modification of the proof of Theorem 8.3A. Suppose R is a Zariski-
+dense set of (D, S)-integral points on X. Then as in the proof of Theorem 8.3A,
+there exists a sequenceSPi in R such that for each v in S, {Pi } converges to a
+point Pv ∈ X(kv ) and {Pi } is Zariski-dense in X. Since r > ms, there exists
+an index i such that Pv ∈    / Di (kv ) for all v ∈ S. Since Di is quasi-ample, it
+follows from
+         P     Lemma   7.8  and   the argument P in Lemma 7.7 that for some n > 0,
+l(nDi − j6=i Di ) > 0. Then (n + 1)DiP        − j6=i Di is quasi-ample, and so for
+some n′ > 0, and E = n′ (n + 1)Di − n′ j6=i Di , ΦE is birational. Now let S ′
+be the set of places v ∈ S such that Pv ∈ D(kv ). Let φ1 , . . . , φl(E) be a basis
+                                                   Ql(E)
+for L(E) over k. Then for any v ∈ S ′ , ordF i=1 φi > 0 for every irreducible
+component F of D such that Pv ∈ F (kv ). This is precisely what we used the
+largeness hypothesis for in the proof of Theorem 8.3A. Let φ = (φ1 , . . . , φl(E) ).
+Let Ljv = φj for j = 1, . . . , l(E) and v ∈ S. Then the same proof as in Theorem
+8.3A (replacing D by E in appropriate places) proves part (a).
+    For (b), let R be a set of (D, S)-integral points on X. Let Y be an irreducible
+component of the Zariski-closure, R, of R. Suppose dim Y > 0. Then D pulls
+back to a sum of r ample effective divisors on Y such that at most m of them
+meet at a point. But then part (a) applied to D|Y contraticts the fact that
+R ∩ Y is a dense set of (D|Y , S)-integral points. Therefore dim Y = 0.
+   When #S = 1 this theorem gives a particularly strong result.
+
+
+
+                                         34
+Corollary 12.2. Suppose #S = 1. If Di is ample for all i and r > m then all
+sets of (D, S)-integral points on X are finite.
+                                                                             ∗
+     It follows from the Dirichlet unit theorem that #S = 1 if and only if Ok,S
+is finite if and only if Ok,S = Z or the ring of integers of a complex quadratic
+field. The inequality in Corollary 12.2 is sharp as the next example shows.
+Example 12.3. Let X = Pn . Let k = Q and let S consist only of the prime
+at infinity. Let Di be the divisor on Pn defined
+                                            Pn by xi = 0, whereP  x0 , . . . , xn are
+                                                                    n
+homogeneous coordinates on Pn . Let D = i=1 ai Di . Let m = i=1 ai . Then
+the set of points with x0 ∈ Z and xi = 1, i = 1, . . . , n, is an infinite set of
+(D, S)-integral points on X and D is a sum of m ample divisors defined over
+Q.
+Theorem 12.4. Let X be a nonsingular projective variety. Suppose #S = 1.
+Let ρ denote the Picard number of X and let n be the rank of the group of k-
+rational points of Pic0 (X). Suppose that the Di ’s are defined over k for all i
+and have no irreducible components in common. If r > ρ + n then there does
+not exist a dense set of (D, S)-integral points on X.
+   Our proof is essentially the first half of the proof of Theorem 2.4.1 in [24].
+Proof. It follows from the definitions that the group of divisor classes with a
+representative defined over k has rank at most ρ + n. Since r > ρ + n, there
+exists a linear combination of the Di ’s that is principal, equal to (f ) for some
+nonconstant rational function f on X. Let R be a set of (D, S)-integral points
+on X. Since all of the poles of f lie in D there exists an a ∈ k such that af takes
+on integral values on R. Since the poles of f1 also lie in D, the same reasoning
+applies to f1 . Therefore f (R) lies in only finitely many cosets of the group of
+        ∗                          ∗
+units Ok,S  . But since #S = 1, Ok,S   is finite. Therefore R lies in the finite union
+of proper subvarieties of X of the form f = a for a finite number of a ∈ k.
+    We note that the requirement in all of these results that not only D be
+defined over k, but that the Di ’s be defined over k is absolutely necessary. For
+example, if X = P1 , k = Q, S = {∞}, and D = P + Q where P and Q are
+conjugate over a real quadratic field, then from Pell’s equation there do exist
+dense sets of (D, S)-integral points on X.
+
+
+13      Results on the General Conjectures
+We will now consider the case where the integral points are allowed to vary over
+number fields of a bounded degree over some number field k. As an application
+of their results on surfaces in [5], Corvaja and Zannier prove
+Theorem 13.1. Let X be a projective curve defined over a number field k.  PrLet S
+be a finite set of places of k containing the archimedean places. Let D = i=1 Pi
+be a divisor on X defined over k such that the Pi ’s are distinct points. If r > 4
+then all sets of D-integral points on X quadratic over k are finite.
+
+                                         35
+    This theorem can also be obtained as a consequence of a result of Vojta (see
+Section 15.2.3). Using the same technique Corvaja and Zannier used, looking
+at symmetric powers of X, our higher-dimensional results give
+Theorem 13.2. Let n = dim X. If Di is ample for all i and r > 2d2 mn then
+all sets of D-integral points on X of degree d over k are finite.
+Proof. Suppose r > 2d2 mn and let R ⊂ X(k) be a set of D-integral points on
+X of degree d over k. It suffices to prove the finiteness of R in the case where
+for every P ∈ R we have [k(P ) : k] = d. Let X d be the d-fold product of X
+with itself, and let πi : X d → X be the i-th projection map for i = 1, . . . , d.
+Let Symd X denote the d-fold symmetric product of X with itself and              Prlet φ :
+X d → Symd X be the natural map. Let Ei = φ(π1∗ Di ) and E =                        i=1 Ei .
+                                Pd
+We have that φ∗ Ei = j=1 πj∗ Di which is ample on X d . Since φ is a finite
+surjective morphism, it follows that Ei is ample. By looking at the corresponding
+statement on X d we see that the intersection of any dm + 1 distinct Ei ’s is
+empty. We also have dim Sym X d = dn. Since r > 2(dm)(dn), by Theorem
+9.11A(b) we have that all sets of k-rational E-integral points on Symd X are
+finite. For P ∈ R let P (1) , . . . , P (d) denote theP  d conjugates of P over k. Then
+R′ = {(P (1) , . . . , P (d) ) ∈ X d |P ∈ R} is a set of di=1 πi∗ D-integral points on X d .
+So φ(R′ ) is a set of E-integral points on Symd X. Note that φ(R′ ) is actually
+a set of k-rational points on Symd X. Therefore, from above, φ(R′ ) must be
+finite, and so clearly R must be finite.
+   When #S = 1 we have the stronger theorem
+Theorem 13.3. Let X be a projective variety defined over k = Q or a complex
+quadratic field k. Let S = {v∞ } consist of the unique archimedean place of k. If
+Di is ample and defined over k for all i and r > dm then all sets of D-integral
+points on X of degree d over k are finite.
+Proof. The proof is identical with the proof of the previous theorem, except
+that instead of using Theorem 9.11A(b) we use Corollary 12.2.
+
+
+14      A Result of Faltings
+In [6], Faltings proves the finiteness of integral points on the complements of
+certain irreducible singular curves in P2 . Recently a similar result has also been
+obtained by Zannier in [31]. We show, as simple corollaries of our work on
+surfaces, how we may improve both results on integral points, and at the same
+time we will prove the analogous statement for holomorphic curves.
+    Let X be an irreducible nonsingular projective surface over an algebraically
+closed field k of characteristic 0. Let L = OX (L) be an ample line bundle on X
+with KX + 3L ample.
+    Assume that the global sections Γ(X, L) generate
+
+(a). Lx /m4x Lx for all points x ∈ X
+
+                                            36
+(b). Lx /m3x Lx L Ly /m3y Ly L
+                L
+                             for all pairs {x, y} of distinct points
+(c). Lx /m2xLx Ly /m2y Ly      Lz /m2z Lz for all triples {x, y, z} of distinct points.
+
+   A three-dimensional subspace E ⊂ Γ(X, L) that generates L gives a mor-
+phism fE : X → P2 . Faltings studies this map when E is suitably generic.
+Definition 14.1. Let E ⊂ Γ(X, L) be a three-dimensional subspace. We call E
+generic if:
+
+(a). E generates L.
+(b). The discriminant locus Z ⊂ X of fE is nonsingular.
+(c). The restriction of fE to Z is birational onto its image D ⊂ P2 .
+(d). D has only cusps and nodes as singularities.
+   Three-dimensional subspaces E ⊂ Γ(X, L) are naturally parametrized by a
+Grassmannian G. Let n = L2 . It is then proven that
+Theorem 14.2. With notation as above
+(a). Generic E’s form a dense open subset G′ of G.
+(b). For generic E let π : Y → X → P2 denote the associated normal Galois
+covering. Then Y is smooth, Z is irreducible, and the covering group Aut(Y /P2 )
+is the full symmetric group Sn .
+   Faltings also proves
+Theorem 14.3. Let π ∗ D be the pullback of D to Y . Then π ∗ D = 2 1≤i<j≤n Zij =
+                                                                  P
+Pn
+Pi=1 Ai where Zij is effective and nonsingular for every i and j, and Ai =
+ j6=i Zij is the pullback of Z under the ith projection map Y → X. Further-
+more, let P ∈ π ∗ D. Then one of the following holds:
+
+(a). π(P ) is a smooth point of D and P ∈ Zij for exactly one {ij}.
+(b). π(P ) is a node of D and exactly two components Zij and Zkl of π ∗ D for
+disjoint {ij} and {kl} intersect at P .
+(c). π(P ) is a cusp of D and exactly three components Zij , Zik , Zjk intersect at
+P for some i, j, k.
+    Let d = deg D and assume that everything above is defined over a number
+field. The main result of [6] is
+Theorem 14.4 (Faltings). If dL − αZ is ample on X for some α > 12 then
+P2 \D is Mordellic.
+    Zannier proves this unconditionally if the Kodaira number of X is nonnega-
+tive, and more generally he gives a numerical condition replacing the condition
+on L and Z above. We will prove Theorem 14.4 unconditionally, i.e. without
+the ampleness condition. We also prove the analogue for holomorphic curves.
+Under the assumptions discussed above, we prove
+Theorem 14.5A. P2 \D is Mordellic.
+
+
+                                          37
+Theorem 14.5B. P2 \D is complete hyperbolic. In particular, P2 \D is Brody
+hyperbolic.
+Proof. Since π : Y \π ∗ D → P2 \D is a finite étale covering, the problem is
+reduced to proving the theorems for Y \π ∗ D. The assumption (a) on L P   given at
+                                                                            n
+the beginning of the section implies that n = L2 ≥ 9. We have π ∗ D = i=1 Ai
+and that Ai is the pullback of Z under the ith projection map Y → X. Therefore
+Ai is ample as the projection is a finite map (recall that we assumed Z ∼ KX +3L
+was ample). It follows from Theorem 14.3 that at most four Ai ’s meet at a point.
+Therefore we’re done by Theorems 11.5A(b) and 11.5B(b) with r ≥ 9 and m = 4.
+That P2 \D is complete hyperbolic follows from the fact that Y \π ∗ D is complete
+hyperbolic (see [15]).
+
+
+15       Remarks on the Siegel and Picard-type Con-
+         jectures
+In this section we will show the sharpness of the inequalities and the necessity
+of certain hypotheses in many of the conjectures, how our conjectures relate to
+other conjectures that have been made, and what special cases of the conjectures
+are known by previous work.
+
+15.1     Main Conjectures
+15.1.1    Examples Limiting Improvements to the Conjectures
+Our main goal here is to show that the inequalities in all of the main conjectures
+cannot be improved. We’ll start with two fundamental examples on Pn .
+                                                Pn
+Example 15.1A. Let X = Pn . Let D = i=0 Di , where Di is the hyperplane
+defined by xi = 0, i = 0, . . . , n. Let k be a number field with an infinite number
+of units. Let S be the set of archimedean places. Let R be the set of points in
+Pn which have a representation where the coordinates are all units. Then R is
+a set of D-integral points on X. It follows from the S-unit lemma that R is
+Zariski-dense in X.
+Example 15.1B. Let X and D be as above. Let fi , i = 0, . . . , n be linearly
+independent entire functions. Let f : C → X be defined by f = (ef0 , . . . , efn ).
+Clearly the image of f does not intersect D. It follows from Borel’s lemma that
+the image of f is Zariski-dense in X.
+    We will give two variants of these examples which show that the inequalities
+in the Main Siegel and Picard-type Conjectures, Conjectures 5.1A and 5.1B, are
+sharp for all values of m and κ0 .
+Example 15.2A. Let X, k, S, D, Di , and R be as in Example 15.1A. Let
+Y = X q and let πj be the jth projection map from Y to X for j = 1, . . . , q. Let
+
+
+
+                                        38
+R′ = Rq ⊂ Y . Let Ei,j = πj∗ Di for 0 ≤ i ≤ n, 1 ≤ j ≤ q. Let 1 ≤ m ≤ nq. Let
+                      h     i  
+r = m+ m          ′     r         m
+         
+         n and r = n+1 = n . Let
+
+
+                              r ′
+                                  n              r−r ′ (n+1)
+                              XX                    X
+                         E=             Ei,j +                 Ei,r′ +1 .
+                              j=1 i=0               i=1
+
+Then R′ is a set of E-integral points on Y and it follows, again, from the
+S-unit lemma that R′ is Zariski-dense in Y . Furthermore, there are at most
+nr′ + r − r′ (n + 1) =      ′
+                      r − rm = m of the Ei,j ’s in E meeting at a given point, and
+E is a sum of r = m + n of the Ei,j ’s with κ(Ei,j ) = n for all i and j.
+Example 15.2B. Same as the above example, except that instead of R′ , we
+use a holomorphic map f : X → Y \E given by f = (ef0,1 , . . . , efn,1 ) × · · · ×
+(ef0,t , . . . , efn,t ) where the fi,j ’s are linearly independent entire functions. It
+follows from Borel’s lemma that f has Zariski-dense image in Y .
+
+   The second variants of Examples 15.1A and 15.1B are
+Example 15.3A. Let m and n be positive        Pn integers. Let X, k, S,         Di , r, and
+r′ be as in Example 15.2A. Let D =                                            ′
+                                                i=0 ai Di where ai = r + 1 for i =
+0, . . . , r − (n + 1)r′ − 1 and ai = r′ for i = r − (n P+ 1)r′ , . . . , n. Then counting
+the Di ’s with their multiplicity in D, D is a sum of ni=0 ai = r effective divisors
+such that the intersection of any m + 1 of them is empty. We have κ(Di ) = n
+for all i. By Example 15.1A there exist dense sets of D-integral points on X.
+Example 15.3B. The same example as above, except we use the holomorphic
+map from Example 15.1B.
+    The above four examples also show that one cannot improve the inequalities
+in Conjectures 5.2A,B and 5.3A,B.
+    We have not yet discussed the κ0 = 0 case. If D is a divisor on a projective
+variety X, then by blowing up subvarieties of D on X we may get a divisor D′ on
+X ′ with arbitrarily many components and X\D ∼       = X ′ \D′ . In this case, the new
+components C have κ(C) = 0. So, as is suggested by the κ0 in the denominators
+of the inequalities, there is no possible result of the type in the Main Siegel and
+Picard-type Conjectures if one allows divisors Di with κ(Di ) = 0. However, all
+is not lost in this case. If we are willing to include in the inequalities numerical
+invariants of the variety such as the Picard number, then it is possible to give
+theorems for arbitrary effective divisors. We will discuss this in Section 15.1.3.
+    There are also examples showing that the exceptional sets may be dense, even
+if the hypotheses of the Main Siegel and Picard-type P Conjectures        are satisfied.
+                                                                    1
+For example, let X = P1 × P1 and let D =               i∈I iP ×   P   be  a finite sum
+with Pi ∈ P1 (k), i ∈ I, for some number field k. Then it is easy to show that
+ExcDio (X\D) = Exchol (X\D) = X\D.
+    For the Main Conjectures for Ample Divisors we have
+
+
+
+                                            39
+Example 15.4A. Let D be the sum of any r hyperplanes in general position
+(i.e. the intersection of any n + 1 of them is empty) in Pn with n < r ≤ 2n.
+Assume also that D is defined over a number field.h Theni one may show that
+                                    n                n
+there exists a linear subspace L ⊂ P with dim L = r−n such that L contains
+a dense set of D|L -integral points (for some k and S) (see [8], [9], and [19] for
+the constructions).
+Example 15.4B. In the same situation as above, one may also show that there
+exists a holomorphic map f : C → L\D with Zariski-dense image.
+    In the simplest case, where r = 2m = 2n, we may simply take L to be a
+line that passes through points P and Q where P is the intersection of, say, the
+first n hyperplanes and Q is the intersection of the last n hyperplanes. Then
+L ∩ D is a P1 minus two points, and so we see that we cannot have finiteness or
+constancy for the objects in question.
+Remark 15.5. It is quite possible that our Main Conjectures for Ample Divisors
+may be extended to quasi-ample divisors. Let D be a quasi-ample divisor on a
+projective variety X. Let n > 0 be large enough such that the map Φ = ΦnD ,
+corresponding to nD, is birational. It is then quite plausible that all of our con-
+clusions that held for ample divisors generalize to quasi-ample divisors if we state
+things in terms of Φ, that is, replace dim ExcDio (X\D) and dim Exchol (X\D)
+by dim Φ(ExcDio (X\D)) and dim Φ(ExcDio (X\D)) in the conjectures.
+
+15.1.2   Relation to Vojta’s Main Conjecture
+We now show how some special cases of the Main Conjectures are related to
+Vojta’s Main Conjecture. If D is a divisor on a nonsingular complex variety
+X, we say that D has normal crossings if every point P ∈ D has an analytic
+open neighborhood in X with analytic local coordinates z1 , . . . , zn such that D
+is locally defined by z1 · z2 · · · zi = 0 for some i. Inspired by results in equi-
+dimensional Nevanlinna theory, Vojta made the following conjecture in [24].
+Conjecture 15.6A (Vojta’s Main Conjecture). Let X be a nonsingular
+projective variety with canonical divisor K. Let D be a normal crossings divisor
+on X, and let k be a number field over which X and D are defined. Let A be a
+quasi-ample divisor on X. Let ǫ > 0. Then there exists a proper Zariski-closed
+subset Z = Z(X, D, ǫ, A) such that
+
+                      m(D, P ) + hK (P ) ≤ ǫhA (P ) + O(1)
+
+for all points P ∈ X\Z.
+   Similarly, the analogue is conjectured for holomorphic curves
+Conjecture 15.6B. Let X be a nonsingular complex projective variety with
+canonical divisor K. Let D be a normal crossings divisor on X. Let A be a
+quasi-ample divisor on X. Let ǫ > 0. Then there exists a proper Zariski-closed
+
+
+                                        40
+subset Z = Z(X, D, ǫ, A) such that for all holomorphic maps f : C → X whose
+image is not contained in Z,
+
+                       m(D, r) + TK (r) ≤ ǫTA (r) + O(1)
+
+holds for all r outside a set of finite Lebesgue measure.
+   Qualitatively, these conjectures have the following simple consequences.
+Conjecture 15.7A. Let X be a nonsingular projective variety, defined over a
+number field k. Let K be the canonical divisor of X, and D a normal crossings
+divisor on X, defined over k. Suppose that K + D is quasi-ample. Then X\D
+is quasi-Mordellic.
+Conjecture 15.7B. Let X be a nonsingular complex projective variety. Let K
+be the canonical divisor of X, and D a normal crossings divisor on X. Suppose
+that K + D is quasi-ample. Then X\D is quasi-Brody hyperbolic.
+   To relate these conjectures to our conjectures we recall the following theorem,
+which is a consequence of Mori theory [17, Lemma 1.7].
+Theorem 15.8. Let X be a nonsingular complex projective    variety of dimension
+                                                        Pn+2
+n. If D1 , . . . , Dn+2 are ample divisors on X then K + i=1 Di is ample.
+   So when X is nonsingular, the Di ’s are ample, and D has normal crossings,
+we see that Conjectures 5.3A and 5.3B are consequences of Conjectures 15.7A
+and 15.7B.
+
+15.1.3   Previously Known Results Related to the Conjectures
+As was discussed earlier, our work builds on previous work of Corvaja and
+Zannier, who obtained results on surfaces in [5], and initiated the general method
+we have used in [2]. The Nevanlinna theoretic analogues of [5] were proved by
+Liu and Ru in [16]. We briefly discussed these previous results in Section 11.
+    We now discuss what is known for arbitrary divisors. As a consequence of
+his work on integral points on subvarieties of semi-abelian varieties, Vojta [28]
+proved
+Theorem 15.9A. Let X be a projective variety defined over a number field k.
+Let ρ denote the Picard number of X. Let D be an effective divisor on X defined
+over k which has more than dim X − h1 (X, OX ) + ρ (geometrically) irreducible
+components. Then X\D is quasi-Mordellic.
+   Similarly, a special case of work of Noguchi [18] gives
+Theorem 15.9B. Let X be a complex projective variety. Let ρ denote the Pi-
+card number of X. Let D be an effective divisor on X which has more than
+dim X − h1 (X, OX ) + ρ irreducible components. Then X\D is quasi-Brody hy-
+perbolic.
+
+
+                                       41
+    We note that it is easily shown that both theorems are sharp in that there
+are divisors with dim X − h1 (X, OX ) + ρ irreducible components for which the
+conclusions of the theorems are false. For a weaker, but more elementary theo-
+rem along these lines, see also Th. 2.4.1 in [24]. As consequences of Theorems
+15.9A,B we see that Conjectures 5.3A,B are true for X = Pn , and more generally
+for any projective variety X with Picard number one.
+    From the work of Noguchi and Winkelmann [19] we have the following the-
+orems related to our Main Conjectures for Ample Divisors (some special cases
+of these results had been obtained previously by various people; see [19] for the
+history).
+Theorem 15.10A. Let X be a projective variety of dimension n defined over
+a number field k. Let S be a finite set of places of k P
+                                                       containing the archimedean
+places. Let ρ be the Picard number of X. Let D = ri=1 Di be a divisor on X
+defined over k with the Di ’s effective reduced ample Cartier divisors such that
+the intersection of any n + 1 of them is empty.
+                                                                     n
+(a). If r > n + 1 then all sets of D-integral points R have dim R ≤ r−n ρ.
+(b). If r > n(ρ + 1) then X\D is Mordellic.
+(c). If X ⊂ PN , all Di ’s are hypersurface cuts of X, and r > 2n then X\D is
+Mordellic.
+Theorem 15.10B. Let X be a complex     Pprojective  variety of dimension n. Let
+                                          r
+ρ be the Picard number of X. Let D = i=1 Di be a divisor on X with the Di ’s
+effective reduced ample Cartier divisors such that the intersection of any n + 1
+of them is empty.
+
+(a). If r > n + 1 then all holomorphic maps f : C → X\D have dim f (C) ≤
+  n
+r−n ρ.
+(b). If r > n(ρ+1) then X\D is complete hyperbolic and hyperbolically imbedded
+in X. In particular, X\D is Brody hyperbolic.
+(c). If X ⊂ PN , all Di ’s are hypersurface cuts of X, and r > 2n then X\D
+is complete hyperbolic and hyperbolically imbedded in X. In particular, X\D is
+Brody hyperbolic.
+    Consequently, when m = dim X, the Di ’s are reduced divisors, and ρ(X) =
+1, we have that the Main Conjectures for Ample Divisors, Conjectures 5.4A,B,
+are true modulo the statements on the exceptional sets (i.e. replace ExcDio (X\D)
+by any particular set of integral points R in Conjecture 5.4A, etc.) Similarly,
+the part (c)’s of the above theorems give special cases of the part (b)’s of Con-
+jectures 5.4A,B.
+
+15.2     General Conjectures
+15.2.1   Examples Limiting Improvements to the Conjectures
+We start off with an example showing that the inequalities in the General Con-
+jectures are best possible when X is a curve.
+
+                                       42
+Example 15.11. Let X be a projective curve defined over a number field k
+with Ok∗ infinite. Let f : X → P1 be a morphism of degree d defined over
+k. Let P, Q ∈ P1 (k) be two distinct points over which f is unramified, and let
+D = P +Q. Then there exists an infinite set R of k-rational D-integral points on
+P1 \D. Since f has degree d, f −1 (R) is a set of f ∗ D-integral points on X\f ∗ D
+of degree d over k and f ∗ D is a sum of 2d distinct points on X.
+    Taking products of curves, we then get examples in all dimensions showing
+that the inequality in the General Siegel-type Conjecture cannot be improved
+in the case κ0 = 1.
+                                 P2md
+Example 15.12. Let D = i=1 Hi be a sum of hyperplanes on Pn defined
+over a number field k such    Tjmthat the intersection of any m + 1 of the Hi ’s is
+empty. Suppose also that i=(j−1)m+1 Hi = {Pj } consists of a single point for
+j = 1, . . . , 2d and the Pj ’s are collinear. Then there exist infinite sets of D-
+integral points of degree d on Pn \D over large enough number fields. Indeed,
+the line L through the Pj ’s intersects D in 2d points, and we see from Example
+15.11 that L\L ∩ D contains infinite sets of integral points over large enough
+number fields.
+    This shows that the inequality in the finiteness part of the General Siegel-
+type Conjecture for Ample Divisors cannot be improved. We expect that using
+only divisors that are sums of hyperplanes on projective space, one may show
+that the other inequalities in the General Conjectures may not be improved for
+any set of parameters. For example, it should be true that if D is a sum of
+2d + n − 1 hyperplanes in general position on Pn , then for some number field
+k there exist dense sets of D-integral points on Pn of degree d over k. In any
+case, it is easy to show that ExcDio (Pn \D) = Pn \D. If P is a point where
+n of the hyperplanes intersect, then any line through P will intersect D in 2d
+points. But as we have seen, over some number field k, such lines will contain
+infinitely many integral points of degree d over k. To show the existence of a
+Zarisk-dense set of D-integral points, one needs to show that if the lines and
+their sets of integral points are chosen correctly, then the infinite union of the
+sets of integral points will still be a set of D-integral points (there is no problem
+for finite unions).
+
+15.2.2    Vojta’s General Conjecture and a Conjectural Discriminant-
+          Height Inequality
+We will now investigate how the General Siegel-type Conjecture, Conjecture 5.6,
+is related to Vojta’s General Conjecture. In order to make a connection between
+the two conjectures, we will need to formulate a new conjecture bounding the
+absolute logarithmic discriminant in terms of heights. We will digress briefly
+to discuss this new conjecture. Let X be a variety defined over a number field
+k and let P ∈ X(k). Let d(P ) = [k(P1):Q] log |Dk(P )/Q | where Dk(P )/Q is the
+discriminant of k(P ) over
+                       P Q. We call d(P ) the absolute logarithmic discriminant
+of P . Let m(D, P ) = v∈S λD,v (P ). Then Vojta’s General Conjecture states
+
+
+                                         43
+Conjecture 15.13 (Vojta’s General Conjecture). Let X be a complete
+nonsingular variety with canonical divisor K. Let D be a normal crossings
+divisor on X, and let k be a number field over which X and D are defined. Let
+A be a quasi-ample divisor on X. Let ǫ > 0. If ν is a positive integer then there
+exists a Zariski-closed subset Z = Z(ν, X, D, ǫ, A) such that
+
+                  m(D, P ) + hK (P ) ≤ d(P ) + ǫhA (P ) + O(1)
+
+for all points P ∈ X(k)\Z such that [k(P ) : k] ≤ ν.
+   Actually, Vojta’s General Conjecture as it appears in [24] has the discrimi-
+nant term as (dim X)d(P ), but it is now believed that the dim X term is unec-
+essary (see [30, Conjecture 8.7] or the discussion at the end of [25]).
+    Vojta’s General Conjecture, with D = 0, can be seen as giving a lower
+bound on the absolute logarithmic discriminant in terms of heights (outside
+some Zariski-closed subset). As a companion to this, we give the following
+conjectural upper bound on the logarithmic discriminant in terms of heights.
+Conjecture 15.14. Let X be a nonsingular projective variety of dimension n
+defined over a number field k with canonical divisor K. Let A be an ample
+divisor on X. Let ν be a positive integer. Let ǫ > 0. Then
+
+            d(P ) ≤ hK (P ) + (2[k(P ) : k] + n − 1 + ǫ)hA (P ) + O(1)
+
+for all P ∈ X(k) with [k(P ) : k] ≤ ν.
+Remark 15.15. It is possible that with the hypothesis A ample weakened to A
+quasi-ample that the inequality holds outside of some Zariski-closed subset of X
+(it is not hard to see the necessity of the Zariski-closed subset in this case). It
+is also possible that the conjecture is true with ǫ = 0. As with Vojta’s General
+Conjecture, it is quite plausible that one may take ν = ∞, i.e. the inequality
+holds for all P ∈ X(k).
+   It is a result of Silverman [22] that Conjecture 15.14 is true for X = Pn with
+ǫ = 0 and ν = ∞. For curves, Conjecture 15.14 is true by a result of Song and
+Tucker [23, Eq. 2.0.3]. They proved the stronger statement
+Theorem 15.16. Let X be a nonsingular projective curve defined over a number
+field k with canonical divisor K. Let A be an ample divisor on X. Let ν be a
+positive integer. Let ǫ > 0. Then
+
+            d(P ) ≤ da (P ) ≤ hK (P ) + (2[k(P ) : k] + ǫ)hA (P ) + O(1)
+
+for all P ∈ X(k) with [k(P ) : k] ≤ ν, where da (P ) is the arithmetic discriminant
+of P (see [26] for the definition and properties).
+   We now show how Vojta’s General Conjecture, combined with our conjec-
+tural upper bound on the discrimant, imply a special case of the General Siegel-
+type Conjecture.
+
+
+                                         44
+Theorem 15.17. Assume Vojta’s General Conjecture, Conjecture 15.13, and
+the conjectural upper bound on the absolute logarithmic discriminant, Conjecture
+15.14. Let X be a nonsingular
+                          Pr projective variety defined over a number field k.
+Let n = dim X. Let D = i=1 Di be a normal crossings divisor defined over k
+with Di ample and effective for all i. If r > 2ν + n − 1 then X\D is degree ν
+quasi-Mordellic. In particular, there do not exist Zariski-dense sets of D-integral
+points on X of degree ν over k.
+Proof. Let R be a set of D-integral points on X of degree ν over k. Then
+m(D, P ) + hK (P ) = hD (P ) + hK (P ) + O(1) for P ∈ R. By Conjecture 15.14,
+for any ǫ > 0, hDi (P ) ≥ d(P )−hK (P )
+                           2ν+n−1+ǫ + O(1). So since r > 2ν + n − 1, we have
+hD (P ) ≥ d(P ) − hK (P ) + (1 − ǫ)hD1 (P ) + O(1). Therefore
+
+                  m(D, P ) + hK (P ) > d(P ) + ǫhA (P ) + O(1)
+
+for all P ∈ R, for any ample divisor A on X and small enough ǫ. So we’re done
+by Vojta’s General Conjecture.
+   So assuming Vojta’s General Conjecture and Conjecture 15.14, we see that
+the General Siegel-type Conjecture is true if Di is ample for all i and D has
+normal crossings.
+
+15.2.3   Previously Known Results Related to the Conjectures
+In [27], Vojta proved the following generalization of Falting’s theorem on rational
+points on curves and the Thue-Siegel-Roth-Wirsing theorem.
+Theorem 15.18. Let X be a nonsingular projective curve defined over a number
+field k with canonical divisor K. Let D be an effective divisor on X defined over
+k with no multiple components and A an ample divisor on X. Let ν be a positive
+integer and let ǫ > 0. Then
+
+                  m(D, P ) + hK (P ) ≤ da (P ) + ǫhA (P ) + O(1)
+
+for all P ∈ X(k)\D with [k(P ) : k] ≤ ν, where the constant in O(1) depends on
+X, D, ν, A, and ǫ.
+   Using Theorem 15.16 we then easily obtain the following theorem.
+Corollary 15.19. Let X be a nonsingular projective curve defined over a num-
+ber field k. Let D be an effective divisor on X that is a sum of more than 2ν
+distinct points. Then X\D is degree ν Mordellic.
+    Therefore our General Siegel-type Conjectures are true for curves. Of course
+for P1 this was already known from the Thue-Siegel-Roth-Wirsing theorem. As
+mentioned earlier, the special case ν = 2 was also proven by Corvaja and Zannier
+using the Schmidt Subspace Theorem technique [5].
+
+
+
+
+                                        45
+15.3    Conjectures over Z and Complex Quadratic Rings of
+        Integers
+I am not aware of any previous results that pertain to these conjectures, or any
+way to relate them to other known conjectures. An open problem then is to
+formulate quantitative conjectures explaining the qualitative conjectures I have
+made over Z and complex quadratic rings of integers. We now briefly discuss
+some examples showing that in many cases the inequalities in these conjectures
+may not be improved.
+    For the Main Siegel-type Conjecture over Z, to show that the inequality in
+the conjecture may not be improved we may simple take D = mH where H is
+a hyperplane on Pn defined over Q. Examples where the m divisors have no
+components in common are easily obtained from products of projective
+                                                               Pm        spaces.
+    For the Main Conjecture on Ample Divisors over Z, if D = i=1 Hi is a sum
+of m < n distinct hyperplanes on Pn defined over Q then dim ∩m   i=1 Hi = n − m
+and there is a Y = Pn−m+1 ⊂ Pn with D|Y a hyperplane on Y defined over Q.
+So there are sets of D-integral points on Pn with dimension n − m + 1.
+    Examples for the General Conjectures over Z are nearly identical to Exam-
+ples 15.11 and 15.12, except that we must replace 2d by d everywhere, since we
+are using A1 as our starting point. Again, we expect that using only divisors
+that are sums of hyperplanes on projective space, one may show that the in-
+equalities in the General Conjectures over Z may not be improved for any set
+of parameters.
+
+
+References
+ [1] Pietro Corvaja and Umberto Zannier. On the integral points on certain
+     surfaces. To appear.
+ [2] Pietro Corvaja and Umberto Zannier. A subspace theorem approach to
+     integral points on curves. C. R. Math. Acad. Sci. Paris, 334(4):267–271,
+     2002.
+ [3] Pietro Corvaja and Umberto Zannier. On the number of integral points on
+     algebraic curves. J. Reine Angew. Math., 565:27–42, 2003.
+ [4] Pietro Corvaja and Umberto Zannier. On a general Thue’s equation. Amer.
+     J. Math., 126(5):1033–1055, 2004.
+ [5] Pietro Corvaja and Umberto Zannier. On integral points on surfaces. Ann.
+     of Math., 160(2):705–726, 2004.
+ [6] Gerd Faltings. A new application of Diophantine approximations. In A
+     panorama of number theory or the view from Baker’s garden (Zürich, 1999),
+     pages 231–246. Cambridge Univ. Press, Cambridge, 2002.
+ [7] Gerd Faltings and Gisbert Wüstholz. Diophantine approximations on pro-
+     jective spaces. Invent. Math., 116(1-3):109–138, 1994.
+
+                                      46
+ [8] Hirotaka Fujimoto. Extensions of the big Picard’s theorem. Tôhoku Math.
+     J. (2), 24:415–422, 1972.
+ [9] Mark L. Green. Holomorphic maps into complex projective space omitting
+     hyperplanes. Trans. Amer. Math. Soc., 169:89–103, 1972.
+[10] Mark L. Green. The hyperbolicity of the complement of 2n + 1 hyperplanes
+     in general position in Pn and related results. Proc. Amer. Math. Soc.,
+     66(1):109–113, 1977.
+[11] Shigeru Iitaka. Algebraic geometry, volume 76 of Graduate Texts in Math-
+     ematics. Springer-Verlag, New York, 1982. An introduction to birational
+     geometry of algebraic varieties, North-Holland Mathematical Library, 24.
+[12] Yujiro Kawamata. A generalization of Kodaira-Ramanujam’s vanishing
+     theorem. Math. Ann., 261(1):43–46, 1982.
+[13] Steven L. Kleiman. Toward a numerical theory of ampleness. Ann. of Math.
+     (2), 84:293–344, 1966.
+[14] Serge Lang. Fundamentals of Diophantine geometry. Springer-Verlag, New
+     York, 1983.
+[15] Serge Lang. Introduction to complex hyperbolic spaces. Springer-Verlag,
+     New York, 1987.
+[16] Yuancheng Liu and Min Ru. Degeneracy of holomorphic curves in surfaces.
+     Preprint.
+[17] Shigefumi Mori. Threefolds whose canonical bundles are not numerically
+     effective. Ann. of Math. (2), 116(1):133–176, 1982.
+[18] Junjiro Noguchi. Lemma on logarithmic derivatives and holomorphic curves
+     in algebraic varieties. Nagoya Math. J., 83:213–233, 1981.
+[19] Junjiro Noguchi and Jörg Winkelmann. Holomorphic curves and integral
+     points off divisors. Math. Z., 239(3):593–610, 2002.
+[20] Min Ru. Nevanlinna theory and its relation to Diophantine approximation.
+     World Scientific Publishing Co. Inc., River Edge, NJ, 2001.
+[21] Min Ru. A defect relation for holomorphic curves intersecting hypersur-
+     faces. Amer. J. Math., 126(1):215–226, 2004.
+[22] Joseph H. Silverman. Lower bounds for height functions. Duke Math. J.,
+     51(2):395–403, 1984.
+[23] Xiangjun Song and Thomas J. Tucker. Dirichlet’s theorem, Vojta’s inequal-
+     ity, and Vojta’s conjecture. Compositio Math., 116(2):219–238, 1999.
+[24] Paul Vojta. Diophantine approximations and value distribution theory, vol-
+     ume 1239 of Lecture Notes in Mathematics. Springer-Verlag, Berlin, 1987.
+
+                                      47
+[25] Paul Vojta. A refinement of Schmidt’s subspace theorem. Amer. J. Math.,
+     111(3):489–518, 1989.
+[26] Paul Vojta. Arithmetic discriminants and quadratic points on curves. In
+     Arithmetic algebraic geometry (Texel, 1989), volume 89 of Progr. Math.,
+     pages 359–376. Birkhäuser Boston, Boston, MA, 1991.
+[27] Paul Vojta. A generalization of theorems of Faltings and Thue-Siegel-Roth-
+     Wirsing. J. Amer. Math. Soc., 5(4):763–804, 1992.
+[28] Paul Vojta. Integral points on subvarieties of semiabelian varieties. I. In-
+     vent. Math., 126(1):133–181, 1996.
+[29] Paul Vojta. On Cartan’s theorem and Cartan’s conjecture. Amer. J. Math.,
+     119(1):1–17, 1997.
+[30] Paul Vojta. Nevanlinna theory and Diophantine approximation. In Several
+     complex variables (Berkeley, CA, 1995–1996), volume 37 of Math. Sci. Res.
+     Inst. Publ., pages 535–564. Cambridge Univ. Press, Cambridge, 1999.
+[31] Umberto Zannier.        On the integral points on the complement of
+     ramification-divisors (to appear). Jussieu Math. J.
+
+
+
+
+                                       48
+
