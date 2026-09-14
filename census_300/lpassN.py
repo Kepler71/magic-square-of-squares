@@ -28,7 +28,7 @@ def work(rec):
             continue
     return dict(slope=sl,closed=False)
 if __name__=='__main__':
-    R=[json.loads(l) for l in open(sys.argv[1])]; R=[r for r in R if not r.get('closed')]
+    R=[json.loads(l) for l in open(sys.argv[1])]; R=list({r['slope']:r for r in R}.values()); R=[r for r in R if not r.get('closed') and 'lo0' in r]
     print('открыто',len(R),[r['slope'] for r in R],flush=True)
     with mp.get_context('fork').Pool(12) as pool:
         res=list(pool.imap_unordered(work,R))

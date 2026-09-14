@@ -1,0 +1,45 @@
+{"slope": "143/206", "curve": "(1+143*z)*(1-63^2*z^2)*(1-206^2*z^2)", "singles": [143], "pairs": [63, 206], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "143/206", "curve": "(1+143*z)*(1-63^2*z^2)*(1-349^2*z^2)", "singles": [143], "pairs": [63, 349], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "143/206", "curve": "(1+143*z)*(1-206^2*z^2)*(1-349^2*z^2)", "singles": [143], "pairs": [206, 349], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "143/206", "curve": "(1+63*z)*(1-143^2*z^2)*(1-206^2*z^2)", "singles": [63], "pairs": [143, 206], "out": "PROVEN: true\nZ: [ -1/63, 0, 1/143, 0, inf, -1/206, 1/206, -1/143 ]", "closed": true}
+{"slope": "96/211", "curve": "(1+96*z)*(1-115^2*z^2)*(1-211^2*z^2)", "singles": [96], "pairs": [115, 211], "out": "PROVEN: true\nZ: [ 1/115, 1/211, 0, -1/115, 0, inf, -1/211, -1/96 ]", "closed": true}
+{"slope": "19/221", "curve": "(1+19*z)*(1-202^2*z^2)*(1-221^2*z^2)", "singles": [19], "pairs": [202, 221], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "19/221", "curve": "(1+19*z)*(1-202^2*z^2)*(1-240^2*z^2)", "singles": [19], "pairs": [202, 240], "out": "PROVEN: false\nZ: [ inf, 0, 0, 1/2, 1/2, -1/19, -1/202, 1/202, -1/240, 1/240 ]"}
+{"slope": "19/221", "curve": "(1+19*z)*(1-221^2*z^2)*(1-240^2*z^2)", "singles": [19], "pairs": [221, 240], "out": "PROVEN: false\nZ: [ inf, 0, 0, -1/19, -1/221, 1/221, -1/240, 1/240, -1/289, -1/289, -5/576,\n-5/576 ]"}
+{"slope": "19/221", "curve": "(1+202*z)*(1-19^2*z^2)*(1-221^2*z^2)", "singles": [202], "pairs": [19, 221], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "19/221", "curve": "(1+202*z)*(1-19^2*z^2)*(1-240^2*z^2)", "singles": [202], "pairs": [19, 240], "out": "PROVEN: true\nZ: [ 0, -1/19, inf, 0, -1/240, -1/202, 1/240, 1/19 ]", "closed": true}
+{"slope": "204/247", "curve": "(1+204*z)*(1-43^2*z^2)*(1-247^2*z^2)", "singles": [204], "pairs": [43, 247], "out": "PROVEN: false\nZ: [ 0, -1/204, inf, 1/247, 0, 1/43, -1/43, -1/247 ]"}
+{"slope": "204/247", "curve": "(1+204*z)*(1-43^2*z^2)*(1-451^2*z^2)", "singles": [204], "pairs": [43, 451], "out": "PROVEN: false\nZ: [ -1/451, -1/204, 0, 1/43, inf, 0, 1/451, -1/43 ]"}
+{"slope": "204/247", "curve": "(1+204*z)*(1-247^2*z^2)*(1-451^2*z^2)", "singles": [204], "pairs": [247, 451], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "204/247", "curve": "(1+43*z)*(1-204^2*z^2)*(1-247^2*z^2)", "singles": [43], "pairs": [204, 247], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "204/247", "curve": "(1+43*z)*(1-204^2*z^2)*(1-451^2*z^2)", "singles": [43], "pairs": [204, 451], "out": "PROVEN: false\nZ: [ -1/451, -1/204, 0, 1/204, inf, 0, 1/451, -1/43 ]"}
+{"slope": "204/247", "curve": "(1+43*z)*(1-247^2*z^2)*(1-451^2*z^2)", "singles": [43], "pairs": [247, 451], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "204/247", "curve": "(1+247*z)*(1-204^2*z^2)*(1-43^2*z^2)", "singles": [247], "pairs": [204, 43], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "204/247", "curve": "(1+247*z)*(1-204^2*z^2)*(1-451^2*z^2)", "singles": [247], "pairs": [204, 451], "out": "PROVEN: true\nZ: [ 0, -1/204, 1/204, inf, 1/451, 0, -1/451, -1/247 ]", "closed": true}
+{"slope": "211/230", "curve": "(1+211*z)*(1-19^2*z^2)*(1-230^2*z^2)", "singles": [211], "pairs": [19, 230], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "211/230", "curve": "(1+211*z)*(1-19^2*z^2)*(1-441^2*z^2)", "singles": [211], "pairs": [19, 441], "out": "PROVEN: true\nZ: [ -1/19, 0, -1/441, 0, inf, -1/211, 1/19, 1/441 ]", "closed": true}
+{"slope": "65/261", "curve": "(1+65*z)*(1-196^2*z^2)*(1-261^2*z^2)", "singles": [65], "pairs": [196, 261], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+65*z)*(1-196^2*z^2)*(1-326^2*z^2)", "singles": [65], "pairs": [196, 326], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+65*z)*(1-261^2*z^2)*(1-326^2*z^2)", "singles": [65], "pairs": [261, 326], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+196*z)*(1-65^2*z^2)*(1-261^2*z^2)", "singles": [196], "pairs": [65, 261], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+196*z)*(1-65^2*z^2)*(1-326^2*z^2)", "singles": [196], "pairs": [65, 326], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+196*z)*(1-261^2*z^2)*(1-326^2*z^2)", "singles": [196], "pairs": [261, 326], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "65/261", "curve": "(1+261*z)*(1-65^2*z^2)*(1-196^2*z^2)", "singles": [261], "pairs": [65, 196], "out": "PROVEN: true\nZ: [ -1/196, 1/196, -1/261, 0, 1/65, 0, inf, -1/65 ]", "closed": true}
+{"slope": "231/250", "curve": "(1+231*z)*(1-19^2*z^2)*(1-250^2*z^2)", "singles": [231], "pairs": [19, 250], "out": "The computation exceeded the memory limit and so was terminated prematurely.\nAn error occurred. See the output for details.\nCurrent total memory usage: 300.2MB, failed memory request: 83.0MB\nSystem Error: User memory limit has been reached\n&gt;&gt; print \"PROVEN:\", flag; print \"Z:\", [ (R[3] eq 0) select \"inf\" else Sprint(R\n                    ^\nRuntime error: Variable 'flag' has not been initializ"}
+{"slope": "231/250", "curve": "(1+231*z)*(1-19^2*z^2)*(1-481^2*z^2)", "singles": [231], "pairs": [19, 481], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "231/250", "curve": "(1+231*z)*(1-250^2*z^2)*(1-481^2*z^2)", "singles": [231], "pairs": [250, 481], "out": "PROVEN: true\nZ: [ 0, 1/250, -1/231, inf, 0, 1/481, -1/481, -1/250 ]", "closed": true}
+{"slope": "43/278", "curve": "(1+43*z)*(1-235^2*z^2)*(1-278^2*z^2)", "singles": [43], "pairs": [235, 278], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "43/278", "curve": "(1+43*z)*(1-235^2*z^2)*(1-321^2*z^2)", "singles": [43], "pairs": [235, 321], "out": "PROVEN: true\nZ: [ 0, -1/321, inf, 0, 1/235, -1/43, 1/321, -1/235 ]", "closed": true}
+{"slope": "61/217", "curve": "(1+61*z)*(1-156^2*z^2)*(1-217^2*z^2)", "singles": [61], "pairs": [156, 217], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "61/217", "curve": "(1+61*z)*(1-156^2*z^2)*(1-278^2*z^2)", "singles": [61], "pairs": [156, 278], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "61/217", "curve": "(1+61*z)*(1-217^2*z^2)*(1-278^2*z^2)", "singles": [61], "pairs": [217, 278], "out": "PROVEN: true\nZ: [ 0, -1/61, 1/217, inf, 0, -1/278, -1/217, 1/278 ]", "closed": true}
+{"slope": "265/298", "curve": "(1+265*z)*(1-33^2*z^2)*(1-298^2*z^2)", "singles": [265], "pairs": [33, 298], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+265*z)*(1-33^2*z^2)*(1-563^2*z^2)", "singles": [265], "pairs": [33, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+265*z)*(1-298^2*z^2)*(1-563^2*z^2)", "singles": [265], "pairs": [298, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+33*z)*(1-265^2*z^2)*(1-298^2*z^2)", "singles": [33], "pairs": [265, 298], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+33*z)*(1-265^2*z^2)*(1-563^2*z^2)", "singles": [33], "pairs": [265, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+33*z)*(1-298^2*z^2)*(1-563^2*z^2)", "singles": [33], "pairs": [298, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+298*z)*(1-265^2*z^2)*(1-33^2*z^2)", "singles": [298], "pairs": [265, 33], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+298*z)*(1-265^2*z^2)*(1-563^2*z^2)", "singles": [298], "pairs": [265, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+298*z)*(1-33^2*z^2)*(1-563^2*z^2)", "singles": [298], "pairs": [33, 563], "out": "The computation exceeded the time limit and so was terminated prematurely."}
+{"slope": "265/298", "curve": "(1+563*z)*(1-265^2*z^2)*(1-33^2*z^2)", "singles": [563], "pairs": [265, 33], "out": "The computation exceeded the time limit and so was terminated prematurely."}

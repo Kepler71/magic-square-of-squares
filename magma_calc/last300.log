@@ -1,0 +1,46 @@
+143/206 {'singles': [143], 'pairs': [63, 206]} The computation exceeded the time limit and so was terminated prematur
+лимит/пусто — пауза 1800 с
+143/206 {'singles': [143], 'pairs': [63, 349]} The computation exceeded the time limit and so was terminated prematur
+143/206 {'singles': [143], 'pairs': [206, 349]} The computation exceeded the time limit and so was terminated prematur
+143/206 {'singles': [63], 'pairs': [143, 206]} ЗАКРЫТ
+96/211 {'singles': [96], 'pairs': [115, 211]} ЗАКРЫТ
+19/221 {'singles': [19], 'pairs': [202, 221]} The computation exceeded the time limit and so was terminated prematur
+19/221 {'singles': [19], 'pairs': [202, 240]} PROVEN: false Z: [ inf, 0, 0, 1/2, 1/2, -1/19, -1/202, 1/202, -1/240, 
+19/221 {'singles': [19], 'pairs': [221, 240]} PROVEN: false Z: [ inf, 0, 0, -1/19, -1/221, 1/221, -1/240, 1/240, -1/
+19/221 {'singles': [202], 'pairs': [19, 221]} The computation exceeded the time limit and so was terminated prematur
+19/221 {'singles': [202], 'pairs': [19, 240]} ЗАКРЫТ
+204/247 {'singles': [204], 'pairs': [43, 247]} PROVEN: false Z: [ 0, -1/204, inf, 1/247, 0, 1/43, -1/43, -1/247 ]
+204/247 {'singles': [204], 'pairs': [43, 451]} PROVEN: false Z: [ -1/451, -1/204, 0, 1/43, inf, 0, 1/451, -1/43 ]
+204/247 {'singles': [204], 'pairs': [247, 451]} The computation exceeded the time limit and so was terminated prematur
+204/247 {'singles': [43], 'pairs': [204, 247]} The computation exceeded the time limit and so was terminated prematur
+204/247 {'singles': [43], 'pairs': [204, 451]} PROVEN: false Z: [ -1/451, -1/204, 0, 1/204, inf, 0, 1/451, -1/43 ]
+204/247 {'singles': [43], 'pairs': [247, 451]} The computation exceeded the time limit and so was terminated prematur
+204/247 {'singles': [247], 'pairs': [204, 43]} The computation exceeded the time limit and so was terminated prematur
+204/247 {'singles': [247], 'pairs': [204, 451]} ЗАКРЫТ
+211/230 {'singles': [211], 'pairs': [19, 230]} The computation exceeded the time limit and so was terminated prematur
+211/230 {'singles': [211], 'pairs': [19, 441]} ЗАКРЫТ
+65/261 {'singles': [65], 'pairs': [196, 261]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [65], 'pairs': [196, 326]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [65], 'pairs': [261, 326]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [196], 'pairs': [65, 261]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [196], 'pairs': [65, 326]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [196], 'pairs': [261, 326]} The computation exceeded the time limit and so was terminated prematur
+65/261 {'singles': [261], 'pairs': [65, 196]} ЗАКРЫТ
+231/250 {'singles': [231], 'pairs': [19, 250]} The computation exceeded the memory limit and so was terminated premat
+231/250 {'singles': [231], 'pairs': [19, 481]} The computation exceeded the time limit and so was terminated prematur
+231/250 {'singles': [231], 'pairs': [250, 481]} ЗАКРЫТ
+43/278 {'singles': [43], 'pairs': [235, 278]} The computation exceeded the time limit and so was terminated prematur
+43/278 {'singles': [43], 'pairs': [235, 321]} ЗАКРЫТ
+61/217 {'singles': [61], 'pairs': [156, 217]} The computation exceeded the time limit and so was terminated prematur
+61/217 {'singles': [61], 'pairs': [156, 278]} The computation exceeded the time limit and so was terminated prematur
+61/217 {'singles': [61], 'pairs': [217, 278]} ЗАКРЫТ
+265/298 {'singles': [265], 'pairs': [33, 298]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265], 'pairs': [33, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265], 'pairs': [298, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [33], 'pairs': [265, 298]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [33], 'pairs': [265, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [33], 'pairs': [298, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [298], 'pairs': [265, 33]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [298], 'pairs': [265, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [298], 'pairs': [33, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [563], 'pairs': [265, 33]} The computation exceeded the time limit and so was terminated prematur
