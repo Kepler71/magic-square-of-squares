@@ -1,0 +1,124 @@
+390/427 {'singles': [390], 'pairs': [37, 427]} The computation exceeded the time limit and so was terminated prematur
+390/427 {'singles': [390], 'pairs': [37, 817]} ЗАКРЫТ
+251/433 {'singles': [251], 'pairs': [182, 433]} ЗАКРЫТ
+лимит/пусто — пауза 1800 с
+422/441 {'singles': [422], 'pairs': [19, 441]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [422], 'pairs': [19, 863]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [422], 'pairs': [441, 863]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [19], 'pairs': [422, 441]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [19], 'pairs': [422, 863]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [19], 'pairs': [441, 863]} The computation exceeded the time limit and so was terminated prematur
+422/441 {'singles': [441], 'pairs': [422, 19]} ЗАКРЫТ
+111/445 {'singles': [111], 'pairs': [334, 445]} PROVEN: false Z: [ inf, 0, 0, -1/111, -1/334, 1/334, -1/445, 1/445, -1
+111/445 {'singles': [111], 'pairs': [334, 556]} The computation exceeded the memory limit and so was terminated premat
+лимит/пусто — пауза 1800 с
+111/445 {'singles': [111], 'pairs': [445, 556]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [334], 'pairs': [111, 445]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [334], 'pairs': [111, 556]} The computation exceeded the memory limit and so was terminated premat
+111/445 {'singles': [334], 'pairs': [445, 556]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [445], 'pairs': [111, 334]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [445], 'pairs': [111, 556]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [445], 'pairs': [334, 556]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [556], 'pairs': [111, 334]} The computation exceeded the memory limit and so was terminated premat
+111/445 {'singles': [556], 'pairs': [111, 445]} The computation exceeded the memory limit and so was terminated premat
+111/445 {'singles': [556], 'pairs': [334, 445]} The computation exceeded the time limit and so was terminated prematur
+111/445 {'singles': [445, 556], 'pairs': [111, 334]} ЗАКРЫТ
+126/451 {'singles': [126], 'pairs': [325, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [126], 'pairs': [325, 577]} 504 Gateway Timeout Gateway Timeout The gateway did not receive a time
+126/451 {'singles': [126], 'pairs': [451, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [325], 'pairs': [126, 451]} The computation exceeded the memory limit and so was terminated premat
+126/451 {'singles': [325], 'pairs': [126, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [325], 'pairs': [451, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [451], 'pairs': [126, 325]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [451], 'pairs': [126, 577]} The Magma calculator is currently unavailable.
+126/451 {'singles': [451], 'pairs': [325, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [577], 'pairs': [126, 325]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [577], 'pairs': [126, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [577], 'pairs': [325, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [451, 577], 'pairs': [126, 325]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [451, -577], 'pairs': [126, 325]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [325, 577], 'pairs': [126, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [325, -577], 'pairs': [126, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [325, 451], 'pairs': [126, 577]} 504 Gateway Timeout Gateway Timeout The gateway did not receive a time
+126/451 {'singles': [325, -451], 'pairs': [126, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [126, 577], 'pairs': [325, 451]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [126, -577], 'pairs': [325, 451]} The computation exceeded the time limit and so was terminated prematur
+лимит/пусто — пауза 1800 с
+126/451 {'singles': [126, 451], 'pairs': [325, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [126, -451], 'pairs': [325, 577]} The computation exceeded the time limit and so was terminated prematur
+126/451 {'singles': [126, 325], 'pairs': [451, 577]} The computation exceeded the time limit and so was terminated prematur
+лимит/пусто — пауза 1800 с
+126/451 {'singles': [126, -325], 'pairs': [451, 577]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [438], 'pairs': [11, 449]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [438], 'pairs': [11, 887]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [438], 'pairs': [449, 887]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [11], 'pairs': [438, 449]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [11], 'pairs': [438, 887]} The computation exceeded the time limit and so was terminated prematur
+438/449 {'singles': [11], 'pairs': [449, 887]} ЗАКРЫТ
+172/451 {'singles': [172], 'pairs': [279, 451]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [172], 'pairs': [279, 623]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [172], 'pairs': [451, 623]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [279], 'pairs': [172, 451]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [279], 'pairs': [172, 623]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [279], 'pairs': [451, 623]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [451], 'pairs': [172, 279]} The computation exceeded the time limit and so was terminated prematur
+172/451 {'singles': [451], 'pairs': [172, 623]} ЗАКРЫТ
+лимит/пусто — пауза 1800 с
+333/442 {'singles': [333], 'pairs': [109, 442]} The computation exceeded the time limit and so was terminated prematur
+333/442 {'singles': [333], 'pairs': [109, 775]} The computation exceeded the time limit and so was terminated prematur
+333/442 {'singles': [333], 'pairs': [442, 775]} ЗАКРЫТ
+295/452 {'singles': [295], 'pairs': [157, 452]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [295], 'pairs': [157, 747]} The computation exceeded the memory limit and so was terminated premat
+295/452 {'singles': [295], 'pairs': [452, 747]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [157], 'pairs': [295, 452]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [157], 'pairs': [295, 747]} 504 Gateway Timeout Gateway Timeout The gateway did not receive a time
+295/452 {'singles': [157], 'pairs': [452, 747]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [452], 'pairs': [295, 157]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [452], 'pairs': [295, 747]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [452], 'pairs': [157, 747]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [747], 'pairs': [295, 157]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [747], 'pairs': [295, 452]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [747], 'pairs': [157, 452]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [452, 747], 'pairs': [295, 157]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [452, -747], 'pairs': [295, 157]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [157, 747], 'pairs': [295, 452]} The computation exceeded the time limit and so was terminated prematur
+295/452 {'singles': [157, -747], 'pairs': [295, 452]} 504 Gateway Timeout Gateway Timeout The gateway did not receive a time
+295/452 {'singles': [157, 452], 'pairs': [295, 747]} ЗАКРЫТ
+лимит/пусто — пауза 1800 с
+236/475 {'singles': [236], 'pairs': [239, 475]} The computation exceeded the time limit and so was terminated prematur
+236/475 {'singles': [236], 'pairs': [239, 711]} The computation exceeded the time limit and so was terminated prematur
+236/475 {'singles': [236], 'pairs': [475, 711]} The computation exceeded the memory limit and so was terminated premat
+236/475 {'singles': [239], 'pairs': [236, 475]} ЗАКРЫТ
+305/461 {'singles': [305], 'pairs': [156, 461]} The computation exceeded the time limit and so was terminated prematur
+305/461 {'singles': [305], 'pairs': [156, 766]} The computation exceeded the time limit and so was terminated prematur
+305/461 {'singles': [305], 'pairs': [461, 766]} ЗАКРЫТ
+лимит/пусто — пауза 1800 с
+165/493 {'singles': [165], 'pairs': [328, 493]} ЗАКРЫТ
+52/499 {'singles': [52], 'pairs': [447, 499]} The computation exceeded the time limit and so was terminated prematur
+52/499 {'singles': [52], 'pairs': [447, 551]} The computation exceeded the time limit and so was terminated prematur
+52/499 {'singles': [52], 'pairs': [499, 551]} ЗАКРЫТ
+129/499 {'singles': [129], 'pairs': [370, 499]} The computation exceeded the memory limit and so was terminated premat
+129/499 {'singles': [129], 'pairs': [370, 628]} The computation exceeded the memory limit and so was terminated premat
+129/499 {'singles': [129], 'pairs': [499, 628]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [370], 'pairs': [129, 499]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [370], 'pairs': [129, 628]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [370], 'pairs': [499, 628]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [499], 'pairs': [129, 370]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [499], 'pairs': [129, 628]} The computation exceeded the time limit and so was terminated prematur
+129/499 {'singles': [499], 'pairs': [370, 628]} ЗАКРЫТ
+62/413 {'singles': [62], 'pairs': [351, 413]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [62], 'pairs': [351, 475]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [62], 'pairs': [413, 475]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [351], 'pairs': [62, 413]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [351], 'pairs': [62, 475]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [351], 'pairs': [413, 475]} 504 Gateway Timeout Gateway Timeout The gateway did not receive a time
+62/413 {'singles': [413], 'pairs': [62, 351]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [413], 'pairs': [62, 475]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [413], 'pairs': [351, 475]} The computation exceeded the time limit and so was terminated prematur
+62/413 {'singles': [475], 'pairs': [62, 351]} ЗАКРЫТ
+2/425 {'singles': [2], 'pairs': [423, 425]} The computation exceeded the memory limit and so was terminated premat
+лимит/пусто — пауза 1800 с
+2/425 {'singles': [2], 'pairs': [423, 427]} The computation exceeded the time limit and so was terminated prematur
+2/425 {'singles': [2], 'pairs': [425, 427]} The computation exceeded the time limit and so was terminated prematur
+2/425 {'singles': [423], 'pairs': [2, 425]} The computation exceeded the time limit and so was terminated prematur
+лимит/пусто — пауза 1800 с
