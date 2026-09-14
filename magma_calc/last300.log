@@ -44,3 +44,19 @@
 265/298 {'singles': [298], 'pairs': [265, 563]} The computation exceeded the time limit and so was terminated prematur
 265/298 {'singles': [298], 'pairs': [33, 563]} The computation exceeded the time limit and so was terminated prematur
 265/298 {'singles': [563], 'pairs': [265, 33]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [563], 'pairs': [265, 298]} The computation exceeded the memory limit and so was terminated premat
+265/298 {'singles': [563], 'pairs': [33, 298]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [298, 563], 'pairs': [265, 33]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [298, -563], 'pairs': [265, 33]} The computation exceeded the time limit and so was terminated prematur
+лимит/пусто — пауза 1800 с
+265/298 {'singles': [33, 563], 'pairs': [265, 298]} The computation exceeded the memory limit and so was terminated premat
+265/298 {'singles': [33, -563], 'pairs': [265, 298]} The computation exceeded the memory limit and so was terminated premat
+265/298 {'singles': [33, 298], 'pairs': [265, 563]} The computation exceeded the memory limit and so was terminated premat
+265/298 {'singles': [33, -298], 'pairs': [265, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, 563], 'pairs': [33, 298]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, -563], 'pairs': [33, 298]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, 298], 'pairs': [33, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, -298], 'pairs': [33, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, 33], 'pairs': [298, 563]} The computation exceeded the time limit and so was terminated prematur
+265/298 {'singles': [265, -33], 'pairs': [298, 563]} The computation exceeded the time limit and so was terminated prematur
+готово
