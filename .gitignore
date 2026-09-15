@@ -28,3 +28,7 @@ GROK_INFO_*LETTER*
 
 # полные тексты статей (авторское право, адреса авторов) — только локально
 bremner16/bremner2001.*
+
+# сторонний код без лицензии (Bianchi–Padurariu QC_bielliptic) и его доработки — только локально
+qc_bielliptic/fable/upstream/
+qc_bielliptic/fable/*patched*
