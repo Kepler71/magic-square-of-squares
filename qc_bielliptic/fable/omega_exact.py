@@ -60,24 +60,47 @@ def values_q_exact(f, q, cells, verbose=False):
         c = omega_at(x, y); vals.add(c)
         if nine_at(x): vals9.add(c)
     # --- порог насыщения около вейерштрассова корня e: глубина, начиная с которой обе λ_i постоянны
+    # --- точные тождества факторизации (проверяются над Q): cub_1(X_1'(x)) = 4 f(x)/u1^6,  x^6 cub_2(X_2'(x)) = 4 a0^2 f(x)/u2^6
+    Rx = PolynomialRing(QQ, 'x'); xq_ = Rx.gen()
+    def cub_Q(E):
+        a1_, a2_, a3_, a4_, a6_ = E.a_invariants()
+        return lambda X: 4*X**3 + (a1_**2 + 4*a2_)*X**2 + (2*a1_*a3_ + 4*a4_)*X + (a3_**2 + 4*a6_)
+    U1, R1, S1, T1 = [QQ(t) for t in i1.tuple()]; U2, R2, S2, T2 = [QQ(t) for t in i2.tuple()]
+    X1Q = (QQ(a6)*xq_**2 - R1)/U1**2
+    assert cub_Q(E1min)(X1Q) == 4*f/U1**6, 'тождество cub_1 нарушено'
+    Fx = Rx.fraction_field()(xq_); X2Q = (QQ(a0)/Fx**2 - R2)/U2**2
+    assert Fx**6 * cub_Q(E2min)(X2Q) == 4*QQ(a0)**2*f/U2**6, 'тождество cub_2 нарушено'
+    vU1, vU2 = ZZ(U1).valuation(q), ZZ(U2).valuation(q)
+    six = [QQ(s_*e_) for e_ in abc for s_ in (1, -1)]
+    def A_and_C_at(e, which):
+        """валюации A = v(3x'^2+2a2x'+a4 − a1 y') и C = v(ψ3(x')) в точной 2-точке кручения φ_i(e) на E_{i,min}; обе конечны."""
+        E, iso, psi = (E1min, i1, psi1) if which == 1 else (E2min, i2, psi2)
+        xi = Kq(a6)*Kq(e)**2 if which == 1 else Kq(a0)/Kq(e)**2
+        xe, ye = to_min(iso, xi, Kq(0))
+        a1_, a2_, a3_, a4_, a6_ = E.a_invariants()
+        # y' в 2-точке кручения: 2y'+a1x'+a3 = 0
+        ye = -(a1_*xe + a3_)/2
+        Aval = (3*xe**2 + 2*a2_*xe + a4_ - a1_*ye).valuation(); Cval = psi(xe).valuation()
+        assert Aval < prec - 5 and Cval < prec - 5, ('A или C бесконечна', q, e, which)
+        return Aval, Cval, xe
     def M0_for(e):
-        depths = []
-        for cub, psi, N, E, iso, which in ((cub1, psi1, N1, E1min, i1, 1), (cub2, psi2, N2, E2min, i2, 2)):
-            def xprime(x):
-                xi = Kq(a6)*x**2 if which == 1 else Kq(a0)/x**2
-                return to_min(iso, xi, Kq(0))[0]
-            xe = xprime(Kq(e))
-            # κ: v(cub(x')) − v(x−e) постоянна вблизи e (корни cub в переменной x — только ±a,±b,±c, и ровно один из них e... плюс
-            # x = −e даёт тот же x'); проверяем на двух глубинах
-            d1, d2 = 20, 25
-            k1 = cub(xprime(Kq(e) + Kq(q)**d1)).valuation() - d1
-            k2 = cub(xprime(Kq(e) + Kq(q)**d2)).valuation() - d2
-            assert k1 == k2, ('κ не постоянна', q, e, which, k1, k2)
-            Cval = psi(xe).valuation()          # ψ_3 в 2-точке кручения: конечна (e не 3-кручение)
-            assert Cval < prec - 5
-            need = max(N + 1, (2*Cval)//3 + 2)  # v(cub) ≥ need ⇒ n = N/2 (мультипликативная) и C < 3B (аддитивная)
-            depths.append(need - k1)
-        return max(depths + [1])
+        """порог mm: при v(x−e) ≥ v(e)+mm обе λ_i постоянны (равны значению в e). Явно:
+        v(cub_i) = v(x−e) + κ_i, κ_i = Σ_{j≠e} v(e−e_j) + v(4) − 6v(u_i) [+ 2v(a0) − 6v(e) при i=2];
+        нужно v(cub_i) ≥ max(N_i+1, ⌊2C_i/3⌋+2) (насыщение n = N/2, либо C < 3B), и v(x_i' − e_i') > max(A_i, C_i)
+        (постоянство ветви A и значения C), где v(x_1'−e_1') = v(x−e) + v(x+e) − 2v(u1),
+        v(x_2'−e_2') = v(a0) + v(x−e) + v(x+e) − 4v(e) − 2v(u2)."""
+        ve = ZZ(e.numerator()).valuation(q) - ZZ(e.denominator()).valuation(q)
+        others = sum((QQ(e) - ej).valuation(q) for ej in six if ej != e)   # v(e−e_j), j ≠ e  (валюации рациональных чисел)
+        v2e = (2*QQ(e)).valuation(q)
+        need = []
+        for which, vU, N in ((1, vU1, N1), (2, vU2, N2)):
+            Aval, Cval, _ = A_and_C_at(e, which)
+            kappa = others + ZZ(4).valuation(q) - 6*vU + (2*ZZ(a0).valuation(q) - 6*ve if which == 2 else 0)
+            need.append(max(N + 1, (2*Cval)//3 + 2) - kappa)                         # по v(cub_i)
+            shift = (v2e - 2*vU) if which == 1 else (ZZ(a0).valuation(q) + v2e - 4*ve - 2*vU)
+            need.append(max(Aval, Cval) + 1 - shift)                                  # по v(x_i' − e_i')
+            cert.setdefault('root_thresholds', {})[f'{e}/{which}'] = dict(kappa=int(kappa), A=int(Aval), C=int(Cval), N=int(N))
+        return max(need + [1]) - ve      # в единицах mm (v(x−e) = ve + mm)
     sep = max([ (e1 - e2).valuation(q) for e1 in roots for e2 in roots if e1 != e2 ] + [0])
     # --- пороги хвостов по v
     vmaxroot = max(ZZ(e.numerator()).valuation(q) - ZZ(e.denominator()).valuation(q) for e in roots)
@@ -90,6 +113,24 @@ def values_q_exact(f, q, cells, verbose=False):
     Vt = max(V0, Vinf) + max(N1, N2) + 2
     cert.update(dict(N1=N1, N2=N2, mu=mu, sep=sep, Vt=Vt, roots=[str(e) for e in roots]))
     units = [u for u in range(1, q**mu) if u % q]
+    additive = [E1min.c4().valuation(q) > 0 and N1 > 0, E2min.c4().valuation(q) > 0 and N2 > 0]
+    cert['additive'] = additive
+    RT = PolynomialRing(Kq, 'T'); T = RT.gen()
+    def psi_const(v, u0, m):
+        """при аддитивной редукции: v(ψ3(x_i'(x))) постоянна на классе x = q^v(u0 + q^m Z_q)? (достаточный критерий Тейлора)"""
+        ok = True
+        for which, psi, iso in ((1, psi1, i1), (2, psi2, i2)):
+            if not additive[which-1]: continue
+            xt = Kq(q)**v * (Kq(u0) + Kq(q)**m * T)
+            xi = Kq(a6)*xt**2 if which == 1 else RT.fraction_field()(Kq(a0))/xt**2
+            uu, rr, ss, tt = iso.tuple()
+            G = psi((xi - Kq(rr))/Kq(uu)**2)
+            if which == 2: G = G * xt**8          # очистить знаменатель x^8, валюация сдвигается на константу 8v
+            G = RT(G) if which == 1 else RT(G.numerator()) if hasattr(G, 'numerator') else RT(G)
+            v0 = G[0].valuation() if G[0] != 0 else Infinity
+            if not (v0 < Infinity and all((G[j].valuation() if G[j] != 0 else Infinity) > v0 for j in range(1, G.degree()+1))):
+                ok = False
+        return ok
     # --- перечисление по уровням v
     def enumerate_level(v):
         Rv = [e for e in roots if ZZ(e.numerator()).valuation(q) - ZZ(e.denominator()).valuation(q) == v]
@@ -98,15 +139,17 @@ def values_q_exact(f, q, cells, verbose=False):
             # класс x = q^v (u0 + q^m Z_q); u0 — целое, единица
             inside = [e for e in Rv if (Rv_u[e] - Kq(u0)).valuation() >= m]
             if not inside:
-                if all(m - (Rv_u[e] - Kq(u0)).valuation() >= mu for e in Rv):
+                if all(m - (Rv_u[e] - Kq(u0)).valuation() >= mu for e in Rv) and (not any(additive) or psi_const(v, u0, m)):
                     leaf(Kq(q)**v * Kq(u0)); return
+                if m > 3*max(N1, N2) + 12:
+                    cert.setdefault('uncertified_classes', []).append((v, u0, m)); leaf(Kq(q)**v * Kq(u0)); return
                 for d in range(q): rec(u0 + d*q**m, m+1)
                 return
             if len(inside) > 1 or m < sep - v + mu + 1:
                 for d in range(q): rec(u0 + d*q**m, m+1)
                 return
             e = inside[0]
-            M0 = max(M0_for(e) - v, m) if abs(e) in abc else m
+            M0 = max(M0_for(e), m) if abs(e) in abc else m
             cert.setdefault('near_root', {})[str(e)] = dict(v=v, m=m, M0=M0)
             for mm in range(m, M0):
                 for up in units:
