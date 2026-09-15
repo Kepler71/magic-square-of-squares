@@ -1,0 +1,19 @@
+E2min (1, -1, 0, -8036897897693156679, -6184840272007972640011952247)
+2-накрытий: 3 0.0 с
+ B= 10000 накрытие 0 точек 2 0.0 с
+ B= 10000 накрытие 1 точек 2 0.0 с
+ B= 10000 накрытие 2 точек 0 0.0 с
+ B= 100000 накрытие 0 точек 6 0.1 с
+ B= 100000 накрытие 1 точек 10 0.2 с
+ B= 100000 накрытие 2 точек 0 0.1 с
+ B= 1000000 накрытие 0 точек 10 13.8 с
+ B= 1000000 накрытие 1 точек 10 25.7 с
+ B= 1000000 накрытие 2 точек 0 9.2 с
+<sys>:0: RuntimeWarning: cypari2 leaked 2745856 bytes on the PARI stack
+Traceback (most recent call last):
+  File [35m"/home/kep/magicKube/qc_bielliptic/fable/gens_e2d.py"[0m, line [35m11[0m, in [35m<module>[0m
+    alarm(900); pts=[31mpari.hyperellratpoints[0m[1;31m(q,B)[0m; cancel_alarm()
+                    [31m~~~~~~~~~~~~~~~~~~~~~~[0m[1;31m^^^^^[0m
+  File [35m"cypari2/auto_instance.pxi"[0m, line [35m16367[0m, in [35mcypari2.pari_instance.Pari_auto.hyperellratpoints[0m
+    sig_on()
+[1;35mcysignals.signals.AlarmInterrupt[0m
