@@ -1,0 +1,42 @@
+{
+ "maps": [
+  true,
+  true,
+  true
+ ],
+ "rank": [
+  2,
+  2
+ ],
+ "sat_index": 1,
+ "ntors": 4,
+ "lambda_min_num": 2.5244969645071733,
+ "lambda_ok": true,
+ "K_H0": "1648771221921/753734919272",
+ "K_ok": true,
+ "sieve": [
+  [
+   "53",
+   2250
+  ],
+  [
+   "59",
+   122
+  ],
+  [
+   "61",
+   24
+  ],
+  [
+   "67",
+   4
+  ]
+ ],
+ "caseA_solutions": [],
+ "caseB_roots": [
+  "0",
+  "1/73",
+  "143/83521"
+ ],
+ "caseB_solutions": []
+}
