@@ -148,6 +148,10 @@ def pair_trick(F, g1, g2, g3, bound=10, verbose=True, extra_norm=16, ncheck=1):
         if len(vals) >= ncheck: break
     assert vals, "ни одна точка не дала множества мест"
     assert all(v == vals[0] for v in vals), f"РАСХОЖДЕНИЕ по точкам: {vals} {used}"
+    # замечание Codex 25.09: контроль считается выполненным, только если ДЕЙСТВИТЕЛЬНО получено
+    # ncheck независимых значений; раньше при единственном успешном значении assert проходил молча.
+    assert len(vals) >= ncheck, (f"контроль неполон: запрошено {ncheck} точек, успешных {len(vals)} "
+                                 f"({used}) — результат не считается проверенным")
     return vals[0], used
 
 def install_trick(F, bound=10, ncheck=1, verbose=False):
