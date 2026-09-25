@@ -1,0 +1,18 @@
+gens [(-222073943/3721 : -991967282460/226981 : 1), (18740749/4 : 81114734835/8 : 1)] certain True secs 0.1403815746307373
+saturation index 1 secs 0.183671236038208
+Gram 9.4? 11.1? -9.4? lambda 45/64
+height constants {0: 56, 1: 55, 2: 57} pairing constants {1: 66, 2: 79}
+H0 34433 K(H0) 0.7031236856933202 box 222 combinations 792100
+sieve p 7 |E(Fp)| 8 allowed 4 remaining 395160
+sieve p 13 |E(Fp)| 20 allowed 4 remaining 79032
+sieve p 17 |E(Fp)| 16 allowed 4 remaining 19712
+sieve p 19 |E(Fp)| 20 allowed 2 remaining 4004
+sieve p 29 |E(Fp)| 32 allowed 4 remaining 1014
+sieve p 31 |E(Fp)| 40 allowed 2 remaining 242
+sieve p 37 |E(Fp)| 44 allowed 4 remaining 88
+sieve p 41 |E(Fp)| 48 allowed 4 remaining 30
+sieve p 43 |E(Fp)| 44 allowed 2 remaining 4
+sieve p 47 |E(Fp)| 44 allowed 4 remaining 4
+case A: combinations 792100 exact checks 4 solutions [] secs 8.51913070678711
+case B candidates ['-1/11', '-1/265', '0', '1/265', '1/33', '1/563', 'None'] solutions []
+written closure_265_298.json

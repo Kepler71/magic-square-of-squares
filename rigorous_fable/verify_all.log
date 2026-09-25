@@ -1,0 +1,9 @@
+certificate_126_451.json pair 1 2 conic verified; |<Q_i,Q_j>| < 28
+certificate_126_451.json pair 1 0 elliptic verified; |<Q_i,Q_j>| < 70
+certificate_126_451.json all identities verified; |hhat - h(x)| <= log(B)/3, B = 8072568470703647597429129000569820928
+certificate_73_362.json pair 1 2 conic verified; |<Q_i,Q_j>| < 31
+certificate_73_362.json pair 1 0 elliptic verified; |<Q_i,Q_j>| < 69
+certificate_73_362.json all identities verified; |hhat - h(x)| <= log(B)/3, B = 45996034833494417800630161810813042374589062
+certificate_265_298.json pair 0 1 elliptic verified; |<Q_i,Q_j>| < 66
+certificate_265_298.json pair 0 2 elliptic verified; |<Q_i,Q_j>| < 79
+certificate_265_298.json all identities verified; |hhat - h(x)| <= log(B)/3, B = 4784896650528546514633123580942669106230340098470
