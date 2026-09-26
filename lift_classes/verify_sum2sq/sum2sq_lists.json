@@ -1,0 +1,63 @@
+{
+ "table": {
+  "126/451": {
+   "r_minus_s": -325,
+   "r_plus_s": 577,
+   "Dminus": [
+    1
+   ],
+   "Dplus": [
+    1,
+    577
+   ],
+   "Dminus_no_mod4": [
+    1
+   ],
+   "Dplus_no_mod4": [
+    1,
+    577
+   ]
+  },
+  "73/362": {
+   "r_minus_s": -289,
+   "r_plus_s": 435,
+   "Dminus": [
+    1
+   ],
+   "Dplus": [
+    1,
+    145
+   ],
+   "Dminus_no_mod4": [
+    1
+   ],
+   "Dplus_no_mod4": [
+    1,
+    145
+   ]
+  },
+  "265/298": {
+   "r_minus_s": -33,
+   "r_plus_s": 563,
+   "Dminus": [
+    1
+   ],
+   "Dplus": [
+    1
+   ],
+   "Dminus_no_mod4": [
+    1
+   ],
+   "Dplus_no_mod4": [
+    1
+   ]
+  }
+ },
+ "table_mod4_not_needed": true,
+ "D": {
+  "RMAX": 300,
+  "pairs": 109588,
+  "both_odd": 36464,
+  "violations": []
+ }
+}

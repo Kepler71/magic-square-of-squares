@@ -1,0 +1,53 @@
+{
+ "first_admissible": [
+  73,
+  97,
+  145,
+  193,
+  241,
+  265,
+  313,
+  337,
+  409,
+  433,
+  457,
+  481,
+  505,
+  577,
+  601
+ ],
+ "min_admissible": 73,
+ "first_squarefree_1mod24_without_mod4_condition": [
+  73,
+  97,
+  145,
+  193,
+  217,
+  241,
+  265,
+  313,
+  337,
+  385
+ ],
+ "numbers_1mod24_below_73": [
+  1,
+  25,
+  49
+ ],
+ "f2_solutions": 4,
+ "f2_shape_ok": true,
+ "T_eq_S": true,
+ "L_eq_SU": true,
+ "nonzero_weights": [
+  4,
+  6,
+  6
+ ],
+ "nonzero_support_le3": 0,
+ "ap_of_three_distinct_nonzero_squares": {
+  "5": 0,
+  "7": 0,
+  "11": 10,
+  "13": 12
+ }
+}

@@ -1,0 +1,449 @@
+{
+ "levels": {
+  "p2_k1_m0": {
+   "EXCL": 0,
+   "PASS": 0,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p2_k1_m1": {
+   "EXCL": 2,
+   "PASS": 0,
+   "UND": 1,
+   "numpy_match": true
+  },
+  "p2_k1_m2": {
+   "EXCL": 0,
+   "PASS": 0,
+   "UND": 3,
+   "numpy_match": true
+  },
+  "p2_k1_m3": {
+   "EXCL": 2,
+   "PASS": 0,
+   "UND": 1,
+   "numpy_match": true
+  },
+  "p2_k1_m4": {
+   "EXCL": 0,
+   "PASS": 0,
+   "UND": 3,
+   "numpy_match": true
+  },
+  "p2_k1_m5": {
+   "EXCL": 2,
+   "PASS": 0,
+   "UND": 1,
+   "numpy_match": true
+  },
+  "p2_k1_m6": {
+   "EXCL": 0,
+   "PASS": 0,
+   "UND": 3,
+   "numpy_match": true
+  },
+  "p2_k1_m7": {
+   "EXCL": 2,
+   "PASS": 0,
+   "UND": 1,
+   "numpy_match": true
+  },
+  "p2_k2_m0": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 8,
+   "numpy_match": true
+  },
+  "p2_k2_m1": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p2_k2_m2": {
+   "EXCL": 4,
+   "PASS": 0,
+   "UND": 8,
+   "numpy_match": true
+  },
+  "p2_k2_m3": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p2_k2_m4": {
+   "EXCL": 4,
+   "PASS": 0,
+   "UND": 8,
+   "numpy_match": true
+  },
+  "p2_k2_m5": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p2_k2_m6": {
+   "EXCL": 4,
+   "PASS": 0,
+   "UND": 8,
+   "numpy_match": true
+  },
+  "p2_k2_m7": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p2_k3_m0": {
+   "EXCL": 63,
+   "PASS": 1,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m1": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m2": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m3": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m4": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m5": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m6": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k3_m7": {
+   "EXCL": 48,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m0": {
+   "EXCL": 252,
+   "PASS": 4,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m1": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m2": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m3": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m4": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m5": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m6": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k4_m7": {
+   "EXCL": 192,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m0": {
+   "EXCL": 1008,
+   "PASS": 16,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m1": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m2": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m3": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m4": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m5": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m6": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k5_m7": {
+   "EXCL": 768,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m0": {
+   "EXCL": 4032,
+   "PASS": 64,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m1": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m2": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m3": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m4": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m5": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m6": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p2_k6_m7": {
+   "EXCL": 3072,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k1_m0": {
+   "EXCL": 4,
+   "PASS": 1,
+   "UND": 4,
+   "numpy_match": true
+  },
+  "p3_k1_m1": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k1_m2": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k1_m3": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k1_m4": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k1_m5": {
+   "EXCL": 8,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m0": {
+   "EXCL": 72,
+   "PASS": 9,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m1": {
+   "EXCL": 72,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m2": {
+   "EXCL": 72,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m3": {
+   "EXCL": 72,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m4": {
+   "EXCL": 72,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k2_m5": {
+   "EXCL": 72,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m0": {
+   "EXCL": 648,
+   "PASS": 81,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m1": {
+   "EXCL": 648,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m2": {
+   "EXCL": 648,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m3": {
+   "EXCL": 648,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m4": {
+   "EXCL": 648,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k3_m5": {
+   "EXCL": 648,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m0": {
+   "EXCL": 5832,
+   "PASS": 729,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m1": {
+   "EXCL": 5832,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m2": {
+   "EXCL": 5832,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m3": {
+   "EXCL": 5832,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m4": {
+   "EXCL": 5832,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  },
+  "p3_k4_m5": {
+   "EXCL": 5832,
+   "PASS": 0,
+   "UND": 0,
+   "numpy_match": true
+  }
+ },
+ "soundness_violations": 0,
+ "lifts_tested": 445416,
+ "lifts_zero_cell_skipped": 0,
+ "rsz_p2": {
+  "tested": 60356,
+  "passes": 21880,
+  "bad": 0
+ },
+ "rsz_p3": {
+  "tested": 90283,
+  "passes": 49292,
+  "bad": 0
+ }
+}

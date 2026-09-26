@@ -1,0 +1,27 @@
+  p=3 pair 0/1277 tested=125 passed=36 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 200/1277 tested=25221 passed=7236 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 400/1277 tested=50331 passed=14436 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 600/1277 tested=75395 passed=21636 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 800/1277 tested=100419 passed=28836 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 1000/1277 tested=125509 passed=36036 pole_passed=0 S1=0 SU1=0  0s
+  p=3 pair 1200/1277 tested=150607 passed=43236 pole_passed=0 S1=0 SU1=0  0s
+p=3 DONE pairs=1277 units=18 e in [-4,2]: {'tested': 160147, 'passed': 45972, 'pole_passed': 0, 'S1': 0, 'SU1': 0, 'S1_n3plus': 0, 'pr_or_ps_pole_passed': 0, 'eqval_pole_passed': 0, 'highval_rs': 0}  0s
+  p=5 pair 0/1421 tested=699 passed=250 pole_passed=50 S1=0 SU1=0  0s
+  p=5 pair 200/1421 tested=140595 passed=45092 pole_passed=4892 S1=966 SU1=918  0s
+  p=5 pair 400/1421 tested=280513 passed=88964 pole_passed=8764 S1=2262 SU1=2700  1s
+  p=5 pair 600/1421 tested=420415 passed=132868 pole_passed=12668 S1=3308 SU1=3962  1s
+  p=5 pair 800/1421 tested=560242 passed=177480 pole_passed=17280 S1=4166 SU1=4874  2s
+  p=5 pair 1000/1421 tested=700144 passed=221400 pole_passed=21200 S1=5274 SU1=5712  2s
+  p=5 pair 1200/1421 tested=840068 passed=265322 pole_passed=25122 S1=7056 SU1=7008  3s
+  p=5 pair 1400/1421 tested=979964 passed=310198 pole_passed=29998 S1=8184 SU1=8088  3s
+p=5 DONE pairs=1421 units=100 e in [-4,2]: {'tested': 993953, 'passed': 314646, 'pole_passed': 30446, 'S1': 8184, 'SU1': 8088, 'S1_n3plus': 7592, 'pr_or_ps_pole_passed': 8000, 'eqval_pole_passed': 2196, 'highval_rs': 14462}  3s
+  p=7 pair 0/1468 tested=2057 passed=594 pole_passed=0 S1=0 SU1=0  0s
+  p=7 pair 200/1468 tested=413570 passed=118337 pole_passed=0 S1=0 SU1=0  1s
+  p=7 pair 400/1468 tested=825108 passed=235937 pole_passed=0 S1=0 SU1=0  3s
+  p=7 pair 600/1468 tested=1236616 passed=353585 pole_passed=0 S1=0 SU1=0  4s
+  p=7 pair 800/1468 tested=1648043 passed=471325 pole_passed=0 S1=0 SU1=0  5s
+  p=7 pair 1000/1468 tested=2059545 passed=589035 pole_passed=0 S1=0 SU1=0  6s
+  p=7 pair 1200/1468 tested=2471086 passed=706635 pole_passed=0 S1=0 SU1=0  8s
+  p=7 pair 1400/1468 tested=2882616 passed=824237 pole_passed=0 S1=0 SU1=0  9s
+p=7 DONE pairs=1468 units=294 e in [-4,2]: {'tested': 3020460, 'passed': 863780, 'pole_passed': 0, 'S1': 0, 'SU1': 0, 'S1_n3plus': 0, 'pr_or_ps_pole_passed': 0, 'eqval_pole_passed': 0, 'highval_rs': 0}  9s
+ALL ASSERTIONS PASSED for [3, 5, 7]

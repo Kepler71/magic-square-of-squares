@@ -1,0 +1,41 @@
+  p=17 pair 0/1642 tested=4900 passed=1944 pole_passed=470 S1=0 SU1=0  0s
+  p=17 pair 200/1642 tested=984900 passed=404904 pole_passed=118307 S1=48923 SU1=2736  4s
+  p=17 pair 400/1642 tested=1964900 passed=739788 pole_passed=169779 S1=53423 SU1=5928  7s
+  p=17 pair 600/1642 tested=2944900 passed=1104302 pole_passed=252426 S1=68502 SU1=19120  11s
+  p=17 pair 800/1642 tested=3924900 passed=1522844 pole_passed=387294 S1=101445 SU1=51819  14s
+  p=17 pair 1000/1642 tested=4904900 passed=1957563 pole_passed=538630 S1=137962 SU1=89036  18s
+  p=17 pair 1200/1642 tested=5884900 passed=2346805 pole_passed=644988 S1=160242 SU1=112726  22s
+  p=17 pair 1400/1642 tested=6864900 passed=2682145 pole_passed=697033 S1=163890 SU1=117343  25s
+  p=17 pair 1600/1642 tested=7844900 passed=3045924 pole_passed=777112 S1=188559 SU1=120814  29s
+p=17 DONE pairs=1642 units=700 e in [-4,2]: {'tested': 8045800, 'passed': 3154590, 'pole_passed': 826602, 'S1': 214304, 'SU1': 120814, 'S1_n3plus': 80576, 'pr_or_ps_pole_passed': 56568, 'eqval_pole_passed': 43086, 'highval_rs': 489960}  30s
+  p=29 pair 0/1663 tested=4900 passed=1973 pole_passed=411 S1=0 SU1=0  0s
+  p=29 pair 200/1663 tested=984900 passed=349444 pole_passed=51701 S1=8899 SU1=497  4s
+  p=29 pair 400/1663 tested=1964900 passed=691885 pole_passed=111985 S1=13869 SU1=497  7s
+  p=29 pair 600/1663 tested=2944900 passed=1043390 pole_passed=178726 S1=19828 SU1=2480  11s
+  p=29 pair 800/1663 tested=3924900 passed=1393712 pole_passed=239278 S1=27275 SU1=9419  15s
+  p=29 pair 1000/1663 tested=4904900 passed=1746347 pole_passed=300588 S1=33665 SU1=16317  19s
+  p=29 pair 1200/1663 tested=5884900 passed=2099466 pole_passed=366294 S1=37631 SU1=22768  22s
+  p=29 pair 1400/1663 tested=6864900 passed=2440981 pole_passed=425591 S1=37631 SU1=28235  26s
+  p=29 pair 1600/1663 tested=7844900 passed=2786784 pole_passed=480354 S1=45213 SU1=31217  30s
+p=29 DONE pairs=1663 units=700 e in [-4,2]: {'tested': 8148700, 'passed': 2897175, 'pole_passed': 497683, 'S1': 47524, 'SU1': 31217, 'S1_n3plus': 35816, 'pr_or_ps_pole_passed': 59592, 'eqval_pole_passed': 70214, 'highval_rs': 132816}  31s
+  p=37 pair 0/1705 tested=4900 passed=2026 pole_passed=451 S1=0 SU1=0  0s
+  p=37 pair 200/1705 tested=984900 passed=355329 pole_passed=61344 S1=11817 SU1=0  4s
+  p=37 pair 400/1705 tested=1964900 passed=703234 pole_passed=127984 S1=16857 SU1=0  8s
+  p=37 pair 600/1705 tested=2944900 passed=1053178 pole_passed=194314 S1=22850 SU1=1961  11s
+  p=37 pair 800/1705 tested=3924900 passed=1407183 pole_passed=259192 S1=28729 SU1=7840  15s
+  p=37 pair 1000/1705 tested=4904900 passed=1760791 pole_passed=322603 S1=35277 SU1=14388  19s
+  p=37 pair 1200/1705 tested=5884900 passed=2112458 pole_passed=386294 S1=40491 SU1=20106  23s
+  p=37 pair 1400/1705 tested=6864900 passed=2462242 pole_passed=454810 S1=40491 SU1=25650  26s
+  p=37 pair 1600/1705 tested=7844900 passed=2809270 pole_passed=518692 S1=43515 SU1=31194  30s
+p=37 DONE pairs=1705 units=700 e in [-4,2]: {'tested': 8354500, 'passed': 2997513, 'pole_passed': 551196, 'S1': 50292, 'SU1': 31194, 'S1_n3plus': 37550, 'pr_or_ps_pole_passed': 63704, 'eqval_pole_passed': 72501, 'highval_rs': 136310}  32s
+  p=41 pair 0/1708 tested=4900 passed=1994 pole_passed=447 S1=0 SU1=0  0s
+  p=41 pair 200/1708 tested=984900 passed=423099 pole_passed=128097 S1=54015 SU1=0  4s
+  p=41 pair 400/1708 tested=1964900 passed=770430 pole_passed=193895 S1=58895 SU1=0  8s
+  p=41 pair 600/1708 tested=2944900 passed=1149564 pole_passed=288736 S1=71648 SU1=10313  12s
+  p=41 pair 800/1708 tested=3924900 passed=1576515 pole_passed=425050 S1=102597 SU1=41262  16s
+  p=41 pair 1000/1708 tested=4904900 passed=2009664 pole_passed=566075 S1=135571 SU1=75636  20s
+  p=41 pair 1200/1708 tested=5884900 passed=2430874 pole_passed=697709 S1=164485 SU1=103150  24s
+  p=41 pair 1400/1708 tested=6864900 passed=2782745 pole_passed=768259 S1=164485 SU1=107542  28s
+  p=41 pair 1600/1708 tested=7844900 passed=3133440 pole_passed=836001 S1=167413 SU1=112910  31s
+p=41 DONE pairs=1708 units=700 e in [-4,2]: {'tested': 8369200, 'passed': 3389060, 'pole_passed': 930264, 'S1': 216060, 'SU1': 112910, 'S1_n3plus': 78380, 'pr_or_ps_pole_passed': 60164, 'eqval_pole_passed': 67224, 'highval_rs': 508724}  34s
+ALL ASSERTIONS PASSED for [17, 29, 37, 41]

@@ -1,0 +1,2210 @@
+{
+ "F2": {
+  "n_solutions": 4,
+  "weights": [
+   0,
+   4,
+   6,
+   6
+  ],
+  "pattern_ok": true
+ },
+ "universal_I_p": {
+  "7": [
+   [
+    1,
+    1
+   ]
+  ],
+  "11": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "19": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "23": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "31": [
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "43": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "47": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "59": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "67": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "71": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "79": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "83": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "103": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "107": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "127": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "131": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "139": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "151": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "163": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "167": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "179": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "191": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ],
+  "199": [
+   [
+    -1,
+    -1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    1
+   ]
+  ]
+ },
+ "consistency": {
+  "n": 110,
+  "subset": 110,
+  "equal": 108,
+  "rows": [
+   {
+    "slope": "126/451",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": false
+   },
+   {
+    "slope": "126/451",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 67,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "126/451",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": false
+   },
+   {
+    "slope": "-126/451",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 67,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "-126/451",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 31,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 47,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 67,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "73/362",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 11,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 47,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 67,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "265/298",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 19,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 67,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "12/85",
+    "p": 79,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 43,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 47,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 59,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 67,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "2/3",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 59,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 67,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "4/9",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 23,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 43,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 67,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 71,
+    "empirical": [
+     "(-1, 1)",
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "8/9",
+    "p": 79,
+    "empirical": [
+     "(-1, -1)",
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 11,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 23,
+    "empirical": [
+     "(1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 67,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 71,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "19/30",
+    "p": 79,
+    "empirical": [
+     "(-1, 1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 7,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 11,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 19,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 23,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 31,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 43,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 47,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 59,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 67,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 71,
+    "empirical": [
+     "(-1, -1)",
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      -1,
+      -1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   },
+   {
+    "slope": "5/8",
+    "p": 79,
+    "empirical": [
+     "(1, 1)"
+    ],
+    "upper": [
+     [
+      1,
+      1
+     ]
+    ],
+    "subset": true,
+    "equal": true
+   }
+  ]
+ },
+ "sage_126_451_p7": {
+  "tested": 144060,
+  "passed": 72030,
+  "nontrivial_TL": 0,
+  "chi7_577": 0
+ }
+}

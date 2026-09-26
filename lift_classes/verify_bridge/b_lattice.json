@@ -1,0 +1,19 @@
+{
+ "curves": [
+  34,
+  41,
+  65,
+  138,
+  145,
+  154
+ ],
+ "pair_checks": 3168,
+ "pair_fail": 0,
+ "triple_checks": 24240,
+ "triple_fail": 0,
+ "index_instances": 23213,
+ "index_nonvacuous": 8213,
+ "index_fail": 0,
+ "kernel_mismatch": 0,
+ "count_fail": 0
+}

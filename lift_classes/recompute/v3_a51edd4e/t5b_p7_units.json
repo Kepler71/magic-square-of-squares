@@ -1,0 +1,8 @@
+{
+ "allowed_tested": 1993,
+ "allowed_passed": 7,
+ "bad": 0,
+ "forbidden_tested": 22502,
+ "forbidden_passed": 0,
+ "passed_with_cell_div7": 7
+}

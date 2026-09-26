@@ -1,0 +1,18 @@
+126/451 {'r-s': -325, 'fac(r-s)': '-1 * 5^2 * 13', 'r+s': 577, 'fac(r+s)': '577', 'D_T(A)': [1], 'D_T(B)': [1], 'D_L(A)': [1, 577], 'D_L(B)': [1, 577], 'codex': [[1], [1, 577]], 'match': True, 'for -r/s': [[1, 577], [1]]}
+73/362 {'r-s': -289, 'fac(r-s)': '-1 * 17^2', 'r+s': 435, 'fac(r+s)': '3 * 5 * 29', 'D_T(A)': [1], 'D_T(B)': [1], 'D_L(A)': [1, 145], 'D_L(B)': [1, 145], 'codex': [[1], [1, 145]], 'match': True, 'for -r/s': [[1, 145], [1]]}
+265/298 {'r-s': -33, 'fac(r-s)': '-1 * 3 * 11', 'r+s': 563, 'fac(r+s)': '563', 'D_T(A)': [1], 'D_T(B)': [1], 'D_L(A)': [1], 'D_L(B)': [1], 'codex': [[1], [1]], 'match': True, 'for -r/s': [[1], [1]]}
+  s=100  t=0.1s
+  s=200  t=0.3s
+  s=300  t=0.8s
+  s=400  t=1.1s
+  s=500  t=1.6s
+  s=600  t=2.1s
+  s=700  t=2.7s
+  s=800  t=3.5s
+  s=900  t=4.3s
+  s=1000  t=5.2s
+s<=300: {'pos': {'slopes': 27397, 'both_trivial': 24637, 'share': 0.899259}, 'all': {'slopes': 54794, 'both_trivial': 49274, 'share': 0.899259}}
+s<=600: {'pos': {'slopes': 109499, 'both_trivial': 95221, 'share': 0.869606}, 'all': {'slopes': 218998, 'both_trivial': 190442, 'share': 0.869606}}
+s<=1000: {'pos': {'slopes': 304191, 'both_trivial': 257833, 'share': 0.847602}, 'all': {'slopes': 608382, 'both_trivial': 515666, 'share': 0.847602}}
+A/B mismatch: 0  gcd viol: 0  cor73 viol: 0  maxpairs: (4, '-12/85', [1, 97], [1, 73])
+done 5.2s

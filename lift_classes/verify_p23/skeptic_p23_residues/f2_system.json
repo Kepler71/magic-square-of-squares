@@ -1,0 +1,72 @@
+{
+ "n_solutions_8lines": 4,
+ "solutions_equal_M(S,U)": true,
+ "weights_nonzero": [
+  4,
+  6,
+  6
+ ],
+ "T_is_S_and_L_is_S+U": true,
+ "min_weight_nonzero": 4,
+ "n_subsets_with_same_space_by_size": {
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 21,
+  "7": 8,
+  "8": 1
+ },
+ "minimal_size": 6,
+ "example_minimal_subsets": [
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col-1",
+   "col+0",
+   "diag"
+  ],
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col-1",
+   "col+0",
+   "anti"
+  ],
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col-1",
+   "col+1",
+   "diag"
+  ],
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col-1",
+   "col+1",
+   "anti"
+  ],
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col-1",
+   "diag",
+   "anti"
+  ],
+  [
+   "row-1",
+   "row+0",
+   "row+1",
+   "col+0",
+   "col+1",
+   "diag"
+  ]
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "E34_rank": 2,
+ "E34_gens_saturated": "1",
+ "E34_control": [
+  {
+   "v2": -4,
+   "v3": -2,
+   "rootden": 60
+  },
+  {
+   "v2": -4,
+   "v3": -2,
+   "rootden": 12
+  },
+  {
+   "v2": -4,
+   "v3": -2,
+   "rootden": 269575189777049463158740627036584612390900
+  }
+ ],
+ "E34_common_rootden": 12,
+ "E34_control_is_AP_any_order": false,
+ "equal_area": {
+  "summary": {
+   "R1_triples": 18,
+   "AP_shadow_triples": 4,
+   "checked_triples": 1631
+  },
+  "n_R1": 18,
+  "n_shadow": 4,
+  "det_ratio_min": 0.4540644351738188,
+  "det_ratio_max": 0.9660240215194776
+ }
+}

@@ -1,0 +1,35 @@
+126/451  D_T=[1] D_L=[1, 577]  oddT at [13], oddL at [577]  pairs: {'1,1': 'all tested p', '1,577': 'obstructed at [7, 13, 29, 37, 41, 43, 47]'}  (0.4s)
+73/362  D_T=[1] D_L=[1, 145]  oddT at [17], oddL at [5, 29]  pairs: {'1,1': 'all tested p', '1,145': 'obstructed at [5, 7, 11, 13, 19, 23, 29, 41, 53]'}  (0.7s)
+265/298  D_T=[1] D_L=[1]  oddT at [], oddL at []  pairs: {'1,1': 'all tested p'}  (1.1s)
+-12/85  D_T=[1, 97] D_L=[1, 73]  oddT at [97], oddL at [73]  pairs: {'1,1': 'all tested p', '1,73': 'obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 59]', '97,1': 'obstructed at [5, 7, 13, 17, 19, 23, 29, 41, 59]', '97,73': 'obstructed at [5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 59]'}  (1.3s)
+12/61  D_T=[1] D_L=[1, 73]  oddT at [], oddL at [73]  pairs: {'1,1': 'all tested p', '1,73': 'obstructed at [5, 7, 11, 17, 29, 31, 43, 47, 53, 59]'}  (1.5s)
+24/49  D_T=[1] D_L=[1, 73]  oddT at [], oddL at [73]  pairs: {'1,1': 'all tested p', '1,73': 'obstructed at [7, 11, 13, 17, 31, 43, 59]'}  (1.6s)
+4/9  D_T=[1] D_L=[1]  oddT at [5], oddL at [13]  pairs: {'1,1': 'all tested p'}  (1.8s)
+3/8  D_T=[1] D_L=[1]  oddT at [5], oddL at []  pairs: {'1,1': 'all tested p'}  (1.9s)
+1/4  D_T=[1] D_L=[1]  oddT at [], oddL at [5]  pairs: {'1,1': 'all tested p'}  (2.0s)
+2/3  D_T=[1] D_L=[1]  oddT at [], oddL at [5]  pairs: {'1,1': 'all tested p'}  (2.1s)
+!! 1 2 2 [] 8
+!! 1 2 3 [] 2
+!! 1 2 5 [] 2
+!! 1 2 7 [] 2
+!! 1 2 11 [] 2
+!! 1 2 13 [] 2
+!! 1 2 17 [] 2
+!! 1 2 19 [] 2
+!! 1 2 23 [] 2
+!! 1 2 29 [] 2
+!! 1 2 31 [] 2
+!! 1 2 37 [] 2
+!! 1 2 41 [] 2
+!! 1 2 43 [] 2
+!! 1 2 47 [] 2
+!! 1 2 53 [] 2
+!! 1 2 59 [] 2
+1/2  D_T=[1] D_L=[1]  oddT at [], oddL at []  pairs: {'1,1': 'all tested p'}  (4.9s)
+5/12  D_T=[1] D_L=[1]  oddT at [], oddL at [17]  pairs: {'1,1': 'all tested p'}  (5.0s)
+7/12  D_T=[1] D_L=[1]  oddT at [5], oddL at []  pairs: {'1,1': 'all tested p'}  (5.1s)
+1/6  D_T=[1] D_L=[1]  oddT at [5], oddL at []  pairs: {'1,1': 'all tested p'}  (5.3s)
+8/65  D_T=[1] D_L=[1, 73]  oddT at [], oddL at [73]  pairs: {'1,1': 'all tested p', '1,73': 'obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 53, 59]'}  (5.4s)
+36/109  D_T=[1, 73] D_L=[1, 145]  oddT at [73], oddL at [5, 29]  pairs: {'1,1': 'all tested p', '1,145': 'obstructed at [5, 7, 11, 13, 19, 23, 29, 31, 41]', '73,1': 'obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 53, 59]', '73,145': 'obstructed at [7, 11, 13, 17, 19, 23, 31, 41, 43, 47, 53, 59]'}  (5.6s)
+violations_total = 0
+done 5.6s

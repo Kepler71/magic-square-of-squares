@@ -1,0 +1,21 @@
+{
+ "ap_criterion": {
+  "prime_checks": 24621,
+  "false_rejections": 0,
+  "eq_fail_2_or_3mod8": 0,
+  "two_level_patterns": {
+   "1:end_high": 2988,
+   "1:mid_high": 1512,
+   "5:mid_high": 2916,
+   "7:end_high": 4848
+  }
+ },
+ "filtration_subgroup": {
+  "checks": 3931,
+  "fails": 0
+ },
+ "lemma1_torsion_rank3": {
+  "checks": 1056,
+  "fails": 0
+ }
+}

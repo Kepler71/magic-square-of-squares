@@ -1,0 +1,27 @@
+{
+ "impl_mismatch": [],
+ "monotonicity": {
+  "checked_children": 153635,
+  "bad": 36
+ },
+ "sage_random": {
+  "2": {
+   "tested": 60000,
+   "all8_square": 9918,
+   "all8_square_below": 0,
+   "targeted": 45000,
+   "ball_PASS_but_not_all8": 0,
+   "ball_EXCL_but_all8": 0
+  },
+  "3": {
+   "tested": 60000,
+   "all8_square": 12986,
+   "all8_square_below": 0,
+   "targeted": 45000,
+   "ball_PASS_but_not_all8": 0,
+   "ball_EXCL_but_all8": 0
+  }
+ },
+ "bad_rational": [],
+ "consistency_bad": []
+}

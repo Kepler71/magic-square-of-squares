@@ -1,0 +1,4437 @@
+{
+ "slopes": {
+  "126/451": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1,
+    577
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 167,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 30,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 54,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 58,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 94,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, -1))",
+      "((1, 1), (0, -1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 112,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 148,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 292,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 364,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "577": {
+     "image_size": 4,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 5188,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,577": "obstructed at [7, 13, 29, 37, 41, 43, 47]"
+   },
+   "odd_vT_primes": [
+    13
+   ],
+   "odd_vL_primes": [
+    577
+   ]
+  },
+  "73/362": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1,
+    145
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 167,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 34,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, 1))",
+      "((1, 1), (0, 1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 198,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 256,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 244,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 652,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "181": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 1624,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,145": "obstructed at [5, 7, 11, 13, 19, 23, 29, 41, 53]"
+   },
+   "odd_vT_primes": [
+    17
+   ],
+   "odd_vL_primes": [
+    5,
+    29
+   ]
+  },
+  "265/298": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 167,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 28,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 94,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 180,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 228,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 324,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 472,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "149": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 1336,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "563": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 5062,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": []
+  },
+  "-12/85": {
+   "D_T": [
+    1,
+    97
+   ],
+   "D_L": [
+    1,
+    73
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 100,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 148,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 4,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 652,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    },
+    "97": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, 1))",
+      "((1, 1), (0, 1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 868,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,73": "obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 59]",
+    "97,1": "obstructed at [5, 7, 13, 17, 19, 23, 29, 41, 59]",
+    "97,73": "obstructed at [5, 7, 11, 13, 17, 19, 23, 29, 31, 41, 43, 47, 59]"
+   },
+   "odd_vT_primes": [
+    97
+   ],
+   "odd_vL_primes": [
+    73
+   ]
+  },
+  "12/61": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1,
+    73
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 46,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 78,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 84,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 132,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 292,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "61": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 544,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 4,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 652,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,73": "obstructed at [5, 7, 11, 17, 29, 31, 43, 47, 53, 59]"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    73
+   ]
+  },
+  "24/49": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1,
+    73
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 191,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 54,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 78,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 292,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 4,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 652,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,73": "obstructed at [7, 11, 13, 17, 31, 43, 59]"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    73
+   ]
+  },
+  "4/9": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 30,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, -1))",
+      "((1, 1), (0, -1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 84,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 112,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 132,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [
+    5
+   ],
+   "odd_vL_primes": [
+    13
+   ]
+  },
+  "3/8": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 191,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, -1))",
+      "((1, 1), (0, -1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 94,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 100,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 148,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [
+    5
+   ],
+   "odd_vL_primes": []
+  },
+  "1/4": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 28,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    5
+   ]
+  },
+  "2/3": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 167,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    5
+   ]
+  },
+  "1/2": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 991,
+     "root_balls": 0,
+     "unresolved": 8,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 370,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 626,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 864,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 1360,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 1608,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "17": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 2104,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "19": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 2352,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 2848,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 3592,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "31": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 3840,
+     "root_balls": 2,
+     "unresolved": 2,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 4584,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 5080,
+     "root_balls": 2,
+     "unresolved": 2,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 5328,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "47": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 5824,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "53": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 6568,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 7312,
+     "root_balls": 0,
+     "unresolved": 2,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": []
+  },
+  "5/12": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 58,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 84,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 74,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 3,
+     "image": [
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 148,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 148,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 228,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    17
+   ]
+  },
+  "7/12": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, -1))",
+      "((1, 1), (0, -1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 58,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 100,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 132,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 166,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 244,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [
+    5
+   ],
+   "odd_vL_primes": []
+  },
+  "1/6": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 167,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 22,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, -1))",
+      "((1, 1), (0, -1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 58,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 84,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 100,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p"
+   },
+   "odd_vT_primes": [
+    5
+   ],
+   "odd_vL_primes": []
+  },
+  "8/65": {
+   "D_T": [
+    1
+   ],
+   "D_L": [
+    1,
+    73
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 191,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 40,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 66,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 112,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 166,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 180,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 170,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 218,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (0, -1))",
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 4,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))",
+      "((0, 1), (1, -1))",
+      "((0, 1), (1, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 652,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,73": "obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 53, 59]"
+   },
+   "odd_vT_primes": [],
+   "odd_vL_primes": [
+    73
+   ]
+  },
+  "36/109": {
+   "D_T": [
+    1,
+    73
+   ],
+   "D_L": [
+    1,
+    145
+   ],
+   "primes": {
+    "2": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 171,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "3": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 30,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "5": {
+     "image_size": 3,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 40,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "7": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 52,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "11": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 62,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "13": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 100,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "17": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 98,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "19": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 110,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "23": {
+     "image_size": 2,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 134,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "29": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (1, -1))",
+      "((0, -1), (1, 1))",
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": true,
+     "p|r-s": false,
+     "p|r+s": true,
+     "balls": 256,
+     "root_balls": 2,
+     "unresolved": 0,
+     "violations": []
+    },
+    "31": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 182,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "37": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 292,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "41": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 242,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "43": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 254,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "47": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 278,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "53": {
+     "image_size": 2,
+     "image": [
+      "((0, 1), (0, -1))",
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 314,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "59": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 350,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    },
+    "73": {
+     "image_size": 4,
+     "image": [
+      "((0, -1), (0, 1))",
+      "((0, 1), (0, 1))",
+      "((1, -1), (0, 1))",
+      "((1, 1), (0, 1))"
+     ],
+     "odd_vT_seen": true,
+     "odd_vL_seen": false,
+     "p|r-s": true,
+     "p|r+s": false,
+     "balls": 652,
+     "root_balls": 4,
+     "unresolved": 0,
+     "violations": []
+    },
+    "109": {
+     "image_size": 1,
+     "image": [
+      "((0, 1), (0, 1))"
+     ],
+     "odd_vT_seen": false,
+     "odd_vL_seen": false,
+     "p|r-s": false,
+     "p|r+s": false,
+     "balls": 976,
+     "root_balls": 0,
+     "unresolved": 0,
+     "violations": []
+    }
+   },
+   "pairs_locally_ok": {
+    "1,1": "all tested p",
+    "1,145": "obstructed at [5, 7, 11, 13, 19, 23, 29, 31, 41]",
+    "73,1": "obstructed at [5, 7, 11, 13, 17, 29, 31, 43, 47, 53, 59]",
+    "73,145": "obstructed at [7, 11, 13, 17, 19, 23, 31, 41, 43, 47, 53, 59]"
+   },
+   "odd_vT_primes": [
+    73
+   ],
+   "odd_vL_primes": [
+    5,
+    29
+   ]
+  }
+ },
+ "violations_total": 0
+}

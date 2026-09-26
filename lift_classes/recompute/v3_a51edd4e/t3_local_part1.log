@@ -1,0 +1,65 @@
+[   0.5s]   -126/451 p=2 tests=173796 passed=49656 T_odd=0 L_odd=0 viol=0 e=[3, 4, 5, 6] H_mismatch=False
+[   1.4s]   -126/451 p=3 tests=277326 passed=118854 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   2.2s]   -126/451 p=5 tests=264264 passed=132955 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[   3.2s]   -126/451 p=7 tests=304290 passed=130410 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   4.1s]   -126/451 p=11 tests=281274 passed=124539 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[   4.3s]   -126/451 p=13 tests=44352 passed=24256 T_odd=0 L_odd=5214 viol=0 e=[-7, -5, -3, -1, 0, 1] H_mismatch=False
+[   4.6s]   -126/451 p=17 tests=99456 passed=42624 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   5.1s]   -126/451 p=19 tests=138810 passed=59490 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   6.0s]   -126/451 p=23 tests=246750 passed=105750 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   6.0s]   -126/451 p=29 tests=19404 passed=8316 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   6.1s]   -126/451 p=31 tests=21882 passed=9378 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   6.2s]   -126/451 p=37 tests=30324 passed=12996 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   6.4s]   -126/451 p=41 tests=36204 passed=16008 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[   6.5s]   -126/451 p=43 tests=40278 passed=17262 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[   8.5s]   -126/451 p=577 tests=421050 passed=236330 T_odd=52401 L_odd=0 viol=0 e=[-7, -5, -3, -1, 0, 1] H_mismatch=False
+[   9.1s] -126/451 real: {'tested': 40000, 'eight_positive': 348, 'negative_cell': 0}
+[   9.6s]   12/85 p=2 tests=173796 passed=49656 T_odd=0 L_odd=0 viol=0 e=[3, 4, 5, 6] H_mismatch=False
+[  10.4s]   12/85 p=3 tests=277326 passed=118854 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  11.2s]   12/85 p=5 tests=264264 passed=113256 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  12.2s]   12/85 p=7 tests=304878 passed=130662 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  13.1s]   12/85 p=11 tests=281862 passed=120798 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  13.2s]   12/85 p=13 tests=44940 passed=19260 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  13.5s]   12/85 p=17 tests=98868 passed=43239 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  14.0s]   12/85 p=19 tests=138810 passed=59525 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  14.9s]   12/85 p=23 tests=246750 passed=105750 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  15.0s]   12/85 p=29 tests=19404 passed=10647 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  15.1s]   12/85 p=31 tests=21882 passed=9378 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  15.2s]   12/85 p=37 tests=30324 passed=16119 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  15.3s]   12/85 p=41 tests=36792 passed=19584 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  15.5s]   12/85 p=43 tests=40278 passed=17262 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  15.9s]   12/85 p=73 tests=112138 passed=62510 T_odd=13999 L_odd=0 viol=0 e=[-7, -5, -3, -1, 0, 1] H_mismatch=False
+[  16.7s]   12/85 p=97 tests=197314 passed=110275 T_odd=0 L_odd=24532 viol=0 e=[-7, -5, -3, -1, 0, 1] H_mismatch=False
+[  17.3s] 12/85 real: {'tested': 40000, 'eight_positive': 1369, 'negative_cell': 0}
+[  17.8s]   2/3 p=2 tests=173752 passed=49656 T_odd=0 L_odd=0 viol=0 e=[3, 4, 5, 6] H_mismatch=False
+[  18.6s]   2/3 p=3 tests=277286 passed=118854 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  19.3s]   2/3 p=5 tests=264232 passed=142419 T_odd=0 L_odd=29163 viol=0 e=[-7, -5, -3, -1, 1, 2] H_mismatch=False
+[  20.2s]   2/3 p=7 tests=304862 passed=130662 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  21.1s]   2/3 p=11 tests=281846 passed=120798 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  21.3s]   2/3 p=13 tests=44924 passed=19260 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  21.6s]   2/3 p=17 tests=99440 passed=42624 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  22.0s]   2/3 p=19 tests=138794 passed=59490 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  22.9s]   2/3 p=23 tests=246734 passed=105750 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  22.9s]   2/3 p=29 tests=19388 passed=10395 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  23.0s]   2/3 p=31 tests=21866 passed=9378 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  23.1s]   2/3 p=37 tests=30308 passed=13107 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  23.2s]   2/3 p=41 tests=36776 passed=15768 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  23.4s]   2/3 p=43 tests=40262 passed=17264 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  23.9s] 2/3 real: {'tested': 40000, 'eight_positive': 1481, 'negative_cell': 0}
+[  24.4s]   3/10 p=2 tests=173796 passed=49656 T_odd=0 L_odd=0 viol=0 e=[3, 4, 5, 6] H_mismatch=False
+[  25.2s]   3/10 p=3 tests=277322 passed=118854 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  26.0s]   3/10 p=5 tests=264264 passed=113256 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  26.9s]   3/10 p=7 tests=304286 passed=130410 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  27.9s]   3/10 p=11 tests=281862 passed=120798 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  28.0s]   3/10 p=13 tests=44350 passed=24252 T_odd=0 L_odd=5214 viol=0 e=[-7, -5, -3, -1, 0, 1] H_mismatch=False
+[  28.3s]   3/10 p=17 tests=99456 passed=53154 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  28.8s]   3/10 p=19 tests=138810 passed=59490 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  29.7s]   3/10 p=23 tests=246750 passed=105750 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  29.8s]   3/10 p=29 tests=19404 passed=10395 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  29.8s]   3/10 p=31 tests=21882 passed=9378 T_odd=0 L_odd=0 viol=0 e=[1, 2, 3, 4, 5, 6] H_mismatch=False
+[  29.9s]   3/10 p=37 tests=30324 passed=16119 T_odd=0 L_odd=0 viol=0 e=[-6, -4, -2, 1, 2, 3] H_mismatch=False
+[  30.1s]   3/10 p=41 tests=36792 passed=15906 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  30.2s]   3/10 p=43 tests=40278 passed=17275 T_odd=0 L_odd=0 viol=0 e=[0, 1, 2, 3, 4, 5] H_mismatch=False
+[  30.8s] 3/10 real: {'tested': 40000, 'eight_positive': 1448, 'negative_cell': 0}
+[  31.7s] Sage-сверка подвыборки: случаев 5737, расхождений 0
+[  31.7s] ИТОГ части 1: {'tests': 8649132, 'passed': 3795717, 'viol': 0, 'T_odd': 66400, 'L_odd': 64123, 'H_mismatch': 0, 'real_bad': 0, 'sage_sub': 5737, 'sage_mismatch': 0, 'time_s': 31.7}

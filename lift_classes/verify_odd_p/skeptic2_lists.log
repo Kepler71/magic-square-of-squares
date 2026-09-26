@@ -1,0 +1,7 @@
+(126, 451) r-s= -325 [5, 13] D-= [1]  r+s= 577 [577] D+= [1, 577]
+(73, 362) r-s= -289 [17] D-= [1]  r+s= 435 [3, 5, 29] D+= [1, 145]
+(265, 298) r-s= -33 [3, 11] D-= [1]  r+s= 563 [563] D+= [1]
+(451, 126) r-s= 325 [5, 13] D-= [1]  r+s= 577 [577] D+= [1, 577]
+(-126, 451) r-s= -577 [577] D-= [1, 577]  r+s= 325 [5, 13] D+= [1]
+smallest nontrivial squarefree d=1 mod 24 with all primes 1 mod 4: 73
+smallest nontrivial squarefree d=1 mod 24 (any primes): 73

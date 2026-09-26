@@ -1,0 +1,23 @@
+126/451 {"126/451": {"r-s": -325, "fac(r-s)": {"5": 2, "13": 1}, "r+s": 577, "fac(r+s)": {"577": 1}, "D_T": [1], "D_L": [1, 577], "refined_D_T": [1], "refined_D_L": [1, 577]}, "-126/451": {"r-s": -577, "fac(r-s)": {"577": 1}, "r+s": 325, "fac(r+s)": {"5": 2, "13": 1}, "D_T": [1, 577], "D_L": [1], "refined_D_T": [1, 577], "refined_D_L": [1]}, "codex_T": [1], "codex_L": [1, 577], "match_codex": true}
+73/362 {"73/362": {"r-s": -289, "fac(r-s)": {"17": 2}, "r+s": 435, "fac(r+s)": {"3": 1, "5": 1, "29": 1}, "D_T": [1], "D_L": [1, 145], "refined_D_T": [1], "refined_D_L": [1, 145]}, "-73/362": {"r-s": -435, "fac(r-s)": {"3": 1, "5": 1, "29": 1}, "r+s": 289, "fac(r+s)": {"17": 2}, "D_T": [1, 145], "D_L": [1], "refined_D_T": [1, 145], "refined_D_L": [1]}, "codex_T": [1], "codex_L": [1, 145], "match_codex": true}
+265/298 {"265/298": {"r-s": -33, "fac(r-s)": {"3": 1, "11": 1}, "r+s": 563, "fac(r+s)": {"563": 1}, "D_T": [1], "D_L": [1], "refined_D_T": [1], "refined_D_L": [1]}, "-265/298": {"r-s": -563, "fac(r-s)": {"563": 1}, "r+s": 33, "fac(r+s)": {"3": 1, "11": 1}, "D_T": [1], "D_L": [1], "refined_D_T": [1], "refined_D_L": [1]}, "codex_T": [1], "codex_L": [1], "match_codex": true}
+  s=200  t=0.6s
+  s=300  t=0.9s
+  s=400  t=1.0s
+  s=600  t=1.3s
+  s=800  t=1.7s
+  s=1000  t=2.2s
+  s=1200  t=2.9s
+  s=1400  t=3.6s
+  s=1600  t=4.5s
+  s=1800  t=5.6s
+  s=2000  t=6.7s
+s<=300: {'slopes': 27397, 'both_trivial': 24637, 'only_T': 878, 'only_L': 1826, 'both_nontriv': 56, 'refined_both_trivial': 24637, 'refined_differs': 0, 'frac_both_trivial': 0.8992590429609081, 'frac_refined_both_trivial': 0.8992590429609081}
+s<=600: {'slopes': 109499, 'both_trivial': 95221, 'only_T': 5204, 'only_L': 8651, 'both_nontriv': 423, 'refined_both_trivial': 95394, 'refined_differs': 184, 'frac_both_trivial': 0.869606115124339, 'frac_refined_both_trivial': 0.8711860382286596}
+s<=1000: {'slopes': 304191, 'both_trivial': 257833, 'only_T': 17460, 'only_L': 27177, 'both_nontriv': 1721, 'refined_both_trivial': 258637, 'refined_differs': 863, 'frac_both_trivial': 0.8476023287999974, 'frac_refined_both_trivial': 0.8502454050251322}
+s<=2000: {'slopes': 1216587, 'both_trivial': 994180, 'only_T': 85845, 'only_L': 126255, 'both_nontriv': 10307, 'refined_both_trivial': 998270, 'refined_differs': 4456, 'frac_both_trivial': 0.8171877555818039, 'frac_refined_both_trivial': 0.8205496195504308}
+нарушений gcd: 0  нарушений следствия 73: 0
+сверка A/B (Sage) при s<=300: списков 54794, расхождений 0
+макс. число пар (d_T,d_L): (4, (12, 85, [1, 73], [1, 97]))
+первые наклоны, где уточнённые списки отличаются: [(362, 363, [1], [1, 145], [1], [1]), (361, 364, [1], [1, 145], [1], [1]), (359, 366, [1], [1, 145], [1], [1]), (358, 367, [1], [1, 145], [1], [1]), (357, 368, [1], [1, 145], [1], [1]), (356, 369, [1], [1, 145], [1], [1]), (354, 371, [1], [1, 145], [1], [1]), (353, 372, [1], [1, 145], [1], [1])]
+время 6.7 с

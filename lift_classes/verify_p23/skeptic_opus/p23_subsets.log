@@ -1,0 +1,22 @@
+p=2 k=6 all8        : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=2 k=6 drop_row-1  : PASS вне цели=     0  UND вне цели=     3  пример (m,B,C)=None
+p=2 k=6 drop_row0   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=2 k=6 drop_row+1  : PASS вне цели=     0  UND вне цели=     3  пример (m,B,C)=None
+p=2 k=6 drop_col-1  : PASS вне цели=     0  UND вне цели=     3  пример (m,B,C)=None
+p=2 k=6 drop_col0   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=2 k=6 drop_col+1  : PASS вне цели=     0  UND вне цели=     3  пример (m,B,C)=None
+p=2 k=6 drop_diag   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=2 k=6 drop_anti   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=2 k=6 central4    : PASS вне цели=   196  UND вне цели=    16  пример (m,B,C)=(0, 0, 4)
+p=2 k=6 rows_cols6  : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 all8        : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 drop_row-1  : PASS вне цели=     0  UND вне цели=     1  пример (m,B,C)=None
+p=3 k=4 drop_row0   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 drop_row+1  : PASS вне цели=     0  UND вне цели=     1  пример (m,B,C)=None
+p=3 k=4 drop_col-1  : PASS вне цели=     0  UND вне цели=     1  пример (m,B,C)=None
+p=3 k=4 drop_col0   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 drop_col+1  : PASS вне цели=     0  UND вне цели=     1  пример (m,B,C)=None
+p=3 k=4 drop_diag   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 drop_anti   : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None
+p=3 k=4 central4    : PASS вне цели=    36  UND вне цели=     4  пример (m,B,C)=(0, 0, 10)
+p=3 k=4 rows_cols6  : PASS вне цели=     0  UND вне цели=     0  пример (m,B,C)=None

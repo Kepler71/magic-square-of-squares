@@ -1,0 +1,59 @@
+{
+ "magic_solution_dim": 3,
+ "incidence_rank_Q": 7,
+ "incidence_rank_F2": 7,
+ "membership": [
+  3,
+  2,
+  3,
+  2,
+  4,
+  2,
+  3,
+  2,
+  3
+ ],
+ "codex_form_is_general": true,
+ "C2": "2*b^2 + 2*c^2",
+ "E2": "4*b^2 + 4*c^2",
+ "E4_minus_2C4": "24*b^2*c^2",
+ "root4_identity_zero": true,
+ "root4_identity_in_linear_ideal": true,
+ "positivity_min_cell": "a-|b|-|c| (\u043a\u043b\u0435\u0442\u043a\u0438 a\u00b1b\u00b1c \u043f\u0440\u0438\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0442)",
+ "grid_kernel_dim": 2,
+ "class_T_eq_s_class_L_eq_s_plus_t": true,
+ "common_lines_count": 4,
+ "sqrtA22_formula_squared_ok": true,
+ "mod37": {
+  "grid": [
+   8,
+   24,
+   3,
+   22,
+   1,
+   17,
+   36,
+   15,
+   31
+  ],
+  "distinct": true,
+  "nonzero": true,
+  "eight_products_residues": true,
+  "T": 14,
+  "T_residue": false,
+  "L": 36,
+  "L_residue": true
+ },
+ "genus": {
+  "Y_rank": 6,
+  "Y_degree": 64,
+  "Y_genus": "81",
+  "X_degree": 256,
+  "X_genus": "321"
+ },
+ "X_over_Y_supports": [
+  4,
+  6,
+  6
+ ]
+}

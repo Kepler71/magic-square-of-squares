@@ -1,0 +1,120 @@
+{
+ "p2_all8": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p2_drop_row-1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 3,
+  "example_m_B_C": null
+ },
+ "p2_drop_row0": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p2_drop_row+1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 3,
+  "example_m_B_C": null
+ },
+ "p2_drop_col-1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 3,
+  "example_m_B_C": null
+ },
+ "p2_drop_col0": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p2_drop_col+1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 3,
+  "example_m_B_C": null
+ },
+ "p2_drop_diag": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p2_drop_anti": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p2_central4": {
+  "PASS_not_target": 196,
+  "UND_not_target": 16,
+  "example_m_B_C": [
+   0,
+   0,
+   4
+  ]
+ },
+ "p2_rows_cols6": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_all8": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_drop_row-1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 1,
+  "example_m_B_C": null
+ },
+ "p3_drop_row0": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_drop_row+1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 1,
+  "example_m_B_C": null
+ },
+ "p3_drop_col-1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 1,
+  "example_m_B_C": null
+ },
+ "p3_drop_col0": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_drop_col+1": {
+  "PASS_not_target": 0,
+  "UND_not_target": 1,
+  "example_m_B_C": null
+ },
+ "p3_drop_diag": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_drop_anti": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ },
+ "p3_central4": {
+  "PASS_not_target": 36,
+  "UND_not_target": 4,
+  "example_m_B_C": [
+   0,
+   0,
+   10
+  ]
+ },
+ "p3_rows_cols6": {
+  "PASS_not_target": 0,
+  "UND_not_target": 0,
+  "example_m_B_C": null
+ }
+}

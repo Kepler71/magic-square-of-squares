@@ -1,0 +1,315 @@
+{
+ "p": 2,
+ "lines": "all8",
+ "dim": 2,
+ "by_K": {
+  "1": {
+   "A": {
+    "points": 4,
+    "viol_region": 4,
+    "survivors_in_viol": 4,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0,
+    "examples(t,beta,gamma)": [
+     [
+      1,
+      0,
+      0
+     ],
+     [
+      1,
+      0,
+      1
+     ],
+     [
+      1,
+      1,
+      0
+     ],
+     [
+      1,
+      1,
+      1
+     ]
+    ]
+   },
+   "B": {
+    "points": 2,
+    "viol_region": 2,
+    "survivors_in_viol": 2,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0,
+    "examples(t,beta,gamma)": [
+     [
+      0,
+      1,
+      0
+     ],
+     [
+      0,
+      1,
+      1
+     ]
+    ]
+   },
+   "C": {
+    "points": 1,
+    "viol_region": 1,
+    "survivors_in_viol": 1,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0,
+    "examples(t,beta,gamma)": [
+     [
+      0,
+      0,
+      1
+     ]
+    ]
+   }
+  },
+  "2": {
+   "A": {
+    "points": 16,
+    "viol_region": 16,
+    "survivors_in_viol": 1,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0,
+    "examples(t,beta,gamma)": [
+     [
+      1,
+      0,
+      0
+     ]
+    ]
+   },
+   "B": {
+    "points": 8,
+    "viol_region": 8,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 4,
+    "viol_region": 4,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "3": {
+   "A": {
+    "points": 64,
+    "viol_region": 63,
+    "survivors_in_viol": 0,
+    "good_region": 1,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 1
+   },
+   "B": {
+    "points": 32,
+    "viol_region": 32,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 16,
+    "viol_region": 16,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "4": {
+   "A": {
+    "points": 256,
+    "viol_region": 252,
+    "survivors_in_viol": 0,
+    "good_region": 4,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 4
+   },
+   "B": {
+    "points": 128,
+    "viol_region": 128,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 64,
+    "viol_region": 64,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "5": {
+   "A": {
+    "points": 1024,
+    "viol_region": 1008,
+    "survivors_in_viol": 0,
+    "good_region": 16,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 16
+   },
+   "B": {
+    "points": 512,
+    "viol_region": 512,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 256,
+    "viol_region": 256,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "6": {
+   "A": {
+    "points": 4096,
+    "viol_region": 4032,
+    "survivors_in_viol": 0,
+    "good_region": 64,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 64
+   },
+   "B": {
+    "points": 2048,
+    "viol_region": 2048,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 1024,
+    "viol_region": 1024,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "7": {
+   "A": {
+    "points": 16384,
+    "viol_region": 16128,
+    "survivors_in_viol": 0,
+    "good_region": 256,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 256
+   },
+   "B": {
+    "points": 8192,
+    "viol_region": 8192,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 4096,
+    "viol_region": 4096,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "8": {
+   "A": {
+    "points": 65536,
+    "viol_region": 64512,
+    "survivors_in_viol": 0,
+    "good_region": 1024,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 1024
+   },
+   "B": {
+    "points": 32768,
+    "viol_region": 32768,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 16384,
+    "viol_region": 16384,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "9": {
+   "A": {
+    "points": 262144,
+    "viol_region": 258048,
+    "survivors_in_viol": 0,
+    "good_region": 4096,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 4096
+   },
+   "B": {
+    "points": 131072,
+    "viol_region": 131072,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 65536,
+    "viol_region": 65536,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  },
+  "10": {
+   "A": {
+    "points": 1048576,
+    "viol_region": 1032192,
+    "survivors_in_viol": 0,
+    "good_region": 16384,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 16384
+   },
+   "B": {
+    "points": 524288,
+    "viol_region": 524288,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   },
+   "C": {
+    "points": 262144,
+    "viol_region": 262144,
+    "survivors_in_viol": 0,
+    "good_region": 0,
+    "good_nontriv_consistent": 0,
+    "good_trivial_consistent": 0
+   }
+  }
+ }
+}

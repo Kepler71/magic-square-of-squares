@@ -1,0 +1,21 @@
+126/451 {"126/451": {"r-s": -325, "r+s": 577, "D_T": [1], "D_L": [1, 577], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {"577": 3}}, "-126/451": {"r-s": -577, "r+s": 325, "D_T": [1, 577], "D_L": [1], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {"577": 3}}, "codex_T": [1], "codex_L": [1, 577], "match_codex": true}
+73/362 {"73/362": {"r-s": -289, "r+s": 435, "D_T": [1], "D_L": [1, 145], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {"145": 5}}, "-73/362": {"r-s": -435, "r+s": 289, "D_T": [1, 145], "D_L": [1], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {"145": 5}}, "codex_T": [1], "codex_L": [1, 145], "match_codex": true}
+265/298 {"265/298": {"r-s": -33, "r+s": 563, "D_T": [1], "D_L": [1], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {}}, "-265/298": {"r-s": -563, "r+s": 33, "D_T": [1], "D_L": [1], "D_T_Q7": [1], "D_L_Q7": [1], "mod7_of_nontriv": {}}, "codex_T": [1], "codex_L": [1], "match_codex": true}
+  s=250  t=0.1s
+  s=500  t=0.4s
+  s=750  t=0.7s
+  s=1000  t=1.2s
+  s=1250  t=1.6s
+  s=1500  t=2.2s
+  s=1750  t=2.9s
+  s=2000  t=3.7s
+s<=300: {'slopes': 27397, 'both_triv': 24637, 'only_T_nontriv': 878, 'only_L_nontriv': 1826, 'both_nontriv': 56, 'both_triv_Q7': 26893, 'frac_both_triv': 0.899259, 'frac_both_triv_Q7': 0.981604}
+s<=600: {'slopes': 109499, 'both_triv': 95221, 'only_T_nontriv': 5204, 'only_L_nontriv': 8651, 'both_nontriv': 423, 'both_triv_Q7': 105993, 'frac_both_triv': 0.869606, 'frac_both_triv_Q7': 0.967981}
+s<=1000: {'slopes': 304191, 'both_triv': 257833, 'only_T_nontriv': 17460, 'only_L_nontriv': 27177, 'both_nontriv': 1721, 'both_triv_Q7': 291236, 'frac_both_triv': 0.847602, 'frac_both_triv_Q7': 0.957412}
+s<=2000: {'slopes': 1216587, 'both_triv': 994180, 'only_T_nontriv': 85845, 'only_L_nontriv': 126255, 'both_nontriv': 10307, 'both_triv_Q7': 1146776, 'frac_both_triv': 0.817188, 'frac_both_triv_Q7': 0.942617}
+A/B сверено наклонов: 109499 расхождений: 0
+следствие 73 (|r-s|<73 => D_T={1}; |r+s|<73 => D_L={1}): проверено 87104 нарушений 0
+нарушений gcd: 0  нарушений d=1 mod24/бесквадр.: 0
+макс. число пар: (4, (12, 85, [1, 73], [1, 97]))
+совпадение с таблицей Codex: True
+время 3.7 с

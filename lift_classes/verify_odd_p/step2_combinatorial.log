@@ -1,0 +1,9 @@
+Part1 line lemma: max zero-cells per prime (p<=211): {3: 3, 5: 3, 7: 3, 11: 3, 13: 3, 17: 3} ... all <=3; time 0.3s
+Part2: solutions of 8 line eqs over F2: 4 total, 4 with centre 0
+Part2: matrix S,U,S+U confirmed; weights [0, 4, 6, 6] ; opposite cells equal
+Part2 (info): solutions with centre parity 1: 0 (irrelevant: centre = 1)
+Part2: [T]=S, [L]=S+U confirmed
+Part3 (constrained = real odd-p valuations): configs 318, in-space 135, violations 0, nontrivial {'S': 24, 'SU': 24}; 0.0s
+Part3 negative control (valuation constraints dropped): configs 26244, in-space 4298, 'violations' 419; 0.1s
+Part3 conclusion: the model check is non-vacuous iff the unconstrained run shows violations: True
+ALL COMBINATORIAL CHECKS PASSED

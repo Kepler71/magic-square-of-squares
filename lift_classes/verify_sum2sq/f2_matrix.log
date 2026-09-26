@@ -1,0 +1,14 @@
+rank over F2 of 8 grid-line equations on 9 cells: 7
+number of solutions: 4 (expect 4 = 2^2)
+matrix [[S,U,S+U],[U,0,U],[S+U,U,S]] confirmed for all 4 solutions
+magic row1 ['a - b', 'a + b + c', 'a - c'] class (S,U)-coeffs = (1, 0)
+magic row2 ['a + b - c', 'a', 'a - b + c'] class (S,U)-coeffs = (0, 0)
+magic row3 ['a + c', 'a - b - c', 'a + b'] class (S,U)-coeffs = (1, 0)
+magic col1 ['a - b', 'a + b - c', 'a + c'] class (S,U)-coeffs = (1, 1)
+magic col2 ['a + b + c', 'a', 'a - b - c'] class (S,U)-coeffs = (0, 0)
+magic col3 ['a - c', 'a - b + c', 'a + b'] class (S,U)-coeffs = (1, 1)
+magic diag ['a - b', 'a', 'a + b'] class (S,U)-coeffs = (0, 0)
+magic anti ['a - c', 'a', 'a + c'] class (S,U)-coeffs = (0, 0)
+T == magic top row, L == magic left column (a=1,b=rz,c=sz): OK
+[T] = (1, 0)  [L] = (1, 1)
+ALL F2 CHECKS PASSED

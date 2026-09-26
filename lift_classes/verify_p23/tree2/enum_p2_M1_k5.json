@@ -1,0 +1,104 @@
+{
+ "p": 2,
+ "M": 1,
+ "KFLAT": 5,
+ "KMAX": 30,
+ "flat": {
+  "m=0,k=1": {
+   "target": 0,
+   "fail": 0,
+   "CE": 0,
+   "undet": 4,
+   "target_touching_fail_BUG": 0
+  },
+  "m=0,k=2": {
+   "target": 0,
+   "fail": 15,
+   "CE": 0,
+   "undet": 1,
+   "target_touching_fail_BUG": 0
+  },
+  "m=0,k=3": {
+   "target": 1,
+   "fail": 63,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=0,k=4": {
+   "target": 4,
+   "fail": 252,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=0,k=5": {
+   "target": 16,
+   "fail": 1008,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=1,k=1": {
+   "target": 0,
+   "fail": 2,
+   "CE": 0,
+   "undet": 1,
+   "target_touching_fail_BUG": 0
+  },
+  "m=1,k=2": {
+   "target": 0,
+   "fail": 12,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=1,k=3": {
+   "target": 0,
+   "fail": 48,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=1,k=4": {
+   "target": 0,
+   "fail": 192,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  },
+  "m=1,k=5": {
+   "target": 0,
+   "fail": 768,
+   "CE": 0,
+   "undet": 0,
+   "target_touching_fail_BUG": 0
+  }
+ },
+ "tree": {
+  "m=0": {
+   "target": 0,
+   "fail": 0,
+   "CE": 0,
+   "unresolved_at_KMAX": 0,
+   "nodes": 0,
+   "maxdepth": 5,
+   "start_undet": 0,
+   "unresolved_examples": []
+  },
+  "m=1": {
+   "target": 0,
+   "fail": 0,
+   "CE": 0,
+   "unresolved_at_KMAX": 0,
+   "nodes": 0,
+   "maxdepth": 5,
+   "start_undet": 0,
+   "unresolved_examples": []
+  }
+ },
+ "CE": [],
+ "BUG": [],
+ "n_CE": 0,
+ "n_BUG": 0
+}

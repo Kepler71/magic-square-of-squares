@@ -1,0 +1,54 @@
+impl-compare p=2 k=1 m=0 ok=True
+impl-compare p=2 k=1 m=1 ok=True
+impl-compare p=2 k=1 m=2 ok=True
+impl-compare p=2 k=2 m=0 ok=True
+impl-compare p=2 k=2 m=1 ok=True
+impl-compare p=2 k=2 m=2 ok=True
+impl-compare p=2 k=3 m=0 ok=True
+impl-compare p=2 k=3 m=1 ok=True
+impl-compare p=2 k=3 m=2 ok=True
+impl-compare p=2 k=4 m=0 ok=True
+impl-compare p=2 k=4 m=1 ok=True
+impl-compare p=2 k=4 m=2 ok=True
+impl-compare p=2 k=5 m=0 ok=True
+impl-compare p=2 k=5 m=1 ok=True
+impl-compare p=2 k=5 m=2 ok=True
+impl-compare p=3 k=1 m=0 ok=True
+impl-compare p=3 k=1 m=1 ok=True
+impl-compare p=3 k=2 m=0 ok=True
+impl-compare p=3 k=2 m=1 ok=True
+impl-compare p=3 k=3 m=0 ok=True
+impl-compare p=3 k=3 m=1 ok=True
+sage p=2 it=0 {'tested': 1, 'all8_square': 0, 'all8_square_below': 0, 'targeted': 0, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [0s]
+sage p=2 it=20000 {'tested': 20001, 'all8_square': 3334, 'all8_square_below': 0, 'targeted': 15000, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [1s]
+sage p=2 it=40000 {'tested': 40001, 'all8_square': 6638, 'all8_square_below': 0, 'targeted': 30000, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [2s]
+sage p=3 it=0 {'tested': 1, 'all8_square': 1, 'all8_square_below': 0, 'targeted': 0, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [4s]
+sage p=3 it=20000 {'tested': 20001, 'all8_square': 4286, 'all8_square_below': 0, 'targeted': 15000, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [5s]
+sage p=3 it=40000 {'tested': 40001, 'all8_square': 8608, 'all8_square_below': 0, 'targeted': 30000, 'ball_PASS_but_not_all8': 0, 'ball_EXCL_but_all8': 0} [6s]
+{
+ "impl_mismatch": [],
+ "monotonicity": {
+  "checked_children": 153635,
+  "bad": 36
+ },
+ "sage_random": {
+  "2": {
+   "tested": 60000,
+   "all8_square": 9918,
+   "all8_square_below": 0,
+   "targeted": 45000,
+   "ball_PASS_but_not_all8": 0,
+   "ball_EXCL_but_all8": 0
+  },
+  "3": {
+   "tested": 60000,
+   "all8_square": 12986,
+   "all8_square_below": 0,
+   "targeted": 45000,
+   "ball_PASS_but_not_all8": 0,
+   "ball_EXCL_but_all8": 0
+  }
+ },
+ "bad_rational": [],
+ "consistency_bad": []
+}

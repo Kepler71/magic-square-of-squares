@@ -1,0 +1,20 @@
+  p=11 pair 0/1599 tested=8469 passed=2662 pole_passed=0 S1=0 SU1=0  0s
+  p=11 pair 200/1599 tested=1702386 passed=501372 pole_passed=0 S1=0 SU1=0  5s
+  p=11 pair 400/1599 tested=3396324 passed=992721 pole_passed=0 S1=0 SU1=0  11s
+  p=11 pair 600/1599 tested=5090238 passed=1489272 pole_passed=0 S1=0 SU1=0  16s
+  p=11 pair 800/1599 tested=6784111 passed=1985317 pole_passed=0 S1=0 SU1=0  22s
+  p=11 pair 1000/1599 tested=8477990 passed=2480322 pole_passed=0 S1=0 SU1=0  27s
+  p=11 pair 1200/1599 tested=10171900 passed=2977933 pole_passed=0 S1=0 SU1=0  32s
+  p=11 pair 1400/1599 tested=11865841 passed=3469524 pole_passed=0 S1=0 SU1=0  38s
+p=11 DONE pairs=1599 units=1210 e in [-4,2]: {'tested': 13542818, 'passed': 3963402, 'pole_passed': 0, 'S1': 0, 'SU1': 0, 'S1_n3plus': 0, 'pr_or_ps_pole_passed': 0, 'eqval_pole_passed': 0, 'highval_rs': 0}  43s
+  p=13 pair 0/1614 tested=9099 passed=3457 pole_passed=633 S1=0 SU1=0  0s
+  p=13 pair 200/1614 tested=1829019 passed=637813 pole_passed=99277 S1=13173 SU1=6124  6s
+  p=13 pair 400/1614 tested=3648958 passed=1268418 pole_passed=205987 S1=25487 SU1=19444  13s
+  p=13 pair 600/1614 tested=5468870 passed=1887861 pole_passed=294418 S1=39322 SU1=28953  19s
+  p=13 pair 800/1614 tested=7288751 passed=2525368 pole_passed=401517 S1=50822 SU1=41295  25s
+  p=13 pair 1000/1614 tested=9108625 passed=3160666 pole_passed=507471 S1=62489 SU1=53862  31s
+  p=13 pair 1200/1614 tested=10928543 passed=3784261 pole_passed=600007 S1=72673 SU1=66630  37s
+  p=13 pair 1400/1614 tested=12748477 passed=4413015 pole_passed=703147 S1=85993 SU1=78042  44s
+  p=13 pair 1600/1614 tested=14568394 passed=5048188 pole_passed=803266 S1=101628 SU1=84290  50s
+p=13 DONE pairs=1614 units=1300 e in [-4,2]: {'tested': 14686692, 'passed': 5088871, 'pole_passed': 809012, 'S1': 101628, 'SU1': 84290, 'S1_n3plus': 79328, 'pr_or_ps_pole_passed': 110300, 'eqval_pole_passed': 115906, 'highval_rs': 229400}  50s
+ALL ASSERTIONS PASSED for [11, 13]

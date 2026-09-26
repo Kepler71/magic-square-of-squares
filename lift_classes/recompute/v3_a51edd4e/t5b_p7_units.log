@@ -1,0 +1,3 @@
+ it=10000 {'allowed_tested': 493, 'allowed_passed': 3, 'bad': 0, 'forbidden_tested': 5631, 'forbidden_passed': 0, 'passed_with_cell_div7': 3} t=0.1s
+ it=30000 {'allowed_tested': 1493, 'allowed_passed': 6, 'bad': 0, 'forbidden_tested': 16856, 'forbidden_passed': 0, 'passed_with_cell_div7': 6} t=0.3s
+ИТОГ: {'allowed_tested': 1993, 'allowed_passed': 7, 'bad': 0, 'forbidden_tested': 22502, 'forbidden_passed': 0, 'passed_with_cell_div7': 7} t=0.4s

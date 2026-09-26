@@ -1,0 +1,14 @@
+A: opposite pairs sum to 2; T=f(-1,0)f(1,1)f(0,-1), L=f(-1,0)f(1,-1)f(0,1): OK
+B1: p=3 mod 4 (<1000): u^2+v^2=0 mod p only trivially; p=1 mod 4: -1 is QR (sharp): OK
+B2: 56699 random poles at p=3 mod 4: 1-b^2 never a local square: OK
+C: 126 451 {'r_minus_s': -325, 'r_plus_s': 577, 'Dminus': [1], 'Dplus': [1, 577], 'Dminus_no_mod4': [1], 'Dplus_no_mod4': [1, 577]}
+C: 73 362 {'r_minus_s': -289, 'r_plus_s': 435, 'Dminus': [1], 'Dplus': [1, 145], 'Dminus_no_mod4': [1], 'Dplus_no_mod4': [1, 145]}
+C: 265 298 {'r_minus_s': -33, 'r_plus_s': 563, 'Dminus': [1], 'Dplus': [1], 'Dminus_no_mod4': [1], 'Dplus_no_mod4': [1]}
+C: lists without the p=1 mod 4 condition coincide (step 5 not load-bearing here): True
+C: min nontrivial squarefree d=1 mod24: 73 ; with p=1 mod4: 73
+  D: r=-300 pairs=80 viol=0 0s
+  D: r=-150 pairs=27461 viol=0 0s
+  D: r=150 pairs=82207 viol=0 0s
+  D: r=300 pairs=109588 viol=0 0s
+D: 109588 coprime pairs (|r|,s<=300), 36464 with r,s odd (2|r-s, 2|r+s); violations: 0
+ALL CHECKS PASSED

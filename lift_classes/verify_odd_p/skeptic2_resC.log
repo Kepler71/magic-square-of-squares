@@ -1,0 +1,22 @@
+p=13, M=3: pairs=4826809
+  p=13 M=3 n=0: {'n': 0, 'total': 4826809, 'undetermined': 17556, 'par_ok': 2567845, 'sq_ok': 146861, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 140160, 'sq_multizero': 4056, 'N1_viol': 0, 'N2_viol': 0}  5.9s
+  p=13 M=3 n=1: {'n': 1, 'total': 4826809, 'undetermined': 44785, 'par_ok': 580008, 'sq_ok': 105456, 'par_nontriv': 580008, 'sq_nontriv': 105456, 'sq_T_odd': 52728, 'sq_L_odd': 52728, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 52728, 'N2_viol': 0, 'par_pole_pr_ps': 0}  11.1s
+  p=13 M=3 n=2: {'n': 2, 'total': 4826809, 'undetermined': 44785, 'par_ok': 3516552, 'sq_ok': 699660, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 0, 'N2_viol': 316368, 'par_pole_pr_ps': 44616}  15.6s
+p=13 DONE: Q_p-nontrivial=105456, N1_viol=52728, N2_viol=316368
+p=17, M=2: pairs=83521
+  p=17 M=2 n=0: {'n': 0, 'total': 83521, 'undetermined': 2292, 'par_ok': 49997, 'sq_ok': 1445, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 0, 'N2_viol': 0}  0.0s
+  p=17 M=2 n=1: {'n': 1, 'total': 83521, 'undetermined': 2465, 'par_ok': 8160, 'sq_ok': 1632, 'par_nontriv': 8160, 'sq_nontriv': 1632, 'sq_T_odd': 816, 'sq_L_odd': 816, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 816, 'N2_viol': 0, 'par_pole_pr_ps': 0}  0.0s
+p=17 DONE: Q_p-nontrivial=1632, N1_viol=816, N2_viol=0
+p=29, M=2: pairs=707281
+  p=29 M=2 n=0: {'n': 0, 'total': 707281, 'undetermined': 6708, 'par_ok': 528989, 'sq_ok': 14297, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 0, 'N2_viol': 0}  0.2s
+  p=29 M=2 n=1: {'n': 1, 'total': 707281, 'undetermined': 7337, 'par_ok': 43848, 'sq_ok': 9744, 'par_nontriv': 43848, 'sq_nontriv': 9744, 'sq_T_odd': 4872, 'sq_L_odd': 4872, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 4872, 'N2_viol': 0, 'par_pole_pr_ps': 0}  0.3s
+p=29 DONE: Q_p-nontrivial=9744, N1_viol=4872, N2_viol=0
+p=37, M=2: pairs=1874161
+  p=37 M=2 n=0: {'n': 0, 'total': 1874161, 'undetermined': 10932, 'par_ok': 1496317, 'sq_ok': 39701, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 0, 'N2_viol': 0}  0.5s
+  p=37 M=2 n=1: {'n': 1, 'total': 1874161, 'undetermined': 12025, 'par_ok': 93240, 'sq_ok': 21312, 'par_nontriv': 93240, 'sq_nontriv': 21312, 'sq_T_odd': 10656, 'sq_L_odd': 10656, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 10656, 'N2_viol': 0, 'par_pole_pr_ps': 0}  1.0s
+p=37 DONE: Q_p-nontrivial=21312, N1_viol=10656, N2_viol=0
+p=41, M=2: pairs=2825761
+  p=41 M=2 n=0: {'n': 0, 'total': 2825761, 'undetermined': 13428, 'par_ok': 2308013, 'sq_ok': 55473, 'par_nontriv': 0, 'sq_nontriv': 0, 'sq_T_odd': 0, 'sq_L_odd': 0, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 0, 'N2_viol': 0}  0.8s
+  p=41 M=2 n=1: {'n': 1, 'total': 2825761, 'undetermined': 14801, 'par_ok': 127920, 'sq_ok': 29520, 'par_nontriv': 127920, 'sq_nontriv': 29520, 'sq_T_odd': 14760, 'sq_L_odd': 14760, 'par_multizero': 0, 'sq_multizero': 0, 'N1_viol': 14760, 'N2_viol': 0, 'par_pole_pr_ps': 0}  1.6s
+p=41 DONE: Q_p-nontrivial=29520, N1_viol=14760, N2_viol=0
+ALL ASSERTIONS PASSED
