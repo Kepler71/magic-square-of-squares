@@ -1,0 +1,1163 @@
+{
+ "93/331": {
+  "results": [
+   {
+    "T": [
+     -424,
+     -331,
+     -238
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2249385,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/238",
+     "1/331"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 139,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -424,
+     -331,
+     -93
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2623094,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/212",
+     "1/331",
+     "1/93"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 39,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -424,
+     -331,
+     93
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2130886,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/93",
+     "1/331",
+     "2/331"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 39,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "177/331": {
+  "results": [
+   {
+    "T": [
+     -508,
+     -331,
+     331
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2476928,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/331",
+     "1/331"
+    ],
+    "caseB_z_main": [
+     "-1/331",
+     "1/331"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 155,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -508,
+     -177,
+     331
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2375546,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/331",
+     "1/177",
+     "2/177"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 71,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -508,
+     154,
+     177
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2415372,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/154",
+     "-1/177"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 139,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "95/349": {
+  "results": [
+   {
+    "T": [
+     -444,
+     -349,
+     -95
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2581682,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/222",
+     "1/349",
+     "1/95"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 55,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -444,
+     -95,
+     349
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2212753,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/349",
+     "1/95",
+     "2/95"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 23,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -444,
+     95,
+     254
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2364555,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/254",
+     "-1/95"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 147,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "73/362": {
+  "results": [
+   {
+    "T": [
+     -435,
+     -362,
+     -73
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2543438,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/362",
+     "1/73",
+     "2/435"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 71,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -435,
+     -362,
+     289
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2444819,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/289",
+     "1/362"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 355,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -435,
+     -289,
+     -73
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2304612,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/289",
+     "1/73"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 291,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "327/374": {
+  "results": [
+   {
+    "T": [
+     -701,
+     -374,
+     -327
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 3646935,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/327",
+     "1/374",
+     "2/701"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 39,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -701,
+     -374,
+     -47
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2453769,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/374",
+     "1/47"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 171,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -701,
+     -374,
+     374
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2583342,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/374",
+     "1/374"
+    ],
+    "caseB_z_main": [
+     "-1/374",
+     "1/374"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 139,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "53/383": {
+  "results": [
+   {
+    "T": [
+     -436,
+     -383,
+     -330
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2136126,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/330",
+     "1/383"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 131,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -436,
+     -383,
+     -53
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2367122,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/218",
+     "1/383",
+     "1/53"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 119,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -436,
+     -383,
+     53
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2380446,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/53",
+     "1/383",
+     "2/383"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 135,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "38/385": {
+  "results": [
+   {
+    "T": [
+     -423,
+     -385,
+     38
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2382694,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/38",
+     "1/385",
+     "2/385"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 151,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -423,
+     -385,
+     423
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2171559,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/423"
+    ],
+    "caseB_z_main": [
+     "-1/423",
+     "1/385"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 123,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -423,
+     -38,
+     38
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2026668,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/38",
+     "1/38"
+    ],
+    "caseB_z_main": [
+     "-1/38",
+     "1/38"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 123,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "189/386": {
+  "results": [
+   {
+    "T": [
+     -575,
+     -386,
+     -189
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2364880,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/189",
+     "1/386",
+     "2/575"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 103,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -575,
+     -197,
+     386
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2417104,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/386",
+     "1/197"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 155,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -575,
+     -189,
+     189
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2044228,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/189",
+     "1/189"
+    ],
+    "caseB_z_main": [
+     "-1/189",
+     "1/189"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 115,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "325/394": {
+  "results": [
+   {
+    "T": [
+     -719,
+     -394,
+     -325
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2566098,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/325",
+     "1/394",
+     "2/719"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 119,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -719,
+     -394,
+     -69
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 1900575,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/394",
+     "1/69"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 131,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -719,
+     -394,
+     719
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2708144,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/719"
+    ],
+    "caseB_z_main": [
+     "-1/719",
+     "1/394"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 163,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "238/397": {
+  "results": [
+   {
+    "T": [
+     -635,
+     -397,
+     -238
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 3216813,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/238",
+     "1/397",
+     "2/635"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 55,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -635,
+     -238,
+     -159
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2332279,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/159",
+     "1/238"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 259,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -635,
+     -238,
+     635
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2534366,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/635"
+    ],
+    "caseB_z_main": [
+     "-1/635",
+     "1/238"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 155,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "62/413": {
+  "results": [
+   {
+    "T": [
+     -475,
+     -413,
+     -62
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2398491,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/413",
+     "1/62",
+     "2/475"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 247,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -475,
+     -413,
+     62
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2504910,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/62",
+     "1/413",
+     "2/413"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 167,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -475,
+     -413,
+     413
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2616430,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/413",
+     "1/413"
+    ],
+    "caseB_z_main": [
+     "-1/413",
+     "1/413"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 147,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "2/425": {
+  "results": [
+   {
+    "T": [
+     -427,
+     -425,
+     -423
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 1616018,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/423",
+     "1/425"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 99,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -427,
+     -425,
+     -2
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2447186,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "1/2",
+     "1/425",
+     "2/427"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 199,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -427,
+     -425,
+     2
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2513494,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/2",
+     "1/425",
+     "2/425"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 199,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "390/427": {
+  "results": [
+   {
+    "T": [
+     -817,
+     -427,
+     390
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2715891,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/390",
+     "1/427",
+     "2/427"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 263,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -817,
+     -427,
+     427
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2638594,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/427",
+     "1/427"
+    ],
+    "caseB_z_main": [
+     "-1/427",
+     "1/427"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 139,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -817,
+     -390,
+     427
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2651668,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/427",
+     "1/195",
+     "1/390"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 135,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "251/433": {
+  "results": [
+   {
+    "T": [
+     -684,
+     -433,
+     182
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2525605,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/182",
+     "1/433"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 331,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -684,
+     -433,
+     251
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2841624,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/251",
+     "1/433",
+     "2/433"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 55,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -684,
+     -433,
+     433
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2597805,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/433",
+     "1/433"
+    ],
+    "caseB_z_main": [
+     "-1/433",
+     "1/433"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": true,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 155,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ },
+ "225/437": {
+  "results": [
+   {
+    "T": [
+     -662,
+     -437,
+     225
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 3057501,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/225",
+     "1/437",
+     "2/437"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 87,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -662,
+     -437,
+     662
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2660437,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [
+     "-1/662"
+    ],
+    "caseB_z_main": [
+     "-1/662",
+     "1/437"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 139,
+    "nondeg": [],
+    "closes": true
+   },
+   {
+    "T": [
+     -662,
+     -225,
+     437
+    ],
+    "model_identity": true,
+    "cert_ok": true,
+    "exact_M0_inequality": true,
+    "digits_lhs": 2694198,
+    "caseB_norm_zero": false,
+    "caseB_z_funcfield": [],
+    "caseB_z_main": [
+     "-1/437",
+     "1/225",
+     "2/225"
+    ],
+    "caseB_funcfield_subset_main": true,
+    "caseB_equal": false,
+    "caseB_main_extras_are_torsion_z": true,
+    "recount_A": 183,
+    "nondeg": [],
+    "closes": true
+   }
+  ],
+  "closed": true
+ }
+}

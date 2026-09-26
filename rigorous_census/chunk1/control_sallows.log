@@ -1,0 +1,6 @@
+19:57:56 старт ['sallows']
+19:57:56   sallows [-825, -578, 578] {'ellrank': [3, 3], 'M0': None, 'B_bezout': None, 'B_sage_silverman': None, 'ncand': None, 'nondeg_solutions': None, 'control_z_found': None, 'why': 'ellrank 3,3'}
+19:57:56   sallows [-825, -578, 825] {'ellrank': [4, 4], 'M0': None, 'B_bezout': None, 'B_sage_silverman': None, 'ncand': None, 'nondeg_solutions': None, 'control_z_found': None, 'why': 'ellrank 4,4'}
+19:57:56   sallows [-578, 578, 825] {'ellrank': [3, 3], 'M0': None, 'B_bezout': None, 'B_sage_silverman': None, 'ncand': None, 'nondeg_solutions': None, 'control_z_found': None, 'why': 'ellrank 3,3'}
+19:57:56   sallows [-825, 578, 825] {'ellrank': [4, 4], 'M0': None, 'B_bezout': None, 'B_sage_silverman': None, 'ncand': None, 'nondeg_solutions': None, 'control_z_found': None, 'why': 'ellrank 4,4'}
+19:57:56 готово

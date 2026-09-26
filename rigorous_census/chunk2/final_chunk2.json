@@ -1,0 +1,2150 @@
+{
+ "165/439": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -604,
+    -439,
+    439
+   ],
+   [
+    -604,
+    -439,
+    604
+   ],
+   [
+    -604,
+    -274,
+    165
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -604,
+    -439,
+    439
+   ],
+   [
+    -604,
+    -439,
+    604
+   ],
+   [
+    -604,
+    -274,
+    165
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -604,
+     -439,
+     439
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 19,
+    "M0_pass2": 19,
+    "model": "min",
+    "B_rigorous": 41.0069,
+    "B_silverman_sage": 20.7524,
+    "B_rig_gt_silverman": true,
+    "c1": 18.5731,
+    "C": 119.1601,
+    "hP0_lower": 3.06434,
+    "hP0_sage": 3.07436,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -604,
+     -439,
+     604
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 16,
+    "M0_pass2": 16,
+    "model": "min",
+    "B_rigorous": 37.0467,
+    "B_silverman_sage": 19.6829,
+    "B_rig_gt_silverman": true,
+    "c1": 17.5061,
+    "C": 109.1056,
+    "hP0_lower": 3.49654,
+    "hP0_sage": 3.5056,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -604,
+     -274,
+     165
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 28,
+    "M0_pass2": 28,
+    "model": "min",
+    "B_rigorous": 39.2905,
+    "B_silverman_sage": 22.5999,
+    "B_rig_gt_silverman": true,
+    "c1": 17.1229,
+    "C": 112.8268,
+    "hP0_lower": 2.00041,
+    "hP0_sage": 2.01003,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "422/441": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -863,
+    -441,
+    -422
+   ],
+   [
+    -863,
+    -441,
+    -19
+   ],
+   [
+    -863,
+    -441,
+    441
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -863,
+    -441,
+    -422
+   ],
+   [
+    -863,
+    -441,
+    -19
+   ],
+   [
+    -863,
+    -441,
+    441
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -863,
+     -441,
+     -422
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 6,
+    "M0_pass2": 6,
+    "model": "E1",
+    "B_rigorous": 38.2509,
+    "B_silverman_sage": 22.4394,
+    "B_rig_gt_silverman": true,
+    "c1": 18.8945,
+    "C": 114.2907,
+    "hP0_lower": 9.91248,
+    "hP0_sage": 9.94991,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 7,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -863,
+     -441,
+     -19
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 16,
+    "M0_pass2": 16,
+    "model": "E1",
+    "B_rigorous": 37.0271,
+    "B_silverman_sage": 20.5503,
+    "B_rig_gt_silverman": true,
+    "c1": 15.7939,
+    "C": 105.6421,
+    "hP0_lower": 3.25223,
+    "hP0_sage": 3.26217,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -863,
+     -441,
+     441
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 10,
+    "M0_pass2": 10,
+    "model": "min",
+    "B_rigorous": 22.6602,
+    "B_silverman_sage": 14.2199,
+    "B_rig_gt_silverman": true,
+    "c1": 12.8498,
+    "C": 71.0201,
+    "hP0_lower": 3.55068,
+    "hP0_sage": 3.55622,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "425/441": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -866,
+    -441,
+    -425
+   ],
+   [
+    -866,
+    -441,
+    425
+   ],
+   [
+    -866,
+    -425,
+    441
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -866,
+    -441,
+    -425
+   ],
+   [
+    -866,
+    -441,
+    425
+   ],
+   [
+    -866,
+    -425,
+    441
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -866,
+     -441,
+     -425
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 11,
+    "M0_pass2": 11,
+    "model": "E1",
+    "B_rigorous": 38.272,
+    "B_silverman_sage": 22.2172,
+    "B_rig_gt_silverman": true,
+    "c1": 18.905,
+    "C": 114.3541,
+    "hP0_lower": 5.04189,
+    "hP0_sage": 5.05133,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 5,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -866,
+     -441,
+     425
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 4,
+    "M0_pass2": 4,
+    "model": "E1",
+    "B_rigorous": 38.9469,
+    "B_silverman_sage": 24.3727,
+    "B_rig_gt_silverman": true,
+    "c1": 18.905,
+    "C": 115.7038,
+    "hP0_lower": 15.06569,
+    "hP0_sage": 15.10374,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 8,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -866,
+     -425,
+     441
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 6,
+    "M0_pass2": 6,
+    "model": "E1",
+    "B_rigorous": 38.9838,
+    "B_silverman_sage": 24.3642,
+    "B_rig_gt_silverman": true,
+    "c1": 18.905,
+    "C": 115.7777,
+    "hP0_lower": 9.02701,
+    "hP0_sage": 9.06511,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 6,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "333/442": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -775,
+    -442,
+    442
+   ],
+   [
+    -775,
+    -333,
+    -109
+   ],
+   [
+    -775,
+    -333,
+    109
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -775,
+    -442,
+    442
+   ],
+   [
+    -775,
+    -333,
+    -109
+   ],
+   [
+    -775,
+    -333,
+    109
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -775,
+     -442,
+     442
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 42.4998,
+    "B_silverman_sage": 21.3198,
+    "B_rig_gt_silverman": true,
+    "c1": 18.8359,
+    "C": 122.6714,
+    "hP0_lower": 3.50597,
+    "hP0_sage": 3.51635,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -775,
+     -333,
+     -109
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 30,
+    "M0_pass2": 30,
+    "model": "min",
+    "B_rigorous": 38.7504,
+    "B_silverman_sage": 21.9792,
+    "B_rig_gt_silverman": true,
+    "c1": 17.1568,
+    "C": 111.8145,
+    "hP0_lower": 1.83702,
+    "hP0_sage": 1.84648,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 3,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -775,
+     -333,
+     109
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 39.3584,
+    "B_silverman_sage": 20.322,
+    "B_rig_gt_silverman": true,
+    "c1": 17.154,
+    "C": 113.0247,
+    "hP0_lower": 3.33542,
+    "hP0_sage": 3.34502,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "111/445": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -556,
+    -445,
+    -334
+   ],
+   [
+    -556,
+    -445,
+    -111
+   ],
+   [
+    -445,
+    -334,
+    -111
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -556,
+    -445,
+    -111
+   ],
+   [
+    -445,
+    -334,
+    -111
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -556,
+     -445,
+     -334
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 35.983,
+    "B_silverman_sage": 18.0043,
+    "B_rig_gt_silverman": true,
+    "c1": 18.2323,
+    "C": 108.4307,
+    "hP0_lower": 3.13924,
+    "hP0_sage": 3.14808,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 3,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": false
+   },
+   {
+    "T": [
+     -556,
+     -445,
+     -111
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 2,
+    "M0_pass2": 2,
+    "model": "E1",
+    "B_rigorous": 34.5696,
+    "B_silverman_sage": 22.3661,
+    "B_rig_gt_silverman": true,
+    "c1": 17.1284,
+    "C": 103.396,
+    "hP0_lower": 22.56097,
+    "hP0_sage": 22.59476,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 5,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -445,
+     -334,
+     -111
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 2,
+    "M0_pass2": 2,
+    "model": "E1",
+    "B_rigorous": 33.6032,
+    "B_silverman_sage": 21.5884,
+    "B_rig_gt_silverman": true,
+    "c1": 16.6187,
+    "C": 100.4439,
+    "hP0_lower": 26.66243,
+    "hP0_sage": 26.69581,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 6,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "329/449": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -778,
+    -449,
+    329
+   ],
+   [
+    -778,
+    -449,
+    778
+   ],
+   [
+    -778,
+    -329,
+    120
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -778,
+    -449,
+    329
+   ],
+   [
+    -778,
+    -449,
+    778
+   ],
+   [
+    -778,
+    -329,
+    120
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -778,
+     -449,
+     329
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 3,
+    "M0_pass2": 3,
+    "model": "E1",
+    "B_rigorous": 38.1234,
+    "B_silverman_sage": 24.0836,
+    "B_rig_gt_silverman": true,
+    "c1": 18.5598,
+    "C": 113.3664,
+    "hP0_lower": 18.60426,
+    "hP0_sage": 18.6415,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 4,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -778,
+     -449,
+     778
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 43.7692,
+    "B_silverman_sage": 21.5094,
+    "B_rig_gt_silverman": true,
+    "c1": 19.4212,
+    "C": 126.3809,
+    "hP0_lower": 3.64016,
+    "hP0_sage": 3.65087,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -778,
+     -329,
+     120
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 39.574,
+    "B_silverman_sage": 19.8732,
+    "B_rig_gt_silverman": true,
+    "c1": 17.2416,
+    "C": 113.6311,
+    "hP0_lower": 3.3467,
+    "hP0_sage": 3.35637,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "438/449": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -887,
+    -449,
+    -438
+   ],
+   [
+    -887,
+    -438,
+    438
+   ],
+   [
+    -887,
+    -438,
+    887
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -887,
+    -449,
+    -438
+   ],
+   [
+    -887,
+    -438,
+    438
+   ],
+   [
+    -887,
+    -438,
+    887
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -887,
+     -449,
+     -438
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 6,
+    "M0_pass2": 6,
+    "model": "E1",
+    "B_rigorous": 38.4162,
+    "B_silverman_sage": 22.5182,
+    "B_rig_gt_silverman": true,
+    "c1": 18.9771,
+    "C": 114.7866,
+    "hP0_lower": 9.12129,
+    "hP0_sage": 9.1591,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 3,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -887,
+     -438,
+     438
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "E1",
+    "B_rigorous": 41.8928,
+    "B_silverman_sage": 20.8014,
+    "B_rig_gt_silverman": true,
+    "c1": 18.9523,
+    "C": 121.6902,
+    "hP0_lower": 3.55542,
+    "hP0_sage": 3.56565,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -887,
+     -438,
+     887
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 20,
+    "M0_pass2": 20,
+    "model": "min",
+    "B_rigorous": 44.5711,
+    "B_silverman_sage": 21.6138,
+    "B_rig_gt_silverman": true,
+    "c1": 19.6587,
+    "C": 128.4595,
+    "hP0_lower": 3.19284,
+    "hP0_sage": 3.20377,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "126/451": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -577,
+    -451,
+    -126
+   ],
+   [
+    -577,
+    -451,
+    126
+   ],
+   [
+    -577,
+    -325,
+    -126
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -577,
+    -451,
+    -126
+   ],
+   [
+    -577,
+    -451,
+    126
+   ],
+   [
+    -577,
+    -325,
+    -126
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -577,
+     -451,
+     -126
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 18,
+    "M0_pass2": 18,
+    "model": "E1",
+    "B_rigorous": 34.9461,
+    "B_silverman_sage": 22.5109,
+    "B_rig_gt_silverman": true,
+    "c1": 17.3056,
+    "C": 104.5033,
+    "hP0_lower": 2.95456,
+    "hP0_sage": 2.96329,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 4,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -577,
+     -451,
+     126
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 6,
+    "M0_pass2": 6,
+    "model": "E1",
+    "B_rigorous": 35.1925,
+    "B_silverman_sage": 23.2712,
+    "B_rig_gt_silverman": true,
+    "c1": 17.3056,
+    "C": 104.9961,
+    "hP0_lower": 8.21778,
+    "hP0_sage": 8.25227,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 6,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -577,
+     -325,
+     -126
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 31,
+    "M0_pass2": 31,
+    "model": "min",
+    "B_rigorous": 37.3674,
+    "B_silverman_sage": 21.8204,
+    "B_rig_gt_silverman": true,
+    "c1": 16.9822,
+    "C": 108.6992,
+    "hP0_lower": 1.75376,
+    "hP0_sage": 1.76291,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 3,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "172/451": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -623,
+    -451,
+    -172
+   ],
+   [
+    -623,
+    -451,
+    172
+   ],
+   [
+    -623,
+    -279,
+    623
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -623,
+    -451,
+    -172
+   ],
+   [
+    -623,
+    -451,
+    172
+   ],
+   [
+    -623,
+    -279,
+    623
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -623,
+     -451,
+     -172
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 10,
+    "M0_pass2": 10,
+    "model": "min",
+    "B_rigorous": 32.6388,
+    "B_silverman_sage": 20.85,
+    "B_rig_gt_silverman": true,
+    "c1": 16.3104,
+    "C": 97.8984,
+    "hP0_lower": 4.80192,
+    "hP0_sage": 4.80989,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -623,
+     -451,
+     172
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 13,
+    "M0_pass2": 13,
+    "model": "min",
+    "B_rigorous": 36.4861,
+    "B_silverman_sage": 21.864,
+    "B_rig_gt_silverman": true,
+    "c1": 16.3079,
+    "C": 105.5879,
+    "hP0_lower": 4.04335,
+    "hP0_sage": 4.05221,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -623,
+     -279,
+     623
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 17,
+    "M0_pass2": 17,
+    "model": "min",
+    "B_rigorous": 42.1483,
+    "B_silverman_sage": 20.3256,
+    "B_rig_gt_silverman": true,
+    "c1": 18.5015,
+    "C": 121.2995,
+    "hP0_lower": 3.53989,
+    "hP0_sage": 3.55024,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "295/452": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -747,
+    -452,
+    -295
+   ],
+   [
+    -747,
+    -452,
+    -157
+   ],
+   [
+    -747,
+    -452,
+    747
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -747,
+    -452,
+    -295
+   ],
+   [
+    -747,
+    -452,
+    -157
+   ],
+   [
+    -747,
+    -452,
+    747
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -747,
+     -452,
+     -295
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 2,
+    "M0_pass2": 2,
+    "model": "min",
+    "B_rigorous": 34.6405,
+    "B_silverman_sage": 20.7459,
+    "B_rig_gt_silverman": true,
+    "c1": 17.0327,
+    "C": 103.3466,
+    "hP0_lower": 32.54688,
+    "hP0_sage": 32.6822,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 7,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -747,
+     -452,
+     -157
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 20,
+    "M0_pass2": 20,
+    "model": "min",
+    "B_rigorous": 39.0686,
+    "B_silverman_sage": 19.898,
+    "B_rig_gt_silverman": true,
+    "c1": 17.7893,
+    "C": 113.7158,
+    "hP0_lower": 2.9075,
+    "hP0_sage": 2.91706,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -747,
+     -452,
+     747
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 16,
+    "M0_pass2": 16,
+    "model": "min",
+    "B_rigorous": 36.1781,
+    "B_silverman_sage": 18.3226,
+    "B_rig_gt_silverman": true,
+    "c1": 17.1493,
+    "C": 106.6549,
+    "hP0_lower": 3.27224,
+    "hP0_sage": 3.28111,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "305/461": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -766,
+    -461,
+    -305
+   ],
+   [
+    -766,
+    -461,
+    305
+   ],
+   [
+    -766,
+    -461,
+    461
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -766,
+    -461,
+    -305
+   ],
+   [
+    -766,
+    -461,
+    305
+   ],
+   [
+    -766,
+    -461,
+    461
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -766,
+     -461,
+     -305
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 1,
+    "M0_pass2": 1,
+    "model": "E1",
+    "B_rigorous": 37.4378,
+    "B_silverman_sage": 22.3053,
+    "B_rig_gt_silverman": true,
+    "c1": 18.4949,
+    "C": 111.8653,
+    "hP0_lower": 44.70066,
+    "hP0_sage": 44.8491,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 7,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -766,
+     -461,
+     305
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 3,
+    "M0_pass2": 3,
+    "model": "E1",
+    "B_rigorous": 37.9455,
+    "B_silverman_sage": 24.0486,
+    "B_rig_gt_silverman": true,
+    "c1": 18.4949,
+    "C": 112.8809,
+    "hP0_lower": 17.35816,
+    "hP0_sage": 17.39526,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 4,
+    "sat_primes_own": [
+     "2",
+     "3"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -766,
+     -461,
+     461
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 21,
+    "M0_pass2": 21,
+    "model": "min",
+    "B_rigorous": 42.5216,
+    "B_silverman_sage": 21.2371,
+    "B_rig_gt_silverman": true,
+    "c1": 18.9084,
+    "C": 122.86,
+    "hP0_lower": 2.98704,
+    "hP0_sage": 2.99745,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "236/475": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -711,
+    -475,
+    236
+   ],
+   [
+    -711,
+    -239,
+    475
+   ],
+   [
+    -711,
+    -236,
+    236
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -711,
+    -475,
+    236
+   ],
+   [
+    -711,
+    -239,
+    475
+   ],
+   [
+    -711,
+    -236,
+    236
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -711,
+     -475,
+     236
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 4,
+    "M0_pass2": 4,
+    "model": "min",
+    "B_rigorous": 37.1419,
+    "B_silverman_sage": 22.2378,
+    "B_rig_gt_silverman": true,
+    "c1": 16.8078,
+    "C": 107.8993,
+    "hP0_lower": 14.09493,
+    "hP0_sage": 14.13117,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 9,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -711,
+     -239,
+     475
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 19,
+    "M0_pass2": 19,
+    "model": "E1",
+    "B_rigorous": 40.4872,
+    "B_silverman_sage": 23.3799,
+    "B_rig_gt_silverman": true,
+    "c1": 18.2065,
+    "C": 117.3872,
+    "hP0_lower": 3.15308,
+    "hP0_sage": 3.1626,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 6,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -711,
+     -236,
+     236
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 15,
+    "M0_pass2": 15,
+    "model": "min",
+    "B_rigorous": 35.767,
+    "B_silverman_sage": 19.1266,
+    "B_rig_gt_silverman": true,
+    "c1": 16.1085,
+    "C": 103.751,
+    "hP0_lower": 3.40063,
+    "hP0_sage": 3.40939,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "165/493": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -658,
+    -493,
+    165
+   ],
+   [
+    -658,
+    -493,
+    493
+   ],
+   [
+    -658,
+    -328,
+    -165
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -658,
+    -493,
+    165
+   ],
+   [
+    -658,
+    -493,
+    493
+   ],
+   [
+    -658,
+    -328,
+    -165
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -658,
+     -493,
+     165
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 15,
+    "M0_pass2": 15,
+    "model": "E1",
+    "B_rigorous": 36.2469,
+    "B_silverman_sage": 23.6546,
+    "B_rig_gt_silverman": true,
+    "c1": 17.7957,
+    "C": 108.0851,
+    "hP0_lower": 3.71958,
+    "hP0_sage": 3.72844,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -658,
+     -493,
+     493
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 21,
+    "M0_pass2": 21,
+    "model": "min",
+    "B_rigorous": 41.945,
+    "B_silverman_sage": 21.1194,
+    "B_rig_gt_silverman": true,
+    "c1": 18.8907,
+    "C": 121.6715,
+    "hP0_lower": 2.93676,
+    "hP0_sage": 2.94698,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -658,
+     -328,
+     -165
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 29,
+    "M0_pass2": 29,
+    "model": "min",
+    "B_rigorous": 37.9572,
+    "B_silverman_sage": 21.6866,
+    "B_rig_gt_silverman": true,
+    "c1": 17.3917,
+    "C": 110.6977,
+    "hP0_lower": 1.94178,
+    "hP0_sage": 1.95109,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "52/499": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -551,
+    -499,
+    -52
+   ],
+   [
+    -551,
+    -447,
+    551
+   ],
+   [
+    -551,
+    -52,
+    52
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -551,
+    -499,
+    -52
+   ],
+   [
+    -551,
+    -447,
+    551
+   ],
+   [
+    -551,
+    -52,
+    52
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -551,
+     -499,
+     -52
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 1,
+    "M0_pass2": 1,
+    "model": "E1",
+    "B_rigorous": 33.0555,
+    "B_silverman_sage": 21.2449,
+    "B_rig_gt_silverman": true,
+    "c1": 16.4756,
+    "C": 99.0622,
+    "hP0_lower": 34.93271,
+    "hP0_sage": 35.06747,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 8,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5",
+     "7"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -551,
+     -447,
+     551
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 18,
+    "M0_pass2": 18,
+    "model": "min",
+    "B_rigorous": 41.6336,
+    "B_silverman_sage": 20.4828,
+    "B_rig_gt_silverman": true,
+    "c1": 18.7268,
+    "C": 120.7207,
+    "hP0_lower": 3.43357,
+    "hP0_sage": 3.44374,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -551,
+     -52,
+     52
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 13,
+    "M0_pass2": 13,
+    "model": "min",
+    "B_rigorous": 29.9495,
+    "B_silverman_sage": 17.2067,
+    "B_rig_gt_silverman": true,
+    "c1": 12.8285,
+    "C": 85.5561,
+    "hP0_lower": 3.18932,
+    "hP0_sage": 3.1967,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 1,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ },
+ "129/499": {
+  "status": "закрыт строго (ПО)",
+  "closed_by": [
+   [
+    -628,
+    -499,
+    129
+   ],
+   [
+    -628,
+    -499,
+    499
+   ],
+   [
+    -628,
+    -499,
+    628
+   ]
+  ],
+  "closed_by_with_two_rank_impl": [
+   [
+    -628,
+    -499,
+    129
+   ],
+   [
+    -628,
+    -499,
+    499
+   ],
+   [
+    -628,
+    -499,
+    628
+   ]
+  ],
+  "factors": [
+   {
+    "T": [
+     -628,
+     -499,
+     129
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 2,
+    "M0_pass2": 2,
+    "model": "min",
+    "B_rigorous": 36.6679,
+    "B_silverman_sage": 21.9118,
+    "B_rig_gt_silverman": true,
+    "c1": 16.13,
+    "C": 105.596,
+    "hP0_lower": 22.18764,
+    "hP0_sage": 22.22238,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 8,
+    "index_bound": 6,
+    "sat_primes_own": [
+     "2",
+     "3",
+     "5"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -628,
+     -499,
+     499
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 20,
+    "M0_pass2": 20,
+    "model": "min",
+    "B_rigorous": 42.0815,
+    "B_silverman_sage": 20.9606,
+    "B_rig_gt_silverman": true,
+    "c1": 18.8683,
+    "C": 121.8996,
+    "hP0_lower": 3.09176,
+    "hP0_sage": 3.10204,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   },
+   {
+    "T": [
+     -628,
+     -499,
+     628
+    ],
+    "closed_pass1": true,
+    "closed_pass2": true,
+    "M0_pass1": 16,
+    "M0_pass2": 16,
+    "model": "min",
+    "B_rigorous": 37.7582,
+    "B_silverman_sage": 19.8651,
+    "B_rig_gt_silverman": true,
+    "c1": 17.7121,
+    "C": 110.9406,
+    "hP0_lower": 3.50353,
+    "hP0_sage": 3.51275,
+    "ellrank": [
+     1,
+     1
+    ],
+    "mwrank_rank_bound_pass2": 1,
+    "tors": 4,
+    "index_bound": 2,
+    "sat_primes_own": [
+     "2"
+    ],
+    "nondegenerate": [],
+    "brute_bound_pass1": 1000,
+    "brute_missing": [],
+    "both": true,
+    "two_rank_impl": true
+   }
+  ]
+ }
+}

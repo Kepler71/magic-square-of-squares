@@ -1,0 +1,68 @@
+OK   0.counts 76114 {'3-200': 12230, '201-300': 15166, '301-400': 21280, '401-500': 27438}
+OK   1.selmer_coverage_consistent 2-48: total 710/710 closed 689 open 21; 49-100: total 2332/2332 closed 2160 open 172; 101-200: total 9188/9188 closed 7941 open 1247
+OK   1.final_status_still_open_empty []
+OK   1.final_status_keys_eq_selmer_open sources 1440, open 1440, diff []
+  методы final_status: {'шесть клеток (PARI)': 1240, 'род 2 (этап 2, Magma)': 15, 'род 1 из 3–4 клеток (ellrank)': 142, 'род 2 (Codex, Magma)': 1, 'шесть клеток (L(E,1))': 32, 'род 2 (Claude, Magma)': 5, 'род 1 из 3–4 клеток (L_ratio)': 5}
+OK   1.final_status_records_match расхождений 0: []
+OK   2.201-300.complete_no_dups 15166 строк, 15166 различных, ожидалось 15166, лишних 0, недостающих 0
+OK   2.201-300.no_ALERT []
+OK   2.301-400.complete_no_dups 21280 строк, 21280 различных, ожидалось 21280, лишних 0, недостающих 0
+OK   2.301-400.no_ALERT []
+OK   2.401-500.complete_no_dups 27438 строк, 27438 различных, ожидалось 27438, лишних 0, недостающих 0
+OK   2.401-500.no_ALERT []
+OK   2.census_by_cells_in_Lambda []
+  не закрыто прогоном census_300: 61
+OK   2.lpass_covers_unclosed_except_crash lpass 60, unclosed 61, diff ['96/407']
+OK   2.lpass_records_consistent []
+  трудных после L-прохода: 46 ['143/206', '96/211', '61/217', '19/221', '211/230', '204/247', '231/250', '65/261', '43/278', '265/298', '108/301', '251/308', '237/317', '140/319', '197/325', '93/331', '177/331', '95/349', '73/362', '327/374', '53/383', '38/385', '189/386', '325/394', '238/397', '96/407', '62/413', '2/425', '390/427', '251/433', '225/437', '165/439', '422/441', '425/441', '333/442', '111/445', '329/449', '438/449', '126/451', '172/451', '295/452', '305/461', '236/475', '165/493', '52/499', '129/499']
+OK   2.96_407_extra_rank0 5 множителей ellrank 0/0, z вырождены: True
+OK   2.magma_alerts_are_false_alarms [{"slope": "325/394", "file": "magma_calc/last400.jsonl", "curve": "(1+69*z)*(1+(-719)*z)*(1-325^2*z^2)*(1-394^2*z^2)", "replay_degenerate": true, "msg": "10 точек, все вырождены"}, {"slope": "238/397", "file": "magma_calc/last400.jsonl", "curve": "(1+159*z)*(1+(635)*z)*(1-238^2*z^2)*(1-397^2*z^2)", "replay_degenerate": true, "msg": "10 точек, все вырождены"}]
+OK   2.dem45_keys_eq_hard_minus_96_407 dem 45, hard 46, diff []
+OK   2.dem45_records_consistent []
+OK   2.strictB_covers_45 строгая B: 45 наклонов, закрыто 45, не покрыто []
+OK   2.dem2_strict_126/451 slope 126/451, A [], B [], H0 7649
+OK   2.dem2_strict_73/362 slope 73/362, A [], B [], H0 5783
+OK   2.dem2_strict_265/298 slope 265/298, A [], B [], H0 34433
+OK   3.every_slope_has_basis без основания: 0 []
+{
+ "3-200": {
+  "А:g1_ellrank": 142,
+  "А:selmer2isog": 10790,
+  "А:six_cells_ellrank": 1240,
+  "Б:g1_L": 5,
+  "Б:six_cells_L": 32,
+  "В:g2_magma": 21
+ },
+ "201-300": {
+  "А:g1_ellrank": 15076,
+  "А:six_cells_ellrank": 78,
+  "Б:L_ratio": 2,
+  "В:g2_magma": 9,
+  "Д:dem_rank2_strict": 1
+ },
+ "301-400": {
+  "А:g1_ellrank": 21149,
+  "А:six_cells_ellrank": 110,
+  "Б:L_ratio": 6,
+  "В:g2_magma": 12,
+  "Г:dem_rank1_strictB": 2,
+  "Д:dem_rank2_strict": 1
+ },
+ "401-500": {
+  "А:g1_ellrank": 27276,
+  "А:g1_ellrank_extra": 1,
+  "А:six_cells_ellrank": 134,
+  "Б:L_ratio": 7,
+  "В:g2_magma": 18,
+  "Г:dem_rank1_strictB": 1,
+  "Д:dem_rank2_strict": 1
+ }
+}
+проблем: 0
+заметки:
+   c_gaps: 142/165 (s ≤ 200) — вне census_300; при s ≤ 200 закрыт основным методом
+   c_gaps: 142/307 есть и в census_300/c301_400.jsonl (запись совпадает)
+   rb_retry*.jsonl: только RankBound для ['126/451', '265/298', '329/449', '73/362']; минимальная граница ранга якобиана {'265/298': 2, '73/362': 2, '126/451': 2, '329/449': 2} ≥ 2 ⇒ обычный Шаботи неприменим, это не закрытия
+   joint_sieve/dem_r_s.json вне 45: 127 наклонов (контроль §7 на s ≤ 20 и др.), все уже закрыты сильнее
+слабые (основное Г/Е): 3 {'325/394': {'primary': 'dem_rank1_strictB', 'alts': ['В:g2_magma', 'Г:dem_rank1']}, '238/397': {'primary': 'dem_rank1_strictB', 'alts': ['В:g2_magma', 'Г:dem_rank1']}, '329/449': {'primary': 'dem_rank1_strictB', 'alts': ['Г:dem_rank1']}}
+записано /home/kep/magicKube/rigorous_census/census_500_master.json 13954200 байт; время 0.8 с

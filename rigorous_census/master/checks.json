@@ -1,0 +1,501 @@
+{
+ "checks": {
+  "0.counts": {
+   "ok": true,
+   "info": "76114 {'3-200': 12230, '201-300': 15166, '301-400': 21280, '401-500': 27438}"
+  },
+  "1.selmer_coverage_consistent": {
+   "ok": true,
+   "info": "2-48: total 710/710 closed 689 open 21; 49-100: total 2332/2332 closed 2160 open 172; 101-200: total 9188/9188 closed 7941 open 1247"
+  },
+  "1.final_status_still_open_empty": {
+   "ok": true,
+   "info": "[]"
+  },
+  "1.final_status_keys_eq_selmer_open": {
+   "ok": true,
+   "info": "sources 1440, open 1440, diff []"
+  },
+  "1.final_status_records_match": {
+   "ok": true,
+   "info": "расхождений 0: []"
+  },
+  "2.201-300.complete_no_dups": {
+   "ok": true,
+   "info": "15166 строк, 15166 различных, ожидалось 15166, лишних 0, недостающих 0"
+  },
+  "2.201-300.no_ALERT": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.301-400.complete_no_dups": {
+   "ok": true,
+   "info": "21280 строк, 21280 различных, ожидалось 21280, лишних 0, недостающих 0"
+  },
+  "2.301-400.no_ALERT": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.401-500.complete_no_dups": {
+   "ok": true,
+   "info": "27438 строк, 27438 различных, ожидалось 27438, лишних 0, недостающих 0"
+  },
+  "2.401-500.no_ALERT": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.census_by_cells_in_Lambda": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.lpass_covers_unclosed_except_crash": {
+   "ok": true,
+   "info": "lpass 60, unclosed 61, diff ['96/407']"
+  },
+  "2.lpass_records_consistent": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.96_407_extra_rank0": {
+   "ok": true,
+   "info": "5 множителей ellrank 0/0, z вырождены: True"
+  },
+  "2.magma_alerts_are_false_alarms": {
+   "ok": true,
+   "info": "[{\"slope\": \"325/394\", \"file\": \"magma_calc/last400.jsonl\", \"curve\": \"(1+69*z)*(1+(-719)*z)*(1-325^2*z^2)*(1-394^2*z^2)\", \"replay_degenerate\": true, \"msg\": \"10 точек, все вырождены\"}, {\"slope\": \"238/397\", \"file\": \"magma_calc/last400.jsonl\", \"curve\": \"(1+159*z)*(1+(635)*z)*(1-238^2*z^2)*(1-397^2*z^2)\", \"replay_degenerate\": true, \"msg\": \"10 точек, все вырождены\"}]"
+  },
+  "2.dem45_keys_eq_hard_minus_96_407": {
+   "ok": true,
+   "info": "dem 45, hard 46, diff []"
+  },
+  "2.dem45_records_consistent": {
+   "ok": true,
+   "info": "[]"
+  },
+  "2.strictB_covers_45": {
+   "ok": true,
+   "info": "строгая B: 45 наклонов, закрыто 45, не покрыто []"
+  },
+  "2.dem2_strict_126/451": {
+   "ok": true,
+   "info": "slope 126/451, A [], B [], H0 7649"
+  },
+  "2.dem2_strict_73/362": {
+   "ok": true,
+   "info": "slope 73/362, A [], B [], H0 5783"
+  },
+  "2.dem2_strict_265/298": {
+   "ok": true,
+   "info": "slope 265/298, A [], B [], H0 34433"
+  },
+  "3.every_slope_has_basis": {
+   "ok": true,
+   "info": "без основания: 0 []"
+  }
+ },
+ "problems": [],
+ "notes": [
+  "c_gaps: 142/165 (s ≤ 200) — вне census_300; при s ≤ 200 закрыт основным методом",
+  "c_gaps: 142/307 есть и в census_300/c301_400.jsonl (запись совпадает)",
+  "rb_retry*.jsonl: только RankBound для ['126/451', '265/298', '329/449', '73/362']; минимальная граница ранга якобиана {'265/298': 2, '73/362': 2, '126/451': 2, '329/449': 2} ≥ 2 ⇒ обычный Шаботи неприменим, это не закрытия",
+  "joint_sieve/dem_r_s.json вне 45: 127 наклонов (контроль §7 на s ≤ 20 и др.), все уже закрыты сильнее"
+ ],
+ "alert_replay": [
+  {
+   "slope": "325/394",
+   "file": "magma_calc/last400.jsonl",
+   "curve": "(1+69*z)*(1+(-719)*z)*(1-325^2*z^2)*(1-394^2*z^2)",
+   "replay_degenerate": true,
+   "msg": "10 точек, все вырождены"
+  },
+  {
+   "slope": "238/397",
+   "file": "magma_calc/last400.jsonl",
+   "curve": "(1+159*z)*(1+(635)*z)*(1-238^2*z^2)*(1-397^2*z^2)",
+   "replay_degenerate": true,
+   "msg": "10 точек, все вырождены"
+  }
+ ],
+ "hard": [
+  "143/206",
+  "96/211",
+  "61/217",
+  "19/221",
+  "211/230",
+  "204/247",
+  "231/250",
+  "65/261",
+  "43/278",
+  "265/298",
+  "108/301",
+  "251/308",
+  "237/317",
+  "140/319",
+  "197/325",
+  "93/331",
+  "177/331",
+  "95/349",
+  "73/362",
+  "327/374",
+  "53/383",
+  "38/385",
+  "189/386",
+  "325/394",
+  "238/397",
+  "96/407",
+  "62/413",
+  "2/425",
+  "390/427",
+  "251/433",
+  "225/437",
+  "165/439",
+  "422/441",
+  "425/441",
+  "333/442",
+  "111/445",
+  "329/449",
+  "438/449",
+  "126/451",
+  "172/451",
+  "295/452",
+  "305/461",
+  "236/475",
+  "165/493",
+  "52/499",
+  "129/499"
+ ],
+ "rbmin": {
+  "265/298": 2,
+  "73/362": 2,
+  "126/451": 2,
+  "329/449": 2
+ },
+ "strict": {
+  "108/301": {
+   "file": "rigorous_census/chunk0/rig_108_301.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "140/319": {
+   "file": "rigorous_census/chunk0/rig_140_319.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "143/206": {
+   "file": "rigorous_census/chunk0/rig_143_206.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "197/325": {
+   "file": "rigorous_census/chunk0/rig_197_325.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "19/221": {
+   "file": "rigorous_census/chunk0/rig_19_221.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "204/247": {
+   "file": "rigorous_census/chunk0/rig_204_247.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "211/230": {
+   "file": "rigorous_census/chunk0/rig_211_230.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "231/250": {
+   "file": "rigorous_census/chunk0/rig_231_250.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "237/317": {
+   "file": "rigorous_census/chunk0/rig_237_317.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "251/308": {
+   "file": "rigorous_census/chunk0/rig_251_308.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "265/298": {
+   "file": "rigorous_census/chunk0/rig_265_298.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "43/278": {
+   "file": "rigorous_census/chunk0/rig_43_278.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "61/217": {
+   "file": "rigorous_census/chunk0/rig_61_217.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "65/261": {
+   "file": "rigorous_census/chunk0/rig_65_261.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "96/211": {
+   "file": "rigorous_census/chunk0/rig_96_211.json",
+   "closed": true,
+   "alert": null,
+   "note": true
+  },
+  "177/331": {
+   "file": "rigorous_census/chunk1/rig_177_331.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "189/386": {
+   "file": "rigorous_census/chunk1/rig_189_386.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "225/437": {
+   "file": "rigorous_census/chunk1/rig_225_437.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "238/397": {
+   "file": "rigorous_census/chunk1/rig_238_397.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "251/433": {
+   "file": "rigorous_census/chunk1/rig_251_433.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "2/425": {
+   "file": "rigorous_census/chunk1/rig_2_425.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "325/394": {
+   "file": "rigorous_census/chunk1/rig_325_394.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "327/374": {
+   "file": "rigorous_census/chunk1/rig_327_374.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "38/385": {
+   "file": "rigorous_census/chunk1/rig_38_385.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "390/427": {
+   "file": "rigorous_census/chunk1/rig_390_427.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "53/383": {
+   "file": "rigorous_census/chunk1/rig_53_383.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "62/413": {
+   "file": "rigorous_census/chunk1/rig_62_413.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "73/362": {
+   "file": "rigorous_census/chunk1/rig_73_362.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "93/331": {
+   "file": "rigorous_census/chunk1/rig_93_331.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "95/349": {
+   "file": "rigorous_census/chunk1/rig_95_349.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "111/445": {
+   "file": "rigorous_census/chunk2/rig_111_445.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "126/451": {
+   "file": "rigorous_census/chunk2/rig_126_451.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "129/499": {
+   "file": "rigorous_census/chunk2/rig_129_499.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "165/439": {
+   "file": "rigorous_census/chunk2/rig_165_439.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "165/493": {
+   "file": "rigorous_census/chunk2/rig_165_493.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "172/451": {
+   "file": "rigorous_census/chunk2/rig_172_451.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "236/475": {
+   "file": "rigorous_census/chunk2/rig_236_475.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "295/452": {
+   "file": "rigorous_census/chunk2/rig_295_452.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "305/461": {
+   "file": "rigorous_census/chunk2/rig_305_461.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "329/449": {
+   "file": "rigorous_census/chunk2/rig_329_449.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "333/442": {
+   "file": "rigorous_census/chunk2/rig_333_442.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "422/441": {
+   "file": "rigorous_census/chunk2/rig_422_441.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "425/441": {
+   "file": "rigorous_census/chunk2/rig_425_441.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "438/449": {
+   "file": "rigorous_census/chunk2/rig_438_449.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  },
+  "52/499": {
+   "file": "rigorous_census/chunk2/rig_52_499.json",
+   "closed": true,
+   "alert": [],
+   "note": false
+  }
+ },
+ "table": {
+  "3-200": {
+   "А:g1_ellrank": 142,
+   "А:selmer2isog": 10790,
+   "А:six_cells_ellrank": 1240,
+   "Б:g1_L": 5,
+   "Б:six_cells_L": 32,
+   "В:g2_magma": 21
+  },
+  "201-300": {
+   "А:g1_ellrank": 15076,
+   "А:six_cells_ellrank": 78,
+   "Б:L_ratio": 2,
+   "В:g2_magma": 9,
+   "Д:dem_rank2_strict": 1
+  },
+  "301-400": {
+   "А:g1_ellrank": 21149,
+   "А:six_cells_ellrank": 110,
+   "Б:L_ratio": 6,
+   "В:g2_magma": 12,
+   "Г:dem_rank1_strictB": 2,
+   "Д:dem_rank2_strict": 1
+  },
+  "401-500": {
+   "А:g1_ellrank": 27276,
+   "А:g1_ellrank_extra": 1,
+   "А:six_cells_ellrank": 134,
+   "Б:L_ratio": 7,
+   "В:g2_magma": 18,
+   "Г:dem_rank1_strictB": 1,
+   "Д:dem_rank2_strict": 1
+  }
+ },
+ "weak": {
+  "325/394": {
+   "primary": "dem_rank1_strictB",
+   "alts": [
+    "В:g2_magma",
+    "Г:dem_rank1"
+   ]
+  },
+  "238/397": {
+   "primary": "dem_rank1_strictB",
+   "alts": [
+    "В:g2_magma",
+    "Г:dem_rank1"
+   ]
+  },
+  "329/449": {
+   "primary": "dem_rank1_strictB",
+   "alts": [
+    "Г:dem_rank1"
+   ]
+  }
+ }
+}
