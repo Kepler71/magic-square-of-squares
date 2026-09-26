@@ -1,0 +1,78 @@
+{
+ "A": 1000000,
+ "configs": 75,
+ "config_rel_pairs": 75,
+ "by_rel": {
+  "(1, 1, 2)": 71,
+  "(1, 1, 1)": 4
+ },
+ "square_centers": [],
+ "lemma_fail": [],
+ "rank_hist": {
+  "3": 75
+ },
+ "nsplit_hist": {
+  "3": 69,
+  "4": 6
+ },
+ "D_fail": [],
+ "steps_fail": [],
+ "max_ratio": "137/740",
+ "max_ratio_example": {
+  "a": 25345,
+  "us": [
+   2544,
+   13464,
+   24384
+  ],
+  "factor": {
+   "5": 1,
+   "37": 1,
+   "137": 1
+  },
+  "classes": [
+   {
+    "NL": 4,
+    "sig": [
+     1,
+     -1,
+     -1
+    ],
+    "ps": [
+     5
+    ],
+    "ratio": "5/20276"
+   },
+   {
+    "NL": 4,
+    "sig": [
+     1,
+     1,
+     -1
+    ],
+    "ps": [
+     37
+    ],
+    "ratio": "37/2740"
+   },
+   {
+    "NL": 4,
+    "sig": [
+     1,
+     -1,
+     1
+    ],
+    "ps": [
+     137
+    ],
+    "ratio": "137/740"
+   }
+  ]
+ },
+ "multi_rel": [],
+ "negative_control": {
+  "triples": 19992,
+  "would_fail": 6964
+ },
+ "time_s": 0.6
+}

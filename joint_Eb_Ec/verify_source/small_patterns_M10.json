@@ -1,0 +1,4322 @@
+[
+ {
+  "M": 3,
+  "ks": [
+   1,
+   2,
+   3
+  ],
+  "mid": 1,
+  "deg": 48,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 3,
+  "ks": [
+   1,
+   2,
+   3
+  ],
+  "mid": 2,
+  "deg": 48,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 3,
+  "ks": [
+   1,
+   2,
+   3
+  ],
+  "mid": 3,
+  "deg": 48,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   2,
+   4
+  ],
+  "mid": 1,
+  "deg": 64,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   2,
+   4
+  ],
+  "mid": 2,
+  "deg": 64,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   2,
+   4
+  ],
+  "mid": 4,
+  "deg": 64,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   3,
+   4
+  ],
+  "mid": 1,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   3,
+   4
+  ],
+  "mid": 3,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   1,
+   3,
+   4
+  ],
+  "mid": 4,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   2,
+   3,
+   4
+  ],
+  "mid": 2,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   2,
+   3,
+   4
+  ],
+  "mid": 3,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 4,
+  "ks": [
+   2,
+   3,
+   4
+  ],
+  "mid": 4,
+  "deg": 96,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   2,
+   5
+  ],
+  "mid": 1,
+  "deg": 112,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   2,
+   5
+  ],
+  "mid": 2,
+  "deg": 112,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   2,
+   5
+  ],
+  "mid": 5,
+  "deg": 112,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   3,
+   5
+  ],
+  "mid": 1,
+  "deg": 132,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   3,
+   5
+  ],
+  "mid": 3,
+  "deg": 132,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   3,
+   5
+  ],
+  "mid": 5,
+  "deg": 132,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   4,
+   5
+  ],
+  "mid": 1,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   4,
+   5
+  ],
+  "mid": 4,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   1,
+   4,
+   5
+  ],
+  "mid": 5,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   3,
+   5
+  ],
+  "mid": 2,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   3,
+   5
+  ],
+  "mid": 3,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   3,
+   5
+  ],
+  "mid": 5,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   4,
+   5
+  ],
+  "mid": 2,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   4,
+   5
+  ],
+  "mid": 4,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   2,
+   4,
+   5
+  ],
+  "mid": 5,
+  "deg": 160,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   3,
+   4,
+   5
+  ],
+  "mid": 3,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   3,
+   4,
+   5
+  ],
+  "mid": 4,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 5,
+  "ks": [
+   3,
+   4,
+   5
+  ],
+  "mid": 5,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   2,
+   6
+  ],
+  "mid": 1,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   2,
+   6
+  ],
+  "mid": 2,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   2,
+   6
+  ],
+  "mid": 6,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   3,
+   6
+  ],
+  "mid": 1,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   3,
+   6
+  ],
+  "mid": 3,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   3,
+   6
+  ],
+  "mid": 6,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   4,
+   6
+  ],
+  "mid": 1,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   4,
+   6
+  ],
+  "mid": 4,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   4,
+   6
+  ],
+  "mid": 6,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   5,
+   6
+  ],
+  "mid": 1,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   5,
+   6
+  ],
+  "mid": 5,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   1,
+   5,
+   6
+  ],
+  "mid": 6,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   3,
+   6
+  ],
+  "mid": 2,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   3,
+   6
+  ],
+  "mid": 3,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   3,
+   6
+  ],
+  "mid": 6,
+  "deg": 144,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   4,
+   6
+  ],
+  "mid": 2,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   4,
+   6
+  ],
+  "mid": 4,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   4,
+   6
+  ],
+  "mid": 6,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   5,
+   6
+  ],
+  "mid": 2,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   5,
+   6
+  ],
+  "mid": 5,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   2,
+   5,
+   6
+  ],
+  "mid": 6,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   4,
+   6
+  ],
+  "mid": 3,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   4,
+   6
+  ],
+  "mid": 4,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   4,
+   6
+  ],
+  "mid": 6,
+  "deg": 192,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   5,
+   6
+  ],
+  "mid": 3,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   5,
+   6
+  ],
+  "mid": 5,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   3,
+   5,
+   6
+  ],
+  "mid": 6,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   4,
+   5,
+   6
+  ],
+  "mid": 4,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   4,
+   5,
+   6
+  ],
+  "mid": 5,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 6,
+  "ks": [
+   4,
+   5,
+   6
+  ],
+  "mid": 6,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   2,
+   7
+  ],
+  "mid": 1,
+  "deg": 208,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   2,
+   7
+  ],
+  "mid": 2,
+  "deg": 208,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   2,
+   7
+  ],
+  "mid": 7,
+  "deg": 208,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   3,
+   7
+  ],
+  "mid": 1,
+  "deg": 228,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   3,
+   7
+  ],
+  "mid": 3,
+  "deg": 228,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   3,
+   7
+  ],
+  "mid": 7,
+  "deg": 228,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   4,
+   7
+  ],
+  "mid": 1,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   4,
+   7
+  ],
+  "mid": 4,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   4,
+   7
+  ],
+  "mid": 7,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   5,
+   7
+  ],
+  "mid": 1,
+  "deg": 292,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   5,
+   7
+  ],
+  "mid": 5,
+  "deg": 292,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   5,
+   7
+  ],
+  "mid": 7,
+  "deg": 292,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   6,
+   7
+  ],
+  "mid": 1,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   6,
+   7
+  ],
+  "mid": 6,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   1,
+   6,
+   7
+  ],
+  "mid": 7,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   3,
+   7
+  ],
+  "mid": 2,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   3,
+   7
+  ],
+  "mid": 3,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   3,
+   7
+  ],
+  "mid": 7,
+  "deg": 240,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   4,
+   7
+  ],
+  "mid": 2,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   4,
+   7
+  ],
+  "mid": 4,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   4,
+   7
+  ],
+  "mid": 7,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   5,
+   7
+  ],
+  "mid": 2,
+  "deg": 304,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   5,
+   7
+  ],
+  "mid": 5,
+  "deg": 304,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   5,
+   7
+  ],
+  "mid": 7,
+  "deg": 304,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   6,
+   7
+  ],
+  "mid": 2,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   6,
+   7
+  ],
+  "mid": 6,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   2,
+   6,
+   7
+  ],
+  "mid": 7,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   4,
+   7
+  ],
+  "mid": 3,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   4,
+   7
+  ],
+  "mid": 4,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   4,
+   7
+  ],
+  "mid": 7,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   5,
+   7
+  ],
+  "mid": 3,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   5,
+   7
+  ],
+  "mid": 5,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   5,
+   7
+  ],
+  "mid": 7,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   6,
+   7
+  ],
+  "mid": 3,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   6,
+   7
+  ],
+  "mid": 6,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   3,
+   6,
+   7
+  ],
+  "mid": 7,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   5,
+   7
+  ],
+  "mid": 4,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   5,
+   7
+  ],
+  "mid": 5,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   5,
+   7
+  ],
+  "mid": 7,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   6,
+   7
+  ],
+  "mid": 4,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   6,
+   7
+  ],
+  "mid": 6,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   4,
+   6,
+   7
+  ],
+  "mid": 7,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   5,
+   6,
+   7
+  ],
+  "mid": 5,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   5,
+   6,
+   7
+  ],
+  "mid": 6,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 7,
+  "ks": [
+   5,
+   6,
+   7
+  ],
+  "mid": 7,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   2,
+   8
+  ],
+  "mid": 1,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   2,
+   8
+  ],
+  "mid": 2,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   2,
+   8
+  ],
+  "mid": 8,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   3,
+   8
+  ],
+  "mid": 1,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   3,
+   8
+  ],
+  "mid": 3,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   3,
+   8
+  ],
+  "mid": 8,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   4,
+   8
+  ],
+  "mid": 1,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   4,
+   8
+  ],
+  "mid": 4,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   4,
+   8
+  ],
+  "mid": 8,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   5,
+   8
+  ],
+  "mid": 1,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   5,
+   8
+  ],
+  "mid": 5,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   5,
+   8
+  ],
+  "mid": 8,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   6,
+   8
+  ],
+  "mid": 1,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   6,
+   8
+  ],
+  "mid": 6,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   6,
+   8
+  ],
+  "mid": 8,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   7,
+   8
+  ],
+  "mid": 1,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   1,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   3,
+   8
+  ],
+  "mid": 2,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   3,
+   8
+  ],
+  "mid": 3,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   3,
+   8
+  ],
+  "mid": 8,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   4,
+   8
+  ],
+  "mid": 2,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   4,
+   8
+  ],
+  "mid": 4,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   4,
+   8
+  ],
+  "mid": 8,
+  "deg": 256,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   5,
+   8
+  ],
+  "mid": 2,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   5,
+   8
+  ],
+  "mid": 5,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   5,
+   8
+  ],
+  "mid": 8,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   6,
+   8
+  ],
+  "mid": 2,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   6,
+   8
+  ],
+  "mid": 6,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   6,
+   8
+  ],
+  "mid": 8,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   7,
+   8
+  ],
+  "mid": 2,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   2,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   4,
+   8
+  ],
+  "mid": 3,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   4,
+   8
+  ],
+  "mid": 4,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   4,
+   8
+  ],
+  "mid": 8,
+  "deg": 288,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   5,
+   8
+  ],
+  "mid": 3,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   5,
+   8
+  ],
+  "mid": 5,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   5,
+   8
+  ],
+  "mid": 8,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   6,
+   8
+  ],
+  "mid": 3,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   6,
+   8
+  ],
+  "mid": 6,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   6,
+   8
+  ],
+  "mid": 8,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   7,
+   8
+  ],
+  "mid": 3,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   3,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   5,
+   8
+  ],
+  "mid": 4,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   5,
+   8
+  ],
+  "mid": 5,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   5,
+   8
+  ],
+  "mid": 8,
+  "deg": 352,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   6,
+   8
+  ],
+  "mid": 4,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   6,
+   8
+  ],
+  "mid": 6,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   6,
+   8
+  ],
+  "mid": 8,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   7,
+   8
+  ],
+  "mid": 4,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   4,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   6,
+   8
+  ],
+  "mid": 5,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   6,
+   8
+  ],
+  "mid": 6,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   6,
+   8
+  ],
+  "mid": 8,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   7,
+   8
+  ],
+  "mid": 5,
+  "deg": 544,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 544,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   5,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 544,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   6,
+   7,
+   8
+  ],
+  "mid": 6,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   6,
+   7,
+   8
+  ],
+  "mid": 7,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 8,
+  "ks": [
+   6,
+   7,
+   8
+  ],
+  "mid": 8,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   2,
+   9
+  ],
+  "mid": 1,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   2,
+   9
+  ],
+  "mid": 2,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   2,
+   9
+  ],
+  "mid": 9,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   3,
+   9
+  ],
+  "mid": 1,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   3,
+   9
+  ],
+  "mid": 3,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   3,
+   9
+  ],
+  "mid": 9,
+  "deg": 324,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   4,
+   9
+  ],
+  "mid": 1,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   4,
+   9
+  ],
+  "mid": 4,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   4,
+   9
+  ],
+  "mid": 9,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   5,
+   9
+  ],
+  "mid": 1,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   5,
+   9
+  ],
+  "mid": 5,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   5,
+   9
+  ],
+  "mid": 9,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   6,
+   9
+  ],
+  "mid": 1,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   6,
+   9
+  ],
+  "mid": 6,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   6,
+   9
+  ],
+  "mid": 9,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   7,
+   9
+  ],
+  "mid": 1,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   8,
+   9
+  ],
+  "mid": 1,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   1,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   3,
+   9
+  ],
+  "mid": 2,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   3,
+   9
+  ],
+  "mid": 3,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   3,
+   9
+  ],
+  "mid": 9,
+  "deg": 336,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   4,
+   9
+  ],
+  "mid": 2,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   4,
+   9
+  ],
+  "mid": 4,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   4,
+   9
+  ],
+  "mid": 9,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   5,
+   9
+  ],
+  "mid": 2,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   5,
+   9
+  ],
+  "mid": 5,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   5,
+   9
+  ],
+  "mid": 9,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   6,
+   9
+  ],
+  "mid": 2,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   6,
+   9
+  ],
+  "mid": 6,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   6,
+   9
+  ],
+  "mid": 9,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   7,
+   9
+  ],
+  "mid": 2,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   8,
+   9
+  ],
+  "mid": 2,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   2,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   4,
+   9
+  ],
+  "mid": 3,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   4,
+   9
+  ],
+  "mid": 4,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   4,
+   9
+  ],
+  "mid": 9,
+  "deg": 384,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   5,
+   9
+  ],
+  "mid": 3,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   5,
+   9
+  ],
+  "mid": 5,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   5,
+   9
+  ],
+  "mid": 9,
+  "deg": 420,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   6,
+   9
+  ],
+  "mid": 3,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   6,
+   9
+  ],
+  "mid": 6,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   6,
+   9
+  ],
+  "mid": 9,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   7,
+   9
+  ],
+  "mid": 3,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 516,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   8,
+   9
+  ],
+  "mid": 3,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   3,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   5,
+   9
+  ],
+  "mid": 4,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   5,
+   9
+  ],
+  "mid": 5,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   5,
+   9
+  ],
+  "mid": 9,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   6,
+   9
+  ],
+  "mid": 4,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   6,
+   9
+  ],
+  "mid": 6,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   6,
+   9
+  ],
+  "mid": 9,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   7,
+   9
+  ],
+  "mid": 4,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   8,
+   9
+  ],
+  "mid": 4,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   4,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   6,
+   9
+  ],
+  "mid": 5,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   6,
+   9
+  ],
+  "mid": 6,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   6,
+   9
+  ],
+  "mid": 9,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   7,
+   9
+  ],
+  "mid": 5,
+  "deg": 612,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 612,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 612,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   8,
+   9
+  ],
+  "mid": 5,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   5,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   7,
+   9
+  ],
+  "mid": 6,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   7,
+   9
+  ],
+  "mid": 7,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   7,
+   9
+  ],
+  "mid": 9,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   8,
+   9
+  ],
+  "mid": 6,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   6,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   7,
+   8,
+   9
+  ],
+  "mid": 7,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   7,
+   8,
+   9
+  ],
+  "mid": 8,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 9,
+  "ks": [
+   7,
+   8,
+   9
+  ],
+  "mid": 9,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   2,
+   10
+  ],
+  "mid": 1,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   2,
+   10
+  ],
+  "mid": 2,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   2,
+   10
+  ],
+  "mid": 10,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   3,
+   10
+  ],
+  "mid": 1,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   3,
+   10
+  ],
+  "mid": 3,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   3,
+   10
+  ],
+  "mid": 10,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   4,
+   10
+  ],
+  "mid": 1,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   4,
+   10
+  ],
+  "mid": 4,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   4,
+   10
+  ],
+  "mid": 10,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   5,
+   10
+  ],
+  "mid": 1,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   5,
+   10
+  ],
+  "mid": 5,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   5,
+   10
+  ],
+  "mid": 10,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   6,
+   10
+  ],
+  "mid": 1,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   6,
+   10
+  ],
+  "mid": 6,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   6,
+   10
+  ],
+  "mid": 10,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   7,
+   10
+  ],
+  "mid": 1,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   8,
+   10
+  ],
+  "mid": 1,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   9,
+   10
+  ],
+  "mid": 1,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   1,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   3,
+   10
+  ],
+  "mid": 2,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   3,
+   10
+  ],
+  "mid": 3,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   3,
+   10
+  ],
+  "mid": 10,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   4,
+   10
+  ],
+  "mid": 2,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   4,
+   10
+  ],
+  "mid": 4,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   4,
+   10
+  ],
+  "mid": 10,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   5,
+   10
+  ],
+  "mid": 2,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   5,
+   10
+  ],
+  "mid": 5,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   5,
+   10
+  ],
+  "mid": 10,
+  "deg": 400,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   6,
+   10
+  ],
+  "mid": 2,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   6,
+   10
+  ],
+  "mid": 6,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   6,
+   10
+  ],
+  "mid": 10,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   7,
+   10
+  ],
+  "mid": 2,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   8,
+   10
+  ],
+  "mid": 2,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   9,
+   10
+  ],
+  "mid": 2,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   2,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   4,
+   10
+  ],
+  "mid": 3,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   4,
+   10
+  ],
+  "mid": 4,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   4,
+   10
+  ],
+  "mid": 10,
+  "deg": 480,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   5,
+   10
+  ],
+  "mid": 3,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   5,
+   10
+  ],
+  "mid": 5,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   5,
+   10
+  ],
+  "mid": 10,
+  "deg": 432,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   6,
+   10
+  ],
+  "mid": 3,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   6,
+   10
+  ],
+  "mid": 6,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   6,
+   10
+  ],
+  "mid": 10,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   7,
+   10
+  ],
+  "mid": 3,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 624,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   8,
+   10
+  ],
+  "mid": 3,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 672,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   9,
+   10
+  ],
+  "mid": 3,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   3,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   5,
+   10
+  ],
+  "mid": 4,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   5,
+   10
+  ],
+  "mid": 5,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   5,
+   10
+  ],
+  "mid": 10,
+  "deg": 448,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   6,
+   10
+  ],
+  "mid": 4,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   6,
+   10
+  ],
+  "mid": 6,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   6,
+   10
+  ],
+  "mid": 10,
+  "deg": 576,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   7,
+   10
+  ],
+  "mid": 4,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   8,
+   10
+  ],
+  "mid": 4,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   9,
+   10
+  ],
+  "mid": 4,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   4,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   6,
+   10
+  ],
+  "mid": 5,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   6,
+   10
+  ],
+  "mid": 6,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   6,
+   10
+  ],
+  "mid": 10,
+  "deg": 528,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   7,
+   10
+  ],
+  "mid": 5,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 592,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   8,
+   10
+  ],
+  "mid": 5,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 640,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   9,
+   10
+  ],
+  "mid": 5,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   5,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   7,
+   10
+  ],
+  "mid": 6,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   7,
+   10
+  ],
+  "mid": 7,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   7,
+   10
+  ],
+  "mid": 10,
+  "deg": 720,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   8,
+   10
+  ],
+  "mid": 6,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 768,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   9,
+   10
+  ],
+  "mid": 6,
+  "deg": 816,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 816,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   6,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 816,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   8,
+   10
+  ],
+  "mid": 7,
+  "deg": 832,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   8,
+   10
+  ],
+  "mid": 8,
+  "deg": 832,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   8,
+   10
+  ],
+  "mid": 10,
+  "deg": 832,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   9,
+   10
+  ],
+  "mid": 7,
+  "deg": 912,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 912,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   7,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 912,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   8,
+   9,
+   10
+  ],
+  "mid": 8,
+  "deg": 960,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   8,
+   9,
+   10
+  ],
+  "mid": 9,
+  "deg": 960,
+  "rational_roots": [],
+  "counterexample_t": []
+ },
+ {
+  "M": 10,
+  "ks": [
+   8,
+   9,
+   10
+  ],
+  "mid": 10,
+  "deg": 960,
+  "rational_roots": [],
+  "counterexample_t": []
+ }
+]

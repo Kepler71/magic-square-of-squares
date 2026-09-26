@@ -1,0 +1,38 @@
+{
+ "10007": {
+  "points": 400,
+  "columns": 34,
+  "rank": 34,
+  "columns_with_tautology": 35,
+  "rank_with_tautology": 34,
+  "Eb+Ec_only_columns": 13,
+  "Eb+Ec_only_rank": 13
+ },
+ "20011": {
+  "points": 400,
+  "columns": 34,
+  "rank": 34,
+  "columns_with_tautology": 35,
+  "rank_with_tautology": 34,
+  "Eb+Ec_only_columns": 13,
+  "Eb+Ec_only_rank": 13
+ },
+ "40039": {
+  "points": 400,
+  "columns": 34,
+  "rank": 34,
+  "columns_with_tautology": 35,
+  "rank_with_tautology": 34,
+  "Eb+Ec_only_columns": 13,
+  "Eb+Ec_only_rank": 13
+ },
+ "65003": {
+  "points": 400,
+  "columns": 34,
+  "rank": 34,
+  "columns_with_tautology": 35,
+  "rank_with_tautology": 34,
+  "Eb+Ec_only_columns": 13,
+  "Eb+Ec_only_rank": 13
+ }
+}

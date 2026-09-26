@@ -1,0 +1,50 @@
+{
+  "status": "finite exact controls of separately proved theorem",
+  "local_2_3": {
+    "2": {
+      "tested": 50208,
+      "passes": 100
+    },
+    "3": {
+      "tested": 70864,
+      "passes": 900
+    }
+  },
+  "support": {
+    "3": {
+      "tested": 1617,
+      "passes": 560,
+      "nontrivial_valuation": 0
+    },
+    "5": {
+      "tested": 3310,
+      "passes": 1200,
+      "nontrivial_valuation": 80
+    },
+    "7": {
+      "tested": 4991,
+      "passes": 1680,
+      "nontrivial_valuation": 0
+    },
+    "11": {
+      "tested": 8351,
+      "passes": 2856,
+      "nontrivial_valuation": 0
+    },
+    "13": {
+      "tested": 10032,
+      "passes": 3788,
+      "nontrivial_valuation": 144
+    },
+    "17": {
+      "tested": 13407,
+      "passes": 5068,
+      "nontrivial_valuation": 140
+    },
+    "37": {
+      "tested": 30214,
+      "passes": 11336,
+      "nontrivial_valuation": 0
+    }
+  }
+}

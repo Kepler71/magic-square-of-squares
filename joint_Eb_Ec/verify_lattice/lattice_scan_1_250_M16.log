@@ -1,0 +1,11 @@
+N=113: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+N=155: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+N=157: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+N=203: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+кривых ранга>=1: 91  ранги: {1: 79, 2: 12}
+направлений: 127  MMAX = 16  CMAX = 1
+провалы примитивности (N, c, n, слабая, полная): []
+AP среди x(2mG): []
+случаев, где единственный слабо-примитивный простой = 2: 0 []
+из них нарушений v_2(x) <= -2: []
+время: 33.2 c

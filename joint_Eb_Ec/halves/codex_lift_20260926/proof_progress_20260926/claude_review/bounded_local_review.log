@@ -1,0 +1,17 @@
+5 {'three_AP_seed_count': 0, 'five_AP_seed_count': 0, 'type_b': (0, 0), 'type_c': (0, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+7 {'three_AP_seed_count': 0, 'five_AP_seed_count': 0, 'type_b': (0, 0), 'type_c': (0, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+11 {'three_AP_seed_count': 20, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+13 {'three_AP_seed_count': 24, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+17 {'three_AP_seed_count': 32, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+19 {'three_AP_seed_count': 72, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+23 {'three_AP_seed_count': 88, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+29 {'three_AP_seed_count': 168, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+31 {'three_AP_seed_count': 180, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+37 {'three_AP_seed_count': 288, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+41 {'three_AP_seed_count': 320, 'five_AP_seed_count': 80, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+43 {'three_AP_seed_count': 420, 'five_AP_seed_count': 84, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+73 {'three_AP_seed_count': 1152, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+89 {'three_AP_seed_count': 1760, 'five_AP_seed_count': 352, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+97 {'three_AP_seed_count': 2112, 'five_AP_seed_count': 384, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+101 {'three_AP_seed_count': 2400, 'five_AP_seed_count': 800, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+113 {'three_AP_seed_count': 2912, 'five_AP_seed_count': 224, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}

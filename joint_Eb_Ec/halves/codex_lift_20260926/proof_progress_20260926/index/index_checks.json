@@ -1,0 +1,46 @@
+{
+  "curve_N": 34,
+  "basis_G": [
+    "-16",
+    "120",
+    "1"
+  ],
+  "basis_H": [
+    "-2",
+    "48",
+    "1"
+  ],
+  "point_vectors_in_2basis": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "reduced_index": 1,
+  "torsionfree_index": 4,
+  "denominators": [
+    "60",
+    "12",
+    "269575189777049463158740627036584612390900"
+  ],
+  "common_denominator": "12",
+  "x_valuations_2": [
+    -4,
+    -4,
+    -4
+  ],
+  "x_valuations_3": [
+    -2,
+    -2,
+    -2
+  ],
+  "is_AP": false
+}

@@ -1,0 +1,141 @@
+{
+ "sallows_all_squares": true,
+ "sallows_lines": {
+  "rows": [
+   21609,
+   21609,
+   21609
+  ],
+  "cols": [
+   21609,
+   21609,
+   21609
+  ],
+  "diag": 38307,
+  "anti": 21609
+ },
+ "sq2P": {
+  "six_same": true,
+  "all_squares": true,
+  "magic_lines": 7,
+  "center_minus_a": "-3866836980979599/7751179400836"
+ },
+ "sq3P": {
+  "six_same": true,
+  "all_squares": true,
+  "magic_lines": 7,
+  "center_minus_a": "-3074616552081554563133926315358123651/4703413061866180537911414234965769"
+ },
+ "lines_through_4420": [
+  1056,
+  2304,
+  2976,
+  4416
+ ],
+ "ranks": {
+  "b": {
+   "N": 210,
+   "N_mod8": 2,
+   "root_number": 1,
+   "rank": 2,
+   "sel2": 4
+  },
+  "c": {
+   "N": 66,
+   "N_mod8": 2,
+   "root_number": 1,
+   "rank": 0,
+   "sel2": 2
+  },
+  "bpc": {
+   "N": 1,
+   "N_mod8": 1,
+   "root_number": 1,
+   "rank": 0,
+   "sel2": 2
+  },
+  "bmc": {
+   "N": 69,
+   "N_mod8": 5,
+   "root_number": -1,
+   "rank": 1,
+   "sel2": 3
+  },
+  "ac": {
+   "N": 72930,
+   "N_mod8": 2,
+   "root_number": 1,
+   "rank": 2,
+   "sel2": 4
+  },
+  "abpc": {
+   "N": 1105,
+   "N_mod8": 1,
+   "root_number": 1,
+   "rank": 2,
+   "sel2": 4
+  },
+  "abmc": {
+   "N": 76245,
+   "N_mod8": 5,
+   "root_number": -1,
+   "rank": 3,
+   "sel2": 5
+  }
+ },
+ "AB1_square_cells": [
+  "(-1, -1)",
+  "(-1, 0)",
+  "(-1, 1)",
+  "(0, -1)",
+  "(0, 0)",
+  "(0, 1)",
+  "(1, 1)"
+ ],
+ "AB1_full_lines": [
+  -138600,
+  -97104
+ ],
+ "rootnumber_formula_fail_N_lt_400": [],
+ "two_parity_fail_N_lt_400": [],
+ "selmer_rank_E1": 2,
+ "F_uv_jacobian": [
+  {
+   "u": 3,
+   "v": 7,
+   "iso_QQ": true,
+   "j_quartic": "2533446736/275625",
+   "j_formula": "2533446736/275625",
+   "j_eq": true
+  },
+  {
+   "u": 1,
+   "v": 5,
+   "iso_QQ": true,
+   "j_quartic": "3631696/2025",
+   "j_formula": "3631696/2025",
+   "j_eq": true
+  },
+  {
+   "u": 2,
+   "v": 9,
+   "iso_QQ": true,
+   "j_quartic": "5489767279588/2847396321",
+   "j_formula": "5489767279588/2847396321",
+   "j_eq": true
+  },
+  {
+   "u": 5,
+   "v": 11,
+   "iso_QQ": true,
+   "j_quartic": "46694890801/3920400",
+   "j_formula": "46694890801/3920400",
+   "j_eq": true
+  }
+ ],
+ "slope_curve": {
+  "n_quadrics": 7,
+  "dim": 2,
+  "hilbert_poly": "128*t - 320"
+ }
+}

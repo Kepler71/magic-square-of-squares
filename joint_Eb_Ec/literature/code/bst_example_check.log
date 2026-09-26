@@ -1,0 +1,1 @@
+BST p.2 example on y^2=x(x^2-1254^2): [True, True, True] AP: True ; x<0 => not in 2E (x must be a square): True

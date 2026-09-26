@@ -1,0 +1,32 @@
+{
+ "n_functions": 33,
+ "n_divisors": 185,
+ "components_per_hyperplane": {
+  "b": 64,
+  "c": 64,
+  "b+c": 16,
+  "b-c": 16,
+  "b+2c": 4,
+  "b-2c": 4,
+  "2b+c": 4,
+  "2b-c": 4
+ },
+ "rank_all": 33,
+ "rank_only_16_delta_coords": 16,
+ "rank_Eb_Ec_12_delta_coords": 12,
+ "distinct_cell_values_on_H": {
+  "b": 3,
+  "c": 3,
+  "b+c": 5,
+  "b-c": 5,
+  "b+2c": 7,
+  "b-2c": 7,
+  "2b+c": 7,
+  "2b-c": 7
+ },
+ "power_series_check": {
+  "p": 10007,
+  "checks": 3072,
+  "failures": 0
+ }
+}

@@ -1,0 +1,14 @@
+  ***   Warning: new stack size = 1000000000 (953.674 Mbytes).
+b=65 c=161  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [2, 2] E_{c-b} [1, 1]
+b=65 c=219  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [2, 2]
+b=154 c=219  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [2, 2]
+b=164 c=219  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [1, 1]
+b=65 c=226  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [2, 2] E_{c-b} [2, 2]
+b=219 c=226  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [1, 1]
+b=34 c=257  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [2, 2] E_{c-b} [1, 1]
+b=138 c=257  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [2, 2] E_{c-b} [1, 1]
+b=164 c=257  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [1, 1]
+b=219 c=257  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [1, 1]
+b=41 c=260  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [2, 2]
+b=219 c=260  ranks [lo,hi]: E_b [2, 2] E_c [2, 2] E_{b+c} [1, 1] E_{c-b} [2, 2]
+found 12

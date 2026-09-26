@@ -1,0 +1,22 @@
+{
+ "34": {
+  "rank": 2,
+  "directions": 8,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 1.2112085819244385
+ },
+ "41": {
+  "rank": 2,
+  "directions": 8,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 1.3854374885559082
+ }
+}

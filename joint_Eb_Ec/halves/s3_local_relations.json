@@ -1,0 +1,1638 @@
+{
+ "A_predictions": {
+  "3": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "5": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "7": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "11": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "13": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "17": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "19": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "23": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "29": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "31": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "37": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "41": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b-c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "43": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b-c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "61": {
+   "generic": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b-c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  },
+  "97": {
+   "generic": {
+    "points": 30,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {}
+   },
+   "b": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "c": {
+    "points": 30,
+    "checks": 690,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 90,
+     "L2": 600
+    }
+   },
+   "bc": {
+    "points": 30,
+    "checks": 240,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 240
+    }
+   },
+   "b+c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b-c": {
+    "points": 30,
+    "checks": 210,
+    "violations": 0,
+    "skipped": 0,
+    "by_kind": {
+     "L1": 30,
+     "L2": 180
+    }
+   },
+   "b+2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "b-2c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b+c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   },
+   "2b-c": {
+    "points": 0,
+    "checks": 0,
+    "violations": 0,
+    "skipped": 2,
+    "by_kind": {}
+   }
+  }
+ },
+ "B_negative_control": {
+  "3": {
+   "b": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "5": {
+   "b": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "7": {
+   "b": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "11": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "13": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "17": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 22
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 19
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "19": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "23": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 22
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "29": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "31": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 18
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "37": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 20
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "b+c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   },
+   "b-c": {
+    "pairs": 0,
+    "true_point_consistent": 0,
+    "mixed_inconsistent": 0
+   }
+  },
+  "41": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 18
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 19
+   },
+   "b+c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "b-c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 21
+   }
+  },
+  "43": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 25
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "b+c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   },
+   "b-c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 24
+   }
+  },
+  "61": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 21
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 22
+   },
+   "b+c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "b-c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   }
+  },
+  "97": {
+   "b": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 13
+   },
+   "c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 21
+   },
+   "bc": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 22
+   },
+   "b+c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   },
+   "b-c": {
+    "pairs": 25,
+    "true_point_consistent": 25,
+    "mixed_inconsistent": 23
+   }
+  }
+ },
+ "C_completeness": [],
+ "meta": {
+  "NPREC": 60,
+  "primes": [
+   3,
+   5,
+   7,
+   11,
+   13,
+   17,
+   19,
+   23,
+   29,
+   31,
+   37,
+   41,
+   43,
+   61,
+   97
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+5 {'aps': 3, 'ineq_fail': 0, 'corollary_applicable': 0, 'corollary_fail': 0, 'in4E_total': 1}
+6 {'aps': 7, 'ineq_fail': 0, 'corollary_applicable': 1, 'corollary_fail': 0, 'in4E_total': 3}
+7 {'aps': 9, 'ineq_fail': 0, 'corollary_applicable': 1, 'corollary_fail': 0, 'in4E_total': 4}
+13 {'aps': 10, 'ineq_fail': 0, 'corollary_applicable': 1, 'corollary_fail': 0, 'in4E_total': 4}
+14 {'aps': 13, 'ineq_fail': 0, 'corollary_applicable': 1, 'corollary_fail': 0, 'in4E_total': 5}
+15 {'aps': 16, 'ineq_fail': 0, 'corollary_applicable': 2, 'corollary_fail': 0, 'in4E_total': 6}
+21 {'aps': 19, 'ineq_fail': 0, 'corollary_applicable': 3, 'corollary_fail': 0, 'in4E_total': 7}
+22 {'aps': 21, 'ineq_fail': 0, 'corollary_applicable': 3, 'corollary_fail': 0, 'in4E_total': 8}
+23 {'aps': 22, 'ineq_fail': 0, 'corollary_applicable': 3, 'corollary_fail': 0, 'in4E_total': 8}
+30 {'aps': 25, 'ineq_fail': 0, 'corollary_applicable': 4, 'corollary_fail': 0, 'in4E_total': 9}
+34 {'aps': 36, 'ineq_fail': 0, 'corollary_applicable': 4, 'corollary_fail': 0, 'in4E_total': 12}
+41 {'aps': 42, 'ineq_fail': 0, 'corollary_applicable': 4, 'corollary_fail': 0, 'in4E_total': 13}
+65 {'aps': 53, 'ineq_fail': 0, 'corollary_applicable': 5, 'corollary_fail': 0, 'in4E_total': 16}
+210 {'aps': 71, 'ineq_fail': 0, 'corollary_applicable': 9, 'corollary_fail': 0, 'in4E_total': 20}

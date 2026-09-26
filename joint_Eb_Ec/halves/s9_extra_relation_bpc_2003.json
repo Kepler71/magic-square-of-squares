@@ -1,0 +1,18 @@
+{
+ "p": 2003,
+ "type": "b+c",
+ "b": 12003838705852,
+ "c": 21509926567573470215710,
+ "n_emp_rel": 21,
+ "n_extra": 1,
+ "extra": [
+  [
+   "Eb_row-1:x-t:chi",
+   "Eb_row+0:x:chi",
+   "Ec_col-1:x-t:chi",
+   "Ebmc_anti:x:chi",
+   "=",
+   0
+  ]
+ ]
+}

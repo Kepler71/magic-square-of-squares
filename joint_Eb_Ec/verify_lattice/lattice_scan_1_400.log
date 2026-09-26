@@ -1,0 +1,35 @@
+N=113: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=155: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=157: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=203: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=259: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=269: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=277: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=282: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=293: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=337: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=355: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=367: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=373: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+N=389: gens не найдены (Unable to compute the rank, hence generators, with certainty (lower bound=0, generators found=()).  This could be because Sha(E/Q)[2] is nontrivial.
+Try increasing descent_second_limit then trying this command again.)
+кривых ранга>=1: 142  ранги: {1: 119, 2: 23}
+направлений: 303  MMAX = 10  CMAX = 2
+провалы примитивности (N, c, n, слабая, полная): []
+AP среди x(2mG): []
+случаев, где единственный слабо-примитивный простой = 2: 0 []
+из них нарушений v_2(x) <= -2: []
+время: 74.3 c

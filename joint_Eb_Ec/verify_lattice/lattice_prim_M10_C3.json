@@ -1,0 +1,72 @@
+{
+ "34": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 1.418459415435791
+ },
+ "41": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 2.089078187942505
+ },
+ "65": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 2.534661054611206
+ },
+ "137": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 4.448014736175537
+ },
+ "210": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 4.736794948577881
+ },
+ "219": {
+  "rank": 2,
+  "directions": 16,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 5.35167670249939
+ },
+ "1254": {
+  "rank": 3,
+  "directions": 145,
+  "prim_fail": [],
+  "weak_fail": [],
+  "ap_found": [],
+  "lift_fail": 0,
+  "lattice_fail": 0,
+  "time": 12.612277746200562
+ }
+}

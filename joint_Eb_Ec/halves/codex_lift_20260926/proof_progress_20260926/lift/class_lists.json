@@ -1,0 +1,50 @@
+{
+  "126/451": {
+    "minus_prime_support": [
+      5,
+      13
+    ],
+    "plus_prime_support": [
+      577
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1,
+      577
+    ]
+  },
+  "73/362": {
+    "minus_prime_support": [
+      17
+    ],
+    "plus_prime_support": [
+      3,
+      5,
+      29
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1,
+      145
+    ]
+  },
+  "265/298": {
+    "minus_prime_support": [
+      3,
+      11
+    ],
+    "plus_prime_support": [
+      563
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1
+    ]
+  }
+}

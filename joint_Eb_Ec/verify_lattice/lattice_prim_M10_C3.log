@@ -1,0 +1,7 @@
+N=34 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=1.4s
+N=41 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=2.1s
+N=65 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=2.5s
+N=137 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=4.4s
+N=210 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=4.7s
+N=219 rank=2 направлений=16 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=5.4s
+N=1254 rank=3 направлений=145 prim_fail=[] weak_fail=[] AP=[] lift_fail=0 lattice_fail=0 t=12.6s

@@ -1,0 +1,317 @@
+Checking lift class_lists.py
+{
+  "126/451": {
+    "minus_prime_support": [
+      5,
+      13
+    ],
+    "plus_prime_support": [
+      577
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1,
+      577
+    ]
+  },
+  "73/362": {
+    "minus_prime_support": [
+      17
+    ],
+    "plus_prime_support": [
+      3,
+      5,
+      29
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1,
+      145
+    ]
+  },
+  "265/298": {
+    "minus_prime_support": [
+      3,
+      11
+    ],
+    "plus_prime_support": [
+      563
+    ],
+    "T_classes": [
+      1
+    ],
+    "L_classes": [
+      1
+    ]
+  }
+}
+Checking lift check_lift_support.py
+{
+  "status": "finite exact controls of separately proved theorem",
+  "local_2_3": {
+    "2": {
+      "tested": 50208,
+      "passes": 100
+    },
+    "3": {
+      "tested": 70864,
+      "passes": 900
+    }
+  },
+  "support": {
+    "3": {
+      "tested": 1617,
+      "passes": 560,
+      "nontrivial_valuation": 0
+    },
+    "5": {
+      "tested": 3310,
+      "passes": 1200,
+      "nontrivial_valuation": 80
+    },
+    "7": {
+      "tested": 4991,
+      "passes": 1680,
+      "nontrivial_valuation": 0
+    },
+    "11": {
+      "tested": 8351,
+      "passes": 2856,
+      "nontrivial_valuation": 0
+    },
+    "13": {
+      "tested": 10032,
+      "passes": 3788,
+      "nontrivial_valuation": 144
+    },
+    "17": {
+      "tested": 13407,
+      "passes": 5068,
+      "nontrivial_valuation": 140
+    },
+    "37": {
+      "tested": 30214,
+      "passes": 11336,
+      "nontrivial_valuation": 0
+    }
+  }
+}
+Checking index index_checks.py
+{
+  "curve_N": 34,
+  "basis_G": [
+    "-16",
+    "120",
+    "1"
+  ],
+  "basis_H": [
+    "-2",
+    "48",
+    "1"
+  ],
+  "point_vectors_in_2basis": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      4
+    ]
+  ],
+  "reduced_index": 1,
+  "torsionfree_index": 4,
+  "denominators": [
+    "60",
+    "12",
+    "269575189777049463158740627036584612390900"
+  ],
+  "common_denominator": "12",
+  "x_valuations_2": [
+    -4,
+    -4,
+    -4
+  ],
+  "x_valuations_3": [
+    -2,
+    -2,
+    -2
+  ],
+  "is_AP": false
+}
+Checking index certify_local_relation_positive.py
+{
+  "real_root_interval": [
+    "93/100",
+    "47/50"
+  ],
+  "real_all_nine_positive": true,
+  "b": "24/625",
+  "factor_degrees": [
+    [
+      1,
+      1
+    ],
+    [
+      9,
+      2
+    ],
+    [
+      19,
+      1
+    ]
+  ],
+  "q_coefficients": [
+    "-289538316658527068811648661862828829681715532897206221835493761124376",
+    "-4198634521173790985117993876206896539162900961780807151473297201952475",
+    "-27955468729640043795264378648573484175192120576400306148249946100000000",
+    "-112545322357555044953585140406882595208816728979808759202924832664062500",
+    "-302546295728344235405979592702898502314128055207612211608474121093750000",
+    "-561415235847689075844978907443687981014782994464730453967522583007812500",
+    "-701964559331615153972127186568170540998568206392145545005798339843750000",
+    "-497076571269376534097208724240902759878556064609323313236236572265625000",
+    "54317581738872491624356802375020141676946609751135110855102539062500000",
+    "634672491793773269377327531808998366909224289260758087038993835449218750",
+    "886297362363771774362097838512304760900342516833916306495666503906250000",
+    "748688526757863854116410881069065762733481824398040771484375000000000000",
+    "444942942288626258453022468814984366815679095452651381492614746093750000",
+    "200869026890156806953708452988842862097840225032996386289596557617187500",
+    "77538112043857910349822507593198217534791183425113558769226074218750000",
+    "29750123102825899849702434962595010148334040422923862934112548828125000",
+    "11126090801923509867384846742932591467933889362029731273651123046875000",
+    "3274651572951191431518419496134175705748248219606466591358184814453125",
+    "603167306181946607997494333441856895206001354381442070007324218750000",
+    "50338315199355174722197717868121813467041647527366876602172851562500"
+  ],
+  "exact_gcds": {
+    "Phi_denominator": "1",
+    "x3_denominator": "1",
+    "x2_x3_difference": "1",
+    "cell_collision": "1"
+  },
+  "places": [
+    {
+      "p": 2,
+      "c0": 8,
+      "v_q": 4,
+      "v_derivative": 0,
+      "unique_root_modulus": 16,
+      "root_approx": "2^3 + 2^4 + 2^5 + 2^14 + 2^19 + 2^21 + 2^22 + 2^23 + 2^26 + 2^28 + 2^29 + 2^30 + 2^32 + 2^34 + 2^35 + 2^36 + 2^37 + 2^39 + 2^41 + 2^44 + 2^45 + 2^46 + 2^51 + 2^53 + 2^54 + 2^55 + 2^57 + 2^63 + 2^65 + 2^66 + 2^67 + 2^70 + 2^73 + 2^75 + 2^77 + 2^78 + 2^79 + 2^83 + 2^86 + 2^87 + 2^89 + 2^95 + 2^97 + 2^98 + 2^99 + 2^101 + O(2^103)",
+      "all_nine_locally_squares": true,
+      "relation_approximations": [
+        {
+          "coeffs": [
+            1,
+            -2,
+            -3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "-4"
+        },
+        {
+          "coeffs": [
+            1,
+            -2,
+            3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "-2"
+        },
+        {
+          "coeffs": [
+            1,
+            2,
+            -3
+          ],
+          "is_zero_to_precision": true,
+          "x_valuation": null
+        },
+        {
+          "coeffs": [
+            1,
+            2,
+            3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "-2"
+        }
+      ]
+    },
+    {
+      "p": 3,
+      "c0": 6,
+      "v_q": 3,
+      "v_derivative": 0,
+      "unique_root_modulus": 27,
+      "root_approx": "2*3 + 3^3 + 3^5 + 2*3^6 + 3^7 + 2*3^10 + 2*3^12 + 3^13 + 2*3^14 + 3^15 + 2*3^16 + 2*3^19 + 2*3^20 + 3^22 + 3^23 + 3^25 + 3^26 + 3^27 + 3^28 + 3^29 + 2*3^30 + 3^31 + 2*3^32 + 3^34 + 2*3^35 + 2*3^36 + 3^38 + 2*3^39 + 2*3^40 + 3^41 + 2*3^43 + 2*3^44 + 3^46 + 3^49 + 3^51 + 3^53 + 3^54 + 2*3^55 + 2*3^57 + 2*3^58 + 3^61 + 2*3^63 + 2*3^64 + 3^65 + 3^66 + 2*3^67 + 3^68 + 3^69 + 3^71 + 3^74 + 3^75 + 3^78 + 2*3^79 + 3^81 + 3^82 + 3^83 + 2*3^85 + 3^86 + 2*3^87 + 2*3^88 + 2*3^90 + 3^92 + 2*3^94 + 3^96 + 2*3^97 + 2*3^98 + 3^99 + O(3^101)",
+      "all_nine_locally_squares": true,
+      "relation_approximations": [
+        {
+          "coeffs": [
+            1,
+            -2,
+            -3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "0"
+        },
+        {
+          "coeffs": [
+            1,
+            -2,
+            3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "0"
+        },
+        {
+          "coeffs": [
+            1,
+            2,
+            -3
+          ],
+          "is_zero_to_precision": false,
+          "x_valuation": "-2"
+        },
+        {
+          "coeffs": [
+            1,
+            2,
+            3
+          ],
+          "is_zero_to_precision": true,
+          "x_valuation": null
+        }
+      ]
+    }
+  ]
+}
+Checking claude_review verify_independence_certificate.py
+Verified: prime 10007; 34 valid nonzero specialization points; rank 34 over F_2.
+Checking claude_review bounded_local_review.py
+5 {'three_AP_seed_count': 0, 'five_AP_seed_count': 0, 'type_b': (0, 0), 'type_c': (0, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+7 {'three_AP_seed_count': 0, 'five_AP_seed_count': 0, 'type_b': (0, 0), 'type_c': (0, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+11 {'three_AP_seed_count': 20, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+13 {'three_AP_seed_count': 24, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+17 {'three_AP_seed_count': 32, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+19 {'three_AP_seed_count': 72, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+23 {'three_AP_seed_count': 88, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+29 {'three_AP_seed_count': 168, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+31 {'three_AP_seed_count': 180, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+37 {'three_AP_seed_count': 288, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+41 {'three_AP_seed_count': 320, 'five_AP_seed_count': 80, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+43 {'three_AP_seed_count': 420, 'five_AP_seed_count': 84, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+73 {'three_AP_seed_count': 1152, 'five_AP_seed_count': 0, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (0, 0)}
+89 {'three_AP_seed_count': 1760, 'five_AP_seed_count': 352, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+97 {'three_AP_seed_count': 2112, 'five_AP_seed_count': 384, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+101 {'three_AP_seed_count': 2400, 'five_AP_seed_count': 800, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+113 {'three_AP_seed_count': 2912, 'five_AP_seed_count': 224, 'type_b': (30, 0), 'type_c': (30, 0), 'type_bc': (30, 0), 'type_bpc': (30, 0)}
+All listed controls passed. This does not assert global nonexistence.

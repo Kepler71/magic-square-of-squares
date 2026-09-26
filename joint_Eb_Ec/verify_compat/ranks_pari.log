@@ -1,0 +1,36 @@
+  ***   Warning: new stack size = 1000000000 (953.674 Mbytes).
+==== n = 34   core(n) = 34   N(E) = 18496  factor(N) = [2, 6; 17, 2]
+  torsion: [4, [2, 2]]
+  root number w = 1
+  ellrank(effort=2): r1 = 2  r2 = 2  s = 0
+  ellrank points: [[-16, 120], [-2, 48]]
+  det heightmatrix(ellrank pts) = 7.09967518240335471222269992268930159230274433928813077805633
+  ellanalyticrank: order = 2  L^(r)(1) = 12.7703039097254564931908038279481088276977532384718484357244
+==== n = 3400   core(n) = 34   N(E) = 18496  factor(N) = [2, 6; 17, 2]
+  torsion: [4, [2, 2]]
+  root number w = 1
+  ellrank(effort=2): r1 = 2  r2 = 2  s = 0
+  ellrank points: [[-1600, 120000], [-200, 48000]]
+  det heightmatrix(ellrank pts) = 7.09967518240335471222269992268930159230274433928813077805633
+  ellanalyticrank: order = 2  L^(r)(1) = 12.7703039097254564931908038279481088276977532384718484357244
+==== n = 3434   core(n) = 3434   N(E) = 188677696  factor(N) = [2, 6; 17, 2; 101, 2]
+  torsion: [4, [2, 2]]
+  root number w = 1
+  ellrank(effort=2): r1 = 2  r2 = 2  s = 0
+  ellrank points: [[166617/4, 67779459/8], [243049/64, 51166005/512]]
+  det heightmatrix(ellrank pts) = 79.2002336895669897101472860193326655148269233616916285678673
+  ellanalyticrank: order = 2  L^(r)(1) = 56.7007130552225261839588823688727862954743205516727038540523
+==== n = 3366   core(n) = 374   N(E) = 2238016  factor(N) = [2, 6; 11, 2; 17, 2]
+  torsion: [4, [2, 2]]
+  root number w = -1
+  ellrank(effort=2): r1 = 1  r2 = 1  s = 0
+  ellrank points: [[-3362, 9512]]
+  det heightmatrix(ellrank pts) = 7.42801045023857003612283504666146852932269558381878414406442
+  ellanalyticrank: order = 1  L^(r)(1) = 8.05691741753988076081651658387858823798167350368370101130681
+==== n = 374   core(n) = 374   N(E) = 2238016  factor(N) = [2, 6; 11, 2; 17, 2]
+  torsion: [4, [2, 2]]
+  root number w = -1
+  ellrank(effort=2): r1 = 1  r2 = 1  s = 0
+  ellrank points: [[-3362/9, 9512/27]]
+  det heightmatrix(ellrank pts) = 7.42801045023857003612283504666146852932269558381878414406442
+  ellanalyticrank: order = 1  L^(r)(1) = 8.05691741753988076081651658387858823798167350368370101130681

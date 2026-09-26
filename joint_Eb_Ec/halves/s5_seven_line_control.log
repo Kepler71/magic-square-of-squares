@@ -1,0 +1,23 @@
+5 rank 1 squares 12 {'tests': 80, 'nonvacuous': 51, 'R0_fail_nonvac': 4, 'R0_checks_nonvac': 102, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 12} 1s
+6 rank 1 squares 12 {'tests': 147, 'nonvacuous': 92, 'R0_fail_nonvac': 4, 'R0_checks_nonvac': 184, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 24} 1s
+7 rank 1 squares 12 {'tests': 255, 'nonvacuous': 153, 'R0_fail_nonvac': 4, 'R0_checks_nonvac': 306, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 36} 1s
+13 rank 1 squares 12 {'tests': 342, 'nonvacuous': 212, 'R0_fail_nonvac': 12, 'R0_checks_nonvac': 424, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 48} 1s
+14 rank 1 squares 12 {'tests': 406, 'nonvacuous': 247, 'R0_fail_nonvac': 20, 'R0_checks_nonvac': 494, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 60} 2s
+15 rank 1 squares 12 {'tests': 486, 'nonvacuous': 284, 'R0_fail_nonvac': 24, 'R0_checks_nonvac': 568, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 72} 2s
+21 rank 1 squares 12 {'tests': 563, 'nonvacuous': 316, 'R0_fail_nonvac': 32, 'R0_checks_nonvac': 632, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 84} 2s
+22 rank 1 squares 12 {'tests': 677, 'nonvacuous': 383, 'R0_fail_nonvac': 42, 'R0_checks_nonvac': 766, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 96} 2s
+23 rank 1 squares 3 {'tests': 695, 'nonvacuous': 399, 'R0_fail_nonvac': 42, 'R0_checks_nonvac': 798, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 99} 2s
+29 rank 1 squares 3 {'tests': 714, 'nonvacuous': 409, 'R0_fail_nonvac': 44, 'R0_checks_nonvac': 818, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 102} 2s
+30 rank 1 squares 12 {'tests': 768, 'nonvacuous': 428, 'R0_fail_nonvac': 48, 'R0_checks_nonvac': 856, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 114} 2s
+31 rank 1 squares 3 {'tests': 785, 'nonvacuous': 441, 'R0_fail_nonvac': 48, 'R0_checks_nonvac': 882, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 117} 2s
+34 rank 2 squares 660 {'tests': 5427, 'nonvacuous': 3380, 'R0_fail_nonvac': 1088, 'R0_checks_nonvac': 6760, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 777} 2s
+37 rank 1 squares 0 {'tests': 5427, 'nonvacuous': 3380, 'R0_fail_nonvac': 1088, 'R0_checks_nonvac': 6760, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 777} 2s
+38 rank 1 squares 3 {'tests': 5442, 'nonvacuous': 3389, 'R0_fail_nonvac': 1092, 'R0_checks_nonvac': 6778, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 780} 2s
+39 rank 1 squares 12 {'tests': 5547, 'nonvacuous': 3429, 'R0_fail_nonvac': 1092, 'R0_checks_nonvac': 6858, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 792} 3s
+41 rank 2 squares 660 {'tests': 11928, 'nonvacuous': 7410, 'R0_fail_nonvac': 1706, 'R0_checks_nonvac': 14820, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 1452} 3s
+46 rank 1 squares 12 {'tests': 12006, 'nonvacuous': 7449, 'R0_fail_nonvac': 1714, 'R0_checks_nonvac': 14898, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 1464} 3s
+47 rank 1 squares 0 {'tests': 12006, 'nonvacuous': 7449, 'R0_fail_nonvac': 1714, 'R0_checks_nonvac': 14898, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 1464} 3s
+65 rank 2 squares 660 {'tests': 17291, 'nonvacuous': 10849, 'R0_fail_nonvac': 3124, 'R0_checks_nonvac': 21698, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 2124} 3s
+210 rank 2 squares 660 {'tests': 20980, 'nonvacuous': 12761, 'R0_fail_nonvac': 4910, 'R0_checks_nonvac': 25522, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 2784} 3s
+Саллоус: {'b_int': -3360, 'c_int': 1056, 'lambda_int': 8349, 'tests': [{'q': 11, 'v_q(c)': 1, 'q|lambda': True, '|delta_q(E[2])|': 4, 'R0-': True, 'R0+': True, 'R+-': True}]}
+ИТОГ {'tests': 20980, 'nonvacuous': 12761, 'R0_fail_nonvac': 4910, 'R0_checks_nonvac': 25522, 'Rpm_fail': 0, 'R0_fail_when_q_divides_lambda': 0, 'squares': 2784}

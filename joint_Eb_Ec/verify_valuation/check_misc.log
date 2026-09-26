@@ -1,0 +1,14 @@
+(1) halving: True True
+(2) scaling: True
+(3) diffs of squares mod 4: [0, 1, 3] (2 не встречается)
+(4) {'N': 5, 'n': 6, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '6601887504'}
+(4) {'N': 5, 'n': 8, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '8936464529664'}
+(4) {'N': 6, 'n': 6, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '5476'}
+(4) {'N': 6, 'n': 8, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '78400'}
+(4) {'N': 7, 'n': 6, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '7870379613825600'}
+(4) {'N': 7, 'n': 8, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '71624424508187673600'}
+(4) {'N': 13, 'n': 6, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '484564725615072776049862448400'}
+(4) {'N': 13, 'n': 8, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '7340758289230222180276207528337764358400'}
+(4) {'N': 14, 'n': 6, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '3456028944'}
+(4) {'N': 14, 'n': 8, 'prim_short_model_gt1': True, 'prim_scaled_model_gt1': False, 'B_n_scaled': '134202030393600'}
+(5) APs among x(nG+T): 0

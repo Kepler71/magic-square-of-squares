@@ -1,0 +1,7 @@
+{
+  "prime": 10007,
+  "columns": 34,
+  "rank": 34,
+  "attempts": 37,
+  "column_order": "16 half coordinates x,x-t in grid.lines_of order; b,c,b+c,b-c,b+2c,b-2c,2b+c,2b-c; 9 roots lex; constant bit 1"
+}

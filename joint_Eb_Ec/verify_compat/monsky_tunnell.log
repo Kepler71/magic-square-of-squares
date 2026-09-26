@@ -1,0 +1,4 @@
+Monsky vs PARI ell2cover, squarefree n<=600 and 34,3434,374: mismatches = [] count 0 of 367
+34 {'label': 'b=34 (и c=3400=10^2*34)', 'n_mod_8': 2, 'monsky_s': 2, 'tunnell_A': 8, 'tunnell_B': 4, 'L1_zero': True}
+3434 {'label': 'b+c=3434', 'n_mod_8': 2, 'monsky_s': 2, 'tunnell_A': 144, 'tunnell_B': 72, 'L1_zero': True}
+374 {'label': 'c-b=3366=3^2*374', 'n_mod_8': 6, 'monsky_s': 1, 'tunnell_A': 0, 'tunnell_B': 0, 'L1_zero': True}

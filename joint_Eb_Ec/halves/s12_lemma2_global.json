@@ -1,0 +1,58 @@
+{
+ "ap": {},
+ "in4E_by_v2": {
+  "8": 7,
+  "4": 0,
+  "6": 8,
+  "5": 12,
+  "3": 0,
+  "7": 9,
+  "9": 3,
+  "10": 2,
+  "15": 0,
+  "11": 3,
+  "12": 0,
+  "13": 0
+ },
+ "total_by_v2": {
+  "8": 11,
+  "4": 20,
+  "6": 18,
+  "5": 37,
+  "3": 42,
+  "7": 18,
+  "9": 8,
+  "10": 4,
+  "15": 1,
+  "11": 4,
+  "12": 1,
+  "13": 1
+ },
+ "class_formula_ok": 165,
+ "class_formula_total": 165,
+ "lemma_violations": 0,
+ "seven_line_rows": {
+  "checked": 261,
+  "class_formula_ok": 261
+ },
+ "sallows_rows": [
+  {
+   "x": 3364,
+   "v2(b/x)": 3,
+   "formula_ok": true,
+   "P_in_4E": false
+  },
+  {
+   "x": 12769,
+   "v2(b/x)": 5,
+   "formula_ok": true,
+   "P_in_4E": false
+  },
+  {
+   "x": 5476,
+   "v2(b/x)": 3,
+   "formula_ok": true,
+   "P_in_4E": false
+  }
+ ]
+}

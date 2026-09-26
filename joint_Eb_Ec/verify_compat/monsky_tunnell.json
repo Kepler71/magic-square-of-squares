@@ -1,0 +1,26 @@
+{
+ "34": {
+  "label": "b=34 (\u0438 c=3400=10^2*34)",
+  "n_mod_8": 2,
+  "monsky_s": 2,
+  "tunnell_A": 8,
+  "tunnell_B": 4,
+  "L1_zero": true
+ },
+ "3434": {
+  "label": "b+c=3434",
+  "n_mod_8": 2,
+  "monsky_s": 2,
+  "tunnell_A": 144,
+  "tunnell_B": 72,
+  "L1_zero": true
+ },
+ "374": {
+  "label": "c-b=3366=3^2*374",
+  "n_mod_8": 6,
+  "monsky_s": 1,
+  "tunnell_A": 0,
+  "tunnell_B": 0,
+  "L1_zero": true
+ }
+}

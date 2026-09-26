@@ -1,0 +1,266 @@
+[
+ {
+  "p": 1009,
+  "type": "b",
+  "b": 213325136042243,
+  "c": 86208081765,
+  "empirical_points": 600,
+  "distinct_a_mod_p": 124,
+  "model": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 2,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 0
+  },
+  "empirical": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 2,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 0
+  },
+  "dim_union": 8
+ },
+ {
+  "p": 1009,
+  "type": "c",
+  "b": 258213970777,
+  "c": 68427299655179,
+  "empirical_points": 600,
+  "distinct_a_mod_p": 125,
+  "model": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 2,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 0
+  },
+  "empirical": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 2,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 0
+  },
+  "dim_union": 8
+ },
+ {
+  "p": 1009,
+  "type": "bc",
+  "b": 809726348311155616216,
+  "c": 850659422868818554971,
+  "empirical_points": 400,
+  "distinct_a_mod_p": 281,
+  "model": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 8,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 4
+  },
+  "empirical": {
+   "dim_total": 8,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 8,
+   "dim_Eb_Ec": 8,
+   "joint_relations_Eb_Ec": 4
+  },
+  "dim_union": 8
+ },
+ {
+  "p": 2003,
+  "type": "b+c",
+  "b": 3479043650085,
+  "c": 45712732104279086443794,
+  "empirical_points": 800,
+  "distinct_a_mod_p": 66,
+  "model": {
+   "dim_total": 12,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 9,
+   "joint_relations_Eb_Ec": 3
+  },
+  "empirical": {
+   "dim_total": 11,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 5,
+   "dim_Eb_Ec": 9,
+   "joint_relations_Eb_Ec": 3
+  },
+  "dim_union": 12
+ },
+ {
+  "p": 2003,
+  "type": "b-c",
+  "b": 12381038019302,
+  "c": 19826295597158056,
+  "empirical_points": 800,
+  "distinct_a_mod_p": 66,
+  "model": {
+   "dim_total": 12,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 4,
+   "dim_Eb_Ec": 9,
+   "joint_relations_Eb_Ec": 3
+  },
+  "empirical": {
+   "dim_total": 11,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 5,
+   "dim_Eb_Ec": 9,
+   "joint_relations_Eb_Ec": 3
+  },
+  "dim_union": 12
+ },
+ {
+  "p": 4001,
+  "type": "b+2c",
+  "b": 712397301947024266036,
+  "c": 52781812039010,
+  "empirical_points": 1000,
+  "distinct_a_mod_p": 42,
+  "model": {
+   "dim_total": 16,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 0,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "empirical": {
+   "dim_total": 16,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 0,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "dim_union": 16
+ },
+ {
+  "p": 4001,
+  "type": "2b-c",
+  "b": 10385876178969,
+  "c": 44888481750102382,
+  "empirical_points": 1000,
+  "distinct_a_mod_p": 44,
+  "model": {
+   "dim_total": 14,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 2,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "empirical": {
+   "dim_total": 14,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 2,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "dim_union": 14
+ },
+ {
+  "p": 50021,
+  "type": "generic",
+  "b": 2692332882800393543,
+  "c": 5757103560949287308,
+  "empirical_points": 1200,
+  "distinct_a_mod_p": 128,
+  "model": {
+   "dim_total": 16,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 0,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "empirical": {
+   "dim_total": 16,
+   "dim_per_curve": {
+    "b": 6,
+    "c": 6,
+    "b+c": 2,
+    "b-c": 2
+   },
+   "joint_relations_all_curves": 0,
+   "dim_Eb_Ec": 12,
+   "joint_relations_Eb_Ec": 0
+  },
+  "dim_union": 16
+ }
+]
