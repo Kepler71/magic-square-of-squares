@@ -1,0 +1,195 @@
+3/86 [-89, -86, -83] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -51, -26] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/76 [-107, -76, -45] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/76 [-107, -76, -31] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+17/43 [-60, -43, -26] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+45/76 [-121, -76, -45] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+45/76 [-121, -76, -31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:12    T=[-97, -66, -35]: случай A n=20/22
+3/86 [-89, -86, -3] {'ellrank': [1, 1], 'M0': 3, 'closed': True, 'skip': None}
+17/43 [-60, -43, -17] {'ellrank': [1, 1], 'M0': 7, 'closed': True, 'skip': None}
+17/43 [-60, -43, 17] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+17/43 [-60, -43, 26] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -51, -25] {'ellrank': [1, 1], 'M0': 17, 'closed': True, 'skip': None}
+31/66 [-97, -66, -35] {'ellrank': [1, 1], 'M0': 22, 'closed': True, 'skip': None}
+20:56:12    T=[-121, -76, 31]: случай A n=20/36
+31/76 [-107, -76, 31] {'ellrank': [1, 1], 'M0': 10, 'closed': True, 'skip': None}
+45/76 [-121, -76, 31] {'ellrank': [1, 1], 'M0': 36, 'closed': True, 'skip': None}
+45/76 [-121, -76, 45] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:12    T=[-77, -51, 25]: случай A n=20/30
+3/86 [-89, -86, 3] {'ellrank': [1, 1], 'M0': 9, 'closed': True, 'skip': None}
+17/43 [-60, -43, 43] {'ellrank': [1, 1], 'M0': 19, 'closed': True, 'skip': None}
+31/66 [-97, -66, -31] {'ellrank': [1, 1], 'M0': 8, 'closed': True, 'skip': None}
+31/66 [-97, -66, 31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/66 [-97, -66, 35] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/66 [-97, -66, 66] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/66 [-97, -66, 97] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/66 [-97, -35, -31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+31/66 [-97, -35, 31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -51, 25] {'ellrank': [1, 1], 'M0': 30, 'closed': True, 'skip': None}
+26/51 [-77, -51, 26] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -51, 51] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -51, 77] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/51 [-77, -26, -25] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:12    T=[-107, -76, 45]: случай A n=20/36
+45/76 [-121, -76, 76] {'ellrank': [1, 1], 'M0': 15, 'closed': True, 'skip': None}
+31/76 [-107, -76, 45] {'ellrank': [1, 1], 'M0': 36, 'closed': True, 'skip': None}
+20:56:13    T=[-89, -86, 83]: случай A n=20/38
+17/43 [-60, -43, 60] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+ИТОГ 17/43 closed = True закрывающих T: 3 ALERT: None
+20:56:13    T=[-77, -26, 25]: случай A n=20/20
+31/66 [-97, -35, 35] {'ellrank': [1, 1], 'M0': 16, 'closed': True, 'skip': None}
+ИТОГ 31/66 closed = True закрывающих T: 3 ALERT: None
+26/51 [-77, -26, 25] {'ellrank': [1, 1], 'M0': 20, 'closed': True, 'skip': None}
+ИТОГ 26/51 closed = True закрывающих T: 3 ALERT: None
+3/86 [-89, -86, 83] {'ellrank': [1, 1], 'M0': 38, 'closed': True, 'skip': None}
+ИТОГ 3/86 closed = True закрывающих T: 3 ALERT: None
+45/76 [-121, -76, 121] {'ellrank': [1, 1], 'M0': 10, 'closed': True, 'skip': None}
+ИТОГ 45/76 closed = True закрывающих T: 3 ALERT: None
+31/76 [-107, -76, 76] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+ИТОГ 31/76 closed = True закрывающих T: 3 ALERT: None
+42/89 [-131, -89, -47] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/91 [-102, -91, -80] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, -68] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, -23] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, 23] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, 68] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, 91] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -91, 159] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+16/89 [-105, -89, -73] {'ellrank': [1, 1], 'M0': 12, 'closed': True, 'skip': None}
+20:56:14    T=[-159, -68, -23]: случай A n=20/48
+11/91 [-102, -91, -11] {'ellrank': [1, 1], 'M0': 16, 'closed': True, 'skip': None}
+20:56:14    T=[-159, -68, -23]: случай A n=40/48
+42/89 [-131, -89, -42] {'ellrank': [1, 1], 'M0': 2, 'closed': True, 'skip': None}
+21/92 [-113, -92, -71] {'ellrank': [1, 1], 'M0': 19, 'closed': True, 'skip': None}
+26/93 [-119, -93, -67] {'ellrank': [1, 1], 'M0': 17, 'closed': True, 'skip': None}
+26/93 [-119, -93, -26] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -68, -23] {'ellrank': [1, 1], 'M0': 48, 'closed': True, 'skip': None}
+68/91 [-159, -68, 23] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -68, 68] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+16/89 [-105, -89, -16] {'ellrank': [1, 1], 'M0': 4, 'closed': True, 'skip': None}
+16/89 [-105, -89, 16] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+16/89 [-105, -89, 73] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/91 [-102, -91, 11] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+11/91 [-102, -91, 80] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/91 [-102, -91, 91] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/91 [-102, -91, 102] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -89, 42] {'ellrank': [1, 1], 'M0': 5, 'closed': True, 'skip': None}
+42/89 [-131, -89, 47] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -89, 89] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -89, 131] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -47, -42] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -47, 42] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+42/89 [-131, -47, 47] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+21/92 [-113, -92, -21] {'ellrank': [1, 1], 'M0': 6, 'closed': True, 'skip': None}
+21/92 [-113, -92, 21] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+21/92 [-113, -92, 71] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+26/93 [-119, -93, 26] {'ellrank': [1, 1], 'M0': 13, 'closed': True, 'skip': None}
+68/91 [-159, -68, 91] {'ellrank': [1, 1], 'M0': 15, 'closed': True, 'skip': None}
+68/91 [-159, -68, 159] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -23, 23] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -23, 68] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -23, 91] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, -23, 159] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 23, 68] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 23, 91] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 23, 159] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 68, 91] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 68, 159] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+68/91 [-159, 91, 159] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:15    T=[-102, -80, -11]: случай A n=20/29
+16/89 [-105, -89, 89] {'ellrank': [1, 1], 'M0': 17, 'closed': True, 'skip': None}
+ИТОГ 16/89 closed = True закрывающих T: 3 ALERT: None
+11/91 [-102, -80, -11] {'ellrank': [1, 1], 'M0': 29, 'closed': True, 'skip': None}
+ИТОГ 11/91 closed = True закрывающих T: 3 ALERT: None
+21/92 [-113, -92, 92] {'ellrank': [1, 1], 'M0': 15, 'closed': True, 'skip': None}
+ИТОГ 21/92 closed = True закрывающих T: 3 ALERT: None
+20:56:15    T=[-119, -93, 67]: случай A n=20/32
+68/91 [-91, -68, -23] {'ellrank': [1, 1], 'M0': 8, 'closed': True, 'skip': None}
+ИТОГ 68/91 closed = True закрывающих T: 3 ALERT: None
+26/93 [-119, -93, 67] {'ellrank': [1, 1], 'M0': 32, 'closed': True, 'skip': None}
+ИТОГ 26/93 closed = True закрывающих T: 3 ALERT: None
+42/89 [-131, -47, 89] {'ellrank': [1, 1], 'M0': 15, 'closed': True, 'skip': None}
+ИТОГ 42/89 closed = True закрывающих T: 3 ALERT: None
+82/93 [-175, -93, -82] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -93, -11] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/142 [-153, -142, -131] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+80/93 [-173, -93, -80] {'ellrank': [1, 1], 'M0': 7, 'closed': True, 'skip': None}
+80/93 [-173, -93, -13] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:16    T=[-175, -93, 11]: случай A n=20/30
+82/93 [-175, -93, 11] {'ellrank': [1, 1], 'M0': 30, 'closed': True, 'skip': None}
+82/93 [-175, -93, 82] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -93, 93] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+66/95 [-161, -95, -66] {'ellrank': [1, 1], 'M0': 19, 'closed': True, 'skip': None}
+66/95 [-161, -95, -29] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+66/95 [-161, -95, 29] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+71/98 [-169, -98, -71] {'ellrank': [1, 1], 'M0': 11, 'closed': True, 'skip': None}
+79/110 [-189, -110, -79] {'ellrank': [1, 1], 'M0': 12, 'closed': True, 'skip': None}
+79/110 [-189, -110, -31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+79/110 [-189, -110, 31] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/142 [-153, -142, -11] {'ellrank': [1, 1], 'M0': 10, 'closed': True, 'skip': None}
+20:56:16    T=[-173, -93, 13]: случай A n=20/30
+80/93 [-173, -93, 13] {'ellrank': [1, 1], 'M0': 30, 'closed': True, 'skip': None}
+80/93 [-173, -93, 80] {'ellrank': [0, 0], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -93, 175] {'ellrank': [1, 1], 'M0': 12, 'closed': True, 'skip': None}
+82/93 [-175, -82, -11] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -82, 11] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -82, 82] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -82, 93] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+82/93 [-175, -82, 175] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+66/95 [-161, -95, 66] {'ellrank': [1, 1], 'M0': 7, 'closed': True, 'skip': None}
+66/95 [-161, -95, 95] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+66/95 [-161, -95, 161] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+66/95 [-161, -66, -29] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:16    T=[-169, -98, -27]: случай A n=20/21
+71/98 [-169, -98, -27] {'ellrank': [1, 1], 'M0': 21, 'closed': True, 'skip': None}
+79/110 [-189, -110, 79] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+79/110 [-189, -110, 110] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+79/110 [-189, -110, 189] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+11/142 [-153, -142, 11] {'ellrank': [1, 1], 'M0': 13, 'closed': True, 'skip': None}
+11/142 [-153, -142, 131] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+80/93 [-173, -93, 93] {'ellrank': [1, 1], 'M0': 17, 'closed': True, 'skip': None}
+ИТОГ 80/93 closed = True закрывающих T: 3 ALERT: None
+82/93 [-175, -11, 11] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+ИТОГ 82/93 closed = True закрывающих T: 3 ALERT: None
+20:56:17    T=[-161, -66, 29]: случай A n=20/21
+66/95 [-161, -66, 29] {'ellrank': [1, 1], 'M0': 21, 'closed': True, 'skip': None}
+ИТОГ 66/95 closed = True закрывающих T: 3 ALERT: None
+20:56:17    T=[-169, -98, 27]: случай A n=20/35
+20:56:17    T=[-189, -79, -31]: случай A n=20/39
+71/98 [-169, -98, 27] {'ellrank': [1, 1], 'M0': 35, 'closed': True, 'skip': None}
+ИТОГ 71/98 closed = True закрывающих T: 3 ALERT: None
+11/142 [-153, -142, 142] {'ellrank': [1, 1], 'M0': 18, 'closed': True, 'skip': None}
+ИТОГ 11/142 closed = True закрывающих T: 3 ALERT: None
+79/110 [-189, -79, -31] {'ellrank': [1, 1], 'M0': 39, 'closed': True, 'skip': None}
+ИТОГ 79/110 closed = True закрывающих T: 3 ALERT: None
+48/163 [-211, -163, -115] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -168, -101] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+115/163 [-278, -163, -115] {'ellrank': [1, 1], 'M0': 5, 'closed': True, 'skip': None}
+115/163 [-278, -163, -48] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+115/163 [-278, -163, 48] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+48/163 [-211, -163, -48] {'ellrank': [1, 1], 'M0': 2, 'closed': True, 'skip': None}
+67/168 [-235, -168, -67] {'ellrank': [1, 1], 'M0': 14, 'closed': True, 'skip': None}
+115/163 [-278, -163, 115] {'ellrank': [1, 1], 'M0': 4, 'closed': True, 'skip': None}
+67/168 [-235, -168, 67] {'ellrank': [1, 1], 'M0': 8, 'closed': True, 'skip': None}
+67/168 [-235, -168, 101] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -168, 168] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+48/163 [-211, -163, 48] {'ellrank': [1, 1], 'M0': 3, 'closed': True, 'skip': None}
+67/168 [-235, -168, 235] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -101, -67] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+48/163 [-211, -163, 115] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -101, 67] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+48/163 [-211, -163, 163] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -101, 101] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -101, 168] {'ellrank': [3, 3], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+67/168 [-235, -101, 235] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+48/163 [-211, -163, 211] {'ellrank': None, 'M0': None, 'closed': None, 'skip': None}
+48/163 [-211, -115, -48] {'ellrank': [2, 2], 'M0': None, 'closed': None, 'skip': 'ранг не [1,1]'}
+20:56:18    T=[-278, -163, 163]: случай A n=20/21
+115/163 [-278, -163, 163] {'ellrank': [1, 1], 'M0': 21, 'closed': True, 'skip': None}
+ИТОГ 115/163 closed = True закрывающих T: 3 ALERT: None
+67/168 [-235, -67, 67] {'ellrank': [1, 1], 'M0': 16, 'closed': True, 'skip': None}
+ИТОГ 67/168 closed = True закрывающих T: 3 ALERT: None
+20:56:19    T=[-211, -115, 48]: случай A n=20/30
+48/163 [-211, -115, 48] {'ellrank': [1, 1], 'M0': 30, 'closed': True, 'skip': None}
+ИТОГ 48/163 closed = True закрывающих T: 3 ALERT: None

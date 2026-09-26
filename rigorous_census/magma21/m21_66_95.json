@@ -1,0 +1,144 @@
+{
+ "slope": "66/95",
+ "tried": [
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 19,
+   "B_rig": 28.101082192585253,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    -66
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    -29
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    29
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 7,
+   "B_rig": 28.628566082885555,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    66
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    95
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -161,
+    -95,
+    161
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -161,
+    -66,
+    -29
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 21,
+   "B_rig": 29.607540396981484,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -161,
+    -66,
+    29
+   ]
+  }
+ ],
+ "closed": true,
+ "n_closing": 3,
+ "sec": 1
+}

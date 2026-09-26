@@ -1,0 +1,127 @@
+{
+ "slope": "79/110",
+ "tried": [
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 12,
+   "B_rig": 29.07643481665342,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    -79
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    -31
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    31
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 14,
+   "B_rig": 29.61766940141114,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    79
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    110
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -189,
+    -110,
+    189
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 39,
+   "B_rig": 29.3233459758471,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -189,
+    -79,
+    -31
+   ]
+  }
+ ],
+ "closed": true,
+ "n_closing": 3,
+ "sec": 1
+}

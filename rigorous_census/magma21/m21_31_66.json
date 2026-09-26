@@ -1,0 +1,161 @@
+{
+ "slope": "31/66",
+ "tried": [
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 22,
+   "B_rig": 25.58903741708001,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    -35
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 8,
+   "B_rig": 24.812634533266817,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    -31
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    31
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    35
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    66
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -66,
+    97
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -35,
+    -31
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -97,
+    -35,
+    31
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 16,
+   "B_rig": 27.361310739229758,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -97,
+    -35,
+    35
+   ]
+  }
+ ],
+ "closed": true,
+ "n_closing": 3,
+ "sec": 1
+}

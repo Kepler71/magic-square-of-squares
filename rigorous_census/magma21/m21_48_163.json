@@ -1,0 +1,141 @@
+{
+ "slope": "48/163",
+ "tried": [
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -211,
+    -163,
+    -115
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 2,
+   "B_rig": 27.49298636657154,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -211,
+    -163,
+    -48
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 3,
+   "B_rig": 29.366474042840906,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -211,
+    -163,
+    48
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -211,
+    -163,
+    115
+   ]
+  },
+  {
+   "ellrank": [
+    3,
+    3
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -211,
+    -163,
+    163
+   ]
+  },
+  {
+   "ellrank": null,
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": null,
+   "error": "ellrank [1,1] без точки бесконечного порядка",
+   "T": [
+    -211,
+    -163,
+    211
+   ]
+  },
+  {
+   "ellrank": [
+    2,
+    2
+   ],
+   "M0": null,
+   "B_rig": null,
+   "nondegenerate": null,
+   "closed": null,
+   "skip": "ранг не [1,1]",
+   "error": null,
+   "T": [
+    -211,
+    -115,
+    -48
+   ]
+  },
+  {
+   "ellrank": [
+    1,
+    1
+   ],
+   "M0": 30,
+   "B_rig": 27.812423844454162,
+   "nondegenerate": [],
+   "closed": true,
+   "skip": null,
+   "error": null,
+   "T": [
+    -211,
+    -115,
+    48
+   ]
+  }
+ ],
+ "closed": true,
+ "n_closing": 3,
+ "sec": 1
+}
